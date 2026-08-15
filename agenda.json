@@ -477,9 +477,9 @@
    "volgende_cijfers": "2026-10-23",
    "volgende_soort": "Q3",
    "dagen_tot": 69,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
+   "status": "vers"
   },
   "MT.AS": {
    "laatste_cijfers": "2026-07-30",

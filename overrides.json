@@ -1,27 +1,56 @@
 {
  "_uitleg": "Drie vormen: divs = bedrag per aandeel per jaar; payout_beleid = percentage van verwachte winst per aandeel; g_na = groei na de expliciete jaren. Alleen invullen wat je in een bedrijfsbron hebt gelezen.",
-
- "KPN.AS": {"divs": {"2026": 0.20, "2027": 0.25}, "g_na": 0.05,
-   "bron": "ir.kpn.com/shareholder-center/dividends", "gecheckt": "2026-08-15",
-   "notitie": "Guidance geeft geen groei na 2027; 5% is een eigen aanname. Daarnaast 250m inkoop 2026, buiten dit model."},
-
- "INGA.AS": {"payout_beleid": 0.50, "g_na": 0.04,
-   "bron": "ing.com/investors/share-information/dividend-and-distribution-policy", "gecheckt": "2026-08-15",
-   "notitie": "50% van veerkrachtige nettowinst, deels als inkoop. Alleen het cashdeel telt hier."},
-
- "ABN.AS": {"payout_beleid": 0.50, "g_na": 0.04,
-   "bron": "abnamro.com/en/investor-relations/information/dividend-policy-and-payments", "gecheckt": "2026-08-15",
-   "notitie": "CMD nov 2025: uitkering tot 100% van nettowinst, minimaal 50% als cashdividend. Alleen dat minimum is hier gerekend."},
-
- "WKL.AS": {"divs": {"2026": 2.52}, "g_na": 0.08,
-   "bron": "wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy", "gecheckt": "2026-08-15",
-   "notitie": "Progressief beleid. 2,52 is het totaal over boekjaar 2025 (+8%); geen bedrag voor 2026 afgegeven."},
-
- "SHELL.AS": {"g_na": 0.04,
-   "bron": "shell.com/investors/dividends", "gecheckt": "2026-08-15",
-   "notitie": "Beleid van circa 4% jaarlijkse groei plus inkoop. Geen bedrag per aandeel afgegeven."},
-
- "AD.AS": {"payout_beleid": 0.50, "g_na": 0.05,
-   "bron": "aholddelhaize.com/investors - payout ratio circa 40-50%", "gecheckt": "2026-08-15",
-   "notitie": "Payout uit gerapporteerde ratio, niet uit een expliciet meerjarenbeleid."}
+ "KPN.AS": {
+  "divs": {
+   "2026": 0.2,
+   "2027": 0.25
+  },
+  "g_na": 0.05,
+  "bron": "ir.kpn.com/shareholder-center/dividends",
+  "gecheckt": "2026-08-15",
+  "notitie": "Guidance geeft geen groei na 2027; 5% is een eigen aanname. Daarnaast 250m inkoop 2026, buiten dit model."
+ },
+ "INGA.AS": {
+  "payout_beleid": 0.5,
+  "g_na": 0.04,
+  "bron": "ing.com/investors/share-information/dividend-and-distribution-policy",
+  "gecheckt": "2026-08-15",
+  "notitie": "50% van veerkrachtige nettowinst, deels als inkoop. Alleen het cashdeel telt hier."
+ },
+ "ABN.AS": {
+  "payout_beleid": 0.5,
+  "g_na": 0.04,
+  "bron": "abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
+  "gecheckt": "2026-08-15",
+  "notitie": "CMD nov 2025: uitkering tot 100% van nettowinst, minimaal 50% als cashdividend. Alleen dat minimum is hier gerekend."
+ },
+ "WKL.AS": {
+  "divs": {
+   "2026": 2.52
+  },
+  "g_na": 0.08,
+  "bron": "wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
+  "gecheckt": "2026-08-15",
+  "notitie": "Progressief beleid. 2,52 is het totaal over boekjaar 2025 (+8%); geen bedrag voor 2026 afgegeven."
+ },
+ "SHELL.AS": {
+  "g_na": 0.04,
+  "bron": "shell.com/investors/dividends",
+  "gecheckt": "2026-08-15",
+  "notitie": "Beleid van circa 4% jaarlijkse groei plus inkoop. Geen bedrag per aandeel afgegeven."
+ },
+ "AD.AS": {
+  "payout_beleid": 0.5,
+  "g_na": 0.05,
+  "bron": "aholddelhaize.com/investors - payout ratio circa 40-50%",
+  "gecheckt": "2026-08-15",
+  "notitie": "Payout uit gerapporteerde ratio, niet uit een expliciet meerjarenbeleid."
+ },
+ "LIGHT.AS": {
+  "payout_beleid": 0.45,
+  "g_na": 0.03,
+  "bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
+  "gecheckt": "2026-08-15",
+  "notitie": "Eigen beleid is 40-50% van de nettowinst uit voortgezette activiteiten. Keert nu circa 125% uit; het model rekent met het beleid, niet met de huidige uitkering."
+ }
 }

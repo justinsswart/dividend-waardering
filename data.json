@@ -11,7 +11,7 @@
   "mos_min": 0.1,
   "mos_max": 0.4
  },
- "bijgewerkt": "2026-08-15T08:09:06+00:00Z",
+ "bijgewerkt": "2026-08-15T08:20:51+00:00Z",
  "aandelen": [
   {
    "ticker": "NEDSE.AS",
@@ -213,102 +213,6 @@
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0692
-  },
-  {
-   "ticker": "LIGHT.AS",
-   "naam": "Signify N.V.",
-   "sector": "Industrials",
-   "koers": 15.6,
-   "valuta": "EUR",
-   "d0": 1.56,
-   "g3": 0.0247,
-   "g5": null,
-   "payout": 1.256,
-   "beta": 0.919,
-   "cuts_sinds_2010": 1,
-   "div_hist": {
-    "2017": 1.1,
-    "2018": 1.25,
-    "2019": 1.3,
-    "2021": 2.75,
-    "2022": 1.45,
-    "2023": 1.5,
-    "2024": 1.55,
-    "2025": 1.56,
-    "2026": 1.57
-   },
-   "mcap": 1863335552,
-   "opgehaald": "2026-08-15T07:54:22Z",
-   "r": 0.076,
-   "g1": 0.0247,
-   "fair": 29.231,
-   "pv_div": 12.013,
-   "pv_terminal": 17.218,
-   "koopprijs": 22.362,
-   "mos": 0.235,
-   "kwaliteit": 55,
-   "checks": {
-    "payout": -20,
-    "fcf_dekking": 2.61,
-    "netdebt_ebitda": 2.22,
-    "verlagingen": 1
-   },
-   "upside": 0.8738,
-   "korting_tov_koop": 0.4334,
-   "yield_nu": 0.1,
-   "yoc_koop": 0.0698,
-   "d0_norm": 1.56,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": false,
-   "pad": [
-    [
-     2026,
-     1.5985
-    ],
-    [
-     2027,
-     1.638
-    ],
-    [
-     2028,
-     1.6785
-    ],
-    [
-     2029,
-     1.7199
-    ],
-    [
-     2030,
-     1.7624
-    ],
-    [
-     2031,
-     1.8043
-    ],
-    [
-     2032,
-     1.8455
-    ],
-    [
-     2033,
-     1.8858
-    ],
-    [
-     2034,
-     1.9253
-    ],
-    [
-     2035,
-     1.9638
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": null,
-   "guidance_notitie": null,
-   "inkoop_rend": 0.0313,
-   "netto_inkoop": 58333333,
-   "g1_kaal": 0.0247
   },
   {
    "ticker": "KENDR.AS",
@@ -1751,6 +1655,102 @@
    "inkoop_rend": -0.0001,
    "netto_inkoop": -42000,
    "g1_kaal": 0.0539
+  },
+  {
+   "ticker": "LIGHT.AS",
+   "naam": "Signify N.V.",
+   "sector": "Industrials",
+   "koers": 15.6,
+   "valuta": "EUR",
+   "d0": 1.56,
+   "g3": 0.0247,
+   "g5": null,
+   "payout": 1.256,
+   "beta": 0.919,
+   "cuts_sinds_2010": 1,
+   "div_hist": {
+    "2017": 1.1,
+    "2018": 1.25,
+    "2019": 1.3,
+    "2021": 2.75,
+    "2022": 1.45,
+    "2023": 1.5,
+    "2024": 1.55,
+    "2025": 1.56,
+    "2026": 1.57
+   },
+   "mcap": 1863335552,
+   "opgehaald": "2026-08-15T07:54:22Z",
+   "r": 0.076,
+   "g1": 0.0633,
+   "fair": 17.873,
+   "pv_div": 6.961,
+   "pv_terminal": 10.912,
+   "koopprijs": 13.672,
+   "mos": 0.235,
+   "kwaliteit": 55,
+   "checks": {
+    "payout": -20,
+    "fcf_dekking": 2.61,
+    "netdebt_ebitda": 2.22,
+    "verlagingen": 1
+   },
+   "upside": 0.1457,
+   "korting_tov_koop": -0.1236,
+   "yield_nu": 0.1,
+   "yoc_koop": 0.1141,
+   "d0_norm": 1.56,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     0.811
+    ],
+    [
+     2027,
+     0.8623
+    ],
+    [
+     2028,
+     0.9169
+    ],
+    [
+     2029,
+     0.9749
+    ],
+    [
+     2030,
+     1.0366
+    ],
+    [
+     2031,
+     1.0932
+    ],
+    [
+     2032,
+     1.1435
+    ],
+    [
+     2033,
+     1.1861
+    ],
+    [
+     2034,
+     1.2201
+    ],
+    [
+     2035,
+     1.2445
+    ]
+   ],
+   "guidance_type": "payout",
+   "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
+   "guidance_notitie": "Eigen beleid is 40-50% van de nettowinst uit voortgezette activiteiten. Keert nu circa 125% uit; het model rekent met het beleid, niet met de huidige uitkering.",
+   "inkoop_rend": 0.0313,
+   "netto_inkoop": 58333333,
+   "g1_kaal": 0.03
   },
   {
    "ticker": "SHELL.AS",
