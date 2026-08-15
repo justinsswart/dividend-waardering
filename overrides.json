@@ -1,0 +1,4 @@
+{
+ "_uitleg": "Handmatige guidance uit persberichten/CMD. divs = expliciete DPS per jaar. g_na = groei na laatste expliciete jaar.",
+ "KPN.AS": {"divs": {"2026": 0.189, "2027": 0.20}, "g_na": 0.05, "bron": "KPN CMD guidance"}
+}

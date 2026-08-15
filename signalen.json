@@ -1,0 +1,166 @@
+{
+ "gescand": "2026-08-14T20:52:32+00:00",
+ "signalen": {
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
+   "score": 11,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "ABN AMRO Bank N.V. kondigt interim-dividend aan voor het boekjaar 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdGNNM1lLVVljaGFwSXI3dWo2OUJtbWdFQ3Z4WndvSXdPRzdVWVFIOU92UFU3Q1FjQzNaU094eWdCOU5Ebnd3SUlSQXpVQWkyb19DcnZkWGdsQU5TSEpYUDRwUHoxTGJ1VFBsWnJMUUZONWNuY19uNkdvMGVTR2NWcG9IYjlKYVF5REFCcGJiQVFIVW9IRHJRZlZEbFJYLTJacUdNdUFQZDZETGFkeTI3b250eU1VYzlxU1l0eTlvR2hiWlljRVIw?oc=5",
+     "datum": "Wed, 12 Aug 2026 05:00:00 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
+    {
+     "titel": "Hogere inkomsten en lagere kosten stuwen kwartaalwinst ABN Amro. Wat betekent dit voor het dividend? - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTEJxczlvc0FyNXlxWWFCREc1dmQyQmh5YzhtNGk5ZF80OEhxZUxlTlJGc21neDBOYUhzcXFrN092bmhGZnFMaXByYWlHcV85QTNCNmd2ZDMzYnF1cHhjSXFNcy1NSjZpOVhQQ01fSjFySXFuSVJwVjZvN3dxV3lyS2VYVjhSNmxXMlFvcllXbmpLS3NFdEJyTEFCQkdOdGxPX2dIQ2I5eFZ2WDlEcmxxZHJxSktmSkJsQVhUeTh0Y2FOOEhCS3dMVklPQmU4SzkxS1lINTQ1YW16YVNDaTFUWHZ6Wm16NG1FMV9PWWVR?oc=5",
+     "datum": "Wed, 12 Aug 2026 08:12:39 GMT",
+     "bron": "De Belegger",
+     "gewicht": 3
+    },
+    {
+     "titel": "Aandelen ABN AMRO stijgen na verhoging outlook commerciële rentebaten voor 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeHpMVHJCTnY1RVR6eHhSdnFCUm1CeDNxMXRTWGs2Nm8xR0JGSTN5cFFNMHUxTGM4bGtzQlNaMFkyOXc5MmJTM3k4VG9XVVJuUFNHeE93RUV1MXEzN3pNNzBnZHpTd0U1cUFNVlM3bHdYRF9qam5FQndfekJ4dlVkYTh6eFhmcTFzemg0YWJCOXBnQ0RydEtFMDJjaU9mYlo2M25fUzA4LUpGaThJLXJUVWNKRjNOcGxIZ29RZ0hpNkNPLU9GbUYySFhwRXVfVThwNnR3QQ?oc=5",
+     "datum": "Wed, 12 Aug 2026 08:51:28 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ADYEN.AS": {
+   "naam": "Adyen N.V.",
+   "score": 7,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Adyen verhoogt omzetverwachting - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRW8yeDItc1JaRDlUM3NpaU5oR01IX3RCVzVGTmQwWGJHOFNmbHUxUVdmMTIzSG5Lb2ZIVkJpVjNMVF80N3pfYnJ5VFNjWEc5eGhtRVFvVXk2U3NQLUdnS0FfLThYb3VJYTZxQ3RrS2tpSE5tR1c0NWN1eHhtUWdmMDhCM2Y?oc=5",
+     "datum": "Thu, 13 Aug 2026 06:10:39 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 4
+    },
+    {
+     "titel": "Adyen-aandelen stijgen 12% na sterke omzetgroei en hogere outlook - Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcnNGR2xzWmFKa0ZqeGQxU0laejNxbENtWDYyTnZRaFRjTVVUOG1wU2pTa19hSml1YVY3WFlyNlEzN0dhUWtXU2tVVWJucThfTUxPV1JxLWlIaWhKYmxmNGJLbVZiSzdYUXNTQ2Y1V2Z5eG9JNXZtLW1aUDNUVVQwZEZxeV9fRGlUb25FaDVRQnJEaVV6eDBkbVRIYTJTeGpCYUM4dzlkQ2QtU3VwUHJ4a2JWNHdfVUxJQk9ka0JGUQ?oc=5",
+     "datum": "Thu, 13 Aug 2026 12:33:20 GMT",
+     "bron": "Investing.com",
+     "gewicht": 3
+    }
+   ]
+  },
+  "HYDRA.AS": {
+   "naam": "Hydratec Industries NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Drie dividendtoppers met één gemene deler - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZnFpLXN2Z0haaUNLM0JubUFoMVVmYXFQUEpKZjd6dk9fdVZhS0ctaEJOUzNQcklPRjVEWE40aHpsTDdVbENVeHU5b3V6elNUdUszVTE2SGxWQUJjVHo4TzJ1dDZfbk0xcVJ0RWZ2RGl6UW5sd2pnM1NULVVhNlVCekEwVW84TldSNkRMVUhxbndtRUU?oc=5",
+     "datum": "Tue, 11 Aug 2026 06:28:54 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Hims & Hers verhoogt outlook - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOblEwLVZtTkhtSEtVVXBJdVNZenppVjVmd3ZscXFsVW1DaGFrRkdiQkZVdGE4LU5lNmZka29CcGtCZkdDN1NKZ0lRelo1TkZiRDFtX2NtX3BPSmZMeTJNLUlTR081VjB0NzJqR29PbGpDNHByR0JxaEM2Qm8yaUFsMVdn?oc=5",
+     "datum": "Mon, 10 Aug 2026 20:54:12 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
+    }
+   ]
+  },
+  "NN.AS": {
+   "naam": "NN Group N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
+     "datum": "Mon, 10 Aug 2026 15:35:33 GMT",
+     "bron": "Beleggers Belangen",
+     "gewicht": 3
+    }
+   ]
+  },
+  "OCI.AS": {
+   "naam": "OCI N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Hims & Hers verhoogt outlook - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOblEwLVZtTkhtSEtVVXBJdVNZenppVjVmd3ZscXFsVW1DaGFrRkdiQkZVdGE4LU5lNmZka29CcGtCZkdDN1NKZ0lRelo1TkZiRDFtX2NtX3BPSmZMeTJNLUlTR081VjB0NzJqR29PbGpDNHByR0JxaEM2Qm8yaUFsMVdn?oc=5",
+     "datum": "Mon, 10 Aug 2026 20:54:12 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
+    }
+   ]
+  },
+  "PHIA.AS": {
+   "naam": "Koninklijke Philips N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Dividendrendement van 3,79% trekt beleggers aan en ondersteunt Philips-aandeel rond de steun op €23,38 - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDREQ05xczJLUjBuY2dTX1ozRlNSMXJkY0dvcWl2Vi1VckI2bE12RGhCNm9qemp6bHZ3TzV4Y2ZucXV3a3hMOUtjYVR6S3FNWjR2MEMtT3g4b3VVNXBZSXBnMmVNWVJ4R3pmWDVHd2EteU01eTJUM2hDLWdjVVF3RUNodGlQZjRVNW0wOEV0QUZZVktDcktB?oc=5",
+     "datum": "Wed, 12 Aug 2026 08:52:39 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PNL.AS": {
+   "naam": "PostNL N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Hims & Hers verhoogt outlook - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOblEwLVZtTkhtSEtVVXBJdVNZenppVjVmd3ZscXFsVW1DaGFrRkdiQkZVdGE4LU5lNmZka29CcGtCZkdDN1NKZ0lRelo1TkZiRDFtX2NtX3BPSmZMeTJNLUlTR081VjB0NzJqR29PbGpDNHByR0JxaEM2Qm8yaUFsMVdn?oc=5",
+     "datum": "Mon, 10 Aug 2026 20:54:12 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
+    }
+   ]
+  },
+  "TWEKA.AS": {
+   "naam": "TKH Group N.V.",
+   "score": 4,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "TKH Group verrast met sterke halfjaarcijfers - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVERwYVBEbkZZV3ZCLThRcGZqLTk4VDRXc0g2SWh5WThxYWlPdFQwc0VrdHJnWWlvMExkUW52MzRQTHAwbEpIU1l2cjNCOXpFYTNDYVVldTIxTWhYWEFqMDZHaldRenRDVlZDYUhnVFhSZF9mbkJMZWt6WFV4XzBYeUE4bjQtVFVCcFJhNA?oc=5",
+     "datum": "Tue, 11 Aug 2026 07:35:59 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 4
+    }
+   ]
+  },
+  "WKL.AS": {
+   "naam": "Wolters Kluwer N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
+     "datum": "Mon, 10 Aug 2026 15:35:33 GMT",
+     "bron": "Beleggers Belangen",
+     "gewicht": 3
+    }
+   ]
+  }
+ }
+}

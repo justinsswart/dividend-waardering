@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contante Waarde — Nederlandse dividendaandelen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --inkt:#16211C; --inkt-2:#243330; --papier:#E9EDE7; --papier-2:#DDE3DA;
+  --gulden:#2F6B4F; --gulden-licht:#4E9070; --roest:#9E3B2E; --koper:#B08A3E;
+  --grijs:#6E7973; --lijn:#C4CDC0;
+  --display:'Bodoni Moda',Georgia,serif; --body:'Public Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--inkt);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px 80px}
+
+/* kop */
+header{border-bottom:2px solid var(--inkt);padding:36px 0 22px;margin-bottom:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grijs)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(38px,6vw,68px);line-height:.98;margin:10px 0 14px;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--gulden)}
+.lede{max-width:60ch;color:var(--inkt-2);font-size:16px}
+.meta{font-family:var(--mono);font-size:11.5px;color:var(--grijs);margin-top:16px;display:flex;gap:22px;flex-wrap:wrap}
+
+/* aannames */
+.aannames{border-bottom:1px solid var(--lijn);padding:20px 0;position:sticky;top:0;background:var(--papier);z-index:20}
+.aannames-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;align-items:end}
+.ctrl label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--grijs);margin-bottom:5px}
+.ctrl .val{font-family:var(--mono);font-size:19px;font-weight:600;color:var(--inkt)}
+input[type=range]{width:100%;accent-color:var(--gulden);margin-top:4px}
+.reset{font-family:var(--mono);font-size:11px;background:none;border:1px solid var(--lijn);padding:7px 12px;cursor:pointer;color:var(--grijs);border-radius:2px}
+.reset:hover{border-color:var(--gulden);color:var(--gulden)}
+
+/* filters */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:16px 0;border-bottom:1px solid var(--lijn)}
+.chip{font-family:var(--mono);font-size:11px;padding:6px 11px;border:1px solid var(--lijn);background:none;cursor:pointer;color:var(--inkt-2);border-radius:2px;letter-spacing:.04em}
+.chip[aria-pressed=true]{background:var(--inkt);color:var(--papier);border-color:var(--inkt)}
+.chip:focus-visible,input:focus-visible,button:focus-visible,tr:focus-visible{outline:2px solid var(--gulden);outline-offset:2px}
+#zoek{font-family:var(--mono);font-size:12px;padding:7px 10px;border:1px solid var(--lijn);background:#fff;flex:1;min-width:150px;border-radius:2px}
+
+/* tabel */
+table{width:100%;border-collapse:collapse;margin-top:4px}
+thead th{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--grijs);
+  text-align:right;padding:14px 8px 10px;border-bottom:1px solid var(--inkt);cursor:pointer;white-space:nowrap;position:sticky;top:104px;background:var(--papier)}
+thead th:first-child,thead th:nth-child(2){text-align:left}
+thead th:hover{color:var(--gulden)}
+thead th.sorted::after{content:" ▾";color:var(--gulden)}
+tbody tr{border-bottom:1px solid var(--lijn);cursor:pointer}
+tbody tr:hover{background:var(--papier-2)}
+td{padding:11px 8px;text-align:right;font-family:var(--mono);font-size:13px;white-space:nowrap}
+td.naam{text-align:left;font-family:var(--body);font-size:14px;font-weight:500;white-space:normal;min-width:170px}
+td.naam small{display:block;font-family:var(--mono);font-size:10px;color:var(--grijs);font-weight:400;letter-spacing:.05em}
+td.tk{text-align:left;font-size:12px;color:var(--grijs)}
+.pos{color:var(--gulden);font-weight:600}
+.neg{color:var(--roest)}
+.vlag{display:inline-block;width:6px;height:6px;background:var(--koper);border-radius:50%;margin-left:5px;vertical-align:middle}
+.kw{display:inline-block;min-width:34px;padding:2px 6px;border-radius:2px;font-size:11px;font-weight:600}
+.kw.a{background:#D3E3D6;color:#1F4E33}.kw.b{background:#E4E2CE;color:#6B5A16}.kw.c{background:#EDD8D3;color:#7A2E22}
+
+/* detail */
+.detail{background:var(--inkt);color:var(--papier);padding:0}
+.detail td{padding:0}
+.d-in{padding:26px 20px 30px;display:grid;grid-template-columns:1fr 1fr;gap:34px}
+@media(max-width:820px){.d-in{grid-template-columns:1fr}}
+.d-in h3{font-family:var(--display);font-size:26px;font-weight:400;margin:0 0 4px}
+.d-sub{font-family:var(--mono);font-size:11px;color:#8FA398;letter-spacing:.08em;margin-bottom:20px}
+
+/* signature: kasstroomladder */
+.ladder{display:flex;flex-direction:column;gap:3px;margin-top:6px}
+.rung{display:grid;grid-template-columns:42px 1fr 62px;align-items:center;gap:9px}
+.rung .jr{font-family:var(--mono);font-size:10px;color:#8FA398}
+.bar{position:relative;height:15px;background:rgba(233,237,231,.09)}
+.bar .nom{position:absolute;inset:0 auto 0 0;background:rgba(78,144,112,.34)}
+.bar .cw{position:absolute;inset:0 auto 0 0;background:var(--gulden-licht)}
+.rung .bd{font-family:var(--mono);font-size:10.5px;color:#C6D2C9;text-align:right}
+.rung.term .bar .cw{background:var(--koper)}
+.rung.term .jr{color:var(--koper)}
+.ladder-legend{font-family:var(--mono);font-size:10px;color:#8FA398;margin-top:12px;display:flex;gap:16px}
+.sw{display:inline-block;width:9px;height:9px;margin-right:5px;vertical-align:-1px}
+
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-family:var(--mono);font-size:12px;margin-top:14px}
+.kv dt{color:#8FA398}.kv dd{margin:0;text-align:right}
+.uitkomst{border:1px solid #3B4F47;padding:16px;margin-top:20px}
+.uitkomst .rij{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0}
+.uitkomst .rij:not(:last-child){border-bottom:1px solid #2C3B35}
+.uitkomst .lbl{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:#8FA398}
+.uitkomst .n{font-family:var(--mono);font-size:20px;font-weight:600}
+.oordeel{margin-top:14px;padding:11px 13px;font-size:13px;line-height:1.45}
+.oordeel.koop{background:rgba(78,144,112,.17);border-left:3px solid var(--gulden-licht)}
+.oordeel.wacht{background:rgba(176,138,62,.15);border-left:3px solid var(--koper)}
+.oordeel.duur{background:rgba(158,59,46,.18);border-left:3px solid var(--roest)}
+.let-op{font-size:12px;color:#C6A96B;margin-top:10px;font-family:var(--mono)}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--lijn);font-size:12.5px;color:var(--grijs);max-width:70ch}
+footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);padding:1px 5px}
+@media(prefers-reduced-motion:no-preference){.bar .cw,.bar .nom{transition:width .35s ease}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Euronext Amsterdam · AEX · AMX · AScX</div>
+  <h1>Wat is een aandeel waard<br>als je <em>alleen</em> het dividend telt?</h1>
+  <p class="lede">Elk aandeel hieronder is gewaardeerd op de dividenden die het de komende jaren naar verwachting uitkeert, contant gemaakt naar vandaag. Geen koersverwachting, geen multiples — alleen kasstroom naar de aandeelhouder.</p>
+  <div class="meta"><span id="m-tijd"></span><span id="m-aantal"></span><span>Bron koersen &amp; dividendhistorie: Yahoo Finance</span></div>
+</header>
+
+<section class="aannames">
+  <div class="aannames-grid">
+    <div class="ctrl"><label for="s-r">Vereist rendement</label><div class="val" id="v-r"></div><input type="range" id="s-r" min="4" max="15" step="0.5"></div>
+    <div class="ctrl"><label for="s-g">Eeuwige groei</label><div class="val" id="v-g"></div><input type="range" id="s-g" min="0" max="4" step="0.25"></div>
+    <div class="ctrl"><label for="s-m">Veiligheidsmarge</label><div class="val" id="v-m"></div><input type="range" id="s-m" min="0" max="50" step="5"></div>
+    <div class="ctrl"><label for="s-h">Horizon</label><div class="val" id="v-h"></div><input type="range" id="s-h" min="5" max="25" step="1"></div>
+    <div class="ctrl"><button class="reset" id="reset">Terug naar model</button></div>
+  </div>
+</section>
+
+<div class="filters">
+  <input id="zoek" placeholder="zoek op naam of ticker" autocomplete="off">
+  <button class="chip" data-f="koop" aria-pressed="false">Onder koopprijs</button>
+  <button class="chip" data-f="kwaliteit" aria-pressed="false">Kwaliteit ≥ 60</button>
+  <button class="chip" data-f="stabiel" aria-pressed="false">Nooit verlaagd</button>
+  <button class="chip" data-f="vlag" aria-pressed="false">Verberg twijfelgevallen</button>
+</div>
+
+<table>
+  <thead><tr>
+    <th data-s="naam">Bedrijf</th><th data-s="sector">Sector</th>
+    <th data-s="koers">Koers</th><th data-s="yield_nu">Rendement</th>
+    <th data-s="d0_norm">Dividend</th><th data-s="g1">Groei</th>
+    <th data-s="fair">Contante waarde</th><th data-s="koopprijs">Koopprijs</th>
+    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th>
+  </tr></thead>
+  <tbody id="rijen"></tbody>
+</table>
+
+<footer>
+  <p><strong>Hoe het rekent.</strong> Bekende dividenden uit bedrijfsguidance krijgen voorrang; daarna groeit het dividend met het historische tempo, dat over de horizon afvlakt naar de eeuwige groei. De eindwaarde volgt uit Gordon. De veiligheidsmarge schaalt automatisch mee met de kwaliteitsscore — payout ratio, dekking uit vrije kasstroom, schuldpositie en het aantal dividendverlagingen sinds 2010.</p>
+  <p>Bedrijven zonder uitkering in de laatste twee jaar en verlieslatende bedrijven zonder vrije kasstroom vallen buiten het model: op dividend valt daar niets te waarderen. Een <span class="vlag" style="position:relative;top:-1px"></span> markeert een uitkomst die meer dan viermaal of minder dan een zesde van de koers is — bijna altijd een eenmalige uitkering die de historie vertekent. Controleer die met de hand.</p>
+  <p>Dit is een rekenmodel, geen advies. De uitkomst is zo goed als de aanname over het dividendpad; zet echte guidance in <code>overrides.json</code> voor de bedrijven die je volgt.</p>
+</footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/;
+const A = DATA.aandelen, P = DATA.params;
+const fmt=(n,d=2)=>n==null?'—':n.toLocaleString('nl-NL',{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct=(n,d=1)=>n==null?'—':(n*100).toLocaleString('nl-NL',{minimumFractionDigits:d,maximumFractionDigits:d})+'%';
+const CUR=new Date().getFullYear();
+
+let O={r:null,g:null,m:null,h:P.n2}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', open=null;
+
+/* herwaardeer met de actuele schuifstanden */
+function waardeer(a){
+  const r = O.r ?? a.r, gt = O.g ?? P.g_term, h = O.h;
+  let g1 = Math.min(a.g1, r-0.005);
+  if (r <= gt+0.005) return {...a, fair:null, koopprijs:null, ongeldig:true};
+  const expl = a.pad.filter(p=>a.handmatig && p[0]<=CUR+2 && p[1]!==null);
+  const n1 = Math.max(3, Math.round(h*0.5));
+  let pv=0, d=a.d0_norm, t=0, rungen=[];
+  const handm = a.handmatig ? a.pad.slice(0,2) : [];
+  for(const [jr,dv] of handm){ t++; d=dv; const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([jr,d,cw,true]); }
+  while(t<n1){ t++; d*=(1+g1); const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([CUR+t-1,d,cw,false]); }
+  const fade=Math.max(1,h-n1);
+  for(let i=1;i<=fade;i++){ t++; const g=g1+(gt-g1)*(i/fade); d*=(1+g);
+    const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([CUR+t-1,d,cw,false]); }
+  const tv=d*(1+gt)/(r-gt), pvtv=tv/Math.pow(1+r,t), fair=pv+pvtv;
+  const mos = O.m ?? a.mos;
+  const koop = fair*(1-mos);
+  return {...a, r, g1, fair, pv_div:pv, pv_terminal:pvtv, tv, koopprijs:koop, mos,
+    upside:(fair-a.koers)/a.koers, korting_tov_koop:(koop-a.koers)/a.koers,
+    yoc_koop:a.d0_norm/koop, rungen, horizon:t};
+}
+
+function zichtbaar(){
+  let rs = A.map(waardeer).filter(a=>!a.ongeldig);
+  if(q){const s=q.toLowerCase(); rs=rs.filter(a=>(a.naam+' '+a.ticker).toLowerCase().includes(s));}
+  if(filters.has('koop')) rs=rs.filter(a=>a.korting_tov_koop>0);
+  if(filters.has('kwaliteit')) rs=rs.filter(a=>a.kwaliteit>=60);
+  if(filters.has('stabiel')) rs=rs.filter(a=>a.cuts_sinds_2010===0);
+  if(filters.has('vlag')) rs=rs.filter(a=>!a.vlag);
+  rs.sort((x,y)=>{const a=x[sortKey],b=y[sortKey];
+    if(typeof a==='string') return sortDir*a.localeCompare(b,'nl');
+    return sortDir*(((a??-9e9))-((b??-9e9)));});
+  return rs;
+}
+
+function kwKlas(k){return k>=65?'a':k>=45?'b':'c';}
+
+function ladder(a){
+  const max=Math.max(...a.rungen.map(r=>r[1]), a.tv/12);
+  const rows=a.rungen.slice(0,12).map(([jr,nom,cw,vast])=>`
+    <div class="rung"><span class="jr">${jr}${vast?'*':''}</span>
+      <span class="bar"><span class="nom" style="width:${(nom/max*100).toFixed(1)}%"></span>
+      <span class="cw" style="width:${(cw/max*100).toFixed(1)}%"></span></span>
+      <span class="bd">${fmt(cw,3)}</span></div>`).join('');
+  const tvw=Math.min(100,(a.pv_terminal/(max*3))*100);
+  return rows+`<div class="rung term"><span class="jr">na ${CUR+a.horizon-1}</span>
+    <span class="bar"><span class="cw" style="width:${tvw.toFixed(1)}%"></span></span>
+    <span class="bd">${fmt(a.pv_terminal,3)}</span></div>`;
+}
+
+function detail(a){
+  const k=a.koers, onder=a.korting_tov_koop>0, tussen=!onder&&a.upside>0;
+  const cls=onder?'koop':tussen?'wacht':'duur';
+  const tekst = onder
+    ? `De koers ligt ${pct(a.korting_tov_koop,1).replace('-','')} onder je koopprijs. Je koopt de toekomstige dividenden met korting en start op ${pct(a.d0_norm/k)} aanvangsrendement.`
+    : tussen
+    ? `De koers zit onder de contante waarde, maar boven je koopprijs. Wachten tot ${fmt(a.koopprijs)} levert je de veiligheidsmarge van ${pct(a.mos,0)} die bij kwaliteitsscore ${a.kwaliteit} hoort.`
+    : `De markt betaalt meer dan het dividend rechtvaardigt. Bij deze koers zit ${pct(-a.upside)} van je rendement in koerswinst die dit model niet ziet.`;
+  const c=a.checks||{};
+  return `<td colspan="10"><div class="d-in">
+    <div>
+      <h3>${a.naam}</h3>
+      <div class="d-sub">${a.ticker} · ${a.sector||'sector onbekend'} · dividend per aandeel, nominaal en contant</div>
+      ${ladder(a)}
+      <div class="ladder-legend">
+        <span><span class="sw" style="background:rgba(78,144,112,.34)"></span>nominaal uitgekeerd</span>
+        <span><span class="sw" style="background:var(--gulden-licht)"></span>waarde vandaag</span>
+        <span><span class="sw" style="background:var(--koper)"></span>alles daarna</span>
+      </div>
+      ${a.handmatig?'<div class="let-op">* vastgezet op bedrijfsguidance uit overrides.json</div>':''}
+    </div>
+    <div>
+      <div class="uitkomst">
+        <div class="rij"><span class="lbl">Koers nu</span><span class="n">${fmt(k)}</span></div>
+        <div class="rij"><span class="lbl">Contante waarde</span><span class="n">${fmt(a.fair)}</span></div>
+        <div class="rij"><span class="lbl">Koopprijs · marge ${pct(a.mos,0)}</span><span class="n ${onder?'pos':''}">${fmt(a.koopprijs)}</span></div>
+        <div class="rij"><span class="lbl">Rendement op koopprijs</span><span class="n">${pct(a.yoc_koop)}</span></div>
+      </div>
+      <div class="oordeel ${cls}">${tekst}</div>
+      <dl class="kv">
+        <dt>Vereist rendement</dt><dd>${pct(a.r)}</dd>
+        <dt>Dividendgroei fase 1</dt><dd>${pct(a.g1)}</dd>
+        <dt>Groei 3j / 5j historisch</dt><dd>${pct(a.g3)} / ${pct(a.g5)}</dd>
+        <dt>Waarde uit eindwaarde</dt><dd>${pct(a.pv_terminal/a.fair,0)}</dd>
+        <dt>Payout ratio</dt><dd>${pct(a.payout,0)}</dd>
+        <dt>Dekking uit vrije kasstroom</dt><dd>${c.fcf_dekking!=null?fmt(c.fcf_dekking)+'×':'—'}</dd>
+        <dt>Nettoschuld / ebitda</dt><dd>${c.netdebt_ebitda!=null?fmt(c.netdebt_ebitda)+'×':'—'}</dd>
+        <dt>Verlagingen sinds 2010</dt><dd>${a.cuts_sinds_2010}</dd>
+        <dt>Kwaliteitsscore</dt><dd><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></dd>
+      </dl>
+      ${a.special_div?'<div class="let-op">Dividend genormaliseerd: de laatste uitkering week sterk af van het patroon.</div>':''}
+      ${a.vlag?'<div class="let-op">Uitkomst wijkt extreem af van de koers. Controleer de dividendhistorie met de hand.</div>':''}
+    </div></div></td>`;
+}
+
+function teken(){
+  const rs=zichtbaar(), tb=document.getElementById('rijen');
+  tb.innerHTML = rs.map(a=>{
+    const d=a.korting_tov_koop;
+    return `<tr tabindex="0" data-t="${a.ticker}">
+      <td class="naam">${a.naam}${a.vlag?'<span class="vlag" title="controleer"></span>':''}<small>${a.ticker}</small></td>
+      <td class="tk">${(a.sector||'—').slice(0,18)}</td>
+      <td>${fmt(a.koers)}</td><td>${pct(a.yield_nu)}</td>
+      <td>${fmt(a.d0_norm,3)}</td><td>${pct(a.g1)}</td>
+      <td>${fmt(a.fair)}</td><td>${fmt(a.koopprijs)}</td>
+      <td class="${d>0?'pos':'neg'}">${d>0?'+':''}${pct(d,0)}</td>
+      <td><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></td>
+    </tr>` + (open===a.ticker?`<tr class="detail">${detail(a)}</tr>`:'');
+  }).join('');
+  document.getElementById('m-aantal').textContent = rs.length+' van '+A.length+' aandelen';
+  tb.querySelectorAll('tr[data-t]').forEach(tr=>{
+    const go=()=>{open = open===tr.dataset.t?null:tr.dataset.t; teken();};
+    tr.onclick=go; tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};
+  });
+}
+
+function labels(){
+  document.getElementById('v-r').textContent = O.r==null?'per aandeel':pct(O.r,1);
+  document.getElementById('v-g').textContent = pct(O.g ?? P.g_term,2);
+  document.getElementById('v-m').textContent = O.m==null?'per kwaliteit':pct(O.m,0);
+  document.getElementById('v-h').textContent = O.h+' jaar';
+}
+const S=(id,f)=>document.getElementById(id).addEventListener('input',e=>{f(+e.target.value);labels();teken();});
+S('s-r',v=>O.r=v/100); S('s-g',v=>O.g=v/100); S('s-m',v=>O.m=v/100); S('s-h',v=>O.h=v);
+document.getElementById('reset').onclick=()=>{O={r:null,g:null,m:null,h:P.n2};
+  document.getElementById('s-r').value=8;document.getElementById('s-g').value=P.g_term*100;
+  document.getElementById('s-m').value=20;document.getElementById('s-h').value=P.n2;labels();teken();};
+document.getElementById('zoek').addEventListener('input',e=>{q=e.target.value;teken();});
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+  const f=c.dataset.f; filters.has(f)?filters.delete(f):filters.add(f);
+  c.setAttribute('aria-pressed',filters.has(f)); teken();});
+document.querySelectorAll('thead th').forEach(th=>th.onclick=()=>{
+  const k=th.dataset.s; sortDir = sortKey===k ? -sortDir : -1; sortKey=k;
+  document.querySelectorAll('thead th').forEach(x=>x.classList.remove('sorted'));
+  th.classList.add('sorted'); teken();});
+
+document.getElementById('s-r').value=8; document.getElementById('s-g').value=P.g_term*100;
+document.getElementById('s-m').value=20; document.getElementById('s-h').value=P.n2;
+document.getElementById('m-tijd').textContent='Bijgewerkt '+new Date(DATA.bijgewerkt).toLocaleString('nl-NL',{dateStyle:'long',timeStyle:'short'});
+labels(); teken();
+</script>
+</body>
+</html>

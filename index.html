@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contante Waarde — Nederlandse dividendaandelen</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400;6..96,700&family=IBM+Plex+Mono:wght@400;500;600&family=Public+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{
+  --inkt:#16211C; --inkt-2:#243330; --papier:#E9EDE7; --papier-2:#DDE3DA;
+  --gulden:#2F6B4F; --gulden-licht:#4E9070; --roest:#9E3B2E; --koper:#B08A3E;
+  --grijs:#6E7973; --lijn:#C4CDC0;
+  --display:'Bodoni Moda',Georgia,serif; --body:'Public Sans',system-ui,sans-serif; --mono:'IBM Plex Mono',monospace;
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--papier);color:var(--inkt);font-family:var(--body);font-size:15px;line-height:1.5}
+.wrap{max-width:1280px;margin:0 auto;padding:0 20px 80px}
+
+/* kop */
+header{border-bottom:2px solid var(--inkt);padding:36px 0 22px;margin-bottom:0}
+.eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grijs)}
+h1{font-family:var(--display);font-weight:400;font-size:clamp(38px,6vw,68px);line-height:.98;margin:10px 0 14px;letter-spacing:-.01em}
+h1 em{font-style:italic;color:var(--gulden)}
+.lede{max-width:60ch;color:var(--inkt-2);font-size:16px}
+.meta{font-family:var(--mono);font-size:11.5px;color:var(--grijs);margin-top:16px;display:flex;gap:22px;flex-wrap:wrap}
+
+/* aannames */
+.aannames{border-bottom:1px solid var(--lijn);padding:20px 0;position:sticky;top:0;background:var(--papier);z-index:20}
+.aannames-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:20px;align-items:end}
+.ctrl label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--grijs);margin-bottom:5px}
+.ctrl .val{font-family:var(--mono);font-size:19px;font-weight:600;color:var(--inkt)}
+input[type=range]{width:100%;accent-color:var(--gulden);margin-top:4px}
+.reset{font-family:var(--mono);font-size:11px;background:none;border:1px solid var(--lijn);padding:7px 12px;cursor:pointer;color:var(--grijs);border-radius:2px}
+.reset:hover{border-color:var(--gulden);color:var(--gulden)}
+
+/* filters */
+.filters{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:16px 0;border-bottom:1px solid var(--lijn)}
+.chip{font-family:var(--mono);font-size:11px;padding:6px 11px;border:1px solid var(--lijn);background:none;cursor:pointer;color:var(--inkt-2);border-radius:2px;letter-spacing:.04em}
+.chip[aria-pressed=true]{background:var(--inkt);color:var(--papier);border-color:var(--inkt)}
+.chip:focus-visible,input:focus-visible,button:focus-visible,tr:focus-visible{outline:2px solid var(--gulden);outline-offset:2px}
+#zoek{font-family:var(--mono);font-size:12px;padding:7px 10px;border:1px solid var(--lijn);background:#fff;flex:1;min-width:150px;border-radius:2px}
+
+/* tabel */
+table{width:100%;border-collapse:collapse;margin-top:4px}
+thead th{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--grijs);
+  text-align:right;padding:14px 8px 10px;border-bottom:1px solid var(--inkt);cursor:pointer;white-space:nowrap;position:sticky;top:104px;background:var(--papier)}
+thead th:first-child,thead th:nth-child(2){text-align:left}
+thead th:hover{color:var(--gulden)}
+thead th.sorted::after{content:" ▾";color:var(--gulden)}
+tbody tr{border-bottom:1px solid var(--lijn);cursor:pointer}
+tbody tr:hover{background:var(--papier-2)}
+td{padding:11px 8px;text-align:right;font-family:var(--mono);font-size:13px;white-space:nowrap}
+td.naam{text-align:left;font-family:var(--body);font-size:14px;font-weight:500;white-space:normal;min-width:170px}
+td.naam small{display:block;font-family:var(--mono);font-size:10px;color:var(--grijs);font-weight:400;letter-spacing:.05em}
+td.tk{text-align:left;font-size:12px;color:var(--grijs)}
+.pos{color:var(--gulden);font-weight:600}
+.neg{color:var(--roest)}
+.vlag{display:inline-block;width:6px;height:6px;background:var(--koper);border-radius:50%;margin-left:5px;vertical-align:middle}
+.kw{display:inline-block;min-width:34px;padding:2px 6px;border-radius:2px;font-size:11px;font-weight:600}
+.kw.a{background:#D3E3D6;color:#1F4E33}.kw.b{background:#E4E2CE;color:#6B5A16}.kw.c{background:#EDD8D3;color:#7A2E22}
+
+/* detail */
+.detail{background:var(--inkt);color:var(--papier);padding:0}
+.detail td{padding:0}
+.d-in{padding:26px 20px 30px;display:grid;grid-template-columns:1fr 1fr;gap:34px}
+@media(max-width:820px){.d-in{grid-template-columns:1fr}}
+.d-in h3{font-family:var(--display);font-size:26px;font-weight:400;margin:0 0 4px}
+.d-sub{font-family:var(--mono);font-size:11px;color:#8FA398;letter-spacing:.08em;margin-bottom:20px}
+
+/* signature: kasstroomladder */
+.ladder{display:flex;flex-direction:column;gap:3px;margin-top:6px}
+.rung{display:grid;grid-template-columns:42px 1fr 62px;align-items:center;gap:9px}
+.rung .jr{font-family:var(--mono);font-size:10px;color:#8FA398}
+.bar{position:relative;height:15px;background:rgba(233,237,231,.09)}
+.bar .nom{position:absolute;inset:0 auto 0 0;background:rgba(78,144,112,.34)}
+.bar .cw{position:absolute;inset:0 auto 0 0;background:var(--gulden-licht)}
+.rung .bd{font-family:var(--mono);font-size:10.5px;color:#C6D2C9;text-align:right}
+.rung.term .bar .cw{background:var(--koper)}
+.rung.term .jr{color:var(--koper)}
+.ladder-legend{font-family:var(--mono);font-size:10px;color:#8FA398;margin-top:12px;display:flex;gap:16px}
+.sw{display:inline-block;width:9px;height:9px;margin-right:5px;vertical-align:-1px}
+
+.kv{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;font-family:var(--mono);font-size:12px;margin-top:14px}
+.kv dt{color:#8FA398}.kv dd{margin:0;text-align:right}
+.uitkomst{border:1px solid #3B4F47;padding:16px;margin-top:20px}
+.uitkomst .rij{display:flex;justify-content:space-between;align-items:baseline;padding:6px 0}
+.uitkomst .rij:not(:last-child){border-bottom:1px solid #2C3B35}
+.uitkomst .lbl{font-family:var(--mono);font-size:10.5px;letter-spacing:.09em;text-transform:uppercase;color:#8FA398}
+.uitkomst .n{font-family:var(--mono);font-size:20px;font-weight:600}
+.oordeel{margin-top:14px;padding:11px 13px;font-size:13px;line-height:1.45}
+.oordeel.koop{background:rgba(78,144,112,.17);border-left:3px solid var(--gulden-licht)}
+.oordeel.wacht{background:rgba(176,138,62,.15);border-left:3px solid var(--koper)}
+.oordeel.duur{background:rgba(158,59,46,.18);border-left:3px solid var(--roest)}
+.let-op{font-size:12px;color:#C6A96B;margin-top:10px;font-family:var(--mono)}
+footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--lijn);font-size:12.5px;color:var(--grijs);max-width:70ch}
+footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);padding:1px 5px}
+@media(prefers-reduced-motion:no-preference){.bar .cw,.bar .nom{transition:width .35s ease}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">Euronext Amsterdam · AEX · AMX · AScX</div>
+  <h1>Wat is een aandeel waard<br>als je <em>alleen</em> het dividend telt?</h1>
+  <p class="lede">Elk aandeel hieronder is gewaardeerd op de dividenden die het de komende jaren naar verwachting uitkeert, contant gemaakt naar vandaag. Geen koersverwachting, geen multiples — alleen kasstroom naar de aandeelhouder.</p>
+  <div class="meta"><span id="m-tijd"></span><span id="m-aantal"></span><span>Bron koersen &amp; dividendhistorie: Yahoo Finance</span></div>
+</header>
+
+<section class="aannames">
+  <div class="aannames-grid">
+    <div class="ctrl"><label for="s-r">Vereist rendement</label><div class="val" id="v-r"></div><input type="range" id="s-r" min="4" max="15" step="0.5"></div>
+    <div class="ctrl"><label for="s-g">Eeuwige groei</label><div class="val" id="v-g"></div><input type="range" id="s-g" min="0" max="4" step="0.25"></div>
+    <div class="ctrl"><label for="s-m">Veiligheidsmarge</label><div class="val" id="v-m"></div><input type="range" id="s-m" min="0" max="50" step="5"></div>
+    <div class="ctrl"><label for="s-h">Horizon</label><div class="val" id="v-h"></div><input type="range" id="s-h" min="5" max="25" step="1"></div>
+    <div class="ctrl"><button class="reset" id="reset">Terug naar model</button></div>
+  </div>
+</section>
+
+<div class="filters">
+  <input id="zoek" placeholder="zoek op naam of ticker" autocomplete="off">
+  <button class="chip" data-f="koop" aria-pressed="false">Onder koopprijs</button>
+  <button class="chip" data-f="kwaliteit" aria-pressed="false">Kwaliteit ≥ 60</button>
+  <button class="chip" data-f="stabiel" aria-pressed="false">Nooit verlaagd</button>
+  <button class="chip" data-f="vlag" aria-pressed="false">Verberg twijfelgevallen</button>
+</div>
+
+<table>
+  <thead><tr>
+    <th data-s="naam">Bedrijf</th><th data-s="sector">Sector</th>
+    <th data-s="koers">Koers</th><th data-s="yield_nu">Rendement</th>
+    <th data-s="d0_norm">Dividend</th><th data-s="g1">Groei</th>
+    <th data-s="fair">Contante waarde</th><th data-s="koopprijs">Koopprijs</th>
+    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th>
+  </tr></thead>
+  <tbody id="rijen"></tbody>
+</table>
+
+<footer>
+  <p><strong>Hoe het rekent.</strong> Bekende dividenden uit bedrijfsguidance krijgen voorrang; daarna groeit het dividend met het historische tempo, dat over de horizon afvlakt naar de eeuwige groei. De eindwaarde volgt uit Gordon. De veiligheidsmarge schaalt automatisch mee met de kwaliteitsscore — payout ratio, dekking uit vrije kasstroom, schuldpositie en het aantal dividendverlagingen sinds 2010.</p>
+  <p>Bedrijven zonder uitkering in de laatste twee jaar en verlieslatende bedrijven zonder vrije kasstroom vallen buiten het model: op dividend valt daar niets te waarderen. Een <span class="vlag" style="position:relative;top:-1px"></span> markeert een uitkomst die meer dan viermaal of minder dan een zesde van de koers is — bijna altijd een eenmalige uitkering die de historie vertekent. Controleer die met de hand.</p>
+  <p>Dit is een rekenmodel, geen advies. De uitkomst is zo goed als de aanname over het dividendpad; zet echte guidance in <code>overrides.json</code> voor de bedrijven die je volgt.</p>
+</footer>
+</div>
+
+<script>
+const DATA = {"params":{"rf":0.03,"erp":0.05,"r_min":0.07,"r_max":0.12,"g_cap":0.12,"g_term":0.02,"n1":5,"n2":10,"mos_min":0.1,"mos_max":0.4},"bijgewerkt":"2026-08-15T07:10:53+00:00Z","aandelen":[{"ticker":"NEDSE.AS","naam":"MKB Nedsense N.V.","sector":"Financial Services","koers":0.079,"valuta":"EUR","d0":0.0435,"g3":null,"g5":null,"payout":7.7679,"beta":0.472,"cuts_sinds_2010":0,"mcap":7900000,"r":0.07,"g1":0.02,"fair":0.887,"pv_div":0.338,"pv_terminal":0.55,"koopprijs":0.599,"mos":0.325,"kwaliteit":25,"checks":{"payout":-20,"fcf_dekking":-0.44,"verlagingen":0},"upside":10.2329,"korting_tov_koop":6.5822,"yield_nu":0.5506,"yoc_koop":0.0726,"d0_norm":0.0435,"special_div":false,"vlag":"controleer","handmatig":false,"pad":[[2026,0.0444],[2027,0.0453]]},{"ticker":"BRNL.AS","naam":"Brunel International N.V.","sector":"Industrials","koers":7.48,"valuta":"EUR","d0":0.55,"g3":0.0692,"g5":null,"payout":0.4,"beta":0.467,"cuts_sinds_2010":2,"mcap":377394080,"r":0.07,"g1":0.0692,"fair":14.985,"pv_div":5.307,"pv_terminal":9.677,"koopprijs":12.542,"mos":0.163,"kwaliteit":79,"checks":{"payout":20,"fcf_dekking":1.34,"netdebt_ebitda":2.2,"verlagingen":2},"upside":1.0033,"korting_tov_koop":0.6768,"yield_nu":0.0735,"yoc_koop":0.0439,"d0_norm":0.55,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.5881],[2027,0.6288]]},{"ticker":"LIGHT.AS","naam":"Signify N.V.","sector":"Industrials","koers":15.6,"valuta":"EUR","d0":1.56,"g3":0.0247,"g5":null,"payout":1.256,"beta":0.919,"cuts_sinds_2010":1,"mcap":1853555328,"r":0.076,"g1":0.0247,"fair":29.231,"pv_div":12.013,"pv_terminal":17.218,"koopprijs":22.362,"mos":0.235,"kwaliteit":55,"checks":{"payout":-20,"fcf_dekking":2.62,"netdebt_ebitda":2.22,"verlagingen":1},"upside":0.8738,"korting_tov_koop":0.4334,"yield_nu":0.1,"yoc_koop":0.0698,"d0_norm":1.56,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.5985],[2027,1.638]]},{"ticker":"KENDR.AS","naam":"Kendrion N.V.","sector":"Industrials","koers":19.8,"valuta":"EUR","d0":1.45,"g3":0.2809,"g5":null,"payout":0.45450002,"beta":0.912,"cuts_sinds_2010":4,"mcap":312946752,"r":0.0756,"g1":0.12,"fair":35.962,"pv_div":12.956,"pv_terminal":23.006,"koopprijs":28.05,"mos":0.22,"kwaliteit":60,"checks":{"payout":20,"netdebt_ebitda":1.1,"verlagingen":4},"upside":0.8163,"korting_tov_koop":0.4167,"yield_nu":0.0558,"yoc_koop":0.0394,"d0_norm":1.104,"special_div":true,"vlag":null,"handmatig":false,"pad":[[2026,1.2365],[2027,1.3849]]},{"ticker":"HOLCO.AS","naam":"Holland Colours N.V.","sector":"Basic Materials","koers":78.0,"valuta":"EUR","d0":6.85,"g3":0.0504,"g5":0.0853,"payout":1.6914,"beta":0.53,"cuts_sinds_2010":4,"mcap":67107376,"r":0.07,"g1":0.0678,"fair":164.218,"pv_div":58.274,"pv_terminal":105.944,"koopprijs":103.457,"mos":0.37,"kwaliteit":10,"checks":{"payout":-20,"fcf_dekking":-0.49,"netdebt_ebitda":-1.21,"verlagingen":4},"upside":1.1054,"korting_tov_koop":0.3264,"yield_nu":0.0779,"yoc_koop":0.0587,"d0_norm":6.075,"special_div":true,"vlag":null,"handmatig":false,"pad":[[2026,6.4872],[2027,6.9273]]},{"ticker":"CABKA.AS","naam":"Cabka N.V.","sector":"Consumer Cyclical","koers":1.96,"valuta":"EUR","d0":0.15,"g3":null,"g5":null,"payout":0.0,"beta":0.184,"cuts_sinds_2010":0,"mcap":48624420,"r":0.07,"g1":0.02,"fair":3.06,"pv_div":1.164,"pv_terminal":1.896,"koopprijs":2.561,"mos":0.163,"kwaliteit":79,"checks":{"payout":20,"fcf_dekking":1.06,"netdebt_ebitda":3.75,"verlagingen":0},"upside":0.5612,"korting_tov_koop":0.3067,"yield_nu":0.0765,"yoc_koop":0.0586,"d0_norm":0.15,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.153],[2027,0.1561]]},{"ticker":"AGN.AS","naam":"Aegon Ltd.","sector":"Financial Services","koers":8.226,"valuta":"EUR","d0":0.38,"g3":0.2386,"g5":0.4465,"payout":0.6333,"beta":0.623,"cuts_sinds_2010":1,"mcap":12163094528,"r":0.07,"g1":0.12,"fair":13.87,"pv_div":4.593,"pv_terminal":9.277,"koopprijs":10.278,"mos":0.259,"kwaliteit":47,"checks":{"payout":12,"fcf_dekking":-0.37,"verlagingen":1},"upside":0.6861,"korting_tov_koop":0.2494,"yield_nu":0.0462,"yoc_koop":0.037,"d0_norm":0.38,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.4256],[2027,0.4767]]},{"ticker":"ECMPA.AS","naam":"Eurocommercial Properties N.V.","sector":"Real Estate","koers":27.0,"valuta":"EUR","d0":1.8,"g3":0.0627,"g5":null,"payout":0.7965,"beta":0.783,"cuts_sinds_2010":0,"mcap":1476345856,"r":0.07,"g1":0.0627,"fair":47.218,"pv_div":16.876,"pv_terminal":30.341,"koopprijs":33.147,"mos":0.298,"kwaliteit":34,"checks":{"payout":4,"fcf_dekking":0.71,"netdebt_ebitda":8.03,"verlagingen":0},"upside":0.7488,"korting_tov_koop":0.2277,"yield_nu":0.0667,"yoc_koop":0.0543,"d0_norm":1.8,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.9129],[2027,2.0328]]},{"ticker":"WHA.AS","naam":"Wereldhave N.V.","sector":"Real Estate","koers":18.56,"valuta":"EUR","d0":1.25,"g3":0.0435,"g5":0.1469,"payout":0.90279996,"beta":0.914,"cuts_sinds_2010":7,"mcap":865675584,"r":0.0757,"g1":0.0952,"fair":35.322,"pv_div":13.146,"pv_terminal":22.176,"koopprijs":22.677,"mos":0.358,"kwaliteit":14,"checks":{"payout":-10,"fcf_dekking":1.26,"netdebt_ebitda":7.65,"verlagingen":7},"upside":0.9031,"korting_tov_koop":0.2218,"yield_nu":0.0673,"yoc_koop":0.0551,"d0_norm":1.25,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.369],[2027,1.4993]]},{"ticker":"NN.AS","naam":"NN Group N.V.","sector":"Financial Services","koers":78.76,"valuta":"EUR","d0":3.54,"g3":0.1141,"g5":0.0939,"payout":0.5723,"beta":0.538,"cuts_sinds_2010":1,"mcap":20480624640,"r":0.07,"g1":0.104,"fair":117.925,"pv_div":39.858,"pv_terminal":78.067,"koopprijs":90.92,"mos":0.229,"kwaliteit":57,"checks":{"payout":12,"fcf_dekking":-3.54,"netdebt_ebitda":-10.7,"verlagingen":1},"upside":0.4973,"korting_tov_koop":0.1544,"yield_nu":0.0449,"yoc_koop":0.0389,"d0_norm":3.54,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,3.9082],[2027,4.3146]]},{"ticker":"WKL.AS","naam":"Wolters Kluwer N.V.","sector":"Industrials","koers":69.78,"valuta":"EUR","d0":2.43,"g3":0.1354,"g5":0.1404,"payout":0.4304,"beta":0.185,"cuts_sinds_2010":1,"mcap":15544969216,"r":0.07,"g1":0.12,"fair":88.694,"pv_div":29.368,"pv_terminal":59.326,"koopprijs":78.494,"mos":0.115,"kwaliteit":95,"checks":{"payout":20,"fcf_dekking":2.31,"netdebt_ebitda":2.08,"verlagingen":1},"upside":0.2711,"korting_tov_koop":0.1249,"yield_nu":0.0348,"yoc_koop":0.031,"d0_norm":2.43,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.7216],[2027,3.0482]]},{"ticker":"ASRNL.AS","naam":"ASR Nederland N.V.","sector":"Financial Services","koers":70.68,"valuta":"EUR","d0":3.23,"g3":0.0778,"g5":0.1051,"payout":1.4954,"beta":0.506,"cuts_sinds_2010":1,"mcap":14604401664,"r":0.07,"g1":0.0915,"fair":100.109,"pv_div":34.401,"pv_terminal":65.708,"koopprijs":75.682,"mos":0.244,"kwaliteit":52,"checks":{"payout":-20,"fcf_dekking":1.5,"netdebt_ebitda":-10.54,"verlagingen":1},"upside":0.4164,"korting_tov_koop":0.0708,"yield_nu":0.0457,"yoc_koop":0.0427,"d0_norm":3.23,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,3.5254],[2027,3.8478]]},{"ticker":"INGA.AS","naam":"ING Groep N.V.","sector":"Financial Services","koers":30.885,"valuta":"EUR","d0":1.221,"g3":0.1457,"g5":null,"payout":0.4701,"beta":0.902,"cuts_sinds_2010":1,"mcap":88194260992,"r":0.0751,"g1":0.12,"fair":40.161,"pv_div":14.367,"pv_terminal":25.794,"koopprijs":32.53,"mos":0.19,"kwaliteit":70,"checks":{"payout":20,"verlagingen":1},"upside":0.3003,"korting_tov_koop":0.0533,"yield_nu":0.0395,"yoc_koop":0.0375,"d0_norm":1.221,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.3675],[2027,1.5316]]},{"ticker":"CTPNV.AS","naam":"CTP N.V.","sector":"Real Estate","koers":14.52,"valuta":"EUR","d0":0.61,"g3":0.151,"g5":null,"payout":0.5478,"beta":0.981,"cuts_sinds_2010":0,"mcap":7042852352,"r":0.0791,"g1":0.12,"fair":18.623,"pv_div":7.032,"pv_terminal":11.592,"koopprijs":13.521,"mos":0.274,"kwaliteit":42,"checks":{"payout":12,"fcf_dekking":0.54,"netdebt_ebitda":12.7,"verlagingen":0},"upside":0.2826,"korting_tov_koop":-0.0688,"yield_nu":0.042,"yoc_koop":0.0451,"d0_norm":0.61,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.6832],[2027,0.7652]]},{"ticker":"ACOMO.AS","naam":"Acomo N.V.","sector":"Consumer Defensive","koers":23.45,"valuta":"EUR","d0":1.3,"g3":0.0738,"g5":0.034,"payout":0.7107,"beta":0.259,"cuts_sinds_2010":4,"mcap":696541120,"r":0.07,"g1":0.0539,"fair":32.391,"pv_div":11.722,"pv_terminal":20.669,"koopprijs":21.281,"mos":0.343,"kwaliteit":19,"checks":{"payout":4,"fcf_dekking":-0.63,"netdebt_ebitda":3.21,"verlagingen":4},"upside":0.3813,"korting_tov_koop":-0.0925,"yield_nu":0.0554,"yoc_koop":0.0611,"d0_norm":1.3,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.3701],[2027,1.4439]]},{"ticker":"ABN.AS","naam":"ABN AMRO Bank N.V.","sector":"Financial Services","koers":41.43,"valuta":"EUR","d0":1.29,"g3":0.1152,"g5":null,"payout":0.44599998,"beta":0.733,"cuts_sinds_2010":3,"mcap":33762787328,"r":0.07,"g1":0.1152,"fair":45.814,"pv_div":15.263,"pv_terminal":30.552,"koopprijs":35.048,"mos":0.235,"kwaliteit":55,"checks":{"payout":20,"verlagingen":3},"upside":0.1058,"korting_tov_koop":-0.154,"yield_nu":0.0311,"yoc_koop":0.0368,"d0_norm":1.29,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.4386],[2027,1.6043]]},{"ticker":"KPN.AS","naam":"Koninklijke KPN N.V.","sector":"Communication Services","koers":4.075,"valuta":"EUR","d0":0.175,"g3":0.0798,"g5":0.0679,"payout":0.8273,"beta":0.248,"cuts_sinds_2010":4,"mcap":15626513408,"r":0.07,"g1":0.05,"fair":4.416,"pv_div":1.606,"pv_terminal":2.81,"koopprijs":3.153,"mos":0.286,"kwaliteit":38,"checks":{"payout":4,"fcf_dekking":1.18,"netdebt_ebitda":2.85,"verlagingen":4},"upside":0.0838,"korting_tov_koop":-0.2262,"yield_nu":0.0429,"yoc_koop":0.0555,"d0_norm":0.175,"special_div":false,"vlag":null,"handmatig":true,"pad":[[2026,0.189],[2027,0.2]]},{"ticker":"HEIO.AS","naam":"Heineken Holding N.V.","sector":"Consumer Defensive","koers":69.7,"valuta":"EUR","d0":1.91,"g3":0.0937,"g5":0.1293,"payout":0.4634,"beta":0.633,"cuts_sinds_2010":4,"mcap":19156588544,"r":0.07,"g1":0.1115,"fair":66.416,"pv_div":22.231,"pv_terminal":44.185,"koopprijs":53.797,"mos":0.19,"kwaliteit":70,"checks":{"payout":20,"fcf_dekking":4.18,"netdebt_ebitda":2.58,"verlagingen":4},"upside":-0.0471,"korting_tov_koop":-0.2282,"yield_nu":0.0274,"yoc_koop":0.0355,"d0_norm":1.91,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.123],[2027,2.3597]]},{"ticker":"SHELL.AS","naam":"Shell plc","sector":"Energy","koers":38.97,"valuta":"EUR","d0":1.23739,"g3":0.1309,"g5":0.0804,"payout":0.32709998,"beta":-0.218,"cuts_sinds_2010":6,"mcap":215205953536,"r":0.08,"g1":0.1056,"fair":34.27,"pv_div":13.33,"pv_terminal":20.94,"koopprijs":29.3,"mos":0.145,"kwaliteit":85,"checks":{"payout":20,"fcf_dekking":3.14,"netdebt_ebitda":0.72,"verlagingen":6},"upside":-0.1206,"korting_tov_koop":-0.2481,"yield_nu":0.0318,"yoc_koop":0.0422,"d0_norm":1.23739,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.3681],[2027,1.5127]]},{"ticker":"NSI.AS","naam":"NSI N.V.","sector":"Real Estate","koers":16.9,"valuta":"EUR","d0":1.57,"g3":-0.1009,"g5":-0.0567,"payout":14.2727,"beta":0.682,"cuts_sinds_2010":7,"mcap":329903392,"r":0.07,"g1":-0.05,"fair":21.032,"pv_div":8.941,"pv_terminal":12.09,"koopprijs":12.619,"mos":0.4,"kwaliteit":0,"checks":{"payout":-20,"fcf_dekking":0.99,"netdebt_ebitda":6.67,"verlagingen":7},"upside":0.2445,"korting_tov_koop":-0.2533,"yield_nu":0.0929,"yoc_koop":0.1244,"d0_norm":1.57,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.4915],[2027,1.4169]]},{"ticker":"HEIA.AS","naam":"Heineken N.V.","sector":"Consumer Defensive","koers":73.52,"valuta":"EUR","d0":1.91,"g3":0.0937,"g5":0.1293,"payout":0.4634,"beta":0.568,"cuts_sinds_2010":4,"mcap":40817307648,"r":0.07,"g1":0.1115,"fair":66.416,"pv_div":22.231,"pv_terminal":44.185,"koopprijs":53.797,"mos":0.19,"kwaliteit":70,"checks":{"payout":20,"fcf_dekking":2.83,"netdebt_ebitda":3.22,"verlagingen":4},"upside":-0.0966,"korting_tov_koop":-0.2683,"yield_nu":0.026,"yoc_koop":0.0355,"d0_norm":1.91,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.123],[2027,2.3597]]},{"ticker":"AD.AS","naam":"Koninklijke Ahold Delhaize N.V.","sector":"Consumer Defensive","koers":32.4,"valuta":"EUR","d0":1.18,"g3":0.0639,"g5":0.0421,"payout":0.49400002,"beta":0.334,"cuts_sinds_2010":4,"mcap":28309889024,"r":0.07,"g1":0.053,"fair":29.246,"pv_div":10.598,"pv_terminal":18.649,"koopprijs":23.69,"mos":0.19,"kwaliteit":70,"checks":{"payout":20,"fcf_dekking":2.82,"netdebt_ebitda":2.98,"verlagingen":4},"upside":-0.0973,"korting_tov_koop":-0.2688,"yield_nu":0.0364,"yoc_koop":0.0498,"d0_norm":1.18,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.2425],[2027,1.3084]]},{"ticker":"VPK.AS","naam":"Koninklijke Vopak N.V.","sector":"Energy","koers":47.76,"valuta":"EUR","d0":1.6,"g3":0.0858,"g5":0.0683,"payout":0.4369,"beta":0.735,"cuts_sinds_2010":0,"mcap":5473689600,"r":0.07,"g1":0.0771,"fair":45.627,"pv_div":15.987,"pv_terminal":29.64,"koopprijs":34.22,"mos":0.25,"kwaliteit":50,"checks":{"payout":20,"fcf_dekking":0.46,"netdebt_ebitda":4.4,"verlagingen":0},"upside":-0.0447,"korting_tov_koop":-0.2835,"yield_nu":0.0335,"yoc_koop":0.0468,"d0_norm":1.6,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.7233],[2027,1.8561]]},{"ticker":"UMG.AS","naam":"Universal Music Group N.V.","sector":"Communication Services","koers":14.945,"valuta":"EUR","d0":0.52,"g3":0.0573,"g5":null,"payout":2.8889,"beta":0.777,"cuts_sinds_2010":0,"mcap":27408644096,"r":0.07,"g1":0.0573,"fair":13.217,"pv_div":4.76,"pv_terminal":8.457,"koopprijs":10.19,"mos":0.229,"kwaliteit":57,"checks":{"payout":-20,"fcf_dekking":1.88,"netdebt_ebitda":2.27,"verlagingen":0},"upside":-0.1156,"korting_tov_koop":-0.3182,"yield_nu":0.0348,"yoc_koop":0.051,"d0_norm":0.52,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.5498],[2027,0.5813]]},{"ticker":"UNA.AS","naam":"Unilever PLC","sector":"Consumer Defensive","koers":53.87,"valuta":"EUR","d0":2.0376,"g3":0.0199,"g5":null,"payout":0.7867,"beta":0.454,"cuts_sinds_2010":0,"mcap":116053606400,"r":0.07,"g1":0.0199,"fair":41.542,"pv_div":15.802,"pv_terminal":25.74,"koopprijs":35.02,"mos":0.157,"kwaliteit":81,"checks":{"payout":4,"fcf_dekking":1.53,"netdebt_ebitda":2.41,"verlagingen":0},"upside":-0.2288,"korting_tov_koop":-0.3499,"yield_nu":0.0378,"yoc_koop":0.0582,"d0_norm":2.0376,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.0781],[2027,2.1195]]},{"ticker":"NEDAP.AS","naam":"Nedap N.V.","sector":"Technology","koers":96.7,"valuta":"EUR","d0":3.2,"g3":0.0217,"g5":0.073,"payout":0.8625,"beta":0.441,"cuts_sinds_2010":2,"mcap":639249472,"r":0.07,"g1":0.0473,"fair":76.726,"pv_div":28.028,"pv_terminal":48.698,"koopprijs":61.687,"mos":0.196,"kwaliteit":68,"checks":{"payout":4,"fcf_dekking":1.5,"netdebt_ebitda":0.02,"verlagingen":2},"upside":-0.2066,"korting_tov_koop":-0.3621,"yield_nu":0.0331,"yoc_koop":0.0519,"d0_norm":3.2,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,3.3515],[2027,3.5102]]},{"ticker":"SLIGR.AS","naam":"Sligro Food Group N.V.","sector":"Consumer Defensive","koers":10.72,"valuta":"EUR","d0":0.5,"g3":0.1856,"g5":-0.1007,"payout":0.8333,"beta":1.049,"cuts_sinds_2010":6,"mcap":472873312,"r":0.0824,"g1":0.0424,"fair":9.286,"pv_div":4.036,"pv_terminal":5.251,"koopprijs":6.575,"mos":0.292,"kwaliteit":36,"checks":{"payout":4,"fcf_dekking":1.91,"netdebt_ebitda":5.76,"verlagingen":6},"upside":-0.1337,"korting_tov_koop":-0.3867,"yield_nu":0.0466,"yoc_koop":0.076,"d0_norm":0.5,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.5212],[2027,0.5434]]},{"ticker":"REN.AS","naam":"RELX PLC","sector":"Industrials","koers":29.78,"valuta":"EUR","d0":0.75192,"g3":0.0789,"g5":0.0707,"payout":0.5409,"beta":0.263,"cuts_sinds_2010":0,"mcap":51922894848,"r":0.07,"g1":0.0748,"fair":21.164,"pv_div":7.438,"pv_terminal":13.726,"koopprijs":17.714,"mos":0.163,"kwaliteit":79,"checks":{"payout":12,"fcf_dekking":1.7,"netdebt_ebitda":2.64,"verlagingen":0},"upside":-0.2893,"korting_tov_koop":-0.4052,"yield_nu":0.0252,"yoc_koop":0.0424,"d0_norm":0.75192,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.8082],[2027,0.8686]]},{"ticker":"HYDRA.AS","naam":"Hydratec Industries NV","sector":"Industrials","koers":270.0,"valuta":"EUR","d0":6.0,"g3":0.0887,"g5":null,"payout":0.3763,"beta":0.451,"cuts_sinds_2010":2,"mcap":350958976,"r":0.07,"g1":0.0887,"fair":183.034,"pv_div":63.128,"pv_terminal":119.906,"koopprijs":160.338,"mos":0.124,"kwaliteit":92,"checks":{"payout":20,"fcf_dekking":4.79,"netdebt_ebitda":-1.91,"verlagingen":2},"upside":-0.3221,"korting_tov_koop":-0.4062,"yield_nu":0.0222,"yoc_koop":0.0374,"d0_norm":6.0,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,6.5322],[2027,7.1116]]},{"ticker":"PORF.AS","naam":"B.V. Delftsch Aardewerkfabriek \"De Porceleyne Fles Anno 1653\"","sector":"Consumer Defensive","koers":12.8,"valuta":"EUR","d0":0.55,"g3":null,"g5":null,"payout":0.96489996,"beta":0.173,"cuts_sinds_2010":0,"mcap":13274407,"r":0.07,"g1":0.02,"fair":11.22,"pv_div":4.267,"pv_terminal":6.953,"koopprijs":7.405,"mos":0.34,"kwaliteit":20,"checks":{"payout":-10,"fcf_dekking":-3.76,"netdebt_ebitda":13.67,"verlagingen":0},"upside":-0.1234,"korting_tov_koop":-0.4215,"yield_nu":0.043,"yoc_koop":0.0743,"d0_norm":0.55,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.561],[2027,0.5722]]},{"ticker":"PHIA.AS","naam":"Koninklijke Philips N.V.","sector":"Healthcare","koers":23.66,"valuta":"EUR","d0":0.85,"g3":0.0261,"g5":null,"payout":0.7456,"beta":0.91,"cuts_sinds_2010":0,"mcap":23125934080,"r":0.0755,"g1":0.0261,"fair":16.189,"pv_div":6.6,"pv_terminal":9.589,"koopprijs":13.647,"mos":0.157,"kwaliteit":81,"checks":{"payout":4,"fcf_dekking":1.84,"netdebt_ebitda":2.35,"verlagingen":0},"upside":-0.3158,"korting_tov_koop":-0.4232,"yield_nu":0.0359,"yoc_koop":0.0623,"d0_norm":0.85,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.8722],[2027,0.8949]]},{"ticker":"IMCD.AS","naam":"IMCD N.V.","sector":"Basic Materials","koers":97.94,"valuta":"EUR","d0":2.15,"g3":0.0989,"g5":0.1903,"payout":0.4653,"beta":0.963,"cuts_sinds_2010":2,"mcap":5781675520,"r":0.0781,"g1":0.12,"fair":66.735,"pv_div":24.9,"pv_terminal":41.835,"koopprijs":55.457,"mos":0.169,"kwaliteit":77,"checks":{"payout":20,"fcf_dekking":2.1,"netdebt_ebitda":3.02,"verlagingen":2},"upside":-0.3186,"korting_tov_koop":-0.4338,"yield_nu":0.022,"yoc_koop":0.0388,"d0_norm":2.15,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.408],[2027,2.697]]},{"ticker":"FAGR.BR","naam":"Fagron NV","sector":"Healthcare","koers":22.5,"valuta":"EUR","d0":0.35,"g3":0.2051,"g5":0.3434,"payout":0.32,"beta":0.381,"cuts_sinds_2010":2,"mcap":1650301440,"r":0.07,"g1":0.12,"fair":12.775,"pv_div":4.23,"pv_terminal":8.545,"koopprijs":10.616,"mos":0.169,"kwaliteit":77,"checks":{"payout":20,"fcf_dekking":2.62,"netdebt_ebitda":2.9,"verlagingen":2},"upside":-0.4322,"korting_tov_koop":-0.5282,"yield_nu":0.0156,"yoc_koop":0.033,"d0_norm":0.35,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.392],[2027,0.439]]},{"ticker":"CRBN.AS","naam":"Corbion N.V.","sector":"Basic Materials","koers":20.02,"valuta":"EUR","d0":0.64,"g3":0.0455,"g5":0.0271,"payout":0.6038,"beta":0.93,"cuts_sinds_2010":5,"mcap":1154190208,"r":0.0765,"g1":0.0363,"fair":12.704,"pv_div":5.173,"pv_terminal":7.531,"koopprijs":8.651,"mos":0.319,"kwaliteit":27,"checks":{"payout":12,"fcf_dekking":-1.85,"netdebt_ebitda":2.84,"verlagingen":5},"upside":-0.3655,"korting_tov_koop":-0.5679,"yield_nu":0.032,"yoc_koop":0.074,"d0_norm":0.64,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.6632],[2027,0.6873]]},{"ticker":"PNL.AS","naam":"PostNL N.V.","sector":"Industrials","koers":0.9145,"valuta":"EUR","d0":0.04,"g3":-0.557,"g5":null,"payout":1.0526,"beta":0.614,"cuts_sinds_2010":5,"mcap":465188448,"r":0.07,"g1":-0.05,"fair":0.536,"pv_div":0.228,"pv_terminal":0.308,"koopprijs":0.37,"mos":0.31,"kwaliteit":30,"checks":{"payout":-10,"fcf_dekking":6.16,"netdebt_ebitda":4.53,"verlagingen":5},"upside":-0.4141,"korting_tov_koop":-0.5957,"yield_nu":0.0437,"yoc_koop":0.1082,"d0_norm":0.04,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.038],[2027,0.0361]]},{"ticker":"VLK.AS","naam":"Van Lanschot Kempen NV","sector":"Financial Services","koers":65.95,"valuta":"EUR","d0":2.75,"g3":-0.0772,"g5":null,"payout":0.7925,"beta":0.775,"cuts_sinds_2010":4,"mcap":2784611840,"r":0.07,"g1":-0.05,"fair":36.839,"pv_div":15.662,"pv_terminal":21.177,"koopprijs":26.413,"mos":0.283,"kwaliteit":39,"checks":{"payout":4,"verlagingen":4},"upside":-0.4414,"korting_tov_koop":-0.5995,"yield_nu":0.0417,"yoc_koop":0.1041,"d0_norm":2.75,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.6125],[2027,2.4819]]},{"ticker":"SBMO.AS","naam":"SBM Offshore N.V.","sector":"Energy","koers":35.54,"valuta":"EUR","d0":0.8606,"g3":-0.0198,"g5":0.0293,"payout":0.109799996,"beta":0.644,"cuts_sinds_2010":3,"mcap":5862556160,"r":0.07,"g1":0.0047,"fair":16.032,"pv_div":6.241,"pv_terminal":9.791,"koopprijs":12.986,"mos":0.19,"kwaliteit":70,"checks":{"payout":20,"fcf_dekking":14.51,"netdebt_ebitda":3.26,"verlagingen":3},"upside":-0.5489,"korting_tov_koop":-0.6346,"yield_nu":0.0242,"yoc_koop":0.0663,"d0_norm":0.8606,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.8647],[2027,0.8688]]},{"ticker":"BAMNB.AS","naam":"Koninklijke BAM Groep nv","sector":"Industrials","koers":12.03,"valuta":"EUR","d0":0.25,"g3":null,"g5":null,"payout":0.32970002,"beta":0.665,"cuts_sinds_2010":5,"mcap":3124477440,"r":0.07,"g1":0.02,"fair":5.1,"pv_div":1.94,"pv_terminal":3.16,"koopprijs":4.36,"mos":0.145,"kwaliteit":85,"checks":{"payout":20,"fcf_dekking":6.29,"netdebt_ebitda":-0.9,"verlagingen":5},"upside":-0.5761,"korting_tov_koop":-0.6375,"yield_nu":0.0208,"yoc_koop":0.0573,"d0_norm":0.25,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.255],[2027,0.2601]]},{"ticker":"TWEKA.AS","naam":"TKH Group N.V.","sector":"Technology","koers":52.2,"valuta":"EUR","d0":1.5,"g3":0.0,"g5":0.0,"payout":0.42060003,"beta":null,"cuts_sinds_2010":3,"mcap":2081945728,"r":0.08,"g1":0.0,"fair":22.708,"pv_div":10.172,"pv_terminal":12.536,"koopprijs":17.849,"mos":0.214,"kwaliteit":62,"checks":{"payout":20,"fcf_dekking":1.71,"netdebt_ebitda":2.65,"verlagingen":3},"upside":-0.565,"korting_tov_koop":-0.6581,"yield_nu":0.0287,"yoc_koop":0.084,"d0_norm":1.5,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.5],[2027,1.5]]},{"ticker":"AKZA.AS","naam":"Akzo Nobel N.V.","sector":"Basic Materials","koers":62.26,"valuta":"EUR","d0":1.98,"g3":0.0,"g5":0.0062,"payout":0.53220004,"beta":1.178,"cuts_sinds_2010":3,"mcap":10671364096,"r":0.0889,"g1":0.0031,"fair":26.639,"pv_div":13.074,"pv_terminal":13.565,"koopprijs":20.938,"mos":0.214,"kwaliteit":62,"checks":{"payout":12,"fcf_dekking":2.43,"netdebt_ebitda":2.93,"verlagingen":3},"upside":-0.5721,"korting_tov_koop":-0.6637,"yield_nu":0.0318,"yoc_koop":0.0946,"d0_norm":1.98,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.9861],[2027,1.9923]]},{"ticker":"RAND.AS","naam":"Randstad N.V.","sector":"Industrials","koers":39.39,"valuta":"EUR","d0":1.62,"g3":-0.3132,"g5":null,"payout":0.91010004,"beta":0.97,"cuts_sinds_2010":4,"mcap":6911001088,"r":0.0785,"g1":-0.05,"fair":18.744,"pv_div":8.893,"pv_terminal":9.851,"koopprijs":12.596,"mos":0.328,"kwaliteit":24,"checks":{"payout":-10,"fcf_dekking":1.27,"netdebt_ebitda":2.89,"verlagingen":4},"upside":-0.5241,"korting_tov_koop":-0.6802,"yield_nu":0.0411,"yoc_koop":0.1286,"d0_norm":1.62,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.539],[2027,1.462]]},{"ticker":"APAM.AS","naam":"Aperam S.A.","sector":"Basic Materials","koers":47.42,"valuta":"EUR","d0":2.0,"g3":0.0,"g5":0.0271,"payout":1.1429,"beta":1.822,"cuts_sinds_2010":0,"mcap":3436232448,"r":0.12,"g1":0.0135,"fair":19.724,"pv_div":12.065,"pv_terminal":7.659,"koopprijs":15.089,"mos":0.235,"kwaliteit":55,"checks":{"payout":-20,"fcf_dekking":2.26,"netdebt_ebitda":3.47,"verlagingen":0},"upside":-0.5841,"korting_tov_koop":-0.6818,"yield_nu":0.0422,"yoc_koop":0.1325,"d0_norm":2.0,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.0271],[2027,2.0546]]},{"ticker":"DSFIR.AS","naam":"DSM-Firmenich AG","sector":"Basic Materials","koers":89.8,"valuta":"EUR","d0":2.5,"g3":null,"g5":null,"payout":1.7857001,"beta":0.564,"cuts_sinds_2010":0,"mcap":22133698560,"r":0.07,"g1":0.02,"fair":42.84,"pv_div":16.293,"pv_terminal":26.547,"koopprijs":28.274,"mos":0.34,"kwaliteit":20,"checks":{"payout":-20,"fcf_dekking":-0.23,"netdebt_ebitda":3.4,"verlagingen":0},"upside":-0.5229,"korting_tov_koop":-0.6851,"yield_nu":0.0234,"yoc_koop":0.0743,"d0_norm":2.1,"special_div":true,"vlag":null,"handmatig":false,"pad":[[2026,2.142],[2027,2.1848]]},{"ticker":"HEIJM.AS","naam":"Koninklijke Heijmans N.V.","sector":"Industrials","koers":91.5,"valuta":"EUR","d0":1.64,"g3":0.2306,"g5":null,"payout":0.45229998,"beta":1.327,"cuts_sinds_2010":3,"mcap":2514237440,"r":0.0964,"g1":0.12,"fair":32.887,"pv_div":15.036,"pv_terminal":17.851,"koopprijs":28.118,"mos":0.145,"kwaliteit":85,"checks":{"payout":20,"fcf_dekking":6.01,"netdebt_ebitda":-0.25,"verlagingen":3},"upside":-0.6406,"korting_tov_koop":-0.6927,"yield_nu":0.0156,"yoc_koop":0.0506,"d0_norm":1.424,"special_div":true,"vlag":null,"handmatig":false,"pad":[[2026,1.5949],[2027,1.7863]]},{"ticker":"HAL.AS","naam":"HAL Trust","sector":"Financial Services","koers":164.8,"valuta":"EUR","d0":2.9,"g3":0.0197,"g5":0.0161,"payout":0.16399999,"beta":0.655,"cuts_sinds_2010":6,"mcap":14889704448,"r":0.07,"g1":0.0179,"fair":58.427,"pv_div":22.292,"pv_terminal":36.135,"koopprijs":49.955,"mos":0.145,"kwaliteit":85,"checks":{"payout":20,"fcf_dekking":5.66,"netdebt_ebitda":-0.07,"verlagingen":6},"upside":-0.6455,"korting_tov_koop":-0.6969,"yield_nu":0.0176,"yoc_koop":0.0581,"d0_norm":2.9,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,2.9519],[2027,3.0047]]},{"ticker":"ARCAD.AS","naam":"Arcadis NV","sector":"Industrials","koers":43.38,"valuta":"EUR","d0":1.0,"g3":-0.0837,"g5":null,"payout":0.45060003,"beta":0.725,"cuts_sinds_2010":2,"mcap":3696244992,"r":0.07,"g1":-0.05,"fair":13.396,"pv_div":5.695,"pv_terminal":7.701,"koopprijs":11.132,"mos":0.169,"kwaliteit":77,"checks":{"payout":20,"fcf_dekking":3.13,"netdebt_ebitda":3.08,"verlagingen":2},"upside":-0.6912,"korting_tov_koop":-0.7434,"yield_nu":0.0231,"yoc_koop":0.0898,"d0_norm":1.0,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,0.95],[2027,0.9025]]},{"ticker":"AALB.AS","naam":"Aalberts N.V.","sector":"Industrials","koers":43.84,"valuta":"EUR","d0":1.13,"g3":-0.1185,"g5":0.0715,"payout":0.8273,"beta":1.318,"cuts_sinds_2010":2,"mcap":4675284992,"r":0.0959,"g1":-0.0235,"fair":11.92,"pv_div":6.456,"pv_terminal":5.465,"koopprijs":9.405,"mos":0.211,"kwaliteit":63,"checks":{"payout":4,"fcf_dekking":1.85,"netdebt_ebitda":2.08,"verlagingen":2},"upside":-0.7281,"korting_tov_koop":-0.7855,"yield_nu":0.0258,"yoc_koop":0.1201,"d0_norm":1.13,"special_div":false,"vlag":null,"handmatig":false,"pad":[[2026,1.1034],[2027,1.0775]]},{"ticker":"MT.AS","naam":"ArcelorMittal S.A.","sector":"Basic Materials","koers":63.74,"valuta":"EUR","d0":0.47525,"g3":0.1312,"g5":null,"payout":0.24159999,"beta":1.753,"cuts_sinds_2010":2,"mcap":48062619648,"r":0.1177,"g1":0.12,"fair":8.368,"pv_div":4.525,"pv_terminal":3.843,"koopprijs":6.326,"mos":0.244,"kwaliteit":52,"checks":{"payout":20,"fcf_dekking":-2.17,"netdebt_ebitda":1.76,"verlagingen":2},"upside":-0.8687,"korting_tov_koop":-0.9008,"yield_nu":0.0075,"yoc_koop":0.0751,"d0_norm":0.47525,"special_div":false,"vlag":"controleer","handmatig":false,"pad":[[2026,0.5323],[2027,0.5962]]},{"ticker":"FLOW.AS","naam":"Flow Traders Ltd.","sector":"Financial Services","koers":27.56,"valuta":"EUR","d0":0.15,"g3":null,"g5":null,"payout":0.0,"beta":0.124,"cuts_sinds_2010":5,"mcap":1214598528,"r":0.07,"g1":0.02,"fair":3.06,"pv_div":1.164,"pv_terminal":1.896,"koopprijs":2.616,"mos":0.145,"kwaliteit":85,"checks":{"payout":20,"fcf_dekking":170.76,"netdebt_ebitda":-16.76,"verlagingen":5},"upside":-0.889,"korting_tov_koop":-0.9051,"yield_nu":0.0054,"yoc_koop":0.0573,"d0_norm":0.15,"special_div":false,"vlag":"controleer","handmatig":false,"pad":[[2026,0.153],[2027,0.1561]]},{"ticker":"PRX.AS","naam":"Prosus N.V.","sector":"Consumer Cyclical","koers":37.395,"valuta":"EUR","d0":0.2,"g3":0.4603,"g5":0.317,"payout":0.044299997,"beta":0.789,"cuts_sinds_2010":0,"mcap":79680028672,"r":0.07,"g1":0.12,"fair":4.088,"pv_div":1.354,"pv_terminal":2.734,"koopprijs":3.52,"mos":0.139,"kwaliteit":87,"checks":{"payout":20,"fcf_dekking":1.99,"netdebt_ebitda":3.15,"verlagingen":0},"upside":-0.8907,"korting_tov_koop":-0.9059,"yield_nu":0.003,"yoc_koop":0.0318,"d0_norm":0.112,"special_div":true,"vlag":"controleer","handmatig":false,"pad":[[2026,0.1254],[2027,0.1405]]},{"ticker":"BESI.AS","naam":"BE Semiconductor Industries N.V.","sector":"Technology","koers":233.5,"valuta":"EUR","d0":2.18,"g3":-0.1317,"g5":0.1663,"payout":0.6031,"beta":1.336,"cuts_sinds_2010":5,"mcap":18485790720,"r":0.0968,"g1":0.0173,"fair":28.524,"pv_div":14.772,"pv_terminal":13.752,"koopprijs":20.708,"mos":0.274,"kwaliteit":42,"checks":{"payout":12,"fcf_dekking":1.0,"netdebt_ebitda":-0.54,"verlagingen":5},"upside":-0.8778,"korting_tov_koop":-0.9113,"yield_nu":0.0093,"yoc_koop":0.1053,"d0_norm":2.18,"special_div":false,"vlag":"controleer","handmatig":false,"pad":[[2026,2.2177],[2027,2.2561]]},{"ticker":"ASML.AS","naam":"ASML Holding N.V.","sector":"Technology","koers":1579.6,"valuta":"EUR","d0":6.56,"g3":0.0062,"g5":0.208,"payout":0.2952,"beta":1.365,"cuts_sinds_2010":3,"mcap":606724358144,"r":0.0983,"g1":0.1071,"fair":137.579,"pv_div":64.921,"pv_terminal":72.658,"koopprijs":117.63,"mos":0.145,"kwaliteit":85,"checks":{"payout":20,"fcf_dekking":3.35,"netdebt_ebitda":-0.41,"verlagingen":3},"upside":-0.9129,"korting_tov_koop":-0.9255,"yield_nu":0.0042,"yoc_koop":0.0558,"d0_norm":6.56,"special_div":false,"vlag":"controleer","handmatig":false,"pad":[[2026,7.2626],[2027,8.0404]]},{"ticker":"FUR.AS","naam":"Fugro N.V.","sector":"Energy","koers":9.105,"valuta":"EUR","d0":0.75,"g3":null,"g5":null,"payout":0.6522,"beta":0.716,"cuts_sinds_2010":2,"mcap":1013699328,"r":0.07,"g1":0.02,"fair":0.616,"pv_div":0.234,"pv_terminal":0.382,"koopprijs":0.451,"mos":0.268,"kwaliteit":44,"checks":{"payout":12,"fcf_dekking":0.03,"netdebt_ebitda":2.25,"verlagingen":2},"upside":-0.9323,"korting_tov_koop":-0.9505,"yield_nu":0.0033,"yoc_koop":0.067,"d0_norm":0.03021,"special_div":true,"vlag":"controleer","handmatig":false,"pad":[[2026,0.0308],[2027,0.0314]]},{"ticker":"ASM.AS","naam":"ASM International NV","sector":"Technology","koers":893.8,"valuta":"EUR","d0":3.0,"g3":0.0627,"g5":0.0845,"payout":0.1487,"beta":1.523,"cuts_sinds_2010":2,"mcap":43779706880,"r":0.1061,"g1":0.0736,"fair":47.396,"pv_div":24.777,"pv_terminal":22.619,"koopprijs":40.381,"mos":0.148,"kwaliteit":84,"checks":{"payout":20,"fcf_dekking":1.6,"netdebt_ebitda":-0.96,"verlagingen":2},"upside":-0.947,"korting_tov_koop":-0.9548,"yield_nu":0.0034,"yoc_koop":0.0743,"d0_norm":3.0,"special_div":false,"vlag":"controleer","handmatig":false,"pad":[[2026,3.2208],[2027,3.4579]]},{"ticker":"AMG.AS","naam":"AMG Critical Materials N.V.","sector":"Basic Materials","koers":34.4,"valuta":"EUR","d0":0.4,"g3":-0.1264,"g5":0.0592,"payout":5.1308002,"beta":1.053,"cuts_sinds_2010":3,"mcap":1224161920,"r":0.0827,"g1":-0.0336,"fair":1.843,"pv_div":0.893,"pv_terminal":0.949,"koopprijs":1.133,"mos":0.385,"kwaliteit":5,"checks":{"payout":-20,"fcf_dekking":0.26,"netdebt_ebitda":1.82,"verlagingen":3},"upside":-0.9464,"korting_tov_koop":-0.9671,"yield_nu":0.0045,"yoc_koop":0.1361,"d0_norm":0.15427,"special_div":true,"vlag":"controleer","handmatig":false,"pad":[[2026,0.1491],[2027,0.1441]]}]};
+const A = DATA.aandelen, P = DATA.params;
+const fmt=(n,d=2)=>n==null?'—':n.toLocaleString('nl-NL',{minimumFractionDigits:d,maximumFractionDigits:d});
+const pct=(n,d=1)=>n==null?'—':(n*100).toLocaleString('nl-NL',{minimumFractionDigits:d,maximumFractionDigits:d})+'%';
+const CUR=new Date().getFullYear();
+
+let O={r:null,g:null,m:null,h:P.n2}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', open=null;
+
+/* herwaardeer met de actuele schuifstanden */
+function waardeer(a){
+  const r = O.r ?? a.r, gt = O.g ?? P.g_term, h = O.h;
+  let g1 = Math.min(a.g1, r-0.005);
+  if (r <= gt+0.005) return {...a, fair:null, koopprijs:null, ongeldig:true};
+  const expl = a.pad.filter(p=>a.handmatig && p[0]<=CUR+2 && p[1]!==null);
+  const n1 = Math.max(3, Math.round(h*0.5));
+  let pv=0, d=a.d0_norm, t=0, rungen=[];
+  const handm = a.handmatig ? a.pad.slice(0,2) : [];
+  for(const [jr,dv] of handm){ t++; d=dv; const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([jr,d,cw,true]); }
+  while(t<n1){ t++; d*=(1+g1); const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([CUR+t-1,d,cw,false]); }
+  const fade=Math.max(1,h-n1);
+  for(let i=1;i<=fade;i++){ t++; const g=g1+(gt-g1)*(i/fade); d*=(1+g);
+    const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([CUR+t-1,d,cw,false]); }
+  const tv=d*(1+gt)/(r-gt), pvtv=tv/Math.pow(1+r,t), fair=pv+pvtv;
+  const mos = O.m ?? a.mos;
+  const koop = fair*(1-mos);
+  return {...a, r, g1, fair, pv_div:pv, pv_terminal:pvtv, tv, koopprijs:koop, mos,
+    upside:(fair-a.koers)/a.koers, korting_tov_koop:(koop-a.koers)/a.koers,
+    yoc_koop:a.d0_norm/koop, rungen, horizon:t};
+}
+
+function zichtbaar(){
+  let rs = A.map(waardeer).filter(a=>!a.ongeldig);
+  if(q){const s=q.toLowerCase(); rs=rs.filter(a=>(a.naam+' '+a.ticker).toLowerCase().includes(s));}
+  if(filters.has('koop')) rs=rs.filter(a=>a.korting_tov_koop>0);
+  if(filters.has('kwaliteit')) rs=rs.filter(a=>a.kwaliteit>=60);
+  if(filters.has('stabiel')) rs=rs.filter(a=>a.cuts_sinds_2010===0);
+  if(filters.has('vlag')) rs=rs.filter(a=>!a.vlag);
+  rs.sort((x,y)=>{const a=x[sortKey],b=y[sortKey];
+    if(typeof a==='string') return sortDir*a.localeCompare(b,'nl');
+    return sortDir*(((a??-9e9))-((b??-9e9)));});
+  return rs;
+}
+
+function kwKlas(k){return k>=65?'a':k>=45?'b':'c';}
+
+function ladder(a){
+  const max=Math.max(...a.rungen.map(r=>r[1]), a.tv/12);
+  const rows=a.rungen.slice(0,12).map(([jr,nom,cw,vast])=>`
+    <div class="rung"><span class="jr">${jr}${vast?'*':''}</span>
+      <span class="bar"><span class="nom" style="width:${(nom/max*100).toFixed(1)}%"></span>
+      <span class="cw" style="width:${(cw/max*100).toFixed(1)}%"></span></span>
+      <span class="bd">${fmt(cw,3)}</span></div>`).join('');
+  const tvw=Math.min(100,(a.pv_terminal/(max*3))*100);
+  return rows+`<div class="rung term"><span class="jr">na ${CUR+a.horizon-1}</span>
+    <span class="bar"><span class="cw" style="width:${tvw.toFixed(1)}%"></span></span>
+    <span class="bd">${fmt(a.pv_terminal,3)}</span></div>`;
+}
+
+function detail(a){
+  const k=a.koers, onder=a.korting_tov_koop>0, tussen=!onder&&a.upside>0;
+  const cls=onder?'koop':tussen?'wacht':'duur';
+  const tekst = onder
+    ? `De koers ligt ${pct(a.korting_tov_koop,1).replace('-','')} onder je koopprijs. Je koopt de toekomstige dividenden met korting en start op ${pct(a.d0_norm/k)} aanvangsrendement.`
+    : tussen
+    ? `De koers zit onder de contante waarde, maar boven je koopprijs. Wachten tot ${fmt(a.koopprijs)} levert je de veiligheidsmarge van ${pct(a.mos,0)} die bij kwaliteitsscore ${a.kwaliteit} hoort.`
+    : `De markt betaalt meer dan het dividend rechtvaardigt. Bij deze koers zit ${pct(-a.upside)} van je rendement in koerswinst die dit model niet ziet.`;
+  const c=a.checks||{};
+  return `<td colspan="10"><div class="d-in">
+    <div>
+      <h3>${a.naam}</h3>
+      <div class="d-sub">${a.ticker} · ${a.sector||'sector onbekend'} · dividend per aandeel, nominaal en contant</div>
+      ${ladder(a)}
+      <div class="ladder-legend">
+        <span><span class="sw" style="background:rgba(78,144,112,.34)"></span>nominaal uitgekeerd</span>
+        <span><span class="sw" style="background:var(--gulden-licht)"></span>waarde vandaag</span>
+        <span><span class="sw" style="background:var(--koper)"></span>alles daarna</span>
+      </div>
+      ${a.handmatig?'<div class="let-op">* vastgezet op bedrijfsguidance uit overrides.json</div>':''}
+    </div>
+    <div>
+      <div class="uitkomst">
+        <div class="rij"><span class="lbl">Koers nu</span><span class="n">${fmt(k)}</span></div>
+        <div class="rij"><span class="lbl">Contante waarde</span><span class="n">${fmt(a.fair)}</span></div>
+        <div class="rij"><span class="lbl">Koopprijs · marge ${pct(a.mos,0)}</span><span class="n ${onder?'pos':''}">${fmt(a.koopprijs)}</span></div>
+        <div class="rij"><span class="lbl">Rendement op koopprijs</span><span class="n">${pct(a.yoc_koop)}</span></div>
+      </div>
+      <div class="oordeel ${cls}">${tekst}</div>
+      <dl class="kv">
+        <dt>Vereist rendement</dt><dd>${pct(a.r)}</dd>
+        <dt>Dividendgroei fase 1</dt><dd>${pct(a.g1)}</dd>
+        <dt>Groei 3j / 5j historisch</dt><dd>${pct(a.g3)} / ${pct(a.g5)}</dd>
+        <dt>Waarde uit eindwaarde</dt><dd>${pct(a.pv_terminal/a.fair,0)}</dd>
+        <dt>Payout ratio</dt><dd>${pct(a.payout,0)}</dd>
+        <dt>Dekking uit vrije kasstroom</dt><dd>${c.fcf_dekking!=null?fmt(c.fcf_dekking)+'×':'—'}</dd>
+        <dt>Nettoschuld / ebitda</dt><dd>${c.netdebt_ebitda!=null?fmt(c.netdebt_ebitda)+'×':'—'}</dd>
+        <dt>Verlagingen sinds 2010</dt><dd>${a.cuts_sinds_2010}</dd>
+        <dt>Kwaliteitsscore</dt><dd><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></dd>
+      </dl>
+      ${a.special_div?'<div class="let-op">Dividend genormaliseerd: de laatste uitkering week sterk af van het patroon.</div>':''}
+      ${a.vlag?'<div class="let-op">Uitkomst wijkt extreem af van de koers. Controleer de dividendhistorie met de hand.</div>':''}
+    </div></div></td>`;
+}
+
+function teken(){
+  const rs=zichtbaar(), tb=document.getElementById('rijen');
+  tb.innerHTML = rs.map(a=>{
+    const d=a.korting_tov_koop;
+    return `<tr tabindex="0" data-t="${a.ticker}">
+      <td class="naam">${a.naam}${a.vlag?'<span class="vlag" title="controleer"></span>':''}<small>${a.ticker}</small></td>
+      <td class="tk">${(a.sector||'—').slice(0,18)}</td>
+      <td>${fmt(a.koers)}</td><td>${pct(a.yield_nu)}</td>
+      <td>${fmt(a.d0_norm,3)}</td><td>${pct(a.g1)}</td>
+      <td>${fmt(a.fair)}</td><td>${fmt(a.koopprijs)}</td>
+      <td class="${d>0?'pos':'neg'}">${d>0?'+':''}${pct(d,0)}</td>
+      <td><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></td>
+    </tr>` + (open===a.ticker?`<tr class="detail">${detail(a)}</tr>`:'');
+  }).join('');
+  document.getElementById('m-aantal').textContent = rs.length+' van '+A.length+' aandelen';
+  tb.querySelectorAll('tr[data-t]').forEach(tr=>{
+    const go=()=>{open = open===tr.dataset.t?null:tr.dataset.t; teken();};
+    tr.onclick=go; tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};
+  });
+}
+
+function labels(){
+  document.getElementById('v-r').textContent = O.r==null?'per aandeel':pct(O.r,1);
+  document.getElementById('v-g').textContent = pct(O.g ?? P.g_term,2);
+  document.getElementById('v-m').textContent = O.m==null?'per kwaliteit':pct(O.m,0);
+  document.getElementById('v-h').textContent = O.h+' jaar';
+}
+const S=(id,f)=>document.getElementById(id).addEventListener('input',e=>{f(+e.target.value);labels();teken();});
+S('s-r',v=>O.r=v/100); S('s-g',v=>O.g=v/100); S('s-m',v=>O.m=v/100); S('s-h',v=>O.h=v);
+document.getElementById('reset').onclick=()=>{O={r:null,g:null,m:null,h:P.n2};
+  document.getElementById('s-r').value=8;document.getElementById('s-g').value=P.g_term*100;
+  document.getElementById('s-m').value=20;document.getElementById('s-h').value=P.n2;labels();teken();};
+document.getElementById('zoek').addEventListener('input',e=>{q=e.target.value;teken();});
+document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
+  const f=c.dataset.f; filters.has(f)?filters.delete(f):filters.add(f);
+  c.setAttribute('aria-pressed',filters.has(f)); teken();});
+document.querySelectorAll('thead th').forEach(th=>th.onclick=()=>{
+  const k=th.dataset.s; sortDir = sortKey===k ? -sortDir : -1; sortKey=k;
+  document.querySelectorAll('thead th').forEach(x=>x.classList.remove('sorted'));
+  th.classList.add('sorted'); teken();});
+
+document.getElementById('s-r').value=8; document.getElementById('s-g').value=P.g_term*100;
+document.getElementById('s-m').value=20; document.getElementById('s-h').value=P.n2;
+document.getElementById('m-tijd').textContent='Bijgewerkt '+new Date(DATA.bijgewerkt).toLocaleString('nl-NL',{dateStyle:'long',timeStyle:'short'});
+labels(); teken();
+</script>
+</body>
+</html>
