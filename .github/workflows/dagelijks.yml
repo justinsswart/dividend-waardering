@@ -13,6 +13,10 @@ jobs:
         with: {python-version: "3.12"}
       - run: pip install yfinance pandas
       - run: python fetch.py
+      - run: python agenda.py
+        continue-on-error: true
+      - run: python guidance.py --verouderd
+        continue-on-error: true
       - run: python valuate.py
       - run: python nieuws.py
         continue-on-error: true
@@ -21,6 +25,6 @@ jobs:
         run: |
           git config user.name "waarderingsbot"
           git config user.email "bot@users.noreply.github.com"
-          git add index.html data.json raw.json signalen.json
+          git add index.html data.json raw.json signalen.json voorstellen.json agenda.json
           git diff --staged --quiet || git commit -m "Herwaardering $(date +%F)"
           git push

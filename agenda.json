@@ -1,0 +1,745 @@
+{
+ "bijgewerkt": "2026-08-15",
+ "bedrijven": {
+  "AALB.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-23",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 192,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ABN.AS": {
+   "laatste_cijfers": "2026-08-11",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-11-11",
+   "volgende_soort": "Q3",
+   "dagen_tot": 88,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
+   "status": "vers"
+  },
+  "ACOMO.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AD.AS": {
+   "laatste_cijfers": "2026-08-04",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-11-04",
+   "volgende_soort": "Q3",
+   "dagen_tot": 81,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "aholddelhaize.com/investors - payout ratio circa 40-50%",
+   "status": "vers"
+  },
+  "ADYEN.AS": {
+   "laatste_cijfers": "2021-03-09",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2027-02-11",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 180,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AF.PA": {
+   "laatste_cijfers": "2026-07-30",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-11-05",
+   "volgende_soort": "Q3",
+   "dagen_tot": 82,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AGN.AS": {
+   "laatste_cijfers": "2023-02-09",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2026-08-20",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 5,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AJAX.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AKZA.AS": {
+   "laatste_cijfers": "2026-07-21",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-21",
+   "volgende_soort": "Q3",
+   "dagen_tot": 67,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ALFEN.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-08-18",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 3,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ALX.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AMG.AS": {
+   "laatste_cijfers": "2023-11-08",
+   "laatste_soort": "Q3",
+   "volgende_cijfers": "2026-11-04",
+   "volgende_soort": "Q3",
+   "dagen_tot": 81,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "APAM.AS": {
+   "laatste_cijfers": "2025-07-31",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-11-06",
+   "volgende_soort": "Q3",
+   "dagen_tot": 83,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ARCAD.AS": {
+   "laatste_cijfers": "2016-02-18",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2027-02-18",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 187,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ASM.AS": {
+   "laatste_cijfers": "2026-07-28",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-27",
+   "volgende_soort": "Q3",
+   "dagen_tot": 73,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ASML.AS": {
+   "laatste_cijfers": "2026-07-13",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-14",
+   "volgende_soort": "Q3",
+   "dagen_tot": 60,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ASRNL.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-08-19",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 4,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AVTX.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "AXS.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "BAMNB.AS": {
+   "laatste_cijfers": "2014-08-21",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-02-18",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 187,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "BESI.AS": {
+   "laatste_cijfers": "2026-07-23",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-22",
+   "volgende_soort": "Q3",
+   "dagen_tot": 68,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "BEVER.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "BFIT.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-03-11",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 208,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "BRNL.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-11-06",
+   "volgende_soort": "Q3",
+   "dagen_tot": 83,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "CABKA.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-03-04",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 201,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "CMCOM.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "CRBN.AS": {
+   "laatste_cijfers": "2009-10-28",
+   "laatste_soort": "Q3",
+   "volgende_cijfers": "2027-02-26",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 195,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "CTPNV.AS": {
+   "laatste_cijfers": "2024-11-06",
+   "laatste_soort": "Q3",
+   "volgende_cijfers": "2026-10-29",
+   "volgende_soort": "Q3",
+   "dagen_tot": 75,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "DSFIR.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-18",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 187,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "EBUS.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ECMPA.AS": {
+   "laatste_cijfers": "2021-11-04",
+   "laatste_soort": "Q3",
+   "volgende_cijfers": "2026-08-27",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 12,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "ENVI.AS": {
+   "laatste_cijfers": "2026-08-11",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "EXO.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-09-22",
+   "volgende_soort": "Q3",
+   "dagen_tot": 38,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "FAGR.BR": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-11",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 180,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "FLOW.AS": {
+   "laatste_cijfers": "2026-07-30",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-29",
+   "volgende_soort": "Q3",
+   "dagen_tot": 75,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "FUR.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-03-04",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 201,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "HAL.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-08-27",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 12,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "HEIA.AS": {
+   "laatste_cijfers": "2014-08-20",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-02-10",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 179,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "HEIJM.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-19",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 188,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "HEIO.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-10",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 179,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "HOLCO.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "HYDRA.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "IMCD.AS": {
+   "laatste_cijfers": "2020-04-20",
+   "laatste_soort": "Q1",
+   "volgende_cijfers": "2026-11-05",
+   "volgende_soort": "Q3",
+   "dagen_tot": 82,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "INGA.AS": {
+   "laatste_cijfers": "2026-07-29",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-29",
+   "volgende_soort": "Q3",
+   "dagen_tot": 75,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "ing.com/investors/share-information/dividend-and-distribution-policy",
+   "status": "vers"
+  },
+  "INPST.AS": {
+   "laatste_cijfers": "2026-05-13",
+   "laatste_soort": "Q1",
+   "volgende_cijfers": "2026-08-31",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 16,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "KENDR.AS": {
+   "laatste_cijfers": "2017-11-08",
+   "laatste_soort": "Q3",
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "KPN.AS": {
+   "laatste_cijfers": "2026-07-15",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-28",
+   "volgende_soort": "Q3",
+   "dagen_tot": 74,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "ir.kpn.com/shareholder-center/dividends",
+   "status": "vers"
+  },
+  "LIGHT.AS": {
+   "laatste_cijfers": "2026-07-24",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-23",
+   "volgende_soort": "Q3",
+   "dagen_tot": 69,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "MT.AS": {
+   "laatste_cijfers": "2026-07-30",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-11-05",
+   "volgende_soort": "Q3",
+   "dagen_tot": 82,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "NEDAP.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "NEDSE.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "NN.AS": {
+   "laatste_cijfers": "2022-08-10",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-02-11",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 180,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "NSI.AS": {
+   "laatste_cijfers": "2013-08-10",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-01-28",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 166,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "OCI.AS": {
+   "laatste_cijfers": "2024-08-02",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-09-04",
+   "volgende_soort": "Q3",
+   "dagen_tot": 20,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "PHARM.AS": {
+   "laatste_cijfers": "2026-03-12",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2026-11-05",
+   "volgende_soort": "Q3",
+   "dagen_tot": 82,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "PHIA.AS": {
+   "laatste_cijfers": "2026-07-26",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-11-03",
+   "volgende_soort": "Q3",
+   "dagen_tot": 80,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "PNL.AS": {
+   "laatste_cijfers": "2025-02-23",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2026-10-26",
+   "volgende_soort": "Q3",
+   "dagen_tot": 72,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "PORF.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "PRX.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-11-25",
+   "volgende_soort": "Q3",
+   "dagen_tot": 102,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "RAND.AS": {
+   "laatste_cijfers": "2026-07-21",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-21",
+   "volgende_soort": "Q3",
+   "dagen_tot": 67,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "REN.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-11",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 180,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "SBMO.AS": {
+   "laatste_cijfers": "2011-03-04",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2027-02-18",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 187,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "SHELL.AS": {
+   "laatste_cijfers": "2026-07-30",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2026-10-29",
+   "volgende_soort": "Q3",
+   "dagen_tot": 75,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "shell.com/investors/dividends",
+   "status": "vers"
+  },
+  "SIFG.AS": {
+   "laatste_cijfers": "2019-03-21",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2027-03-12",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 209,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "SLIGR.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2027-02-04",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 173,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "TOM2.AS": {
+   "laatste_cijfers": "2024-10-11",
+   "laatste_soort": "Q3",
+   "volgende_cijfers": "2026-10-15",
+   "volgende_soort": "Q3",
+   "dagen_tot": 61,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "TWEKA.AS": {
+   "laatste_cijfers": "2009-08-27",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-03-04",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 201,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "UMG.AS": {
+   "laatste_cijfers": "2023-03-02",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2026-10-29",
+   "volgende_soort": "Q3",
+   "dagen_tot": 75,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "UNA.AS": {
+   "laatste_cijfers": "2021-07-22",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-02-09",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 178,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "VLK.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-08-27",
+   "volgende_soort": "halfjaarcijfers",
+   "dagen_tot": 12,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "VPK.AS": {
+   "laatste_cijfers": "2026-07-29",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-02-26",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 195,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "VVY.AS": {
+   "laatste_cijfers": null,
+   "laatste_soort": null,
+   "volgende_cijfers": "2026-11-03",
+   "volgende_soort": "Q3",
+   "dagen_tot": 80,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "WHA.AS": {
+   "laatste_cijfers": "2014-02-06",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2027-02-12",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 181,
+   "guidance_gecheckt": null,
+   "guidance_bron": null,
+   "status": "nooit"
+  },
+  "WKL.AS": {
+   "laatste_cijfers": "2008-02-27",
+   "laatste_soort": "jaarcijfers",
+   "volgende_cijfers": "2027-02-24",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 193,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
+   "status": "vers"
+  }
+ }
+}

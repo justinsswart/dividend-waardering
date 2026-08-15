@@ -1,0 +1,86 @@
+{
+ "KPN.AS": {
+  "url": "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
+  "fout": null,
+  "voorstel": {
+   "divs": {
+    "2026": 0.2,
+    "2027": 0.25
+   },
+   "g_na": null
+  },
+  "bewijs": [
+   {
+    "zin": "For 2026, KPN intends to pay a regular dividend of € 0.20 per share (+10% y-on-y) and execute a € 250m share buyback.",
+    "jaren": [
+     2026
+    ],
+    "bedragen": [
+     0.2
+    ],
+    "groei_pct": [
+     0.1
+    ]
+   },
+   {
+    "zin": "For 2027, dividend per share is expected to further grow by approximately 25% y-on-y to € 0.25.",
+    "jaren": [
+     2027
+    ],
+    "bedragen": [
+     0.25
+    ],
+    "groei_pct": [
+     0.25
+    ]
+   },
+   {
+    "zin": "This implies that for the years 2025-2027, Dividend Per Share is now expected to grow at a CAGR of ~14% vs.",
+    "jaren": [
+     2025,
+     2027
+    ],
+    "bedragen": [],
+    "groei_pct": [
+     0.14
+    ]
+   }
+  ],
+  "gecheckt": "2026-08-15"
+ },
+ "AGN.AS": {
+  "url": "https://www.aegon.com/investors/shareholders/dividend/",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "INGA.AS": {
+  "url": "https://www.ing.com/Investors/Share-information/Dividend.htm",
+  "fout": "HTTP Error 403: Forbidden",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "AD.AS": {
+  "url": "https://www.aholddelhaize.com/investors/share-information/dividend/",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "UNA.AS": {
+  "url": "https://www.unilever.com/investors/shareholder-centre/dividends/",
+  "fout": "HTTP Error 403: Forbidden",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "WKL.AS": {
+  "url": "https://www.wolterskluwer.com/en/investors/shareholder-information/dividend",
+  "fout": "HTTP Error 403: Forbidden",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ }
+}

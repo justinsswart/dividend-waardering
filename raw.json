@@ -1,5 +1,6 @@
 {
  "AALB.AS": {
+  "netto_inkoop": 28233333,
   "ticker": "AALB.AS",
   "naam": "Aalberts N.V.",
   "sector": "Industrials",
@@ -47,9 +48,10 @@
   "ebitda": 512700000,
   "yield_ttm": 2.59,
   "beta": 1.318,
-  "opgehaald": "2026-08-15T07:09:58Z"
+  "opgehaald": "2026-08-15T07:53:51Z"
  },
  "ABN.AS": {
+  "netto_inkoop": 416666667,
   "ticker": "ABN.AS",
   "naam": "ABN AMRO Bank N.V.",
   "sector": "Financial Services",
@@ -81,9 +83,10 @@
   "ebitda": null,
   "yield_ttm": 3.33,
   "beta": 0.733,
-  "opgehaald": "2026-08-15T07:09:58Z"
+  "opgehaald": "2026-08-15T07:53:51Z"
  },
  "ACOMO.AS": {
+  "netto_inkoop": -42000,
   "ticker": "ACOMO.AS",
   "naam": "Acomo N.V.",
   "sector": "Consumer Defensive",
@@ -129,9 +132,10 @@
   "ebitda": 113984000,
   "yield_ttm": 6.0,
   "beta": 0.259,
-  "opgehaald": "2026-08-15T07:09:59Z"
+  "opgehaald": "2026-08-15T07:53:52Z"
  },
  "AD.AS": {
+  "netto_inkoop": 1002333333,
   "ticker": "AD.AS",
   "naam": "Koninklijke Ahold Delhaize N.V.",
   "sector": "Consumer Defensive",
@@ -171,15 +175,16 @@
   "ebitda": 5388000256,
   "yield_ttm": 3.82,
   "beta": 0.334,
-  "opgehaald": "2026-08-15T07:10:00Z"
+  "opgehaald": "2026-08-15T07:53:53Z"
  },
  "ADYEN.AS": {
+  "netto_inkoop": -48314333,
   "ticker": "ADYEN.AS",
   "naam": "Adyen N.V.",
   "sector": "Technology",
   "koers": 1061.6,
   "valuta": "EUR",
-  "mcap": 33511182336,
+  "mcap": 33479352320,
   "div_hist": {},
   "d0": 0,
   "g3": null,
@@ -189,14 +194,15 @@
   "eps_fwd": 47.17986,
   "payout": 0.0,
   "fcf": null,
-  "shares": 31566677,
+  "shares": 31536692,
   "netdebt": 0,
   "ebitda": 1282953984,
   "yield_ttm": null,
   "beta": 1.86,
-  "opgehaald": "2026-08-15T07:10:01Z"
+  "opgehaald": "2026-08-15T07:53:53Z"
  },
  "AF.PA": {
+  "netto_inkoop": -17000000,
   "ticker": "AF.PA",
   "naam": "Air France-KLM SA",
   "sector": "Industrials",
@@ -227,15 +233,16 @@
   "ebitda": 3740000000,
   "yield_ttm": null,
   "beta": 1.315,
-  "opgehaald": "2026-08-15T07:10:01Z"
+  "opgehaald": "2026-08-15T07:53:54Z"
  },
  "AGN.AS": {
+  "netto_inkoop": 848666667,
   "ticker": "AGN.AS",
-  "naam": "Aegon Ltd.",
+  "naam": "AEGON",
   "sector": "Financial Services",
   "koers": 8.226,
   "valuta": "EUR",
-  "mcap": 12163094528,
+  "mcap": null,
   "div_hist": {
    "1999": 1.14,
    "2000": 1.29,
@@ -271,14 +278,15 @@
   "eps_fwd": 0.90922,
   "payout": 0.6333,
   "fcf": -204500000,
-  "shares": 1470418770,
+  "shares": null,
   "netdebt": 4803000128,
   "ebitda": null,
   "yield_ttm": 5.15,
   "beta": 0.623,
-  "opgehaald": "2026-08-15T07:10:02Z"
+  "opgehaald": "2026-08-15T07:53:55Z"
  },
  "AJAX.AS": {
+  "netto_inkoop": null,
   "ticker": "AJAX.AS",
   "naam": "AFC Ajax NV",
   "sector": "Communication Services",
@@ -305,9 +313,10 @@
   "ebitda": 30199000,
   "yield_ttm": null,
   "beta": null,
-  "opgehaald": "2026-08-15T07:10:03Z"
+  "opgehaald": "2026-08-15T07:53:55Z"
  },
  "AKZA.AS": {
+  "netto_inkoop": 0,
   "ticker": "AKZA.AS",
   "naam": "Akzo Nobel N.V.",
   "sector": "Basic Materials",
@@ -357,9 +366,10 @@
   "ebitda": 1068000000,
   "yield_ttm": 3.18,
   "beta": 1.178,
-  "opgehaald": "2026-08-15T07:10:04Z"
+  "opgehaald": "2026-08-15T07:53:56Z"
  },
  "ALFEN.AS": {
+  "netto_inkoop": 1064000,
   "ticker": "ALFEN.AS",
   "naam": "Alfen N.V.",
   "sector": "Industrials",
@@ -380,9 +390,10 @@
   "ebitda": 17824000,
   "yield_ttm": null,
   "beta": 1.546,
-  "opgehaald": "2026-08-15T07:10:05Z"
+  "opgehaald": "2026-08-15T07:53:57Z"
  },
  "ALX.AS": {
+  "netto_inkoop": null,
   "ticker": "ALX.AS",
   "naam": "Alumexx N.V.",
   "sector": "Consumer Cyclical",
@@ -403,9 +414,10 @@
   "ebitda": 2439000,
   "yield_ttm": null,
   "beta": 0.338,
-  "opgehaald": "2026-08-15T07:10:05Z"
+  "opgehaald": "2026-08-15T07:53:57Z"
  },
  "AMG.AS": {
+  "netto_inkoop": 2589333,
   "ticker": "AMG.AS",
   "naam": "AMG Critical Materials N.V.",
   "sector": "Basic Materials",
@@ -439,9 +451,10 @@
   "ebitda": 283684992,
   "yield_ttm": 1.19,
   "beta": 1.053,
-  "opgehaald": "2026-08-15T07:10:06Z"
+  "opgehaald": "2026-08-15T07:53:58Z"
  },
  "APAM.AS": {
+  "netto_inkoop": 0,
   "ticker": "APAM.AS",
   "naam": "Aperam S.A.",
   "sector": "Basic Materials",
@@ -476,9 +489,10 @@
   "ebitda": 286000000,
   "yield_ttm": 4.17,
   "beta": 1.822,
-  "opgehaald": "2026-08-15T07:10:07Z"
+  "opgehaald": "2026-08-15T07:53:59Z"
  },
  "ARCAD.AS": {
+  "netto_inkoop": 62000000,
   "ticker": "ARCAD.AS",
   "naam": "Arcadis NV",
   "sector": "Industrials",
@@ -527,9 +541,10 @@
   "ebitda": 341000000,
   "yield_ttm": 2.43,
   "beta": 0.725,
-  "opgehaald": "2026-08-15T07:10:08Z"
+  "opgehaald": "2026-08-15T07:53:59Z"
  },
  "ASM.AS": {
+  "netto_inkoop": 134521667,
   "ticker": "ASM.AS",
   "naam": "ASM International NV",
   "sector": "Technology",
@@ -568,9 +583,10 @@
   "ebitda": 1154800000,
   "yield_ttm": 0.36,
   "beta": 1.523,
-  "opgehaald": "2026-08-15T07:10:08Z"
+  "opgehaald": "2026-08-15T07:54:00Z"
  },
  "ASML.AS": {
+  "netto_inkoop": 2361433333,
   "ticker": "ASML.AS",
   "naam": "ASML Holding N.V.",
   "sector": "Technology",
@@ -612,9 +628,10 @@
   "ebitda": 13488400384,
   "yield_ttm": 0.48,
   "beta": 1.365,
-  "opgehaald": "2026-08-15T07:10:09Z"
+  "opgehaald": "2026-08-15T07:54:01Z"
  },
  "ASRNL.AS": {
+  "netto_inkoop": -48666667,
   "ticker": "ASRNL.AS",
   "naam": "ASR Nederland N.V.",
   "sector": "Financial Services",
@@ -646,9 +663,10 @@
   "ebitda": 6451999744,
   "yield_ttm": 4.87,
   "beta": 0.506,
-  "opgehaald": "2026-08-15T07:10:10Z"
+  "opgehaald": "2026-08-15T07:54:01Z"
  },
  "AVTX.AS": {
+  "netto_inkoop": -51084667,
   "ticker": "AVTX.AS",
   "naam": "Avantium N.V.",
   "sector": "Basic Materials",
@@ -669,9 +687,10 @@
   "ebitda": -38800000,
   "yield_ttm": null,
   "beta": 1.142,
-  "opgehaald": "2026-08-15T07:10:11Z"
+  "opgehaald": "2026-08-15T07:54:02Z"
  },
  "AXS.AS": {
+  "netto_inkoop": -4503000,
   "ticker": "AXS.AS",
   "naam": "Accsys Technologies PLC",
   "sector": "Basic Materials",
@@ -694,9 +713,10 @@
   "ebitda": 19819000,
   "yield_ttm": null,
   "beta": 1.163,
-  "opgehaald": "2026-08-15T07:10:11Z"
+  "opgehaald": "2026-08-15T07:54:02Z"
  },
  "BAMNB.AS": {
+  "netto_inkoop": 45132000,
   "ticker": "BAMNB.AS",
   "naam": "Koninklijke BAM Groep nv",
   "sector": "Industrials",
@@ -740,9 +760,10 @@
   "ebitda": 333140992,
   "yield_ttm": 2.51,
   "beta": 0.665,
-  "opgehaald": "2026-08-15T07:10:13Z"
+  "opgehaald": "2026-08-15T07:54:03Z"
  },
  "BESI.AS": {
+  "netto_inkoop": 125062333,
   "ticker": "BESI.AS",
   "naam": "BE Semiconductor Industries N.V.",
   "sector": "Technology",
@@ -780,9 +801,10 @@
   "ebitda": 278672992,
   "yield_ttm": 0.67,
   "beta": 1.336,
-  "opgehaald": "2026-08-15T07:10:13Z"
+  "opgehaald": "2026-08-15T07:54:04Z"
  },
  "BEVER.AS": {
+  "netto_inkoop": null,
   "ticker": "BEVER.AS",
   "naam": "Bever Holding NV",
   "sector": "Real Estate",
@@ -808,9 +830,10 @@
   "ebitda": -1774000,
   "yield_ttm": null,
   "beta": 0.055,
-  "opgehaald": "2026-08-15T07:10:14Z"
+  "opgehaald": "2026-08-15T07:54:05Z"
  },
  "BFIT.AS": {
+  "netto_inkoop": 11166667,
   "ticker": "BFIT.AS",
   "naam": "Basic-Fit N.V.",
   "sector": "Consumer Cyclical",
@@ -831,9 +854,10 @@
   "ebitda": 433300000,
   "yield_ttm": null,
   "beta": 0.893,
-  "opgehaald": "2026-08-15T07:10:14Z"
+  "opgehaald": "2026-08-15T07:54:05Z"
  },
  "BRNL.AS": {
+  "netto_inkoop": null,
   "ticker": "BRNL.AS",
   "naam": "Brunel International N.V.",
   "sector": "Industrials",
@@ -882,9 +906,10 @@
   "ebitda": 23454000,
   "yield_ttm": 0.82,
   "beta": 0.467,
-  "opgehaald": "2026-08-15T07:10:15Z"
+  "opgehaald": "2026-08-15T07:54:06Z"
  },
  "CABKA.AS": {
+  "netto_inkoop": -28333,
   "ticker": "CABKA.AS",
   "naam": "Cabka N.V.",
   "sector": "Consumer Cyclical",
@@ -908,15 +933,16 @@
   "ebitda": 16704000,
   "yield_ttm": null,
   "beta": 0.184,
-  "opgehaald": "2026-08-15T07:10:16Z"
+  "opgehaald": "2026-08-15T07:54:07Z"
  },
  "CMCOM.AS": {
+  "netto_inkoop": -8161667,
   "ticker": "CMCOM.AS",
   "naam": "CM.com N.V.",
   "sector": "Technology",
   "koers": 7.04,
   "valuta": "EUR",
-  "mcap": 233523216,
+  "mcap": 233871280,
   "div_hist": {},
   "d0": 0,
   "g3": null,
@@ -926,14 +952,15 @@
   "eps_fwd": 0.12,
   "payout": 0.0,
   "fcf": -5881750,
-  "shares": 33170913,
+  "shares": 33220351,
   "netdebt": 53155000,
   "ebitda": 6032000,
   "yield_ttm": null,
   "beta": 1.165,
-  "opgehaald": "2026-08-15T07:10:16Z"
+  "opgehaald": "2026-08-15T07:54:07Z"
  },
  "CRBN.AS": {
+  "netto_inkoop": 15000000,
   "ticker": "CRBN.AS",
   "naam": "Corbion N.V.",
   "sector": "Basic Materials",
@@ -982,9 +1009,10 @@
   "ebitda": 169700000,
   "yield_ttm": 3.24,
   "beta": 0.93,
-  "opgehaald": "2026-08-15T07:10:17Z"
+  "opgehaald": "2026-08-15T07:54:08Z"
  },
  "CTPNV.AS": {
+  "netto_inkoop": -98200000,
   "ticker": "CTPNV.AS",
   "naam": "CTP N.V.",
   "sector": "Real Estate",
@@ -1012,9 +1040,10 @@
   "ebitda": 714099968,
   "yield_ttm": 4.37,
   "beta": 0.981,
-  "opgehaald": "2026-08-15T07:10:18Z"
+  "opgehaald": "2026-08-15T07:54:09Z"
  },
  "DSFIR.AS": {
+  "netto_inkoop": 453333333,
   "ticker": "DSFIR.AS",
   "naam": "DSM-Firmenich AG",
   "sector": "Basic Materials",
@@ -1032,7 +1061,7 @@
   "g5": null,
   "cuts_sinds_2010": 0,
   "eps": 1.4,
-  "eps_fwd": 4.05454,
+  "eps_fwd": 4.06123,
   "payout": 1.7857001,
   "fcf": -140375008,
   "shares": 246477717,
@@ -1040,9 +1069,10 @@
   "ebitda": 1310000000,
   "yield_ttm": 2.76,
   "beta": 0.564,
-  "opgehaald": "2026-08-15T07:10:18Z"
+  "opgehaald": "2026-08-15T07:54:09Z"
  },
  "EBUS.AS": {
+  "netto_inkoop": -21523667,
   "ticker": "EBUS.AS",
   "naam": "Ebusco Holding N.V.",
   "sector": "Consumer Cyclical",
@@ -1063,9 +1093,10 @@
   "ebitda": -54941000,
   "yield_ttm": null,
   "beta": 0.965,
-  "opgehaald": "2026-08-15T07:10:19Z"
+  "opgehaald": "2026-08-15T07:54:10Z"
  },
  "ECMPA.AS": {
+  "netto_inkoop": 5488667,
   "ticker": "ECMPA.AS",
   "naam": "Eurocommercial Properties N.V.",
   "sector": "Real Estate",
@@ -1092,9 +1123,10 @@
   "ebitda": 191147008,
   "yield_ttm": 6.75,
   "beta": 0.783,
-  "opgehaald": "2026-08-15T07:10:20Z"
+  "opgehaald": "2026-08-15T07:54:10Z"
  },
  "ENVI.AS": {
+  "netto_inkoop": -25290000,
   "ticker": "ENVI.AS",
   "naam": "Envipco Holding N.V.",
   "sector": "Industrials",
@@ -1115,9 +1147,10 @@
   "ebitda": -9169000,
   "yield_ttm": null,
   "beta": 0.885,
-  "opgehaald": "2026-08-15T07:10:20Z"
+  "opgehaald": "2026-08-15T07:54:11Z"
  },
  "EXO.AS": {
+  "netto_inkoop": 748333333,
   "ticker": "EXO.AS",
   "naam": "Exor N.V.",
   "sector": "Industrials",
@@ -1143,9 +1176,10 @@
   "ebitda": null,
   "yield_ttm": 0.7,
   "beta": 0.486,
-  "opgehaald": "2026-08-15T07:10:21Z"
+  "opgehaald": "2026-08-15T07:54:11Z"
  },
  "FAGR.BR": {
+  "netto_inkoop": -794333,
   "ticker": "FAGR.BR",
   "naam": "Fagron NV",
   "sector": "Healthcare",
@@ -1184,9 +1218,10 @@
   "ebitda": 174588000,
   "yield_ttm": 1.79,
   "beta": 0.381,
-  "opgehaald": "2026-08-15T07:10:22Z"
+  "opgehaald": "2026-08-15T07:54:12Z"
  },
  "FLOW.AS": {
+  "netto_inkoop": 6855000,
   "ticker": "FLOW.AS",
   "naam": "Flow Traders Ltd.",
   "sector": "Financial Services",
@@ -1218,9 +1253,10 @@
   "ebitda": 371387008,
   "yield_ttm": null,
   "beta": 0.124,
-  "opgehaald": "2026-08-15T07:10:22Z"
+  "opgehaald": "2026-08-15T07:54:12Z"
  },
  "FUR.AS": {
+  "netto_inkoop": 31900000,
   "ticker": "FUR.AS",
   "naam": "Fugro N.V.",
   "sector": "Energy",
@@ -1257,9 +1293,10 @@
   "ebitda": 210156992,
   "yield_ttm": 1.66,
   "beta": 0.716,
-  "opgehaald": "2026-08-15T07:10:23Z"
+  "opgehaald": "2026-08-15T07:54:13Z"
  },
  "HAL.AS": {
+  "netto_inkoop": 5200000,
   "ticker": "HAL.AS",
   "naam": "HAL Trust",
   "sector": "Financial Services",
@@ -1309,9 +1346,10 @@
   "ebitda": 3267599872,
   "yield_ttm": 2.12,
   "beta": 0.655,
-  "opgehaald": "2026-08-15T07:10:24Z"
+  "opgehaald": "2026-08-15T07:54:14Z"
  },
  "HEIA.AS": {
+  "netto_inkoop": 549333333,
   "ticker": "HEIA.AS",
   "naam": "Heineken N.V.",
   "sector": "Consumer Defensive",
@@ -1359,9 +1397,10 @@
   "ebitda": 5533000192,
   "yield_ttm": 2.6,
   "beta": 0.568,
-  "opgehaald": "2026-08-15T07:10:25Z"
+  "opgehaald": "2026-08-15T07:54:15Z"
  },
  "HEIJM.AS": {
+  "netto_inkoop": null,
   "ticker": "HEIJM.AS",
   "naam": "Koninklijke Heijmans N.V.",
   "sector": "Industrials",
@@ -1404,9 +1443,10 @@
   "ebitda": 200700000,
   "yield_ttm": 2.56,
   "beta": 1.327,
-  "opgehaald": "2026-08-15T07:10:26Z"
+  "opgehaald": "2026-08-15T07:54:16Z"
  },
  "HEIO.AS": {
+  "netto_inkoop": 535000000,
   "ticker": "HEIO.AS",
   "naam": "Heineken Holding N.V.",
   "sector": "Consumer Defensive",
@@ -1450,9 +1490,10 @@
   "ebitda": 5610999808,
   "yield_ttm": 2.74,
   "beta": 0.633,
-  "opgehaald": "2026-08-15T07:10:27Z"
+  "opgehaald": "2026-08-15T07:54:16Z"
  },
  "HOLCO.AS": {
+  "netto_inkoop": null,
   "ticker": "HOLCO.AS",
   "naam": "Holland Colours N.V.",
   "sector": "Basic Materials",
@@ -1494,9 +1535,10 @@
   "ebitda": 7693000,
   "yield_ttm": 2.59,
   "beta": 0.53,
-  "opgehaald": "2026-08-15T07:10:27Z"
+  "opgehaald": "2026-08-15T07:54:17Z"
  },
  "HYDRA.AS": {
+  "netto_inkoop": null,
   "ticker": "HYDRA.AS",
   "naam": "Hydratec Industries NV",
   "sector": "Industrials",
@@ -1535,15 +1577,16 @@
   "ebitda": 40958000,
   "yield_ttm": 2.99,
   "beta": 0.451,
-  "opgehaald": "2026-08-15T07:10:28Z"
+  "opgehaald": "2026-08-15T07:54:18Z"
  },
  "IMCD.AS": {
+  "netto_inkoop": -93520000,
   "ticker": "IMCD.AS",
   "naam": "IMCD N.V.",
   "sector": "Basic Materials",
   "koers": 97.94,
   "valuta": "EUR",
-  "mcap": 5781675520,
+  "mcap": 5782863360,
   "div_hist": {
    "2015": 0.2,
    "2016": 0.44,
@@ -1566,20 +1609,21 @@
   "eps_fwd": 6.46588,
   "payout": 0.4653,
   "fcf": 266937248,
-  "shares": 59032832,
+  "shares": 59044962,
   "netdebt": 1559629040,
   "ebitda": 515928000,
   "yield_ttm": 1.87,
   "beta": 0.963,
-  "opgehaald": "2026-08-15T07:10:29Z"
+  "opgehaald": "2026-08-15T07:54:19Z"
  },
  "INGA.AS": {
+  "netto_inkoop": 3684333333,
   "ticker": "INGA.AS",
   "naam": "ING Groep N.V.",
   "sector": "Financial Services",
   "koers": 30.885,
   "valuta": "EUR",
-  "mcap": 88194260992,
+  "mcap": 88256028672,
   "div_hist": {
    "2001": 0.3609,
    "2002": 0.75252,
@@ -1609,14 +1653,15 @@
   "eps_fwd": 2.89468,
   "payout": 0.4701,
   "fcf": null,
-  "shares": 2855569346,
+  "shares": 2857569346,
   "netdebt": 14195015680,
   "ebitda": null,
   "yield_ttm": 3.69,
   "beta": 0.902,
-  "opgehaald": "2026-08-15T07:10:30Z"
+  "opgehaald": "2026-08-15T07:54:19Z"
  },
  "INPST.AS": {
+  "netto_inkoop": 73200000,
   "ticker": "INPST.AS",
   "naam": "InPost S.A.",
   "sector": "Industrials",
@@ -1637,9 +1682,10 @@
   "ebitda": 2125699968,
   "yield_ttm": null,
   "beta": 1.092,
-  "opgehaald": "2026-08-15T07:10:30Z"
+  "opgehaald": "2026-08-15T07:54:20Z"
  },
  "KENDR.AS": {
+  "netto_inkoop": 1250000,
   "ticker": "KENDR.AS",
   "naam": "Kendrion N.V.",
   "sector": "Industrials",
@@ -1679,11 +1725,12 @@
   "ebitda": 37350000,
   "yield_ttm": 3.56,
   "beta": 0.912,
-  "opgehaald": "2026-08-15T07:10:31Z"
+  "opgehaald": "2026-08-15T07:54:21Z"
  },
  "KPN.AS": {
+  "netto_inkoop": 250000000,
   "ticker": "KPN.AS",
-  "naam": "Koninklijke KPN N.V.",
+  "naam": "KPN KON",
   "sector": "Communication Services",
   "koers": 4.075,
   "valuta": "EUR",
@@ -1726,15 +1773,16 @@
   "ebitda": 2400999936,
   "yield_ttm": 4.67,
   "beta": 0.248,
-  "opgehaald": "2026-08-15T07:10:32Z"
+  "opgehaald": "2026-08-15T07:54:21Z"
  },
  "LIGHT.AS": {
+  "netto_inkoop": 58333333,
   "ticker": "LIGHT.AS",
   "naam": "Signify N.V.",
   "sector": "Industrials",
   "koers": 15.6,
   "valuta": "EUR",
-  "mcap": 1853555328,
+  "mcap": 1863335552,
   "div_hist": {
    "2017": 1.1,
    "2018": 1.25,
@@ -1754,14 +1802,15 @@
   "eps_fwd": 1.80212,
   "payout": 1.256,
   "fcf": 485875008,
-  "shares": 118817649,
+  "shares": 119444587,
   "netdebt": 1090000000,
   "ebitda": 492000000,
   "yield_ttm": 10.14,
   "beta": 0.919,
-  "opgehaald": "2026-08-15T07:10:33Z"
+  "opgehaald": "2026-08-15T07:54:22Z"
  },
  "MT.AS": {
+  "netto_inkoop": 923333333,
   "ticker": "MT.AS",
   "naam": "ArcelorMittal S.A.",
   "sector": "Basic Materials",
@@ -1801,9 +1850,10 @@
   "ebitda": 5449999872,
   "yield_ttm": 0.81,
   "beta": 1.753,
-  "opgehaald": "2026-08-15T07:10:33Z"
+  "opgehaald": "2026-08-15T07:54:23Z"
  },
  "NEDAP.AS": {
+  "netto_inkoop": -1678000,
   "ticker": "NEDAP.AS",
   "naam": "Nedap N.V.",
   "sector": "Technology",
@@ -1852,9 +1902,10 @@
   "ebitda": 46074000,
   "yield_ttm": 3.82,
   "beta": 0.441,
-  "opgehaald": "2026-08-15T07:10:34Z"
+  "opgehaald": "2026-08-15T07:54:23Z"
  },
  "NEDSE.AS": {
+  "netto_inkoop": null,
   "ticker": "NEDSE.AS",
   "naam": "MKB Nedsense N.V.",
   "sector": "Financial Services",
@@ -1877,9 +1928,10 @@
   "ebitda": null,
   "yield_ttm": 54.38,
   "beta": 0.472,
-  "opgehaald": "2026-08-15T07:10:35Z"
+  "opgehaald": "2026-08-15T07:54:24Z"
  },
  "NN.AS": {
+  "netto_inkoop": 486333333,
   "ticker": "NN.AS",
   "naam": "NN Group N.V.",
   "sector": "Financial Services",
@@ -1913,9 +1965,10 @@
   "ebitda": 5029000192,
   "yield_ttm": 5.18,
   "beta": 0.538,
-  "opgehaald": "2026-08-15T07:10:36Z"
+  "opgehaald": "2026-08-15T07:54:25Z"
  },
  "NSI.AS": {
+  "netto_inkoop": 20000000,
   "ticker": "NSI.AS",
   "naam": "NSI N.V.",
   "sector": "Real Estate",
@@ -1964,15 +2017,16 @@
   "ebitda": 48371000,
   "yield_ttm": 9.4,
   "beta": 0.682,
-  "opgehaald": "2026-08-15T07:10:36Z"
+  "opgehaald": "2026-08-15T07:54:25Z"
  },
  "OCI.AS": {
+  "netto_inkoop": 2933333,
   "ticker": "OCI.AS",
   "naam": "OCI N.V.",
   "sector": "Basic Materials",
   "koers": 4.06,
   "valuta": "EUR",
-  "mcap": 856536384,
+  "mcap": null,
   "div_hist": {
    "2022": 5.0,
    "2023": 4.35,
@@ -1987,14 +2041,15 @@
   "eps_fwd": 0.03794099,
   "payout": 0.0,
   "fcf": -566562496,
-  "shares": 210969550,
+  "shares": null,
   "netdebt": 137400000,
   "ebitda": -54200000,
   "yield_ttm": null,
   "beta": 0.319,
-  "opgehaald": "2026-08-15T07:10:37Z"
+  "opgehaald": "2026-08-15T07:54:26Z"
  },
  "PHARM.AS": {
+  "netto_inkoop": null,
   "ticker": "PHARM.AS",
   "naam": "Pharming Group N.V.",
   "sector": "Healthcare",
@@ -2015,9 +2070,10 @@
   "ebitda": 32879000,
   "yield_ttm": null,
   "beta": 0.062,
-  "opgehaald": "2026-08-15T07:10:38Z"
+  "opgehaald": "2026-08-15T07:54:27Z"
  },
  "PHIA.AS": {
+  "netto_inkoop": 353333333,
   "ticker": "PHIA.AS",
   "naam": "Koninklijke Philips N.V.",
   "sector": "Healthcare",
@@ -2062,15 +2118,16 @@
   "ebitda": 2416000000,
   "yield_ttm": 3.59,
   "beta": 0.91,
-  "opgehaald": "2026-08-15T07:10:38Z"
+  "opgehaald": "2026-08-15T07:54:27Z"
  },
  "PNL.AS": {
+  "netto_inkoop": null,
   "ticker": "PNL.AS",
   "naam": "PostNL N.V.",
   "sector": "Industrials",
   "koers": 0.9145,
   "valuta": "EUR",
-  "mcap": 465188448,
+  "mcap": 472430688,
   "div_hist": {
    "2001": 0.14,
    "2002": 0.39,
@@ -2102,14 +2159,15 @@
   "eps_fwd": 0.07713,
   "payout": 1.0526,
   "fcf": 125250000,
-  "shares": 508680625,
+  "shares": 516600000,
   "netdebt": 507000064,
   "ebitda": 112000000,
   "yield_ttm": 4.36,
   "beta": 0.614,
-  "opgehaald": "2026-08-15T07:10:39Z"
+  "opgehaald": "2026-08-15T07:54:28Z"
  },
  "PORF.AS": {
+  "netto_inkoop": null,
   "ticker": "PORF.AS",
   "naam": "B.V. Delftsch Aardewerkfabriek \"De Porceleyne Fles Anno 1653\"",
   "sector": "Consumer Defensive",
@@ -2138,9 +2196,10 @@
   "ebitda": 1113000,
   "yield_ttm": 5.0,
   "beta": 0.173,
-  "opgehaald": "2026-08-15T07:10:40Z"
+  "opgehaald": "2026-08-15T07:54:29Z"
  },
  "PRX.AS": {
+  "netto_inkoop": 7702333333,
   "ticker": "PRX.AS",
   "naam": "Prosus N.V.",
   "sector": "Consumer Cyclical",
@@ -2168,9 +2227,10 @@
   "ebitda": 626000000,
   "yield_ttm": 0.73,
   "beta": 0.789,
-  "opgehaald": "2026-08-15T07:10:41Z"
+  "opgehaald": "2026-08-15T07:54:29Z"
  },
  "RAND.AS": {
+  "netto_inkoop": 159666667,
   "ticker": "RAND.AS",
   "naam": "Randstad N.V.",
   "sector": "Industrials",
@@ -2215,9 +2275,10 @@
   "ebitda": 634000000,
   "yield_ttm": 4.19,
   "beta": 0.97,
-  "opgehaald": "2026-08-15T07:10:42Z"
+  "opgehaald": "2026-08-15T07:54:30Z"
  },
  "REN.AS": {
+  "netto_inkoop": 1123666667,
   "ticker": "REN.AS",
   "naam": "RELX PLC",
   "sector": "Industrials",
@@ -2266,15 +2327,16 @@
   "ebitda": 3292000000,
   "yield_ttm": 2.73,
   "beta": 0.263,
-  "opgehaald": "2026-08-15T07:10:42Z"
+  "opgehaald": "2026-08-15T07:54:31Z"
  },
  "SBMO.AS": {
+  "netto_inkoop": 93666667,
   "ticker": "SBMO.AS",
   "naam": "SBM Offshore N.V.",
   "sector": "Energy",
   "koers": 35.54,
   "valuta": "EUR",
-  "mcap": 5862556160,
+  "mcap": 5857846784,
   "div_hist": {
    "2004": 0.2919,
    "2005": 0.33115,
@@ -2304,14 +2366,15 @@
   "eps_fwd": 4.0086007,
   "payout": 0.109799996,
   "fcf": 2060249984,
-  "shares": 164956556,
+  "shares": 164824048,
   "netdebt": 5922000128,
   "ebitda": 1818000000,
   "yield_ttm": 2.87,
   "beta": 0.644,
-  "opgehaald": "2026-08-15T07:10:43Z"
+  "opgehaald": "2026-08-15T07:54:31Z"
  },
  "SHELL.AS": {
+  "netto_inkoop": 15124000000,
   "ticker": "SHELL.AS",
   "naam": "Shell plc",
   "sector": "Energy",
@@ -2355,9 +2418,10 @@
   "ebitda": 57605001216,
   "yield_ttm": 7.11,
   "beta": -0.218,
-  "opgehaald": "2026-08-15T07:10:44Z"
+  "opgehaald": "2026-08-15T07:54:32Z"
  },
  "SIFG.AS": {
+  "netto_inkoop": -25227000,
   "ticker": "SIFG.AS",
   "naam": "Sif Holding N.V.",
   "sector": "Industrials",
@@ -2384,9 +2448,10 @@
   "ebitda": -3360000,
   "yield_ttm": null,
   "beta": 0.82,
-  "opgehaald": "2026-08-15T07:10:45Z"
+  "opgehaald": "2026-08-15T07:54:33Z"
  },
  "SLIGR.AS": {
+  "netto_inkoop": 333333,
   "ticker": "SLIGR.AS",
   "naam": "Sligro Food Group N.V.",
   "sector": "Consumer Defensive",
@@ -2435,9 +2500,10 @@
   "ebitda": 94000000,
   "yield_ttm": 3.78,
   "beta": 1.049,
-  "opgehaald": "2026-08-15T07:10:46Z"
+  "opgehaald": "2026-08-15T07:54:34Z"
  },
  "TOM2.AS": {
+  "netto_inkoop": 17127667,
   "ticker": "TOM2.AS",
   "naam": "TomTom N.V.",
   "sector": "Technology",
@@ -2460,15 +2526,16 @@
   "ebitda": 46810000,
   "yield_ttm": null,
   "beta": 0.996,
-  "opgehaald": "2026-08-15T07:10:46Z"
+  "opgehaald": "2026-08-15T07:54:34Z"
  },
  "TWEKA.AS": {
+  "netto_inkoop": 17095000,
   "ticker": "TWEKA.AS",
   "naam": "TKH Group N.V.",
   "sector": "Technology",
   "koers": 52.2,
   "valuta": "EUR",
-  "mcap": 2081945728,
+  "mcap": 2083572224,
   "div_hist": {
    "2000": 0.33,
    "2001": 0.355,
@@ -2506,20 +2573,21 @@
   "eps_fwd": 3.74128,
   "payout": 0.42060003,
   "fcf": 102304000,
-  "shares": 39884014,
+  "shares": 39915174,
   "netdebt": 597026016,
   "ebitda": 225588992,
   "yield_ttm": 2.6,
   "beta": null,
-  "opgehaald": "2026-08-15T07:10:47Z"
+  "opgehaald": "2026-08-15T07:54:35Z"
  },
  "UMG.AS": {
+  "netto_inkoop": null,
   "ticker": "UMG.AS",
   "naam": "Universal Music Group N.V.",
   "sector": "Communication Services",
   "koers": 14.945,
   "valuta": "EUR",
-  "mcap": 27408644096,
+  "mcap": 27476785152,
   "div_hist": {
    "2021": 0.2,
    "2022": 0.44,
@@ -2536,20 +2604,21 @@
   "eps_fwd": 1.10002,
   "payout": 2.8889,
   "fcf": 1791500032,
-  "shares": 1833967537,
+  "shares": 1838527000,
   "netdebt": 5005999744,
   "ebitda": 2206000128,
   "yield_ttm": 3.55,
   "beta": 0.777,
-  "opgehaald": "2026-08-15T07:10:48Z"
+  "opgehaald": "2026-08-15T07:54:36Z"
  },
  "UNA.AS": {
+  "netto_inkoop": 1508333333,
   "ticker": "UNA.AS",
   "naam": "Unilever PLC",
   "sector": "Consumer Defensive",
   "koers": 53.87,
   "valuta": "EUR",
-  "mcap": 116053606400,
+  "mcap": 115996352512,
   "div_hist": {
    "2021": 1.9206,
    "2022": 1.9206,
@@ -2566,14 +2635,15 @@
   "eps_fwd": 3.41589,
   "payout": 0.7867,
   "fcf": 6732624896,
-  "shares": 2154327344,
+  "shares": 2153264479,
   "netdebt": 26167000064,
   "ebitda": 10876000256,
   "yield_ttm": 3.52,
   "beta": 0.454,
-  "opgehaald": "2026-08-15T07:10:49Z"
+  "opgehaald": "2026-08-15T07:54:36Z"
  },
  "VLK.AS": {
+  "netto_inkoop": 5351667,
   "ticker": "VLK.AS",
   "naam": "Van Lanschot Kempen NV",
   "sector": "Financial Services",
@@ -2619,15 +2689,16 @@
   "ebitda": null,
   "yield_ttm": 5.78,
   "beta": 0.775,
-  "opgehaald": "2026-08-15T07:10:50Z"
+  "opgehaald": "2026-08-15T07:54:37Z"
  },
  "VPK.AS": {
+  "netto_inkoop": 140300000,
   "ticker": "VPK.AS",
   "naam": "Koninklijke Vopak N.V.",
   "sector": "Energy",
   "koers": 47.76,
   "valuta": "EUR",
-  "mcap": 5473689600,
+  "mcap": 5442787328,
   "div_hist": {
    "2000": 0.605,
    "2001": 0.625,
@@ -2664,14 +2735,15 @@
   "eps_fwd": 3.7873,
   "payout": 0.4369,
   "fcf": 84443200,
-  "shares": 114608238,
+  "shares": 113961206,
   "netdebt": 2844200096,
   "ebitda": 646400000,
   "yield_ttm": 5.34,
   "beta": 0.735,
-  "opgehaald": "2026-08-15T07:10:51Z"
+  "opgehaald": "2026-08-15T07:54:38Z"
  },
  "VVY.AS": {
+  "netto_inkoop": -10472667,
   "ticker": "VVY.AS",
   "naam": "Vivoryon Therapeutics N.V.",
   "sector": "Healthcare",
@@ -2692,9 +2764,10 @@
   "ebitda": -6703000,
   "yield_ttm": null,
   "beta": 1.448,
-  "opgehaald": "2026-08-15T07:10:51Z"
+  "opgehaald": "2026-08-15T07:54:38Z"
  },
  "WHA.AS": {
+  "netto_inkoop": null,
   "ticker": "WHA.AS",
   "naam": "Wereldhave N.V.",
   "sector": "Real Estate",
@@ -2736,9 +2809,10 @@
   "ebitda": 143703008,
   "yield_ttm": 7.01,
   "beta": 0.914,
-  "opgehaald": "2026-08-15T07:10:52Z"
+  "opgehaald": "2026-08-15T07:54:39Z"
  },
  "WKL.AS": {
+  "netto_inkoop": 1032000000,
   "ticker": "WKL.AS",
   "naam": "Wolters Kluwer N.V.",
   "sector": "Industrials",
@@ -2787,6 +2861,6 @@
   "ebitda": 1947000064,
   "yield_ttm": 3.81,
   "beta": 0.185,
-  "opgehaald": "2026-08-15T07:10:53Z"
+  "opgehaald": "2026-08-15T07:54:40Z"
  }
 }

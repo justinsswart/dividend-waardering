@@ -36,6 +36,12 @@ def genormaliseerd_d0(v):
         d, sp = round(1.5*draagkracht, 5), True
     return d, sp
 
+def inkoop_rendement(v):
+    """Netto inkoop als fractie van de beurswaarde. Negatief bij uitgifte (verwatering)."""
+    ink, mc = v.get("netto_inkoop"), v.get("mcap")
+    if not ink or not mc: return 0.0
+    return round(max(min(ink/mc, 0.10), -0.05), 4)
+
 def kwaliteit(v):
     """0-100. Bepaalt hoeveel veiligheidsmarge nodig is."""
     s, det = 50, {}
@@ -94,6 +100,22 @@ for tk, v in RAW.items():
     g1 = ov.get("g_na", basisgroei(v))
     g1 = min(max(g1, -0.05), P["g_cap"])
     expl = {int(k): float(x) for k, x in ov.get("divs", {}).items() if int(k) >= CUR}
+    # Payout-beleid: banken en verzekeraars geven geen bedrag per aandeel maar een
+    # percentage van de winst. Dividend = beleid x verwachte winst per aandeel.
+    beleid = ov.get("payout_beleid")
+    if beleid and not expl and v.get("eps_fwd"):
+        expl = {CUR: round(beleid * v["eps_fwd"], 4)}
+    # Inkoop verlaagt het aantal aandelen, dus stijgt het dividend PER AANDEEL sneller.
+    # Dat is de juiste plek: als je de inkoop ook nog als losse kasstroom optelt,
+    # tel je hem twee keer. Alleen toepassen waar g1 uit een override komt --
+    # historische groei (g3/g5) bevat het effect van eerdere inkoop al.
+    b = inkoop_rendement(v)
+    g1_kaal = g1
+    if ov and b > 0:
+        # Fase 1 is eindig, dus g1 mag boven het vereist rendement liggen.
+        # Alleen de eeuwige groei in de eindwaarde moet er structureel onder blijven.
+        g1 = min((1 + g1) / (1 - b) - 1, 0.18)
+
     fv, pv_div, pv_tv, pad = dcf(expl, d0n, g1, r, P["n1"], P["n2"], P["g_term"])
     kw, det = kwaliteit(v)
     mos = P["mos_max"] - (P["mos_max"]-P["mos_min"])*(kw/100)
@@ -106,7 +128,11 @@ for tk, v in RAW.items():
         "korting_tov_koop": round((koop-k)/k,4),
         "yield_nu": round(d0n/k,4), "yoc_koop": round(d0n/koop,4), "d0_norm": d0n, "special_div": special,
         "vlag": "controleer" if (fv/k > 4 or fv/k < 0.15) else None,
-        "handmatig": bool(ov), "pad": pad[:12]})
+        "handmatig": bool(ov), "pad": pad[:12],
+        "guidance_type": ("dps" if ov.get("divs") else "payout" if ov.get("payout_beleid")
+                          else "groei" if ov.get("g_na") else None),
+        "guidance_bron": ov.get("bron"), "guidance_notitie": ov.get("notitie"),
+        "inkoop_rend": b, "netto_inkoop": v.get("netto_inkoop"), "g1_kaal": round(g1_kaal, 4)})
 
 res.sort(key=lambda x: -x["korting_tov_koop"])
 json.dump({"params":P,"bijgewerkt":dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")+"Z","aandelen":res},

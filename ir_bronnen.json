@@ -1,0 +1,14 @@
+{
+ "KPN.AS":  "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
+ "INGA.AS": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
+ "ABN.AS":  "https://www.abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
+ "WKL.AS":  "https://www.wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
+ "AGN.AS":  "https://www.aegon.com/investors/dividend",
+ "AD.AS":   "https://www.aholddelhaize.com/investors/share-information/dividend/",
+ "NN.AS":   "https://www.nn-group.com/investors/share-information/dividend.htm",
+ "ASRNL.AS":"https://www.asrnl.com/investor-relations/share-information/dividend",
+ "UNA.AS":  "https://www.unilever.com/investors/shareholder-centre/dividends/",
+ "SHELL.AS":"https://www.shell.com/investors/dividends.html",
+ "HEIA.AS": "https://www.theheinekencompany.com/investors/shareholder-information/dividend",
+ "RAND.AS": "https://www.randstad.com/investor-relations/share-information/dividend/"
+}

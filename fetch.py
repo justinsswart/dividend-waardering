@@ -31,7 +31,22 @@ for t in OK:
         g5 = cagr(by_year.get(cur-6), by_year.get(cur-1), 5) if len(full) >= 6 else None
         g3 = cagr(by_year.get(cur-4), by_year.get(cur-1), 3) if len(full) >= 4 else None
         cuts = sum(1 for i in range(1, len(full)) if by_year[full[i]] < by_year[full[i-1]] * 0.98)
+        # netto aandeleninkoop, gemiddeld over de beschikbare jaren
+        inkoop = None
+        try:
+            cf = tk.cashflow
+            rij = None
+            for kand in ("Net Common Stock Issuance", "Repurchase Of Capital Stock"):
+                tr = [i for i in cf.index if str(i) == kand]
+                if tr: rij = tr[0]; break
+            if rij is not None:
+                w = [float(x) for x in cf.loc[rij].values[:3] if str(x) != "nan"]
+                if w: inkoop = round(-sum(w)/len(w))   # uitgaand = positief
+        except Exception:
+            pass
+
         out[t] = {
+            "netto_inkoop": inkoop,
             "ticker": t,
             "naam": info.get("longName") or info.get("shortName") or t,
             "sector": info.get("sector"),

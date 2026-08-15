@@ -32,6 +32,7 @@ h1 em{font-style:italic;color:var(--gulden)}
 .ctrl label{display:block;font-family:var(--mono);font-size:10.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--grijs);margin-bottom:5px}
 .ctrl .val{font-family:var(--mono);font-size:19px;font-weight:600;color:var(--inkt)}
 input[type=range]{width:100%;accent-color:var(--gulden);margin-top:4px}
+select#s-bb{font-family:var(--mono);font-size:12px;padding:5px 6px;border:1px solid var(--lijn);background:#fff;width:100%;border-radius:2px;margin-top:4px}
 .reset{font-family:var(--mono);font-size:11px;background:none;border:1px solid var(--lijn);padding:7px 12px;cursor:pointer;color:var(--grijs);border-radius:2px}
 .reset:hover{border-color:var(--gulden);color:var(--gulden)}
 
@@ -93,6 +94,19 @@ td.tk{text-align:left;font-size:12px;color:var(--grijs)}
 .oordeel.koop{background:rgba(78,144,112,.17);border-left:3px solid var(--gulden-licht)}
 .oordeel.wacht{background:rgba(176,138,62,.15);border-left:3px solid var(--koper)}
 .oordeel.duur{background:rgba(158,59,46,.18);border-left:3px solid var(--roest)}
+.st{font-family:var(--mono);font-size:10px;padding:2px 6px;border-radius:2px;letter-spacing:.03em;white-space:nowrap}
+.st.vers{background:#D3E3D6;color:#1F4E33}.st.verouderd{background:#EDD8D3;color:#7A2E22}
+.st.binnenkort{background:#E4E2CE;color:#6B5A16}.st.nooit{background:var(--papier-2);color:var(--grijs)}
+.inkoop{margin-top:16px;padding:12px 14px;border-left:3px solid #3B4F47;background:rgba(233,237,231,.05);font-size:12.5px;line-height:1.5}
+.inkoop p{margin:0 0 5px}.inkoop p:last-child{margin:0}
+.inkoop.fel{border-left-color:var(--koper)}
+.waarschuw{color:#C6A96B;margin-top:8px!important}
+.agenda{margin-top:16px;padding:12px 14px;border-left:3px solid #3B4F47;background:rgba(233,237,231,.05);font-size:12.5px;line-height:1.5}
+.agenda p{margin:0 0 5px}.agenda p:last-child{margin:0}
+.agenda.verouderd{border-left-color:var(--roest)}.agenda.binnenkort{border-left-color:var(--koper)}
+.agenda.vers{border-left-color:var(--gulden-licht)}
+.ag-kop{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8FA398;margin-bottom:6px}
+.ag-bron{font-family:var(--mono);font-size:10.5px;color:#8FA398;word-break:break-all;margin-top:6px!important}
 .let-op{font-size:12px;color:#C6A96B;margin-top:10px;font-family:var(--mono)}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--lijn);font-size:12.5px;color:var(--grijs);max-width:70ch}
 footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);padding:1px 5px}
@@ -114,6 +128,8 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
     <div class="ctrl"><label for="s-g">Eeuwige groei</label><div class="val" id="v-g"></div><input type="range" id="s-g" min="0" max="4" step="0.25"></div>
     <div class="ctrl"><label for="s-m">Veiligheidsmarge</label><div class="val" id="v-m"></div><input type="range" id="s-m" min="0" max="50" step="5"></div>
     <div class="ctrl"><label for="s-h">Horizon</label><div class="val" id="v-h"></div><input type="range" id="s-h" min="5" max="25" step="1"></div>
+    <div class="ctrl"><label for="s-bb">Aandeleninkoop</label><div class="val" id="v-bb"></div>
+      <select id="s-bb"><option value="guidance">bij guidance</option><option value="uit">niet meerekenen</option><option value="altijd">overal</option></select></div>
     <div class="ctrl"><button class="reset" id="reset">Terug naar model</button></div>
   </div>
 </section>
@@ -124,6 +140,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
   <button class="chip" data-f="kwaliteit" aria-pressed="false">Kwaliteit ≥ 60</button>
   <button class="chip" data-f="stabiel" aria-pressed="false">Nooit verlaagd</button>
   <button class="chip" data-f="vlag" aria-pressed="false">Verberg twijfelgevallen</button>
+  <button class="chip" data-f="nalopen" aria-pressed="false">Guidance nalopen</button>
 </div>
 
 <table>
@@ -132,7 +149,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
     <th data-s="koers">Koers</th><th data-s="yield_nu">Rendement</th>
     <th data-s="d0_norm">Dividend</th><th data-s="g1">Groei</th>
     <th data-s="fair">Contante waarde</th><th data-s="koopprijs">Koopprijs</th>
-    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th>
+    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th>
   </tr></thead>
   <tbody id="rijen"></tbody>
 </table>
@@ -140,6 +157,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
 <footer>
   <p><strong>Hoe het rekent.</strong> Bekende dividenden uit bedrijfsguidance krijgen voorrang; daarna groeit het dividend met het historische tempo, dat over de horizon afvlakt naar de eeuwige groei. De eindwaarde volgt uit Gordon. De veiligheidsmarge schaalt automatisch mee met de kwaliteitsscore — payout ratio, dekking uit vrije kasstroom, schuldpositie en het aantal dividendverlagingen sinds 2010.</p>
   <p>Bedrijven zonder uitkering in de laatste twee jaar en verlieslatende bedrijven zonder vrije kasstroom vallen buiten het model: op dividend valt daar niets te waarderen. Een <span class="vlag" style="position:relative;top:-1px"></span> markeert een uitkomst die meer dan viermaal of minder dan een zesde van de koers is — bijna altijd een eenmalige uitkering die de historie vertekent. Controleer die met de hand.</p>
+  <p><strong>Aandeleninkoop.</strong> Inkoop levert geen kasstroom op je rekening, maar verkleint het aantal aandelen: hetzelfde dividendbedrag wordt over minder stukken verdeeld, dus stijgt jouw dividend per aandeel sneller. Zo zit het hier in het model — als hogere groei, niet als losse uitkering. Wie inkoop &eacute;n als extra kasstroom optelt &eacute;n als groei laat meetellen, telt hem twee keer. De stand "bij guidance" past het alleen toe waar de groei uit een bedrijfsbron komt; historische dividendgroei bevat het effect van eerdere inkoop namelijk al.</p>
   <p>Dit is een rekenmodel, geen advies. De uitkomst is zo goed als de aanname over het dividendpad; zet echte guidance in <code>overrides.json</code> voor de bedrijven die je volgt.</p>
 </footer>
 </div>
@@ -150,13 +168,19 @@ const A = DATA.aandelen, P = DATA.params;
 const fmt=(n,d=2)=>n==null?'—':n.toLocaleString('nl-NL',{minimumFractionDigits:d,maximumFractionDigits:d});
 const pct=(n,d=1)=>n==null?'—':(n*100).toLocaleString('nl-NL',{minimumFractionDigits:d,maximumFractionDigits:d})+'%';
 const CUR=new Date().getFullYear();
+const STAT={vers:'actueel',verouderd:'verouderd',binnenkort:'cijfers op komst',nooit:'geschat'};
+const RANG={verouderd:0,binnenkort:1,nooit:2,vers:3};
+const dat=s=>s?new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'}):'onbekend';
 
-let O={r:null,g:null,m:null,h:P.n2}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', open=null;
+let O={r:null,g:null,m:null,h:P.n2,bb:'guidance'}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', open=null;
 
 /* herwaardeer met de actuele schuifstanden */
 function waardeer(a){
   const r = O.r ?? a.r, gt = O.g ?? P.g_term, h = O.h;
-  let g1 = Math.min(a.g1, r-0.005);
+  const b = a.inkoop_rend||0;
+  const pasToe = O.bb==='altijd' ? b>0 : O.bb==='guidance' ? (a.handmatig && b>0) : false;
+  let g1 = a.g1_kaal;
+  if(pasToe) g1 = Math.min((1+g1)/(1-b)-1, 0.18);
   if (r <= gt+0.005) return {...a, fair:null, koopprijs:null, ongeldig:true};
   const expl = a.pad.filter(p=>a.handmatig && p[0]<=CUR+2 && p[1]!==null);
   const n1 = Math.max(3, Math.round(h*0.5));
@@ -182,6 +206,7 @@ function zichtbaar(){
   if(filters.has('kwaliteit')) rs=rs.filter(a=>a.kwaliteit>=60);
   if(filters.has('stabiel')) rs=rs.filter(a=>a.cuts_sinds_2010===0);
   if(filters.has('vlag')) rs=rs.filter(a=>!a.vlag);
+  if(filters.has('nalopen')) rs=rs.filter(a=>['verouderd','binnenkort','nooit'].includes(a.agenda.status));
   rs.sort((x,y)=>{const a=x[sortKey],b=y[sortKey];
     if(typeof a==='string') return sortDir*a.localeCompare(b,'nl');
     return sortDir*(((a??-9e9))-((b??-9e9)));});
@@ -212,7 +237,7 @@ function detail(a){
     ? `De koers zit onder de contante waarde, maar boven je koopprijs. Wachten tot ${fmt(a.koopprijs)} levert je de veiligheidsmarge van ${pct(a.mos,0)} die bij kwaliteitsscore ${a.kwaliteit} hoort.`
     : `De markt betaalt meer dan het dividend rechtvaardigt. Bij deze koers zit ${pct(-a.upside)} van je rendement in koerswinst die dit model niet ziet.`;
   const c=a.checks||{};
-  return `<td colspan="10"><div class="d-in">
+  return `<td colspan="12"><div class="d-in">
     <div>
       <h3>${a.naam}</h3>
       <div class="d-sub">${a.ticker} · ${a.sector||'sector onbekend'} · dividend per aandeel, nominaal en contant</div>
@@ -232,6 +257,16 @@ function detail(a){
         <div class="rij"><span class="lbl">Rendement op koopprijs</span><span class="n">${pct(a.yoc_koop)}</span></div>
       </div>
       <div class="oordeel ${cls}">${tekst}</div>
+      <div class="inkoop ${a.g1>0.12?'fel':''}">
+        <div class="ag-kop">aandeleninkoop</div>
+        ${a.inkoop_rend
+          ? `<p>Koopt jaarlijks ${pct(a.inkoop_rend)} van de eigen beurswaarde in${a.netto_inkoop?` (${fmt(a.netto_inkoop/1e6,0)} mln)`:''}.
+             ${a.bb
+               ? `Minder aandelen betekent dat hetzelfde dividendbedrag over minder stukken wordt verdeeld: de groei per aandeel gaat van ${pct(a.g1_kaal)} naar <b>${pct(a.g1)}</b>.`
+               : `Niet meegerekend in deze waardering.`}</p>`
+          : `<p>Geen netto inkoop, of geen data beschikbaar.</p>`}
+        ${a.bb && a.g1>0.12 ? `<p class="waarschuw">Samengesteld ${pct(a.g1)} per jaar over de eerste fase. Dat veronderstelt dat het bedrijf dit inkooptempo volhoudt terwijl de koers stijgt — in euro's wordt dat elk jaar duurder. Behandel deze uitkomst als bovengrens.</p>`:''}
+      </div>
       <dl class="kv">
         <dt>Vereist rendement</dt><dd>${pct(a.r)}</dd>
         <dt>Dividendgroei fase 1</dt><dd>${pct(a.g1)}</dd>
@@ -243,6 +278,18 @@ function detail(a){
         <dt>Verlagingen sinds 2010</dt><dd>${a.cuts_sinds_2010}</dd>
         <dt>Kwaliteitsscore</dt><dd><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></dd>
       </dl>
+      <div class="agenda ${a.agenda.status}">
+        <div class="ag-kop">${STAT[a.agenda.status]}</div>
+        ${a.agenda.status==='nooit'
+          ? `<p>Geen guidance ingelezen. Het dividendpad is geschat uit de historie (${pct(a.g1)} per jaar) — de zwakste aanname in deze waardering.</p>`
+          : `<p>Guidance nagelopen op <b>${dat(a.agenda.guidance_gecheckt)}</b>.
+             Laatste cijfers: ${dat(a.agenda.laatste_cijfers)}${a.agenda.laatste_soort?' ('+a.agenda.laatste_soort+')':''}.
+             ${a.agenda.status==='verouderd'?'Die cijfers zijn nog niet verwerkt.':''}</p>`}
+        ${a.agenda.volgende_cijfers?`<p>Volgende: <b>${a.agenda.volgende_soort}</b> op ${dat(a.agenda.volgende_cijfers)}${a.agenda.dagen_tot!=null?` — over ${a.agenda.dagen_tot} dagen`:''}.</p>`:''}
+        ${a.guidance_type?`<p>Vorm: ${{dps:'bedrag per aandeel uit guidance',payout:'percentage van de verwachte winst',groei:'groeibeleid'}[a.guidance_type]}.</p>`:''}
+        ${a.guidance_notitie?`<p>${a.guidance_notitie}</p>`:''}
+        ${a.agenda.guidance_bron?`<p class="ag-bron">${a.agenda.guidance_bron}</p>`:''}
+      </div>
       ${a.special_div?'<div class="let-op">Dividend genormaliseerd: de laatste uitkering week sterk af van het patroon.</div>':''}
       ${a.vlag?'<div class="let-op">Uitkomst wijkt extreem af van de koers. Controleer de dividendhistorie met de hand.</div>':''}
     </div></div></td>`;
@@ -257,9 +304,11 @@ function teken(){
       <td class="tk">${(a.sector||'—').slice(0,18)}</td>
       <td>${fmt(a.koers)}</td><td>${pct(a.yield_nu)}</td>
       <td>${fmt(a.d0_norm,3)}</td><td>${pct(a.g1)}</td>
+      <td class="${a.bb?'pos':''}">${a.inkoop_rend?pct(a.inkoop_rend):'—'}</td>
       <td>${fmt(a.fair)}</td><td>${fmt(a.koopprijs)}</td>
       <td class="${d>0?'pos':'neg'}">${d>0?'+':''}${pct(d,0)}</td>
       <td><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></td>
+      <td><span class="st ${a.agenda.status}">${STAT[a.agenda.status]}</span></td>
     </tr>` + (open===a.ticker?`<tr class="detail">${detail(a)}</tr>`:'');
   }).join('');
   document.getElementById('m-aantal').textContent = rs.length+' van '+A.length+' aandelen';
@@ -274,10 +323,13 @@ function labels(){
   document.getElementById('v-g').textContent = pct(O.g ?? P.g_term,2);
   document.getElementById('v-m').textContent = O.m==null?'per kwaliteit':pct(O.m,0);
   document.getElementById('v-h').textContent = O.h+' jaar';
+  document.getElementById('v-bb').textContent = {guidance:'bij guidance',uit:'uit',altijd:'overal'}[O.bb];
 }
 const S=(id,f)=>document.getElementById(id).addEventListener('input',e=>{f(+e.target.value);labels();teken();});
 S('s-r',v=>O.r=v/100); S('s-g',v=>O.g=v/100); S('s-m',v=>O.m=v/100); S('s-h',v=>O.h=v);
-document.getElementById('reset').onclick=()=>{O={r:null,g:null,m:null,h:P.n2};
+document.getElementById('s-bb').addEventListener('change',e=>{O.bb=e.target.value;labels();teken();});
+document.getElementById('reset').onclick=()=>{O={r:null,g:null,m:null,h:P.n2,bb:'guidance'};
+  document.getElementById('s-bb').value='guidance';
   document.getElementById('s-r').value=8;document.getElementById('s-g').value=P.g_term*100;
   document.getElementById('s-m').value=20;document.getElementById('s-h').value=P.n2;labels();teken();};
 document.getElementById('zoek').addEventListener('input',e=>{q=e.target.value;teken();});
