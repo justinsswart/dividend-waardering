@@ -1,0 +1,11 @@
+{
+ "_uitleg": "Bronbelasting op dividend per land van notering, voor een Nederlandse particuliere belegger. 'verrekenbaar' = het deel dat je via je aangifte kunt verrekenen met box 3; de rest is een echt verlies tenzij je actief terugvordert.",
+ "NL": {"tarief": 0.15, "verrekenbaar": 0.15, "land": "Nederland"},
+ "CH": {"tarief": 0.35, "verrekenbaar": 0.15, "land": "Zwitserland", "notitie": "Verdrag beperkt tot 15%; het meerdere terugvorderen bij de Zwitserse fiscus vergt een aanvraag per jaar."},
+ "LU": {"tarief": 0.15, "verrekenbaar": 0.15, "land": "Luxemburg", "notitie": "Vrijstelling aan de bron mogelijk via de procedure die de uitgevende instelling beschrijft."},
+ "GB": {"tarief": 0.00, "verrekenbaar": 0.00, "land": "Verenigd Koninkrijk", "notitie": "Geen bronbelasting op dividend."},
+ "BE": {"tarief": 0.30, "verrekenbaar": 0.15, "land": "Belgie"},
+ "FR": {"tarief": 0.128, "verrekenbaar": 0.128, "land": "Frankrijk"},
+ "DE": {"tarief": 0.2638, "verrekenbaar": 0.15, "land": "Duitsland"},
+ "US": {"tarief": 0.15, "verrekenbaar": 0.15, "land": "Verenigde Staten", "notitie": "15% met een ingevuld W-8BEN-formulier, anders 30%."}
+}

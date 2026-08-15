@@ -37,7 +37,8 @@
   "g_na": 0.04,
   "bron": "shell.com/investors/dividends",
   "gecheckt": "2026-08-15",
-  "notitie": "Beleid van circa 4% jaarlijkse groei plus inkoop. Geen bedrag per aandeel afgegeven."
+  "notitie": "Beleid van circa 4% jaarlijkse groei plus inkoop. Geen bedrag per aandeel afgegeven.",
+  "land": "GB"
  },
  "AD.AS": {
   "payout_beleid": 0.5,
@@ -64,7 +65,8 @@
   "g_na": 0.06,
   "bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
   "gecheckt": "2026-08-15",
-  "notitie": "Beleidsdocument gelezen: houdbaar dividend dat kan meegroeien met de prestaties, GEEN payout-ratio en GEEN bedrag per aandeel toegezegd. Inkoop geldt als gelijkwaardig middel; bestuur mag dividend ook in aandelen uitkeren. Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar vanaf laag niveau). 6% groei is dus volledig een eigen aanname."
+  "notitie": "Beleidsdocument gelezen: houdbaar dividend dat kan meegroeien met de prestaties, GEEN payout-ratio en GEEN bedrag per aandeel toegezegd. Inkoop geldt als gelijkwaardig middel; bestuur mag dividend ook in aandelen uitkeren. Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar vanaf laag niveau). 6% groei is dus volledig een eigen aanname.",
+  "land": "NL"
  },
  "ASRNL.AS": {
   "d0_fy": 3.41,
@@ -87,7 +89,8 @@
   "g_na": 0.03,
   "bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
   "gecheckt": "2026-08-15",
-  "notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde."
+  "notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde.",
+  "land": "GB"
  },
  "HEIA.AS": {
   "d0_fy": 1.9,
@@ -127,14 +130,16 @@
   "wpa": 3.31,
   "bron": "investors.dsm-firmenich.com/en/investors/share-center/dividend + jaarcijfers 2025",
   "gecheckt": "2026-08-15",
-  "notitie": "Dividend 2,50 per aandeel, onveranderd sinds 2024 (2023: 1,60). Beleid 'stabiel tot bij voorkeur stijgend' met payout-doel 40-60% van de nettowinst. Het bestuur erkent expliciet dat 2,50 BUITEN dat doel valt: payout 76% van de core adjusted winst van 3,31 (2024: 3,54). Groei daarom op nul. ZWITSERSE BRONBELASTING: 1,64 wordt uit kapitaalreserves betaald (geen inhouding), 0,86 uit beschikbare inkomsten met 35% Zwitserse bronbelasting. Netto ontvang je dus minder dan het brutobedrag; terugvorderen tot 15% kan via het belastingverdrag maar vergt administratie. Inkoopprogramma 500 mln in 2026, na 1 mld in 2025. Animal Nutrition & Health verkocht aan CVC."
+  "notitie": "Dividend 2,50 per aandeel, onveranderd sinds 2024 (2023: 1,60). Beleid 'stabiel tot bij voorkeur stijgend' met payout-doel 40-60% van de nettowinst. Het bestuur erkent expliciet dat 2,50 BUITEN dat doel valt: payout 76% van de core adjusted winst van 3,31 (2024: 3,54). Groei daarom op nul. ZWITSERSE BRONBELASTING: 1,64 wordt uit kapitaalreserves betaald (geen inhouding), 0,86 uit beschikbare inkomsten met 35% Zwitserse bronbelasting. Netto ontvang je dus minder dan het brutobedrag; terugvorderen tot 15% kan via het belastingverdrag maar vergt administratie. Inkoopprogramma 500 mln in 2026, na 1 mld in 2025. Animal Nutrition & Health verkocht aan CVC.",
+  "land": "CH"
  },
  "REN.AS": {
   "d0_fy": 0.779,
   "g_na": 0.06,
   "bron": "relx.com/investors/shareholder-information/dividend-information + jaarcijfers 12 februari 2026",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: interim 19,5p + slot 48,0p = 67,5p (2024: 63,0p), +7%. In euro voor houders via Euroclear Nederland: 0,226 + 0,553 = 0,779 per aandeel. Interim 2026 al vastgesteld op 20,9p (+7,2%). Beleid: dividend groeit op lange termijn ongeveer in lijn met de aangepaste winst per aandeel, met een payout van circa de helft. Vijfjaars dividendgroei 8,1%, laatste jaar 7,7%; 6% als eigen aanname, iets conservatiever. Inkoop 1,5 mld pond in 2025, 2,25 mld voorzien in 2026. Nettoschuld/ebitda 2,0x, kasstroomconversie 99%. LET OP: notering in pond, uitkering in euro tegen de dan geldende koers - je loopt valutarisico op het dividend."
+  "notitie": "Boekjaar 2025: interim 19,5p + slot 48,0p = 67,5p (2024: 63,0p), +7%. In euro voor houders via Euroclear Nederland: 0,226 + 0,553 = 0,779 per aandeel. Interim 2026 al vastgesteld op 20,9p (+7,2%). Beleid: dividend groeit op lange termijn ongeveer in lijn met de aangepaste winst per aandeel, met een payout van circa de helft. Vijfjaars dividendgroei 8,1%, laatste jaar 7,7%; 6% als eigen aanname, iets conservatiever. Inkoop 1,5 mld pond in 2025, 2,25 mld voorzien in 2026. Nettoschuld/ebitda 2,0x, kasstroomconversie 99%. LET OP: notering in pond, uitkering in euro tegen de dan geldende koers - je loopt valutarisico op het dividend.",
+  "land": "GB"
  },
  "IMCD.AS": {
   "d0_fy": 1.81,
@@ -157,7 +162,8 @@
   "g_na": 0.04,
   "bron": "corporate.arcelormittal.com/investors/equity-investors/dividends + jaarverslag 2025 (Form 20-F)",
   "gecheckt": "2026-08-15",
-  "notitie": "Harde guidance: basisdividend FY2026 verhoogd naar 0,60 dollar per aandeel (FY2025: 0,55; FY2024: 0,50; FY2023: 0,44), in vier gelijke kwartaaltermijnen. Omgerekend tegen 1,1535 dollar per euro is dat 0,52 euro. Beleid: daarnaast minimaal 50% van de vrije kasstroom na dividend terug via inkoop. Het aantal aandelen is sinds september 2020 met 38% verminderd - veruit de grootste krimp in deze lijst. LET OP: Luxemburgse bronbelasting van 15%; bruto 0,13004 per kwartaal wordt netto 0,11053. Vrijstelling aan de bron is mogelijk via een procedure die ArcelorMittal beschrijft, anders terugvorderen. Dividend wordt in dollar vastgesteld, dus je loopt valutarisico. Groei 4% als eigen aanname; het bedrag steeg de laatste jaren circa 9% per jaar maar staal is cyclisch."
+  "notitie": "Harde guidance: basisdividend FY2026 verhoogd naar 0,60 dollar per aandeel (FY2025: 0,55; FY2024: 0,50; FY2023: 0,44), in vier gelijke kwartaaltermijnen. Omgerekend tegen 1,1535 dollar per euro is dat 0,52 euro. Beleid: daarnaast minimaal 50% van de vrije kasstroom na dividend terug via inkoop. Het aantal aandelen is sinds september 2020 met 38% verminderd - veruit de grootste krimp in deze lijst. LET OP: Luxemburgse bronbelasting van 15%; bruto 0,13004 per kwartaal wordt netto 0,11053. Vrijstelling aan de bron is mogelijk via een procedure die ArcelorMittal beschrijft, anders terugvorderen. Dividend wordt in dollar vastgesteld, dus je loopt valutarisico. Groei 4% als eigen aanname; het bedrag steeg de laatste jaren circa 9% per jaar maar staal is cyclisch.",
+  "land": "LU"
  },
  "ASML.AS": {
   "d0_fy": 7.5,

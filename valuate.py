@@ -12,6 +12,8 @@ except Exception:
 
 # Wijzigingen in overrides.json zelf detecteren, zodat het tijdstempel klopt
 # ongeacht hoe het bestand is bewerkt.
+BRON = json.load(open("bronbelasting.json"))
+
 try:
     LOG = json.load(open("override_log.json"))
 except Exception:
@@ -185,7 +187,16 @@ def kwaliteit(v, wpa_ov=None, d0_ref=None, cuts_ov=None):
             s = laagste[1]
     return s, det
 
-def dcf(divs_expliciet, d_start, g1, r, n1, n2, g_term):
+def stabiele_payout(roe, g_term):
+    """Damodaran: in de eindfase moet de payout consistent zijn met groei en
+    winstgevendheid - payout = 1 - g/ROE. Een bedrijf dat 2% blijft groeien bij een
+    ROE van 12% kan 83% uitkeren; bij een ROE van 5% maar 60%. Het model hield de
+    payout impliciet constant, wat de eindwaarde vertekent."""
+    if not roe or roe <= g_term:
+        return None
+    return round(1 - g_term / roe, 4)
+
+def dcf(divs_expliciet, d_start, g1, r, n1, n2, g_term, payout_nu=None, payout_st=None):
     """divs_expliciet: dict jaar->DPS. Daarna fade g1->g_term, dan Gordon."""
     pv, jaar_dps, d = 0.0, [], d_start
     t = 0
@@ -202,6 +213,9 @@ def dcf(divs_expliciet, d_start, g1, r, n1, n2, g_term):
         d *= (1+g)
         pv += d/(1+r)**t; jaar_dps.append((CUR+t-1, round(d,4)))
     r_st = max(rendement_stabiel(), g_term + 0.01)
+    # payout in de eindfase bijstellen naar wat groei en winstgevendheid toelaten
+    if payout_nu and payout_st and payout_nu > 0:
+        d *= min(max(payout_st / payout_nu, 0.5), 1.5)
     tv = d*(1+g_term)/(r_st-g_term)
     pv_tv = tv/(1+r)**t
     return pv+pv_tv, pv, pv_tv, jaar_dps
@@ -256,9 +270,21 @@ for tk, v in RAW.items():
         # Alleen de eeuwige groei in de eindwaarde moet er structureel onder blijven.
         g1 = min((1 + g1) / (1 - b) - 1, 0.18)
 
-    fv, pv_div, pv_tv, pad = dcf(expl, d0n, g1, r, P["n1"], P["n2"], P["g_term"])
+    # bronbelasting: wat er van het brutodividend overblijft na inhouding en verrekening
+    land = ov.get("land", "NL")
+    bb = BRON.get(land, BRON["NL"])
+    verlies = max(0.0, bb["tarief"] - bb["verrekenbaar"])
+
     kw, det = kwaliteit(v, ov.get("wpa"), d0n, ov.get("verlagingen"))
+
+    po_st = stabiele_payout(v.get("roe"), P["g_term"])
+    fv, pv_div, pv_tv, pad = dcf(expl, d0n, g1, r, P["n1"], P["n2"], P["g_term"],
+                                 det.get("payout"), po_st)
     sg = houdbare_groei(v, det.get("payout"), b)
+    laag = dcf(expl, d0n, max(g1-0.02, -0.05), r, P["n1"], P["n2"], max(P["g_term"]-0.01, 0.005),
+               det.get("payout"), po_st)[0]
+    hoog = dcf(expl, d0n, g1+0.02, r, P["n1"], P["n2"], P["g_term"]+0.01,
+               det.get("payout"), po_st)[0]
     mos = P["mos_max"] - (P["mos_max"]-P["mos_min"])*(kw/100)
     koop = fv*(1-mos)
     k = v["koers"]
@@ -276,6 +302,10 @@ for tk, v in RAW.items():
         "agenda": guidance_status(tk, ov), "override_gewijzigd": stempel(tk, ov),
         "inkoop_rend": b, "netto_inkoop": v.get("netto_inkoop"), "g1_kaal": round(g1_kaal, 4),
         "houdbare_groei": sg, "roe": v.get("roe"),
+        "fair_laag": round(laag, 3), "fair_hoog": round(hoog, 3),
+        "payout_stabiel": po_st, "land": land, "bron_tarief": bb["tarief"], "bron_verlies": round(verlies, 4),
+        "bron_notitie": bb.get("notitie"), "d0_netto": round(d0n * (1 - verlies), 5),
+        "model_ongeschikt": bool((det.get("payout") or 1) < 0.35 and (v.get("roe") or 0) > 0.20),
         "groei_boven_houdbaar": bool(sg is not None and g1 > sg + 0.02),
         "r_stabiel": round(rendement_stabiel(), 4),
         "onhoudbaar": onhoudbaar, "gespannen": gespannen,

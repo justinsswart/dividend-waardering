@@ -298,6 +298,7 @@ function detail(a){
       <div class="uitkomst">
         <div class="rij"><span class="lbl">Koers nu</span><span class="n">${fmt(k)}</span></div>
         <div class="rij"><span class="lbl">Contante waarde</span><span class="n">${fmt(a.fair)}</span></div>
+        <div class="rij"><span class="lbl">Bij 2%-punt minder / meer groei</span><span class="n" style="font-size:14px">${fmt(a.fair_laag)} – ${fmt(a.fair_hoog)}</span></div>
         <div class="rij"><span class="lbl">Koopprijs · marge ${pct(a.mos,0)}</span><span class="n ${onder?'pos':''}">${fmt(a.koopprijs)}</span></div>
         <div class="rij"><span class="lbl">Rendement op koopprijs</span><span class="n">${pct(a.yoc_koop)}</span></div>
       </div>
@@ -313,6 +314,18 @@ function detail(a){
         <p>Keert ${fmt(a.d0_norm,2)} per aandeel uit op een winst van ${fmt(a.d0_norm*a.dekking_wpa,2)} — dekking ${fmt(a.dekking_wpa)}&times;.
         Het model laat het dividend daarom niet groeien en rekent geen inkoopopslag: doorgroeien zou een aanname zijn die de winst niet draagt.
         Zonder winstherstel is dit dividend alleen vol te houden uit kasstroom of schuld.</p>
+      </div>`:''}
+      ${a.model_ongeschikt?`<div class="inkoop fel">
+        <div class="ag-kop">dividendmodel niet passend</div>
+        <p>Keert ${pct(a.checks.payout,0)} van de winst uit en herinvesteert de rest tegen een rendement van ${pct(a.roe,0)}.
+        Die waardecreatie ziet een dividendmodel per definitie niet — vandaar de lage uitkomst.
+        Voor dit type bedrijf hoort een kasstroommodel, niet dit.</p>
+      </div>`:''}
+      ${a.bron_verlies>0?`<div class="inkoop fel">
+        <div class="ag-kop">bronbelasting</div>
+        <p>${a.bron_tarief*100}% inhouding in ${a.land}, waarvan ${(a.bron_tarief-a.bron_verlies)*100}% verrekenbaar.
+        Van ${fmt(a.d0_norm,2)} bruto blijft ${fmt(a.d0_netto,2)} netto over — ${pct(a.bron_verlies,0)} verlies per uitkering.
+        ${a.bron_notitie||''}</p>
       </div>`:''}
       ${a.groei_boven_houdbaar?`<div class="inkoop fel">
         <div class="ag-kop">groei boven wat het bedrijf kan financieren</div>
@@ -338,6 +351,7 @@ function detail(a){
         <dt>Vereist rendement</dt><dd>${pct(a.r)}</dd>
         <dt>Dividendgroei fase 1</dt><dd>${pct(a.g1)}</dd>
         <dt>Groei 3j / 5j historisch</dt><dd>${pct(a.g3)} / ${pct(a.g5)}</dd>
+        <dt>Payout in de eindfase</dt><dd>${a.payout_stabiel!=null?pct(a.payout_stabiel,0):'—'}</dd>
         <dt>Houdbare groei (ROE x retentie)</dt><dd>${a.houdbare_groei!=null?pct(a.houdbare_groei):'—'}</dd>
         <dt>Vereist rendement na fase 1</dt><dd>${pct(a.r_stabiel)}</dd>
         <dt>Waarde uit eindwaarde</dt><dd>${pct(a.pv_terminal/a.fair,0)}</dd>
