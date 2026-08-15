@@ -8,8 +8,8 @@
   "gewijzigd": "2026-08-15T11:50:50+00:00"
  },
  "AGN.AS": {
-  "hash": "814d3c3faba2fafe",
-  "gewijzigd": "2026-08-15T11:50:50+00:00"
+  "hash": "40967335433f639e",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
  },
  "ASRNL.AS": {
   "hash": "16bfe5a4cf394a54",
@@ -32,8 +32,8 @@
   "gewijzigd": "2026-08-15T11:50:50+00:00"
  },
  "SHELL.AS": {
-  "hash": "aa670f98f54a4eb1",
-  "gewijzigd": "2026-08-15T11:50:50+00:00"
+  "hash": "a18cdbddd74efe84",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
  },
  "WKL.AS": {
   "hash": "6569efc080e7a10f",
@@ -44,7 +44,111 @@
   "gewijzigd": "2026-08-15T12:12:09+00:00"
  },
  "UNA.AS": {
-  "hash": "7300e067ee7f979c",
-  "gewijzigd": "2026-08-15T12:16:44+00:00"
+  "hash": "0a688e6fb55e77d7",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "AALB.AS": {
+  "hash": "54581e506215608e",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "AKZA.AS": {
+  "hash": "b6363c8baeae34ec",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "AMG.AS": {
+  "hash": "b271878b81b92f2d",
+  "gewijzigd": "2026-08-15T19:34:55+00:00"
+ },
+ "APAM.AS": {
+  "hash": "e5095b94e93c7cde",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "ARCAD.AS": {
+  "hash": "e20fd43d65848767",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "ASM.AS": {
+  "hash": "6d655f6711e86d1a",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "ASML.AS": {
+  "hash": "f6ed9b31847c6247",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "BAMNB.AS": {
+  "hash": "86344d99dcc598ef",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "CRBN.AS": {
+  "hash": "4d8ea77028addec0",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "CTPNV.AS": {
+  "hash": "70b2a954af928d5d",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "DSFIR.AS": {
+  "hash": "07269c941769ce78",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "ECMPA.AS": {
+  "hash": "62a2bf496201e163",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "FAGR.BR": {
+  "hash": "54e6b5c362aa021d",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "FUR.AS": {
+  "hash": "c734eb7b1b3f10f5",
+  "gewijzigd": "2026-08-15T19:34:55+00:00"
+ },
+ "HEIA.AS": {
+  "hash": "30566f9855749253",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "HEIO.AS": {
+  "hash": "19305024c0ce8b9a",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "IMCD.AS": {
+  "hash": "e8c8af009b82cb1f",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "MT.AS": {
+  "hash": "371d7dfd1bd486e4",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "NSI.AS": {
+  "hash": "efc4935588077f69",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "PHIA.AS": {
+  "hash": "eb8686a980d5cfb7",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "REN.AS": {
+  "hash": "4706ec91f51ed57b",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "SBMO.AS": {
+  "hash": "595855221920a68f",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "TWEKA.AS": {
+  "hash": "2f2804cddc704dd5",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "UMG.AS": {
+  "hash": "5f414c356b8e6a8b",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "VPK.AS": {
+  "hash": "f2826432b96066f0",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
+ },
+ "WHA.AS": {
+  "hash": "c23bfd87aa03627b",
+  "gewijzigd": "2026-08-15T19:33:40+00:00"
  }
 }

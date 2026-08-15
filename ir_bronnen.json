@@ -28,5 +28,13 @@
  "VPK.AS": "https://www.vopak.com/investors/dividend",
  "APAM.AS": "https://www.aperam.com/investors/equity-investors/dividend/",
  "CTPNV.AS": "https://www.ctp.eu/investors/shareholder-information/dividend/",
- "TWEKA.AS": "https://www.tkhgroup.com/en/investors/share-information/dividend/"
+ "TWEKA.AS": "https://www.tkhgroup.com/en/investors/share-information/dividend/",
+ "AALB.AS": "https://aalberts.com/investor",
+ "ARCAD.AS": "https://www.arcadis.com/en/investors/share-information/dividends-and-total-shareholder-return/",
+ "BAMNB.AS": "https://www.bam.com/en/investors/share/dividend",
+ "CRBN.AS": "https://www.corbion.com/Investor-relations/shareholder-information/Dividend",
+ "FAGR.BR": "https://investors.fagron.com/",
+ "FUR.AS": "https://www.fugro.com/investors/shares/dividend-policy",
+ "SBMO.AS": "https://www.sbmoffshore.com/investors/",
+ "AMG.AS": "https://amg-nv.com/investors/"
 }

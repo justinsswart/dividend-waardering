@@ -211,3 +211,10 @@ Het detailpaneel waarschuwt, en er is een filter "Groei houdbaar".
 - **Geen scenario's.** Eén dividendpad per aandeel, geen kansverdeling.
 - **Geen expliciete stabiele payout.** Damodaran leidt de payout in de eindfase af uit
   g en ROE: payout = 1 − g/ROE. Wij houden de payout impliciet constant.
+
+## inkoop_negeren
+
+Standaard telt een inkoopprogramma mee als opslag op de groeivoet: minder aandelen betekent
+een hoger dividend per aandeel. Dat klopt alleen als het aantal aandelen daadwerkelijk daalt.
+Koopt een bedrijf in om verwatering uit een keuzedividend of optieplan te compenseren, zet dan
+`"inkoop_negeren": true` in de override. Voorbeeld: Fugro.

@@ -265,7 +265,10 @@ for tk, v in RAW.items():
 
     b = inkoop_rendement(v)
     g1_kaal = g1
-    if ov and b > 0 and not (onhoudbaar or gespannen):
+    # inkoop_negeren: sommige bedrijven kopen alleen in om verwatering te compenseren
+    # (keuzedividend, optieplannen). Het aantal aandelen daalt dan niet, dus het
+    # dividend per aandeel groeit er ook niet door.
+    if ov and b > 0 and not (onhoudbaar or gespannen) and not ov.get("inkoop_negeren"):
         # Fase 1 is eindig, dus g1 mag boven het vereist rendement liggen.
         # Alleen de eeuwige groei in de eindwaarde moet er structureel onder blijven.
         g1 = min((1 + g1) / (1 - b) - 1, 0.18)
