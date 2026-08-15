@@ -73,5 +73,105 @@
   "bron": "asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid + dividendinfo.nl",
   "gecheckt": "2026-08-15",
   "notitie": "Progressief beleid met 'mid-to-high single digit' groei per jaar, aangekondigd na de Aegon NL-transactie en op de Capital Markets Day van 27 juni 2024 verlengd. Payout 45-55% van het netto operationeel resultaat; over 2025 uitgekomen op 43%. Boekjaar 2025: interim 1,27 + slot 2,14 = 3,41 (2024: 3,12). Winst per aandeel hier op het operationeel resultaat van 7,93 gezet, niet op de IFRS-winst van 2,16 - die laatste schommelt met marktwaarderingen en gaf ten onrechte een dekkingswaarschuwing. Voorwaarde: geen dividend als de solvabiliteit onder 140% zakt. Inkoop 175 mln in 2025, 225 mln voorzien in 2026."
+ },
+ "RAND.AS": {
+  "d0_fy": 1.62,
+  "g_na": 0.0,
+  "wpa": 2.52,
+  "bron": "randstad.com/investor-relations - dividendvoorstel februari 2026, jaarcijfers 2025",
+  "gecheckt": "2026-08-15",
+  "notitie": "Bodemdividend van 1,62 per aandeel sinds 2018, payout-beleid 40-55% van de aangepaste nettowinst. Over boekjaar 2025 exact het minimum: 1,62 (geen speciaal dividend). Winst per aandeel 2025: 2,52 (2024: 2,30), payout 64%. Extra uitkeringen - speciaal dividend of inkoop - alleen als de nettoschuld/ebitda onder 1,0 blijft; over 2024 was dat 1,27 extra. Groei op nul gezet: het reguliere dividend staat al acht jaar stil en de extra's zijn per definitie incidenteel, dus horen niet als structurele groei in dit model. Het model leidde eerder -31% groei af doordat het weggevallen speciale dividenden als een daling las."
+ },
+ "UNA.AS": {
+  "d0_fy": 1.8656,
+  "g_na": 0.03,
+  "bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
+  "gecheckt": "2026-08-15",
+  "notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde."
+ },
+ "HEIA.AS": {
+  "d0_fy": 1.9,
+  "g_na": 0.04,
+  "wpa": 4.58,
+  "bron": "theheinekencompany.com/investors + persbericht jaarcijfers 11 februari 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 0,74 + slot 1,16 = 1,90 per aandeel (2024: 1,86), goedgekeurd op de AVA van 23 april 2026. Beleid: payout 30-40% van de nettowinst beia - voor uitzonderlijke posten en merkamortisatie - vanaf 2026 verruimd naar 30-50%. Interim vastgesteld op 40% van het vorige jaartotaal. Guidance 2026: organische groei operationele winst 2-6%; middellange termijn omzetgroei circa 5%. Groei op 4% gezet, het midden van de winstguidance; dat is een eigen aanname want er is geen bedrag toegezegd. Dit is de operationele brouwerij."
+ },
+ "HEIO.AS": {
+  "d0_fy": 1.9,
+  "g_na": 0.04,
+  "wpa": 4.58,
+  "bron": "heinekenholding.com/investors/share-information/dividend + AVA 23 april 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 0,74 + slot 1,16 = 1,90 per aandeel (2024: 1,86), goedgekeurd op de AVA van 23 april 2026. Beleid: payout 30-40% van de nettowinst beia - voor uitzonderlijke posten en merkamortisatie - vanaf 2026 verruimd naar 30-50%. Interim vastgesteld op 40% van het vorige jaartotaal. Guidance 2026: organische groei operationele winst 2-6%; middellange termijn omzetgroei circa 5%. Groei op 4% gezet, het midden van de winstguidance; dat is een eigen aanname want er is geen bedrag toegezegd. Holding bezit 50,005% van Heineken N.V. en keert exact hetzelfde bedrag per aandeel uit. De koers ligt structureel lager, dus het aanvangsrendement is hoger bij hetzelfde dividend."
+ },
+ "PHIA.AS": {
+  "d0_fy": 0.85,
+  "g_na": 0.0,
+  "wpa": 1.56,
+  "bron": "philips.com/investor-relations - dividendvoorstel bij de jaarcijfers, AVA mei 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Jaardividend 2025 onveranderd op 0,85 per aandeel, net als in 2024. Beleid: stabiel dividend met payout 40-50% van de aangepaste nettowinst; over 2025 uitgekomen op 54% (aangepaste winst 1,56 tegen 1,36 in 2024). LET OP: keuzedividend - contant of in aandelen, en de STANDAARDOPTIE is aandelen als de aandeelhouder niets kiest. In 2019, 2022 en 2023 keerde Philips volledig in aandelen uit omdat de kaspositie dat vereiste; dan is het werkelijke cashrendement nul. Groei op nul gezet: het bedrag staat al jaren stil ondanks stijgende winst."
+ },
+ "AKZA.AS": {
+  "d0_fy": 1.98,
+  "g_na": 0.0,
+  "wpa": 3.63,
+  "bron": "akzonobel.com/en/investors/dividend - slotdividend 1,54 betaalbaar 6 mei 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 0,44 + slot 1,54 = 1,98 per aandeel, exact gelijk aan 2022, 2023 en 2024. Aangepaste winst per aandeel uit voortgezette activiteiten 3,63 (2024: 3,88), payout 55%. Groei op nul: het dividend staat al vier jaar stil terwijl de winst daalde. Aandachtspunt: er wordt in de markt gespeculeerd op een speciaal dividend van circa 12,50 per aandeel. Dat is een verwachting van derden, geen bedrijfsguidance, en zit dus NIET in deze waardering."
+ },
+ "DSFIR.AS": {
+  "d0_fy": 2.5,
+  "g_na": 0.0,
+  "wpa": 3.31,
+  "bron": "investors.dsm-firmenich.com/en/investors/share-center/dividend + jaarcijfers 2025",
+  "gecheckt": "2026-08-15",
+  "notitie": "Dividend 2,50 per aandeel, onveranderd sinds 2024 (2023: 1,60). Beleid 'stabiel tot bij voorkeur stijgend' met payout-doel 40-60% van de nettowinst. Het bestuur erkent expliciet dat 2,50 BUITEN dat doel valt: payout 76% van de core adjusted winst van 3,31 (2024: 3,54). Groei daarom op nul. ZWITSERSE BRONBELASTING: 1,64 wordt uit kapitaalreserves betaald (geen inhouding), 0,86 uit beschikbare inkomsten met 35% Zwitserse bronbelasting. Netto ontvang je dus minder dan het brutobedrag; terugvorderen tot 15% kan via het belastingverdrag maar vergt administratie. Inkoopprogramma 500 mln in 2026, na 1 mld in 2025. Animal Nutrition & Health verkocht aan CVC."
+ },
+ "REN.AS": {
+  "d0_fy": 0.779,
+  "g_na": 0.06,
+  "bron": "relx.com/investors/shareholder-information/dividend-information + jaarcijfers 12 februari 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 19,5p + slot 48,0p = 67,5p (2024: 63,0p), +7%. In euro voor houders via Euroclear Nederland: 0,226 + 0,553 = 0,779 per aandeel. Interim 2026 al vastgesteld op 20,9p (+7,2%). Beleid: dividend groeit op lange termijn ongeveer in lijn met de aangepaste winst per aandeel, met een payout van circa de helft. Vijfjaars dividendgroei 8,1%, laatste jaar 7,7%; 6% als eigen aanname, iets conservatiever. Inkoop 1,5 mld pond in 2025, 2,25 mld voorzien in 2026. Nettoschuld/ebitda 2,0x, kasstroomconversie 99%. LET OP: notering in pond, uitkering in euro tegen de dan geldende koers - je loopt valutarisico op het dividend."
+ },
+ "IMCD.AS": {
+  "d0_fy": 1.81,
+  "g_na": 0.0,
+  "wpa": 5.19,
+  "bron": "imcdgroup.com/investors - jaarcijfers 2025, dividendvoorstel AVA 30 april 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 1,81 per aandeel, een verlaging van 16% ten opzichte van 2,15 over 2024. Dat is geen artefact maar het beleid dat werkt: payout 25-35% van het gecorrigeerde nettoresultaat, en de winst per aandeel zakte van 6,34 naar 5,19. Payout 35%, keurig binnen de bandbreedte. Het progressieve beleid dat sinds 2013 gold is daarmee doorbroken. Q1 2026: omzet +1%, brutomarge gedaald naar 10,2% (van 11,3%), winst per aandeel 1,06 tegen 1,16. Geen concrete outlook voor 2026 afgegeven. Groei op nul: bij een payout-beleid volgt het dividend de winst, en die staat onder druk. Let op: netto-uitgifte van aandelen in plaats van inkoop, dus lichte verwatering."
+ },
+ "UMG.AS": {
+  "d0_fy": 0.52,
+  "g_na": 0.02,
+  "wpa": 0.97,
+  "bron": "investors.universalmusic.com - jaarcijfers 5 maart 2026, halfjaarcijfers 30 juli 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 0,24 + slot 0,28 = 0,52 per aandeel. Beleid: ten minste 50% van de aangepaste nettowinst; feitelijke payout circa 63%. Interim 2026 onveranderd op 0,24, dus geen verhoging. Halfjaarcijfers 2026 waren vlak: aangepaste winst per aandeel 0,48 tegen 0,49 in H1 2025, met vertragende abonnementsgroei en tegenvallende marges - na een eerdere tegenvaller lijkt dat een patroon te worden. Pershing Square verkocht zijn belang nadat een bod werd afgewezen; UMG kocht een deel van die aandelen terug. Groei op 2% als voorzichtige eigen aanname; het dividend staat sinds 2023 vrijwel stil."
+ },
+ "MT.AS": {
+  "d0_fy": 0.5202,
+  "g_na": 0.04,
+  "bron": "corporate.arcelormittal.com/investors/equity-investors/dividends + jaarverslag 2025 (Form 20-F)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Harde guidance: basisdividend FY2026 verhoogd naar 0,60 dollar per aandeel (FY2025: 0,55; FY2024: 0,50; FY2023: 0,44), in vier gelijke kwartaaltermijnen. Omgerekend tegen 1,1535 dollar per euro is dat 0,52 euro. Beleid: daarnaast minimaal 50% van de vrije kasstroom na dividend terug via inkoop. Het aantal aandelen is sinds september 2020 met 38% verminderd - veruit de grootste krimp in deze lijst. LET OP: Luxemburgse bronbelasting van 15%; bruto 0,13004 per kwartaal wordt netto 0,11053. Vrijstelling aan de bron is mogelijk via een procedure die ArcelorMittal beschrijft, anders terugvorderen. Dividend wordt in dollar vastgesteld, dus je loopt valutarisico. Groei 4% als eigen aanname; het bedrag steeg de laatste jaren circa 9% per jaar maar staal is cyclisch."
+ },
+ "ASML.AS": {
+  "d0_fy": 7.5,
+  "g_na": 0.08,
+  "bron": "asml.com/en/investors/why-invest-in-asml/capital-return-and-financing + jaarverslag 2025 (Form 20-F)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: drie interimdividenden van 1,60 plus slot 2,70 = 7,50 per aandeel, 17,2% hoger dan de 6,40 over 2024. Reeks: 2022 5,80 / 2023 6,10 / 2024 6,40 / 2025 7,50. Interim 2026 al verhoogd naar 1,88. Beleid: houdbaar dividend per aandeel dat over tijd groeit, per kwartaal uitgekeerd; payout circa 30% van de winst. Nieuw inkoopprogramma van 12 mld euro tot eind 2028, aangekondigd 28 januari 2026. Groei 8% als eigen aanname; het tienjaarstempo van 27% is niet vol te houden en het bedrag hangt aan een cyclische halfgeleidermarkt. Bij een rendement van circa 0,7% zegt een dividendmodel weinig over dit aandeel."
+ },
+ "ASM.AS": {
+  "d0_fy": 3.25,
+  "g_na": 0.07,
+  "wpa": 14.77,
+  "bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 3,25 per aandeel (2024: 3,00), goedgekeurd op de AVA van 11 mei 2026. Beleid: verantwoord en houdbaar jaardividend met een streefpayout van circa 30%; feitelijk 22% bij een winst per aandeel van 14,77 (2024: 13,95). Nieuw inkoopprogramma van 150 mln voor 2026/2027. H1 2026 was sterk: winst per aandeel 10,71 tegen 3,53 in H1 2025, gedreven door versnellende AI-vraag; de tweede jaarhelft wordt volgens ASM sterker met circa 20% omzetgroei. Groei 7% als eigen aanname, onder het vijfjaarstempo van 10,2%. Bij een rendement van 0,4% is dit geen inkomensaandeel; het model zegt hier weinig zinnigs over."
  }
 }

@@ -170,7 +170,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
     <th data-s="naam">Bedrijf</th><th data-s="koers">Koers</th><th data-s="yield_nu">Rendement</th>
     <th data-s="g1">Groei</th>
     <th data-s="fair">Contante waarde</th><th data-s="koopprijs">Koopprijs</th>
-    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th><th data-s="override_gewijzigd">Aanname</th>
+    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th><th data-s="gecheckt_s">Cijfers gecheckt</th>
   </tr></thead>
   <tbody id="rijen"></tbody>
 </table>
@@ -206,6 +206,11 @@ const kort=s=>{if(!s)return '—';
   if(m<1440) return `${Math.round(m/60)} u geleden`;
   const dg=Math.round(m/1440);
   return dg<8 ? `${dg} d geleden` : d.toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'});};
+const datkort=s=>{if(!s)return '—';
+  const d=new Date(s); if(isNaN(d)) return '—';
+  const dg=Math.round((Date.now()-d)/864e5);
+  return dg<=0?'vandaag':dg===1?'gisteren':dg<8?`${dg} dagen geleden`
+    :d.toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'});};
 const dat=s=>s?new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'}):'onbekend';
 
 let O={r:null,g:null,m:null,h:P.n2,bb:'guidance'}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', fIndex='', fStatus='', open=null;
@@ -342,7 +347,7 @@ function detail(a){
         ${a.agenda.volgende_cijfers?`<p>Volgende: <b>${a.agenda.volgende_soort}</b> op ${dat(a.agenda.volgende_cijfers)}${a.agenda.dagen_tot!=null?` — over ${a.agenda.dagen_tot} dagen`:''}.</p>`:''}
         ${a.guidance_type?`<p>Vorm: ${{dps:'bedrag per aandeel uit guidance',payout:'percentage van de verwachte winst',groei:'groeibeleid'}[a.guidance_type]}.</p>`:''}
         ${a.guidance_notitie?`<p>${a.guidance_notitie}</p>`:''}
-        ${a.override_gewijzigd?`<p class="ag-bron">aanname aangepast op ${new Date(a.override_gewijzigd).toLocaleString('nl-NL',{dateStyle:'medium',timeStyle:'short'})}</p>`:''}
+        ${a.override_gewijzigd?`<p class="ag-bron">aanname voor het laatst gewijzigd op ${new Date(a.override_gewijzigd).toLocaleString('nl-NL',{dateStyle:'medium',timeStyle:'short'})}</p>`:''}
         ${a.agenda.guidance_bron?`<p class="ag-bron">${a.agenda.guidance_bron}</p>`:''}
       </div>
       ${a.special_div?'<div class="let-op">Dividend genormaliseerd: de laatste uitkering week sterk af van het patroon.</div>':''}
@@ -362,7 +367,9 @@ function teken(){
       <td class="${d>0?'pos':'neg'}">${d>0?'+':''}${pct(d,0)}</td>
       <td><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></td>
       <td><span class="st ${a.agenda.status}">${STAT[a.agenda.status]}</span></td>
-      <td class="tk">${a.override_gewijzigd?kort(a.override_gewijzigd):'<span style="color:var(--lijn)">nooit</span>'}</td>
+      <td class="tk">${a.agenda.guidance_gecheckt
+        ? datkort(a.agenda.guidance_gecheckt)
+        : '<span style="color:var(--lijn)">nooit</span>'}</td>
     </tr>` + (open===a.ticker?`<tr class="detail">${detail(a)}</tr>`:'');
   }).join('');
   const per={}; rs.forEach(a=>per[a.index]=(per[a.index]||0)+1);

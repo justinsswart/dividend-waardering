@@ -7,9 +7,19 @@
  "AD.AS": "https://www.aholddelhaize.com/investors/share-information/dividend/",
  "NN.AS": "https://www.nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
  "ASRNL.AS": "https://www.asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid",
- "UNA.AS": "https://www.unilever.com/investors/shareholder-centre/dividends/",
+ "UNA.AS": "https://www.unilever.com/investors/investor-centre/dividends/",
  "SHELL.AS": "https://www.shell.com/investors/dividends.html",
  "HEIA.AS": "https://www.theheinekencompany.com/investors/shareholder-information/dividend",
  "RAND.AS": "https://www.randstad.com/investor-relations/share-information/dividend/",
- "LIGHT.AS": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info"
+ "LIGHT.AS": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
+ "HEIO.AS": "https://www.heinekenholding.com/investors/share-information/dividend",
+ "PHIA.AS": "https://www.philips.com/a-w/about/investor/financial-information/dividend.html",
+ "AKZA.AS": "https://www.akzonobel.com/en/investors/dividend",
+ "DSFIR.AS": "https://investors.dsm-firmenich.com/en/investors/share-center/dividend.html",
+ "REN.AS": "https://www.relx.com/investors/shareholder-information/dividend-information",
+ "IMCD.AS": "https://www.imcdgroup.com/en/investors/share-information/dividend",
+ "UMG.AS": "https://investors.universalmusic.com/shareholder-information/dividend",
+ "MT.AS": "https://corporate.arcelormittal.com/investors/equity-investors/dividends",
+ "ASML.AS": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
+ "ASM.AS": "https://www.asm.com/investors/dividends-share-buybacks"
 }
