@@ -47,10 +47,10 @@
   "shares": 106644272,
   "netdebt": 1067799968,
   "ebitda": 512700000,
-  "yield_ttm": 2.59,
+  "yield_ttm": 2.62,
   "beta": 1.318,
   "roe": 0.06217,
-  "opgehaald": "2026-08-15T14:11:28+00:00"
+  "opgehaald": "2026-08-15T19:54:44+00:00"
  },
  "ABN.AS": {
   "netto_inkoop": 416666667,
@@ -87,7 +87,7 @@
   "yield_ttm": 3.33,
   "beta": 0.733,
   "roe": 0.0912,
-  "opgehaald": "2026-08-15T14:11:28+00:00"
+  "opgehaald": "2026-08-15T19:54:45+00:00"
  },
  "ACOMO.AS": {
   "netto_inkoop": -42000,
@@ -138,7 +138,7 @@
   "yield_ttm": 5.97,
   "beta": 0.259,
   "roe": 0.13793999,
-  "opgehaald": "2026-08-15T14:11:29+00:00"
+  "opgehaald": "2026-08-15T19:54:46+00:00"
  },
  "AD.AS": {
   "netto_inkoop": 1002333333,
@@ -183,7 +183,7 @@
   "yield_ttm": 3.83,
   "beta": 0.334,
   "roe": 0.15675999,
-  "opgehaald": "2026-08-15T14:11:30+00:00"
+  "opgehaald": "2026-08-15T19:54:47+00:00"
  },
  "ADYEN.AS": {
   "netto_inkoop": -48314333,
@@ -192,7 +192,7 @@
   "sector": "Technology",
   "koers": 1061.6,
   "valuta": "EUR",
-  "mcap": 33479352320,
+  "mcap": 33511182336,
   "div_hist": {},
   "d0": 0,
   "g3": null,
@@ -203,13 +203,13 @@
   "eps_fwd": 46.99556,
   "payout": 0.0,
   "fcf": null,
-  "shares": 31536692,
+  "shares": 31566677,
   "netdebt": 0,
   "ebitda": 1282953984,
   "yield_ttm": null,
   "beta": 1.86,
   "roe": null,
-  "opgehaald": "2026-08-15T14:11:30+00:00"
+  "opgehaald": "2026-08-15T19:54:48+00:00"
  },
  "AF.PA": {
   "netto_inkoop": -17000000,
@@ -245,16 +245,16 @@
   "yield_ttm": null,
   "beta": 1.315,
   "roe": 0.63086,
-  "opgehaald": "2026-08-15T14:11:31+00:00"
+  "opgehaald": "2026-08-15T19:54:49+00:00"
  },
  "AGN.AS": {
   "netto_inkoop": 848666667,
   "ticker": "AGN.AS",
-  "naam": "AEGON",
+  "naam": "Aegon Ltd.",
   "sector": "Financial Services",
   "koers": 8.226,
   "valuta": "EUR",
-  "mcap": 12163094145.21923,
+  "mcap": 12163094528,
   "div_hist": {
    "1999": 1.14,
    "2000": 1.29,
@@ -291,13 +291,13 @@
   "eps_fwd": 0.90922,
   "payout": 0.6333,
   "fcf": -204500000,
-  "shares": 1478615900,
+  "shares": 1470418770,
   "netdebt": 4803000128,
   "ebitda": null,
-  "yield_ttm": 5.15,
+  "yield_ttm": 5.11,
   "beta": 0.623,
   "roe": 0.10421,
-  "opgehaald": "2026-08-15T14:11:32+00:00"
+  "opgehaald": "2026-08-15T19:54:50+00:00"
  },
  "AJAX.AS": {
   "netto_inkoop": null,
@@ -329,7 +329,7 @@
   "yield_ttm": null,
   "beta": null,
   "roe": -0.02419,
-  "opgehaald": "2026-08-15T14:11:33+00:00"
+  "opgehaald": "2026-08-15T19:54:52+00:00"
  },
  "AKZA.AS": {
   "netto_inkoop": 0,
@@ -384,7 +384,7 @@
   "yield_ttm": 3.18,
   "beta": 1.178,
   "roe": 0.14142999,
-  "opgehaald": "2026-08-15T14:11:34+00:00"
+  "opgehaald": "2026-08-15T19:54:53+00:00"
  },
  "ALFEN.AS": {
   "netto_inkoop": 1064000,
@@ -410,7 +410,7 @@
   "yield_ttm": null,
   "beta": 1.546,
   "roe": -0.00124,
-  "opgehaald": "2026-08-15T14:11:35+00:00"
+  "opgehaald": "2026-08-15T19:54:54+00:00"
  },
  "ALX.AS": {
   "netto_inkoop": null,
@@ -436,7 +436,7 @@
   "yield_ttm": null,
   "beta": 0.338,
   "roe": -0.14073,
-  "opgehaald": "2026-08-15T14:11:35+00:00"
+  "opgehaald": "2026-08-15T19:54:55+00:00"
  },
  "AMG.AS": {
   "netto_inkoop": 2589333,
@@ -472,10 +472,10 @@
   "shares": 35586099,
   "netdebt": 516574976,
   "ebitda": 283684992,
-  "yield_ttm": 1.19,
+  "yield_ttm": 1.16,
   "beta": 1.053,
   "roe": 0.01568,
-  "opgehaald": "2026-08-15T14:11:36+00:00"
+  "opgehaald": "2026-08-15T19:54:56+00:00"
  },
  "APAM.AS": {
   "netto_inkoop": 0,
@@ -515,7 +515,7 @@
   "yield_ttm": 4.22,
   "beta": 1.822,
   "roe": 0.03946,
-  "opgehaald": "2026-08-15T14:11:37+00:00"
+  "opgehaald": "2026-08-15T19:54:57+00:00"
  },
  "ARCAD.AS": {
   "netto_inkoop": 62000000,
@@ -566,10 +566,10 @@
   "shares": 85205601,
   "netdebt": 1051000000,
   "ebitda": 341000000,
-  "yield_ttm": 2.43,
+  "yield_ttm": 2.42,
   "beta": 0.725,
   "roe": 0.19146,
-  "opgehaald": "2026-08-15T14:11:37+00:00"
+  "opgehaald": "2026-08-15T19:54:58+00:00"
  },
  "ASM.AS": {
   "netto_inkoop": 134521667,
@@ -613,7 +613,7 @@
   "yield_ttm": 0.36,
   "beta": 1.523,
   "roe": 0.26798,
-  "opgehaald": "2026-08-15T14:11:38+00:00"
+  "opgehaald": "2026-08-15T19:55:00+00:00"
  },
  "ASML.AS": {
   "netto_inkoop": 2361433333,
@@ -660,7 +660,7 @@
   "yield_ttm": 0.49,
   "beta": 1.365,
   "roe": 0.53942,
-  "opgehaald": "2026-08-15T14:11:39+00:00"
+  "opgehaald": "2026-08-15T19:55:01+00:00"
  },
  "ASRNL.AS": {
   "netto_inkoop": -48666667,
@@ -694,10 +694,10 @@
   "shares": 204558568,
   "netdebt": -68032000000,
   "ebitda": 6451999744,
-  "yield_ttm": 4.87,
+  "yield_ttm": 4.82,
   "beta": 0.506,
   "roe": 0.05647,
-  "opgehaald": "2026-08-15T14:11:40+00:00"
+  "opgehaald": "2026-08-15T19:55:02+00:00"
  },
  "AVTX.AS": {
   "netto_inkoop": -51084667,
@@ -723,7 +723,7 @@
   "yield_ttm": null,
   "beta": 1.142,
   "roe": -0.21936001,
-  "opgehaald": "2026-08-15T14:11:40+00:00"
+  "opgehaald": "2026-08-15T19:55:03+00:00"
  },
  "AXS.AS": {
   "netto_inkoop": -4503000,
@@ -751,7 +751,7 @@
   "yield_ttm": null,
   "beta": 1.163,
   "roe": 0.06397,
-  "opgehaald": "2026-08-15T14:11:42+00:00"
+  "opgehaald": "2026-08-15T19:55:04+00:00"
  },
  "BAMNB.AS": {
   "netto_inkoop": 45132000,
@@ -800,7 +800,7 @@
   "yield_ttm": 2.51,
   "beta": 0.665,
   "roe": 0.25308,
-  "opgehaald": "2026-08-15T14:11:42+00:00"
+  "opgehaald": "2026-08-15T19:55:05+00:00"
  },
  "BESI.AS": {
   "netto_inkoop": 125062333,
@@ -843,7 +843,7 @@
   "yield_ttm": 0.68,
   "beta": 1.336,
   "roe": 0.44873002,
-  "opgehaald": "2026-08-15T14:11:43+00:00"
+  "opgehaald": "2026-08-15T19:55:06+00:00"
  },
  "BEVER.AS": {
   "netto_inkoop": null,
@@ -874,7 +874,7 @@
   "yield_ttm": null,
   "beta": 0.055,
   "roe": -0.02412,
-  "opgehaald": "2026-08-15T14:11:44+00:00"
+  "opgehaald": "2026-08-15T19:55:07+00:00"
  },
  "BFIT.AS": {
   "netto_inkoop": 11166667,
@@ -900,7 +900,7 @@
   "yield_ttm": null,
   "beta": 0.893,
   "roe": 0.10945,
-  "opgehaald": "2026-08-15T14:11:45+00:00"
+  "opgehaald": "2026-08-15T19:55:08+00:00"
  },
  "BRNL.AS": {
   "netto_inkoop": null,
@@ -954,7 +954,7 @@
   "yield_ttm": 0.8,
   "beta": 0.467,
   "roe": 0.03669,
-  "opgehaald": "2026-08-15T14:11:45+00:00"
+  "opgehaald": "2026-08-15T19:55:09+00:00"
  },
  "CABKA.AS": {
   "netto_inkoop": -28333,
@@ -983,7 +983,7 @@
   "yield_ttm": null,
   "beta": null,
   "roe": -0.02881,
-  "opgehaald": "2026-08-15T14:11:46+00:00"
+  "opgehaald": "2026-08-15T19:55:10+00:00"
  },
  "CMCOM.AS": {
   "netto_inkoop": -8161667,
@@ -992,7 +992,7 @@
   "sector": "Technology",
   "koers": 7.04,
   "valuta": "EUR",
-  "mcap": 233871280,
+  "mcap": 233523216,
   "div_hist": {},
   "d0": 0,
   "g3": null,
@@ -1003,13 +1003,13 @@
   "eps_fwd": 0.12,
   "payout": 0.0,
   "fcf": -5881750,
-  "shares": 33220351,
+  "shares": 33170913,
   "netdebt": 53155000,
   "ebitda": 6032000,
   "yield_ttm": null,
   "beta": 1.165,
   "roe": -0.26549998,
-  "opgehaald": "2026-08-15T14:11:47+00:00"
+  "opgehaald": "2026-08-15T19:55:11+00:00"
  },
  "CRBN.AS": {
   "netto_inkoop": 15000000,
@@ -1060,10 +1060,10 @@
   "shares": 57651854,
   "netdebt": 481600000,
   "ebitda": 169700000,
-  "yield_ttm": 3.24,
+  "yield_ttm": 3.2,
   "beta": 0.93,
   "roe": 0.083950005,
-  "opgehaald": "2026-08-15T14:11:47+00:00"
+  "opgehaald": "2026-08-15T19:55:12+00:00"
  },
  "CTPNV.AS": {
   "netto_inkoop": -98200000,
@@ -1096,7 +1096,7 @@
   "yield_ttm": 4.41,
   "beta": 0.981,
   "roe": 0.06752,
-  "opgehaald": "2026-08-15T14:11:48+00:00"
+  "opgehaald": "2026-08-15T19:55:13+00:00"
  },
  "DSFIR.AS": {
   "netto_inkoop": 453333333,
@@ -1124,10 +1124,10 @@
   "shares": 246477717,
   "netdebt": 4457000192,
   "ebitda": 1310000000,
-  "yield_ttm": 2.76,
+  "yield_ttm": 2.78,
   "beta": 0.564,
   "roe": 0.01874,
-  "opgehaald": "2026-08-15T14:11:49+00:00"
+  "opgehaald": "2026-08-15T19:55:14+00:00"
  },
  "EBUS.AS": {
   "netto_inkoop": -21523667,
@@ -1153,7 +1153,7 @@
   "yield_ttm": null,
   "beta": 0.965,
   "roe": -4.60992,
-  "opgehaald": "2026-08-15T14:11:49+00:00"
+  "opgehaald": "2026-08-15T19:55:15+00:00"
  },
  "ECMPA.AS": {
   "netto_inkoop": 5488667,
@@ -1185,7 +1185,7 @@
   "yield_ttm": 6.78,
   "beta": 0.783,
   "roe": 0.0592,
-  "opgehaald": "2026-08-15T14:11:50+00:00"
+  "opgehaald": "2026-08-15T19:55:15+00:00"
  },
  "ENVI.AS": {
   "netto_inkoop": -25290000,
@@ -1201,7 +1201,7 @@
   "g5": null,
   "cuts_sinds_2010": 0,
   "diepste_verlaging": 0.0,
-  "eps": -0.24,
+  "eps": -0.23,
   "eps_fwd": 0.57458,
   "payout": 0.0,
   "fcf": -36604876,
@@ -1211,7 +1211,7 @@
   "yield_ttm": null,
   "beta": 0.885,
   "roe": -0.18895,
-  "opgehaald": "2026-08-15T14:11:50+00:00"
+  "opgehaald": "2026-08-15T19:55:16+00:00"
  },
  "EXO.AS": {
   "netto_inkoop": 748333333,
@@ -1242,7 +1242,7 @@
   "yield_ttm": 0.7,
   "beta": 0.486,
   "roe": -0.10617,
-  "opgehaald": "2026-08-15T14:11:51+00:00"
+  "opgehaald": "2026-08-15T19:55:17+00:00"
  },
  "FAGR.BR": {
   "netto_inkoop": -794333,
@@ -1283,10 +1283,10 @@
   "shares": 73346728,
   "netdebt": 506436992,
   "ebitda": 174588000,
-  "yield_ttm": 1.79,
+  "yield_ttm": 1.78,
   "beta": 0.381,
   "roe": 0.16701001,
-  "opgehaald": "2026-08-15T14:11:51+00:00"
+  "opgehaald": "2026-08-15T19:55:18+00:00"
  },
  "FLOW.AS": {
   "netto_inkoop": 6855000,
@@ -1323,7 +1323,7 @@
   "yield_ttm": null,
   "beta": 0.124,
   "roe": 0.15319,
-  "opgehaald": "2026-08-15T14:11:52+00:00"
+  "opgehaald": "2026-08-15T19:55:19+00:00"
  },
  "FUR.AS": {
   "netto_inkoop": 31900000,
@@ -1365,7 +1365,7 @@
   "yield_ttm": 1.65,
   "beta": 0.716,
   "roe": -0.04972,
-  "opgehaald": "2026-08-15T14:11:53+00:00"
+  "opgehaald": "2026-08-15T19:55:20+00:00"
  },
  "HAL.AS": {
   "netto_inkoop": 5200000,
@@ -1420,7 +1420,7 @@
   "yield_ttm": 2.12,
   "beta": 0.655,
   "roe": 0.112270005,
-  "opgehaald": "2026-08-15T14:11:54+00:00"
+  "opgehaald": "2026-08-15T19:55:22+00:00"
  },
  "HEIA.AS": {
   "netto_inkoop": 549333333,
@@ -1470,10 +1470,10 @@
   "shares": 555186474,
   "netdebt": 17812999680,
   "ebitda": 5533000192,
-  "yield_ttm": 2.6,
+  "yield_ttm": 2.61,
   "beta": 0.568,
   "roe": 0.121309996,
-  "opgehaald": "2026-08-15T14:11:54+00:00"
+  "opgehaald": "2026-08-15T19:55:23+00:00"
  },
  "HEIJM.AS": {
   "netto_inkoop": null,
@@ -1521,7 +1521,7 @@
   "yield_ttm": 2.59,
   "beta": 1.327,
   "roe": 0.28027,
-  "opgehaald": "2026-08-15T14:11:55+00:00"
+  "opgehaald": "2026-08-15T19:55:24+00:00"
  },
  "HEIO.AS": {
   "netto_inkoop": 535000000,
@@ -1570,7 +1570,7 @@
   "yield_ttm": 2.75,
   "beta": 0.633,
   "roe": 0.100760005,
-  "opgehaald": "2026-08-15T14:11:56+00:00"
+  "opgehaald": "2026-08-15T19:55:25+00:00"
  },
  "HOLCO.AS": {
   "netto_inkoop": null,
@@ -1617,7 +1617,7 @@
   "yield_ttm": 2.59,
   "beta": 0.53,
   "roe": 0.05578,
-  "opgehaald": "2026-08-15T14:11:57+00:00"
+  "opgehaald": "2026-08-15T19:55:26+00:00"
  },
  "HYDRA.AS": {
   "netto_inkoop": null,
@@ -1661,7 +1661,7 @@
   "yield_ttm": 2.96,
   "beta": 0.451,
   "roe": 0.20299,
-  "opgehaald": "2026-08-15T14:11:57+00:00"
+  "opgehaald": "2026-08-15T19:55:27+00:00"
  },
  "IMCD.AS": {
   "netto_inkoop": -93520000,
@@ -1670,7 +1670,7 @@
   "sector": "Basic Materials",
   "koers": 97.94,
   "valuta": "EUR",
-  "mcap": 5782863360,
+  "mcap": 5781675520,
   "div_hist": {
    "2015": 0.2,
    "2016": 0.44,
@@ -1694,13 +1694,13 @@
   "eps_fwd": 6.46588,
   "payout": 0.4653,
   "fcf": 266937248,
-  "shares": 59044962,
+  "shares": 59032832,
   "netdebt": 1559629040,
   "ebitda": 515928000,
-  "yield_ttm": 1.87,
+  "yield_ttm": 1.85,
   "beta": 0.963,
   "roe": 0.11225,
-  "opgehaald": "2026-08-15T14:11:58+00:00"
+  "opgehaald": "2026-08-15T19:55:28+00:00"
  },
  "INGA.AS": {
   "netto_inkoop": 3684333333,
@@ -1709,7 +1709,7 @@
   "sector": "Financial Services",
   "koers": 30.885,
   "valuta": "EUR",
-  "mcap": 88256028672,
+  "mcap": 88194260992,
   "div_hist": {
    "2001": 0.3609,
    "2002": 0.75252,
@@ -1740,13 +1740,13 @@
   "eps_fwd": 2.89468,
   "payout": 0.4701,
   "fcf": null,
-  "shares": 2857569346,
+  "shares": 2855569346,
   "netdebt": 14195015680,
   "ebitda": null,
   "yield_ttm": 3.68,
   "beta": 0.902,
   "roe": 0.17124,
-  "opgehaald": "2026-08-15T14:11:59+00:00"
+  "opgehaald": "2026-08-15T19:55:29+00:00"
  },
  "INPST.AS": {
   "netto_inkoop": 73200000,
@@ -1772,7 +1772,7 @@
   "yield_ttm": null,
   "beta": 1.092,
   "roe": 0.15086001,
-  "opgehaald": "2026-08-15T14:11:59+00:00"
+  "opgehaald": "2026-08-15T19:55:30+00:00"
  },
  "KENDR.AS": {
   "netto_inkoop": 1250000,
@@ -1817,20 +1817,20 @@
   "yield_ttm": 3.54,
   "beta": 0.912,
   "roe": 0.099259995,
-  "opgehaald": "2026-08-15T14:12:00+00:00"
+  "opgehaald": "2026-08-15T19:55:31+00:00"
  },
  "KPN.AS": {
   "netto_inkoop": 250000000,
   "ticker": "KPN.AS",
-  "naam": "KPN KON",
+  "naam": "Koninklijke KPN N.V.",
   "sector": "Communication Services",
   "koers": 4.075,
   "valuta": "EUR",
   "mcap": 15626513408,
   "div_hist": {
-   "2000": 0.07029,
+   "2000": 0.07034,
    "2004": 0.20794,
-   "2005": 0.27063,
+   "2005": 0.27065,
    "2006": 0.29102,
    "2007": 0.331,
    "2008": 0.33952,
@@ -1867,7 +1867,7 @@
   "yield_ttm": 4.64,
   "beta": 0.248,
   "roe": 0.26111,
-  "opgehaald": "2026-08-15T14:12:01+00:00"
+  "opgehaald": "2026-08-15T19:55:32+00:00"
  },
  "LIGHT.AS": {
   "netto_inkoop": 58333333,
@@ -1876,7 +1876,7 @@
   "sector": "Industrials",
   "koers": 15.6,
   "valuta": "EUR",
-  "mcap": 1863335552,
+  "mcap": 1853555328,
   "div_hist": {
    "2017": 1.1,
    "2018": 1.25,
@@ -1897,13 +1897,13 @@
   "eps_fwd": 1.80212,
   "payout": 1.256,
   "fcf": 485875008,
-  "shares": 119444587,
+  "shares": 118817649,
   "netdebt": 1090000000,
   "ebitda": 492000000,
   "yield_ttm": 10.06,
   "beta": 0.919,
   "roe": 0.05978,
-  "opgehaald": "2026-08-15T14:12:02+00:00"
+  "opgehaald": "2026-08-15T19:55:33+00:00"
  },
  "MT.AS": {
   "netto_inkoop": 923333333,
@@ -1939,7 +1939,7 @@
   "cuts_sinds_2010": 4,
   "diepste_verlaging": -0.761,
   "eps": 2.07,
-  "eps_fwd": 6.577988,
+  "eps_fwd": 6.574395,
   "payout": 0.24159999,
   "fcf": -779124992,
   "shares": 754041698,
@@ -1948,7 +1948,7 @@
   "yield_ttm": 0.81,
   "beta": 1.753,
   "roe": 0.03284,
-  "opgehaald": "2026-08-15T14:12:02+00:00"
+  "opgehaald": "2026-08-15T19:55:34+00:00"
  },
  "NEDAP.AS": {
   "netto_inkoop": -1678000,
@@ -1999,10 +1999,10 @@
   "shares": 6610646,
   "netdebt": 741000,
   "ebitda": 46074000,
-  "yield_ttm": 3.82,
+  "yield_ttm": 3.83,
   "beta": 0.441,
   "roe": 0.36967,
-  "opgehaald": "2026-08-15T14:12:03+00:00"
+  "opgehaald": "2026-08-15T19:55:35+00:00"
  },
  "NEDSE.AS": {
   "netto_inkoop": null,
@@ -2030,7 +2030,7 @@
   "yield_ttm": 54.38,
   "beta": 0.472,
   "roe": -0.03346,
-  "opgehaald": "2026-08-15T14:12:04+00:00"
+  "opgehaald": "2026-08-15T19:55:36+00:00"
  },
  "NN.AS": {
   "netto_inkoop": 486333333,
@@ -2066,10 +2066,10 @@
   "shares": 260038379,
   "netdebt": -53820998656,
   "ebitda": 5029000192,
-  "yield_ttm": 5.18,
+  "yield_ttm": 5.14,
   "beta": 0.538,
   "roe": 0.08754,
-  "opgehaald": "2026-08-15T14:12:05+00:00"
+  "opgehaald": "2026-08-15T19:55:37+00:00"
  },
  "NSI.AS": {
   "netto_inkoop": 20000000,
@@ -2120,10 +2120,10 @@
   "shares": 19520913,
   "netdebt": 322846008,
   "ebitda": 48371000,
-  "yield_ttm": 9.4,
+  "yield_ttm": 9.35,
   "beta": 0.682,
   "roe": -0.025039999,
-  "opgehaald": "2026-08-15T14:12:06+00:00"
+  "opgehaald": "2026-08-15T19:55:38+00:00"
  },
  "OCI.AS": {
   "netto_inkoop": 2933333,
@@ -2132,7 +2132,7 @@
   "sector": "Basic Materials",
   "koers": 4.06,
   "valuta": "EUR",
-  "mcap": 856536360.9282255,
+  "mcap": 856536384,
   "div_hist": {
    "2022": 5.0,
    "2023": 4.35,
@@ -2154,7 +2154,7 @@
   "yield_ttm": null,
   "beta": 0.319,
   "roe": -0.20695,
-  "opgehaald": "2026-08-15T14:12:07+00:00"
+  "opgehaald": "2026-08-15T19:55:39+00:00"
  },
  "PHARM.AS": {
   "netto_inkoop": null,
@@ -2180,7 +2180,7 @@
   "yield_ttm": null,
   "beta": 0.062,
   "roe": 0.03647,
-  "opgehaald": "2026-08-15T14:12:07+00:00"
+  "opgehaald": "2026-08-15T19:55:40+00:00"
  },
  "PHIA.AS": {
   "netto_inkoop": 353333333,
@@ -2230,7 +2230,7 @@
   "yield_ttm": 3.59,
   "beta": 0.91,
   "roe": 0.10154,
-  "opgehaald": "2026-08-15T14:12:08+00:00"
+  "opgehaald": "2026-08-15T19:55:42+00:00"
  },
  "PNL.AS": {
   "netto_inkoop": null,
@@ -2239,7 +2239,7 @@
   "sector": "Industrials",
   "koers": 0.9145,
   "valuta": "EUR",
-  "mcap": 472430688,
+  "mcap": 465188448,
   "div_hist": {
    "2001": 0.14,
    "2002": 0.39,
@@ -2272,13 +2272,13 @@
   "eps_fwd": 0.07713,
   "payout": 1.0526,
   "fcf": 125250000,
-  "shares": 516600000,
+  "shares": 508680625,
   "netdebt": 507000064,
   "ebitda": 112000000,
-  "yield_ttm": 4.36,
+  "yield_ttm": 4.37,
   "beta": 0.614,
   "roe": 0.12141,
-  "opgehaald": "2026-08-15T14:12:09+00:00"
+  "opgehaald": "2026-08-15T19:55:43+00:00"
  },
  "PORF.AS": {
   "netto_inkoop": null,
@@ -2312,7 +2312,7 @@
   "yield_ttm": 4.69,
   "beta": 0.173,
   "roe": 0.03821,
-  "opgehaald": "2026-08-15T14:12:10+00:00"
+  "opgehaald": "2026-08-15T19:55:44+00:00"
  },
  "PRX.AS": {
   "netto_inkoop": 7702333333,
@@ -2345,7 +2345,7 @@
   "yield_ttm": 0.75,
   "beta": 0.789,
   "roe": 0.22213,
-  "opgehaald": "2026-08-15T14:12:10+00:00"
+  "opgehaald": "2026-08-15T19:55:45+00:00"
  },
  "RAND.AS": {
   "netto_inkoop": 159666667,
@@ -2395,7 +2395,7 @@
   "yield_ttm": 4.11,
   "beta": 0.97,
   "roe": 0.083100006,
-  "opgehaald": "2026-08-15T14:12:11+00:00"
+  "opgehaald": "2026-08-15T19:55:46+00:00"
  },
  "REN.AS": {
   "netto_inkoop": 1123666667,
@@ -2446,10 +2446,10 @@
   "shares": 1743549200,
   "netdebt": 8686000384,
   "ebitda": 3292000000,
-  "yield_ttm": 2.73,
+  "yield_ttm": 2.68,
   "beta": 0.263,
   "roe": 1.31864,
-  "opgehaald": "2026-08-15T14:12:12+00:00"
+  "opgehaald": "2026-08-15T19:55:48+00:00"
  },
  "SBMO.AS": {
   "netto_inkoop": 93666667,
@@ -2458,7 +2458,7 @@
   "sector": "Energy",
   "koers": 35.54,
   "valuta": "EUR",
-  "mcap": 5857846784,
+  "mcap": 5862556160,
   "div_hist": {
    "2004": 0.2919,
    "2005": 0.33115,
@@ -2489,13 +2489,13 @@
   "eps_fwd": 4.0086007,
   "payout": 0.109799996,
   "fcf": 2060249984,
-  "shares": 164824048,
+  "shares": 164956556,
   "netdebt": 5922000128,
   "ebitda": 1818000000,
-  "yield_ttm": 2.87,
+  "yield_ttm": 2.86,
   "beta": 0.644,
   "roe": 0.18027,
-  "opgehaald": "2026-08-15T14:12:13+00:00"
+  "opgehaald": "2026-08-15T19:55:50+00:00"
  },
  "SHELL.AS": {
   "netto_inkoop": 15124000000,
@@ -2544,7 +2544,7 @@
   "yield_ttm": 6.96,
   "beta": -0.218,
   "roe": 0.14341,
-  "opgehaald": "2026-08-15T14:12:14+00:00"
+  "opgehaald": "2026-08-15T19:55:51+00:00"
  },
  "SIFG.AS": {
   "netto_inkoop": -25227000,
@@ -2576,7 +2576,7 @@
   "yield_ttm": null,
   "beta": 0.82,
   "roe": -0.15589,
-  "opgehaald": "2026-08-15T14:12:14+00:00"
+  "opgehaald": "2026-08-15T19:55:52+00:00"
  },
  "SLIGR.AS": {
   "netto_inkoop": 333333,
@@ -2630,7 +2630,7 @@
   "yield_ttm": 3.73,
   "beta": 1.049,
   "roe": 0.05702,
-  "opgehaald": "2026-08-15T14:12:15+00:00"
+  "opgehaald": "2026-08-15T19:55:53+00:00"
  },
  "TOM2.AS": {
   "netto_inkoop": 17127667,
@@ -2658,7 +2658,7 @@
   "yield_ttm": null,
   "beta": 0.996,
   "roe": 0.25643,
-  "opgehaald": "2026-08-15T14:12:16+00:00"
+  "opgehaald": "2026-08-15T19:55:54+00:00"
  },
  "TWEKA.AS": {
   "netto_inkoop": 17095000,
@@ -2667,7 +2667,7 @@
   "sector": "Technology",
   "koers": 52.2,
   "valuta": "EUR",
-  "mcap": 2083572224,
+  "mcap": 2081945728,
   "div_hist": {
    "2000": 0.33,
    "2001": 0.355,
@@ -2706,13 +2706,13 @@
   "eps_fwd": 3.74128,
   "payout": 0.42060003,
   "fcf": 102304000,
-  "shares": 39915174,
+  "shares": 39884014,
   "netdebt": 597026016,
   "ebitda": 225588992,
-  "yield_ttm": 2.6,
+  "yield_ttm": 2.59,
   "beta": null,
   "roe": 0.1496,
-  "opgehaald": "2026-08-15T14:12:17+00:00"
+  "opgehaald": "2026-08-15T19:55:55+00:00"
  },
  "UMG.AS": {
   "netto_inkoop": null,
@@ -2721,7 +2721,7 @@
   "sector": "Communication Services",
   "koers": 14.945,
   "valuta": "EUR",
-  "mcap": 27476785152,
+  "mcap": 27408644096,
   "div_hist": {
    "2021": 0.2,
    "2022": 0.44,
@@ -2739,13 +2739,13 @@
   "eps_fwd": 1.10002,
   "payout": 2.8889,
   "fcf": 1791500032,
-  "shares": 1838527000,
+  "shares": 1833967537,
   "netdebt": 5005999744,
   "ebitda": 2206000128,
-  "yield_ttm": 3.55,
+  "yield_ttm": 3.48,
   "beta": 0.777,
   "roe": 0.076680005,
-  "opgehaald": "2026-08-15T14:12:17+00:00"
+  "opgehaald": "2026-08-15T19:55:56+00:00"
  },
  "UNA.AS": {
   "netto_inkoop": 1508333333,
@@ -2754,7 +2754,7 @@
   "sector": "Consumer Defensive",
   "koers": 53.87,
   "valuta": "EUR",
-  "mcap": 115996352512,
+  "mcap": 116053606400,
   "div_hist": {
    "2021": 1.9206,
    "2022": 1.9206,
@@ -2768,17 +2768,17 @@
   "g5": null,
   "cuts_sinds_2010": 0,
   "diepste_verlaging": 0.0,
-  "eps": 2.57,
+  "eps": 2.59,
   "eps_fwd": 3.41589,
   "payout": 0.7867,
   "fcf": 6732624896,
-  "shares": 2153264479,
+  "shares": 2154327344,
   "netdebt": 26167000064,
   "ebitda": 10876000256,
   "yield_ttm": 3.52,
   "beta": 0.454,
   "roe": 0.31869,
-  "opgehaald": "2026-08-15T14:12:18+00:00"
+  "opgehaald": "2026-08-15T19:55:57+00:00"
  },
  "VLK.AS": {
   "netto_inkoop": 5351667,
@@ -2829,7 +2829,7 @@
   "yield_ttm": 5.76,
   "beta": 0.775,
   "roe": 0.11417,
-  "opgehaald": "2026-08-15T14:12:18+00:00"
+  "opgehaald": "2026-08-15T19:55:58+00:00"
  },
  "VPK.AS": {
   "netto_inkoop": 140300000,
@@ -2838,7 +2838,7 @@
   "sector": "Energy",
   "koers": 47.76,
   "valuta": "EUR",
-  "mcap": 5442787328,
+  "mcap": 5473689600,
   "div_hist": {
    "2000": 0.605,
    "2001": 0.625,
@@ -2876,13 +2876,13 @@
   "eps_fwd": 3.7873,
   "payout": 0.4369,
   "fcf": 84443200,
-  "shares": 113961206,
+  "shares": 114608238,
   "netdebt": 2844200096,
   "ebitda": 646400000,
   "yield_ttm": 5.34,
   "beta": 0.735,
   "roe": 0.15438,
-  "opgehaald": "2026-08-15T14:12:19+00:00"
+  "opgehaald": "2026-08-15T19:55:59+00:00"
  },
  "VVY.AS": {
   "netto_inkoop": -10472667,
@@ -2908,7 +2908,7 @@
   "yield_ttm": null,
   "beta": 1.448,
   "roe": -2.8520901,
-  "opgehaald": "2026-08-15T14:12:20+00:00"
+  "opgehaald": "2026-08-15T19:56:00+00:00"
  },
  "WHA.AS": {
   "netto_inkoop": null,
@@ -2955,7 +2955,7 @@
   "yield_ttm": 7.0,
   "beta": 0.914,
   "roe": 0.06337,
-  "opgehaald": "2026-08-15T14:12:20+00:00"
+  "opgehaald": "2026-08-15T19:56:01+00:00"
  },
  "WKL.AS": {
   "netto_inkoop": 1032000000,
@@ -3009,6 +3009,6 @@
   "yield_ttm": 3.73,
   "beta": 0.185,
   "roe": 1.46141,
-  "opgehaald": "2026-08-15T14:12:21+00:00"
+  "opgehaald": "2026-08-15T19:56:02+00:00"
  }
 }

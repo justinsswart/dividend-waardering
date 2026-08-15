@@ -7,9 +7,9 @@
    "volgende_cijfers": "2027-02-23",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 192,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Aalberts persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (23-07-2026)",
+   "status": "vers"
   },
   "ABN.AS": {
    "laatste_cijfers": "2026-08-11",
@@ -27,9 +27,9 @@
    "volgende_cijfers": null,
    "volgende_soort": null,
    "dagen_tot": null,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Acomo jaarcijfers 2025 (05-03-2026) en halfjaarcijfers 2026 (28-07-2026)",
+   "status": "vers"
   },
   "AD.AS": {
    "laatste_cijfers": "2026-08-04",
@@ -42,11 +42,11 @@
    "status": "vers"
   },
   "ADYEN.AS": {
-   "laatste_cijfers": "2021-03-09",
-   "laatste_soort": "jaarcijfers",
-   "volgende_cijfers": "2027-02-11",
-   "volgende_soort": "jaarcijfers",
-   "dagen_tot": 180,
+   "laatste_cijfers": "2026-08-13",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -117,9 +117,9 @@
    "volgende_cijfers": "2026-11-04",
    "volgende_soort": "Q3",
    "dagen_tot": 81,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "AMG persbericht jaarcijfers 2025 (25-02-2026) en Q2 2026 (29-07-2026)",
+   "status": "vers"
   },
   "APAM.AS": {
    "laatste_cijfers": "2025-07-31",
@@ -137,9 +137,9 @@
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 187,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Arcadis persbericht Q4/jaarcijfers 2025 (19-02-2026) en Q2/halfjaarcijfers 2026 (30-07-2026)",
+   "status": "vers"
   },
   "ASM.AS": {
    "laatste_cijfers": "2026-07-28",
@@ -197,9 +197,9 @@
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 187,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "BAM persbericht jaarcijfers 2025 (19-02-2026) en halfjaarcijfers 2026 (30-07-2026)",
+   "status": "vers"
   },
   "BESI.AS": {
    "laatste_cijfers": "2026-07-23",
@@ -237,19 +237,19 @@
    "volgende_cijfers": "2026-11-06",
    "volgende_soort": "Q3",
    "dagen_tot": 83,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Brunel jaarresultaten 2025 (20-02-2026) en Q1-update 2026",
+   "status": "vers"
   },
   "CABKA.AS": {
-   "laatste_cijfers": null,
-   "laatste_soort": null,
-   "volgende_cijfers": "2027-03-04",
-   "volgende_soort": "jaarcijfers",
-   "dagen_tot": 201,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "laatste_cijfers": "2026-08-13",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": null,
+   "volgende_soort": null,
+   "dagen_tot": null,
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Cabka jaarcijfers 2024 (18-03-2025) en halfjaarcijfers 2025",
+   "status": "vers"
   },
   "CMCOM.AS": {
    "laatste_cijfers": null,
@@ -267,9 +267,9 @@
    "volgende_cijfers": "2027-02-26",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 195,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Corbion persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
+   "status": "vers"
   },
   "CTPNV.AS": {
    "laatste_cijfers": "2024-11-06",
@@ -337,9 +337,9 @@
    "volgende_cijfers": "2027-02-11",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 180,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Fagron persbericht jaarresultaten 2025 (12-02-2026) en halfjaarresultaten 2026 (30-07-2026)",
+   "status": "vers"
   },
   "FLOW.AS": {
    "laatste_cijfers": "2026-07-30",
@@ -357,9 +357,9 @@
    "volgende_cijfers": "2027-03-04",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 201,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Fugro dividendbeleidspagina, jaarcijfers 2025 (27-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
+   "status": "vers"
   },
   "HAL.AS": {
    "laatste_cijfers": null,
@@ -387,9 +387,9 @@
    "volgende_cijfers": "2027-02-19",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 188,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Heijmans jaarcijfers 2025 (13-02-2026) en AVA-besluit dividend (29-04-2026)",
+   "status": "vers"
   },
   "HEIO.AS": {
    "laatste_cijfers": null,
@@ -407,9 +407,9 @@
    "volgende_cijfers": null,
    "volgende_soort": null,
    "dagen_tot": null,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Holland Colours persbericht jaarcijfers boekjaar 2025/2026 (28-05-2026), dividend vastgesteld op de AVA van juli 2026",
+   "status": "vers"
   },
   "HYDRA.AS": {
    "laatste_cijfers": null,
@@ -417,9 +417,9 @@
    "volgende_cijfers": null,
    "volgende_soort": null,
    "dagen_tot": null,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Hydratec dividendaankondiging (betaald 21-05-2026) en halfjaarbericht 2026 (30-07-2026)",
+   "status": "vers"
   },
   "IMCD.AS": {
    "laatste_cijfers": "2020-04-20",
@@ -457,9 +457,9 @@
    "volgende_cijfers": null,
    "volgende_soort": null,
    "dagen_tot": null,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Kendrion persbericht jaarcijfers 2025 (27-02-2026), dividend betaald 22-04-2026",
+   "status": "vers"
   },
   "KPN.AS": {
    "laatste_cijfers": "2026-07-15",
@@ -497,9 +497,9 @@
    "volgende_cijfers": null,
    "volgende_soort": null,
    "dagen_tot": null,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Nedap jaarcijfers 2025 (24-02-2026) en halfjaarcijfers 2026",
+   "status": "vers"
   },
   "NEDSE.AS": {
    "laatste_cijfers": null,
@@ -567,9 +567,9 @@
    "volgende_cijfers": "2026-10-26",
    "volgende_soort": "Q3",
    "dagen_tot": 72,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "PostNL jaarcijfers 2025 (23-02-2026), dividendaankondiging (14-04-2026) en halfjaarcijfers 2026 (03-08-2026)",
+   "status": "vers"
   },
   "PORF.AS": {
    "laatste_cijfers": null,
@@ -577,9 +577,9 @@
    "volgende_cijfers": null,
    "volgende_soort": null,
    "dagen_tot": null,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
+   "status": "vers"
   },
   "PRX.AS": {
    "laatste_cijfers": null,
@@ -617,9 +617,9 @@
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 187,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "SBM Offshore jaarcijfers 2025 (26-02-2026), Q1-update (07-05-2026) en halfjaarcijfers 2026",
+   "status": "vers"
   },
   "SHELL.AS": {
    "laatste_cijfers": "2026-07-30",
@@ -647,9 +647,9 @@
    "volgende_cijfers": "2027-02-04",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 173,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Sligro persbericht jaarcijfers 2025 (05-02-2026), dividendpagina en halfjaarcijfers 2026 (23-07-2026)",
+   "status": "vers"
   },
   "TOM2.AS": {
    "laatste_cijfers": "2024-10-11",
@@ -662,7 +662,7 @@
    "status": "nooit"
   },
   "TWEKA.AS": {
-   "laatste_cijfers": "2009-08-27",
+   "laatste_cijfers": "2026-08-11",
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-03-04",
    "volgende_soort": "jaarcijfers",
@@ -697,9 +697,9 @@
    "volgende_cijfers": "2026-08-27",
    "volgende_soort": "halfjaarcijfers",
    "dagen_tot": 12,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "Van Lanschot Kempen jaarcijfers 2025 (26-02-2026) en de eigen pagina 'Het aandeel'",
+   "status": "vers"
   },
   "VPK.AS": {
    "laatste_cijfers": "2026-07-29",

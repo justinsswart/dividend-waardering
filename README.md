@@ -218,3 +218,9 @@ Standaard telt een inkoopprogramma mee als opslag op de groeivoet: minder aandel
 een hoger dividend per aandeel. Dat klopt alleen als het aantal aandelen daadwerkelijk daalt.
 Koopt een bedrijf in om verwatering uit een keuzedividend of optieplan te compenseren, zet dan
 `"inkoop_negeren": true` in de override. Voorbeeld: Fugro.
+
+## Geen dividend meer
+
+Zet `"d0_fy": 0` in de override wanneer een bedrijf de uitkering heeft gestaakt. Het aandeel
+valt dan uit de lijst in plaats van door te rekenen op een dividend uit het verleden.
+Voorbeeld: Cabka, dat over 2024 besloot niets uit te keren terwijl de databron nog 0,15 aanhield.

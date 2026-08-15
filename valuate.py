@@ -228,7 +228,9 @@ for tk, v in RAW.items():
     # Boekjaartotaal uit de bedrijfsbron gaat voor. Het model telt uitkeringen per
     # kalenderjaar, maar bedrijven rapporteren per boekjaar: het slotdividend over
     # jaar X wordt pas in jaar X+1 betaald. Dat scheelt zomaar 10%.
-    if ov.get("d0_fy"):
+    # d0_fy = 0 betekent expliciet: dit bedrijf keert nu niets uit. Het aandeel valt
+    # dan uit de lijst, in plaats van door te rekenen op een dividend uit het verleden.
+    if ov.get("d0_fy") is not None:
         d0n, special = float(ov["d0_fy"]), False
     if d0n <= 0: continue
     eps, fcf = v.get("eps"), v.get("fcf")

@@ -240,65 +240,159 @@
   "d0_fy": 1.15,
   "g_na": 0.02,
   "wpa": 2.61,
-  "bron": "aalberts.com/investor - jaarcijfers 2025 (26 februari 2026)",
+  "bron": "Aalberts persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (23-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: 1,15 per aandeel, tegen 1,13 over 2024 en 2023. Beleid sinds de AVA van 2014: 30% van de nettowinst voor amortisatie, uitsluitend in contanten. LET OP de spanning daarin: de winst per aandeel voor amortisatie zakte van 3,12 naar 2,61, waardoor de feitelijke payout op 44% ligt - ver boven het eigen beleid. Aalberts kiest er dus voor het dividend op peil te houden terwijl de winst daalt. Zou het beleid strikt worden toegepast, dan hoort er 0,78 uit te komen. Daarom is de guidance hier niet als payout ingevoerd maar als bedrag. Omzet 3.091 mln, organisch -2,5%, ebita-marge 13,2%, vrije kasstroom 361 mln. Inkoopprogramma van 75 mln loopt tot 9 oktober 2026. Groei 2% is een eigen aanname: het dividend staat feitelijk stil en herstel hangt aan de chipcyclus."
+  "notitie": "Uit het jaarbericht zelf: dividendvoorstel 1,15 over 2025, winst per aandeel voor amortisatie 2,61 (voor uitzonderlijke posten), omzet 3.091 mln bij -2,5% autonoom, ebita 410 mln met marge 13,2%, vrije kasstroom 361 mln. Beleid (AVA 2014): 30% van de nettowinst voor amortisatie, alleen in contanten. SPANNING: de feitelijke payout is 44%, want het dividend bleef staan terwijl de winst daalde. Strikt beleid zou 0,78 opleveren; daarom is het bedrag ingevoerd en niet het percentage. Inkoopprogramma 75 mln, 27-02 t/m 09-10-2026, met intrekking van de aandelen. Halfjaar 2026: autonome groei +5,0%, omzet 1.560 mln, ebita 225 mln, marge 14,4%, verbetering in alle drie de segmenten, semicon versnelt. Outlook: heel 2026 betere autonome groei en ebita-marge dan 2025. Groei 2% blijft mijn eigen aanname: het herstel is er, maar het dividend zelf staat feitelijk stil."
  },
  "ARCAD.AS": {
   "d0_fy": 1.05,
   "g_na": 0.03,
-  "wpa": 2.69,
-  "bron": "arcadis.com - jaarcijfers 2025 (19 februari 2026), AVA 15 mei 2026",
+  "wpa": 2.68,
+  "bron": "Arcadis persbericht Q4/jaarcijfers 2025 (19-02-2026) en Q2/halfjaarcijfers 2026 (30-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: 1,05 per aandeel, 39% van het net income from operations, binnen het beleid van 30-40% NIfO. De winstmaatstaf is NIfO, niet de IFRS-winst: NIfO per aandeel 2,69 (2024: 3,00), terwijl de IFRS-winst per aandeel op 2,33 uitkwam. Netto-omzet 3,8 mld (-0,5%), operationele ebita-marge 11,1% tegen 11,5%. In 2025 ging 225 mln naar aandeelhouders: 89 mln dividend en 136 mln inkoop uit een programma van 175 mln dat in januari 2026 is afgerond en het aantal vrij verhandelbare aandelen met 5% verlaagde. Nettoschuld/ebitda 1,5x, binnen de bandbreedte 1,5-2,5x. Groei 3% is een eigen aanname: de payout zit al aan de bovenkant van de band, dus verdere dividendgroei moet uit winstherstel komen."
+  "notitie": "Uit het jaarbericht zelf: dividendvoorstel 1,05, gelijk aan 39% van het net income from operations, binnen het beleid van 30-40% NIfO. Winstmaatstaf is NIfO: 238 mln oftewel 2,68 per aandeel (2024: 3,00); de IFRS-winst per aandeel was 2,33. Netto-omzet 3.760 mln (-0,5% autonoom), operationele ebita-marge 11,1%, vrije kasstroom 288 mln, nettoschuld/ebitda 1,5x. Inkoopprogramma van 175 mln afgerond 16-01-2026, 5% minder uitstaande aandelen. Doelen 2026 uit het bericht: vlakke autonome omzetgroei, operationele ebita-marge 11,7-12,0%. Bij de halfjaarcijfers is die omzetverwachting verhoogd naar lage enkelcijferige autonome groei (Q2 +2,2% na Q1 +0,8%), marge gehandhaafd, recordorderboek, nieuwe strategische doelen 2027-2029 volgen op de Capital Markets Day van november 2026. LET OP: WSP Global heeft twee ongevraagde biedingen gedaan, 48,50 en daarna 51,50 per aandeel, beide unaniem afgewezen als onderwaardering. De koers wordt dus mede door overnamespeculatie bepaald en niet alleen door het dividend; een verschil tussen koers en koopprijs zegt hier minder dan normaal. Groei 3% is mijn eigen aanname: de payout zit aan de bovenkant van de band, dus dividendgroei moet uit winstherstel komen."
  },
  "BAMNB.AS": {
   "d0_fy": 0.3,
-  "g_na": 0.03,
+  "g_na": 0.04,
   "wpa": 0.81,
-  "bron": "bam.com/en/investors/share/dividend - jaarcijfers 2025, AVA 7 mei 2026",
+  "bron": "BAM persbericht jaarcijfers 2025 (19-02-2026) en halfjaarcijfers 2026 (30-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: 0,30 per aandeel, verhoogd vanaf 0,25 over 2024. Beleid: 30-50% van het nettoresultaat, jaarlijks getoetst aan de balansstructuur. Winst per aandeel uit voortgezette activiteiten 0,81 (2024: 0,31), payout 37%. Inkoopprogramma van 40 mln gestart in 2026, na 50 mln in 2025. Q1 2026 liet verdere groei zien met een orderportefeuille op hoog niveau en focus op energietransitie en defensie; de outlook van omzet- en ebitda-groei is herhaald. Groei 3% is een eigen aanname: het beleid is een percentage van de winst, en bij een bouwer is die winst cyclisch. Let op de historie: tussen 2019 en 2021 werd er helemaal niets uitgekeerd."
+  "notitie": "Uit het jaarbericht zelf: nettoresultaat 211 mln (2024: 82 mln), winst per aandeel 0,81 (2024: 0,31), dividendvoorstel 0,30 (+20%) plus een inkoopprogramma van 40 mln - samen circa 55% van het nettoresultaat. Beleid: 30-50% van het nettoresultaat, getoetst aan de balansstructuur. Gecorrigeerde ebitda 400 mln (+20%) bij 9% omzetgroei tot 7,0 mld. Halfjaar 2026: omzet 3,49 mld (+3%), gecorrigeerde ebitda 240 mln (+36%), marge 6,9% tegen 5,2%, nettowinst 127 mln (+25%), winst per aandeel 0,49 tegen 0,39; kaspositie 715 mln, solvabiliteit 22,9%. De outlook is bij de halfjaarcijfers VERHOOGD naar een gecorrigeerde ebitda-marge van minstens 6,5% over heel 2026; het inkoopprogramma van 40 mln is in juli afgerond. Groei 4% is mijn eigen aanname en ligt ver onder het tempo van de winst - bewust, want dit blijft een bouwer met projectrisico. Historie: tussen 2019 en 2021 werd er niets uitgekeerd, en het dividend is ooit gehalveerd; daarom een plafond op de kwaliteitsscore."
  },
  "CRBN.AS": {
   "d0_fy": 0.64,
-  "g_na": 0.03,
+  "g_na": 0.02,
   "wpa": 1.29,
-  "bron": "corbion.com/Investor-relations/shareholder-information/Dividend - jaarcijfers 2025",
+  "bron": "Corbion persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: regulier dividend 0,64 per aandeel, gelijk aan 2024. Beleid: een stabiel tot geleidelijk oplopend absoluut bedrag in contanten (progressief regulier dividend), jaarlijks getoetst aan de verwachte nettoschuld/ebitda. LET OP: daarnaast is over 2025 een speciaal dividend van 0,36 uitgekeerd, waardoor er in mei 2026 1,00 per aandeel op de rekening kwam. Dat speciale deel zit hier bewust NIET in - anders leest het model volgend jaar een verlaging van 36%. Winst per aandeel 1,29 (2024: 0,77), reguliere payout 50%. Outlook 2026: 3-6% autonome omzetgroei en dubbelcijferige groei van de winst per aandeel, al viel Q1 tegen met 4% omzetdaling. Groei 3% is een eigen aanname, passend bij 'geleidelijk oplopend'."
+  "notitie": "Uit het jaarbericht zelf: voorstel van 1,00 per aandeel, bestaande uit een regulier dividend van 0,64 en een speciaal dividend van 0,36, samen 57,6 mln. Beleid: een stabiel tot geleidelijk oplopend absoluut bedrag in contanten, jaarlijks getoetst aan de verwachte nettoschuld/ebitda. Alleen het reguliere deel staat hier ingevuld - anders leest het model volgend jaar een verlaging van 36%. Winst per aandeel 2025: 1,29 (+63,3%), vrije kasstroom 90,8 mln. Corbion voert een plan uit om het belang in de joint venture met TotalEnergies te verkopen. Halfjaar 2026 is zwakker: omzet 631,1 mln (-2,2% gerapporteerd, +2,1% autonoom), gecorrigeerde ebitda 88,8 mln (-16,7%), marge 14,1% tegen 16,5%, nettowinst 29,8 mln en winst per aandeel 0,51 tegen 0,72. Q2 trok aan met +8,5% autonome omzetgroei. De marge-guidance voor 2026 is VERLAAGD van circa 17% naar boven 16% door hogere kosten voor zwavelzuur; de autonome omzetgroei van 3-6% en de vrije kasstroom van 85-90 mln blijven staan. Groei 2% is mijn eigen aanname, verlaagd vanwege die margeteleurstelling."
  },
  "FAGR.BR": {
   "d0_fy": 0.4,
-  "g_na": 0.06,
+  "g_na": 0.05,
   "wpa": 1.25,
   "land": "BE",
-  "bron": "investors.fagron.com - jaarcijfers 2025, AVA mei 2026",
+  "bron": "Fagron persbericht jaarresultaten 2025 (12-02-2026) en halfjaarresultaten 2026 (30-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: 0,40 per aandeel, 14% hoger dan de 0,35 over 2024 en het zesde jaar op rij met een verhoging van minstens 10%. Beleid: een relatief laag maar gestaag stijgend dividend; het grootste deel van de kasstroom gaat terug in de buy-and-build-strategie. Terugkerende winst per aandeel 1,25 (2024: 1,10), payout 32%. Outlook 2026: mid- tot high-single-digit autonome omzetgroei bij een vergelijkbare marge; Q1 2026 +15% omzet dankzij overnames en Latijns-Amerika. LET OP de bronbelasting: Fagron NV is een Belgische vennootschap (Nazareth), dus 30% roerende voorheffing waarvan slechts 15% verrekenbaar is - dat kost netto ruim een zesde van het dividend. Groei 6% is een eigen aanname, ruim onder het historische tempo van 35% per jaar omdat die reeks vanaf een zeer laag niveau begon."
+  "notitie": "Uit het jaarbericht zelf: omzet 952,2 mln (+9,2%, +12,9% tegen constante koersen), REBITDA 192,9 mln (+10,9%) met marge 20,3%, nettowinst 92 mln, winst per aandeel 1,25 (+13,6%) met een achtjaars-CAGR van 9% (2017: 0,65), dividendvoorstel 0,40 (+14,3%). Beleid: een relatief laag maar gestaag stijgend dividend; het grootste deel van de kasstroom gaat terug in de buy-and-build-strategie. Payout 32%. Halfjaar 2026 nuanceert het beeld: omzet +16,0% naar 552,5 mln, maar autonoom slechts +3,1%; gecorrigeerde ebitda 107,1 mln (+12,7%) met marge 19,4%, 60 basispunten lager dan vorig jaar; winst per aandeel 0,63, slechts +1,6% door afschrijvingen en financieringslasten van overnames, en de nettoschuld/REBITDA liep op naar 2,5x tegen 1,5x. Guidance 2026 bevestigd: mid- tot high-single-digit autonome omzetgroei en een gecorrigeerde ebitda-marge rond 20%. Groei 5% is mijn eigen aanname, teruggebracht van 6% vanwege die vlakke winst per aandeel en de hogere schuldgraad. LET OP de bronbelasting: Fagron NV is een Belgische vennootschap (Nazareth), dus 30% roerende voorheffing waarvan 15% verrekenbaar is."
  },
  "FUR.AS": {
   "d0_fy": 0.15,
   "g_na": 0.0,
   "wpa": 0.54,
-  "bron": "fugro.com/investors/shares/dividend-policy - jaarcijfers 2025 (27 februari 2026), AVA 23 april 2026",
+  "inkoop_negeren": true,
+  "bron": "Fugro dividendbeleidspagina, jaarcijfers 2025 (27-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: 0,15 per aandeel, een verlaging van 80% ten opzichte van 0,75 over 2024. Beleid: 25-45% van het nettoresultaat, volledig in contanten. De 0,15 is 28% van het nettoresultaat exclusief afwaarderingen; de gebruikte winstmaatstaf komt daarmee op circa 0,54 per aandeel, terwijl de IFRS-winst per aandeel op -0,18 uitkwam (verlies). Oorzaak: zwakte in offshore wind en vertraagde opstart van olie- en gasprojecten. Q1 2026 was opnieuw zwak, met een negatieve marge van 0,4%. Groei 0% is een eigen aanname: bij een percentagebeleid en een bedrijf dat net verlies leed, is elke groeivoet een gok. Herstel is mogelijk, maar moet eerst uit de cijfers blijken. De inkoop van eigen aandelen dient bij Fugro om de verwatering uit het keuzedividend te compenseren, niet om het aantal aandelen te verlagen; daarom telt die niet mee als groeiopslag.",
-  "inkoop_negeren": true
+  "notitie": "Van de eigen beleidspagina: 0,15 per aandeel over 2025, gelijk aan 28% van het nettoresultaat exclusief afwaarderingen, binnen het beleid van 25-45% volledig in contanten. Dat impliceert een winstmaatstaf van circa 0,54 per aandeel; de IFRS-winst was een verlies van 0,18. Het dividend zakte van 0,75 naar 0,15, een verlaging van 80%. WAARSCHUWING op basis van de halfjaarcijfers 2026: omzet 920,5 mln (+4,3%) en ebit-marge 4,1% tegen 2,3%, maar een nettoverlies van 62 mln (H1 2025: -18 mln) door 36 mln afwaardering op geofysische schepen en 41 mln afboeking van belastinglatenties; verlies per aandeel 0,56. Het orderboek voor twaalf maanden daalde 13,9%, waarbij duurzame energie -47% deed. Fugro heeft de eerder verwachte margeverbetering voor heel 2026 INGETROKKEN en de investeringen verlaagd naar circa 150 mln. Bij een percentagebeleid en twee verliesjaren op rij is een nieuwe verlaging of zelfs een nuluitkering over 2026 een reeel scenario. Groei 0% is daarom mijn eigen aanname, en zelfs die is niet voorzichtig te noemen. De inkoop van eigen aandelen compenseert verwatering uit het keuzedividend en telt niet als groeiopslag."
  },
  "SBMO.AS": {
   "d0_fy": 1.0,
   "g_na": 0.03,
-  "bron": "sbmoffshore.com - jaarcijfers 2025 (26 februari 2026) en halfjaarcijfers 2026",
+  "bron": "SBM Offshore jaarcijfers 2025 (26-02-2026), Q1-update (07-05-2026) en halfjaarcijfers 2026",
   "gecheckt": "2026-08-15",
-  "notitie": "Beleid herzien naar halfjaarlijkse uitkering. Over boekjaar 2025 alleen 100 mln USD (0,5009 per aandeel, betaald 13 mei 2026); daarbovenop een interim over H1 2026 van 100 mln USD (0,5075 per aandeel, betaald 3 september 2026). Het ingevoerde bedrag van 1,00 is dus de nieuwe jaarlijkse loopsnelheid van twee halfjaarlijkse uitkeringen, niet het boekjaartotaal 2025 - anders onderschat het model de basis met de helft. Beleid: een stabiele jaarlijkse uitkering die over de tijd groeit, met minimaal 2,1 mld USD terug naar aandeelhouders in de zes jaar tot 2031. Daarnaast loopt een inkoopprogramma van 270 mln USD waarvan de aandelen worden ingetrokken. Directional revenue-guidance 2026 is in de loop van het jaar verhoogd van 6,5 naar circa 7,6 mld USD, ebitda naar circa 1,9 mld. Nettoschuld daalde met 43% na de verkoop van FPSO ONE GUYANA. Groei 3% is een eigen aanname bij 'groeit over de tijd'. Let op: het dividend luidt in dollars, dus de euro-uitkering beweegt mee met de wisselkoers."
+  "notitie": "Beleid herzien naar halfjaarlijkse uitkering. Over boekjaar 2025 alleen 100 mln USD (0,5009 per aandeel, betaald 13-05-2026); daarbovenop een interim over H1 2026 van 100 mln USD (0,5075 per aandeel, betaald 03-09-2026). De ingevoerde 1,00 is dus de nieuwe jaarlijkse loopsnelheid van twee halfjaarlijkse uitkeringen, niet het boekjaartotaal 2025 - anders halveert de basis. Beleid: een stabiele jaarlijkse uitkering die over de tijd groeit, met minimaal 2,1 mld USD naar aandeelhouders in de zes jaar tot 2031. Inkoopprogramma van 270 mln USD, aandelen worden ingetrokken; bij de halfjaarcijfers was dat circa 44% voltooid. De omzetguidance voor 2026 is in stappen verhoogd van 6,5 mld naar circa 7,6 mld USD en de ebitda naar circa 1,9 mld. Nettoschuld daalde 43% na de verkoop van FPSO ONE GUYANA. SBM is in maart 2026 opgenomen in de AEX. Groei 3% is mijn eigen aanname bij 'groeit over de tijd'. Let op: de uitkering luidt in dollars, dus het bedrag in euro beweegt mee met de wisselkoers."
  },
  "AMG.AS": {
   "d0_fy": 0.4,
   "g_na": 0.0,
-  "bron": "amg-nv.com/investors - dividendaankondigingen 2025/2026",
+  "wpa": 0.92,
+  "bron": "AMG persbericht jaarcijfers 2025 (25-02-2026) en Q2 2026 (29-07-2026)",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: 0,40 per aandeel, opgebouwd uit een interim van 0,20 (augustus 2025) en een slot van 0,20 (betaald 14 mei 2026). Beide gelijk aan het jaar ervoor; het bedrag staat al meerdere jaren stil. Beleid sinds 2015: een stabiele halfjaarlijkse uitkering in contanten, bewust laag gehouden omdat de productmix cyclisch is en de winst wordt ingehouden voor de uitbreiding in lithium en vanadium. Er is geen payout-doel en geen toezegging over groei. Guidance 2026: aangepaste ebitda 230-250 mln USD tegen 235 mln over 2025. Groei 0% is een eigen aanname en volgt direct uit het beleid: stabiel, niet stijgend. AMG rapporteert in dollars. Winstmaatstaf: over 2025 stond er een IFRS-VERLIES van 0,58 dollar per aandeel, veroorzaakt door een niet-kasmatige belastingpost van 41 mln dollar (afboeking van compensabele verliezen in de VS en Duitsland). AMG rapporteert daarnaast een aangepaste winst van 1,05 dollar per aandeel (aangepast nettoresultaat 35 mln dollar), waarin ook de sluitingskosten van AMG Silicon zijn teruggeteld. Ingevoerd is 0,92 euro, de aangepaste winst omgerekend; op de IFRS-winst zou het model terecht concluderen dat het dividend niet verdiend is. De operationele kasstroom van 76 mln dollar dekt de 15 mln dollar aan uitgekeerd dividend ruim.",
-  "wpa": 0.92
+  "notitie": "Uit het jaarbericht zelf: totaal dividend over 2025 van 0,40 per aandeel (interim 0,20 in augustus 2025, slot 0,20 in mei 2026), al meerdere jaren onveranderd. Beleid sinds 2015: een stabiele halfjaarlijkse uitkering in contanten, bewust laag omdat de productmix cyclisch is en winst wordt ingehouden voor lithium en vanadium. Geen payout-doel, geen groeitoezegging. WINSTMAATSTAF: over 2025 een IFRS-VERLIES van 0,58 dollar per aandeel (nettoverlies 18,6 mln dollar), veroorzaakt door 40,6 mln dollar niet-kasmatige belastinglast (afboeking compensabele verliezen VS en Duitsland) plus 13,2 mln sluitingskosten van AMG Silicon. AMG rapporteert daarnaast een aangepaste winst van 1,05 dollar per aandeel (35,2 mln dollar). Ingevoerd is 0,92 euro, die aangepaste winst omgerekend; op de IFRS-winst zou het model concluderen dat het dividend niet verdiend is. Operationele kasstroom 76 mln dollar dekt de 14,8 mln aan betaald dividend ruim. Q2 2026: gecorrigeerde ebitda 92 mln dollar (+30%), omzet 522,7 mln (+19%), nettowinst 28,5 mln; de guidance voor 2026 is VERHOOGD naar 230-250 mln dollar (was 210-240 mln). Graphit Kropfmuehl verkocht voor 64 mln dollar, liquiditeit 508 mln. AMG waarschuwt wel dat Q3 sequentieel lager uitkomt. Interim over 2026 opnieuw 0,20, betaald 12-08-2026 - het bedrag staat dus nog steeds stil. Groei 0% volgt direct uit het beleid: stabiel, niet stijgend."
+ },
+ "ACOMO.AS": {
+  "d0_fy": 1.4,
+  "g_na": 0.02,
+  "wpa": 2.18,
+  "bron": "Acomo jaarcijfers 2025 (05-03-2026) en halfjaarcijfers 2026 (28-07-2026)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: totaal 1,40 per aandeel (+12%), opgebouwd uit interim 0,45 en slot 0,95; recordniveau. Uit het jaarbericht zelf: omzet 1,5 mld (+7%), gecorrigeerde ebitda 118 mln (+9%), GECORRIGEERDE winst per aandeel 2,18. De gerapporteerde winst per aandeel lag hoger op 2,47 bij een nettowinst van 73 mln; ingevoerd is de gecorrigeerde maatstaf omdat Acomo daarop stuurt. Payout op die basis 64%. Schuldratio 2,6x eind 2025. Beleid: een substantieel deel van de nettowinst in contanten, waarbij de hoogte jaarlijks afhangt van vrije kasstroom, solvabiliteit en overnamekansen - geen hard percentage, dus geen payout-beleid ingevoerd. Halfjaar 2026: omzet 711 mln, gecorrigeerde ebitda 61 mln met marge 8,6% (doel 9%), tweede beste halfjaar ooit, interim opnieuw 0,45. LET OP: de winst per aandeel zakte in dat halfjaar naar 0,94 tegen 1,42, en de schuldratio liep op naar 2,9x, boven de eigen comfortzone van 2,5x. Groei 2% is mijn eigen aanname: het beleid kent geen toezegging en de winst staat onder druk terwijl de payout al 64% is."
+ },
+ "HEIJM.AS": {
+  "d0_fy": 2.37,
+  "g_na": 0.02,
+  "wpa": 4.73,
+  "bron": "Heijmans jaarcijfers 2025 (13-02-2026) en AVA-besluit dividend (29-04-2026)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 2,37 per aandeel, volledig in contanten, vastgesteld door de AVA van 29 april 2026 en betaald op 12 mei 2026. Dat is een payout van 50% - precies het nieuwe beleid, waarmee Heijmans het oude keuzedividend van circa 40% heeft losgelaten. Uit het jaarbericht: omzet 2,77 mld (2024: 2,58 mld), onderliggende ebitda 252 mln met marge 9,1% tegen 7,7%, nettowinst 130 mln oftewel 4,73 per aandeel tegen 90 mln. De balans is schuldenvrij met 58 mln kas, en het orderboek staat op een record van 3,7 mld. Outlook 2026: omzet richting 3,1 mld en onderliggende ebitda-marge richting 9,5%. Voor 2027 mikt Heijmans op 3 mld omzet, een marge van 7-9% en opnieuw 50% van het nettoresultaat als contant dividend. Groei 2% is mijn eigen aanname en bewust laag: het dividend volgt de winst een-op-een, de winst zit op een cyclische top (woningmarkt) en de eigen margedoelstelling voor 2027 ligt met 7-9% LAGER dan de 9,1% van nu. Het dividend is de afgelopen jaren hard gestegen (0,89 - 1,64 - 2,37), maar dat is winstherstel, geen belofte."
+ },
+ "NEDAP.AS": {
+  "d0_fy": 3.7,
+  "g_na": 0.03,
+  "wpa": 3.72,
+  "bron": "Nedap jaarcijfers 2025 (24-02-2026) en halfjaarcijfers 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 3,70 per aandeel, tegen 3,20 over 2024, vastgesteld bij de jaarcijfers. Winst per aandeel 3,72 (+32% vanaf 2,82), dus de payout is 99%: Nedap keert vrijwel de hele winst uit. Beleid van de eigen site: er wordt afgewogen welk deel van de winst nodig is voor investeringen in rendabele groei en de beoogde financieringsstructuur, en het RESTERENDE bedrag gaat volledig naar de aandeelhouders. Geen percentage, geen toezegging over stabiliteit. Uit het jaarbericht: omzet 279,8 mln (+11%), in de vier kernmarkten +18%, terugkerende omzet 40% van het totaal, bedrijfsresultaat 31,7 mln (+33%) met marge 11,3% tegen 9,5%. Ambitie 'Step Up!': ebit-marge op termijn richting 15%. Halfjaar 2026: omzet +13%, winst per aandeel 2,22 (+35%), maar de groei in Q2 lag lager dan in Q1; voor heel 2026 verwacht Nedap groei in alle vier de kernmarkten met een sterkere tweede jaarhelft. Ruben Wegman treedt af als CEO, Rob Schuurman volgt op. Groei 3% is mijn eigen aanname. LET OP het risico dat in die 99% payout schuilt: er is geen buffer, dus een tegenvallend jaar vertaalt zich direct in een lager dividend."
+ },
+ "VLK.AS": {
+  "d0_fy": 3.0,
+  "g_na": 0.03,
+  "wpa": 3.49,
+  "inkoop_negeren": true,
+  "bron": "Van Lanschot Kempen jaarcijfers 2025 (26-02-2026) en de eigen pagina 'Het aandeel'",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 3,00 per aandeel in contanten (2024: 2,75), goedgekeurd door de AVA van 21 mei 2026 en betaald op 3 juni 2026. Winst per aandeel 3,49 (2024: 3,11), payout 86% - binnen het beleid van 70 tot 90% van de nettowinst toekomend aan aandeelhouders. APART GEHOUDEN: daarnaast is op 25 juni 2026 een KAPITAALTERUGGAVE van 0,80 per aandeel uitgekeerd. Die komt voort uit het beleid om kapitaal boven een CET 1-ratio van 17,5% terug te geven, is geen structureel dividend en kent geen inhouding van dividendbelasting. Zou ik die meetellen, dan leest het model volgend jaar een verlaging van 21%. CET 1 stond eind 2025 op 18,2% (2024: 19,3%), dus de ruimte boven de drempel slinkt; de 2,5% M&A-buffer is bedoeld voor bolt-on overnames. Q1 2026: sterke groei van het beheerd vermogen, resultaat in lijn met het vorige kwartaal. De inkoop van eigen aandelen dient om toegekende certificaten af te dekken en verlaagt het aandelenaantal niet, dus die telt niet als groeiopslag. Groei 3% is mijn eigen aanname; de halfjaarcijfers 2026 verschijnen pas op 27 augustus 2026, dus die konden hier niet in."
+ },
+ "PNL.AS": {
+  "d0_fy": 0.04,
+  "g_na": 0.0,
+  "wpa": 0.05,
+  "bron": "PostNL jaarcijfers 2025 (23-02-2026), dividendaankondiging (14-04-2026) en halfjaarcijfers 2026 (03-08-2026)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 0,04 per aandeel, uitsluitend een slotdividend - het interim-dividend over 2025 is in augustus 2025 OVERGESLAGEN vanwege onzekerheid in de postmarkt en een goodwill-afwaardering op de postdivisie. Totaal over 2024 was 0,07, over 2023 0,09 en over 2022 0,16: een dalende reeks van vier jaar. Beleid: 70-90% van het genormaliseerde totaalresultaat, naar keuze in contanten of aandelen, interim ongeveer een derde van het dividend van het voorgaande jaar, en geen dividend als het eigen vermogen onder het nettoresultaat zakt. PostNL meldde bij de jaarcijfers ruimte te hebben voor een slotdividend ter waarde van 80% van het genormaliseerde totaalresultaat over 2025; daaruit volgt een winstmaatstaf van circa 0,05 per aandeel, wat hier is ingevoerd. Guidance 2026: genormaliseerde ebit van 40 tot 70 mln (2025: 53 mln) en een VRIJE KASSTROOM tussen -30 mln en 0 mln, na -17 mln in het eerste halfjaar. Een dividend dat uit een negatieve kasstroom moet komen, is per definitie kwetsbaar. Let ook op de verwatering: 27% van de aandeelhouders koos voor stockdividend, goed voor circa 5,84 mln nieuwe aandelen. Groei 0% is mijn eigen aanname en is, gezien de reeks verlagingen, eerder optimistisch dan voorzichtig."
+ },
+ "SLIGR.AS": {
+  "d0_fy": 0.5,
+  "g_na": 0.0,
+  "wpa": 0.68,
+  "bron": "Sligro persbericht jaarcijfers 2025 (05-02-2026), dividendpagina en halfjaarcijfers 2026 (23-07-2026)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 0,50 per aandeel (interim 0,40 plus slot 0,10), gelijk aan het voorgaande boekjaar qua slotdeel. Beleid van de eigen site: een regulier dividend van circa 60% van de winst na belasting exclusief bijzondere posten, in contanten, in twee termijnen, waarbij het interim in principe de helft is van het reguliere dividend van het jaar ervoor; daarnaast kan een variabel dividend volgen als kapitaalratio en liquiditeit dat toelaten. Uit het jaarbericht: omzet 2,67 mld, ebit 54 mln (+11 mln), nettowinst 30 mln (+6 mln). Bij circa 44,3 mln aandelen komt de winst per aandeel op circa 0,68, waarmee de payout op 74% ligt - boven het eigen beleid van 60%. Halfjaar 2026 is zwak: omzet vrijwel vlak, ebit gezakt naar 2 mln en een NETTOVERLIES van 2 mln (verlies per aandeel 0,05, tegen +0,03 vorig jaar). Sligro wint wel marktaandeel, maar volumes dalen door voorzichtige consumenten terwijl loon- en transportkosten circa 4% stijgen. Het interim-dividend over 2026 is VERLAAGD van 0,40 naar 0,30. Er loopt een inkoopprogramma van 26 mln (5% van de aandelen, worden ingetrokken) tot 14 november 2026; dat verhoogt het dividend per aandeel en zit als opslag in de groeivoet. Mijn eigen basisaanname is 0% groei: de richting van het dividend is nu omlaag, niet omhoog."
+ },
+ "KENDR.AS": {
+  "d0_fy": 0.7,
+  "g_na": 0.03,
+  "wpa": 1.15,
+  "bron": "Kendrion persbericht jaarcijfers 2025 (27-02-2026), dividend betaald 22-04-2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 0,70 per aandeel in contanten, betaald op 22 april 2026. Dat is 61% van de genormaliseerde nettowinst voor amortisatie van 1,15 per aandeel (2024: 0,76). Uit het jaarbericht: omzet 245,5 mln (-1%, maar +8% in Q4), aangepaste ebitda 38,1 mln met marge 15,5% - daarmee is het margedoel van 15-18% een jaar eerder gehaald dan gepland. Nettowinst 19,5 mln tegen een verlies van 4,5 mln in 2024. Nettoschuld teruggebracht naar iets meer dan 30 mln, van 103 mln eind 2024. Er loopt een inkoopprogramma van 10 mln, waarvan circa 7 mln was uitgevoerd. APART GEHOUDEN: in november 2025 is een speciaal dividend uitgekeerd na de verkoop van de Chinese activiteiten. Dat is eenmalig en zit hier niet in. Doelen: omzetgroei 5-8% per jaar afhankelijk van de markt, ebitda-marge 15-18%, rendement op investeringen 23-27%; de CEO rekent op verdere winstgroei in 2026. Groei 3% is mijn eigen aanname, ruim onder de eigen omzetdoelstelling omdat dit een cyclische toeleverancier is die in 2024 nog verlies leed. De halfjaarcijfers 2026 verschijnen pas op 26 augustus 2026 en konden hier dus niet in."
+ },
+ "BRNL.AS": {
+  "d0_fy": 0.06,
+  "g_na": 0.03,
+  "wpa": 0.06,
+  "bron": "Brunel jaarresultaten 2025 (20-02-2026) en Q1-update 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: het reguliere dividend is INGESTORT van 0,55 naar 0,06 per aandeel, omdat de winst per aandeel meezakte van 0,59 naar 0,06 - een payout van 100%. Het dividend stond drie jaar op rij op 0,55. APART GEHOUDEN: daarnaast is een 'superdividend' van 0,29 per aandeel uitgekeerd, waardoor er op 18 juni 2026 in totaal 0,35 op de rekening kwam. Dat extra deel is eenmalig; zou ik het meetellen, dan leest het model volgend jaar opnieuw een dreun. Omzet daalde naar 1,22 mld bij een ebit-marge van 4,3%. Doelstelling: omzetgroei hoog in de enkele cijfers en een ebit-marge boven 5% in 2029. Q1 2026 liet de eerste tekenen van herstel zien met +1% autonome omzetgroei en +5% onderliggende ebit, bij een winst per aandeel van 0,07 (Q1 2025: 0,09). LET OP bij het lezen van de uitkomst: de basis van 0,06 is een dieptepunt in de cyclus. Het model rekent daarmee door en komt daardoor op een zeer lage koopprijs uit. Dat is geen voorspelling dat het dividend hier blijft, maar het gevolg van de keuze om alleen te rekenen met wat er nu daadwerkelijk wordt uitgekeerd. Herstelt de winst richting het oude niveau, dan verandert dit beeld volledig. Groei 3% is mijn eigen aanname. De halfjaarcijfers 2026 heb ik hier niet in verwerkt."
+ },
+ "HYDRA.AS": {
+  "d0_fy": 8.0,
+  "g_na": 0.0,
+  "bron": "Hydratec dividendaankondiging (betaald 21-05-2026) en halfjaarbericht 2026 (30-07-2026)",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 8,00 per aandeel, betaald op 21 mei 2026, tegen 6,00 over elk van de drie voorgaande jaren. APART GEHOUDEN, en dit is de grote afwijking: in het eerste halfjaar van 2026 is Helvoet VERKOCHT, en daarop heeft de directie een INTERIM-DIVIDEND VAN 60,00 PER AANDEEL uitgekeerd. Dat is een uitkering van verkoopopbrengst, geen structureel dividend; de solvabiliteit blijft daarna naar verwachting rond 40%, boven de doelstelling van 30%. Zou ik die 60 euro meetellen, dan zou het model een absurde basis krijgen en volgend jaar een verlaging van 87% lezen. LET OP voor de toekomst: Helvoet was goed voor circa 40% van de omzet (kunststof onderdelen en verpakkingen). De winstbasis waaruit het reguliere dividend moet komen is dus kleiner geworden. Groei 0% is mijn eigen aanname en zelfs die is discutabel - een verlaging van het reguliere dividend is na zo'n verkoop goed mogelijk. Dit is bovendien een klein, weinig verhandeld fonds waarvoor het model geen winstcijfers uit de databron krijgt."
+ },
+ "CABKA.AS": {
+  "d0_fy": 0,
+  "g_na": 0.0,
+  "bron": "Cabka jaarcijfers 2024 (18-03-2025) en halfjaarcijfers 2025",
+  "gecheckt": "2026-08-15",
+  "notitie": "GEEN DIVIDENDAANDEEL - bewust op nul gezet, waardoor Cabka uit de lijst valt. Over 2024 is BESLOTEN GEEN DIVIDEND uit te keren; het operationeel resultaat kwam uit op -0,38 per aandeel en in het eerste halfjaar van 2025 dook de recyclingspecialist dieper in de rode cijfers bij een licht lagere omzet. De databron hield nog een dividend van 0,15 uit 2024 aan, waarmee het model een koopprijs berekende voor een uitkering die niet meer bestaat. Dat is precies de valkuil die eerder bij TomTom optrad. Zodra Cabka het dividend hervat, kan deze override eruit."
+ },
+ "HOLCO.AS": {
+  "d0_fy": 2.02,
+  "g_na": 0.0,
+  "wpa": 4.05,
+  "bron": "Holland Colours persbericht jaarcijfers boekjaar 2025/2026 (28-05-2026), dividend vastgesteld op de AVA van juli 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Gebroken boekjaar: 2025/2026 eindigde op 31 maart 2026. Slotdividend 2,02 per aandeel (1,7 mln), uitgekeerd op 24 juli 2026, en dat is exact 50% van de nettowinst - de ondergrens van het beleid. LET OP de vergelijking met vorig jaar: over 2024/2025 werd 6,85 uitgekeerd, maar dat was eenmalig 100% van de nettowinst. Het lijkt dus op een verlaging van 70%, terwijl het beleid gewoon is toegepast; alleen de uitzondering van vorig jaar valt weg. Uit het persbericht: omzet 109,0 mln (-2,9%, +0,5% bij gelijke wisselkoersen), bedrijfsresultaat 4,6 mln tegen 7,9 mln, nettoresultaat 3,5 mln tegen 5,9 mln, winst per aandeel 4,05 tegen 6,85. De netto kasstroom was 10,4 mln NEGATIEF, mede door de dividenduitkering van 5,9 mln en hogere investeringen. Beleid: minimaal 50% van de nettowinst, mits de solvabiliteit na uitkering minstens 40% blijft. Groei 0% is mijn eigen aanname: de winst daalt, de uitkering staat al op de bodem van het beleid en de kasstroom was negatief."
+ },
+ "PORF.AS": {
+  "d0_fy": 0.6,
+  "g_na": 0.0,
+  "bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
+  "gecheckt": "2026-08-15",
+  "notitie": "WAARSCHUWING: voor dit fonds is het model eigenlijk ongeschikt, lees de uitkomst hooguit als indicatie. De beurswaarde is circa 11 mln euro, de handel is zeer dun en er is nauwelijks analistendekking of bruikbare winstdata. Uitkering: 0,55 over 2023 en 2024, en 0,60 in 2026 uitgekeerd. De winst per aandeel over de laatste twaalf maanden is NEGATIEF (circa -0,06): het dividend wordt dus niet uit de lopende winst betaald. Royal Delft Group meldt over 2025 wel een duidelijk hogere omzet, vooral bij De Porceleyne Fles, een verbeterd nettoresultaat ten opzichte van het verlies over 2024, en een daling van 57 naar 53 fte. Een belangrijk deel van de kasstroom komt uit Royal Delft Vastgoed, niet uit het aardewerk. Groei 0% is mijn eigen aanname; met een dividend dat niet door de winst wordt gedekt is elke groeivoet hier speculatie."
  }
 }
