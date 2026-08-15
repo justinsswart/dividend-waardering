@@ -62,8 +62,16 @@
  "AGN.AS": {
   "d0_fy": 0.4,
   "g_na": 0.06,
-  "bron": "aegon.com/investors/dividend - slotdividend 2025 vastgesteld op 0,21",
+  "bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
   "gecheckt": "2026-08-15",
-  "notitie": "Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks boekjaren 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar, vanaf een laag niveau). Beleidsdocument staat alleen als pdf op de site; geen meerjarige DPS-guidance gevonden. 6% is een eigen aanname."
+  "notitie": "Beleidsdocument gelezen: houdbaar dividend dat kan meegroeien met de prestaties, GEEN payout-ratio en GEEN bedrag per aandeel toegezegd. Inkoop geldt als gelijkwaardig middel; bestuur mag dividend ook in aandelen uitkeren. Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar vanaf laag niveau). 6% groei is dus volledig een eigen aanname."
+ },
+ "ASRNL.AS": {
+  "d0_fy": 3.41,
+  "g_na": 0.07,
+  "wpa": 7.93,
+  "bron": "asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid + dividendinfo.nl",
+  "gecheckt": "2026-08-15",
+  "notitie": "Progressief beleid met 'mid-to-high single digit' groei per jaar, aangekondigd na de Aegon NL-transactie en op de Capital Markets Day van 27 juni 2024 verlengd. Payout 45-55% van het netto operationeel resultaat; over 2025 uitgekomen op 43%. Boekjaar 2025: interim 1,27 + slot 2,14 = 3,41 (2024: 3,12). Winst per aandeel hier op het operationeel resultaat van 7,93 gezet, niet op de IFRS-winst van 2,16 - die laatste schommelt met marktwaarderingen en gaf ten onrechte een dekkingswaarschuwing. Voorwaarde: geen dividend als de solvabiliteit onder 140% zakt. Inkoop 175 mln in 2025, 225 mln voorzien in 2026."
  }
 }

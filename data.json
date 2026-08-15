@@ -11,7 +11,7 @@
   "mos_min": 0.1,
   "mos_max": 0.4
  },
- "bijgewerkt": "2026-08-15T09:17:47+00:00Z",
+ "bijgewerkt": "2026-08-15T09:27:01+00:00Z",
  "aandelen": [
   {
    "ticker": "NEDSE.AS",
@@ -210,8 +210,8 @@
     ]
    ],
    "guidance_type": "groei",
-   "guidance_bron": "aegon.com/investors/dividend - slotdividend 2025 vastgesteld op 0,21",
-   "guidance_notitie": "Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks boekjaren 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar, vanaf een laag niveau). Beleidsdocument staat alleen als pdf op de site; geen meerjarige DPS-guidance gevonden. 6% is een eigen aanname.",
+   "guidance_bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
+   "guidance_notitie": "Beleidsdocument gelezen: houdbaar dividend dat kan meegroeien met de prestaties, GEEN payout-ratio en GEEN bedrag per aandeel toegezegd. Inkoop geldt als gelijkwaardig middel; bestuur mag dividend ook in aandelen uitkeren. Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar vanaf laag niveau). 6% groei is dus volledig een eigen aanname.",
    "inkoop_rend": 0.0698,
    "netto_inkoop": 848666667,
    "g1_kaal": 0.06,
@@ -862,6 +862,108 @@
    "eps_nu": -0.3,
    "eps_fwd": 0.095,
    "dekking_wpa": 0.63
+  },
+  {
+   "ticker": "ASRNL.AS",
+   "naam": "ASR Nederland N.V.",
+   "sector": "Financial Services",
+   "koers": 70.68,
+   "valuta": "EUR",
+   "d0": 3.23,
+   "g3": 0.0778,
+   "g5": 0.1051,
+   "payout": 1.4954,
+   "beta": 0.506,
+   "cuts_sinds_2010": 1,
+   "div_hist": {
+    "2017": 1.27,
+    "2018": 2.28,
+    "2019": 1.79,
+    "2020": 1.96,
+    "2021": 2.1,
+    "2022": 2.58,
+    "2023": 2.8,
+    "2024": 2.97,
+    "2025": 3.23,
+    "2026": 2.14
+   },
+   "mcap": 14604401664,
+   "opgehaald": "2026-08-15T09:10:30Z",
+   "r": 0.07,
+   "g1": 0.07,
+   "fair": 93.339,
+   "pv_div": 33.023,
+   "pv_terminal": 60.316,
+   "koopprijs": 81.765,
+   "mos": 0.124,
+   "kwaliteit": 92,
+   "checks": {
+    "payout": 20,
+    "fcf_dekking": 1.5,
+    "netdebt_ebitda": -10.54,
+    "verlagingen": 1
+   },
+   "upside": 0.3206,
+   "korting_tov_koop": 0.1568,
+   "yield_nu": 0.0482,
+   "yoc_koop": 0.0417,
+   "d0_norm": 3.41,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     3.6487
+    ],
+    [
+     2027,
+     3.9041
+    ],
+    [
+     2028,
+     4.1774
+    ],
+    [
+     2029,
+     4.4698
+    ],
+    [
+     2030,
+     4.7827
+    ],
+    [
+     2031,
+     5.0697
+    ],
+    [
+     2032,
+     5.3231
+    ],
+    [
+     2033,
+     5.5361
+    ],
+    [
+     2034,
+     5.7022
+    ],
+    [
+     2035,
+     5.8162
+    ]
+   ],
+   "guidance_type": "groei",
+   "guidance_bron": "asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid + dividendinfo.nl",
+   "guidance_notitie": "Progressief beleid met 'mid-to-high single digit' groei per jaar, aangekondigd na de Aegon NL-transactie en op de Capital Markets Day van 27 juni 2024 verlengd. Payout 45-55% van het netto operationeel resultaat; over 2025 uitgekomen op 43%. Boekjaar 2025: interim 1,27 + slot 2,14 = 3,41 (2024: 3,12). Winst per aandeel hier op het operationeel resultaat van 7,93 gezet, niet op de IFRS-winst van 2,16 - die laatste schommelt met marktwaarderingen en gaf ten onrechte een dekkingswaarschuwing. Voorwaarde: geen dividend als de solvabiliteit onder 140% zakt. Inkoop 175 mln in 2025, 225 mln voorzien in 2026.",
+   "inkoop_rend": -0.0033,
+   "netto_inkoop": -48666667,
+   "g1_kaal": 0.07,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 7.93,
+   "eps_fwd": 7.93,
+   "dekking_wpa": 2.33
   },
   {
    "ticker": "NN.AS",
@@ -2418,108 +2520,6 @@
    "eps_nu": 4.12,
    "eps_fwd": 3.7873,
    "dekking_wpa": 2.57
-  },
-  {
-   "ticker": "ASRNL.AS",
-   "naam": "ASR Nederland N.V.",
-   "sector": "Financial Services",
-   "koers": 70.68,
-   "valuta": "EUR",
-   "d0": 3.23,
-   "g3": 0.0778,
-   "g5": 0.1051,
-   "payout": 1.4954,
-   "beta": 0.506,
-   "cuts_sinds_2010": 1,
-   "div_hist": {
-    "2017": 1.27,
-    "2018": 2.28,
-    "2019": 1.79,
-    "2020": 1.96,
-    "2021": 2.1,
-    "2022": 2.58,
-    "2023": 2.8,
-    "2024": 2.97,
-    "2025": 3.23,
-    "2026": 2.14
-   },
-   "mcap": 14604401664,
-   "opgehaald": "2026-08-15T09:10:30Z",
-   "r": 0.07,
-   "g1": 0.02,
-   "fair": 65.892,
-   "pv_div": 25.06,
-   "pv_terminal": 40.832,
-   "koopprijs": 46.849,
-   "mos": 0.289,
-   "kwaliteit": 37,
-   "checks": {
-    "payout": -35,
-    "fcf_dekking": 1.5,
-    "netdebt_ebitda": -10.54,
-    "verlagingen": 1
-   },
-   "upside": -0.0677,
-   "korting_tov_koop": -0.3372,
-   "yield_nu": 0.0457,
-   "yoc_koop": 0.0689,
-   "d0_norm": 3.23,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": false,
-   "pad": [
-    [
-     2026,
-     3.2946
-    ],
-    [
-     2027,
-     3.3605
-    ],
-    [
-     2028,
-     3.4277
-    ],
-    [
-     2029,
-     3.4963
-    ],
-    [
-     2030,
-     3.5662
-    ],
-    [
-     2031,
-     3.6375
-    ],
-    [
-     2032,
-     3.7103
-    ],
-    [
-     2033,
-     3.7845
-    ],
-    [
-     2034,
-     3.8601
-    ],
-    [
-     2035,
-     3.9374
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": null,
-   "guidance_notitie": null,
-   "inkoop_rend": -0.0033,
-   "netto_inkoop": -48666667,
-   "g1_kaal": 0.02,
-   "onhoudbaar": false,
-   "gespannen": true,
-   "eps_nu": 2.16,
-   "eps_fwd": 6.28757,
-   "dekking_wpa": 1.95
   },
   {
    "ticker": "UNA.AS",

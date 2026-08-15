@@ -112,3 +112,18 @@ Zet het boekjaartotaal daarom vast zodra je het in de bron ziet staan:
 
 `d0_fy` gaat voor op het uit de historie afgeleide bedrag en schakelt de
 normalisatie voor eenmalige uitkeringen uit.
+
+## Eigen winstmaatstaf
+
+Verzekeraars sturen op het operationeel resultaat, niet op de IFRS-nettowinst. Die laatste
+schommelt met marktwaarderingen van de beleggingsportefeuille en geeft een vals beeld van
+de dividenddekking. Bij ASR stond de IFRS-winst op 2,16 tegen een dividend van 3,41 — het
+model gaf daardoor onterecht een dekkingswaarschuwing, terwijl de payout op het
+operationeel resultaat van 7,93 juist 43% is.
+
+```json
+"ASRNL.AS": {"d0_fy": 3.41, "wpa": 7.93, "g_na": 0.07, "bron": "...", "gecheckt": "..."}
+```
+
+`wpa` vervangt de winst per aandeel in de dekkingscontrole en de payout ratio. Alleen
+gebruiken wanneer het bedrijf zelf op die maatstaf stuurt, met de bron erbij.

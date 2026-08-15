@@ -42,11 +42,13 @@ def inkoop_rendement(v):
     if not ink or not mc: return 0.0
     return round(max(min(ink/mc, 0.10), -0.05), 4)
 
-def kwaliteit(v):
+def kwaliteit(v, wpa_ov=None, d0_ref=None):
     """0-100. Bepaalt hoeveel veiligheidsmarge nodig is."""
     s, det = 50, {}
     # payout ratio
     po = v.get("payout")
+    if wpa_ov and d0_ref:
+        po = d0_ref / wpa_ov
     if po is not None:
         pt = 20 if po < 0.5 else 12 if po < 0.7 else 4 if po < 0.9 else -15 if po < 1.0 else -35
         s += pt; det["payout"] = pt
@@ -117,6 +119,10 @@ for tk, v in RAW.items():
     # Dividend boven de winst: dan is doorgroeien geen aanname maar een gok.
     # Groei op nul, geen inkoopopslag, en zichtbaar markeren.
     eps_nu, eps_v = v.get("eps") or 0, v.get("eps_fwd") or 0
+    # Verzekeraars sturen op operationeel resultaat, niet op de IFRS-nettowinst.
+    # Die laatste schommelt met marktwaarderingen en geeft een vals beeld van de dekking.
+    if ov.get("wpa"):
+        eps_nu = eps_v = float(ov["wpa"])
     eps_beste = max(eps_nu, eps_v)
     # onhoudbaar: ook de verwachte winst dekt het dividend niet
     onhoudbaar = bool(eps_beste > 0 and d0n > eps_beste)
@@ -135,7 +141,7 @@ for tk, v in RAW.items():
         g1 = min((1 + g1) / (1 - b) - 1, 0.18)
 
     fv, pv_div, pv_tv, pad = dcf(expl, d0n, g1, r, P["n1"], P["n2"], P["g_term"])
-    kw, det = kwaliteit(v)
+    kw, det = kwaliteit(v, ov.get("wpa"), d0n)
     mos = P["mos_max"] - (P["mos_max"]-P["mos_min"])*(kw/100)
     koop = fv*(1-mos)
     k = v["koers"]
