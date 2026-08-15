@@ -20,7 +20,8 @@
     ],
     "groei_pct": [
      0.1
-    ]
+    ],
+    "payout": null
    },
    {
     "zin": "For 2027, dividend per share is expected to further grow by approximately 25% y-on-y to € 0.25.",
@@ -32,7 +33,8 @@
     ],
     "groei_pct": [
      0.25
-    ]
+    ],
+    "payout": null
    },
    {
     "zin": "This implies that for the years 2025-2027, Dividend Per Share is now expected to grow at a CAGR of ~14% vs.",
@@ -43,27 +45,69 @@
     "bedragen": [],
     "groei_pct": [
      0.14
-    ]
+    ],
+    "payout": null
    }
   ],
   "gecheckt": "2026-08-15"
  },
- "AGN.AS": {
-  "url": "https://www.aegon.com/investors/shareholders/dividend/",
-  "fout": "HTTP Error 404: Not Found",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
  "INGA.AS": {
-  "url": "https://www.ing.com/Investors/Share-information/Dividend.htm",
+  "url": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
   "gecheckt": "2026-08-15"
  },
+ "ABN.AS": {
+  "url": "https://www.abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
+  "fout": "HTTP Error 503: Service Unavailable",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "WKL.AS": {
+  "url": "https://www.wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
+  "fout": "HTTP Error 403: Forbidden",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "AGN.AS": {
+  "url": "https://www.aegon.com/investors/dividend",
+  "fout": null,
+  "voorstel": null,
+  "bewijs": [
+   {
+    "zin": "Dividend policy (PDF) Dividend history 2025 Final dividend Aegon announced at the second half 2025 results on February 19, 2026 that the Board of Directors would propose a final dividend* for 2025 of EUR 0.21 per common share.",
+    "jaren": [
+     2025,
+     2026
+    ],
+    "bedragen": [
+     0.21
+    ],
+    "groei_pct": [],
+    "payout": null
+   }
+  ],
+  "gecheckt": "2026-08-15"
+ },
  "AD.AS": {
   "url": "https://www.aholddelhaize.com/investors/share-information/dividend/",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "NN.AS": {
+  "url": "https://www.nn-group.com/investors/share-information/dividend.htm",
+  "fout": "HTTP Error 403: Forbidden",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "ASRNL.AS": {
+  "url": "https://www.asrnl.com/investor-relations/share-information/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
@@ -76,11 +120,44 @@
   "bewijs": [],
   "gecheckt": "2026-08-15"
  },
- "WKL.AS": {
-  "url": "https://www.wolterskluwer.com/en/investors/shareholder-information/dividend",
+ "SHELL.AS": {
+  "url": "https://www.shell.com/investors/dividends.html",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "HEIA.AS": {
+  "url": "https://www.theheinekencompany.com/investors/shareholder-information/dividend",
+  "fout": null,
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "RAND.AS": {
+  "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-08-15"
+ },
+ "LIGHT.AS": {
+  "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
+  "fout": null,
+  "voorstel": null,
+  "bewijs": [
+   {
+    "zin": "Applications Applications Resources Resources Sustainability Sustainability Our company Our company --> Dividend info Dividend info Overview Financial reports Quarterly results Webcast Annual report IPO Share & debt Shareholder info Shareholder engagement Shareholder meetings Dividend info Share rep",
+    "jaren": [
+     2025
+    ],
+    "bedragen": [
+     1.56
+    ],
+    "groei_pct": [],
+    "payout": null
+   }
+  ],
   "gecheckt": "2026-08-15"
  }
 }

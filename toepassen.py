@@ -7,16 +7,19 @@ tickers = [a for a in sys.argv[1:] if not a.startswith("--")] or list(V)
 
 for tk in tickers:
     v = V.get(tk, {}).get("voorstel")
-    if not v or not v.get("divs"):
+    if not v or not (v.get("divs") or v.get("payout_beleid")):
         print(f"{tk}: geen bruikbaar voorstel"); continue
     huidig = O.get(tk, {})
     print(f"\n{tk}\n  nu:      {huidig.get('divs', '-')}  g_na={huidig.get('g_na','-')}")
-    print(f"  nieuw:   {v['divs']}  g_na={v.get('g_na') or 'ongewijzigd'}")
+    print(f"  nieuw:   {v.get('divs') or ''}  payout={v.get('payout_beleid') or '-'}  g_na={v.get('g_na') or 'ongewijzigd'}")
     for b in V[tk].get("bewijs", [])[:3]:
         print(f"    | {b['zin'][:150]}")
     if not auto and input("  overnemen? [j/N] ").lower() != "j":
         continue
-    O[tk] = {"divs": v["divs"], "g_na": v.get("g_na") or huidig.get("g_na", 0.03),
+    nieuw = {"g_na": v.get("g_na") or huidig.get("g_na", 0.03),
              "bron": V[tk]["url"], "gecheckt": str(dt.date.today())}
+    if v.get("divs"): nieuw["divs"] = v["divs"]
+    if v.get("payout_beleid"): nieuw["payout_beleid"] = v["payout_beleid"]
+    O[tk] = nieuw
     print("  overgenomen")
 json.dump(O, open("overrides.json", "w"), indent=1, ensure_ascii=False)

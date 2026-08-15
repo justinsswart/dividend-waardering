@@ -47,10 +47,9 @@
   "notitie": "Payout uit gerapporteerde ratio, niet uit een expliciet meerjarenbeleid."
  },
  "LIGHT.AS": {
-  "payout_beleid": 0.45,
-  "g_na": 0.03,
+  "g_na": 0.02,
   "bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
   "gecheckt": "2026-08-15",
-  "notitie": "Eigen beleid is 40-50% van de nettowinst uit voortgezette activiteiten. Keert nu circa 125% uit; het model rekent met het beleid, niet met de huidige uitkering."
+  "notitie": "Beleid: jaarlijks stijgend cashdividend per aandeel, GEEN payout-ratio. Keert nu circa 125% van de winst uit (1,56 op 1,25 wpa), gedekt door kasstroom (2,6x). Groei conservatief op 2% gezet omdat de winst de uitkering niet draagt. Eerdere invoer van 40-50% payout was oud Philips Lighting-beleid en is teruggedraaid."
  }
 }

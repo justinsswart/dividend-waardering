@@ -54,7 +54,8 @@ thead th:first-child,thead th:nth-child(2){text-align:left}
 thead th:hover{color:var(--gulden)}
 thead th.sorted::after{content:" ▾";color:var(--gulden)}
 tbody tr{border-bottom:1px solid var(--lijn);cursor:pointer}
-tbody tr:hover{background:var(--papier-2)}
+tbody tr:not(.detail):hover{background:var(--papier-2)}
+tbody tr.detail,tbody tr.detail:hover{background:var(--inkt);cursor:default}
 td{padding:11px 8px;text-align:right;font-family:var(--mono);font-size:13px;white-space:nowrap}
 td.naam{text-align:left;font-family:var(--body);font-size:14px;font-weight:500;white-space:normal;min-width:170px}
 td.naam small{display:block;font-family:var(--mono);font-size:10px;color:var(--grijs);font-weight:400;letter-spacing:.05em}
@@ -66,7 +67,7 @@ td.tk{text-align:left;font-size:12px;color:var(--grijs)}
 .kw.a{background:#D3E3D6;color:#1F4E33}.kw.b{background:#E4E2CE;color:#6B5A16}.kw.c{background:#EDD8D3;color:#7A2E22}
 
 /* detail */
-.detail{background:var(--inkt);color:var(--papier);padding:0}
+.detail{color:var(--papier);padding:0}
 .detail td{padding:0}
 .d-in{padding:26px 20px 30px;display:grid;grid-template-columns:1fr 1fr;gap:34px}
 @media(max-width:820px){.d-in{grid-template-columns:1fr}}
@@ -199,7 +200,7 @@ function waardeer(a){
   const b = a.inkoop_rend||0;
   const pasToe = O.bb==='altijd' ? b>0 : O.bb==='guidance' ? (a.handmatig && b>0) : false;
   let g1 = a.g1_kaal;
-  if(pasToe) g1 = Math.min((1+g1)/(1-b)-1, 0.18);
+  if(pasToe && !a.onhoudbaar && !a.gespannen) g1 = Math.min((1+g1)/(1-b)-1, 0.18);
   if (r <= gt+0.005) return {...a, fair:null, koopprijs:null, ongeldig:true};
   const expl = a.pad.filter(p=>a.handmatig && p[0]<=CUR+2 && p[1]!==null);
   const n1 = Math.max(3, Math.round(h*0.5));
@@ -278,6 +279,18 @@ function detail(a){
         <div class="rij"><span class="lbl">Rendement op koopprijs</span><span class="n">${pct(a.yoc_koop)}</span></div>
       </div>
       <div class="oordeel ${cls}">${tekst}</div>
+      ${a.gespannen?`<div class="inkoop fel">
+        <div class="ag-kop">dividend boven de huidige winst</div>
+        <p>Keert ${fmt(a.d0_norm,2)} uit op een winst van ${fmt(a.eps_nu,2)} per aandeel — meer dan er verdiend wordt.
+        Alleen houdbaar als het verwachte herstel naar ${fmt(a.eps_fwd,2)} doorzet. Het model houdt de groei daarom op maximaal 2%
+        en rekent geen inkoopopslag.</p>
+      </div>`:''}
+      ${a.onhoudbaar?`<div class="inkoop fel">
+        <div class="ag-kop">dividend boven de winst</div>
+        <p>Keert ${fmt(a.d0_norm,2)} per aandeel uit op een winst van ${fmt(a.d0_norm*a.dekking_wpa,2)} — dekking ${fmt(a.dekking_wpa)}&times;.
+        Het model laat het dividend daarom niet groeien en rekent geen inkoopopslag: doorgroeien zou een aanname zijn die de winst niet draagt.
+        Zonder winstherstel is dit dividend alleen vol te houden uit kasstroom of schuld.</p>
+      </div>`:''}
       <div class="inkoop ${a.g1>0.12?'fel':''}">
         <div class="ag-kop">aandeleninkoop</div>
         ${a.inkoop_rend
@@ -322,7 +335,7 @@ function teken(){
   tb.innerHTML = rs.map(a=>{
     const d=a.korting_tov_koop;
     return `<tr tabindex="0" data-t="${a.ticker}">
-      <td class="naam">${a.naam}${a.vlag?'<span class="vlag" title="controleer"></span>':''}<small>${a.ticker} · ${a.index}</small></td>
+      <td class="naam">${a.naam}${a.vlag?'<span class="vlag" title="controleer"></span>':''}${a.onhoudbaar?'<span class="vlag" style="background:var(--roest)" title="dividend boven de winst"></span>':a.gespannen?'<span class="vlag" style="background:var(--koper)" title="dividend boven de huidige winst"></span>':''}<small>${a.ticker} · ${a.index}</small></td>
       <td class="tk">${(a.sector||'—').slice(0,18)}</td>
       <td>${fmt(a.koers)}</td><td>${pct(a.yield_nu)}</td>
       <td>${fmt(a.d0_norm,3)}</td><td>${pct(a.g1)}</td>

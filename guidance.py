@@ -37,14 +37,23 @@ def vind(txt):
             if 0.01 <= v <= 15: bedragen.append(round(v, 4))
         groei = [round(float(g.replace(",", "."))/100, 4)
                  for g in re.findall(r"(\d{1,2}(?:[.,]\d)?)\s*%", z)]
-        if bedragen or groei:
+        # payout-beleid: "40-50% of net income", "50% van de nettowinst", "pay-out ratio of 45%"
+        payout = None
+        pm = re.search(r"(?:pay[\s-]?out|uitkerings?)[\s\w]{0,24}?(\d{1,3})(?:\s*[-–tot]{1,4}\s*(\d{1,3}))?\s*%"
+                       r"|(\d{1,3})(?:\s*[-–tot]{1,4}\s*(\d{1,3}))?\s*%\s*(?:of|van)\s+(?:continuing\s+)?"
+                       r"(?:net\s+income|net\s+profit|nettowinst|de\s+winst|resilient\s+net\s+profit)", z, re.I)
+        if pm:
+            g = [int(x) for x in pm.groups() if x]
+            if g and all(5 <= x <= 100 for x in g):
+                payout = round(sum(g)/len(g)/100, 4)
+        if bedragen or groei or payout:
             uit.append({"zin": z.strip()[:300], "jaren": sorted(set(jaren)),
-                        "bedragen": bedragen, "groei_pct": groei})
+                        "bedragen": bedragen, "groei_pct": groei, "payout": payout})
     return uit
 
 def koppel(vondsten):
     """Jaar -> bedrag, alleen waar de zin precies één jaar en één plausibel bedrag noemt."""
-    voorstel, gr = {}, None
+    voorstel, gr, po = {}, None, None
     for v in vondsten:
         if len(v["jaren"]) == 1 and len(set(v["bedragen"])) == 1:
             j = v["jaren"][0]
@@ -55,7 +64,9 @@ def koppel(vondsten):
         if re.search(r"\b(thereafter|beyond 20\d\d|from 20\d\d onwards?|daarna|vanaf 20\d\d|nadien)\b", v["zin"], re.I):
             g = [x for x in v["groei_pct"] if 0.01 <= x <= 0.15]
             if g: gr = g[0]
-    return voorstel, gr
+        if v.get("payout") and po is None:
+            po = v["payout"]
+    return voorstel, gr, po
 
 def alternatieven(tk):
     """Zoekt persberichten wanneer de vaste IR-pagina niet werkt."""
@@ -93,10 +104,10 @@ for tk in only:
                 if v: gebruikt, fout = alt, None; break
             except Exception:
                 continue
-    divs, g = koppel(v)
+    divs, g, po = koppel(v)
     res[tk] = {"url": gebruikt, "fout": fout, "voorstel": {"divs": divs, "g_na": g} if divs or g else None,
                "bewijs": v[:6], "gecheckt": str(dt.date.today())}
-    st = f"{len(divs)} jaren" if divs else "niets"
-    print(f"{tk:10} {st:10} g_na={g} | {len(v)} kandidaatzinnen")
+    st = f"{len(divs)} jaren" if divs else f"payout {po}" if po else "niets"
+    print(f"{tk:10} {st:14} g_na={g} | {len(v)} kandidaatzinnen")
 
 json.dump(res, open("voorstellen.json", "w"), indent=1, ensure_ascii=False)

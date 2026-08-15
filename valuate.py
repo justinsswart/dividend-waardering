@@ -48,7 +48,7 @@ def kwaliteit(v):
     # payout ratio
     po = v.get("payout")
     if po is not None:
-        pt = 20 if po < 0.5 else 12 if po < 0.7 else 4 if po < 0.9 else -10 if po < 1.1 else -20
+        pt = 20 if po < 0.5 else 12 if po < 0.7 else 4 if po < 0.9 else -15 if po < 1.0 else -35
         s += pt; det["payout"] = pt
     # FCF-dekking
     fcf, sh, d0 = v.get("fcf"), v.get("shares"), v.get("d0")
@@ -109,9 +109,22 @@ for tk, v in RAW.items():
     # Dat is de juiste plek: als je de inkoop ook nog als losse kasstroom optelt,
     # tel je hem twee keer. Alleen toepassen waar g1 uit een override komt --
     # historische groei (g3/g5) bevat het effect van eerdere inkoop al.
+    # Dividend boven de winst: dan is doorgroeien geen aanname maar een gok.
+    # Groei op nul, geen inkoopopslag, en zichtbaar markeren.
+    eps_nu, eps_v = v.get("eps") or 0, v.get("eps_fwd") or 0
+    eps_beste = max(eps_nu, eps_v)
+    # onhoudbaar: ook de verwachte winst dekt het dividend niet
+    onhoudbaar = bool(eps_beste > 0 and d0n > eps_beste)
+    # gespannen: alleen houdbaar als het verwachte winstherstel doorzet
+    gespannen = bool(not onhoudbaar and eps_nu > 0 and d0n > eps_nu)
+    if onhoudbaar and not ov.get("divs"):
+        g1 = min(g1, 0.0)
+    elif gespannen and not ov.get("divs"):
+        g1 = min(g1, 0.02)
+
     b = inkoop_rendement(v)
     g1_kaal = g1
-    if ov and b > 0:
+    if ov and b > 0 and not (onhoudbaar or gespannen):
         # Fase 1 is eindig, dus g1 mag boven het vereist rendement liggen.
         # Alleen de eeuwige groei in de eindwaarde moet er structureel onder blijven.
         g1 = min((1 + g1) / (1 - b) - 1, 0.18)
@@ -132,7 +145,9 @@ for tk, v in RAW.items():
         "guidance_type": ("dps" if ov.get("divs") else "payout" if ov.get("payout_beleid")
                           else "groei" if ov.get("g_na") else None),
         "guidance_bron": ov.get("bron"), "guidance_notitie": ov.get("notitie"),
-        "inkoop_rend": b, "netto_inkoop": v.get("netto_inkoop"), "g1_kaal": round(g1_kaal, 4)})
+        "inkoop_rend": b, "netto_inkoop": v.get("netto_inkoop"), "g1_kaal": round(g1_kaal, 4),
+        "onhoudbaar": onhoudbaar, "gespannen": gespannen,
+        "eps_nu": eps_nu, "eps_fwd": eps_v, "dekking_wpa": round(eps_beste/d0n, 2) if d0n else None})
 
 res.sort(key=lambda x: -x["korting_tov_koop"])
 json.dump({"params":P,"bijgewerkt":dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")+"Z","aandelen":res},
