@@ -93,6 +93,11 @@ for tk, v in RAW.items():
     if not v.get("koers") or not v.get("d0"): continue
     ov = OV.get(tk, {})
     d0n, special = genormaliseerd_d0(v)
+    # Boekjaartotaal uit de bedrijfsbron gaat voor. Het model telt uitkeringen per
+    # kalenderjaar, maar bedrijven rapporteren per boekjaar: het slotdividend over
+    # jaar X wordt pas in jaar X+1 betaald. Dat scheelt zomaar 10%.
+    if ov.get("d0_fy"):
+        d0n, special = float(ov["d0_fy"]), False
     if d0n <= 0: continue
     eps, fcf = v.get("eps"), v.get("fcf")
     if (eps is not None and eps <= 0) and (fcf is not None and fcf <= 0): continue

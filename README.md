@@ -96,3 +96,19 @@ en `.venv` met rust, controleert of de verwachte onderdelen aanwezig zijn, en pu
 
 Zonder `-Push` wordt alleen uitgepakt en getoond wat er zou veranderen.
 Met `-Draaien` wordt het model daarna lokaal herberekend.
+
+## Boekjaar versus kalenderjaar
+
+Het model telt uitkeringen per kalenderjaar (wanneer ze op je rekening staan), maar
+bedrijven rapporteren per boekjaar. Het slotdividend over boekjaar X wordt pas in jaar
+X+1 betaald, dus het kalenderjaartotaal is het interim van dit jaar plus het slot van
+vorig jaar. Bij NN Group scheelde dat 3,54 tegen 3,88 — negen procent.
+
+Zet het boekjaartotaal daarom vast zodra je het in de bron ziet staan:
+
+```json
+"NN.AS": {"d0_fy": 3.88, "g_na": 0.06, "bron": "...", "gecheckt": "..."}
+```
+
+`d0_fy` gaat voor op het uit de historie afgeleide bedrag en schakelt de
+normalisatie voor eenmalige uitkeringen uit.

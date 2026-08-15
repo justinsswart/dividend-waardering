@@ -51,5 +51,19 @@
   "bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
   "gecheckt": "2026-08-15",
   "notitie": "Beleid: jaarlijks stijgend cashdividend per aandeel, GEEN payout-ratio. Keert nu circa 125% van de winst uit (1,56 op 1,25 wpa), gedekt door kasstroom (2,6x). Groei conservatief op 2% gezet omdat de winst de uitkering niet draagt. Eerdere invoer van 40-50% payout was oud Philips Lighting-beleid en is teruggedraaid."
+ },
+ "NN.AS": {
+  "d0_fy": 3.88,
+  "g_na": 0.06,
+  "bron": "nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 1,38 + slot 2,50 = 3,88. Reeks 2021-2025: 2,49 / 2,79 / 3,20 / 3,44 / 3,88 (11,7% per jaar). Beleid is progressief zonder toegezegd bedrag; interim 2026 staat vast op 1,55 (40% van vorig jaartotaal). 6% is een eigen aanname, ruim onder het historische tempo."
+ },
+ "AGN.AS": {
+  "d0_fy": 0.4,
+  "g_na": 0.06,
+  "bron": "aegon.com/investors/dividend - slotdividend 2025 vastgesteld op 0,21",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks boekjaren 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar, vanaf een laag niveau). Beleidsdocument staat alleen als pdf op de site; geen meerjarige DPS-guidance gevonden. 6% is een eigen aanname."
  }
 }

@@ -31,6 +31,21 @@ for t in OK:
         g5 = cagr(by_year.get(cur-6), by_year.get(cur-1), 5) if len(full) >= 6 else None
         g3 = cagr(by_year.get(cur-4), by_year.get(cur-1), 3) if len(full) >= 4 else None
         cuts = sum(1 for i in range(1, len(full)) if by_year[full[i]] < by_year[full[i-1]] * 0.98)
+        # aandelenaantal en beurswaarde: aanvullen als info ze niet levert
+        shares = info.get("sharesOutstanding") or info.get("impliedSharesOutstanding")
+        mcap = info.get("marketCap")
+        if not shares or not mcap:
+            try:
+                fi = tk.fast_info
+                shares = shares or getattr(fi, "shares", None)
+                mcap = mcap or getattr(fi, "market_cap", None)
+            except Exception:
+                pass
+        if not mcap and shares and price:
+            mcap = shares * price
+        if not shares and mcap and price:
+            shares = mcap / price
+
         # netto aandeleninkoop, gemiddeld over de beschikbare jaren
         inkoop = None
         try:
@@ -52,7 +67,7 @@ for t in OK:
             "sector": info.get("sector"),
             "koers": round(float(price), 4) if price else None,
             "valuta": info.get("currency"),
-            "mcap": info.get("marketCap"),
+            "mcap": mcap,
             "div_hist": by_year,
             "d0": round(float(d0), 5) if d0 else 0,
             "g3": round(g3, 4) if g3 is not None else None,
@@ -62,7 +77,7 @@ for t in OK:
             "eps_fwd": info.get("forwardEps"),
             "payout": info.get("payoutRatio"),
             "fcf": info.get("freeCashflow"),
-            "shares": info.get("sharesOutstanding"),
+            "shares": shares,
             "netdebt": (info.get("totalDebt") or 0) - (info.get("totalCash") or 0),
             "ebitda": info.get("ebitda"),
             "yield_ttm": info.get("dividendYield"),

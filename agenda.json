@@ -67,9 +67,9 @@
    "volgende_cijfers": "2026-08-20",
    "volgende_soort": "halfjaarcijfers",
    "dagen_tot": 5,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "aegon.com/investors/dividend",
+   "status": "binnenkort"
   },
   "AJAX.AS": {
    "laatste_cijfers": null,
@@ -517,9 +517,9 @@
    "volgende_cijfers": "2027-02-11",
    "volgende_soort": "jaarcijfers",
    "dagen_tot": 180,
-   "guidance_gecheckt": null,
-   "guidance_bron": null,
-   "status": "nooit"
+   "guidance_gecheckt": "2026-08-15",
+   "guidance_bron": "nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
+   "status": "vers"
   },
   "NSI.AS": {
    "laatste_cijfers": "2013-08-10",
