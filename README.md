@@ -83,3 +83,16 @@ De effectieve groei in fase 1 mag boven het vereist rendement liggen — die fas
 eindig. Alleen de eeuwige groei in de eindwaarde moet er structureel onder blijven.
 Boven 12% samengestelde groei toont het detailpaneel een waarschuwing: zo'n tempo
 volhouden bij een stijgende koers kost elk jaar meer euro's.
+
+## Bijwerken vanuit een Claude-sessie
+
+```powershell
+.\update.ps1 -Push
+```
+
+Zoekt de nieuwste `dividend-waardering*.zip` in Downloads of je homefolder — ook als de
+browser er `(1)`, `(2)` van heeft gemaakt — pakt hem uit over de projectmap, laat `.git`
+en `.venv` met rust, controleert of de verwachte onderdelen aanwezig zijn, en pusht.
+
+Zonder `-Push` wordt alleen uitgepakt en getoond wat er zou veranderen.
+Met `-Draaien` wordt het model daarna lokaal herberekend.

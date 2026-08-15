@@ -19,7 +19,9 @@ body{margin:0;background:var(--papier);color:var(--inkt);font-family:var(--body)
 .wrap{max-width:1280px;margin:0 auto;padding:0 20px 80px}
 
 /* kop */
-header{border-bottom:2px solid var(--inkt);padding:36px 0 22px;margin-bottom:0}
+header{border-bottom:2px solid var(--inkt);padding:28px 0 22px;margin-bottom:0}
+.logo{display:block;width:250px;max-width:70%;height:auto;margin-bottom:26px}
+.logo-klein{width:170px;margin-bottom:10px}
 .eyebrow{font-family:var(--mono);font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:var(--grijs)}
 h1{font-family:var(--display);font-weight:400;font-size:clamp(38px,6vw,68px);line-height:.98;margin:10px 0 14px;letter-spacing:-.01em}
 h1 em{font-style:italic;color:var(--gulden)}
@@ -41,6 +43,7 @@ select#s-bb{font-family:var(--mono);font-size:12px;padding:5px 6px;border:1px so
 .chip{font-family:var(--mono);font-size:11px;padding:6px 11px;border:1px solid var(--lijn);background:none;cursor:pointer;color:var(--inkt-2);border-radius:2px;letter-spacing:.04em}
 .chip[aria-pressed=true]{background:var(--inkt);color:var(--papier);border-color:var(--inkt)}
 .chip:focus-visible,input:focus-visible,button:focus-visible,tr:focus-visible{outline:2px solid var(--gulden);outline-offset:2px}
+.filters select{font-family:var(--mono);font-size:11px;padding:6px 8px;border:1px solid var(--lijn);background:#fff;border-radius:2px;color:var(--inkt-2)}
 #zoek{font-family:var(--mono);font-size:12px;padding:7px 10px;border:1px solid var(--lijn);background:#fff;flex:1;min-width:150px;border-radius:2px}
 
 /* tabel */
@@ -108,6 +111,9 @@ td.tk{text-align:left;font-size:12px;color:var(--grijs)}
 .ag-kop{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#8FA398;margin-bottom:6px}
 .ag-bron{font-family:var(--mono);font-size:10.5px;color:#8FA398;word-break:break-all;margin-top:6px!important}
 .let-op{font-size:12px;color:#C6A96B;margin-top:10px;font-family:var(--mono)}
+.colofon{margin-top:30px;padding-top:20px;border-top:1px solid var(--lijn)}
+.rechten{font-family:var(--mono);font-size:11.5px;color:var(--inkt-2);margin:0 0 7px}
+.klein{font-size:11.5px;color:var(--grijs);margin:0;max-width:66ch;line-height:1.45}
 footer{margin-top:44px;padding-top:20px;border-top:1px solid var(--lijn);font-size:12.5px;color:var(--grijs);max-width:70ch}
 footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);padding:1px 5px}
 @media(prefers-reduced-motion:no-preference){.bar .cw,.bar .nom{transition:width .35s ease}}
@@ -116,6 +122,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
 <body>
 <div class="wrap">
 <header>
+  <img class="logo" src="logo.png" alt="Swart Financiële Focus — boekhouding, administratie, financieel advies" width="1400" height="560">
   <div class="eyebrow">Euronext Amsterdam · AEX · AMX · AScX</div>
   <h1>Wat is een aandeel waard<br>als je <em>alleen</em> het dividend telt?</h1>
   <p class="lede">Elk aandeel hieronder is gewaardeerd op de dividenden die het de komende jaren naar verwachting uitkeert, contant gemaakt naar vandaag. Geen koersverwachting, geen multiples — alleen kasstroom naar de aandeelhouder.</p>
@@ -136,6 +143,8 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
 
 <div class="filters">
   <input id="zoek" placeholder="zoek op naam of ticker" autocomplete="off">
+  <select id="f-index"><option value="">alle beurzen</option><option>AEX</option><option>AMX</option><option>AScX</option><option>overig</option></select>
+  <select id="f-status"><option value="">alle guidance</option><option value="vers">actueel</option><option value="verouderd">verouderd</option><option value="binnenkort">cijfers op komst</option><option value="nooit">geschat</option></select>
   <button class="chip" data-f="koop" aria-pressed="false">Onder koopprijs</button>
   <button class="chip" data-f="kwaliteit" aria-pressed="false">Kwaliteit ≥ 60</button>
   <button class="chip" data-f="stabiel" aria-pressed="false">Nooit verlaagd</button>
@@ -147,9 +156,9 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
   <thead><tr>
     <th data-s="naam">Bedrijf</th><th data-s="sector">Sector</th>
     <th data-s="koers">Koers</th><th data-s="yield_nu">Rendement</th>
-    <th data-s="d0_norm">Dividend</th><th data-s="g1">Groei</th>
+    <th data-s="d0_norm">Dividend</th><th data-s="g1">Groei</th><th data-s="inkoop_rend">Inkoop</th>
     <th data-s="fair">Contante waarde</th><th data-s="koopprijs">Koopprijs</th>
-    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th>
+    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th><th data-s="opgehaald">Bijgewerkt</th>
   </tr></thead>
   <tbody id="rijen"></tbody>
 </table>
@@ -159,6 +168,13 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
   <p>Bedrijven zonder uitkering in de laatste twee jaar en verlieslatende bedrijven zonder vrije kasstroom vallen buiten het model: op dividend valt daar niets te waarderen. Een <span class="vlag" style="position:relative;top:-1px"></span> markeert een uitkomst die meer dan viermaal of minder dan een zesde van de koers is — bijna altijd een eenmalige uitkering die de historie vertekent. Controleer die met de hand.</p>
   <p><strong>Aandeleninkoop.</strong> Inkoop levert geen kasstroom op je rekening, maar verkleint het aantal aandelen: hetzelfde dividendbedrag wordt over minder stukken verdeeld, dus stijgt jouw dividend per aandeel sneller. Zo zit het hier in het model — als hogere groei, niet als losse uitkering. Wie inkoop &eacute;n als extra kasstroom optelt &eacute;n als groei laat meetellen, telt hem twee keer. De stand "bij guidance" past het alleen toe waar de groei uit een bedrijfsbron komt; historische dividendgroei bevat het effect van eerdere inkoop namelijk al.</p>
   <p>Dit is een rekenmodel, geen advies. De uitkomst is zo goed als de aanname over het dividendpad; zet echte guidance in <code>overrides.json</code> voor de bedrijven die je volgt.</p>
+
+  <div class="colofon">
+    <img class="logo logo-klein" src="logo.png" alt="Swart Financiële Focus">
+    <p class="rechten">&copy; <span id="jaar"></span> Swart Financiële Focus. Alle rechten voorbehouden.</p>
+    <p class="klein">Geen beleggingsadvies. Cijfers zijn afkomstig van derden en kunnen fouten bevatten;
+    controleer altijd de bron voordat je handelt. Rendementen uit het verleden bieden geen garantie voor de toekomst.</p>
+  </div>
 </footer>
 </div>
 
@@ -170,9 +186,12 @@ const pct=(n,d=1)=>n==null?'—':(n*100).toLocaleString('nl-NL',{minimumFraction
 const CUR=new Date().getFullYear();
 const STAT={vers:'actueel',verouderd:'verouderd',binnenkort:'cijfers op komst',nooit:'geschat'};
 const RANG={verouderd:0,binnenkort:1,nooit:2,vers:3};
+const kort=s=>{if(!s)return '—';
+  const d=new Date(s), u=Math.round((Date.now()-d)/36e5);
+  return u<24 ? `${u} u geleden` : d.toLocaleDateString('nl-NL',{day:'numeric',month:'short'});};
 const dat=s=>s?new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'}):'onbekend';
 
-let O={r:null,g:null,m:null,h:P.n2,bb:'guidance'}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', open=null;
+let O={r:null,g:null,m:null,h:P.n2,bb:'guidance'}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', fIndex='', fStatus='', open=null;
 
 /* herwaardeer met de actuele schuifstanden */
 function waardeer(a){
@@ -206,6 +225,8 @@ function zichtbaar(){
   if(filters.has('kwaliteit')) rs=rs.filter(a=>a.kwaliteit>=60);
   if(filters.has('stabiel')) rs=rs.filter(a=>a.cuts_sinds_2010===0);
   if(filters.has('vlag')) rs=rs.filter(a=>!a.vlag);
+  if(fIndex) rs=rs.filter(a=>a.index===fIndex);
+  if(fStatus) rs=rs.filter(a=>a.agenda.status===fStatus);
   if(filters.has('nalopen')) rs=rs.filter(a=>['verouderd','binnenkort','nooit'].includes(a.agenda.status));
   rs.sort((x,y)=>{const a=x[sortKey],b=y[sortKey];
     if(typeof a==='string') return sortDir*a.localeCompare(b,'nl');
@@ -237,7 +258,7 @@ function detail(a){
     ? `De koers zit onder de contante waarde, maar boven je koopprijs. Wachten tot ${fmt(a.koopprijs)} levert je de veiligheidsmarge van ${pct(a.mos,0)} die bij kwaliteitsscore ${a.kwaliteit} hoort.`
     : `De markt betaalt meer dan het dividend rechtvaardigt. Bij deze koers zit ${pct(-a.upside)} van je rendement in koerswinst die dit model niet ziet.`;
   const c=a.checks||{};
-  return `<td colspan="12"><div class="d-in">
+  return `<td colspan="13"><div class="d-in">
     <div>
       <h3>${a.naam}</h3>
       <div class="d-sub">${a.ticker} · ${a.sector||'sector onbekend'} · dividend per aandeel, nominaal en contant</div>
@@ -277,6 +298,7 @@ function detail(a){
         <dt>Nettoschuld / ebitda</dt><dd>${c.netdebt_ebitda!=null?fmt(c.netdebt_ebitda)+'×':'—'}</dd>
         <dt>Verlagingen sinds 2010</dt><dd>${a.cuts_sinds_2010}</dd>
         <dt>Kwaliteitsscore</dt><dd><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></dd>
+        <dt>Koers opgehaald</dt><dd>${a.opgehaald?new Date(a.opgehaald).toLocaleString('nl-NL',{dateStyle:'short',timeStyle:'short'}):'—'}</dd>
       </dl>
       <div class="agenda ${a.agenda.status}">
         <div class="ag-kop">${STAT[a.agenda.status]}</div>
@@ -300,7 +322,7 @@ function teken(){
   tb.innerHTML = rs.map(a=>{
     const d=a.korting_tov_koop;
     return `<tr tabindex="0" data-t="${a.ticker}">
-      <td class="naam">${a.naam}${a.vlag?'<span class="vlag" title="controleer"></span>':''}<small>${a.ticker}</small></td>
+      <td class="naam">${a.naam}${a.vlag?'<span class="vlag" title="controleer"></span>':''}<small>${a.ticker} · ${a.index}</small></td>
       <td class="tk">${(a.sector||'—').slice(0,18)}</td>
       <td>${fmt(a.koers)}</td><td>${pct(a.yield_nu)}</td>
       <td>${fmt(a.d0_norm,3)}</td><td>${pct(a.g1)}</td>
@@ -309,9 +331,12 @@ function teken(){
       <td class="${d>0?'pos':'neg'}">${d>0?'+':''}${pct(d,0)}</td>
       <td><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></td>
       <td><span class="st ${a.agenda.status}">${STAT[a.agenda.status]}</span></td>
+      <td class="tk">${kort(a.opgehaald)}</td>
     </tr>` + (open===a.ticker?`<tr class="detail">${detail(a)}</tr>`:'');
   }).join('');
-  document.getElementById('m-aantal').textContent = rs.length+' van '+A.length+' aandelen';
+  const per={}; rs.forEach(a=>per[a.index]=(per[a.index]||0)+1);
+  document.getElementById('m-aantal').textContent = rs.length+' van '+A.length+' aandelen'+
+    (rs.length<A.length?'':' — '+['AEX','AMX','AScX','overig'].filter(i=>per[i]).map(i=>per[i]+' '+i).join(', '));
   tb.querySelectorAll('tr[data-t]').forEach(tr=>{
     const go=()=>{open = open===tr.dataset.t?null:tr.dataset.t; teken();};
     tr.onclick=go; tr.onkeydown=e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();go();}};
@@ -333,6 +358,8 @@ document.getElementById('reset').onclick=()=>{O={r:null,g:null,m:null,h:P.n2,bb:
   document.getElementById('s-r').value=8;document.getElementById('s-g').value=P.g_term*100;
   document.getElementById('s-m').value=20;document.getElementById('s-h').value=P.n2;labels();teken();};
 document.getElementById('zoek').addEventListener('input',e=>{q=e.target.value;teken();});
+document.getElementById('f-index').addEventListener('change',e=>{fIndex=e.target.value;teken();});
+document.getElementById('f-status').addEventListener('change',e=>{fStatus=e.target.value;teken();});
 document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>{
   const f=c.dataset.f; filters.has(f)?filters.delete(f):filters.add(f);
   c.setAttribute('aria-pressed',filters.has(f)); teken();});
@@ -344,6 +371,7 @@ document.querySelectorAll('thead th').forEach(th=>th.onclick=()=>{
 document.getElementById('s-r').value=8; document.getElementById('s-g').value=P.g_term*100;
 document.getElementById('s-m').value=20; document.getElementById('s-h').value=P.n2;
 document.getElementById('m-tijd').textContent='Bijgewerkt '+new Date(DATA.bijgewerkt).toLocaleString('nl-NL',{dateStyle:'long',timeStyle:'short'});
+document.getElementById('jaar').textContent=new Date().getFullYear();
 labels(); teken();
 </script>
 </body>

@@ -121,7 +121,7 @@ for tk, v in RAW.items():
     mos = P["mos_max"] - (P["mos_max"]-P["mos_min"])*(kw/100)
     koop = fv*(1-mos)
     k = v["koers"]
-    res.append({**{x: v.get(x) for x in ("ticker","naam","sector","koers","valuta","d0","g3","g5","payout","beta","cuts_sinds_2010","div_hist","mcap")},
+    res.append({**{x: v.get(x) for x in ("ticker","naam","sector","koers","valuta","d0","g3","g5","payout","beta","cuts_sinds_2010","div_hist","mcap","opgehaald")},
         "r": round(r,4), "g1": round(g1,4), "fair": round(fv,3), "pv_div": round(pv_div,3),
         "pv_terminal": round(pv_tv,3), "koopprijs": round(koop,3), "mos": round(mos,3),
         "kwaliteit": kw, "checks": det, "upside": round((fv-k)/k,4),
