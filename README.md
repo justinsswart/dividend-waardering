@@ -141,3 +141,73 @@ bewerkt. Dat tijdstempel staat in het detailpaneel onder de notitie.
 Twee datums, twee betekenissen:
 - **gecheckt** — de dag waarop jij de guidance tegen de bron hebt gecontroleerd (bepaalt de status)
 - **override_gewijzigd** — het moment waarop de aanname feitelijk veranderde (automatisch)
+
+## Kwaliteitsscore
+
+Vier onderdelen vanaf een basis van 50 punten: payout ratio, dekking uit vrije kasstroom,
+nettoschuld/ebitda en de verlagingshistorie. De score bepaalt de veiligheidsmarge
+(100 → 10%, 0 → 40%).
+
+Optellen alleen was niet genoeg. Een schone verlagingshistorie streek een payout van 289%
+gewoon weg; UMG kwam zo op 89 uit. Daarom zetten bepaalde signalen een **plafond** op de
+totaalscore, ongeacht de rest:
+
+| signaal | plafond |
+|---|---|
+| payout boven 150% | 30 |
+| payout boven 120% | 45 |
+| payout boven de winst | 55 |
+| negatieve vrije kasstroom | 25 |
+| kasstroom dekt dividend niet | 50 |
+| schuld boven 5x ebitda | 35 |
+| dividend ooit gehalveerd | 65 |
+| vier of meer verlagingen | 45 |
+
+Verder gecorrigeerd:
+
+- **Payout op de juiste winstmaatstaf.** Staat `wpa` in de override, dan rekent de score
+  daarmee. ASR ging van een schijnbare 150% naar de werkelijke 43%.
+- **Geen kasstroomcheck bij financials.** Banken en verzekeraars kennen geen zinvolle vrije
+  kasstroom; die post schommelt met de beleggingsportefeuille.
+- **Verlagingen tegen het niveau van meerdere jaren.** Een uitkering telt als verlaging bij
+  meer dan 15% onder de mediaan van de drie voorgaande jaren, zonder herstel binnen twee
+  jaar. Vergelijken met één enkel jaar telde speciale dividenden en verschoven betaaldata
+  mee: KPN kwam op -95% uit, ASM op -90%, Heineken en Shell op vier verlagingen.
+- **Diepte weegt mee.** Een halvering straft zwaarder dan het aantal keren. Shell scoorde
+  zonder deze straf 100, terwijl het in 2020 het dividend met tweederde verlaagde.
+
+Het aantal verlagingen kan handmatig gezet worden met `"verlagingen": n` in de override.
+
+## Modelverbeteringen na literatuuronderzoek
+
+Drie correcties op basis van standaardwerken over dividendwaardering (Damodaran, Stern NYU;
+CFA-curriculum over de Gordon-groeimodellen):
+
+**1. Kapitaalkosten in de eindfase.** Het model gebruikte de beta van vandaag voor de hele
+horizon. Damodaran laat de beta in de stabiele fase naar 1 convergeren: een volwassen
+onderneming beweegt met de markt mee. Dertien van de drieëntwintig aandelen zaten op de
+ondergrens van 7% en kregen daarmee een te lage disconteringsvoet op tweederde van hun
+waarde. De eindwaarde rekent nu met 8% (risicovrij 3% plus een marktpremie van 5%), wat de
+waarderingen met circa 11% verlaagt.
+
+**2. Houdbare groei als controle.** De klassieke formule is g = ROE × (1 − uitkeringsratio),
+met de aandeleninkoop meegeteld in de uitkering (Damodaran's "augmented payout"). Groeit een
+bedrijf in het model harder dan die formule toelaat, dan moet dat ergens vandaan komen:
+hogere winstgevendheid, minder uitkeren, of schuld. Vijftien van de drieëntwintig ingevulde
+aandelen overschrijden die grens — vooral waar de inkoopopslag de groei opdrijft.
+Het detailpaneel waarschuwt, en er is een filter "Groei houdbaar".
+
+**3. Payout op de juiste winstmaatstaf** — zie de kwaliteitsscore hierboven.
+
+### Wat het model nog steeds niet doet
+
+- **Lage-payout bedrijven worden systematisch ondergewaardeerd.** ASML komt op 145 uit bij
+  een koers van 1.580. Dat is geen fout in de berekening maar een grens van de methode: wie
+  30% uitkeert en de rest tegen 54% rendement herinvesteert, creëert waarde die een
+  dividendmodel per definitie niet ziet. Voor dat type bedrijf is een kasstroommodel (FCFE)
+  de juiste bril.
+- **Geen dividendbelasting.** Het model rekent bruto. Voor DSM-Firmenich (35% Zwitsers),
+  ArcelorMittal (15% Luxemburgs) en RELX (valutarisico) wijkt het netto-rendement af.
+- **Geen scenario's.** Eén dividendpad per aandeel, geen kansverdeling.
+- **Geen expliciete stabiele payout.** Damodaran leidt de payout in de eindfase af uit
+  g en ROE: payout = 1 − g/ROE. Wij houden de payout impliciet constant.

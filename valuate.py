@@ -62,6 +62,13 @@ def vereist_rendement(beta):
     b = beta if beta and 0.1 < beta < 3 else 1.0
     return min(max(P["rf"] + b*P["erp"], P["r_min"]), P["r_max"])
 
+def rendement_stabiel():
+    """In de stabiele fase convergeert de beta van elk bedrijf naar 1: een volwassen
+    onderneming beweegt met de markt mee. Damodaran hanteert dit standaard.
+    Dertien van onze aandelen zaten op de ondergrens van 7% en kregen daarmee een
+    te lage disconteringsvoet op tweederde van hun waarde."""
+    return P["rf"] + P["erp"]
+
 def basisgroei(v):
     g = [x for x in (v.get("g3"), v.get("g5")) if x is not None]
     if not g: return 0.02
@@ -94,33 +101,89 @@ def inkoop_rendement(v):
     if not ink or not mc: return 0.0
     return round(max(min(ink/mc, 0.10), -0.05), 4)
 
-def kwaliteit(v, wpa_ov=None, d0_ref=None):
-    """0-100. Bepaalt hoeveel veiligheidsmarge nodig is."""
-    s, det = 50, {}
-    # payout ratio
+def houdbare_groei(v, po, b):
+    """g = ROE x (1 - uitkeringsratio), waarbij de uitkering ook de inkoop omvat.
+    Meet of de groeiaanname gefinancierd kan worden uit wat het bedrijf verdient."""
+    roe = v.get("roe")
+    if not roe or po is None:
+        return None
+    winst = (v.get("eps") or 0) * (v.get("shares") or 0)
+    ink_deel = (v.get("netto_inkoop") or 0) / winst if winst > 0 else 0
+    uitkering = po + max(0.0, min(ink_deel, 1.5))
+    return round(roe * (1 - uitkering), 4)
+
+def kwaliteit(v, wpa_ov=None, d0_ref=None, cuts_ov=None):
+    """0-100: hoeveel vertrouwen verdient dit dividend?
+
+    Punten worden opgeteld, maar sommige signalen zetten een PLAFOND op de score.
+    Dat is het punt: als een bedrijf anderhalf keer zijn winst uitkeert, kan geen
+    enkele andere factor dat goedmaken. Zonder plafond streek een schone
+    verlagingshistorie zo'n payout gewoon weg - UMG kwam op 89 uit bij 289% payout.
+    """
+    s, det, plafonds = 50, {}, []
+
+    # payout ratio, op de winstmaatstaf waarop het bedrijf zelf stuurt
     po = v.get("payout")
     if wpa_ov and d0_ref:
         po = d0_ref / wpa_ov
     if po is not None:
-        pt = 20 if po < 0.5 else 12 if po < 0.7 else 4 if po < 0.9 else -15 if po < 1.0 else -35
-        s += pt; det["payout"] = pt
-    # FCF-dekking
-    fcf, sh, d0 = v.get("fcf"), v.get("shares"), v.get("d0")
+        s += 20 if po < 0.5 else 12 if po < 0.7 else 4 if po < 0.9 else -15 if po < 1.0 else -35
+        det["payout"] = round(po, 3)
+        if po > 1.5:   plafonds.append(("payout boven 150%", 30))
+        elif po > 1.2: plafonds.append(("payout boven 120%", 45))
+        elif po > 1.0: plafonds.append(("payout boven de winst", 55))
+
+    # dekking uit vrije kasstroom
+    fcf, sh, d0 = v.get("fcf"), v.get("shares"), d0_ref or v.get("d0")
+    # Banken en verzekeraars kennen geen zinvolle vrije kasstroom: de post schommelt
+    # met de beleggingsportefeuille en zegt niets over dividenddekking.
+    if (v.get("sector") or "").startswith("Financial"):
+        fcf = None
+        det["fcf_dekking"] = "n.v.t. (financiele instelling)"
     if fcf and sh and d0:
-        dek = (fcf/sh)/d0
-        ft = 20 if dek > 2 else 12 if dek > 1.3 else 4 if dek > 1 else -15
-        s += ft; det["fcf_dekking"] = round(dek,2)
-    # schuld
+        dek = (fcf / sh) / d0
+        s += 20 if dek > 2 else 12 if dek > 1.3 else 4 if dek > 1 else -15
+        det["fcf_dekking"] = round(dek, 2)
+        if dek < 0:   plafonds.append(("negatieve vrije kasstroom", 25))
+        elif dek < 1: plafonds.append(("kasstroom dekt dividend niet", 50))
+
+    # schuldpositie
     nd, eb = v.get("netdebt"), v.get("ebitda")
     if eb and eb > 0:
-        lev = nd/eb
-        lt = 10 if lev < 1 else 5 if lev < 2.5 else -5 if lev < 4 else -15
-        s += lt; det["netdebt_ebitda"] = round(lev,2)
-    # verlagingen
-    c = v.get("cuts_sinds_2010", 0)
-    ct = 10 if c == 0 else 0 if c == 1 else -8 if c == 2 else -15
-    s += ct; det["verlagingen"] = c
-    return max(0, min(100, s)), det
+        lev = nd / eb
+        s += 10 if lev < 1 else 5 if lev < 2.5 else -5 if lev < 4 else -15
+        det["netdebt_ebitda"] = round(lev, 2)
+        if lev > 5:   plafonds.append(("schuld boven 5x ebitda", 35))
+        elif lev > 4: plafonds.append(("schuld boven 4x ebitda", 50))
+
+    # verlagingshistorie
+    c = cuts_ov if cuts_ov is not None else v.get("cuts_sinds_2010", 0)
+    s += 10 if c == 0 else 0 if c == 1 else -8 if c == 2 else -15
+    det["verlagingen"] = c
+
+    # Hoe diep werd er gesneden? Een halvering weegt zwaarder dan het aantal keren.
+    # Shell verlaagde in 2020 met tweederde - de eerste keer sinds de oorlog - en
+    # kwam zonder deze straf op een score van 100 uit.
+    diep = v.get("diepste_verlaging") or 0
+    if diep < 0:
+        det["diepste_verlaging"] = diep
+        if diep <= -0.5:
+            s -= 20; plafonds.append(("dividend ooit gehalveerd", 65))
+        elif diep <= -0.3:
+            s -= 12; plafonds.append(("verlaging van meer dan 30%", 75))
+        elif diep <= -0.15:
+            s -= 5
+    if c >= 4:   plafonds.append(("vier of meer verlagingen", 45))
+    elif c == 3: plafonds.append(("drie verlagingen", 55))
+
+    s = max(0, min(100, s))
+    if plafonds:
+        laagste = min(plafonds, key=lambda x: x[1])
+        if laagste[1] < s:
+            det["plafond"] = laagste[0]
+            det["zonder_plafond"] = s
+            s = laagste[1]
+    return s, det
 
 def dcf(divs_expliciet, d_start, g1, r, n1, n2, g_term):
     """divs_expliciet: dict jaar->DPS. Daarna fade g1->g_term, dan Gordon."""
@@ -138,7 +201,8 @@ def dcf(divs_expliciet, d_start, g1, r, n1, n2, g_term):
         g = g1 + (g_term-g1)*(i/fade)
         d *= (1+g)
         pv += d/(1+r)**t; jaar_dps.append((CUR+t-1, round(d,4)))
-    tv = d*(1+g_term)/(r-g_term)
+    r_st = max(rendement_stabiel(), g_term + 0.01)
+    tv = d*(1+g_term)/(r_st-g_term)
     pv_tv = tv/(1+r)**t
     return pv+pv_tv, pv, pv_tv, jaar_dps
 
@@ -193,7 +257,8 @@ for tk, v in RAW.items():
         g1 = min((1 + g1) / (1 - b) - 1, 0.18)
 
     fv, pv_div, pv_tv, pad = dcf(expl, d0n, g1, r, P["n1"], P["n2"], P["g_term"])
-    kw, det = kwaliteit(v, ov.get("wpa"), d0n)
+    kw, det = kwaliteit(v, ov.get("wpa"), d0n, ov.get("verlagingen"))
+    sg = houdbare_groei(v, det.get("payout"), b)
     mos = P["mos_max"] - (P["mos_max"]-P["mos_min"])*(kw/100)
     koop = fv*(1-mos)
     k = v["koers"]
@@ -210,6 +275,9 @@ for tk, v in RAW.items():
         "guidance_bron": ov.get("bron"), "guidance_notitie": ov.get("notitie"),
         "agenda": guidance_status(tk, ov), "override_gewijzigd": stempel(tk, ov),
         "inkoop_rend": b, "netto_inkoop": v.get("netto_inkoop"), "g1_kaal": round(g1_kaal, 4),
+        "houdbare_groei": sg, "roe": v.get("roe"),
+        "groei_boven_houdbaar": bool(sg is not None and g1 > sg + 0.02),
+        "r_stabiel": round(rendement_stabiel(), 4),
         "onhoudbaar": onhoudbaar, "gespannen": gespannen,
         "eps_nu": eps_nu, "eps_fwd": eps_v, "dekking_wpa": round(eps_beste/d0n, 2) if d0n else None})
 

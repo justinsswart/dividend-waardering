@@ -30,7 +30,23 @@ for t in OK:
         d0 = by_year.get(cur - 1) or (by_year.get(full[-1]) if full else 0)
         g5 = cagr(by_year.get(cur-6), by_year.get(cur-1), 5) if len(full) >= 6 else None
         g3 = cagr(by_year.get(cur-4), by_year.get(cur-1), 3) if len(full) >= 4 else None
-        cuts = sum(1 for i in range(1, len(full)) if by_year[full[i]] < by_year[full[i-1]] * 0.98)
+        # Een verlaging telt alleen als de uitkering fors onder het NIVEAU van de
+        # voorgaande jaren zakt en daar ook niet snel van herstelt. Vergelijken met
+        # een enkel voorgaand jaar telt speciale dividenden en verschoven betaaldata
+        # mee als verlaging: KPN kwam zo op -95% uit, ASM op -90%.
+        cuts, diepste = 0, 0.0
+        for i in range(3, len(full)):
+            eerder = sorted(by_year[full[j]] for j in range(i - 3, i))
+            basis = eerder[1]                       # mediaan van de drie jaar ervoor
+            nu = by_year[full[i]]
+            if basis <= 0 or nu >= basis * 0.85:
+                continue
+            hersteld = any(by_year[full[k]] >= basis * 0.95
+                           for k in range(i + 1, min(i + 3, len(full))))
+            if not hersteld:
+                cuts += 1
+                diepste = min(diepste, nu / basis - 1)
+
         # aandelenaantal en beurswaarde: aanvullen als info ze niet levert
         shares = info.get("sharesOutstanding") or info.get("impliedSharesOutstanding")
         mcap = info.get("marketCap")
@@ -56,7 +72,7 @@ for t in OK:
                 if tr: rij = tr[0]; break
             if rij is not None:
                 w = [float(x) for x in cf.loc[rij].values[:3] if str(x) != "nan"]
-                if w: inkoop = round(-sum(w)/len(w))   # uitgaand = positief
+                if w: inkoop = round(-sum(w)/len(w))
         except Exception:
             pass
 
@@ -73,6 +89,7 @@ for t in OK:
             "g3": round(g3, 4) if g3 is not None else None,
             "g5": round(g5, 4) if g5 is not None else None,
             "cuts_sinds_2010": cuts,
+            "diepste_verlaging": round(diepste, 3),
             "eps": info.get("trailingEps"),
             "eps_fwd": info.get("forwardEps"),
             "payout": info.get("payoutRatio"),
@@ -82,9 +99,24 @@ for t in OK:
             "ebitda": info.get("ebitda"),
             "yield_ttm": info.get("dividendYield"),
             "beta": info.get("beta"),
+            "roe": info.get("returnOnEquity"),
             "opgehaald": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         }
     except Exception as e:
+        # netto aandeleninkoop, gemiddeld over de beschikbare jaren
+        inkoop = None
+        try:
+            cf = tk.cashflow
+            rij = None
+            for kand in ("Net Common Stock Issuance", "Repurchase Of Capital Stock"):
+                tr = [i for i in cf.index if str(i) == kand]
+                if tr: rij = tr[0]; break
+            if rij is not None:
+                w = [float(x) for x in cf.loc[rij].values[:3] if str(x) != "nan"]
+                if w: inkoop = round(-sum(w)/len(w))
+        except Exception:
+            pass
+
         out[t] = {"ticker": t, "fout": str(e)[:120]}
 json.dump(out, open("raw.json","w"), indent=1)
 print("klaar:", len(out), "| met koers:", sum(1 for v in out.values() if v.get("koers")))

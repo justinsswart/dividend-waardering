@@ -162,6 +162,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
   <button class="chip" data-f="stabiel" aria-pressed="false">Nooit verlaagd</button>
   <button class="chip" data-f="vlag" aria-pressed="false">Verberg twijfelgevallen</button>
   <button class="chip" data-f="nalopen" aria-pressed="false">Guidance nalopen</button>
+  <button class="chip" data-f="houdbaar" aria-pressed="false">Groei houdbaar</button>
 </div>
 
 <div class="tabelwrap">
@@ -249,6 +250,7 @@ function zichtbaar(){
   if(filters.has('vlag')) rs=rs.filter(a=>!a.vlag);
   if(fIndex) rs=rs.filter(a=>a.index===fIndex);
   if(fStatus) rs=rs.filter(a=>a.agenda.status===fStatus);
+  if(filters.has('houdbaar')) rs=rs.filter(a=>!a.groei_boven_houdbaar);
   if(filters.has('nalopen')) rs=rs.filter(a=>['verouderd','binnenkort','nooit'].includes(a.agenda.status));
   rs.sort((x,y)=>{const a=x[sortKey],b=y[sortKey];
     if(typeof a==='string') return sortDir*a.localeCompare(b,'nl');
@@ -312,6 +314,13 @@ function detail(a){
         Het model laat het dividend daarom niet groeien en rekent geen inkoopopslag: doorgroeien zou een aanname zijn die de winst niet draagt.
         Zonder winstherstel is dit dividend alleen vol te houden uit kasstroom of schuld.</p>
       </div>`:''}
+      ${a.groei_boven_houdbaar?`<div class="inkoop fel">
+        <div class="ag-kop">groei boven wat het bedrijf kan financieren</div>
+        <p>Bij een rendement op eigen vermogen van ${pct(a.roe)} en de huidige uitkering blijft er ruimte voor
+        ${pct(a.houdbare_groei)} groei per jaar. Het model rekent met ${pct(a.g1)}.
+        Dat verschil moet ergens vandaan komen: hogere winstgevendheid, minder uitkeren, of schuld.
+        Zonder een van die drie is deze waardering te hoog.</p>
+      </div>`:''}
       <div class="inkoop ${a.g1>0.12?'fel':''}">
         <div class="ag-kop">aandeleninkoop</div>
         ${a.inkoop_rend
@@ -329,6 +338,8 @@ function detail(a){
         <dt>Vereist rendement</dt><dd>${pct(a.r)}</dd>
         <dt>Dividendgroei fase 1</dt><dd>${pct(a.g1)}</dd>
         <dt>Groei 3j / 5j historisch</dt><dd>${pct(a.g3)} / ${pct(a.g5)}</dd>
+        <dt>Houdbare groei (ROE x retentie)</dt><dd>${a.houdbare_groei!=null?pct(a.houdbare_groei):'—'}</dd>
+        <dt>Vereist rendement na fase 1</dt><dd>${pct(a.r_stabiel)}</dd>
         <dt>Waarde uit eindwaarde</dt><dd>${pct(a.pv_terminal/a.fair,0)}</dd>
         <dt>Payout ratio</dt><dd>${pct(a.payout,0)}</dd>
         <dt>Dekking uit vrije kasstroom</dt><dd>${c.fcf_dekking!=null?fmt(c.fcf_dekking)+'×':'—'}</dd>
