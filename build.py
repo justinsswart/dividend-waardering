@@ -9,7 +9,8 @@ except Exception:
 for a in d["aandelen"]:
     a.pop("div_hist", None)          # niet nodig in de UI, scheelt gewicht
     a["pad"] = a["pad"][:2]
-    a["agenda"] = ag.get(a["ticker"], {"status": "nooit"})
+    if not a.get("agenda"):
+        a["agenda"] = ag.get(a["ticker"], {"status": "nooit"})
     a["index"] = INDEX.get(a["ticker"], "overig")          # alleen de vastgezette guidance-jaren
 html = pathlib.Path("template.html").read_text()
 out = html.replace("/*__DATA__*/", json.dumps(d, ensure_ascii=False, separators=(",", ":")))

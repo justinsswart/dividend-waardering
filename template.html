@@ -338,6 +338,7 @@ function detail(a){
         ${a.agenda.volgende_cijfers?`<p>Volgende: <b>${a.agenda.volgende_soort}</b> op ${dat(a.agenda.volgende_cijfers)}${a.agenda.dagen_tot!=null?` — over ${a.agenda.dagen_tot} dagen`:''}.</p>`:''}
         ${a.guidance_type?`<p>Vorm: ${{dps:'bedrag per aandeel uit guidance',payout:'percentage van de verwachte winst',groei:'groeibeleid'}[a.guidance_type]}.</p>`:''}
         ${a.guidance_notitie?`<p>${a.guidance_notitie}</p>`:''}
+        ${a.override_gewijzigd?`<p class="ag-bron">aanname aangepast op ${new Date(a.override_gewijzigd).toLocaleString('nl-NL',{dateStyle:'medium',timeStyle:'short'})}</p>`:''}
         ${a.agenda.guidance_bron?`<p class="ag-bron">${a.agenda.guidance_bron}</p>`:''}
       </div>
       ${a.special_div?'<div class="let-op">Dividend genormaliseerd: de laatste uitkering week sterk af van het patroon.</div>':''}

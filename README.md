@@ -127,3 +127,17 @@ operationeel resultaat van 7,93 juist 43% is.
 
 `wpa` vervangt de winst per aandeel in de dekkingscontrole en de payout ratio. Alleen
 gebruiken wanneer het bedrijf zelf op die maatstaf stuurt, met de bron erbij.
+
+## Status en tijdstempel
+
+De guidance-status wordt bij elke `valuate.py`-run opnieuw bepaald: de rapportagedata komen
+uit `agenda.json`, het veld `gecheckt` uit `overrides.json`. Pas je een override aan, dan
+springt de status meteen om — de trage `agenda.py` hoeft daar niet voor te draaien.
+
+`override_log.json` houdt per aandeel een hash van de override bij. Verandert de inhoud,
+dan wordt het tijdstempel `override_gewijzigd` bijgewerkt, ongeacht hoe je het bestand hebt
+bewerkt. Dat tijdstempel staat in het detailpaneel onder de notitie.
+
+Twee datums, twee betekenissen:
+- **gecheckt** — de dag waarop jij de guidance tegen de bron hebt gecontroleerd (bepaalt de status)
+- **override_gewijzigd** — het moment waarop de aanname feitelijk veranderde (automatisch)

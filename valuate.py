@@ -1,7 +1,59 @@
-import json, math, datetime as dt
+import json, math, hashlib, os, datetime as dt
 RAW = json.load(open("raw.json"))
 OV  = json.load(open("overrides.json"))
 CUR = dt.date.today().year
+NU  = dt.datetime.now(dt.timezone.utc)
+VANDAAG = NU.date()
+
+try:
+    AGENDA = json.load(open("agenda.json"))["bedrijven"]
+except Exception:
+    AGENDA = {}
+
+# Wijzigingen in overrides.json zelf detecteren, zodat het tijdstempel klopt
+# ongeacht hoe het bestand is bewerkt.
+try:
+    LOG = json.load(open("override_log.json"))
+except Exception:
+    LOG = {}
+
+def stempel(tk, ov):
+    """Geeft terug wanneer deze override voor het laatst inhoudelijk veranderde."""
+    if not ov:
+        return None
+    h = hashlib.sha256(json.dumps(ov, sort_keys=True, ensure_ascii=False).encode()).hexdigest()[:16]
+    vorig = LOG.get(tk)
+    if not vorig or vorig.get("hash") != h:
+        LOG[tk] = {"hash": h, "gewijzigd": NU.isoformat(timespec="seconds")}
+    return LOG[tk]["gewijzigd"]
+
+def guidance_status(tk, ov):
+    """Bepaalt de status live uit de huidige override plus de bewaarde rapportagedata."""
+    ag = dict(AGENDA.get(tk, {}))
+    laatste, volgende = ag.get("laatste_cijfers"), ag.get("volgende_cijfers")
+    gecheckt = ov.get("gecheckt") if ov else None
+    if not ov:
+        st = "nooit"
+    elif not gecheckt:
+        st = "verouderd"
+    elif laatste and gecheckt < laatste:
+        st = "verouderd"
+    elif volgende:
+        try:
+            dagen = (dt.date.fromisoformat(volgende) - VANDAAG).days
+            st = "binnenkort" if 0 <= dagen <= 10 else "vers"
+        except ValueError:
+            st = "vers"
+    else:
+        st = "vers"
+    ag.update({"status": st, "guidance_gecheckt": gecheckt,
+               "guidance_bron": ov.get("bron") if ov else None})
+    if volgende:
+        try:
+            ag["dagen_tot"] = (dt.date.fromisoformat(volgende) - VANDAAG).days
+        except ValueError:
+            pass
+    return ag
 
 P = {"rf":0.030,"erp":0.050,"r_min":0.070,"r_max":0.120,"g_cap":0.12,"g_term":0.020,
      "n1":5,"n2":10,"mos_min":0.10,"mos_max":0.40}
@@ -156,11 +208,13 @@ for tk, v in RAW.items():
         "guidance_type": ("dps" if ov.get("divs") else "payout" if ov.get("payout_beleid")
                           else "groei" if ov.get("g_na") else None),
         "guidance_bron": ov.get("bron"), "guidance_notitie": ov.get("notitie"),
+        "agenda": guidance_status(tk, ov), "override_gewijzigd": stempel(tk, ov),
         "inkoop_rend": b, "netto_inkoop": v.get("netto_inkoop"), "g1_kaal": round(g1_kaal, 4),
         "onhoudbaar": onhoudbaar, "gespannen": gespannen,
         "eps_nu": eps_nu, "eps_fwd": eps_v, "dekking_wpa": round(eps_beste/d0n, 2) if d0n else None})
 
 res.sort(key=lambda x: -x["korting_tov_koop"])
+json.dump(LOG, open("override_log.json","w"), indent=1)
 json.dump({"params":P,"bijgewerkt":dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")+"Z","aandelen":res},
           open("data.json","w"), indent=1)
 print(f"{len(res)} aandelen gewaardeerd | koopwaardig: {sum(1 for x in res if x['korting_tov_koop']>0)}")

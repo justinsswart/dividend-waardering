@@ -60,16 +60,11 @@ for tk in OK:
         except ValueError:
             pass
 
-    if not ov:
-        status = "nooit"
-    elif gecheckt is None:
-        status = "verouderd"
-    elif laatste and gecheckt < laatste:
-        status = "verouderd"
-    elif volgende and (volgende - VANDAAG).days <= VENSTER:
-        status = "binnenkort"
-    else:
-        status = "vers"
+    # De status wordt live bepaald in valuate.py, zodat een aangepaste override
+    # meteen doorwerkt zonder dat deze trage agendarun opnieuw hoeft.
+    status = ("nooit" if not ov else "verouderd" if gecheckt is None
+              else "verouderd" if (laatste and gecheckt < laatste)
+              else "binnenkort" if (volgende and (volgende - VANDAAG).days <= VENSTER) else "vers")
 
     res[tk] = {
         "laatste_cijfers": str(laatste) if laatste else None,
