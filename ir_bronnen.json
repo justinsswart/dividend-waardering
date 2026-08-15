@@ -21,5 +21,12 @@
  "UMG.AS": "https://investors.universalmusic.com/shareholder-information/dividend",
  "MT.AS": "https://corporate.arcelormittal.com/investors/equity-investors/dividends",
  "ASML.AS": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
- "ASM.AS": "https://www.asm.com/investors/dividends-share-buybacks"
+ "ASM.AS": "https://www.asm.com/investors/dividends-share-buybacks",
+ "NSI.AS": "https://www.nsi.nl/investor-relations/dividend",
+ "WHA.AS": "https://www.wereldhave.com/investors/share-information/dividend/",
+ "ECMPA.AS": "https://www.eurocommercialproperties.com/investors/dividend",
+ "VPK.AS": "https://www.vopak.com/investors/dividend",
+ "APAM.AS": "https://www.aperam.com/investors/equity-investors/dividend/",
+ "CTPNV.AS": "https://www.ctp.eu/investors/shareholder-information/dividend/",
+ "TWEKA.AS": "https://www.tkhgroup.com/en/investors/share-information/dividend/"
 }

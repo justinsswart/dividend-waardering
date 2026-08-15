@@ -179,5 +179,61 @@
   "bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
   "gecheckt": "2026-08-15",
   "notitie": "Boekjaar 2025: 3,25 per aandeel (2024: 3,00), goedgekeurd op de AVA van 11 mei 2026. Beleid: verantwoord en houdbaar jaardividend met een streefpayout van circa 30%; feitelijk 22% bij een winst per aandeel van 14,77 (2024: 13,95). Nieuw inkoopprogramma van 150 mln voor 2026/2027. H1 2026 was sterk: winst per aandeel 10,71 tegen 3,53 in H1 2025, gedreven door versnellende AI-vraag; de tweede jaarhelft wordt volgens ASM sterker met circa 20% omzetgroei. Groei 7% als eigen aanname, onder het vijfjaarstempo van 10,2%. Bij een rendement van 0,4% is dit geen inkomensaandeel; het model zegt hier weinig zinnigs over."
+ },
+ "NSI.AS": {
+  "d0_fy": 1.58,
+  "g_na": 0.0,
+  "wpa": 2.1,
+  "bron": "nsi.nl/investor-relations - jaarcijfers 28 januari 2026, dividendbesluit 17 april 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Per 1 januari 2025 is het regime voor fiscale beleggingsinstellingen voor direct vastgoed vervallen; het fonds is nu regulier vennootschapsbelastingplichtig tegen ruim 25%. Dat drukt structureel op wat er uitgekeerd kan worden. Boekjaar 2025: interim 0,75 + slot 0,83 = 1,58. EPRA-winst 2,10 per aandeel, payout 75% - exact de ondergrens van het beleid. Outlook 2026: EPRA-winst 1,90 tot 2,05, wat bij 75% payout op 1,43 tot 1,54 uitkomt: LAGER dan het huidige dividend. Q1 2026 was zwak, met een direct resultaat van 0,35 tegen 0,42 een jaar eerder door verkopen en toegenomen leegstand; een bevestiging van de outlook ontbrak. Intrinsieke waarde daalde 6,6% naar 33,08 per aandeel. Groei op nul, en dat is optimistisch. Let op: keuzedividend, contant of in aandelen. Winst per aandeel hier op EPRA-basis gezet; de IFRS-winst is negatief door herwaarderingen en zegt niets over de uitkeringscapaciteit."
+ },
+ "WHA.AS": {
+  "d0_fy": 1.3,
+  "g_na": 0.02,
+  "wpa": 1.86,
+  "bron": "wereldhave.com/investors - jaarcijfers 10 februari 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Per 1 januari 2025 is het regime voor fiscale beleggingsinstellingen voor direct vastgoed vervallen; het fonds is nu regulier vennootschapsbelastingplichtig tegen ruim 25%. Dat drukt structureel op wat er uitgekeerd kan worden. Boekjaar 2025: 1,30 per aandeel (2024: 1,25), +4%. Direct resultaat 1,86 (2024: 1,76), payout 70% terwijl het beleid 75-85% van de EPRA-winst voorschrijft. Outlook 2026 herhaald op 1,85 tot 1,95 direct resultaat, wat bij dezelfde payout op circa 1,32 uitkomt. LifeCentral-strategie loopt tot 2027 en mikt op een houdbaar en groeiend dividend via huurindexatie en hogere bezetting. Aandachtspunt: de schuldgraad ligt hardnekkig boven de eigen doelstelling en herstel hangt steeds meer af van vastgoedverkopen en joint ventures. Koers noteert circa 20% onder de intrinsieke waarde van 23 per aandeel."
+ },
+ "ECMPA.AS": {
+  "d0_fy": 1.84,
+  "g_na": 0.02,
+  "wpa": 2.31,
+  "bron": "eurocommercialproperties.com/investors - halfjaarlijkse uitkering juli en januari",
+  "gecheckt": "2026-08-15",
+  "notitie": "Laatste twaalf maanden 1,84 per aandeel, halfjaarlijks uitgekeerd in juli en januari; voor de komende twaalf maanden wordt circa 1,83 verwacht. Reeks 2022-2025: 1,50 / 1,60 / 1,70 / 1,80. Anders dan NSI en Wereldhave raakt het einde van de FBI-status dit fonds nauwelijks: het houdt geen Nederlands vastgoed aan, dus die status had toch al weinig betekenis. Groei 2% als eigen aanname, in lijn met het historische tempo van circa 6% maar voorzichtiger gezien de winkelvastgoedmarkt."
+ },
+ "VPK.AS": {
+  "d0_fy": 1.8,
+  "g_na": 0.04,
+  "wpa": 3.4,
+  "bron": "vopak.com/investors - jaarcijfers 2025, nieuw kapitaalbeleid april 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 1,80 per aandeel, een recordniveau en de zevende verhoging op rij. Beleid: 25-75% van de nettowinst als cashdividend, feitelijk rond 45-50%, met stabiel tot groeiend als doel. Aangescherpt kapitaalbeleid: tot en met 2030 circa 1,7 mld uitkeren aan aandeelhouders met een jaarlijks stijgend dividend, plus een inkoopprogramma van 500 mln. Vanaf 2026 halfjaarlijkse uitkering in plaats van jaarlijks; eerste interim 0,72. H1 2026: winst per aandeel 1,63 tegen 2,74 een jaar eerder, maar dat vergelijkingscijfer was opgestuwd door een boekwinst; bezettingsgraad 91% en de vrije kasstroom wordt op circa 820 mln geraamd. Winst per aandeel op 3,40 gezet, de verwachting voor 2026. Groei 4% als eigen aanname."
+ },
+ "APAM.AS": {
+  "d0_fy": 2.0,
+  "g_na": 0.0,
+  "land": "LU",
+  "bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Basisdividend 2,00 per aandeel, in vier kwartaaltermijnen van 0,50, en voor 2026 opnieuw onveranderd vastgesteld. Staat al sinds 2022 stil ondanks een beleid dat een 'progressief stijgend' basisdividend belooft; de uitkering is gekoppeld aan de nettoschuld/ebitda-doelstelling. LET OP: over 2025 kwam de winst uit op 0,13 per aandeel tegen 3,20 in 2024, bij een negatieve vrije kasstroom - het dividend werd dus niet verdiend. Het eerste halfjaar van 2026 laat herstel zien met 1,57 per aandeel (H1 2025: 0,01), geholpen door Europese handelsmaatregelen die de import van staal beperken en de bezetting verhogen. Voor het derde kwartaal verwacht Aperam wel een lagere ebitda. Groei op nul: vier jaar stilstand en een winst die het dividend nog niet draagt. Luxemburgse bronbelasting van 15%."
+ },
+ "CTPNV.AS": {
+  "d0_fy": 0.63,
+  "g_na": 0.05,
+  "wpa": 0.85,
+  "bron": "ctp.eu/investors - AVA 20 mei 2026, slotdividend 0,32 per aandeel",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: interim 0,31 + slot 0,32 = 0,63 per aandeel, goedgekeurd op de AVA van 20 mei 2026. Dat is een payout van 74% van de bedrijfsspecifiek aangepaste EPRA-winst per aandeel. Europa's grootste beursgenoteerde eigenaar en ontwikkelaar van logistiek en industrieel vastgoed. Het dividend groeide de afgelopen vier jaar met gemiddeld 16% per jaar; analisten verwachten circa 10% winstgroei over de komende drie jaar. Groei 5% als eigen aanname, ruim onder dat tempo. LET OP: keuzedividend, contant of in nieuwe aandelen (scrip). De uitkering wordt niet volledig gedekt door de kasstroom - de cash payout ratio lag rond 95%."
+ },
+ "TWEKA.AS": {
+  "d0_fy": 1.35,
+  "g_na": 0.03,
+  "wpa": 2.37,
+  "bron": "tkhgroup.com/investors - jaarcijfers 4 maart 2026, AVA 13 mei 2026",
+  "gecheckt": "2026-08-15",
+  "notitie": "Boekjaar 2025: 1,35 per aandeel, een verlaging van 10% ten opzichte van 1,50 over 2024. Winst per aandeel zakte van 2,50 naar 2,37; payout 57%, binnen het beleid van 40-70% van de nettowinst voor afschrijvingen en eenmalige posten. De verlaging komt vooral door de moeizame opstart van de nieuwe fabriek in Eemshaven en de druk op de Electrification-divisie. TKH bereidt de afsplitsing van Electrification voor om zich volledig op Automation te richten; voor die tak wordt tot en met 2028 gerekend op 5-7% autonome omzetgroei en een rendement op ingezet kapitaal van 25-30% (2025: 13,8%). Q1 2026 liet bijna 10% autonome omzetgroei zien. Groei 3% als eigen aanname: het beleid is payout-gebaseerd, dus het dividend volgt de winst, en de afsplitsing maakt het pad onzeker."
  }
 }
