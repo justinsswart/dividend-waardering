@@ -170,7 +170,7 @@ footer code{font-family:var(--mono);font-size:11.5px;background:var(--papier-2);
     <th data-s="naam">Bedrijf</th><th data-s="koers">Koers</th><th data-s="yield_nu">Rendement</th>
     <th data-s="g1">Groei</th>
     <th data-s="fair">Contante waarde</th><th data-s="koopprijs">Koopprijs</th>
-    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th><th data-s="opgehaald">Bijgewerkt</th>
+    <th data-s="korting_tov_koop" class="sorted">Verschil</th><th data-s="kwaliteit">Kwaliteit</th><th data-s="agst">Guidance</th><th data-s="override_gewijzigd">Aanname</th>
   </tr></thead>
   <tbody id="rijen"></tbody>
 </table>
@@ -200,8 +200,12 @@ const CUR=new Date().getFullYear();
 const STAT={vers:'actueel',verouderd:'verouderd',binnenkort:'cijfers op komst',nooit:'geschat'};
 const RANG={verouderd:0,binnenkort:1,nooit:2,vers:3};
 const kort=s=>{if(!s)return '—';
-  const d=new Date(s), u=Math.round((Date.now()-d)/36e5);
-  return u<24 ? `${u} u geleden` : d.toLocaleDateString('nl-NL',{day:'numeric',month:'short'});};
+  const d=new Date(s); if(isNaN(d)) return '—';
+  const m=Math.round((Date.now()-d)/6e4);
+  if(m<60) return m<2?'zojuist':`${m} min geleden`;
+  if(m<1440) return `${Math.round(m/60)} u geleden`;
+  const dg=Math.round(m/1440);
+  return dg<8 ? `${dg} d geleden` : d.toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'});};
 const dat=s=>s?new Date(s).toLocaleDateString('nl-NL',{day:'numeric',month:'short',year:'numeric'}):'onbekend';
 
 let O={r:null,g:null,m:null,h:P.n2,bb:'guidance'}, sortKey='korting_tov_koop', sortDir=-1, filters=new Set(), q='', fIndex='', fStatus='', open=null;
@@ -358,7 +362,7 @@ function teken(){
       <td class="${d>0?'pos':'neg'}">${d>0?'+':''}${pct(d,0)}</td>
       <td><span class="kw ${kwKlas(a.kwaliteit)}">${a.kwaliteit}</span></td>
       <td><span class="st ${a.agenda.status}">${STAT[a.agenda.status]}</span></td>
-      <td class="tk">${kort(a.opgehaald)}</td>
+      <td class="tk">${a.override_gewijzigd?kort(a.override_gewijzigd):'<span style="color:var(--lijn)">nooit</span>'}</td>
     </tr>` + (open===a.ticker?`<tr class="detail">${detail(a)}</tr>`:'');
   }).join('');
   const per={}; rs.forEach(a=>per[a.index]=(per[a.index]||0)+1);
@@ -397,7 +401,9 @@ document.querySelectorAll('thead th').forEach(th=>th.onclick=()=>{
 
 document.getElementById('s-r').value=8; document.getElementById('s-g').value=P.g_term*100;
 document.getElementById('s-m').value=20; document.getElementById('s-h').value=P.n2;
-document.getElementById('m-tijd').textContent='Bijgewerkt '+new Date(DATA.bijgewerkt).toLocaleString('nl-NL',{dateStyle:'long',timeStyle:'short'});
+(()=>{const d=new Date(DATA.bijgewerkt);
+  document.getElementById('m-tijd').textContent = isNaN(d) ? 'Koersen recent opgehaald'
+    : 'Koersen opgehaald '+d.toLocaleString('nl-NL',{dateStyle:'long',timeStyle:'short'});})();
 document.getElementById('jaar').textContent=new Date().getFullYear();
 labels(); teken();
 </script>

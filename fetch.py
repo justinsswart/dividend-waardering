@@ -82,7 +82,7 @@ for t in OK:
             "ebitda": info.get("ebitda"),
             "yield_ttm": info.get("dividendYield"),
             "beta": info.get("beta"),
-            "opgehaald": dt.datetime.utcnow().isoformat(timespec="seconds")+"Z",
+            "opgehaald": dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds"),
         }
     except Exception as e:
         out[t] = {"ticker": t, "fout": str(e)[:120]}

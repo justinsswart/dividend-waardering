@@ -215,7 +215,7 @@ for tk, v in RAW.items():
 
 res.sort(key=lambda x: -x["korting_tov_koop"])
 json.dump(LOG, open("override_log.json","w"), indent=1)
-json.dump({"params":P,"bijgewerkt":dt.datetime.now(dt.timezone.utc).isoformat(timespec="seconds")+"Z","aandelen":res},
+json.dump({"params":P,"bijgewerkt":NU.isoformat(timespec="seconds"),"aandelen":res},
           open("data.json","w"), indent=1)
 print(f"{len(res)} aandelen gewaardeerd | koopwaardig: {sum(1 for x in res if x['korting_tov_koop']>0)}")
 for x in res[:8]: print(f"  {x['ticker']:11} koers {x['koers']:>8.2f}  fair {x['fair']:>8.2f}  koop {x['koopprijs']:>8.2f}  kw {x['kwaliteit']:>3}")
