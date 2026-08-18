@@ -1,163 +1,30 @@
 {
- "KPN.AS": {
-  "url": "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
-  "fout": null,
-  "voorstel": {
-   "divs": {
-    "2026": 0.2,
-    "2027": 0.25
-   },
-   "g_na": null
-  },
-  "bewijs": [
-   {
-    "zin": "For 2026, KPN intends to pay a regular dividend of € 0.20 per share (+10% y-on-y) and execute a € 250m share buyback.",
-    "jaren": [
-     2026
-    ],
-    "bedragen": [
-     0.2
-    ],
-    "groei_pct": [
-     0.1
-    ],
-    "payout": null
-   },
-   {
-    "zin": "For 2027, dividend per share is expected to further grow by approximately 25% y-on-y to € 0.25.",
-    "jaren": [
-     2027
-    ],
-    "bedragen": [
-     0.25
-    ],
-    "groei_pct": [
-     0.25
-    ],
-    "payout": null
-   },
-   {
-    "zin": "This implies that for the years 2025-2027, Dividend Per Share is now expected to grow at a CAGR of ~14% vs.",
-    "jaren": [
-     2025,
-     2027
-    ],
-    "bedragen": [],
-    "groei_pct": [
-     0.14
-    ],
-    "payout": null
-   }
-  ],
-  "gecheckt": "2026-08-15"
- },
- "INGA.AS": {
-  "url": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
-  "fout": "HTTP Error 403: Forbidden",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
- "ABN.AS": {
-  "url": "https://www.abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
-  "fout": "HTTP Error 503: Service Unavailable",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
- "WKL.AS": {
-  "url": "https://www.wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
-  "fout": "HTTP Error 403: Forbidden",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
  "AGN.AS": {
-  "url": "https://www.aegon.com/investors/dividend",
+  "url": "https://www.aegon.com/investors/dividend/dividend-policy",
   "fout": null,
   "voorstel": null,
-  "bewijs": [
-   {
-    "zin": "Dividend policy (PDF) Dividend history 2025 Final dividend Aegon announced at the second half 2025 results on February 19, 2026 that the Board of Directors would propose a final dividend* for 2025 of EUR 0.21 per common share.",
-    "jaren": [
-     2025,
-     2026
-    ],
-    "bedragen": [
-     0.21
-    ],
-    "groei_pct": [],
-    "payout": null
-   }
-  ],
-  "gecheckt": "2026-08-15"
- },
- "AD.AS": {
-  "url": "https://www.aholddelhaize.com/investors/share-information/dividend/",
-  "fout": "HTTP Error 404: Not Found",
-  "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
- "NN.AS": {
-  "url": "https://www.nn-group.com/investors/share-information/dividend.htm",
-  "fout": "HTTP Error 403: Forbidden",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
+  "gecheckt": "2026-08-18"
  },
  "ASRNL.AS": {
-  "url": "https://www.asrnl.com/investor-relations/share-information/dividend",
-  "fout": "HTTP Error 404: Not Found",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
- "UNA.AS": {
-  "url": "https://www.unilever.com/investors/shareholder-centre/dividends/",
-  "fout": "HTTP Error 403: Forbidden",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
- "SHELL.AS": {
-  "url": "https://www.shell.com/investors/dividends.html",
-  "fout": "HTTP Error 403: Forbidden",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-15"
- },
- "HEIA.AS": {
-  "url": "https://www.theheinekencompany.com/investors/shareholder-information/dividend",
+  "url": "https://www.asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-15"
+  "gecheckt": "2026-08-18"
  },
- "RAND.AS": {
-  "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
+ "ECMPA.AS": {
+  "url": "https://www.eurocommercialproperties.com/investors/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-15"
+  "gecheckt": "2026-08-18"
  },
- "LIGHT.AS": {
-  "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
+ "VLK.AS": {
+  "url": "https://www.vanlanschotkempen.com/nl-nl/over-ons/investor-relations/het-aandeel",
   "fout": null,
   "voorstel": null,
-  "bewijs": [
-   {
-    "zin": "Applications Applications Resources Resources Sustainability Sustainability Our company Our company --> Dividend info Dividend info Overview Financial reports Quarterly results Webcast Annual report IPO Share & debt Shareholder info Shareholder engagement Shareholder meetings Dividend info Share rep",
-    "jaren": [
-     2025
-    ],
-    "bedragen": [
-     1.56
-    ],
-    "groei_pct": [],
-    "payout": null
-   }
-  ],
-  "gecheckt": "2026-08-15"
+  "bewijs": [],
+  "gecheckt": "2026-08-18"
  }
 }

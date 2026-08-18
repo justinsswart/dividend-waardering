@@ -1,17 +1,17 @@
 {
- "gescand": "2026-08-14T20:52:32+00:00",
+ "gescand": "2026-08-18T17:59:15+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
-   "score": 11,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "ABN AMRO Bank N.V. kondigt interim-dividend aan voor het boekjaar 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQdGNNM1lLVVljaGFwSXI3dWo2OUJtbWdFQ3Z4WndvSXdPRzdVWVFIOU92UFU3Q1FjQzNaU094eWdCOU5Ebnd3SUlSQXpVQWkyb19DcnZkWGdsQU5TSEpYUDRwUHoxTGJ1VFBsWnJMUUZONWNuY19uNkdvMGVTR2NWcG9IYjlKYVF5REFCcGJiQVFIVW9IRHJRZlZEbFJYLTJacUdNdUFQZDZETGFkeTI3b250eU1VYzlxU1l0eTlvR2hiWlljRVIw?oc=5",
-     "datum": "Wed, 12 Aug 2026 05:00:00 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
+     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - iex.nl",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UckNXQURDOGMyMUw3dkJvZU00Wm8tM0RXemZiT2owcGxpbWt4VEkwUHNJNmVmNG51cTVKQWJCWk5obFgweHFZNXJzVF9scXNKeHFPeWdWRGN5bFlGOTBBNDRvZ2JWVHB3LUlKcFpB?oc=5",
+     "datum": "Thu, 13 Aug 2026 06:32:00 GMT",
+     "bron": "iex.nl",
+     "gewicht": 3
     },
     {
      "titel": "Hogere inkomsten en lagere kosten stuwen kwartaalwinst ABN Amro. Wat betekent dit voor het dividend? - De Belegger",
@@ -19,21 +19,21 @@
      "datum": "Wed, 12 Aug 2026 08:12:39 GMT",
      "bron": "De Belegger",
      "gewicht": 3
-    },
-    {
-     "titel": "Aandelen ABN AMRO stijgen na verhoging outlook commerciële rentebaten voor 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNeHpMVHJCTnY1RVR6eHhSdnFCUm1CeDNxMXRTWGs2Nm8xR0JGSTN5cFFNMHUxTGM4bGtzQlNaMFkyOXc5MmJTM3k4VG9XVVJuUFNHeE93RUV1MXEzN3pNNzBnZHpTd0U1cUFNVlM3bHdYRF9qam5FQndfekJ4dlVkYTh6eFhmcTFzemg0YWJCOXBnQ0RydEtFMDJjaU9mYlo2M25fUzA4LUpGaThJLXJUVWNKRjNOcGxIZ29RZ0hpNkNPLU9GbUYySFhwRXVfVThwNnR3QQ?oc=5",
-     "datum": "Wed, 12 Aug 2026 08:51:28 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 3
     }
    ]
   },
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 7,
-   "niveau": "midden",
+   "score": 11,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Cijfers Adyen: grotere concurrentiedruk niet zichtbaar in de halfjaarcijfers - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYTV3ckE0aVNwOWxoSUNzdXZ2OVNaR00ydnQtZ0VxWGp0MnBzOXJEanVEWkJqdnFZcVRaU3NIQWpoMkF4a2ZoajVlTGpEc2RjUDZMbXFIMUMyS1A2aDJEYm9aWHkwdVRCTXJNbDdNekpIXzg4clhIY0VWVzZoTGF0Q01CVXhYV3kxUjNOOXRoV1RwWktPeU5KbGxpeHFuWUQwWWJydmtndnIxUlQ5UUI1YWJJeUJadw?oc=5",
+     "datum": "Mon, 17 Aug 2026 08:37:27 GMT",
+     "bron": "Morningstar",
+     "gewicht": 4
+    },
     {
      "titel": "Adyen verhoogt omzetverwachting - Beursgorilla.nl",
      "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRW8yeDItc1JaRDlUM3NpaU5oR01IX3RCVzVGTmQwWGJHOFNmbHUxUVdmMTIzSG5Lb2ZIVkJpVjNMVF80N3pfYnJ5VFNjWEc5eGhtRVFvVXk2U3NQLUdnS0FfLThYb3VJYTZxQ3RrS2tpSE5tR1c0NWN1eHhtUWdmMDhCM2Y?oc=5",
@@ -50,58 +50,16 @@
     }
    ]
   },
-  "HYDRA.AS": {
-   "naam": "Hydratec Industries NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Drie dividendtoppers met één gemene deler - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZnFpLXN2Z0haaUNLM0JubUFoMVVmYXFQUEpKZjd6dk9fdVZhS0ctaEJOUzNQcklPRjVEWE40aHpsTDdVbENVeHU5b3V6elNUdUszVTE2SGxWQUJjVHo4TzJ1dDZfbk0xcVJ0RWZ2RGl6UW5sd2pnM1NULVVhNlVCekEwVW84TldSNkRMVUhxbndtRUU?oc=5",
-     "datum": "Tue, 11 Aug 2026 06:28:54 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Hims & Hers verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOblEwLVZtTkhtSEtVVXBJdVNZenppVjVmd3ZscXFsVW1DaGFrRkdiQkZVdGE4LU5lNmZka29CcGtCZkdDN1NKZ0lRelo1TkZiRDFtX2NtX3BPSmZMeTJNLUlTR081VjB0NzJqR29PbGpDNHByR0JxaEM2Qm8yaUFsMVdn?oc=5",
-     "datum": "Mon, 10 Aug 2026 20:54:12 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    }
-   ]
-  },
   "NN.AS": {
    "naam": "NN Group N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
-     "datum": "Mon, 10 Aug 2026 15:35:33 GMT",
-     "bron": "Beleggers Belangen",
-     "gewicht": 3
-    }
-   ]
-  },
-  "OCI.AS": {
-   "naam": "OCI N.V.",
    "score": 5,
    "niveau": "midden",
    "items": [
     {
-     "titel": "Hims & Hers verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOblEwLVZtTkhtSEtVVXBJdVNZenppVjVmd3ZscXFsVW1DaGFrRkdiQkZVdGE4LU5lNmZka29CcGtCZkdDN1NKZ0lRelo1TkZiRDFtX2NtX3BPSmZMeTJNLUlTR081VjB0NzJqR29PbGpDNHByR0JxaEM2Qm8yaUFsMVdn?oc=5",
-     "datum": "Mon, 10 Aug 2026 20:54:12 GMT",
-     "bron": "deaandeelhouder.be",
+     "titel": "Interimdividenden: voordelen, nadelen en alles wat u er als belegger over moet weten - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFVXcThaekU1U19jTzJJRVVONmxMb2pReHJOMW9CSndndXpUUEp4bjNRZU1DME1jSS1IUXlWNE9Ed05ZaW10Y0czN2pCdEJtbHJNblN2N3pXb29aVjFWS0VFNmZzVXZONWNQMHgteS13cjR6ZlB5T240V3dudHlBdUJuRkFPeEw3bzk5NGYzLUVRajlkX3A2eVBFM3NOd204VENMTDVkUloyTjFhVTZmY0szSVEzMDhyWmFYM09YOXBaS012UW0wMkxFeVhsa3gxb2c?oc=5",
+     "datum": "Mon, 17 Aug 2026 06:07:33 GMT",
+     "bron": "De Belegger",
      "gewicht": 5
     }
    ]
@@ -120,45 +78,66 @@
     }
    ]
   },
-  "PNL.AS": {
-   "naam": "PostNL N.V.",
-   "score": 5,
-   "niveau": "midden",
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Hims & Hers verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOblEwLVZtTkhtSEtVVXBJdVNZenppVjVmd3ZscXFsVW1DaGFrRkdiQkZVdGE4LU5lNmZka29CcGtCZkdDN1NKZ0lRelo1TkZiRDFtX2NtX3BPSmZMeTJNLUlTR081VjB0NzJqR29PbGpDNHByR0JxaEM2Qm8yaUFsMVdn?oc=5",
-     "datum": "Mon, 10 Aug 2026 20:54:12 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
+     "titel": "Shell en dividendbeleggen - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qUEk3b2xWZmRUQTZuVVk5dFFwUFh5RXduMUlFdkhlWklwMEtkdVIyaDBGRjJBY3ZsenMwcy1FN285ZU1OWXk2VU5lSExpQlZNRDNVSmxpb0pqbk5YUnJIZUZJWFZRRlpJNlZ2T3ZvWGN6bGdLT0o5YUtjOHJsUQ?oc=5",
+     "datum": "Mon, 17 Aug 2026 09:14:00 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
     }
    ]
   },
   "TWEKA.AS": {
    "naam": "TKH Group N.V.",
-   "score": 4,
+   "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "TKH Group verrast met sterke halfjaarcijfers - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVERwYVBEbkZZV3ZCLThRcGZqLTk4VDRXc0g2SWh5WThxYWlPdFQwc0VrdHJnWWlvMExkUW52MzRQTHAwbEpIU1l2cjNCOXpFYTNDYVVldTIxTWhYWEFqMDZHaldRenRDVlZDYUhnVFhSZF9mbkJMZWt6WFV4XzBYeUE4bjQtVFVCcFJhNA?oc=5",
-     "datum": "Tue, 11 Aug 2026 07:35:59 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 4
+     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - iex.nl",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yZ29iRGRtRFFWa042U2hVZzJ5UW1WeEtqNDdmaGtFZFpKVkFla1ZMSU4wV1cyaHRzQ01VaXBhRmhfSGhKVC1kS0VjaGVRa1pDRVF2eGgzQmtfdjYxYlh6ajA1dw?oc=5",
+     "datum": "Fri, 14 Aug 2026 06:27:00 GMT",
+     "bron": "iex.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "UMG.AS": {
+   "naam": "Universal Music Group N.V.",
+   "score": 8,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Interimdividenden: voordelen, nadelen en alles wat u er als belegger over moet weten - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFVXcThaekU1U19jTzJJRVVONmxMb2pReHJOMW9CSndndXpUUEp4bjNRZU1DME1jSS1IUXlWNE9Ed05ZaW10Y0czN2pCdEJtbHJNblN2N3pXb29aVjFWS0VFNmZzVXZONWNQMHgteS13cjR6ZlB5T240V3dudHlBdUJuRkFPeEw3bzk5NGYzLUVRajlkX3A2eVBFM3NOd204VENMTDVkUloyTjFhVTZmY0szSVEzMDhyWmFYM09YOXBaS012UW0wMkxFeVhsa3gxb2c?oc=5",
+     "datum": "Mon, 17 Aug 2026 06:07:33 GMT",
+     "bron": "De Belegger",
+     "gewicht": 5
+    },
+    {
+     "titel": "Waarom blijft het aandeel Universal Music Group vandaag vlak? Korte termijn momentum ondersteunt technische vooruitzichten - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWFliSHQzcTRsWHg1NlZOOWxGSEN3czAxY2h5b2pzZGFkaDN5MFVNMTZCZVdIaUxMRTQ1czNSSDFSSGE0ZFZrdVNtWnRZSUhxMnhpR2NFeDdKWm43TElBN1k4UXhkMVFhMjB6eXY4dHhEVDFZM05HVWVRVEJ5X1NhSXRXelBhUXlsVlNuYjVzLW1pRFU?oc=5",
+     "datum": "Mon, 17 Aug 2026 08:27:27 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
     }
    ]
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
-     "datum": "Mon, 10 Aug 2026 15:35:33 GMT",
-     "bron": "Beleggers Belangen",
-     "gewicht": 3
+     "titel": "Interimdividenden: voordelen, nadelen en alles wat u er als belegger over moet weten - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFVXcThaekU1U19jTzJJRVVONmxMb2pReHJOMW9CSndndXpUUEp4bjNRZU1DME1jSS1IUXlWNE9Ed05ZaW10Y0czN2pCdEJtbHJNblN2N3pXb29aVjFWS0VFNmZzVXZONWNQMHgteS13cjR6ZlB5T240V3dudHlBdUJuRkFPeEw3bzk5NGYzLUVRajlkX3A2eVBFM3NOd204VENMTDVkUloyTjFhVTZmY0szSVEzMDhyWmFYM09YOXBaS012UW0wMkxFeVhsa3gxb2c?oc=5",
+     "datum": "Mon, 17 Aug 2026 06:07:33 GMT",
+     "bron": "De Belegger",
+     "gewicht": 5
     }
    ]
   }
