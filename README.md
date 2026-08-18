@@ -224,3 +224,28 @@ Koopt een bedrijf in om verwatering uit een keuzedividend of optieplan te compen
 Zet `"d0_fy": 0` in de override wanneer een bedrijf de uitkering heeft gestaakt. Het aandeel
 valt dan uit de lijst in plaats van door te rekenen op een dividend uit het verleden.
 Voorbeeld: Cabka, dat over 2024 besloot niets uit te keren terwijl de databron nog 0,15 aanhield.
+
+## Risicovrije voet
+
+`fetch.py` haalt de tienjaarsrente op AAA-staatsobligaties uit de eurozone op bij het
+ECB Data Portal en schrijft die naar `markt.json`. `valuate.py` leest dat bestand en
+gebruikt het gemiddelde over circa zes maanden als `rf` — niet de slotstand, zodat de
+koopprijzen niet meebewegen met dagruis.
+
+Hieraan hangt alles: de ondergrens van het vereist rendement en het stabiele rendement
+(rf + erp) dat op tweederde van de waarde drukt. Voorheen stond hier een vaste 3,0%.
+
+Lukt het ophalen niet, dan blijft de vorige waarde in `markt.json` staan; ontbreekt dat
+bestand, dan valt het model terug op 3,0%. Waarden buiten 0,5%–6,0% worden geweigerd:
+dan is er iets mis met de bron, niet met de markt. De gebruikte voet staat in `data.json`
+onder `markt`.
+
+## Weekarchief
+
+`update.ps1` bewaart één keer per week een kopie van `data.json` in
+`%USERPROFILE%\dividend-historie\`, met de naam `data-JJJJ-Wnn.json`. Die map ligt
+buiten de repo, dus de historie lift niet mee naar GitHub en Netlify.
+
+De eerste run van een nieuwe ISO-week maakt het bestand aan; latere runs in dezelfde
+week laten het staan. Zo bouw je een reeks op waarmee je achteraf kunt toetsen of de
+koopprijzen ergens op sloegen.

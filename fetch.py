@@ -3,6 +3,54 @@ warnings.filterwarnings("ignore")
 import pandas as pd
 OK = json.load(open("ok.json"))
 
+def risicovrije_voet():
+    """Haalt de tienjaarsrente op AAA-staatsobligaties uit de eurozone bij de ECB.
+
+    Het model rekende hiervoor met een vaste 3,0%. Dat is de voet waar alles aan hangt:
+    de ondergrens van het vereist rendement en het stabiele rendement dat op tweederde
+    van de waarde drukt. Staat de rente structureel lager, dan zijn alle koopprijzen
+    te laag - en andersom.
+
+    We nemen het gemiddelde over circa zes maanden (130 handelsdagen) in plaats van de
+    slotstand, zodat de koopprijzen niet meebewegen met dagruis. Lukt het ophalen niet,
+    dan blijft de vorige waarde uit markt.json staan; is die er ook niet, dan valt het
+    terug op 3,0%.
+    """
+    import urllib.request, csv, io, statistics
+    url = ("https://data-api.ecb.europa.eu/service/data/YC/"
+           "B.U2.EUR.4F.G_N_A.SV_C_YM.SR_10Y?format=csvdata&lastNObservations=130")
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": "dividend-waardering/1.0"})
+        rijen = list(csv.DictReader(io.StringIO(
+            urllib.request.urlopen(req, timeout=30).read().decode())))
+        w = [float(r["OBS_VALUE"]) for r in rijen if r.get("OBS_VALUE")]
+        if len(w) < 30:
+            raise ValueError(f"te weinig waarnemingen: {len(w)}")
+        gem = statistics.mean(w) / 100
+        # veiligheidsband: buiten 0,5%-6,0% is er iets mis met de bron, niet met de markt
+        if not 0.005 <= gem <= 0.060:
+            raise ValueError(f"onwaarschijnlijke rente: {gem:.4f}")
+        return {"rf": round(gem, 5), "rf_laatst": round(w[-1] / 100, 5),
+                "waarnemingen": len(w), "van": rijen[0]["TIME_PERIOD"],
+                "tot": rijen[-1]["TIME_PERIOD"],
+                "bron": "ECB Data Portal, spotrente AAA-staatsobligaties eurozone, 10 jaar",
+                "opgehaald": dt.date.today().isoformat()}
+    except Exception as e:
+        try:
+            vorig = json.load(open("markt.json"))
+            vorig["waarschuwing"] = f"ophalen mislukt ({str(e)[:80]}), vorige waarde aangehouden"
+            return vorig
+        except Exception:
+            return {"rf": 0.030, "bron": "terugval: vaste 3,0%",
+                    "waarschuwing": f"ophalen mislukt ({str(e)[:80]}) en geen markt.json aanwezig",
+                    "opgehaald": dt.date.today().isoformat()}
+
+markt = risicovrije_voet()
+json.dump(markt, open("markt.json", "w"), indent=1, ensure_ascii=False)
+print(f"risicovrije voet: {markt['rf']*100:.2f}%  ({markt.get('bron','')})")
+if markt.get("waarschuwing"):
+    print("  let op:", markt["waarschuwing"])
+
 def cagr(a, b, n):
     if a and b and a > 0 and b > 0 and n > 0:
         return (b/a)**(1/n) - 1

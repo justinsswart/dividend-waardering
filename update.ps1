@@ -63,6 +63,32 @@ if ($Draaien) {
     python fetch.py; python agenda.py; python valuate.py; python build.py
 }
 
+# 5b. weekkopie van data.json bewaren
+# Eens per week wordt data.json weggeschreven naar een archiefmap op de laptop,
+# BUITEN de repo, zodat de historie niet meelift naar GitHub en Netlify.
+# Zonder zo'n reeks kun je nooit terugkijken of aandelen boven hun koopprijs
+# inderdaad slechter presteerden - en blijft het model onweerlegbaar.
+$archief = Join-Path $HOME "dividend-historie"
+if (-not (Test-Path $archief)) { New-Item -ItemType Directory -Path $archief | Out-Null }
+
+if (Test-Path "$Project\data.json") {
+    # ISO-weeknummer: maandag is de eerste dag van de week
+    $nu   = Get-Date
+    $cal  = [System.Globalization.CultureInfo]::InvariantCulture.Calendar
+    $week = $cal.GetWeekOfYear($nu, [System.Globalization.CalendarWeekRule]::FirstFourDayWeek,
+                               [System.DayOfWeek]::Monday)
+    $naam = "data-{0}-W{1:d2}.json" -f $nu.Year, $week
+    $doel = Join-Path $archief $naam
+
+    if (Test-Path $doel) {
+        Write-Host "`nWeekkopie stond er al: $naam" -ForegroundColor DarkGray
+    } else {
+        Copy-Item "$Project\data.json" $doel
+        $aantal = (Get-ChildItem $archief -Filter "data-*.json").Count
+        Write-Host "`nWeekkopie bewaard: $doel  ($aantal in archief)" -ForegroundColor Green
+    }
+}
+
 # 6. wijzigingen tonen en eventueel pushen
 Write-Host ""
 git status --short

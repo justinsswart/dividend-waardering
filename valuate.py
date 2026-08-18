@@ -60,6 +60,16 @@ def guidance_status(tk, ov):
 P = {"rf":0.030,"erp":0.050,"r_min":0.070,"r_max":0.120,"g_cap":0.12,"g_term":0.020,
      "n1":5,"n2":10,"mos_min":0.10,"mos_max":0.40}
 
+# De risicovrije voet komt uit markt.json, dat fetch.py vult met het zesmaands-
+# gemiddelde van de tienjaarsrente op AAA-staatsobligaties in de eurozone (ECB).
+# Ontbreekt dat bestand, dan blijft de vaste 3,0% hierboven staan.
+try:
+    MARKT = json.load(open("markt.json"))
+    if isinstance(MARKT.get("rf"), (int, float)) and 0.005 <= MARKT["rf"] <= 0.060:
+        P["rf"] = float(MARKT["rf"])
+except Exception:
+    MARKT = {"rf": P["rf"], "bron": "vaste waarde in valuate.py"}
+
 def vereist_rendement(beta):
     b = beta if beta and 0.1 < beta < 3 else 1.0
     return min(max(P["rf"] + b*P["erp"], P["r_min"]), P["r_max"])
@@ -318,7 +328,7 @@ for tk, v in RAW.items():
 
 res.sort(key=lambda x: -x["korting_tov_koop"])
 json.dump(LOG, open("override_log.json","w"), indent=1)
-json.dump({"params":P,"bijgewerkt":NU.isoformat(timespec="seconds"),"aandelen":res},
+json.dump({"params":P,"markt":MARKT,"bijgewerkt":NU.isoformat(timespec="seconds"),"aandelen":res},
           open("data.json","w"), indent=1)
 print(f"{len(res)} aandelen gewaardeerd | koopwaardig: {sum(1 for x in res if x['korting_tov_koop']>0)}")
 for x in res[:8]: print(f"  {x['ticker']:11} koers {x['koers']:>8.2f}  fair {x['fair']:>8.2f}  koop {x['koopprijs']:>8.2f}  kw {x['kwaliteit']:>3}")
