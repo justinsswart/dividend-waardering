@@ -56,6 +56,54 @@ def cagr(a, b, n):
         return (b/a)**(1/n) - 1
     return None
 
+
+def bereken_betas(tickers, index="^AEX"):
+    """Berekent de beta zelf uit koershistorie, in plaats van het veld van de databron.
+
+    Aanleiding: die geleverde beta's waren onbruikbaar. Shell stond op -0,218 (een
+    aandeel dat tegen de markt in beweegt), Flow Traders op 0,124, Wolters Kluwer op
+    0,185. Gevolg: 33 van de 54 aandelen belandden op de ondergrens van 7% en kregen
+    dus allemaal dezelfde disconteringsvoet - waarmee het verschil in risico uit het
+    model verdween.
+
+    Methode: vijf jaar weekrendementen tegen de AEX. Naast de beta bewaren we R2 en
+    het aantal waarnemingen, zodat valuate.py kan wegen hoeveel de uitkomst waard is.
+    Bij een R2 van 0,02 (KPN) verklaart de markt vrijwel niets van de koersbeweging en
+    is een lage beta geen bewijs van laag risico, maar van weinig samenhang.
+    """
+    import numpy as np
+    try:
+        px = yf.download(list(tickers) + [index], period="5y", interval="1wk",
+                         auto_adjust=True, progress=False)["Close"]
+    except Exception as e:
+        print("beta's ophalen mislukt:", str(e)[:100])
+        return {}
+    r = np.log(px / px.shift(1))
+    if index not in r:
+        return {}
+    m = r[index].dropna()
+    uit = {}
+    for t in tickers:
+        if t not in r:
+            continue
+        s = r[t].dropna()
+        j = s.index.intersection(m.index)
+        if len(j) < 60:            # minder dan ruim een jaar: niets zinnigs te zeggen
+            continue
+        var = np.var(m[j], ddof=1)
+        if var <= 0:
+            continue
+        b = float(np.cov(s[j], m[j])[0, 1] / var)
+        corr = float(np.corrcoef(s[j], m[j])[0, 1])
+        uit[t] = {"beta_regressie": round(b, 4),
+                  "beta_r2": round(corr ** 2, 4),
+                  "beta_n": int(len(j))}
+    return uit
+
+
+BETAS = bereken_betas(OK)
+print(f"beta's berekend: {len(BETAS)} van {len(OK)}")
+
 out = {}
 for t in OK:
     try:
@@ -166,5 +214,8 @@ for t in OK:
             pass
 
         out[t] = {"ticker": t, "fout": str(e)[:120]}
+for t, b in BETAS.items():
+    if t in out:
+        out[t].update(b)
 json.dump(out, open("raw.json","w"), indent=1)
 print("klaar:", len(out), "| met koers:", sum(1 for v in out.values() if v.get("koers")))

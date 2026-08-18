@@ -249,3 +249,30 @@ buiten de repo, dus de historie lift niet mee naar GitHub en Netlify.
 De eerste run van een nieuwe ISO-week maakt het bestand aan; latere runs in dezelfde
 week laten het staan. Zo bouw je een reeks op waarmee je achteraf kunt toetsen of de
 koopprijzen ergens op sloegen.
+
+## Beta
+
+De beta wordt sinds augustus 2026 zelf berekend in `fetch.py`: vijf jaar weekrendementen
+tegen de AEX, waaruit beta, R² en het aantal waarnemingen volgen. Het beta-veld van de
+databron gebruiken we niet meer — dat gaf Shell een beta van -0,218, Flow Traders 0,124
+en Wolters Kluwer 0,185, waardoor 33 van de 54 aandelen op de rendementsvloer van 7%
+belandden en dus allemaal dezelfde disconteringsvoet kregen.
+
+`valuate.py` combineert die regressie in drie stappen tot de beta die het model gebruikt:
+
+1. **Weging op R².** Bij een R² van 0,02 (KPN) verklaart de markt vrijwel niets van de
+   koersbeweging; een lage beta is dan geen bewijs van laag risico maar van weinig
+   samenhang. Pas vanaf R² 0,25 telt de eigen regressie volledig mee, daaronder schuift
+   het gewicht naar de sectormediaan.
+2. **Sectormediaan** als anker, berekend over de eigen lijst. Sectoren met minder dan
+   vier fondsen zijn te dun en vallen terug op de mediaan van de hele lijst.
+3. **Krimp richting 1** (Blume): tweederde eigen schatting, eenderde marktgemiddelde.
+   Beta's neigen over de tijd naar 1 en extreme uitkomsten zijn meestal meetfout.
+   Daarna begrensd op 0,5 tot 2,0.
+
+In `data.json` staat per aandeel `beta_gebruikt`, `beta_herkomst` (eigen, gemengd of
+sector), `beta_regressie`, `beta_r2` en `op_rendementsvloer`.
+
+**Open punt:** achttien aandelen zitten nog op de vloer van 7%, allemaal defensieve namen
+met een beta tussen 0,59 en 0,77. Zolang die vloer bindt, telt hun lagere risico niet mee.
+Verlagen naar 6,5% is te overwegen, maar verhoogt de waardering van juist die groep.

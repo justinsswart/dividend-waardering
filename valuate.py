@@ -70,9 +70,58 @@ try:
 except Exception:
     MARKT = {"rf": P["rf"], "bron": "vaste waarde in valuate.py"}
 
+def sector_betas():
+    """Mediaan van de zelf berekende beta per sector, als anker voor losse aandelen.
+
+    Damodaran's punt: de meetfout van een beta uit een enkele regressie is groot, die
+    van een sectorgemiddelde veel kleiner. Sectoren met minder dan vier fondsen zijn
+    te dun om een mediaan op te baseren; die vallen terug op de mediaan van de hele lijst.
+    """
+    per, alle = {}, []
+    for v_ in RAW.values():
+        b, r2 = v_.get("beta_regressie"), v_.get("beta_r2")
+        if b is None or r2 is None:
+            continue
+        alle.append(b)
+        per.setdefault(v_.get("sector") or "?", []).append(b)
+    if not alle:
+        return {}, 1.0
+    mediaan = lambda w: sorted(w)[len(w)//2] if len(w) % 2 else (sorted(w)[len(w)//2-1]+sorted(w)[len(w)//2])/2
+    return {k: mediaan(w) for k, w in per.items() if len(w) >= 4}, mediaan(alle)
+
+SECTOR_BETA, MARKT_BETA = sector_betas()
+
+def gewogen_beta(v):
+    """Combineert de eigen beta met die van de sector, en krimpt daarna richting 1.
+
+    Drie stappen, elk met een reden:
+    1. Weging op R2. Verklaart de markt maar 2% van de koersbeweging (KPN), dan is een
+       lage beta geen bewijs van laag risico maar van weinig samenhang. Pas bij een R2
+       van 0,25 of hoger telt de eigen regressie volledig mee.
+    2. Krimp richting 1 (Blume): tweederde eigen schatting, eenderde marktgemiddelde.
+       Beta's neigen over de tijd naar 1 en extreme uitkomsten zijn meestal meetfout.
+    3. Begrenzen op 0,5 tot 2,0.
+
+    Ontbreekt de regressie, dan valt het terug op de sector, en anders op 1,0. Het veld
+    van de databron gebruiken we niet meer: dat gaf Shell een negatieve beta.
+    """
+    b, r2 = v.get("beta_regressie"), v.get("beta_r2")
+    anker = SECTOR_BETA.get(v.get("sector") or "?", MARKT_BETA)
+    if b is None:
+        rauw, herkomst = anker, "sector"
+    else:
+        w = max(0.0, min((r2 or 0) / 0.25, 1.0))
+        rauw = w * b + (1 - w) * anker
+        herkomst = "eigen" if w > 0.8 else "gemengd" if w > 0.2 else "sector"
+    krimp = 0.67 * rauw + 0.33 * 1.0
+    return round(max(0.5, min(krimp, 2.0)), 3), herkomst
+
 def vereist_rendement(beta):
     b = beta if beta and 0.1 < beta < 3 else 1.0
     return min(max(P["rf"] + b*P["erp"], P["r_min"]), P["r_max"])
+
+def beta_van(v):
+    return gewogen_beta(v)
 
 def rendement_stabiel():
     """In de stabiele fase convergeert de beta van elk bedrijf naar 1: een volwassen
@@ -245,7 +294,8 @@ for tk, v in RAW.items():
     if d0n <= 0: continue
     eps, fcf = v.get("eps"), v.get("fcf")
     if (eps is not None and eps <= 0) and (fcf is not None and fcf <= 0): continue
-    r = vereist_rendement(v.get("beta"))
+    beta_g, beta_herkomst = gewogen_beta(v)
+    r = vereist_rendement(beta_g)
     g1 = ov.get("g_na", basisgroei(v))
     g1 = min(max(g1, -0.05), P["g_cap"])
     expl = {int(k): float(x) for k, x in ov.get("divs", {}).items() if int(k) >= CUR}
@@ -323,6 +373,9 @@ for tk, v in RAW.items():
         "model_ongeschikt": bool((det.get("payout") or 1) < 0.35 and (v.get("roe") or 0) > 0.20),
         "groei_boven_houdbaar": bool(sg is not None and g1 > sg + 0.02),
         "r_stabiel": round(rendement_stabiel(), 4),
+        "beta_gebruikt": beta_g, "beta_herkomst": beta_herkomst,
+        "beta_regressie": v.get("beta_regressie"), "beta_r2": v.get("beta_r2"),
+        "op_rendementsvloer": bool(abs(r - P["r_min"]) < 1e-9),
         "onhoudbaar": onhoudbaar, "gespannen": gespannen,
         "eps_nu": eps_nu, "eps_fwd": eps_v, "dekking_wpa": round(eps_beste/d0n, 2) if d0n else None})
 
