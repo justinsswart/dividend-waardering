@@ -1,5 +1,5 @@
 {
- "gescand": "2026-08-17T18:00:06+00:00",
+ "gescand": "2026-08-18T17:59:15+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
@@ -7,10 +7,10 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - iex.nl",
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UckNXQURDOGMyMUw3dkJvZU00Wm8tM0RXemZiT2owcGxpbWt4VEkwUHNJNmVmNG51cTVKQWJCWk5obFgweHFZNXJzVF9scXNKeHFPeWdWRGN5bFlGOTBBNDRvZ2JWVHB3LUlKcFpB?oc=5",
      "datum": "Thu, 13 Aug 2026 06:32:00 GMT",
-     "bron": "IEX.nl",
+     "bron": "iex.nl",
      "gewicht": 3
     },
     {
@@ -46,20 +46,6 @@
      "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcnNGR2xzWmFKa0ZqeGQxU0laejNxbENtWDYyTnZRaFRjTVVUOG1wU2pTa19hSml1YVY3WFlyNlEzN0dhUWtXU2tVVWJucThfTUxPV1JxLWlIaWhKYmxmNGJLbVZiSzdYUXNTQ2Y1V2Z5eG9JNXZtLW1aUDNUVVQwZEZxeV9fRGlUb25FaDVRQnJEaVV6eDBkbVRIYTJTeGpCYUM4dzlkQ2QtU3VwUHJ4a2JWNHdfVUxJQk9ka0JGUQ?oc=5",
      "datum": "Thu, 13 Aug 2026 12:33:20 GMT",
      "bron": "Investing.com",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HYDRA.AS": {
-   "naam": "Hydratec Industries NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Drie dividendtoppers met één gemene deler - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNZnFpLXN2Z0haaUNLM0JubUFoMVVmYXFQUEpKZjd6dk9fdVZhS0ctaEJOUzNQcklPRjVEWE40aHpsTDdVbENVeHU5b3V6elNUdUszVTE2SGxWQUJjVHo4TzJ1dDZfbk0xcVJ0RWZ2RGl6UW5sd2pnM1NULVVhNlVCekEwVW84TldSNkRMVUhxbndtRUU?oc=5",
-     "datum": "Tue, 11 Aug 2026 06:28:54 GMT",
-     "bron": "Beursgorilla.nl",
      "gewicht": 3
     }
    ]
@@ -108,21 +94,14 @@
   },
   "TWEKA.AS": {
    "naam": "TKH Group N.V.",
-   "score": 7,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "TKH Group verrast met sterke halfjaarcijfers - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOVERwYVBEbkZZV3ZCLThRcGZqLTk4VDRXc0g2SWh5WThxYWlPdFQwc0VrdHJnWWlvMExkUW52MzRQTHAwbEpIU1l2cjNCOXpFYTNDYVVldTIxTWhYWEFqMDZHaldRenRDVlZDYUhnVFhSZF9mbkJMZWt6WFV4XzBYeUE4bjQtVFVCcFJhNA?oc=5",
-     "datum": "Tue, 11 Aug 2026 07:35:59 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 4
-    },
-    {
-     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - iex.nl",
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yZ29iRGRtRFFWa042U2hVZzJ5UW1WeEtqNDdmaGtFZFpKVkFla1ZMSU4wV1cyaHRzQ01VaXBhRmhfSGhKVC1kS0VjaGVRa1pDRVF2eGgzQmtfdjYxYlh6ajA1dw?oc=5",
      "datum": "Fri, 14 Aug 2026 06:27:00 GMT",
-     "bron": "IEX.nl",
+     "bron": "iex.nl",
      "gewicht": 3
     }
    ]
