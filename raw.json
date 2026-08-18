@@ -93,7 +93,8 @@
   "opgehaald": "2026-08-15T14:11:28+00:00",
   "beta_regressie": 0.9461,
   "beta_r2": 0.2263,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 33.544
  },
  "ACOMO.AS": {
   "netto_inkoop": -42000,
@@ -318,7 +319,8 @@
   "opgehaald": "2026-08-15T14:11:32+00:00",
   "beta_regressie": 0.9452,
   "beta_r2": 0.2817,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 4.98
  },
  "AJAX.AS": {
   "netto_inkoop": null,
@@ -748,7 +750,8 @@
   "opgehaald": "2026-08-15T14:11:40+00:00",
   "beta_regressie": 0.5912,
   "beta_r2": 0.1644,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 49.428
  },
  "AVTX.AS": {
   "netto_inkoop": -51084667,
@@ -1428,7 +1431,8 @@
   "opgehaald": "2026-08-15T14:11:52+00:00",
   "beta_regressie": 0.0939,
   "beta_r2": 0.0019,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 22.02
  },
  "FUR.AS": {
   "netto_inkoop": 31900000,
@@ -1531,7 +1535,8 @@
   "opgehaald": "2026-08-15T14:11:54+00:00",
   "beta_regressie": 0.5031,
   "beta_r2": 0.2316,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 173.094
  },
  "HEIA.AS": {
   "netto_inkoop": 549333333,
@@ -1878,7 +1883,8 @@
   "opgehaald": "2026-08-15T14:11:59+00:00",
   "beta_regressie": 1.0577,
   "beta_r2": 0.3035,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 17.57
  },
  "INPST.AS": {
   "netto_inkoop": 73200000,
@@ -2183,7 +2189,8 @@
   "opgehaald": "2026-08-15T14:12:04+00:00",
   "beta_regressie": 0.6489,
   "beta_r2": 0.018,
-  "beta_n": 183
+  "beta_n": 183,
+  "bvps": 0.09
  },
  "NN.AS": {
   "netto_inkoop": 486333333,
@@ -2225,7 +2232,8 @@
   "opgehaald": "2026-08-15T14:12:05+00:00",
   "beta_regressie": 0.6539,
   "beta_r2": 0.1977,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 80.331
  },
  "NSI.AS": {
   "netto_inkoop": 20000000,
@@ -3039,7 +3047,8 @@
   "opgehaald": "2026-08-15T14:12:18+00:00",
   "beta_regressie": 0.8535,
   "beta_r2": 0.2361,
-  "beta_n": 261
+  "beta_n": 261,
+  "bvps": 32.49
  },
  "VPK.AS": {
   "netto_inkoop": 140300000,

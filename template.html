@@ -224,6 +224,8 @@ function waardeer(a){
   let g1 = a.g1_kaal;
   if(pasToe && !a.onhoudbaar && !a.gespannen) g1 = Math.min((1+g1)/(1-b)-1, 0.18);
   if (r <= gt+0.005) return {...a, fair:null, koopprijs:null, ongeldig:true};
+  // financieel zonder residual income: geen koopprijs, want de balans ontbreekt
+  if (a.ri_van_toepassing && !a.fair_ri) return {...a, fair:null, koopprijs:null, ongeldig:true};
   const expl = a.pad.filter(p=>a.handmatig && p[0]<=CUR+2 && p[1]!==null);
   const n1 = Math.max(3, Math.round(h*0.5));
   let pv=0, d=a.d0_norm, t=0, rungen=[];
@@ -233,10 +235,15 @@ function waardeer(a){
   const fade=Math.max(1,h-n1);
   for(let i=1;i<=fade;i++){ t++; const g=g1+(gt-g1)*(i/fade); d*=(1+g);
     const cw=d/Math.pow(1+r,t); pv+=cw; rungen.push([CUR+t-1,d,cw,false]); }
-  const tv=d*(1+gt)/(r-gt), pvtv=tv/Math.pow(1+r,t), fair=pv+pvtv;
+  const tv=d*(1+gt)/(r-gt), pvtv=tv/Math.pow(1+r,t), fairDdm=pv+pvtv;
+  // financiele instellingen: de laagste van dividendmodel en residual income
+  const fair=(a.ri_van_toepassing&&a.fair_ri)?Math.min(fairDdm,a.fair_ri):fairDdm;
   const mos = O.m ?? a.mos;
   const koop = fair*(1-mos);
-  return {...a, r, g1, fair, pv_div:pv, pv_terminal:pvtv, tv, koopprijs:koop, mos,
+  return {...a, r, g1, fair, fair_ddm:fairDdm, pv_div:pv, pv_terminal:pvtv, tv, koopprijs:koop, mos,
+    waardering_bron:(a.ri_van_toepassing&&a.fair_ri)
+      ? (a.fair_ri<fairDdm?'residual income (laagste van twee)':'dividendmodel (laagste van twee)')
+      : 'dividendmodel',
     upside:(fair-a.koers)/a.koers, korting_tov_koop:(koop-a.koers)/a.koers,
     yoc_koop:a.d0_norm/koop, rungen, horizon:t};
 }
@@ -354,7 +361,8 @@ function detail(a){
         <dt>Payout in de eindfase</dt><dd>${a.payout_stabiel!=null?pct(a.payout_stabiel,0):'—'}</dd>
         <dt>Houdbare groei (ROE x retentie)</dt><dd>${a.houdbare_groei!=null?pct(a.houdbare_groei):'—'}</dd>
         <dt>Vereist rendement na fase 1</dt><dd>${pct(a.r_stabiel)}</dd>
-        <dt>Waarde uit eindwaarde</dt><dd>${pct(a.pv_terminal/a.fair,0)}</dd>
+        <dt>Waarde uit eindwaarde</dt><dd>${pct(a.pv_terminal/a.fair_ddm,0)}</dd>
+        ${a.fair_ri ? `<dt>Waardering volgt</dt><dd>${a.waardering_bron}</dd><dt>Residual income</dt><dd>${fmt(a.fair_ri,2)}${a.ri_afwijking!=null ? ` (${a.ri_afwijking>0?'+':''}${pct(a.ri_afwijking,0)} t.o.v. dividendmodel)` : ''}</dd>` : ''}
         <dt>Payout ratio</dt><dd>${pct(a.payout,0)}</dd>
         <dt>Dekking uit vrije kasstroom</dt><dd>${c.fcf_dekking!=null?fmt(c.fcf_dekking)+'×':'—'}</dd>
         <dt>Nettoschuld / ebitda</dt><dd>${c.netdebt_ebitda!=null?fmt(c.netdebt_ebitda)+'×':'—'}</dd>

@@ -273,6 +273,60 @@ belandden en dus allemaal dezelfde disconteringsvoet kregen.
 In `data.json` staat per aandeel `beta_gebruikt`, `beta_herkomst` (eigen, gemengd of
 sector), `beta_regressie`, `beta_r2` en `op_rendementsvloer`.
 
-**Open punt:** achttien aandelen zitten nog op de vloer van 7%, allemaal defensieve namen
-met een beta tussen 0,59 en 0,77. Zolang die vloer bindt, telt hun lagere risico niet mee.
-Verlagen naar 6,5% is te overwegen, maar verhoogt de waardering van juist die groep.
+**Vloer verlaagd naar 6,5% (augustus 2026).** Met de oude vloer van 7% zaten achttien
+defensieve namen op dezelfde disconteringsvoet; nu nog zes. Het effect op de waardering
+is klein — 3 tot 8% bij de aandelen die er echt onder zaten — omdat de eindwaarde met
+`r_stabiel` (rf + erp) rekent en niet met deze voet. De vloer raakt alleen het
+terugrekenen van de kasstromen, niet de omvang van de eindwaarde. Lager dan 6,5% is af
+te raden: dan vertrouw je beta's met een R² van 0,05 vrijwel volledig.
+
+De vloer wordt vanzelf minder belangrijk nu de risicovrije voet meebeweegt. Stijgt die
+naar 4%, dan geeft de formule voor een beta van 0,59 al 6,95% en bindt de vloer bijna
+niet meer.
+
+## Residual income: tweede motor voor financiële instellingen
+
+Bij banken en verzekeraars zegt de vrije kasstroom niets — die schommelt met de
+beleggingsportefeuille — en daarom zet `kwaliteit()` die pijler daar op "n.v.t.".
+Bij negen fondsen valt dus een van de drie kwaliteitstoetsen weg.
+
+Het residual income-model heeft die post niet nodig:
+
+```
+waarde = boekwaarde + Σ (ROE − r) × boekwaarde, contant gemaakt
+```
+
+Verdient een bank precies zijn rendementseis, dan is hij zijn boekwaarde waard en niets
+meer. De boekwaarde groeit met de ingehouden winst.
+
+Aannames, bewust streng: ROE blijft vijf jaar op het huidige niveau en zakt daarna
+lineair naar `r`. Na jaar tien is de overwinst nul, dus er is **geen eindwaarde** —
+concurrentie drukt overrendement op termijn weg. Waar het dividendmodel gemiddeld 62%
+van zijn waarde uit de eindwaarde haalt, staat hier het grootste deel al op dag één op
+de balans.
+
+Velden in `data.json`: `fair_ri`, `ri_overwinst`, `ri_afwijking`, `ri_conflict`
+(afwijking groter dan 25%), `bvps`. De uitkomst staat als tegenproef in het detailpaneel.
+
+**De koopprijs volgt bij financiële instellingen de LAAGSTE van de twee motoren.**
+Wie de hoogste van twee schattingen neemt, kiest per definitie de meest optimistische
+aanname. Bij zes van de acht is dat het residual income-model (ABN, Aegon, ASR, ING, NN,
+Van Lanschot); bij Flow Traders en HAL blijft het dividendmodel leidend, omdat dat daar
+juist de laagste uitkomst geeft.
+
+Bij Flow Traders en HAL is die laagste uitkomst overigens ook de minst betrouwbare: een
+variabel dividend dat meebeweegt met handelsvolatiliteit, en een holding die je waardeert
+op wat erin zit in plaats van op wat eruit gaat. De regel is bewust mechanisch, maar lees
+bij die twee de tegenproef in het detailpaneel mee.
+
+Velden: `fair_ddm` houdt de uitkomst van het dividendmodel apart, `waardering_bron` zegt
+welke motor de koopprijs bepaalt. Het aandeel eindwaarde in het detailpaneel rekent met
+`fair_ddm`, want de eindwaarde hoort bij het dividendmodel.
+
+Ondergrenzen: geen RI-uitkomst bij een boekwaarde onder 0,10 of een ROE van nul of lager.
+
+**Geen residual income bij een financiële instelling betekent: geen koopprijs.** Het
+aandeel valt uit de lijst, met een melding in de uitvoer van `valuate.py`. Zonder die
+regel neemt het dividendmodel het over juist waar de balans het meest te zeggen heeft:
+Nedsense kreeg zo een koopprijs bij een boekwaarde van negen cent per aandeel en een
+negatieve ROE, en stond daarmee als koopkandidaat in de lijst.

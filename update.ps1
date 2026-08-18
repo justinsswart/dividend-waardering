@@ -71,6 +71,7 @@ if ($Draaien) {
 $archief = Join-Path $HOME "dividend-historie"
 if (-not (Test-Path $archief)) { New-Item -ItemType Directory -Path $archief | Out-Null }
 
+try {
 if (Test-Path "$Project\data.json") {
     # ISO-weeknummer: maandag is de eerste dag van de week
     $nu   = Get-Date
@@ -84,15 +85,29 @@ if (Test-Path "$Project\data.json") {
         Write-Host "`nWeekkopie stond er al: $naam" -ForegroundColor DarkGray
     } else {
         Copy-Item "$Project\data.json" $doel
-        $aantal = (Get-ChildItem $archief -Filter "data-*.json").Count
+        # @() eromheen: bij precies EEN bestand geeft Get-ChildItem een los object terug
+        # in plaats van een array, en dan bestaat .Count niet. Dat brak de eerste run.
+        $aantal = @(Get-ChildItem $archief -Filter "data-*.json").Count
         Write-Host "`nWeekkopie bewaard: $doel  ($aantal in archief)" -ForegroundColor Green
     }
+}
+} catch {
+    # Een probleem met het archief mag het pushen nooit blokkeren.
+    Write-Host "`nWeekkopie mislukt: $($_.Exception.Message)" -ForegroundColor Yellow
 }
 
 # 6. wijzigingen tonen en eventueel pushen
 Write-Host ""
 git status --short
 if ($Push) {
+    # Eerst binnenhalen wat er op GitHub staat. Zonder dit weigert git de push zodra
+    # er vanaf een andere plek is gecommit ("Updates were rejected").
+    Write-Host "`nEerst ophalen wat er op GitHub staat..." -ForegroundColor Cyan
+    git pull --rebase
+    if ($LASTEXITCODE -ne 0) {
+        Write-Host "git pull gaf een conflict. Los dat eerst op, daarna '.\update.ps1 -Push'." -ForegroundColor Red
+        exit 1
+    }
     git add .
     $iets = git diff --staged --name-only
     if ($iets) {

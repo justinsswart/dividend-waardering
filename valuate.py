@@ -57,7 +57,7 @@ def guidance_status(tk, ov):
             pass
     return ag
 
-P = {"rf":0.030,"erp":0.050,"r_min":0.070,"r_max":0.120,"g_cap":0.12,"g_term":0.020,
+P = {"rf":0.030,"erp":0.050,"r_min":0.065,"r_max":0.120,"g_cap":0.12,"g_term":0.020,
      "n1":5,"n2":10,"mos_min":0.10,"mos_max":0.40}
 
 # De risicovrije voet komt uit markt.json, dat fetch.py vult met het zesmaands-
@@ -90,6 +90,7 @@ def sector_betas():
     return {k: mediaan(w) for k, w in per.items() if len(w) >= 4}, mediaan(alle)
 
 SECTOR_BETA, MARKT_BETA = sector_betas()
+overgeslagen = []
 
 def gewogen_beta(v):
     """Combineert de eigen beta met die van de sector, en krimpt daarna richting 1.
@@ -246,6 +247,47 @@ def kwaliteit(v, wpa_ov=None, d0_ref=None, cuts_ov=None):
             s = laagste[1]
     return s, det
 
+def residual_income(bvps, roe, r, payout, n1, n2):
+    """Tweede waarderingsmotor, voor banken en verzekeraars.
+
+    Waarom naast het dividendmodel: bij een financiele instelling zegt de vrije kasstroom
+    niets - die schommelt met de beleggingsportefeuille - en daarom valt bij negen fondsen
+    een van de drie kwaliteitspijlers weg. Het residual income-model heeft die post niet
+    nodig. Het waardeert vanuit de boekwaarde, en telt daar alleen de winst BOVEN de
+    rendementseis bij op:
+
+        waarde = boekwaarde + som van (ROE - r) x boekwaarde, contant gemaakt
+
+    Verdient een bank precies zijn rendementseis, dan is hij zijn boekwaarde waard en niets
+    meer. Dat sluit aan bij hoe deze aandelen in de praktijk worden bekeken (koers/boekwaarde).
+
+    De boekwaarde groeit met de ingehouden winst: wat niet als dividend uitgaat, blijft in
+    het eigen vermogen zitten en verdient het jaar daarop mee.
+
+    Aannames, bewust streng:
+    - ROE blijft n1 jaar op het huidige niveau en zakt daarna lineair naar r.
+    - Na jaar n2 is de overwinst nul, dus er is GEEN eindwaarde. Concurrentie drukt
+      overrendement op termijn weg. Dat is conservatief: houdt een bank zijn voorsprong
+      vast, dan is de werkelijke waarde hoger dan wat hier uit komt.
+
+    Het grote voordeel zit in die laatste regel: waar het dividendmodel gemiddeld 62% van
+    zijn waarde uit de eindwaarde haalt, staat hier het overgrote deel al op dag een op de
+    balans. De uitkomst hangt dus veel minder aan aannames over het jaar 2036.
+    """
+    # Ondergrenzen: bij een boekwaarde van enkele centen (Nedsense) of een negatief
+    # rendement op eigen vermogen loopt de aanname vast dat het overrendement naar nul
+    # zakt - dan zakt het al onder nul. Beter niets tonen dan een schijngetal.
+    if not bvps or bvps < 0.10 or roe is None or not 0 < roe < 0.5:
+        return None, None
+    retentie = max(0.0, min(1.0 - (payout if payout is not None else 0.5), 1.0))
+    b, pv = bvps, 0.0
+    for t in range(1, n2 + 1):
+        roe_t = roe if t <= n1 else roe + (r - roe) * ((t - n1) / (n2 - n1))
+        ri = (roe_t - r) * b
+        pv += ri / (1 + r) ** t
+        b *= 1 + roe_t * retentie
+    return round(bvps + pv, 3), round(pv, 3)
+
 def stabiele_payout(roe, g_term):
     """Damodaran: in de eindfase moet de payout consistent zijn met groei en
     winstgevendheid - payout = 1 - g/ROE. Een bedrijf dat 2% blijft groeien bij een
@@ -345,12 +387,41 @@ for tk, v in RAW.items():
     po_st = stabiele_payout(v.get("roe"), P["g_term"])
     fv, pv_div, pv_tv, pad = dcf(expl, d0n, g1, r, P["n1"], P["n2"], P["g_term"],
                                  det.get("payout"), po_st)
+    # tweede motor voor financiele instellingen, als tegenproef op het dividendmodel
+    ri_fair = ri_pv = None
+    ri_vt = (v.get("sector") or "").startswith("Financial")
+    if ri_vt:
+        ri_fair, ri_pv = residual_income(v.get("bvps"), v.get("roe"), r,
+                                         det.get("payout"), P["n1"], P["n2"])
+
     sg = houdbare_groei(v, det.get("payout"), b)
     laag = dcf(expl, d0n, max(g1-0.02, -0.05), r, P["n1"], P["n2"], max(P["g_term"]-0.01, 0.005),
                det.get("payout"), po_st)[0]
     hoog = dcf(expl, d0n, g1+0.02, r, P["n1"], P["n2"], P["g_term"]+0.01,
                det.get("payout"), po_st)[0]
     mos = P["mos_max"] - (P["mos_max"]-P["mos_min"])*(kw/100)
+
+    # Bij financiele instellingen telt de LAAGSTE van de twee motoren. Het dividendmodel
+    # waardeerde deze groep stelselmatig hoger dan het residual income-model - bij ASR
+    # 110 tegen 46, bij Aegon 16 tegen 6 - en dat verschil komt voort uit de zwakte van
+    # een dividendmodel bij een bank: een hoge uitkering en een lage rendementseis
+    # vermenigvuldigen elkaar, zonder dat de balans meepraat. Wie de hoogste van twee
+    # schattingen neemt, kiest per definitie de meest optimistische aanname.
+    # Geeft het residual income-model bij een financiele instelling geen uitkomst, dan
+    # valt het aandeel uit de lijst. Anders neemt het dividendmodel het over juist waar
+    # de balans het meest te zeggen heeft - bij Nedsense leverde dat een koopprijs op
+    # boven een boekwaarde van negen cent per aandeel, met een negatieve ROE.
+    if ri_vt and not ri_fair:
+        overgeslagen.append(tk)
+        continue
+
+    fair_ddm = fv
+    if ri_vt and ri_fair and ri_fair < fv:
+        fv, waardering_bron = ri_fair, "residual income (laagste van twee)"
+    elif ri_vt and ri_fair:
+        waardering_bron = "dividendmodel (laagste van twee)"
+    else:
+        waardering_bron = "dividendmodel"
     koop = fv*(1-mos)
     k = v["koers"]
     res.append({**{x: v.get(x) for x in ("ticker","naam","sector","koers","valuta","d0","g3","g5","payout","beta","cuts_sinds_2010","div_hist","mcap","opgehaald")},
@@ -374,12 +445,19 @@ for tk, v in RAW.items():
         "groei_boven_houdbaar": bool(sg is not None and g1 > sg + 0.02),
         "r_stabiel": round(rendement_stabiel(), 4),
         "beta_gebruikt": beta_g, "beta_herkomst": beta_herkomst,
+        "ri_van_toepassing": ri_vt, "fair_ri": ri_fair, "ri_overwinst": ri_pv,
+        "fair_ddm": round(fair_ddm, 3), "waardering_bron": waardering_bron,
+        "bvps": v.get("bvps"),
+        "ri_afwijking": (round(ri_fair/fv - 1, 3) if (ri_fair and fv) else None),
+        "ri_conflict": bool(ri_fair and fv and abs(ri_fair/fv - 1) > 0.25),
         "beta_regressie": v.get("beta_regressie"), "beta_r2": v.get("beta_r2"),
         "op_rendementsvloer": bool(abs(r - P["r_min"]) < 1e-9),
         "onhoudbaar": onhoudbaar, "gespannen": gespannen,
         "eps_nu": eps_nu, "eps_fwd": eps_v, "dekking_wpa": round(eps_beste/d0n, 2) if d0n else None})
 
 res.sort(key=lambda x: -x["korting_tov_koop"])
+if overgeslagen:
+    print("overgeslagen (financieel, geen residual income):", ", ".join(overgeslagen))
 json.dump(LOG, open("override_log.json","w"), indent=1)
 json.dump({"params":P,"markt":MARKT,"bijgewerkt":NU.isoformat(timespec="seconds"),"aandelen":res},
           open("data.json","w"), indent=1)

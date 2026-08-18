@@ -193,6 +193,8 @@ for t in OK:
             "shares": shares,
             "netdebt": (info.get("totalDebt") or 0) - (info.get("totalCash") or 0),
             "ebitda": info.get("ebitda"),
+            # boekwaarde per aandeel: basis voor het residual income-model
+            "bvps": info.get("bookValue"),
             "yield_ttm": info.get("dividendYield"),
             "beta": info.get("beta"),
             "roe": info.get("returnOnEquity"),
