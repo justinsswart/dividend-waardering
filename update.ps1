@@ -100,20 +100,30 @@ if (Test-Path "$Project\data.json") {
 Write-Host ""
 git status --short
 if ($Push) {
-    # Eerst binnenhalen wat er op GitHub staat. Zonder dit weigert git de push zodra
-    # er vanaf een andere plek is gecommit ("Updates were rejected").
-    Write-Host "`nEerst ophalen wat er op GitHub staat..." -ForegroundColor Cyan
-    git pull --rebase
-    if ($LASTEXITCODE -ne 0) {
-        Write-Host "git pull gaf een conflict. Los dat eerst op, daarna '.\update.ps1 -Push'." -ForegroundColor Red
-        exit 1
-    }
     git add .
     $iets = git diff --staged --name-only
     if ($iets) {
+        # Eerst LOKAAL committen, dan pas pullen. Andersom - pullen voordat de net
+        # uitgepakte bestanden gecommit zijn - gaf altijd "cannot pull with rebase:
+        # you have unstaged changes", want de working tree is op dat moment vuil.
         git commit -m $Bericht
+
+        Write-Host "`nOphalen wat er intussen op GitHub staat..." -ForegroundColor Cyan
+        git pull --rebase
+        if ($LASTEXITCODE -ne 0) {
+            Write-Host "`nConflict bij het ophalen. Los dat op (git status laat zien waar)," -ForegroundColor Red
+            Write-Host "daarna: git rebase --continue    en dan: git push" -ForegroundColor Red
+            exit 1
+        }
+
         git push
-        Write-Host "`nGepusht. Netlify deployt automatisch." -ForegroundColor Green
+        if ($LASTEXITCODE -eq 0) {
+            Write-Host "`nGepusht. Netlify deployt automatisch." -ForegroundColor Green
+        } else {
+            # Dit stond er eerder NIET: de vorige versie printte "Gepusht" ongeacht
+            # of git push echt slaagde, dus een mislukte push leek toch gelukt.
+            Write-Host "`nPush is niet gelukt. Probeer het opnieuw met: git push" -ForegroundColor Red
+        }
     } else {
         Write-Host "`nNiets gewijzigd - er stond al een actuele versie." -ForegroundColor Cyan
     }

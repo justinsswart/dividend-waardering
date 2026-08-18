@@ -20,7 +20,7 @@
   "bron": "ECB Data Portal, spotrente AAA-staatsobligaties eurozone, 10 jaar",
   "opgehaald": "2026-08-18"
  },
- "bijgewerkt": "2026-08-18T18:59:38+00:00",
+ "bijgewerkt": "2026-08-18T19:08:05+00:00",
  "aandelen": [
   {
    "ticker": "WKL.AS",
@@ -731,7 +731,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
-   "guidance_notitie": "Boekjaar 2025: interim 1,38 + slot 2,50 = 3,88. Reeks 2021-2025: 2,49 / 2,79 / 3,20 / 3,44 / 3,88 (11,7% per jaar). Beleid is progressief zonder toegezegd bedrag; interim 2026 staat vast op 1,55 (40% van vorig jaartotaal). 6% is een eigen aanname, ruim onder het historische tempo.",
+   "guidance_notitie": "Boekjaar 2025: interim 1,38 + slot 2,50 = 3,88. Reeks 2021-2025: 2,49 / 2,79 / 3,20 / 3,44 / 3,88 (11,7% per jaar). Beleid is progressief zonder toegezegd bedrag; interim 2026 staat vast op 1,55 (40% van vorig jaartotaal). 6% is een eigen aanname, ruim onder het historische tempo. LET OP: de payout in de kwaliteitsscore is een BENADERING op basis van gerapporteerde nettowinst. Het eigen beleid stuurt niet op een winst-per-aandeel-ratio maar op solvabiliteit en kapitaalgeneratie (Solvency II); de payout-check moet hier dus met terughoudendheid gelezen worden.",
    "agenda": {
     "laatste_cijfers": "2022-08-10",
     "laatste_soort": "halfjaarcijfers",
@@ -742,7 +742,7 @@
     "guidance_bron": "nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-15T11:50:50+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.0237,
    "netto_inkoop": 486333333,
    "g1_kaal": 0.06,
@@ -897,7 +897,7 @@
     "guidance_bron": "Acomo jaarcijfers 2025 (05-03-2026) en halfjaarcijfers 2026 (28-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:48:15+00:00",
    "inkoop_rend": -0.0001,
    "netto_inkoop": -42000,
    "g1_kaal": 0.02,
@@ -2015,7 +2015,7 @@
    "mos": 0.163,
    "kwaliteit": 79,
    "checks": {
-    "payout": 0.541,
+    "payout": 0.534,
     "fcf_dekking": 1.64,
     "netdebt_ebitda": 2.64,
     "verlagingen": 0
@@ -2072,7 +2072,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "relx.com/investors/shareholder-information/dividend-information + jaarcijfers 12 februari 2026",
-   "guidance_notitie": "Boekjaar 2025: interim 19,5p + slot 48,0p = 67,5p (2024: 63,0p), +7%. In euro voor houders via Euroclear Nederland: 0,226 + 0,553 = 0,779 per aandeel. Interim 2026 al vastgesteld op 20,9p (+7,2%). Beleid: dividend groeit op lange termijn ongeveer in lijn met de aangepaste winst per aandeel, met een payout van circa de helft. Vijfjaars dividendgroei 8,1%, laatste jaar 7,7%; 6% als eigen aanname, iets conservatiever. Inkoop 1,5 mld pond in 2025, 2,25 mld voorzien in 2026. Nettoschuld/ebitda 2,0x, kasstroomconversie 99%. LET OP: notering in pond, uitkering in euro tegen de dan geldende koers - je loopt valutarisico op het dividend.",
+   "guidance_notitie": "Boekjaar 2025: interim 19,5p + slot 48,0p = 67,5p (2024: 63,0p), +7%. In euro voor houders via Euroclear Nederland: 0,226 + 0,553 = 0,779 per aandeel. Interim 2026 al vastgesteld op 20,9p (+7,2%). Beleid: dividend groeit op lange termijn ongeveer in lijn met de aangepaste winst per aandeel, met een payout van circa de helft. Vijfjaars dividendgroei 8,1%, laatste jaar 7,7%; 6% als eigen aanname, iets conservatiever. Inkoop 1,5 mld pond in 2025, 2,25 mld voorzien in 2026. Nettoschuld/ebitda 2,0x, kasstroomconversie 99%. LET OP: notering in pond, uitkering in euro tegen de dan geldende koers - je loopt valutarisico op het dividend. Winst per aandeel 18-08-2026 vastgezet op de toenmalige databronwaarde, zodat de kwaliteitsscore niet stil verschuift bij een volgende fetch zonder nieuwe controle.",
    "agenda": {
     "laatste_cijfers": null,
     "laatste_soort": null,
@@ -2083,11 +2083,11 @@
     "guidance_bron": "relx.com/investors/shareholder-information/dividend-information + jaarcijfers 12 februari 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.0216,
    "netto_inkoop": 1123666667,
    "g1_kaal": 0.06,
-   "houdbare_groei": 0.0232,
+   "houdbare_groei": 0.0324,
    "roe": 1.31864,
    "fair_laag": 20.682,
    "fair_hoog": 35.055,
@@ -2116,8 +2116,8 @@
    "onhoudbaar": false,
    "gespannen": false,
    "eps_nu": 1.46,
-   "eps_fwd": 1.89595,
-   "dekking_wpa": 2.43
+   "eps_fwd": 1.46,
+   "dekking_wpa": 1.87
   },
   {
    "ticker": "UNA.AS",
@@ -2143,22 +2143,22 @@
    "opgehaald": "2026-08-15T14:12:18+00:00",
    "r": 0.065,
    "g1": 0.0436,
-   "fair": 45.04,
+   "fair": 47.44,
    "pv_div": 16.469,
-   "pv_terminal": 28.57,
-   "koopprijs": 37.968,
+   "pv_terminal": 30.971,
+   "koopprijs": 39.992,
    "mos": 0.157,
    "kwaliteit": 81,
    "checks": {
-    "payout": 0.787,
+    "payout": 0.726,
     "fcf_dekking": 1.68,
     "netdebt_ebitda": 2.41,
     "verlagingen": 0
    },
-   "upside": -0.1639,
-   "korting_tov_koop": -0.2952,
+   "upside": -0.1194,
+   "korting_tov_koop": -0.2576,
    "yield_nu": 0.0346,
-   "yoc_koop": 0.0491,
+   "yoc_koop": 0.0466,
    "d0_norm": 1.8656,
    "special_div": false,
    "vlag": null,
@@ -2207,7 +2207,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
-   "guidance_notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde.",
+   "guidance_notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde. Winst per aandeel 18-08-2026 vastgezet op de toenmalige databronwaarde, zodat de kwaliteitsscore niet stil verschuift bij een volgende fetch zonder nieuwe controle.",
    "agenda": {
     "laatste_cijfers": "2021-07-22",
     "laatste_soort": "halfjaarcijfers",
@@ -2218,14 +2218,14 @@
     "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.013,
    "netto_inkoop": 1508333333,
    "g1_kaal": 0.03,
-   "houdbare_groei": -0.019,
+   "houdbare_groei": 0.0005,
    "roe": 0.31869,
-   "fair_laag": 35.555,
-   "fair_hoog": 58.784,
+   "fair_laag": 37.284,
+   "fair_hoog": 62.2,
    "payout_stabiel": 0.9372,
    "land": "GB",
    "bron_tarief": 0.0,
@@ -2240,7 +2240,7 @@
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 45.04,
+   "fair_ddm": 47.44,
    "waardering_bron": "dividendmodel",
    "bvps": null,
    "ri_afwijking": null,
@@ -2251,8 +2251,8 @@
    "onhoudbaar": false,
    "gespannen": false,
    "eps_nu": 2.57,
-   "eps_fwd": 3.41589,
-   "dekking_wpa": 1.83
+   "eps_fwd": 2.57,
+   "dekking_wpa": 1.38
   },
   {
    "ticker": "HEIA.AS",
@@ -3072,7 +3072,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "SBM Offshore jaarcijfers 2025 (26-02-2026), Q1-update (07-05-2026) en halfjaarcijfers 2026",
-   "guidance_notitie": "Beleid herzien naar halfjaarlijkse uitkering. Over boekjaar 2025 alleen 100 mln USD (0,5009 per aandeel, betaald 13-05-2026); daarbovenop een interim over H1 2026 van 100 mln USD (0,5075 per aandeel, betaald 03-09-2026). De ingevoerde 1,00 is dus de nieuwe jaarlijkse loopsnelheid van twee halfjaarlijkse uitkeringen, niet het boekjaartotaal 2025 - anders halveert de basis. Beleid: een stabiele jaarlijkse uitkering die over de tijd groeit, met minimaal 2,1 mld USD naar aandeelhouders in de zes jaar tot 2031. Inkoopprogramma van 270 mln USD, aandelen worden ingetrokken; bij de halfjaarcijfers was dat circa 44% voltooid. De omzetguidance voor 2026 is in stappen verhoogd van 6,5 mld naar circa 7,6 mld USD en de ebitda naar circa 1,9 mld. Nettoschuld daalde 43% na de verkoop van FPSO ONE GUYANA. SBM is in maart 2026 opgenomen in de AEX. Groei 3% is mijn eigen aanname bij 'groeit over de tijd'. Let op: de uitkering luidt in dollars, dus het bedrag in euro beweegt mee met de wisselkoers.",
+   "guidance_notitie": "Beleid herzien naar halfjaarlijkse uitkering. Over boekjaar 2025 alleen 100 mln USD (0,5009 per aandeel, betaald 13-05-2026); daarbovenop een interim over H1 2026 van 100 mln USD (0,5075 per aandeel, betaald 03-09-2026). De ingevoerde 1,00 is dus de nieuwe jaarlijkse loopsnelheid van twee halfjaarlijkse uitkeringen, niet het boekjaartotaal 2025 - anders halveert de basis. Beleid: een stabiele jaarlijkse uitkering die over de tijd groeit, met minimaal 2,1 mld USD naar aandeelhouders in de zes jaar tot 2031. Inkoopprogramma van 270 mln USD, aandelen worden ingetrokken; bij de halfjaarcijfers was dat circa 44% voltooid. De omzetguidance voor 2026 is in stappen verhoogd van 6,5 mld naar circa 7,6 mld USD en de ebitda naar circa 1,9 mld. Nettoschuld daalde 43% na de verkoop van FPSO ONE GUYANA. SBM is in maart 2026 opgenomen in de AEX. Groei 3% is mijn eigen aanname bij 'groeit over de tijd'. Let op: de uitkering luidt in dollars, dus het bedrag in euro beweegt mee met de wisselkoers. OPEN PUNT 18-08-2026: SBM Offshore rapporteert de winst in dollars en het dividend in euro's; de payout-check in de kwaliteitsscore vermengt nu een euro-dividend met een winst per aandeel uit de databron waarvan de valuta niet apart geverifieerd is. Bewust GEEN wpa vastgezet totdat dat is uitgezocht - de huidige payout van 11% in de score kan te optimistisch zijn.",
    "agenda": {
     "laatste_cijfers": "2011-03-04",
     "laatste_soort": "jaarcijfers",
@@ -3083,7 +3083,7 @@
     "guidance_bron": "SBM Offshore jaarcijfers 2025 (26-02-2026), Q1-update (07-05-2026) en halfjaarcijfers 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.016,
    "netto_inkoop": 93666667,
    "g1_kaal": 0.03,
@@ -3383,7 +3383,7 @@
     "guidance_bron": "Kendrion persbericht jaarcijfers 2025 (27-02-2026), dividend betaald 22-04-2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:50:38+00:00",
    "inkoop_rend": 0.004,
    "netto_inkoop": 1250000,
    "g1_kaal": 0.03,
@@ -3678,7 +3678,7 @@
     "guidance_bron": "Nedap jaarcijfers 2025 (24-02-2026) en halfjaarcijfers 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:48:15+00:00",
    "inkoop_rend": -0.0026,
    "netto_inkoop": -1678000,
    "g1_kaal": 0.03,
@@ -3835,7 +3835,7 @@
     "guidance_bron": "Arcadis persbericht Q4/jaarcijfers 2025 (19-02-2026) en Q2/halfjaarcijfers 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": 0.0168,
    "netto_inkoop": 62000000,
    "g1_kaal": 0.03,
@@ -3970,7 +3970,7 @@
    ],
    "guidance_type": null,
    "guidance_bron": "Hydratec dividendaankondiging (betaald 21-05-2026) en halfjaarbericht 2026 (30-07-2026)",
-   "guidance_notitie": "Boekjaar 2025: 8,00 per aandeel, betaald op 21 mei 2026, tegen 6,00 over elk van de drie voorgaande jaren. APART GEHOUDEN, en dit is de grote afwijking: in het eerste halfjaar van 2026 is Helvoet VERKOCHT, en daarop heeft de directie een INTERIM-DIVIDEND VAN 60,00 PER AANDEEL uitgekeerd. Dat is een uitkering van verkoopopbrengst, geen structureel dividend; de solvabiliteit blijft daarna naar verwachting rond 40%, boven de doelstelling van 30%. Zou ik die 60 euro meetellen, dan zou het model een absurde basis krijgen en volgend jaar een verlaging van 87% lezen. LET OP voor de toekomst: Helvoet was goed voor circa 40% van de omzet (kunststof onderdelen en verpakkingen). De winstbasis waaruit het reguliere dividend moet komen is dus kleiner geworden. Groei 0% is mijn eigen aanname en zelfs die is discutabel - een verlaging van het reguliere dividend is na zo'n verkoop goed mogelijk. Dit is bovendien een klein, weinig verhandeld fonds waarvoor het model geen winstcijfers uit de databron krijgt.",
+   "guidance_notitie": "Boekjaar 2025: 8,00 per aandeel, betaald op 21 mei 2026, tegen 6,00 over elk van de drie voorgaande jaren. APART GEHOUDEN, en dit is de grote afwijking: in het eerste halfjaar van 2026 is Helvoet VERKOCHT, en daarop heeft de directie een INTERIM-DIVIDEND VAN 60,00 PER AANDEEL uitgekeerd. Dat is een uitkering van verkoopopbrengst, geen structureel dividend; de solvabiliteit blijft daarna naar verwachting rond 40%, boven de doelstelling van 30%. Zou ik die 60 euro meetellen, dan zou het model een absurde basis krijgen en volgend jaar een verlaging van 87% lezen. LET OP voor de toekomst: Helvoet was goed voor circa 40% van de omzet (kunststof onderdelen en verpakkingen). De winstbasis waaruit het reguliere dividend moet komen is dus kleiner geworden. Groei 0% is mijn eigen aanname en zelfs die is discutabel - een verlaging van het reguliere dividend is na zo'n verkoop goed mogelijk. Dit is bovendien een klein, weinig verhandeld fonds waarvoor het model geen winstcijfers uit de databron krijgt. LET OP: dit winstcijfer (21,25) is niet apart geverifieerd in het jaarbericht - Hydratec is dun verhandeld en de databron kan hier minder betrouwbaar zijn. Vastgezet als beste beschikbare cijfer, met deze kanttekening.",
    "agenda": {
     "laatste_cijfers": null,
     "laatste_soort": null,
@@ -3981,7 +3981,7 @@
     "guidance_bron": "Hydratec dividendaankondiging (betaald 21-05-2026) en halfjaarbericht 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
@@ -4014,7 +4014,7 @@
    "onhoudbaar": false,
    "gespannen": false,
    "eps_nu": 21.25,
-   "eps_fwd": 0,
+   "eps_fwd": 21.25,
    "dekking_wpa": 2.66
   },
   {
@@ -4135,7 +4135,7 @@
     "guidance_bron": "BAM persbericht jaarcijfers 2025 (19-02-2026) en halfjaarcijfers 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": 0.0144,
    "netto_inkoop": 45132000,
    "g1_kaal": 0.04,
@@ -4450,7 +4450,7 @@
     "guidance_bron": "Corbion persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": 0.013,
    "netto_inkoop": 15000000,
    "g1_kaal": 0.02,
@@ -4593,7 +4593,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
-   "guidance_notitie": "Beleidsdocument gelezen: houdbaar dividend dat kan meegroeien met de prestaties, GEEN payout-ratio en GEEN bedrag per aandeel toegezegd. Inkoop geldt als gelijkwaardig middel; bestuur mag dividend ook in aandelen uitkeren. Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar vanaf laag niveau). 6% groei is dus volledig een eigen aanname.",
+   "guidance_notitie": "Beleidsdocument gelezen: houdbaar dividend dat kan meegroeien met de prestaties, GEEN payout-ratio en GEEN bedrag per aandeel toegezegd. Inkoop geldt als gelijkwaardig middel; bestuur mag dividend ook in aandelen uitkeren. Boekjaar 2025: interim 0,19 + slot 0,21 = 0,40. Reeks 2022-2025: 0,23 / 0,30 / 0,35 / 0,40 (circa 20% per jaar vanaf laag niveau). 6% groei is dus volledig een eigen aanname. LET OP: de payout in de kwaliteitsscore is een BENADERING op basis van gerapporteerde nettowinst. Het eigen beleid stuurt niet op een winst-per-aandeel-ratio maar op solvabiliteit en kapitaalgeneratie (Solvency II); de payout-check moet hier dus met terughoudendheid gelezen worden.",
    "agenda": {
     "laatste_cijfers": "2023-02-09",
     "laatste_soort": "jaarcijfers",
@@ -4604,7 +4604,7 @@
     "guidance_bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
     "status": "binnenkort"
    },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.0698,
    "netto_inkoop": 848666667,
    "g1_kaal": 0.06,
@@ -4754,7 +4754,7 @@
     "guidance_bron": "Heijmans jaarcijfers 2025 (13-02-2026) en AVA-besluit dividend (29-04-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:48:15+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.02,
@@ -4911,7 +4911,7 @@
     "guidance_bron": "Sligro persbericht jaarcijfers 2025 (05-02-2026), dividendpagina en halfjaarcijfers 2026 (23-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:50:38+00:00",
    "inkoop_rend": 0.0007,
    "netto_inkoop": 333333,
    "g1_kaal": 0.0,
@@ -5062,7 +5062,7 @@
     "guidance_bron": "PostNL jaarcijfers 2025 (23-02-2026), dividendaankondiging (14-04-2026) en halfjaarcijfers 2026 (03-08-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:50:38+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
@@ -5097,6 +5097,143 @@
    "eps_nu": 0.05,
    "eps_fwd": 0.05,
    "dekking_wpa": 1.25
+  },
+  {
+   "ticker": "PORF.AS",
+   "naam": "B.V. Delftsch Aardewerkfabriek \"De Porceleyne Fles Anno 1653\"",
+   "sector": "Consumer Defensive",
+   "koers": 12.8,
+   "valuta": "EUR",
+   "d0": 0.55,
+   "g3": null,
+   "g5": null,
+   "payout": 0.96489996,
+   "beta": 0.173,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "1999": 0.5,
+    "2000": 0.7,
+    "2002": 0.75,
+    "2019": 0.5,
+    "2024": 0.55,
+    "2025": 0.55,
+    "2026": 0.6
+   },
+   "mcap": 13274407,
+   "opgehaald": "2026-08-15T14:12:10+00:00",
+   "r": 0.065,
+   "g1": 0.0,
+   "fair": 10.086,
+   "pv_div": 4.362,
+   "pv_terminal": 5.724,
+   "koopprijs": 6.052,
+   "mos": 0.4,
+   "kwaliteit": 0,
+   "checks": {
+    "payout": -10.0,
+    "payout_waarschuwing": "winst is negatief - dividend wordt niet uit winst betaald",
+    "fcf_dekking": -3.45,
+    "netdebt_ebitda": 13.67,
+    "verlagingen": 0
+   },
+   "upside": -0.212,
+   "korting_tov_koop": -0.5272,
+   "yield_nu": 0.0469,
+   "yoc_koop": 0.0991,
+   "d0_norm": 0.6,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     0.6
+    ],
+    [
+     2027,
+     0.6
+    ],
+    [
+     2028,
+     0.6
+    ],
+    [
+     2029,
+     0.6
+    ],
+    [
+     2030,
+     0.6
+    ],
+    [
+     2031,
+     0.6024
+    ],
+    [
+     2032,
+     0.6072
+    ],
+    [
+     2033,
+     0.6145
+    ],
+    [
+     2034,
+     0.6243
+    ],
+    [
+     2035,
+     0.6368
+    ]
+   ],
+   "guidance_type": null,
+   "guidance_bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
+   "guidance_notitie": "WAARSCHUWING: voor dit fonds is het model eigenlijk ongeschikt, lees de uitkomst hooguit als indicatie. De beurswaarde is circa 11 mln euro, de handel is zeer dun en er is nauwelijks analistendekking of bruikbare winstdata. Uitkering: 0,55 over 2023 en 2024, en 0,60 in 2026 uitgekeerd. De winst per aandeel over de laatste twaalf maanden is NEGATIEF (circa -0,06): het dividend wordt dus niet uit de lopende winst betaald. Royal Delft Group meldt over 2025 wel een duidelijk hogere omzet, vooral bij De Porceleyne Fles, een verbeterd nettoresultaat ten opzichte van het verlies over 2024, en een daling van 57 naar 53 fte. Een belangrijk deel van de kasstroom komt uit Royal Delft Vastgoed, niet uit het aardewerk. Groei 0% is mijn eigen aanname; met een dividend dat niet door de winst wordt gedekt is elke groeivoet hier speculatie. CORRECTIE 18-08-2026: de kwaliteitsscore gebruikte de positieve winst per aandeel (0,57) uit de ruwe databron, terwijl deze notitie zelf al meldde dat de winst NEGATIEF is (circa -0,06). Een negatieve winst gaf in de rekenregel zelfs een BONUS in plaats van een straf - die regel is nu gerepareerd in valuate.py. Met wpa=-0,06 expliciet vastgezet.",
+   "agenda": {
+    "laatste_cijfers": null,
+    "laatste_soort": null,
+    "volgende_cijfers": null,
+    "volgende_soort": null,
+    "dagen_tot": null,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
+    "status": "vers"
+   },
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
+   "inkoop_rend": 0.0,
+   "netto_inkoop": null,
+   "g1_kaal": 0.0,
+   "houdbare_groei": 0.4203,
+   "roe": 0.03821,
+   "fair_laag": 8.069,
+   "fair_hoog": 12.988,
+   "payout_stabiel": 0.4766,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 0.6,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": false,
+   "r_stabiel": 0.0805,
+   "beta_gebruikt": 0.604,
+   "beta_herkomst": "sector",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 10.086,
+   "waardering_bron": "dividendmodel",
+   "bvps": null,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": -0.1712,
+   "beta_r2": 0.0068,
+   "op_rendementsvloer": true,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": -0.06,
+   "eps_fwd": -0.06,
+   "dekking_wpa": -0.1
   },
   {
    "ticker": "AALB.AS",
@@ -5217,7 +5354,7 @@
     "guidance_bron": "Aalberts persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (23-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": 0.006,
    "netto_inkoop": 28233333,
    "g1_kaal": 0.02,
@@ -5528,7 +5665,7 @@
     "guidance_bron": "Van Lanschot Kempen jaarcijfers 2025 (26-02-2026) en de eigen pagina 'Het aandeel'",
     "status": "binnenkort"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:48:15+00:00",
    "inkoop_rend": 0.0019,
    "netto_inkoop": 5351667,
    "g1_kaal": 0.03,
@@ -5675,7 +5812,7 @@
     "guidance_bron": "Fagron persbericht jaarresultaten 2025 (12-02-2026) en halfjaarresultaten 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": -0.0005,
    "netto_inkoop": -794333,
    "g1_kaal": 0.05,
@@ -5710,142 +5847,6 @@
    "eps_nu": 1.25,
    "eps_fwd": 1.25,
    "dekking_wpa": 3.12
-  },
-  {
-   "ticker": "PORF.AS",
-   "naam": "B.V. Delftsch Aardewerkfabriek \"De Porceleyne Fles Anno 1653\"",
-   "sector": "Consumer Defensive",
-   "koers": 12.8,
-   "valuta": "EUR",
-   "d0": 0.55,
-   "g3": null,
-   "g5": null,
-   "payout": 0.96489996,
-   "beta": 0.173,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "1999": 0.5,
-    "2000": 0.7,
-    "2002": 0.75,
-    "2019": 0.5,
-    "2024": 0.55,
-    "2025": 0.55,
-    "2026": 0.6
-   },
-   "mcap": 13274407,
-   "opgehaald": "2026-08-15T14:12:10+00:00",
-   "r": 0.065,
-   "g1": 0.0,
-   "fair": 7.224,
-   "pv_div": 4.362,
-   "pv_terminal": 2.862,
-   "koopprijs": 4.659,
-   "mos": 0.355,
-   "kwaliteit": 15,
-   "checks": {
-    "payout": 0.965,
-    "fcf_dekking": -3.45,
-    "netdebt_ebitda": 13.67,
-    "verlagingen": 0
-   },
-   "upside": -0.4356,
-   "korting_tov_koop": -0.636,
-   "yield_nu": 0.0469,
-   "yoc_koop": 0.1288,
-   "d0_norm": 0.6,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     0.6
-    ],
-    [
-     2027,
-     0.6
-    ],
-    [
-     2028,
-     0.6
-    ],
-    [
-     2029,
-     0.6
-    ],
-    [
-     2030,
-     0.6
-    ],
-    [
-     2031,
-     0.6024
-    ],
-    [
-     2032,
-     0.6072
-    ],
-    [
-     2033,
-     0.6145
-    ],
-    [
-     2034,
-     0.6243
-    ],
-    [
-     2035,
-     0.6368
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
-   "guidance_notitie": "WAARSCHUWING: voor dit fonds is het model eigenlijk ongeschikt, lees de uitkomst hooguit als indicatie. De beurswaarde is circa 11 mln euro, de handel is zeer dun en er is nauwelijks analistendekking of bruikbare winstdata. Uitkering: 0,55 over 2023 en 2024, en 0,60 in 2026 uitgekeerd. De winst per aandeel over de laatste twaalf maanden is NEGATIEF (circa -0,06): het dividend wordt dus niet uit de lopende winst betaald. Royal Delft Group meldt over 2025 wel een duidelijk hogere omzet, vooral bij De Porceleyne Fles, een verbeterd nettoresultaat ten opzichte van het verlies over 2024, en een daling van 57 naar 53 fte. Een belangrijk deel van de kasstroom komt uit Royal Delft Vastgoed, niet uit het aardewerk. Groei 0% is mijn eigen aanname; met een dividend dat niet door de winst wordt gedekt is elke groeivoet hier speculatie.",
-   "agenda": {
-    "laatste_cijfers": null,
-    "laatste_soort": null,
-    "volgende_cijfers": null,
-    "volgende_soort": null,
-    "dagen_tot": null,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
-    "status": "vers"
-   },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
-   "inkoop_rend": 0.0,
-   "netto_inkoop": null,
-   "g1_kaal": 0.0,
-   "houdbare_groei": 0.0013,
-   "roe": 0.03821,
-   "fair_laag": 6.019,
-   "fair_hoog": 8.892,
-   "payout_stabiel": 0.4766,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 0.6,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0805,
-   "beta_gebruikt": 0.604,
-   "beta_herkomst": "sector",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 7.224,
-   "waardering_bron": "dividendmodel",
-   "bvps": null,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": -0.1712,
-   "beta_r2": 0.0068,
-   "op_rendementsvloer": true,
-   "onhoudbaar": true,
-   "gespannen": false,
-   "eps_nu": 0.57,
-   "eps_fwd": 0,
-   "dekking_wpa": 0.95
   },
   {
    "ticker": "DSFIR.AS",
@@ -6255,7 +6256,7 @@
     "guidance_bron": "Holland Colours persbericht jaarcijfers boekjaar 2025/2026 (28-05-2026), dividend vastgesteld op de AVA van juli 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:52:47+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
@@ -6290,148 +6291,6 @@
    "eps_nu": 4.05,
    "eps_fwd": 4.05,
    "dekking_wpa": 2.0
-  },
-  {
-   "ticker": "APAM.AS",
-   "naam": "Aperam S.A.",
-   "sector": "Basic Materials",
-   "koers": 47.42,
-   "valuta": "EUR",
-   "d0": 2.0,
-   "g3": 0.0,
-   "g5": 0.0271,
-   "payout": 1.1429,
-   "beta": 1.822,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2011": 0.64807,
-    "2012": 0.64807,
-    "2016": 1.08012,
-    "2017": 1.30029,
-    "2018": 1.53541,
-    "2019": 1.75,
-    "2020": 1.75,
-    "2021": 1.75,
-    "2022": 2.0,
-    "2023": 2.0,
-    "2024": 2.0,
-    "2025": 2.0,
-    "2026": 1.5
-   },
-   "mcap": 3436232448,
-   "opgehaald": "2026-08-15T14:11:37+00:00",
-   "r": 0.0911,
-   "g1": 0.0,
-   "fair": 20.393,
-   "pv_div": 12.904,
-   "pv_terminal": 7.489,
-   "koopprijs": 14.683,
-   "mos": 0.28,
-   "kwaliteit": 40,
-   "checks": {
-    "payout": 1.143,
-    "fcf_dekking": 2.26,
-    "netdebt_ebitda": 3.47,
-    "verlagingen": 0
-   },
-   "upside": -0.57,
-   "korting_tov_koop": -0.6904,
-   "yield_nu": 0.0422,
-   "yoc_koop": 0.1362,
-   "d0_norm": 2.0,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     2.0
-    ],
-    [
-     2027,
-     2.0
-    ],
-    [
-     2028,
-     2.0
-    ],
-    [
-     2029,
-     2.0
-    ],
-    [
-     2030,
-     2.0
-    ],
-    [
-     2031,
-     2.008
-    ],
-    [
-     2032,
-     2.0241
-    ],
-    [
-     2033,
-     2.0484
-    ],
-    [
-     2034,
-     2.0811
-    ],
-    [
-     2035,
-     2.1227
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
-   "guidance_notitie": "Basisdividend 2,00 per aandeel, in vier kwartaaltermijnen van 0,50, en voor 2026 opnieuw onveranderd vastgesteld. Staat al sinds 2022 stil ondanks een beleid dat een 'progressief stijgend' basisdividend belooft; de uitkering is gekoppeld aan de nettoschuld/ebitda-doelstelling. LET OP: over 2025 kwam de winst uit op 0,13 per aandeel tegen 3,20 in 2024, bij een negatieve vrije kasstroom - het dividend werd dus niet verdiend. Het eerste halfjaar van 2026 laat herstel zien met 1,57 per aandeel (H1 2025: 0,01), geholpen door Europese handelsmaatregelen die de import van staal beperken en de bezetting verhogen. Voor het derde kwartaal verwacht Aperam wel een lagere ebitda. Groei op nul: vier jaar stilstand en een winst die het dividend nog niet draagt. Luxemburgse bronbelasting van 15%.",
-   "agenda": {
-    "laatste_cijfers": "2025-07-31",
-    "laatste_soort": "halfjaarcijfers",
-    "volgende_cijfers": "2026-11-06",
-    "volgende_soort": "Q3",
-    "dagen_tot": 80,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
-    "status": "vers"
-   },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0,
-   "netto_inkoop": 0,
-   "g1_kaal": 0.0,
-   "houdbare_groei": -0.0056,
-   "roe": 0.03946,
-   "fair_laag": 17.146,
-   "fair_hoog": 24.859,
-   "payout_stabiel": 0.4932,
-   "land": "LU",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": "Vrijstelling aan de bron mogelijk via de procedure die de uitgevende instelling beschrijft.",
-   "d0_netto": 2.0,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0805,
-   "beta_gebruikt": 1.213,
-   "beta_herkomst": "eigen",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 20.393,
-   "waardering_bron": "dividendmodel",
-   "bvps": null,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 1.3172,
-   "beta_r2": 0.28,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": true,
-   "eps_nu": 1.75,
-   "eps_fwd": 4.61377,
-   "dekking_wpa": 2.31
   },
   {
    "ticker": "IMCD.AS",
@@ -6575,6 +6434,150 @@
    "dekking_wpa": 2.87
   },
   {
+   "ticker": "APAM.AS",
+   "naam": "Aperam S.A.",
+   "sector": "Basic Materials",
+   "koers": 47.42,
+   "valuta": "EUR",
+   "d0": 2.0,
+   "g3": 0.0,
+   "g5": 0.0271,
+   "payout": 1.1429,
+   "beta": 1.822,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2011": 0.64807,
+    "2012": 0.64807,
+    "2016": 1.08012,
+    "2017": 1.30029,
+    "2018": 1.53541,
+    "2019": 1.75,
+    "2020": 1.75,
+    "2021": 1.75,
+    "2022": 2.0,
+    "2023": 2.0,
+    "2024": 2.0,
+    "2025": 2.0,
+    "2026": 1.5
+   },
+   "mcap": 3436232448,
+   "opgehaald": "2026-08-15T14:11:37+00:00",
+   "r": 0.0911,
+   "g1": 0.0,
+   "fair": 20.393,
+   "pv_div": 12.904,
+   "pv_terminal": 7.489,
+   "koopprijs": 14.071,
+   "mos": 0.31,
+   "kwaliteit": 30,
+   "checks": {
+    "payout": 15.385,
+    "fcf_dekking": 2.26,
+    "netdebt_ebitda": 3.47,
+    "verlagingen": 0,
+    "plafond": "payout boven 150%",
+    "zonder_plafond": 40
+   },
+   "upside": -0.57,
+   "korting_tov_koop": -0.7033,
+   "yield_nu": 0.0422,
+   "yoc_koop": 0.1421,
+   "d0_norm": 2.0,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     2.0
+    ],
+    [
+     2027,
+     2.0
+    ],
+    [
+     2028,
+     2.0
+    ],
+    [
+     2029,
+     2.0
+    ],
+    [
+     2030,
+     2.0
+    ],
+    [
+     2031,
+     2.008
+    ],
+    [
+     2032,
+     2.0241
+    ],
+    [
+     2033,
+     2.0484
+    ],
+    [
+     2034,
+     2.0811
+    ],
+    [
+     2035,
+     2.1227
+    ]
+   ],
+   "guidance_type": null,
+   "guidance_bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
+   "guidance_notitie": "Basisdividend 2,00 per aandeel, in vier kwartaaltermijnen van 0,50, en voor 2026 opnieuw onveranderd vastgesteld. Staat al sinds 2022 stil ondanks een beleid dat een 'progressief stijgend' basisdividend belooft; de uitkering is gekoppeld aan de nettoschuld/ebitda-doelstelling. LET OP: over 2025 kwam de winst uit op 0,13 per aandeel tegen 3,20 in 2024, bij een negatieve vrije kasstroom - het dividend werd dus niet verdiend. Het eerste halfjaar van 2026 laat herstel zien met 1,57 per aandeel (H1 2025: 0,01), geholpen door Europese handelsmaatregelen die de import van staal beperken en de bezetting verhogen. Voor het derde kwartaal verwacht Aperam wel een lagere ebitda. Groei op nul: vier jaar stilstand en een winst die het dividend nog niet draagt. Luxemburgse bronbelasting van 15%. CORRECTIE 18-08-2026: de kwaliteitsscore gebruikte tot nu toe de winst per aandeel uit de ruwe databron (1,75, een verouderd of geglad TTM-cijfer), in plaats van de FY2025-winst van 0,13 die al in deze notitie stond. Daarmee kwam de payout uit op 114% in plaats van de werkelijke 1538%: het dividend van 2,00 wordt op de FY2025-winst niet uit de winst betaald. Nu hersteld met een expliciet wpa-veld.",
+   "agenda": {
+    "laatste_cijfers": "2025-07-31",
+    "laatste_soort": "halfjaarcijfers",
+    "volgende_cijfers": "2026-11-06",
+    "volgende_soort": "Q3",
+    "dagen_tot": 80,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
+    "status": "vers"
+   },
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
+   "inkoop_rend": 0.0,
+   "netto_inkoop": 0,
+   "g1_kaal": 0.0,
+   "houdbare_groei": -0.5676,
+   "roe": 0.03946,
+   "fair_laag": 17.146,
+   "fair_hoog": 24.859,
+   "payout_stabiel": 0.4932,
+   "land": "LU",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": "Vrijstelling aan de bron mogelijk via de procedure die de uitgevende instelling beschrijft.",
+   "d0_netto": 2.0,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": true,
+   "r_stabiel": 0.0805,
+   "beta_gebruikt": 1.213,
+   "beta_herkomst": "eigen",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 20.393,
+   "waardering_bron": "dividendmodel",
+   "bvps": null,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 1.3172,
+   "beta_r2": 0.28,
+   "op_rendementsvloer": false,
+   "onhoudbaar": true,
+   "gespannen": false,
+   "eps_nu": 0.13,
+   "eps_fwd": 0.13,
+   "dekking_wpa": 0.07
+  },
+  {
    "ticker": "FUR.AS",
    "naam": "Fugro N.V.",
    "sector": "Energy",
@@ -6683,7 +6686,7 @@
     "guidance_bron": "Fugro dividendbeleidspagina, jaarcijfers 2025 (27-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": 0.0315,
    "netto_inkoop": 31900000,
    "g1_kaal": 0.0,
@@ -6762,7 +6765,7 @@
    "mos": 0.325,
    "kwaliteit": 25,
    "checks": {
-    "payout": 0.242,
+    "payout": 0.251,
     "fcf_dekking": -1.99,
     "netdebt_ebitda": 1.76,
     "verlagingen": 4,
@@ -6820,7 +6823,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "corporate.arcelormittal.com/investors/equity-investors/dividends + jaarverslag 2025 (Form 20-F)",
-   "guidance_notitie": "Harde guidance: basisdividend FY2026 verhoogd naar 0,60 dollar per aandeel (FY2025: 0,55; FY2024: 0,50; FY2023: 0,44), in vier gelijke kwartaaltermijnen. Omgerekend tegen 1,1535 dollar per euro is dat 0,52 euro. Beleid: daarnaast minimaal 50% van de vrije kasstroom na dividend terug via inkoop. Het aantal aandelen is sinds september 2020 met 38% verminderd - veruit de grootste krimp in deze lijst. LET OP: Luxemburgse bronbelasting van 15%; bruto 0,13004 per kwartaal wordt netto 0,11053. Vrijstelling aan de bron is mogelijk via een procedure die ArcelorMittal beschrijft, anders terugvorderen. Dividend wordt in dollar vastgesteld, dus je loopt valutarisico. Groei 4% als eigen aanname; het bedrag steeg de laatste jaren circa 9% per jaar maar staal is cyclisch.",
+   "guidance_notitie": "Harde guidance: basisdividend FY2026 verhoogd naar 0,60 dollar per aandeel (FY2025: 0,55; FY2024: 0,50; FY2023: 0,44), in vier gelijke kwartaaltermijnen. Omgerekend tegen 1,1535 dollar per euro is dat 0,52 euro. Beleid: daarnaast minimaal 50% van de vrije kasstroom na dividend terug via inkoop. Het aantal aandelen is sinds september 2020 met 38% verminderd - veruit de grootste krimp in deze lijst. LET OP: Luxemburgse bronbelasting van 15%; bruto 0,13004 per kwartaal wordt netto 0,11053. Vrijstelling aan de bron is mogelijk via een procedure die ArcelorMittal beschrijft, anders terugvorderen. Dividend wordt in dollar vastgesteld, dus je loopt valutarisico. Groei 4% als eigen aanname; het bedrag steeg de laatste jaren circa 9% per jaar maar staal is cyclisch. Winst per aandeel 18-08-2026 vastgezet op de toenmalige databronwaarde, zodat de kwaliteitsscore niet stil verschuift bij een volgende fetch zonder nieuwe controle.",
    "agenda": {
     "laatste_cijfers": "2026-07-30",
     "laatste_soort": "halfjaarcijfers",
@@ -6831,11 +6834,11 @@
     "guidance_bron": "corporate.arcelormittal.com/investors/equity-investors/dividends + jaarverslag 2025 (Form 20-F)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.0192,
    "netto_inkoop": 923333333,
    "g1_kaal": 0.04,
-   "houdbare_groei": 0.0055,
+   "houdbare_groei": 0.0052,
    "roe": 0.03284,
    "fair_laag": 10.488,
    "fair_hoog": 17.573,
@@ -6864,8 +6867,8 @@
    "onhoudbaar": false,
    "gespannen": false,
    "eps_nu": 2.07,
-   "eps_fwd": 6.577988,
-   "dekking_wpa": 12.65
+   "eps_fwd": 2.07,
+   "dekking_wpa": 3.98
   },
   {
    "ticker": "AMG.AS",
@@ -6973,7 +6976,7 @@
     "guidance_bron": "AMG persbericht jaarcijfers 2025 (25-02-2026) en Q2 2026 (29-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:44:44+00:00",
    "inkoop_rend": 0.0021,
    "netto_inkoop": 2589333,
    "g1_kaal": 0.0,
@@ -7257,7 +7260,7 @@
    ],
    "guidance_type": "groei",
    "guidance_bron": "asml.com/en/investors/why-invest-in-asml/capital-return-and-financing + jaarverslag 2025 (Form 20-F)",
-   "guidance_notitie": "Boekjaar 2025: drie interimdividenden van 1,60 plus slot 2,70 = 7,50 per aandeel, 17,2% hoger dan de 6,40 over 2024. Reeks: 2022 5,80 / 2023 6,10 / 2024 6,40 / 2025 7,50. Interim 2026 al verhoogd naar 1,88. Beleid: houdbaar dividend per aandeel dat over tijd groeit, per kwartaal uitgekeerd; payout circa 30% van de winst. Nieuw inkoopprogramma van 12 mld euro tot eind 2028, aangekondigd 28 januari 2026. Groei 8% als eigen aanname; het tienjaarstempo van 27% is niet vol te houden en het bedrag hangt aan een cyclische halfgeleidermarkt. Bij een rendement van circa 0,7% zegt een dividendmodel weinig over dit aandeel.",
+   "guidance_notitie": "Boekjaar 2025: drie interimdividenden van 1,60 plus slot 2,70 = 7,50 per aandeel, 17,2% hoger dan de 6,40 over 2024. Reeks: 2022 5,80 / 2023 6,10 / 2024 6,40 / 2025 7,50. Interim 2026 al verhoogd naar 1,88. Beleid: houdbaar dividend per aandeel dat over tijd groeit, per kwartaal uitgekeerd; payout circa 30% van de winst. Nieuw inkoopprogramma van 12 mld euro tot eind 2028, aangekondigd 28 januari 2026. Groei 8% als eigen aanname; het tienjaarstempo van 27% is niet vol te houden en het bedrag hangt aan een cyclische halfgeleidermarkt. Bij een rendement van circa 0,7% zegt een dividendmodel weinig over dit aandeel. Winst per aandeel 18-08-2026 vastgezet op de toenmalige databronwaarde, zodat de kwaliteitsscore niet stil verschuift bij een volgende fetch zonder nieuwe controle.",
    "agenda": {
     "laatste_cijfers": "2026-07-13",
     "laatste_soort": "halfjaarcijfers",
@@ -7268,7 +7271,7 @@
     "guidance_bron": "asml.com/en/investors/why-invest-in-asml/capital-return-and-financing + jaarverslag 2025 (Form 20-F)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "override_gewijzigd": "2026-08-18T19:04:58+00:00",
    "inkoop_rend": 0.0039,
    "netto_inkoop": 2361433333,
    "g1_kaal": 0.08,
@@ -7301,8 +7304,8 @@
    "onhoudbaar": false,
    "gespannen": false,
    "eps_nu": 25.43,
-   "eps_fwd": 51.42462,
-   "dekking_wpa": 6.86
+   "eps_fwd": 25.43,
+   "dekking_wpa": 3.39
   },
   {
    "ticker": "PRX.AS",
@@ -7846,7 +7849,7 @@
     "guidance_bron": "Brunel jaarresultaten 2025 (20-02-2026) en Q1-update 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-08-18T18:59:38+00:00",
+   "override_gewijzigd": "2026-08-15T19:50:38+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.03,

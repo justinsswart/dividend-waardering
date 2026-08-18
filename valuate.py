@@ -188,7 +188,16 @@ def kwaliteit(v, wpa_ov=None, d0_ref=None, cuts_ov=None):
     po = v.get("payout")
     if wpa_ov and d0_ref:
         po = d0_ref / wpa_ov
-    if po is not None:
+    if po is not None and po < 0:
+        # Negatieve winst per aandeel maakt de ratio negatief, en "po < 0,5" is dan
+        # WAAR - het dividend kreeg zo +20 punten bonus voor een uitkering zonder
+        # enige winstdekking (De Porceleyne Fles: winst -0,06, kreeg +20 in plaats
+        # van de zwaarste straf). Behandel dit als de slechtste band, niet de beste.
+        s -= 35
+        det["payout"] = round(po, 3)
+        det["payout_waarschuwing"] = "winst is negatief - dividend wordt niet uit winst betaald"
+        plafonds.append(("dividend wordt uit verlies betaald", 30))
+    elif po is not None:
         s += 20 if po < 0.5 else 12 if po < 0.7 else 4 if po < 0.9 else -15 if po < 1.0 else -35
         det["payout"] = round(po, 3)
         if po > 1.5:   plafonds.append(("payout boven 150%", 30))
@@ -458,7 +467,74 @@ for tk, v in RAW.items():
 res.sort(key=lambda x: -x["korting_tov_koop"])
 if overgeslagen:
     print("overgeslagen (financieel, geen residual income):", ", ".join(overgeslagen))
-json.dump(LOG, open("override_log.json","w"), indent=1)
+def audit_overrides(o, res_bij_ticker):
+    """Controleert of de override-data en het model consistent zijn, en meldt afwijkingen.
+
+    Aanleiding (18-08-2026): De Porceleyne Fles had een expliciet genoteerde negatieve
+    winst per aandeel in de notitie, maar de kwaliteitsscore gebruikte de positieve
+    databronwaarde omdat "wpa" nooit was ingevuld - en Aperam gebruikte een verouderd
+    TTM-winstcijfer terwijl de FY2025-winst er al maanden bij stond. Beide keren was de
+    juiste informatie aanwezig, alleen niet op de plek waar de code hem las.
+
+    Dit draait bij elke run mee en print naar de uitvoer, zodat zulke gaten opvallen
+    voordat ze maandenlang onopgemerkt blijven.
+    """
+    meldingen = []
+    for t, v in o.items():
+        if not isinstance(v, dict):
+            continue
+        a = res_bij_ticker.get(t)
+        if not a:
+            continue
+        notitie = (v.get("notitie") or "").lower()
+
+        # 1. geen enkel guidance-type: de groei komt dan volledig uit historische data,
+        #    ook al staat er een override - dat is verwarrend voor wie het naleest.
+        if not any(k in v for k in ("divs", "payout_beleid", "g_na")) and v.get("d0_fy") != 0:
+            meldingen.append(f"{t}: geen divs/payout_beleid/g_na - groei komt uit basisgroei(), niet uit de override")
+
+        # 2. d0_fy zonder wpa: de kwaliteitsscore valt terug op de ruwe databronwinst,
+        #    ook als de notitie zelf al een ander cijfer noemt (Aperam, Porceleyne Fles).
+        if v.get("d0_fy") not in (0, None) and "wpa" not in v and "g_na" in v:
+            meldingen.append(f"{t}: d0_fy + g_na maar geen wpa - payout-check gebruikt de ruwe databronwinst")
+
+        # 3. de notitie noemt expliciet een negatieve WINST, maar wpa staat niet op een
+        #    negatief getal. Zoekt gericht naar "winst" of "wpa" vlak bij "negatief" om
+        #    geen loos alarm te slaan op "negatieve kasstroom" (Holland Colours, NSI).
+        import re as _re
+        winst_negatief = _re.search(
+            r"(winst|wpa|resultaat)[^.]{0,40}negatie|negatie[^.]{0,40}(winst|wpa|resultaat)",
+            notitie)
+        if winst_negatief and v.get("wpa", 1) >= 0:
+            meldingen.append(f"{t}: notitie noemt mogelijk een negatieve winst, maar wpa staat op {v.get('wpa')} - handmatig nalopen")
+
+        # 4. gecheckt-datum ontbreekt of is ouder dan de laatste bekende publicatie.
+        if "gecheckt" not in v:
+            meldingen.append(f"{t}: geen 'gecheckt' datum")
+        if "bron" not in v:
+            meldingen.append(f"{t}: geen 'bron' veld")
+
+        # 5. het model gebruikt een ander dividend dan wat de override opgeeft, zonder
+        #    dat er een special_div-vlag is - kan wijzen op een vergeten kalenderjaar-
+        #    correctie of een override die niet meer aansluit op de nieuwste data.
+        if v.get("d0_fy") not in (0, None):
+            afwijking = abs((a.get("d0_norm") or 0) - v["d0_fy"])
+            if afwijking > 0.01 and not a.get("special_div"):
+                meldingen.append(f"{t}: override d0_fy={v['d0_fy']} maar model gebruikt d0_norm={a.get('d0_norm')}")
+
+    return meldingen
+
+
+meldingen = audit_overrides(OV, {x["ticker"]: x for x in res})
+if meldingen:
+    print(f"\naudit: {len(meldingen)} aandachtspunten in overrides.json")
+    for m in meldingen:
+        print(" ", m)
+else:
+    print("\naudit: geen aandachtspunten gevonden")
+json.dump({"gecontroleerd": NU.isoformat(timespec="seconds"), "meldingen": meldingen},
+          open("audit_log.json", "w"), indent=1, ensure_ascii=False)
+
 json.dump({"params":P,"markt":MARKT,"bijgewerkt":NU.isoformat(timespec="seconds"),"aandelen":res},
           open("data.json","w"), indent=1)
 print(f"{len(res)} aandelen gewaardeerd | koopwaardig: {sum(1 for x in res if x['korting_tov_koop']>0)}")

@@ -240,6 +240,12 @@ bestand, dan valt het model terug op 3,0%. Waarden buiten 0,5%–6,0% worden gew
 dan is er iets mis met de bron, niet met de markt. De gebruikte voet staat in `data.json`
 onder `markt`.
 
+## Regelafsluitingen
+
+`.gitattributes` dwingt LF af voor tekstbestanden. Zonder dat bestand meldde git bij
+elke commit "LF will be replaced by CRLF" — onschuldig, maar het maakte de uitvoer
+onoverzichtelijk.
+
 ## Weekarchief
 
 `update.ps1` bewaart één keer per week een kopie van `data.json` in
@@ -330,3 +336,30 @@ aandeel valt uit de lijst, met een melding in de uitvoer van `valuate.py`. Zonde
 regel neemt het dividendmodel het over juist waar de balans het meest te zeggen heeft:
 Nedsense kreeg zo een koopprijs bij een boekwaarde van negen cent per aandeel en een
 negatieve ROE, en stond daarmee als koopkandidaat in de lijst.
+
+## Audit bij elke run
+
+`valuate.py` controleert aan het eind van elke run alle overrides op vijf punten en
+print de uitkomst, ook weggeschreven naar `audit_log.json`:
+
+1. Geen enkel guidance-type (`divs`, `payout_beleid`, `g_na`) — de groei komt dan
+   uit historische data, ook al staat er een override.
+2. Een dividendbedrag zonder eigen winstmaatstaf (`wpa`) — de kwaliteitsscore valt
+   dan terug op de ruwe databronwinst, ook als de notitie zelf al een ander cijfer noemt.
+3. De notitie vermeldt een negatieve winst, maar `wpa` staat niet op een negatief getal.
+4. Geen `gecheckt`-datum.
+5. Geen `bron`-veld.
+6. Het model gebruikt een ander dividendbedrag dan de override opgeeft, zonder dat
+   er een `special_div`-vlag is gezet.
+
+Elke melding is een aanwijzing om zelf na te lopen, geen automatische fout. NSI wordt
+bijvoorbeeld altijd gevlagd door punt 3 — de notitie noemt terecht een negatieve
+IFRS-winst, maar legt zelf al uit waarom EPRA-winst de juiste maatstaf is. Dat is geen
+fout, alleen een punt waarvan de audit niet kan weten dat het al bewust is afgewogen.
+
+Aanleiding (18-08-2026): bij De Porceleyne Fles stond een negatieve winst al in de
+notitie, maar de score gebruikte de positieve databronwaarde omdat `wpa` nooit was
+ingevuld. Bij Aperam gebruikte de score een verouderd TTM-winstcijfer terwijl de
+FY2025-winst er al bij stond. In allebei de gevallen was de juiste informatie aanwezig,
+alleen niet op de plek waar de code hem las. Deze audit vangt dat soort gaten voortaan
+bij elke run op, in plaats van pas bij een handmatige doorlichting maanden later.
