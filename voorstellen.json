@@ -4,27 +4,20 @@
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-18"
- },
- "ASRNL.AS": {
-  "url": "https://www.asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid",
-  "fout": null,
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-18"
+  "gecheckt": "2026-08-19"
  },
  "ECMPA.AS": {
   "url": "https://www.eurocommercialproperties.com/investors/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-18"
+  "gecheckt": "2026-08-19"
  },
  "VLK.AS": {
   "url": "https://www.vanlanschotkempen.com/nl-nl/over-ons/investor-relations/het-aandeel",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-18"
+  "gecheckt": "2026-08-19"
  }
 }

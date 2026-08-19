@@ -1,30 +1,23 @@
 {
- "gescand": "2026-08-18T17:59:15+00:00",
+ "gescand": "2026-08-19T17:55:44+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - iex.nl",
+     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UckNXQURDOGMyMUw3dkJvZU00Wm8tM0RXemZiT2owcGxpbWt4VEkwUHNJNmVmNG51cTVKQWJCWk5obFgweHFZNXJzVF9scXNKeHFPeWdWRGN5bFlGOTBBNDRvZ2JWVHB3LUlKcFpB?oc=5",
      "datum": "Thu, 13 Aug 2026 06:32:00 GMT",
-     "bron": "iex.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Hogere inkomsten en lagere kosten stuwen kwartaalwinst ABN Amro. Wat betekent dit voor het dividend? - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOTEJxczlvc0FyNXlxWWFCREc1dmQyQmh5YzhtNGk5ZF80OEhxZUxlTlJGc21neDBOYUhzcXFrN092bmhGZnFMaXByYWlHcV85QTNCNmd2ZDMzYnF1cHhjSXFNcy1NSjZpOVhQQ01fSjFySXFuSVJwVjZvN3dxV3lyS2VYVjhSNmxXMlFvcllXbmpLS3NFdEJyTEFCQkdOdGxPX2dIQ2I5eFZ2WDlEcmxxZHJxSktmSkJsQVhUeTh0Y2FOOEhCS3dMVklPQmU4SzkxS1lINTQ1YW16YVNDaTFUWHZ6Wm16NG1FMV9PWWVR?oc=5",
-     "datum": "Wed, 12 Aug 2026 08:12:39 GMT",
-     "bron": "De Belegger",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 11,
+   "score": 8,
    "niveau": "hoog",
    "items": [
     {
@@ -40,13 +33,83 @@
      "datum": "Thu, 13 Aug 2026 06:10:39 GMT",
      "bron": "Beursgorilla.nl",
      "gewicht": 4
+    }
+   ]
+  },
+  "AGN.AS": {
+   "naam": "Aegon Ltd.",
+   "score": 7,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Tianshui Zhongxing Bio-Technology Co.,Ltd. stelt interim-winstuitkering voor als dividend in contanten voor 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPTDRDOGkzTi1BUTJmSmNLZmhpUGZ6VVN6LU5oUjNsVXI4a2kyQ3d5b2hOTUpHRUNteUh3cGhjVTIxX0J1S3Vvd3d2T1FGWC0tVVNwNnhaYXdlZDVRZEJPeXlLdXVSY1oyb2NvdkZDNnhfbXNhTWdKNGxhd2xjMTNXLUlTU3p4VXFxaHJKaDlyZFFuRHBYQ05PZl9BRWFDWG9Da0tvOWdJTFYxaGVKeUYxU21YSElTMFlCVVBwRHNnUTlla0k2VU1WV2w2bzBPWVY0ay1XbGdhcTgzbWdiUWRDWk1HTVRWVWo5aE1oSE1R?oc=5",
+     "datum": "Mon, 17 Aug 2026 19:31:00 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 7
+    }
+   ]
+  },
+  "ALFEN.AS": {
+   "naam": "Alfen N.V.",
+   "score": 4,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Laadpalenspecialist Alfen krijgt een tik: wat te denken van de halfjaarcijfers? - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSFgwTXg1ZkRRUUUyRTNRWFJIOUR2WW1Uek1KempRcmx3SGFzNXU5M1dsTWJhSGwwWmNmMGdRQ1BSaEQ2ZFNkcG9KNUlxVUU0aVFwRG9mMTNXWl93MXF3U0RiSnd0RGVjOVFNWlhwTDgzb1Vkc0hub05wU1lNY21kcDVWWUhhOEdWUWlxRFA4SDl0NnY0T0huWExPeEVGbFZwY0tVWm9XMzlMb20wbnBVUW8tWVJaZ01OUkhtMFVtbEdtcmx1TjltbXRwckhpUmZic3c?oc=5",
+     "datum": "Wed, 19 Aug 2026 08:43:17 GMT",
+     "bron": "De Belegger",
+     "gewicht": 4
+    }
+   ]
+  },
+  "ASRNL.AS": {
+   "naam": "ASR Nederland N.V.",
+   "score": 7,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "ASR Nederland klimt in het groen na halfjaarcijfers - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSHo0VktTaEczV3FTQjdFam55TGxndGpXbGI5eUJIc3RKZ0tlVVlPVVhRNldkd2pCOXFtSHRTZ04xcHU4bDRmRGg2Y3hfVGZQUXN2Uy0xMXNBZ3AtaGp0ZEdKSWNBMUtXVC1uOFhfcjV2ZVNsTVNLR3lXYkVNVDZQUGZIbHlMRW9Zdm1zN0U0aUFqMk9aS1BpUnFHNE1hd0RUcXlXTWFDSFlhMHY5aGhF?oc=5",
+     "datum": "Wed, 19 Aug 2026 07:42:33 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 4
     },
     {
-     "titel": "Adyen-aandelen stijgen 12% na sterke omzetgroei en hogere outlook - Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPcnNGR2xzWmFKa0ZqeGQxU0laejNxbENtWDYyTnZRaFRjTVVUOG1wU2pTa19hSml1YVY3WFlyNlEzN0dhUWtXU2tVVWJucThfTUxPV1JxLWlIaWhKYmxmNGJLbVZiSzdYUXNTQ2Y1V2Z5eG9JNXZtLW1aUDNUVVQwZEZxeV9fRGlUb25FaDVRQnJEaVV6eDBkbVRIYTJTeGpCYUM4dzlkQ2QtU3VwUHJ4a2JWNHdfVUxJQk9ka0JGUQ?oc=5",
-     "datum": "Thu, 13 Aug 2026 12:33:20 GMT",
-     "bron": "Investing.com",
+     "titel": "Verzekeraar ASR Nederland verwent met steviger dividend - De Tijd",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVlE3OTBNdC1OSDZXXy1yZHFFX19oZE9mN0txVmk2WEEwOGx5REZ2UGlUM05VTlR4LUliT3lQOWpCZVRmVXdlOHBrU3NiMVdCRmxJU0V6b2FPWU4wTXpybmJUUUVmS2V6UGstX1NpSkZFVHppS1pfYXB4WVhRWWlaQ2pObEYzeGpTdi1UOUNnYWRQTC1BSzhXRjBBczY5Rl9KT2dyNWJnMFdDZl9Mc2l5WExKZ29wV3llZ0Z0TG9OZmZTMFdVWWxzdGszSVM4QWo1UkZRMEN3?oc=5",
+     "datum": "Wed, 19 Aug 2026 15:35:15 GMT",
+     "bron": "De Tijd",
      "gewicht": 3
+    }
+   ]
+  },
+  "HEIA.AS": {
+   "naam": "Heineken N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Carlsberg verhoogt outlook na sterk halfjaar - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWVd3RkN2cGEweF96NXdfeWJCQlZ5SElpVGMxNlhrRUNZclhKenZEVWJMcllpTFllbEVOTTNEc3ZmRW1WaDh0QzVENGR5MlNRUnRRMWh4aDVnTW45M245eXNLT3hqWHZrQ3Z1eUZhUGNHVG4ta2htcVA0UFYxdjBpMFlGWmJDR241U09Qelo4TWVUSmFLWHNKY0xn?oc=5",
+     "datum": "Wed, 19 Aug 2026 07:34:36 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
+    }
+   ]
+  },
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Target verhoogt outlook na sterk tweede kwartaal - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWJRX29ZWFhVRm5RLUpSU1pqb0RaNnVGQTZVZDNvRjZ3elByb01TWDN0cEU1dFZ0SzRNWEpMQWw1UUtONDNUNHVLWlgxdmdycnBIcEhoRjRHVkpNdTdKc09YY3Fyd0l5RWxMZ3pNVEJkZENqT1d1VU9HSVF5RmVuRGJuOUU2a3VoR3lwcXNNZXFZVmVkVl9rZkNmVjN4a2s?oc=5",
+     "datum": "Wed, 19 Aug 2026 10:49:51 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
     }
    ]
   },
@@ -64,25 +127,32 @@
     }
    ]
   },
-  "PHIA.AS": {
-   "naam": "Koninklijke Philips N.V.",
-   "score": 3,
-   "niveau": "laag",
+  "RAND.AS": {
+   "naam": "Randstad N.V.",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Dividendrendement van 3,79% trekt beleggers aan en ondersteunt Philips-aandeel rond de steun op €23,38 - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQWDREQ05xczJLUjBuY2dTX1ozRlNSMXJkY0dvcWl2Vi1VckI2bE12RGhCNm9qemp6bHZ3TzV4Y2ZucXV3a3hMOUtjYVR6S3FNWjR2MEMtT3g4b3VVNXBZSXBnMmVNWVJ4R3pmWDVHd2EteU01eTJUM2hDLWdjVVF3RUNodGlQZjRVNW0wOEV0QUZZVktDcktB?oc=5",
-     "datum": "Wed, 12 Aug 2026 08:52:39 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
+     "titel": "Target verhoogt outlook na sterk tweede kwartaal - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb0FQYWhoeWJDRUlBbGlaUGFVZG96Njg2U1c5ZHMxY0F4WGFVYV83TFh5a25wODVIeGp6TkRDVzhEdjNxWVZBb09zOVktT3ZzS2kzZmFwWUx0TnYwUU53d2FDckl6YWZ2WndieE9sUjNndGMzQ181TUkxay1LTS11aEUza0pTQnRwZ3hNTGZzbldsV3gtRFpHQ1p5N2FHb0U?oc=5",
+     "datum": "Wed, 19 Aug 2026 10:49:11 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 5
     }
    ]
   },
   "SHELL.AS": {
    "naam": "Shell plc",
-   "score": 3,
-   "niveau": "laag",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "WINNERS & LOSERS: Kainos verhoogt outlook; koersval in Tokio raakt beleggingsfondsen - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQbFJTWWVkTS1pZXIzYzIxN1ZpOXhTdVJUV3NIRXRSUXhBbGhTMUFFTm1Ba0RITF9KRFk4SjhaeWFRbkQ5aWJXeDVLcWlJSmVoN0tuTHkyM0FzcjFXWklob1N0SFNkVHhsMW5FZmNkU3NDQnZxYUIyLWVicVBBMUFLR2VWeUdYWnRxbzdYTENtNm5iZnhyeWRybHhBNzBBSWQzeENGY3V0SXhJVzd2NjQ4emFmaFdIWW8wWGpIak5ZaXl5THAxdzlaQjQ3UGx0TjhVZjAyUkRn?oc=5",
+     "datum": "Tue, 18 Aug 2026 09:13:37 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
     {
      "titel": "Shell en dividendbeleggen - Beursgorilla.nl",
      "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qUEk3b2xWZmRUQTZuVVk5dFFwUFh5RXduMUlFdkhlWklwMEtkdVIyaDBGRjJBY3ZsenMwcy1FN285ZU1OWXk2VU5lSExpQlZNRDNVSmxpb0pqbk5YUnJIZUZJWFZRRlpJNlZ2T3ZvWGN6bGdLT0o5YUtjOHJsUQ?oc=5",
@@ -98,10 +168,10 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - iex.nl",
+     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yZ29iRGRtRFFWa042U2hVZzJ5UW1WeEtqNDdmaGtFZFpKVkFla1ZMSU4wV1cyaHRzQ01VaXBhRmhfSGhKVC1kS0VjaGVRa1pDRVF2eGgzQmtfdjYxYlh6ajA1dw?oc=5",
      "datum": "Fri, 14 Aug 2026 06:27:00 GMT",
-     "bron": "iex.nl",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
