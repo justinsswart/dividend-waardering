@@ -1,24 +1,10 @@
 {
- "gescand": "2026-08-19T17:55:44+00:00",
+ "gescand": "2026-08-20T18:01:04+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UckNXQURDOGMyMUw3dkJvZU00Wm8tM0RXemZiT2owcGxpbWt4VEkwUHNJNmVmNG51cTVKQWJCWk5obFgweHFZNXJzVF9scXNKeHFPeWdWRGN5bFlGOTBBNDRvZ2JWVHB3LUlKcFpB?oc=5",
-     "datum": "Thu, 13 Aug 2026 06:32:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    }
-   ]
-  },
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 8,
-   "niveau": "hoog",
+   "score": 4,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Cijfers Adyen: grotere concurrentiedruk niet zichtbaar in de halfjaarcijfers - Morningstar",
@@ -26,20 +12,13 @@
      "datum": "Mon, 17 Aug 2026 08:37:27 GMT",
      "bron": "Morningstar",
      "gewicht": 4
-    },
-    {
-     "titel": "Adyen verhoogt omzetverwachting - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQRW8yeDItc1JaRDlUM3NpaU5oR01IX3RCVzVGTmQwWGJHOFNmbHUxUVdmMTIzSG5Lb2ZIVkJpVjNMVF80N3pfYnJ5VFNjWEc5eGhtRVFvVXk2U3NQLUdnS0FfLThYb3VJYTZxQ3RrS2tpSE5tR1c0NWN1eHhtUWdmMDhCM2Y?oc=5",
-     "datum": "Thu, 13 Aug 2026 06:10:39 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 4
     }
    ]
   },
   "AGN.AS": {
    "naam": "Aegon Ltd.",
-   "score": 7,
-   "niveau": "midden",
+   "score": 16,
+   "niveau": "hoog",
    "items": [
     {
      "titel": "Tianshui Zhongxing Bio-Technology Co.,Ltd. stelt interim-winstuitkering voor als dividend in contanten voor 2026 - MarketScreener Nederland",
@@ -47,6 +26,20 @@
      "datum": "Mon, 17 Aug 2026 19:31:00 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 7
+    },
+    {
+     "titel": "Zhejiang Dahua Technology Co., Ltd. stelt interim-dividend in contanten voor 2026 voor - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQZE1fVmdlSkdyekUtbUY4TjlaVmJBTUx4YTZsdXNSMTBueHNFWmZTS0VoTmZvbjFlbEdJYkFlSkNwYXhFNVNSa1AzRno4YlJNMzhhSlVKRUdnOHpSeDFTTmZ2NHJpWHdWbXl5cHhUaFNWZEJlWmxQS3NGU201TkUzdF9HSU1yajhYem1JeWRmNGZ6RWpRN0hBcEp3T3dlQjI4elkwSGR4XzJ6QlJMNzI5eGRqZXZTa181Yjh1NjJiTEFBMUItZnI4dTMwNk5kNGdFOWUwRHk0eWZCZw?oc=5",
+     "datum": "Mon, 17 Aug 2026 19:31:00 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
+    {
+     "titel": "Aegon uit de gratie na halfjaarcijfers en vertrek CFO - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxORlhkN3RfNzFuNVFnVnh0a2Z3Sm9EeVUwQUVEdGtVSF9Pb1RMYjI4YmI0RVpZZ1J1QUtmT2kzMnFTOGtGTXhreHBhUmQydlJtZnBERmtYNFVka1dhOExIOGtnSDVpcUpLOGlKSGpIWUU3MDNrbzVRTTItZW1rRUhSbkY2cUd6Q3U3VXVTUnZleVVWS2F6RkxlNWF1ZWItS0xBdzFVMUdsSE1oOEZoWWQ5YW5n?oc=5",
+     "datum": "Thu, 20 Aug 2026 09:18:28 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 4
     }
    ]
   },
@@ -61,6 +54,20 @@
      "datum": "Wed, 19 Aug 2026 08:43:17 GMT",
      "bron": "De Belegger",
      "gewicht": 4
+    }
+   ]
+  },
+  "AMG.AS": {
+   "naam": "AMG Critical Materials N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Explosieve omzetgroei Royal Delft door overname - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWGhUUW9UMy1BbnFaYndEc3FHLVhUM3EwNlFWM3M1c2J0V2g0MTh0aEIzY3lNZjBEakNFVERMMXlyMXNaelhMTk1icS03dy1WTGhuYk4xc3pUWUJYanBpcVZkYjRsOXB0VlI3NWljN2FfNG9zOVFLYnY2eWprYTNycXN6UzEtcVo4N3FBOFIwTTcwV0xHdHdIWkFQY1hDUQ?oc=5",
+     "datum": "Thu, 20 Aug 2026 06:27:24 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
     }
    ]
   },
@@ -85,11 +92,32 @@
     }
    ]
   },
+  "BAMNB.AS": {
+   "naam": "Koninklijke BAM Groep nv",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "BAM-aandeel vooruitzicht: Zwakke momentum beperkt opwaarts potentieel - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNX1hQVl81azU3YkZRb1EtdU9OcV9pRklvaXZvNVl0TzVzczhlTzViOWhDejZGU05FX0JvNmlGd0J0blRGOVlPblNsaUc1UkRNcm9JOFVVckhxRjNvaU9vanhlZlNvN0dYODJBRHA3YjVhaTFlc3JqVWZYbWdwNGxVMTIzVmpmMnZsaVFwcEtoTzg?oc=5",
+     "datum": "Wed, 19 Aug 2026 09:11:31 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
   "HEIA.AS": {
    "naam": "Heineken N.V.",
-   "score": 5,
-   "niveau": "midden",
+   "score": 10,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Target verhoogt outlook na sterk tweede kwartaal - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWJRX29ZWFhVRm5RLUpSU1pqb0RaNnVGQTZVZDNvRjZ3elByb01TWDN0cEU1dFZ0SzRNWEpMQWw1UUtONDNUNHVLWlgxdmdycnBIcEhoRjRHVkpNdTdKc09YY3Fyd0l5RWxMZ3pNVEJkZENqT1d1VU9HSVF5RmVuRGJuOUU2a3VoR3lwcXNNZXFZVmVkVl9rZkNmVjN4a2s?oc=5",
+     "datum": "Wed, 19 Aug 2026 10:49:51 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
+    },
     {
      "titel": "Carlsberg verhoogt outlook na sterk halfjaar - deaandeelhouder.be",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWVd3RkN2cGEweF96NXdfeWJCQlZ5SElpVGMxNlhrRUNZclhKenZEVWJMcllpTFllbEVOTTNEc3ZmRW1WaDh0QzVENGR5MlNRUnRRMWh4aDVnTW45M245eXNLT3hqWHZrQ3Z1eUZhUGNHVG4ta2htcVA0UFYxdjBpMFlGWmJDR241U09Qelo4TWVUSmFLWHNKY0xn?oc=5",
@@ -101,15 +129,15 @@
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 5,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Target verhoogt outlook na sterk tweede kwartaal - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWJRX29ZWFhVRm5RLUpSU1pqb0RaNnVGQTZVZDNvRjZ3elByb01TWDN0cEU1dFZ0SzRNWEpMQWw1UUtONDNUNHVLWlgxdmdycnBIcEhoRjRHVkpNdTdKc09YY3Fyd0l5RWxMZ3pNVEJkZENqT1d1VU9HSVF5RmVuRGJuOUU2a3VoR3lwcXNNZXFZVmVkVl9rZkNmVjN4a2s?oc=5",
-     "datum": "Wed, 19 Aug 2026 10:49:51 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
+     "titel": "ING-aandeel consolideert nabij weerstand op €30,78: Technische vooruitzichten - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOQ2xoeHhHV2NTMHZsVTVKano3b0dvWGtnVy1RLWdXU2NuUXFNY0Z5dzUtUkVFV3paT3dUUkFGZ1VBVlBNOWVZTmJHZkYwWktkVS1DdmFBQWZxRGxYR1hFZjBoN29DYk1sUENBajVQQ1F5YmU2TkJUZE1WaXIyYVVKQWkwaDN2SFJTR253?oc=5",
+     "datum": "Wed, 19 Aug 2026 08:13:56 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
     }
    ]
   },
@@ -127,24 +155,10 @@
     }
    ]
   },
-  "RAND.AS": {
-   "naam": "Randstad N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Target verhoogt outlook na sterk tweede kwartaal - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOb0FQYWhoeWJDRUlBbGlaUGFVZG96Njg2U1c5ZHMxY0F4WGFVYV83TFh5a25wODVIeGp6TkRDVzhEdjNxWVZBb09zOVktT3ZzS2kzZmFwWUx0TnYwUU53d2FDckl6YWZ2WndieE9sUjNndGMzQ181TUkxay1LTS11aEUza0pTQnRwZ3hNTGZzbldsV3gtRFpHQ1p5N2FHb0U?oc=5",
-     "datum": "Wed, 19 Aug 2026 10:49:11 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 5
-    }
-   ]
-  },
   "SHELL.AS": {
    "naam": "Shell plc",
-   "score": 8,
-   "niveau": "hoog",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
      "titel": "WINNERS & LOSERS: Kainos verhoogt outlook; koersval in Tokio raakt beleggingsfondsen - MarketScreener Nederland",
@@ -152,13 +166,6 @@
      "datum": "Tue, 18 Aug 2026 09:13:37 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 5
-    },
-    {
-     "titel": "Shell en dividendbeleggen - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9qUEk3b2xWZmRUQTZuVVk5dFFwUFh5RXduMUlFdkhlWklwMEtkdVIyaDBGRjJBY3ZsenMwcy1FN285ZU1OWXk2VU5lSExpQlZNRDNVSmxpb0pqbk5YUnJIZUZJWFZRRlpJNlZ2T3ZvWGN6bGdLT0o5YUtjOHJsUQ?oc=5",
-     "datum": "Mon, 17 Aug 2026 09:14:00 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
     }
    ]
   },

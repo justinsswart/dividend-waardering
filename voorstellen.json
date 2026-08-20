@@ -1,23 +1,16 @@
 {
- "AGN.AS": {
-  "url": "https://www.aegon.com/investors/dividend/dividend-policy",
-  "fout": null,
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-08-19"
- },
  "ECMPA.AS": {
   "url": "https://www.eurocommercialproperties.com/investors/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-19"
+  "gecheckt": "2026-08-20"
  },
  "VLK.AS": {
   "url": "https://www.vanlanschotkempen.com/nl-nl/over-ons/investor-relations/het-aandeel",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-08-19"
+  "gecheckt": "2026-08-20"
  }
 }
