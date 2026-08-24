@@ -1,16 +1,30 @@
 {
- "gescand": "2026-08-21T18:01:22+00:00",
+ "gescand": "2026-08-24T18:02:44+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Carlsberg verhoogt outlook na sterk halfjaar - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWVd3RkN2cGEweF96NXdfeWJCQlZ5SElpVGMxNlhrRUNZclhKenZEVWJMcllpTFllbEVOTTNEc3ZmRW1WaDh0QzVENGR5MlNRUnRRMWh4aDVnTW45M245eXNLT3hqWHZrQ3Z1eUZhUGNHVG4ta2htcVA0UFYxdjBpMFlGWmJDR241U09Qelo4TWVUSmFLWHNKY0xn?oc=5",
+     "datum": "Wed, 19 Aug 2026 07:34:36 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
+    }
+   ]
+  },
+  "ALFEN.AS": {
+   "naam": "Alfen N.V.",
    "score": 4,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Cijfers Adyen: grotere concurrentiedruk niet zichtbaar in de halfjaarcijfers - Morningstar",
-     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOYTV3ckE0aVNwOWxoSUNzdXZ2OVNaR00ydnQtZ0VxWGp0MnBzOXJEanVEWkJqdnFZcVRaU3NIQWpoMkF4a2ZoajVlTGpEc2RjUDZMbXFIMUMyS1A2aDJEYm9aWHkwdVRCTXJNbDdNekpIXzg4clhIY0VWVzZoTGF0Q01CVXhYV3kxUjNOOXRoV1RwWktPeU5KbGxpeHFuWUQwWWJydmtndnIxUlQ5UUI1YWJJeUJadw?oc=5",
-     "datum": "Mon, 17 Aug 2026 08:37:27 GMT",
-     "bron": "Morningstar",
+     "titel": "Laadpalenspecialist Alfen krijgt een tik: wat te denken van de halfjaarcijfers? - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPSFgwTXg1ZkRRUUUyRTNRWFJIOUR2WW1Uek1KempRcmx3SGFzNXU5M1dsTWJhSGwwWmNmMGdRQ1BSaEQ2ZFNkcG9KNUlxVUU0aVFwRG9mMTNXWl93MXF3U0RiSnd0RGVjOVFNWlhwTDgzb1Vkc0hub05wU1lNY21kcDVWWUhhOEdWUWlxRFA4SDl0NnY0T0huWExPeEVGbFZwY0tVWm9XMzlMb20wbnBVUW8tWVJaZ01OUkhtMFVtbEdtcmx1TjltbXRwckhpUmZic3c?oc=5",
+     "datum": "Wed, 19 Aug 2026 08:43:17 GMT",
+     "bron": "De Belegger",
      "gewicht": 4
     }
    ]
@@ -44,8 +58,22 @@
     {
      "titel": "Verzekeraar ASR Nederland verwent met steviger dividend - De Tijd",
      "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPVlE3OTBNdC1OSDZXXy1yZHFFX19oZE9mN0txVmk2WEEwOGx5REZ2UGlUM05VTlR4LUliT3lQOWpCZVRmVXdlOHBrU3NiMVdCRmxJU0V6b2FPWU4wTXpybmJUUUVmS2V6UGstX1NpSkZFVHppS1pfYXB4WVhRWWlaQ2pObEYzeGpTdi1UOUNnYWRQTC1BSzhXRjBBczY5Rl9KT2dyNWJnMFdDZl9Mc2l5WExKZ29wV3llZ0Z0TG9OZmZTMFdVWWxzdGszSVM4QWo1UkZRMEN3?oc=5",
-     "datum": "Wed, 19 Aug 2026 15:35:15 GMT",
+     "datum": "Wed, 19 Aug 2026 09:15:00 GMT",
      "bron": "De Tijd",
+     "gewicht": 3
+    }
+   ]
+  },
+  "AVTX.AS": {
+   "naam": "Avantium N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Kaspositie Avantium dwingt opnieuw tot pijnlijke emissie - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNMkRvTld3bXBYQktXRW9fVENoWlZGWmlQUWxvNmZoQWV0TTBYX1FTV0hRdUxYRUFVdEhZekxrQUJKblk3M1F0VzJGNnRuaVRobGZxRmJzM29GUHUtYndydVo4WTctakZ5NzM4VzJXVmkxRjA2UlhweUZ5R2RlM00tOUN3akdpaUxQT3l4a1JKQTd6a1o4dkdBbFV6Q2EzS2s?oc=5",
+     "datum": "Wed, 19 Aug 2026 13:20:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -66,70 +94,14 @@
   },
   "HEIA.AS": {
    "naam": "Heineken N.V.",
-   "score": 10,
-   "niveau": "hoog",
+   "score": 5,
+   "niveau": "midden",
    "items": [
-    {
-     "titel": "Target verhoogt outlook na sterk tweede kwartaal - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNNWJRX29ZWFhVRm5RLUpSU1pqb0RaNnVGQTZVZDNvRjZ3elByb01TWDN0cEU1dFZ0SzRNWEpMQWw1UUtONDNUNHVLWlgxdmdycnBIcEhoRjRHVkpNdTdKc09YY3Fyd0l5RWxMZ3pNVEJkZENqT1d1VU9HSVF5RmVuRGJuOUU2a3VoR3lwcXNNZXFZVmVkVl9rZkNmVjN4a2s?oc=5",
-     "datum": "Wed, 19 Aug 2026 10:49:51 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    },
     {
      "titel": "Carlsberg verhoogt outlook na sterk halfjaar - deaandeelhouder.be",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWVd3RkN2cGEweF96NXdfeWJCQlZ5SElpVGMxNlhrRUNZclhKenZEVWJMcllpTFllbEVOTTNEc3ZmRW1WaDh0QzVENGR5MlNRUnRRMWh4aDVnTW45M245eXNLT3hqWHZrQ3Z1eUZhUGNHVG4ta2htcVA0UFYxdjBpMFlGWmJDR241U09Qelo4TWVUSmFLWHNKY0xn?oc=5",
      "datum": "Wed, 19 Aug 2026 07:34:36 GMT",
      "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    }
-   ]
-  },
-  "NN.AS": {
-   "naam": "NN Group N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Interimdividenden: voordelen, nadelen en alles wat u er als belegger over moet weten - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFVXcThaekU1U19jTzJJRVVONmxMb2pReHJOMW9CSndndXpUUEp4bjNRZU1DME1jSS1IUXlWNE9Ed05ZaW10Y0czN2pCdEJtbHJNblN2N3pXb29aVjFWS0VFNmZzVXZONWNQMHgteS13cjR6ZlB5T240V3dudHlBdUJuRkFPeEw3bzk5NGYzLUVRajlkX3A2eVBFM3NOd204VENMTDVkUloyTjFhVTZmY0szSVEzMDhyWmFYM09YOXBaS012UW0wMkxFeVhsa3gxb2c?oc=5",
-     "datum": "Mon, 17 Aug 2026 06:07:33 GMT",
-     "bron": "De Belegger",
-     "gewicht": 5
-    }
-   ]
-  },
-  "UMG.AS": {
-   "naam": "Universal Music Group N.V.",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Interimdividenden: voordelen, nadelen en alles wat u er als belegger over moet weten - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFVXcThaekU1U19jTzJJRVVONmxMb2pReHJOMW9CSndndXpUUEp4bjNRZU1DME1jSS1IUXlWNE9Ed05ZaW10Y0czN2pCdEJtbHJNblN2N3pXb29aVjFWS0VFNmZzVXZONWNQMHgteS13cjR6ZlB5T240V3dudHlBdUJuRkFPeEw3bzk5NGYzLUVRajlkX3A2eVBFM3NOd204VENMTDVkUloyTjFhVTZmY0szSVEzMDhyWmFYM09YOXBaS012UW0wMkxFeVhsa3gxb2c?oc=5",
-     "datum": "Mon, 17 Aug 2026 06:07:33 GMT",
-     "bron": "De Belegger",
-     "gewicht": 5
-    },
-    {
-     "titel": "Waarom blijft het aandeel Universal Music Group vandaag vlak? Korte termijn momentum ondersteunt technische vooruitzichten - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOWFliSHQzcTRsWHg1NlZOOWxGSEN3czAxY2h5b2pzZGFkaDN5MFVNMTZCZVdIaUxMRTQ1czNSSDFSSGE0ZFZrdVNtWnRZSUhxMnhpR2NFeDdKWm43TElBN1k4UXhkMVFhMjB6eXY4dHhEVDFZM05HVWVRVEJ5X1NhSXRXelBhUXlsVlNuYjVzLW1pRFU?oc=5",
-     "datum": "Mon, 17 Aug 2026 08:27:27 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "WKL.AS": {
-   "naam": "Wolters Kluwer N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Interimdividenden: voordelen, nadelen en alles wat u er als belegger over moet weten - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxORFVXcThaekU1U19jTzJJRVVONmxMb2pReHJOMW9CSndndXpUUEp4bjNRZU1DME1jSS1IUXlWNE9Ed05ZaW10Y0czN2pCdEJtbHJNblN2N3pXb29aVjFWS0VFNmZzVXZONWNQMHgteS13cjR6ZlB5T240V3dudHlBdUJuRkFPeEw3bzk5NGYzLUVRajlkX3A2eVBFM3NOd204VENMTDVkUloyTjFhVTZmY0szSVEzMDhyWmFYM09YOXBaS012UW0wMkxFeVhsa3gxb2c?oc=5",
-     "datum": "Mon, 17 Aug 2026 06:07:33 GMT",
-     "bron": "De Belegger",
      "gewicht": 5
     }
    ]
