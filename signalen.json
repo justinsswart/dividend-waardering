@@ -1,51 +1,16 @@
 {
- "gescand": "2026-08-29T01:09:44+00:00",
+ "gescand": "2026-08-31T22:03:40+00:00",
  "signalen": {
-  "ADYEN.AS": {
-   "naam": "Adyen N.V.",
-   "score": 3,
-   "niveau": "laag",
+  "AGN.AS": {
+   "naam": "Aegon Ltd.",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Aandeel HP onderuit ondanks hogere outlook - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdTdhRU5zZU1sSUxkaUdYcUZtSnQzd3lzRDdpRzlTRWFMN2FSc1lrMG5odTBpUVJfR3MxU2Q0bW9JeFpzci1Mbm9MNFY0QVBLQ0Z2R1c4M1c4eU5GRlpydmp1emFnVHRoS2RjY1hFbWd2aGJZWUJJWkY0WXo1N1NsdXl1OTRDYmFTazQ5TUhhVlNzSjdBX3hR?oc=5",
-     "datum": "Wed, 26 Aug 2026 20:43:02 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ALFEN.AS": {
-   "naam": "Alfen N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Aandeel HP onderuit ondanks hogere outlook - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdTdhRU5zZU1sSUxkaUdYcUZtSnQzd3lzRDdpRzlTRWFMN2FSc1lrMG5odTBpUVJfR3MxU2Q0bW9JeFpzci1Mbm9MNFY0QVBLQ0Z2R1c4M1c4eU5GRlpydmp1emFnVHRoS2RjY1hFbWd2aGJZWUJJWkY0WXo1N1NsdXl1OTRDYmFTazQ5TUhhVlNzSjdBX3hR?oc=5",
-     "datum": "Wed, 26 Aug 2026 20:43:02 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASML.AS": {
-   "naam": "ASML Holding N.V.",
-   "score": 10,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Microsoft-aandeel houdt stand op $483,91 als ex-dividend uitkering van $0,91 per aandeel de vraag stimuleert - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaEdTSXBqZ3c4YndQWEcyeTRwdW9XUVZvd2s2ZVNfSnAxWFlOcE11WVp5RkpNVEhOODItUDl2MEkzTm5uanpSekRJU3ZXNjJSdFpkcUc5ZTgzd0RCdVBNeC1yODhPd1FwN2I2UFItQ0ljVW1nYWRHQmthT0RKdTQ3NjF2ejV2Y3lMN1U4eEV1aS1KLURa?oc=5",
-     "datum": "Mon, 24 Aug 2026 14:39:45 GMT",
-     "bron": "Traders Union",
-     "gewicht": 5
-    },
-    {
-     "titel": "Waarom stijgt Nvidia-aandeel vandaag? Q2-cijfers overtreffen verwachtingen, nieuws over aandeleninkoop en verhoogde vooruitzichten - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbzZvU2ZHMWhkTTRmc2w5aHRwaVhRSlVNQlJHc3R5anBkM3FqUERuVnlSLXl4VnNJWFFYTjBCM0FOY3djci1qT0dQSll0VXNIZWo1OUlSM2xsMG5jcnRsWDBYY2pTSHg4WmY0MVNWQTRRUTRUSEZpWXJHSGFpb0FLVGRfbjZJN3FpZnppWkdTR0tqblItaVE?oc=5",
-     "datum": "Thu, 27 Aug 2026 14:17:43 GMT",
-     "bron": "Traders Union",
+     "titel": "Anker Innovations Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQlliQmtJVVlrZWhhZDBpSFBMZ2YwSEpJMWE3aGlKRmRIUmVaUGljc1YzNE1TT002bU9PSXU1bENhQmkwd3Fqd0hXeWROZ2lXenp1SWw3TGNFSGtPcjdNdTF5ZGhUNG44MTNTZEtlZllEMWFrNEcyUkh4TVJ5UnRNWUFLd05oTTE0OUFqX0lkbUQwV29HRmczMUtlYU84bkpMRnAtRWppWG94aXB4cGs2UG9zWlhMQzR0VDlzQ0NrQTJtSkE4SUdsWE1iVFlITnU5NFYwWTctMWlFNDFrNzdRcDF5ODZYcmZQZURvRQ?oc=5",
+     "datum": "Mon, 31 Aug 2026 20:20:48 GMT",
+     "bron": "MarketScreener Nederland",
      "gewicht": 5
     }
    ]
@@ -56,10 +21,10 @@
    "niveau": "hoog",
    "items": [
     {
-     "titel": "Citi verhoogt koersdoel ASR na sterke halfjaarcijfers - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQazhseTdESldDRllfQkgtbkZ4ZXJWWFExMmlFU2R5ZHVOMVBPbHpaTThUbkpIaGo1SEtDYk9VNUNDQkczZ3FFV3k2aDNmWFBFZTMtNXYtU2NZckdUS05URERVMkdRR1R5SVdhWU5Sc0FtdGdRbk03UUZUUUlfdERtTFQxNjV3dEx1Wklxb0xJUzBhb2gtYmpRRmJkNFJScW43ekE?oc=5",
-     "datum": "Thu, 27 Aug 2026 07:22:01 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Citi verhoogt koersdoel ASR na sterke halfjaarcijfers - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZkxWYTByYTlxVzA1ekY1elB5MjRiTl9zb3R1dG45YV9TX3UzOWpERmV1NUp1SUt4dzBsaVRtSjhGeVhjcGRKVS1EeFAyOFduX0VJZDBVbGdOcXEwWWJDY1RUTWNlajRjcm5MRDhBMXA2bmNWbzBsYm4yalVaaU9iUzJ2NHQ1aWJ5RWFDZ0FMSjdqeF9RT2k4cWxJcmg?oc=5",
+     "datum": "Thu, 27 Aug 2026 07:46:40 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 6
     },
     {
@@ -80,8 +45,8 @@
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 15,
-   "niveau": "hoog",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Tessenderlo verhoogt outlook - deaandeelhouder.be",
@@ -89,55 +54,6 @@
      "datum": "Thu, 27 Aug 2026 06:34:06 GMT",
      "bron": "deaandeelhouder.be",
      "gewicht": 5
-    },
-    {
-     "titel": "Microsoft-aandeel houdt stand op $483,91 als ex-dividend uitkering van $0,91 per aandeel de vraag stimuleert - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaEdTSXBqZ3c4YndQWEcyeTRwdW9XUVZvd2s2ZVNfSnAxWFlOcE11WVp5RkpNVEhOODItUDl2MEkzTm5uanpSekRJU3ZXNjJSdFpkcUc5ZTgzd0RCdVBNeC1yODhPd1FwN2I2UFItQ0ljVW1nYWRHQmthT0RKdTQ3NjF2ejV2Y3lMN1U4eEV1aS1KLURa?oc=5",
-     "datum": "Mon, 24 Aug 2026 14:39:45 GMT",
-     "bron": "Traders Union",
-     "gewicht": 5
-    },
-    {
-     "titel": "Waarom stijgt Nvidia-aandeel vandaag? Q2-cijfers overtreffen verwachtingen, nieuws over aandeleninkoop en verhoogde vooruitzichten - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPbzZvU2ZHMWhkTTRmc2w5aHRwaVhRSlVNQlJHc3R5anBkM3FqUERuVnlSLXl4VnNJWFFYTjBCM0FOY3djci1qT0dQSll0VXNIZWo1OUlSM2xsMG5jcnRsWDBYY2pTSHg4WmY0MVNWQTRRUTRUSEZpWXJHSGFpb0FLVGRfbjZJN3FpZnppWkdTR0tqblItaVE?oc=5",
-     "datum": "Thu, 27 Aug 2026 14:17:43 GMT",
-     "bron": "Traders Union",
-     "gewicht": 5
-    }
-   ]
-  },
-  "KENDR.AS": {
-   "naam": "Kendrion N.V.",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Tessenderlo verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUlVvMVZLZnJ1OC1yWGZ2U21SdnBtVk9YS0FSNGhzd3EyS3BSY3o5MEItZFE4d2VnRUt5cC0tblVYQUVhYUhEOVZoRVBsYzRycEtjb1FTdUZCd3ZwTUN5MVlnUlVRck1mTFJ4bTNXVU5MdTJRckwxZUFoeEsyNjV1OTFITXo?oc=5",
-     "datum": "Thu, 27 Aug 2026 06:34:06 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    },
-    {
-     "titel": "Aandeel HP onderuit ondanks hogere outlook - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNdTdhRU5zZU1sSUxkaUdYcUZtSnQzd3lzRDdpRzlTRWFMN2FSc1lrMG5odTBpUVJfR3MxU2Q0bW9JeFpzci1Mbm9MNFY0QVBLQ0Z2R1c4M1c4eU5GRlpydmp1emFnVHRoS2RjY1hFbWd2aGJZWUJJWkY0WXo1N1NsdXl1OTRDYmFTazQ5TUhhVlNzSjdBX3hR?oc=5",
-     "datum": "Wed, 26 Aug 2026 20:43:02 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "MT.AS": {
-   "naam": "ArcelorMittal S.A.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "ArcelorMittal initiated Overweight at Morgan Stanley on optimistic steel outlook (MT:NYSE) - Seeking Alpha",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPZlBOaks1UGRUTU8wZVJ1eEJ5MzdRV2JiUU8ybHF4ZDFpRGVCeGlEcFUxRThUenJpY1BxMEhCRUo2N0poWmxqZmNDWXNQNmIzcm05TFdVeGQyQVZNYXd1bW1rU0V5YVJITVdUU0tIZG90S1ZUNTFiU2JXbU83WVNIUTZTWEtNakp4TXBQNkxiQk9YTlVYaEJuazJxdk8wQUhJQ0c1TkowVUlkZkY5YWlES0ZtSW82REE4bUE?oc=5",
-     "datum": "Mon, 24 Aug 2026 19:32:18 GMT",
-     "bron": "Seeking Alpha",
-     "gewicht": 3
     }
    ]
   },
@@ -162,20 +78,6 @@
     }
    ]
   },
-  "PHIA.AS": {
-   "naam": "Koninklijke Philips N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Microsoft-aandeel houdt stand op $483,91 als ex-dividend uitkering van $0,91 per aandeel de vraag stimuleert - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOaEdTSXBqZ3c4YndQWEcyeTRwdW9XUVZvd2s2ZVNfSnAxWFlOcE11WVp5RkpNVEhOODItUDl2MEkzTm5uanpSekRJU3ZXNjJSdFpkcUc5ZTgzd0RCdVBNeC1yODhPd1FwN2I2UFItQ0ljVW1nYWRHQmthT0RKdTQ3NjF2ejV2Y3lMN1U4eEV1aS1KLURa?oc=5",
-     "datum": "Mon, 24 Aug 2026 14:39:45 GMT",
-     "bron": "Traders Union",
-     "gewicht": 5
-    }
-   ]
-  },
   "VLK.AS": {
    "naam": "Van Lanschot Kempen NV",
    "score": 3,
@@ -186,20 +88,6 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeWd2VDdlTjVXY090ZU1jdzdfMzlKVDZwci1uX3A4eGtNM3J2Y3Q2R0E0cFh0OTY3RFF3bS1la1ZHZElzOEtnRFpMVnc3Y3JYd3RpQnNOM3BhTU9kblhxdTlzYjBKbGd5cWhlZDNYMVZqMWNLQXZoMHBmbEdSTkkweS0yRUFoc0I5UFpLc0JGdVJLRVdaZTA0YWs5QXVNa1pjbWVDUjFjWVF6ZVI5RDA4?oc=5",
      "datum": "Fri, 28 Aug 2026 04:42:46 GMT",
      "bron": "Investment Officer",
-     "gewicht": 3
-    }
-   ]
-  },
-  "WKL.AS": {
-   "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Beursblik: KBC Securities verlaagt koersdoel Wolters Kluwer fors maar handhaaft koopadvies - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOd3Jac0otZURvZFQzR21tdWxLNXY1VHAzaFo2TjZQbnlxQXdvbDk5TlpsUTRjdkRjRzQzcXhWNm5aV3N0RmtFbDRIUzdVdTZfSVNZN2NJUU53RjJaenRNUldTdWZ5VHJGbVRWSVhXQ2VTUktNT3VHVHVDb1Eyb1dVVG1GUGZqdlJEY3JoSE1iVHBzSTFQUHphRExVTnZ4TkJLTzR6ejJUM2xDTTFrdnpIVmE1bFk5T1liQjRDTVBtNnRpRERhZG8zVC1TZ3ZaVzVrVG96SUxR?oc=5",
-     "datum": "Tue, 25 Aug 2026 07:32:07 GMT",
-     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
