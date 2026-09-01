@@ -1,15 +1,71 @@
 {
- "gescand": "2026-08-31T22:03:40+00:00",
+ "gescand": "2026-09-01T20:09:23+00:00",
  "signalen": {
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Deutsche Bank verlaagt koersdoel UMG - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSWJuMktNSXFPT2hhOGRuZXVMUnpDV0lDWkcwYzF6ZWdSdnZWMWZMMVJtcnQ3VWxXbWdZVlM0Z3JLOEhhQ3liOS1xakU4b2c4RjlWa0VzRG1fb3h4YlBPUEJ5VzktbzQ4V2owb0ZxZC1yYllHRnh4R2g0OC1JSGZOck5OUXNKUQ?oc=5",
+     "datum": "Tue, 01 Sep 2026 11:40:17 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ADYEN.AS": {
+   "naam": "Adyen N.V.",
+   "score": 9,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Salesforce verhoogt outlook en breidt samenwerking Anthropic uit - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOckJZUUZTcE04bmxFUm5QN0RXaEhCT0J3MlpfQ09Gc21JbGh1elZmb2N6SmJIWHRxMFhrOUNsVWxzTzM2QUZZNlExS0pKV2JyZWxWX1hIdE12aGhCU0tYMlNKWXV5elZvdnh6b2UxVVB6SUZYUFVYcmpubTd5dDAwbmh2emV4bFpUS1V0Qjh2ZlMyb0QzQ1duTTdFT09EN0pWMVlYWUR2S2ZzZzIxVHJfVk5sTDY?oc=5",
+     "datum": "Wed, 26 Aug 2026 20:25:25 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 5
+    },
+    {
+     "titel": "Best Buy verhoogt verwachtingen na sterke groei in VS - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSjFPT21BMUd1NVZWZU14RWxxOFR0UmRhNjFjZGV5SWl0UW9YMlFMQ1diRHd6X2Jhb1Jka0ZUVEt3QTlGVDBCYjdsTjloenA3Z2ZwT0RpNmFTZmN1S1YxOG1WZy1hZzNlN19BakNWMmZLeXIwSTBhMkJUQXAzMC0wb3VEX3A0TEQ3Qk9GbGg0cDFFTXk1M0xuOFl2TExxQVZ5WkYzaDBR?oc=5",
+     "datum": "Thu, 27 Aug 2026 11:44:20 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 4
+    }
+   ]
+  },
   "AGN.AS": {
    "naam": "Aegon Ltd.",
-   "score": 5,
-   "niveau": "midden",
+   "score": 20,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Ssaw Hotels & Resorts Group Co.,Ltd. stelt interim-dividend in contanten voor 2026 voor - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1FiMHVkQ0wxcmZuVHM0RFVpTnZIQkM3b1RabW1lNGpYZ1U0SkNpb1RwTlp1ekRqSnNaT1hFQkotZVNkQ3ZEWENzRGdQQVpxQ2RxZlhKZXZMMzVLbFF5R25RRVh0MWZLZEU1Y092bEE5Q05iLW1KeHdTWU1zRnJXOXhSMzVXZk5jWEVjeWZzdGpKbVNud0FKclByTkM4Yl9CRmxTQWk3QlpKTVd4SWp4T25jdjVjOGFPVkEyZ1ZFdURZaWRNRHpfdXBtU2dxeDZEV2FtLXpjenRoZw?oc=5",
+     "datum": "Mon, 31 Aug 2026 20:21:17 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
+    {
+     "titel": "Glory View Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSXRKWUpieE41YjR2ZXVmdG5HRllkNXdQZ2FEMGgwU1dyX2pfMTRQMzItSEUtYUVjazVUWXhkelB0X1E1Y002VkhTaFBFeGFYUjdreVNGU3NFMFdpclFoLTdqRFJSa0tVLXBHMXJBNHhBUzNFSFpsaFZ4enRLeU5kX1ptcnRWUTdlaTA1WGtDX0xvdUp1djNtZVhXei10S1l6bDdUN0RNSlZHWWEyQVdjd2RJeVh3UkwwRUtxUTRQTVdaNElQdnJBSTAwd0djcmxhNDJfdGRrV01RQ1NlTUtlT2t3Y1owdw?oc=5",
+     "datum": "Mon, 31 Aug 2026 20:21:07 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
     {
      "titel": "Anker Innovations Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
      "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQlliQmtJVVlrZWhhZDBpSFBMZ2YwSEpJMWE3aGlKRmRIUmVaUGljc1YzNE1TT002bU9PSXU1bENhQmkwd3Fqd0hXeWROZ2lXenp1SWw3TGNFSGtPcjdNdTF5ZGhUNG44MTNTZEtlZllEMWFrNEcyUkh4TVJ5UnRNWUFLd05oTTE0OUFqX0lkbUQwV29HRmczMUtlYU84bkpMRnAtRWppWG94aXB4cGs2UG9zWlhMQzR0VDlzQ0NrQTJtSkE4SUdsWE1iVFlITnU5NFYwWTctMWlFNDFrNzdRcDF5ODZYcmZQZURvRQ?oc=5",
      "datum": "Mon, 31 Aug 2026 20:20:48 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
+    {
+     "titel": "Inner Mongolia Xingye Silver & Tin Mining Co., Ltd stelt interim-dividend in contanten voor over 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR2EtdmUya1FKQ3J2RUE1T3Y3Ml9tclNQaHB1eHBWdVl3dzQ1WF95N3hZaXhzMm9OZTdabFlSZnFVclZBRGY4dk01WjVOOU5BQkVFU2VUbExjOWZldEtVYXNCeGFYUVV1SW1PTkladXhlUkd1Zi1DcGVGbXZaNy1ycndwMHZGcHh2SkFjVlBLWVgwTmxqTnN0QUtZamJOX3ZQUzhoZWttQ241VURYZXNMbXlDQUllQUp1VGs5UGNjTUg0eGlOOTMxTFF1MmI2S0xaUGJVbXg5eWVKYVJsMmpYUEdJOVdmSzRlc2VR?oc=5",
+     "datum": "Mon, 31 Aug 2026 20:36:47 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 5
     }
@@ -43,6 +99,20 @@
     }
    ]
   },
+  "HYDRA.AS": {
+   "naam": "Hydratec Industries NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Twee jaar na mislukte beursexit keert maakbedrijf Hydratec recorddividend uit - Het Financieele Dagblad",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY1VCRG1jZU5GaDdoUjRjeEU1UUZhR1dEQU4waXF3TlZwZEJFMHo3bjRTMWVFMTJUdEJEUm1lQnRIcVIxbF9WSFJ0X1NNeFZVS204c1RjOUNzLVozS05sU1RXZ09BeHBXdlV4a29HNkFyYjNHbnNpLWZfQjhuMl92aVJsU1hITDM3VVpjZWNDX3hRV2FxWjF3aHBGeTNXazVySnJTcHByMVFlYURsUU9mRldUTQ?oc=5",
+     "datum": "Mon, 31 Aug 2026 22:30:05 GMT",
+     "bron": "Het Financieele Dagblad",
+     "gewicht": 3
+    }
+   ]
+  },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
    "score": 5,
@@ -57,9 +127,23 @@
     }
    ]
   },
+  "KENDR.AS": {
+   "naam": "Kendrion N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: voorzichtigere outlook CFE - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQW5NV1ZJTXVnbGZpblgzNEI3V2FENG53U0dCSnU2SDY3VXhXNWl5VmM4VXNuQnc0UUFVcEl5Q21LRE5tcy1rNV9LenpfRHk5cXdqNWZ6NzMxMF9ndTNyVl80SW9Dc3BRTWpwWFlzWlJQMmw1WDAzbElaRk16ZnljR2F6WnE1b1FrT2pMMlk3RQ?oc=5",
+     "datum": "Thu, 27 Aug 2026 07:49:08 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 3
+    }
+   ]
+  },
   "NN.AS": {
    "naam": "NN Group N.V.",
-   "score": 8,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
@@ -74,6 +158,27 @@
      "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1UMExaVFQxZTBoNURSM1FIQkdzbk12bk90TDU0aFlzTUVwRHcwZWVBcHZEU1VmWmlGNlRUNTZTUU9zcXZRb2ZjNUZIOUFBdTBqUlhWYWUxa2djR3hWTzI5dF9QVE8yM0dKVjc3Y2ZYODg0bDROY21hS3BR?oc=5",
      "datum": "Wed, 26 Aug 2026 20:00:00 GMT",
      "bron": "Beleggers Belangen",
+     "gewicht": 3
+    },
+    {
+     "titel": "Top 25 snelgroeiende schadeverzekeraars: overnamekandidaten in beeld - AMweb",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPb29paC1LM2Q0c3FsWFlFYjQ4RTVhRVNvT2lhajBHSjhSem1LVFVadmdwZUhKT2l4N3RBcHowRmNvSzdOWEkxYXNBOHJoVWVIMVFYV3F6WG1GdzNkbWhsTXFVYm5haF80NGZpRnc0dldMSzZJSzRrYVhYbUtxUHB3MkdnVzY1QzFKWS1iTGJXSnBZa1had21ONkNxSQ?oc=5",
+     "datum": "Fri, 28 Aug 2026 11:41:30 GMT",
+     "bron": "AMweb",
+     "gewicht": 3
+    }
+   ]
+  },
+  "UMG.AS": {
+   "naam": "Universal Music Group N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Deutsche Bank verlaagt koersdoel UMG - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb25JSHZoS0ZuOWdpLVFjYjZMblJxdHVzZ21pTTdKVnFYbUs3MHJHeGZxanJTZmgwNE5SdzYzV195dTNFdUprbEhHV0s2dWp3WnBqdFpEOVVUOTZlWGE0RzZOSTNSN1ZzMWh1QktuY0RIMW15YnlJcWJrTy1YMWxTY1BrU2Y2LUprYVA0?oc=5",
+     "datum": "Tue, 01 Sep 2026 10:40:25 GMT",
+     "bron": "Beursgorilla.nl",
      "gewicht": 3
     }
    ]

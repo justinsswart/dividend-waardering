@@ -1,12 +1,12 @@
 {
- "bijgewerkt": "2026-08-31",
+ "bijgewerkt": "2026-09-01",
  "bedrijven": {
   "AALB.AS": {
    "laatste_cijfers": null,
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-23",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 176,
+   "dagen_tot": 175,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Aalberts persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (23-07-2026)",
    "status": "vers"
@@ -16,7 +16,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-11-11",
    "volgende_soort": "Q3",
-   "dagen_tot": 72,
+   "dagen_tot": 71,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
    "status": "vers"
@@ -36,7 +36,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-11-04",
    "volgende_soort": "Q3",
-   "dagen_tot": 65,
+   "dagen_tot": 64,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "aholddelhaize.com/investors - payout ratio circa 40-50%",
    "status": "vers"
@@ -46,7 +46,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-02-11",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 164,
+   "dagen_tot": 163,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -56,7 +56,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-11-05",
    "volgende_soort": "Q3",
-   "dagen_tot": 66,
+   "dagen_tot": 65,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -66,7 +66,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 171,
+   "dagen_tot": 170,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
    "status": "vers"
@@ -86,7 +86,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-21",
    "volgende_soort": "Q3",
-   "dagen_tot": 51,
+   "dagen_tot": 50,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "akzonobel.com/en/investors/dividend - slotdividend 1,54 betaalbaar 6 mei 2026",
    "status": "vers"
@@ -96,7 +96,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-17",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 170,
+   "dagen_tot": 169,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -116,7 +116,7 @@
    "laatste_soort": "Q3",
    "volgende_cijfers": "2026-11-04",
    "volgende_soort": "Q3",
-   "dagen_tot": 65,
+   "dagen_tot": 64,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "AMG persbericht jaarcijfers 2025 (25-02-2026) en Q2 2026 (29-07-2026)",
    "status": "vers"
@@ -126,7 +126,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-11-06",
    "volgende_soort": "Q3",
-   "dagen_tot": 67,
+   "dagen_tot": 66,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
    "status": "vers"
@@ -136,7 +136,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 171,
+   "dagen_tot": 170,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Arcadis persbericht Q4/jaarcijfers 2025 (19-02-2026) en Q2/halfjaarcijfers 2026 (30-07-2026)",
    "status": "vers"
@@ -146,7 +146,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-27",
    "volgende_soort": "Q3",
-   "dagen_tot": 57,
+   "dagen_tot": 56,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
    "status": "vers"
@@ -156,7 +156,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-14",
    "volgende_soort": "Q3",
-   "dagen_tot": 44,
+   "dagen_tot": 43,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "asml.com/en/investors/why-invest-in-asml/capital-return-and-financing + jaarverslag 2025 (Form 20-F)",
    "status": "vers"
@@ -166,7 +166,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-17",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 170,
+   "dagen_tot": 169,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid + dividendinfo.nl",
    "status": "vers"
@@ -196,7 +196,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 171,
+   "dagen_tot": 170,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "BAM persbericht jaarcijfers 2025 (19-02-2026) en halfjaarcijfers 2026 (30-07-2026)",
    "status": "vers"
@@ -206,7 +206,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-22",
    "volgende_soort": "Q3",
-   "dagen_tot": 52,
+   "dagen_tot": 51,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -226,7 +226,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-03-11",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 192,
+   "dagen_tot": 191,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -236,7 +236,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2026-11-06",
    "volgende_soort": "Q3",
-   "dagen_tot": 67,
+   "dagen_tot": 66,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Brunel jaarresultaten 2025 (20-02-2026) en Q1-update 2026",
    "status": "vers"
@@ -246,7 +246,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-03-04",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 185,
+   "dagen_tot": 184,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Cabka jaarcijfers 2024 (18-03-2025) en halfjaarcijfers 2025",
    "status": "vers"
@@ -266,7 +266,7 @@
    "laatste_soort": "Q3",
    "volgende_cijfers": "2027-02-26",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 179,
+   "dagen_tot": 178,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Corbion persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
    "status": "vers"
@@ -276,7 +276,7 @@
    "laatste_soort": "Q3",
    "volgende_cijfers": "2026-10-29",
    "volgende_soort": "Q3",
-   "dagen_tot": 59,
+   "dagen_tot": 58,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "ctp.eu/investors - AVA 20 mei 2026, slotdividend 0,32 per aandeel",
    "status": "vers"
@@ -286,7 +286,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 171,
+   "dagen_tot": 170,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "investors.dsm-firmenich.com/en/investors/share-center/dividend + jaarcijfers 2025",
    "status": "vers"
@@ -306,7 +306,7 @@
    "laatste_soort": "Q3",
    "volgende_cijfers": "2026-10-29",
    "volgende_soort": "Q3",
-   "dagen_tot": 59,
+   "dagen_tot": 58,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "eurocommercialproperties.com/investors - halfjaarlijkse uitkering juli en januari",
    "status": "vers"
@@ -326,7 +326,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2026-09-22",
    "volgende_soort": "Q3",
-   "dagen_tot": 22,
+   "dagen_tot": 21,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -336,7 +336,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-11",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 164,
+   "dagen_tot": 163,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Fagron persbericht jaarresultaten 2025 (12-02-2026) en halfjaarresultaten 2026 (30-07-2026)",
    "status": "vers"
@@ -346,7 +346,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-29",
    "volgende_soort": "Q3",
-   "dagen_tot": 59,
+   "dagen_tot": 58,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -356,7 +356,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-03-04",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 185,
+   "dagen_tot": 184,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Fugro dividendbeleidspagina, jaarcijfers 2025 (27-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
    "status": "vers"
@@ -366,7 +366,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-03-25",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 206,
+   "dagen_tot": 205,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -376,7 +376,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-02-10",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 163,
+   "dagen_tot": 162,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "theheinekencompany.com/investors + persbericht jaarcijfers 11 februari 2026",
    "status": "vers"
@@ -386,7 +386,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-19",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 172,
+   "dagen_tot": 171,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Heijmans jaarcijfers 2025 (13-02-2026) en AVA-besluit dividend (29-04-2026)",
    "status": "vers"
@@ -396,7 +396,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-10",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 163,
+   "dagen_tot": 162,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "heinekenholding.com/investors/share-information/dividend + AVA 23 april 2026",
    "status": "vers"
@@ -426,7 +426,7 @@
    "laatste_soort": "Q1",
    "volgende_cijfers": "2026-11-05",
    "volgende_soort": "Q3",
-   "dagen_tot": 66,
+   "dagen_tot": 65,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "imcdgroup.com/investors - jaarcijfers 2025, dividendvoorstel AVA 30 april 2026",
    "status": "vers"
@@ -436,17 +436,17 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-29",
    "volgende_soort": "Q3",
-   "dagen_tot": 59,
+   "dagen_tot": 58,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "ing.com/investors/share-information/dividend-and-distribution-policy",
    "status": "vers"
   },
   "INPST.AS": {
-   "laatste_cijfers": "2026-05-13",
-   "laatste_soort": "Q1",
-   "volgende_cijfers": null,
-   "volgende_soort": null,
-   "dagen_tot": null,
+   "laatste_cijfers": "2026-08-30",
+   "laatste_soort": "halfjaarcijfers",
+   "volgende_cijfers": "2027-03-18",
+   "volgende_soort": "jaarcijfers",
+   "dagen_tot": 198,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -466,7 +466,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-28",
    "volgende_soort": "Q3",
-   "dagen_tot": 58,
+   "dagen_tot": 57,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "ir.kpn.com/shareholder-center/dividends",
    "status": "vers"
@@ -476,7 +476,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-23",
    "volgende_soort": "Q3",
-   "dagen_tot": 53,
+   "dagen_tot": 52,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
    "status": "vers"
@@ -486,7 +486,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-11-05",
    "volgende_soort": "Q3",
-   "dagen_tot": 66,
+   "dagen_tot": 65,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "corporate.arcelormittal.com/investors/equity-investors/dividends + jaarverslag 2025 (Form 20-F)",
    "status": "vers"
@@ -516,7 +516,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-02-11",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 164,
+   "dagen_tot": 163,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
    "status": "vers"
@@ -526,7 +526,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-01-28",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 150,
+   "dagen_tot": 149,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "nsi.nl/investor-relations - jaarcijfers 28 januari 2026, dividendbesluit 17 april 2026",
    "status": "vers"
@@ -534,9 +534,9 @@
   "OCI.AS": {
    "laatste_cijfers": "2024-08-02",
    "laatste_soort": "halfjaarcijfers",
-   "volgende_cijfers": "2026-09-04",
+   "volgende_cijfers": "2026-09-10",
    "volgende_soort": "Q3",
-   "dagen_tot": 4,
+   "dagen_tot": 9,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -546,7 +546,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2026-11-05",
    "volgende_soort": "Q3",
-   "dagen_tot": 66,
+   "dagen_tot": 65,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -556,7 +556,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-11-03",
    "volgende_soort": "Q3",
-   "dagen_tot": 64,
+   "dagen_tot": 63,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "philips.com/investor-relations - dividendvoorstel bij de jaarcijfers, AVA mei 2026",
    "status": "vers"
@@ -566,7 +566,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2026-10-26",
    "volgende_soort": "Q3",
-   "dagen_tot": 56,
+   "dagen_tot": 55,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "PostNL jaarcijfers 2025 (23-02-2026), dividendaankondiging (14-04-2026) en halfjaarcijfers 2026 (03-08-2026)",
    "status": "vers"
@@ -586,7 +586,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2026-11-25",
    "volgende_soort": "Q3",
-   "dagen_tot": 86,
+   "dagen_tot": 85,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -596,7 +596,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-21",
    "volgende_soort": "Q3",
-   "dagen_tot": 51,
+   "dagen_tot": 50,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "randstad.com/investor-relations - dividendvoorstel februari 2026, jaarcijfers 2025",
    "status": "vers"
@@ -606,7 +606,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-11",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 164,
+   "dagen_tot": 163,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "relx.com/investors/shareholder-information/dividend-information + jaarcijfers 12 februari 2026",
    "status": "vers"
@@ -616,7 +616,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-02-18",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 171,
+   "dagen_tot": 170,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "SBM Offshore jaarcijfers 2025 (26-02-2026), Q1-update (07-05-2026) en halfjaarcijfers 2026",
    "status": "vers"
@@ -626,7 +626,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2026-10-29",
    "volgende_soort": "Q3",
-   "dagen_tot": 59,
+   "dagen_tot": 58,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "shell.com/investors/dividends",
    "status": "vers"
@@ -636,7 +636,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-03-12",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 193,
+   "dagen_tot": 192,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -646,7 +646,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-04",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 157,
+   "dagen_tot": 156,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Sligro persbericht jaarcijfers 2025 (05-02-2026), dividendpagina en halfjaarcijfers 2026 (23-07-2026)",
    "status": "vers"
@@ -656,7 +656,7 @@
    "laatste_soort": "Q3",
    "volgende_cijfers": "2026-10-15",
    "volgende_soort": "Q3",
-   "dagen_tot": 45,
+   "dagen_tot": 44,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -666,7 +666,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-03-04",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 185,
+   "dagen_tot": 184,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "tkhgroup.com/investors - jaarcijfers 4 maart 2026, AVA 13 mei 2026",
    "status": "vers"
@@ -676,7 +676,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2026-10-29",
    "volgende_soort": "Q3",
-   "dagen_tot": 59,
+   "dagen_tot": 58,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "investors.universalmusic.com - jaarcijfers 5 maart 2026, halfjaarcijfers 30 juli 2026",
    "status": "vers"
@@ -686,7 +686,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-02-09",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 162,
+   "dagen_tot": 161,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
    "status": "vers"
@@ -696,7 +696,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2027-02-24",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 177,
+   "dagen_tot": 176,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "Van Lanschot Kempen jaarcijfers 2025 (26-02-2026) en de eigen pagina 'Het aandeel'",
    "status": "vers"
@@ -706,7 +706,7 @@
    "laatste_soort": "halfjaarcijfers",
    "volgende_cijfers": "2027-02-26",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 179,
+   "dagen_tot": 178,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "vopak.com/investors - jaarcijfers 2025, nieuw kapitaalbeleid april 2026",
    "status": "vers"
@@ -716,7 +716,7 @@
    "laatste_soort": null,
    "volgende_cijfers": "2026-11-03",
    "volgende_soort": "Q3",
-   "dagen_tot": 64,
+   "dagen_tot": 63,
    "guidance_gecheckt": null,
    "guidance_bron": null,
    "status": "nooit"
@@ -726,7 +726,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-02-12",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 165,
+   "dagen_tot": 164,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "wereldhave.com/investors - jaarcijfers 10 februari 2026",
    "status": "vers"
@@ -736,7 +736,7 @@
    "laatste_soort": "jaarcijfers",
    "volgende_cijfers": "2027-02-24",
    "volgende_soort": "jaarcijfers",
-   "dagen_tot": 177,
+   "dagen_tot": 176,
    "guidance_gecheckt": "2026-08-15",
    "guidance_bron": "wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
    "status": "vers"
