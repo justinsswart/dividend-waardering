@@ -1,23 +1,23 @@
 {
- "gescand": "2026-09-02T20:04:51+00:00",
+ "gescand": "2026-09-03T20:06:59+00:00",
  "signalen": {
-  "ADYEN.AS": {
-   "naam": "Adyen N.V.",
-   "score": 4,
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
+   "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Best Buy verhoogt verwachtingen na sterke groei in VS - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQSjFPT21BMUd1NVZWZU14RWxxOFR0UmRhNjFjZGV5SWl0UW9YMlFMQ1diRHd6X2Jhb1Jka0ZUVEt3QTlGVDBCYjdsTjloenA3Z2ZwT0RpNmFTZmN1S1YxOG1WZy1hZzNlN19BakNWMmZLeXIwSTBhMkJUQXAzMC0wb3VEX3A0TEQ3Qk9GbGg0cDFFTXk1M0xuOFl2TExxQVZ5WkYzaDBR?oc=5",
-     "datum": "Thu, 27 Aug 2026 11:44:20 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 4
+     "titel": "Campbell's snijdt stevig in het dividend - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2UxeDVkS1pNdXpxbVlVUjVuelpfVU0xaURhTzR1TTAtTmsxSDlTRkVPVEpvRnlOMWhVZ0V5cU9fQldvSmlodFE2Q01RMFhnTE5VdHF0LWRxZ2RvQjdmdEFsd2Y1MjRucERFS3ZjLUdpZGpIQ1cydHZTd1Zoc2I5VjJFdW9rN0JvdlE?oc=5",
+     "datum": "Thu, 03 Sep 2026 12:30:42 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
     }
    ]
   },
   "AGN.AS": {
    "naam": "Aegon Ltd.",
-   "score": 20,
+   "score": 10,
    "niveau": "hoog",
    "items": [
     {
@@ -33,145 +33,33 @@
      "datum": "Mon, 31 Aug 2026 20:21:07 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 5
-    },
+    }
+   ]
+  },
+  "AMG.AS": {
+   "naam": "AMG Critical Materials N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
-     "titel": "Anker Innovations Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQlliQmtJVVlrZWhhZDBpSFBMZ2YwSEpJMWE3aGlKRmRIUmVaUGljc1YzNE1TT002bU9PSXU1bENhQmkwd3Fqd0hXeWROZ2lXenp1SWw3TGNFSGtPcjdNdTF5ZGhUNG44MTNTZEtlZllEMWFrNEcyUkh4TVJ5UnRNWUFLd05oTTE0OUFqX0lkbUQwV29HRmczMUtlYU84bkpMRnAtRWppWG94aXB4cGs2UG9zWlhMQzR0VDlzQ0NrQTJtSkE4SUdsWE1iVFlITnU5NFYwWTctMWlFNDFrNzdRcDF5ODZYcmZQZURvRQ?oc=5",
-     "datum": "Mon, 31 Aug 2026 20:20:48 GMT",
+     "titel": "Campbell’s snijdt stevig in het dividend - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY3NRMDZaYkJvWUt4RnpMVi0taERvTzBpQm1LVFV0T0Y0emtnVmdqcFd0ZmE1NEtIb2F5ZkFHMUJjLS16bENZbEpkcGdYUVMzX3NhbXY3ODc3WkV0cmVkTmpwbUU5dXE5Q3RPSWxvbnNrbXU4bUZsdnlOVVVVR2duazhZM2NBd3NQbmxXMWNvYTFOdms?oc=5",
+     "datum": "Thu, 03 Sep 2026 12:25:32 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Shell rondt overname van ARC Resources voor 16,5 miljard dollar af - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUDM0Ml9rXzB1SGJ0QzJiQ0xXbUlnZm1tN0RZMFRwLVYxYTB5V2ZQRFM2a0haVEN4OUZoaG5IX2lOeDZndWNUVHJXS1ZIZVpKMmYtd09rajZpNHdpXzRSZ3l3R1ZwcVRMelZNVW9VV0xjM3lvbTZTN241bDgzOHBoTDZhQXhlcGtWQjRSdjZlWUJLWU5nMlFPZU5SMFJEdWhITjhvdFI5dVBwdTlyX2dEeThLR1YyWTI1VTVXNlhFcmZtNUU?oc=5",
+     "datum": "Thu, 03 Sep 2026 12:53:28 GMT",
      "bron": "MarketScreener Nederland",
-     "gewicht": 5
-    },
-    {
-     "titel": "Inner Mongolia Xingye Silver & Tin Mining Co., Ltd stelt interim-dividend in contanten voor over 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxNR2EtdmUya1FKQ3J2RUE1T3Y3Ml9tclNQaHB1eHBWdVl3dzQ1WF95N3hZaXhzMm9OZTdabFlSZnFVclZBRGY4dk01WjVOOU5BQkVFU2VUbExjOWZldEtVYXNCeGFYUVV1SW1PTkladXhlUkd1Zi1DcGVGbXZaNy1ycndwMHZGcHh2SkFjVlBLWVgwTmxqTnN0QUtZamJOX3ZQUzhoZWttQ241VURYZXNMbXlDQUllQUp1VGs5UGNjTUg0eGlOOTMxTFF1MmI2S0xaUGJVbXg5eWVKYVJsMmpYUEdJOVdmSzRlc2VR?oc=5",
-     "datum": "Mon, 31 Aug 2026 20:36:47 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
-    }
-   ]
-  },
-  "ASRNL.AS": {
-   "naam": "ASR Nederland N.V.",
-   "score": 14,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Citi verhoogt koersdoel ASR na sterke halfjaarcijfers - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZkxWYTByYTlxVzA1ekY1elB5MjRiTl9zb3R1dG45YV9TX3UzOWpERmV1NUp1SUt4dzBsaVRtSjhGeVhjcGRKVS1EeFAyOFduX0VJZDBVbGdOcXEwWWJDY1RUTWNlajRjcm5MRDhBMXA2bmNWbzBsYm4yalVaaU9iUzJ2NHQ1aWJ5RWFDZ0FMSjdqeF9RT2k4cWxJcmg?oc=5",
-     "datum": "Thu, 27 Aug 2026 07:46:40 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 6
-    },
-    {
-     "titel": "Ageas bevestigt €1,50 interimdividend na vijf jaar dividendgroei - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRE1hdmUzMGxrd1lRZUhlcVdEUFQ5ZENNOE1KcW9TTE1ST2RkSlVpZ0xHbXZ2WHFsYVc5ZzNVTmlSS3E4RTBEUXdURm41ZkQycEdrcGhKTngtZW5PX0Q2XzRNbVIxcFcySHlHQXNCWi13VlY4dmVoTlFfSUhhT2VyMDNlVlA5ZTMw?oc=5",
-     "datum": "Fri, 28 Aug 2026 08:15:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 5
-    },
-    {
-     "titel": "Nederlandse, Franse en Belgische aandelen die binnenkort ex-dividend gaan - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFJxQ0ktSXZOTy1zRzFNeEd2a1BrNXZZQ3hlRnNKZ2h6THpqQ3E4RnYwbjhEUnBCRzJwaUtoRmVld1RSblVNQUtHMlFIWFRLYVN5TDFZeEZhQkdGSGtjZmhZUG4tYWRRaUt1MF9XeW53RGNQclFMQWE5ZDF6bjFLWnRGNVJpWlZfUlJJS05mb25kTnNpcDljdQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:08:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HEIA.AS": {
-   "naam": "Heineken N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Nederlandse, Franse en Belgische aandelen die binnenkort ex-dividend gaan - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFJxQ0ktSXZOTy1zRzFNeEd2a1BrNXZZQ3hlRnNKZ2h6THpqQ3E4RnYwbjhEUnBCRzJwaUtoRmVld1RSblVNQUtHMlFIWFRLYVN5TDFZeEZhQkdGSGtjZmhZUG4tYWRRaUt1MF9XeW53RGNQclFMQWE5ZDF6bjFLWnRGNVJpWlZfUlJJS05mb25kTnNpcDljdQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:08:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HYDRA.AS": {
-   "naam": "Hydratec Industries NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Twee jaar na mislukte beursexit keert maakbedrijf Hydratec recorddividend uit - Het Financieele Dagblad",
-     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY1VCRG1jZU5GaDdoUjRjeEU1UUZhR1dEQU4waXF3TlZwZEJFMHo3bjRTMWVFMTJUdEJEUm1lQnRIcVIxbF9WSFJ0X1NNeFZVS204c1RjOUNzLVozS05sU1RXZ09BeHBXdlV4a29HNkFyYjNHbnNpLWZfQjhuMl92aVJsU1hITDM3VVpjZWNDX3hRV2FxWjF3aHBGeTNXazVySnJTcHByMVFlYURsUU9mRldUTQ?oc=5",
-     "datum": "Mon, 31 Aug 2026 22:30:44 GMT",
-     "bron": "Het Financieele Dagblad",
-     "gewicht": 3
-    }
-   ]
-  },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Tessenderlo verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUlVvMVZLZnJ1OC1yWGZ2U21SdnBtVk9YS0FSNGhzd3EyS3BSY3o5MEItZFE4d2VnRUt5cC0tblVYQUVhYUhEOVZoRVBsYzRycEtjb1FTdUZCd3ZwTUN5MVlnUlVRck1mTFJ4bTNXVU5MdTJRckwxZUFoeEsyNjV1OTFITXo?oc=5",
-     "datum": "Thu, 27 Aug 2026 06:34:06 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    }
-   ]
-  },
-  "KENDR.AS": {
-   "naam": "Kendrion N.V.",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Tessenderlo verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQUlVvMVZLZnJ1OC1yWGZ2U21SdnBtVk9YS0FSNGhzd3EyS3BSY3o5MEItZFE4d2VnRUt5cC0tblVYQUVhYUhEOVZoRVBsYzRycEtjb1FTdUZCd3ZwTUN5MVlnUlVRck1mTFJ4bTNXVU5MdTJRckwxZUFoeEsyNjV1OTFITXo?oc=5",
-     "datum": "Thu, 27 Aug 2026 06:34:06 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    },
-    {
-     "titel": "Beursblik: voorzichtigere outlook CFE - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQQW5NV1ZJTXVnbGZpblgzNEI3V2FENG53U0dCSnU2SDY3VXhXNWl5VmM4VXNuQnc0UUFVcEl5Q21LRE5tcy1rNV9LenpfRHk5cXdqNWZ6NzMxMF9ndTNyVl80SW9Dc3BRTWpwWFlzWlJQMmw1WDAzbElaRk16ZnljR2F6WnE1b1FrT2pMMlk3RQ?oc=5",
-     "datum": "Thu, 27 Aug 2026 07:49:08 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "NN.AS": {
-   "naam": "NN Group N.V.",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Ageas bevestigt €1,50 interimdividend na vijf jaar dividendgroei - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPRE1hdmUzMGxrd1lRZUhlcVdEUFQ5ZENNOE1KcW9TTE1ST2RkSlVpZ0xHbXZ2WHFsYVc5ZzNVTmlSS3E4RTBEUXdURm41ZkQycEdrcGhKTngtZW5PX0Q2XzRNbVIxcFcySHlHQXNCWi13VlY4dmVoTlFfSUhhT2VyMDNlVlA5ZTMw?oc=5",
-     "datum": "Fri, 28 Aug 2026 08:15:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 5
-    },
-    {
-     "titel": "Nederlandse, Franse en Belgische aandelen die binnenkort ex-dividend gaan - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFJxQ0ktSXZOTy1zRzFNeEd2a1BrNXZZQ3hlRnNKZ2h6THpqQ3E4RnYwbjhEUnBCRzJwaUtoRmVld1RSblVNQUtHMlFIWFRLYVN5TDFZeEZhQkdGSGtjZmhZUG4tYWRRaUt1MF9XeW53RGNQclFMQWE5ZDF6bjFLWnRGNVJpWlZfUlJJS05mb25kTnNpcDljdQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:08:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "SBMO.AS": {
-   "naam": "SBM Offshore N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Nederlandse, Franse en Belgische aandelen die binnenkort ex-dividend gaan - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFJxQ0ktSXZOTy1zRzFNeEd2a1BrNXZZQ3hlRnNKZ2h6THpqQ3E4RnYwbjhEUnBCRzJwaUtoRmVld1RSblVNQUtHMlFIWFRLYVN5TDFZeEZhQkdGSGtjZmhZUG4tYWRRaUt1MF9XeW53RGNQclFMQWE5ZDF6bjFLWnRGNVJpWlZfUlJJS05mb25kTnNpcDljdQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:08:00 GMT",
-     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
@@ -182,9 +70,9 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Deutsche Bank verlaagt koersdoel UMG - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQb25JSHZoS0ZuOWdpLVFjYjZMblJxdHVzZ21pTTdKVnFYbUs3MHJHeGZxanJTZmgwNE5SdzYzV195dTNFdUprbEhHV0s2dWp3WnBqdFpEOVVUOTZlWGE0RzZOSTNSN1ZzMWh1QktuY0RIMW15YnlJcWJrTy1YMWxTY1BrU2Y2LUprYVA0?oc=5",
-     "datum": "Tue, 01 Sep 2026 10:40:25 GMT",
+     "titel": "Deutsche Bank verlaagt koersdoel Universal Music - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX1VESG94d2I3M1FOYlY5MmFCek5OQVBBcWppLUdGRHBRRzg1ZEJVVkowR29BSC1JRFA4NWZYR0JHb1VUSEo4SXBXeVBibzh5Tl9qdGNXOFlYYzE1QUlQa1BpSlR0cms0cGVwLXlva21temtlLURvTTdZMVFReU9UOVVXa1VXM3R4Y1pWS2NXekRqTm9FVGZHTE00SQ?oc=5",
+     "datum": "Tue, 01 Sep 2026 08:15:32 GMT",
      "bron": "Beursgorilla.nl",
      "gewicht": 3
     }
@@ -200,20 +88,6 @@
      "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeWd2VDdlTjVXY090ZU1jdzdfMzlKVDZwci1uX3A4eGtNM3J2Y3Q2R0E0cFh0OTY3RFF3bS1la1ZHZElzOEtnRFpMVnc3Y3JYd3RpQnNOM3BhTU9kblhxdTlzYjBKbGd5cWhlZDNYMVZqMWNLQXZoMHBmbEdSTkkweS0yRUFoc0I5UFpLc0JGdVJLRVdaZTA0YWs5QXVNa1pjbWVDUjFjWVF6ZVI5RDA4?oc=5",
      "datum": "Fri, 28 Aug 2026 04:42:46 GMT",
      "bron": "Investment Officer",
-     "gewicht": 3
-    }
-   ]
-  },
-  "WKL.AS": {
-   "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Nederlandse, Franse en Belgische aandelen die binnenkort ex-dividend gaan - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaFJxQ0ktSXZOTy1zRzFNeEd2a1BrNXZZQ3hlRnNKZ2h6THpqQ3E4RnYwbjhEUnBCRzJwaUtoRmVld1RSblVNQUtHMlFIWFRLYVN5TDFZeEZhQkdGSGtjZmhZUG4tYWRRaUt1MF9XeW53RGNQclFMQWE5ZDF6bjFLWnRGNVJpWlZfUlJJS05mb25kTnNpcDljdQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:08:00 GMT",
-     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
