@@ -1,23 +1,23 @@
 {
- "gescand": "2026-09-03T20:06:59+00:00",
+ "gescand": "2026-09-04T19:51:20+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
+  "ADYEN.AS": {
+   "naam": "Adyen N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Campbell's snijdt stevig in het dividend - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOT2UxeDVkS1pNdXpxbVlVUjVuelpfVU0xaURhTzR1TTAtTmsxSDlTRkVPVEpvRnlOMWhVZ0V5cU9fQldvSmlodFE2Q01RMFhnTE5VdHF0LWRxZ2RvQjdmdEFsd2Y1MjRucERFS3ZjLUdpZGpIQ1cydHZTd1Zoc2I5VjJFdW9rN0JvdlE?oc=5",
-     "datum": "Thu, 03 Sep 2026 12:30:42 GMT",
-     "bron": "Beleggen.nl",
+     "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
+     "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
   "AGN.AS": {
    "naam": "Aegon Ltd.",
-   "score": 10,
+   "score": 15,
    "niveau": "hoog",
    "items": [
     {
@@ -31,6 +31,13 @@
      "titel": "Glory View Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
      "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSXRKWUpieE41YjR2ZXVmdG5HRllkNXdQZ2FEMGgwU1dyX2pfMTRQMzItSEUtYUVjazVUWXhkelB0X1E1Y002VkhTaFBFeGFYUjdreVNGU3NFMFdpclFoLTdqRFJSa0tVLXBHMXJBNHhBUzNFSFpsaFZ4enRLeU5kX1ptcnRWUTdlaTA1WGtDX0xvdUp1djNtZVhXei10S1l6bDdUN0RNSlZHWWEyQVdjd2RJeVh3UkwwRUtxUTRQTVdaNElQdnJBSTAwd0djcmxhNDJfdGRrV01RQ1NlTUtlT2t3Y1owdw?oc=5",
      "datum": "Mon, 31 Aug 2026 20:21:07 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
+    {
+     "titel": "Anker Innovations Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQlliQmtJVVlrZWhhZDBpSFBMZ2YwSEpJMWE3aGlKRmRIUmVaUGljc1YzNE1TT002bU9PSXU1bENhQmkwd3Fqd0hXeWROZ2lXenp1SWw3TGNFSGtPcjdNdTF5ZGhUNG44MTNTZEtlZllEMWFrNEcyUkh4TVJ5UnRNWUFLd05oTTE0OUFqX0lkbUQwV29HRmczMUtlYU84bkpMRnAtRWppWG94aXB4cGs2UG9zWlhMQzR0VDlzQ0NrQTJtSkE4SUdsWE1iVFlITnU5NFYwWTctMWlFNDFrNzdRcDF5ODZYcmZQZURvRQ?oc=5",
+     "datum": "Mon, 31 Aug 2026 20:20:48 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 5
     }
@@ -50,44 +57,79 @@
     }
    ]
   },
-  "SHELL.AS": {
-   "naam": "Shell plc",
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Shell rondt overname van ARC Resources voor 16,5 miljard dollar af - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPUDM0Ml9rXzB1SGJ0QzJiQ0xXbUlnZm1tN0RZMFRwLVYxYTB5V2ZQRFM2a0haVEN4OUZoaG5IX2lOeDZndWNUVHJXS1ZIZVpKMmYtd09rajZpNHdpXzRSZ3l3R1ZwcVRMelZNVW9VV0xjM3lvbTZTN241bDgzOHBoTDZhQXhlcGtWQjRSdjZlWUJLWU5nMlFPZU5SMFJEdWhITjhvdFI5dVBwdTlyX2dEeThLR1YyWTI1VTVXNlhFcmZtNUU?oc=5",
-     "datum": "Thu, 03 Sep 2026 12:53:28 GMT",
-     "bron": "MarketScreener Nederland",
+     "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
+     "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
+    }
+   ]
+  },
+  "HAL.AS": {
+   "naam": "HAL Trust",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
+     "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "HYDRA.AS": {
+   "naam": "Hydratec Industries NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Twee jaar na mislukte beursexit keert maakbedrijf Hydratec recorddividend uit - Het Financieele Dagblad",
+     "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOY1VCRG1jZU5GaDdoUjRjeEU1UUZhR1dEQU4waXF3TlZwZEJFMHo3bjRTMWVFMTJUdEJEUm1lQnRIcVIxbF9WSFJ0X1NNeFZVS204c1RjOUNzLVozS05sU1RXZ09BeHBXdlV4a29HNkFyYjNHbnNpLWZfQjhuMl92aVJsU1hITDM3VVpjZWNDX3hRV2FxWjF3aHBGeTNXazVySnJTcHByMVFlYURsUU9mRldUTQ?oc=5",
+     "datum": "Mon, 31 Aug 2026 22:30:44 GMT",
+     "bron": "Het Financieele Dagblad",
+     "gewicht": 3
+    }
+   ]
+  },
+  "KENDR.AS": {
+   "naam": "Kendrion N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Dell verhoogt outlook - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54ZnhGbm54OG5xMXFiMEJfbEJsWEZ6MERlYWxMd2RaNTlNVWdydTJYTGVXbHZ2czhNalJwdU5NV19rMU9KN0g5d0l1V3NEeVZWYk5iYVBvVTBCSUdlRlpFRzdaX1pnNmYyQVpMTVFNY3o1SjhxaENOZVBtMTZ0QQ?oc=5",
+     "datum": "Tue, 01 Sep 2026 20:46:16 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 5
     }
    ]
   },
   "UMG.AS": {
    "naam": "Universal Music Group N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 7,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Deutsche Bank verlaagt koersdoel Universal Music - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOX1VESG94d2I3M1FOYlY5MmFCek5OQVBBcWppLUdGRHBRRzg1ZEJVVkowR29BSC1JRFA4NWZYR0JHb1VUSEo4SXBXeVBibzh5Tl9qdGNXOFlYYzE1QUlQa1BpSlR0cms0cGVwLXlva21temtlLURvTTdZMVFReU9UOVVXa1VXM3R4Y1pWS2NXekRqTm9FVGZHTE00SQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 08:15:32 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "VLK.AS": {
-   "naam": "Van Lanschot Kempen NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
+     "titel": "Holding Vivendi: halfjaarcijfers tonen verborgen waarde ondanks dip van Universal Music Group - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHE5ak0xTDh0WVBfbUZudmI1ckdmS0J4ZnpRYTFzWWJiSEEyX2s3Y29sUzRCNFpELU9FU0dQRGppczBHUUVLM3NqMTRYcWRPZ0tSWU9weG5Oak5wTFROcjh5WERJTlIwTHNEN2Y1eV9LZHcwWWRLczA4dEs4ZmRpdlhVMVQyOURRYkRlMUpaZ3pkSXUxQWRPZ0RnTXZYTGNyMWN0bnVzVEh0eHNWeXUtMlNPVHlRdERxc3JMUkpVUU9iMTZrajh2Q3dVclpZM1hVMGlnNGx1WlZWNW1NRDJtRlNR?oc=5",
+     "datum": "Fri, 04 Sep 2026 06:42:53 GMT",
+     "bron": "De Belegger",
+     "gewicht": 4
+    },
     {
-     "titel": "Morningstar: DWS Invest Top Dividend vs. DWS Invest ESG Equity Income - Investment Officer",
-     "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQeWd2VDdlTjVXY090ZU1jdzdfMzlKVDZwci1uX3A4eGtNM3J2Y3Q2R0E0cFh0OTY3RFF3bS1la1ZHZElzOEtnRFpMVnc3Y3JYd3RpQnNOM3BhTU9kblhxdTlzYjBKbGd5cWhlZDNYMVZqMWNLQXZoMHBmbEdSTkkweS0yRUFoc0I5UFpLc0JGdVJLRVdaZTA0YWs5QXVNa1pjbWVDUjFjWVF6ZVI5RDA4?oc=5",
-     "datum": "Fri, 28 Aug 2026 04:42:46 GMT",
-     "bron": "Investment Officer",
+     "titel": "Deutsche Bank verlaagt koersdoel UMG - Beurs.nl",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLVRRVkNBZXRUMGNzUFRBelR6OFJfRURiLUJoSDdJZ2IyeU1PdDNiOWxfdFl1OGYxb0tWTk1jOF9XSkc3djExRTRscnN2S1R5eDdhLVk5VGpUUVFrc3ZuXzVYekFSRS01YmRGc2JGRXBwUWJXbmJTQlhvTWRtVFBwY2pR?oc=5",
+     "datum": "Tue, 01 Sep 2026 07:42:00 GMT",
+     "bron": "Beurs.nl",
      "gewicht": 3
     }
    ]
