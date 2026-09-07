@@ -1,10 +1,10 @@
 {
- "gescand": "2026-09-04T19:51:20+00:00",
+ "gescand": "2026-09-07T20:48:05+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
@@ -12,34 +12,13 @@
      "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
-    }
-   ]
-  },
-  "AGN.AS": {
-   "naam": "Aegon Ltd.",
-   "score": 15,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Ssaw Hotels & Resorts Group Co.,Ltd. stelt interim-dividend in contanten voor 2026 voor - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOd1FiMHVkQ0wxcmZuVHM0RFVpTnZIQkM3b1RabW1lNGpYZ1U0SkNpb1RwTlp1ekRqSnNaT1hFQkotZVNkQ3ZEWENzRGdQQVpxQ2RxZlhKZXZMMzVLbFF5R25RRVh0MWZLZEU1Y092bEE5Q05iLW1KeHdTWU1zRnJXOXhSMzVXZk5jWEVjeWZzdGpKbVNud0FKclByTkM4Yl9CRmxTQWk3QlpKTVd4SWp4T25jdjVjOGFPVkEyZ1ZFdURZaWRNRHpfdXBtU2dxeDZEV2FtLXpjenRoZw?oc=5",
-     "datum": "Mon, 31 Aug 2026 20:21:17 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
     },
     {
-     "titel": "Glory View Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQSXRKWUpieE41YjR2ZXVmdG5HRllkNXdQZ2FEMGgwU1dyX2pfMTRQMzItSEUtYUVjazVUWXhkelB0X1E1Y002VkhTaFBFeGFYUjdreVNGU3NFMFdpclFoLTdqRFJSa0tVLXBHMXJBNHhBUzNFSFpsaFZ4enRLeU5kX1ptcnRWUTdlaTA1WGtDX0xvdUp1djNtZVhXei10S1l6bDdUN0RNSlZHWWEyQVdjd2RJeVh3UkwwRUtxUTRQTVdaNElQdnJBSTAwd0djcmxhNDJfdGRrV01RQ1NlTUtlT2t3Y1owdw?oc=5",
-     "datum": "Mon, 31 Aug 2026 20:21:07 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
-    },
-    {
-     "titel": "Anker Innovations Technology Co., Ltd. stelt interim-dividend in contanten voor over het boekjaar 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPQlliQmtJVVlrZWhhZDBpSFBMZ2YwSEpJMWE3aGlKRmRIUmVaUGljc1YzNE1TT002bU9PSXU1bENhQmkwd3Fqd0hXeWROZ2lXenp1SWw3TGNFSGtPcjdNdTF5ZGhUNG44MTNTZEtlZllEMWFrNEcyUkh4TVJ5UnRNWUFLd05oTTE0OUFqX0lkbUQwV29HRmczMUtlYU84bkpMRnAtRWppWG94aXB4cGs2UG9zWlhMQzR0VDlzQ0NrQTJtSkE4SUdsWE1iVFlITnU5NFYwWTctMWlFNDFrNzdRcDF5ODZYcmZQZURvRQ?oc=5",
-     "datum": "Mon, 31 Aug 2026 20:20:48 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
+     "titel": "IEX Beleggers Podcast: Kansen In September: Adyen, ASML En Een Bijzondere Dividend-ETF Epl Table (UCnXcCBNuL) - Mshale",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15Q0tBOWt2U2V2ZE5SUjItSHIyeTVtSW1ZTk5SMUFnTFlBYXo0WDFlcDZiMjNCSGxJYlBNTUJZMkZkcVgwVlhROWxjZGFRQ2hjOWItZTRwemxlQXJweTNTYg?oc=5",
+     "datum": "Sat, 05 Sep 2026 04:59:55 GMT",
+     "bron": "Mshale",
+     "gewicht": 3
     }
    ]
   },
@@ -59,14 +38,35 @@
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Grand Industrial Holding Co.,Ltd keurt interim-dividend in contanten goed voor 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNlBEZFFhMm9tYnJmaWZEd19kYkQ3N1VwdXlId3pMMEs2U0VxaHcwZmlCa0VBVDZiZmFyc1AyYjNJMzMxMl8wSldUaE5rSU1jcGNOc3c1RldlZFJ3VzdhOUtHalpjV25vZ3l2WTlOMkpnQkNpMHBHUS1hOW9sZkkxdWNwQnhOREFIcUdPakNHX216U0RaRzZJdWkyQmVGYzZocnMxQ3ZuUmJxOGY5VmtfVFQ1SGJnSUthR01BTEg3Tngwek1BVDRBREtNOFB0Z3N5NktjcnZ2TUY?oc=5",
+     "datum": "Thu, 03 Sep 2026 19:31:00 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
     {
      "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
      "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
      "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "BAMNB.AS": {
+   "naam": "Koninklijke BAM Groep nv",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "BAM-aandeel test steun op €11,24: Technische vooruitzichten - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlVNcXhQTGhSTFRPQmVmWDRfR0hJeGJUejN3UEZ4cWZaeW1aSFFxVjEyM3pCV0RDWk5CaVg3czBPempRSmtIdVFmT1FkeFpHR3hGS2xWd0ctZDNWcklkZllYRW5oTVA4SVJFMTlYZXY1Q3Z0WTZGU0ZnNVhSYXphY2cyQkEyS3dIcFB6MHJscjM?oc=5",
+     "datum": "Thu, 03 Sep 2026 09:10:36 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
@@ -115,21 +115,35 @@
   },
   "UMG.AS": {
    "naam": "Universal Music Group N.V.",
-   "score": 7,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Holding Vivendi: halfjaarcijfers tonen verborgen waarde ondanks dip van Universal Music Group - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQZHE5ak0xTDh0WVBfbUZudmI1ckdmS0J4ZnpRYTFzWWJiSEEyX2s3Y29sUzRCNFpELU9FU0dQRGppczBHUUVLM3NqMTRYcWRPZ0tSWU9weG5Oak5wTFROcjh5WERJTlIwTHNEN2Y1eV9LZHcwWWRLczA4dEs4ZmRpdlhVMVQyOURRYkRlMUpaZ3pkSXUxQWRPZ0RnTXZYTGNyMWN0bnVzVEh0eHNWeXUtMlNPVHlRdERxc3JMUkpVUU9iMTZrajh2Q3dVclpZM1hVMGlnNGx1WlZWNW1NRDJtRlNR?oc=5",
-     "datum": "Fri, 04 Sep 2026 06:42:53 GMT",
-     "bron": "De Belegger",
-     "gewicht": 4
-    },
     {
      "titel": "Deutsche Bank verlaagt koersdoel UMG - Beurs.nl",
      "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNLVRRVkNBZXRUMGNzUFRBelR6OFJfRURiLUJoSDdJZ2IyeU1PdDNiOWxfdFl1OGYxb0tWTk1jOF9XSkc3djExRTRscnN2S1R5eDdhLVk5VGpUUVFrc3ZuXzVYekFSRS01YmRGc2JGRXBwUWJXbmJTQlhvTWRtVFBwY2pR?oc=5",
      "datum": "Tue, 01 Sep 2026 07:42:00 GMT",
      "bron": "Beurs.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "WKL.AS": {
+   "naam": "Wolters Kluwer N.V.",
+   "score": 10,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "CMB.TECH verhoogt kwartaaldividend en komt opnieuw met extra uitkering - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40MXJJSW9mOWoyZlhYRGtoZmN2ampmckdfR29tUzFfbUFNa1JyWUJ6RlBQdEh0ajNpa2RManY4N1NYazVmU1JVbUNLVXBiLUpNa0YxM2dKbEtfY2pXRkZsR0t6czdpc3YyOEhCVndjcjY3V2VhVURHR2xHU1dGUQ?oc=5",
+     "datum": "Wed, 02 Sep 2026 09:28:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 7
+    },
+    {
+     "titel": "Zwaargewichten drukken resultaat Dividendportefeuille omlaag - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdEF1blVzVzJDOHZoSVlFOUxOV2J3ZVEwTjNyQjZPVWc5Nk85TVo4cDl1VFQ3RURmRHR4c3d5YlJrLWo0MzZZa2t4Tm5BLXhuN2lhcW9kY01fa2x4VlBsakhicjdEWVBqRjY1aDNtR0R4QjNYSXR4VURneURUUnRyeEFMSWNQeGFoNzJ3cTh2em5mSVR6ZUJpajV3OGZVRDNCWUZLakpURDA5Qldw?oc=5",
+     "datum": "Mon, 07 Sep 2026 12:33:00 GMT",
+     "bron": "Beleggers Belangen",
      "gewicht": 3
     }
    ]
