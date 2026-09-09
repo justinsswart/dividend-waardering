@@ -1,5 +1,5 @@
 {
- "gescand": "2026-09-08T20:13:05+00:00",
+ "gescand": "2026-09-09T20:01:50+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
@@ -28,31 +28,17 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Campbell’s snijdt stevig in het dividend - deaandeelhouder.nl",
+     "titel": "Campbell’s snijdt stevig in het dividend - De AandeelHouder",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY3NRMDZaYkJvWUt4RnpMVi0taERvTzBpQm1LVFV0T0Y0emtnVmdqcFd0ZmE1NEtIb2F5ZkFHMUJjLS16bENZbEpkcGdYUVMzX3NhbXY3ODc3WkV0cmVkTmpwbUU5dXE5Q3RPSWxvbnNrbXU4bUZsdnlOVVVVR2duazhZM2NBd3NQbmxXMWNvYTFOdms?oc=5",
      "datum": "Thu, 03 Sep 2026 12:25:32 GMT",
-     "bron": "deaandeelhouder.nl",
+     "bron": "De AandeelHouder",
      "gewicht": 3
-    }
-   ]
-  },
-  "ARCAD.AS": {
-   "naam": "Arcadis NV",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Dell verhoogt outlook - deaandeelhouder.nl",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FRFdoQjd5SEV3UWF4Y1pXdVp6T3NVcG5FeXoyLUxPdVBJQ3ZGSkJkTGZrNlJzeXhTdS16TmVJUGpVQlA3d29NREI2ZDhldXZlSktHZmR6UkJKRFlQeHFKXzFLVThQOEdYeW1JbmRDdGhCWFJ2V3dlMmp2VFNWdw?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:45:25 GMT",
-     "bron": "deaandeelhouder.nl",
-     "gewicht": 5
     }
    ]
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 11,
+   "score": 14,
    "niveau": "hoog",
    "items": [
     {
@@ -70,10 +56,17 @@
      "gewicht": 3
     },
     {
-     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - Traders Union",
+     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - tradersunion.com",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYnZWMVlJVUxvajJHdGlMSS1WejF4a096eW51T2RjQzdfbktIa2xMZTNRYkdGR2JIZkYwcDhvV0luT05VTlB1eFZHT3B0cVAwUHpWWHEzUEkybXlQVFR6NkhFSGVPVWpOanR2YloxNjh2d1A5emNrQkpSYmN1WkpEeVF0WG93WUNwM2s0S2lfNHU0clk1Z1kxaXIyZw?oc=5",
      "datum": "Mon, 07 Sep 2026 14:24:20 GMT",
-     "bron": "Traders Union",
+     "bron": "tradersunion.com",
+     "gewicht": 3
+    },
+    {
+     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - tradersunion.com",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjNpTHZPZUdjUUFna1F5ay1zQVFOdUh1eUtrOC11aE5oRGVhZ2YxYUg2MldDX0ZqTzNJajdZWVlHdFhMT0xjS29WaDFMOW9SSUFERnNITk5IZkxkTE9Bak5keEhRY0NBaC15MmJSSTRGWllVQ2UzNzRROEpJRGZ4ZXZRT24xazRRQ0ZHWHNoVGtqNlk0MGlKSE0wTHQ?oc=5",
+     "datum": "Wed, 09 Sep 2026 11:51:24 GMT",
+     "bron": "tradersunion.com",
      "gewicht": 3
     }
    ]
@@ -84,96 +77,75 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "BAM-aandeel test steun op €11,24: Technische vooruitzichten - Traders Union",
+     "titel": "BAM-aandeel test steun op €11,24: Technische vooruitzichten - tradersunion.com",
      "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlVNcXhQTGhSTFRPQmVmWDRfR0hJeGJUejN3UEZ4cWZaeW1aSFFxVjEyM3pCV0RDWk5CaVg3czBPempRSmtIdVFmT1FkeFpHR3hGS2xWd0ctZDNWcklkZllYRW5oTVA4SVJFMTlYZXY1Q3Z0WTZGU0ZnNVhSYXphY2cyQkEyS3dIcFB6MHJscjM?oc=5",
      "datum": "Thu, 03 Sep 2026 09:10:36 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HAL.AS": {
-   "naam": "HAL Trust",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
-     "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
-     "bron": "IEX.nl",
+     "bron": "tradersunion.com",
      "gewicht": 3
     }
    ]
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - Traders Union",
+     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - tradersunion.com",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYnZWMVlJVUxvajJHdGlMSS1WejF4a096eW51T2RjQzdfbktIa2xMZTNRYkdGR2JIZkYwcDhvV0luT05VTlB1eFZHT3B0cVAwUHpWWHEzUEkybXlQVFR6NkhFSGVPVWpOanR2YloxNjh2d1A5emNrQkpSYmN1WkpEeVF0WG93WUNwM2s0S2lfNHU0clk1Z1kxaXIyZw?oc=5",
      "datum": "Mon, 07 Sep 2026 14:24:20 GMT",
-     "bron": "Traders Union",
+     "bron": "tradersunion.com",
+     "gewicht": 3
+    },
+    {
+     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - tradersunion.com",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjNpTHZPZUdjUUFna1F5ay1zQVFOdUh1eUtrOC11aE5oRGVhZ2YxYUg2MldDX0ZqTzNJajdZWVlHdFhMT0xjS29WaDFMOW9SSUFERnNITk5IZkxkTE9Bak5keEhRY0NBaC15MmJSSTRGWllVQ2UzNzRROEpJRGZ4ZXZRT24xazRRQ0ZHWHNoVGtqNlk0MGlKSE0wTHQ?oc=5",
+     "datum": "Wed, 09 Sep 2026 11:51:24 GMT",
+     "bron": "tradersunion.com",
      "gewicht": 3
     }
    ]
   },
-  "KENDR.AS": {
-   "naam": "Kendrion N.V.",
-   "score": 5,
-   "niveau": "midden",
+  "NN.AS": {
+   "naam": "NN Group N.V.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Dell verhoogt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE54ZnhGbm54OG5xMXFiMEJfbEJsWEZ6MERlYWxMd2RaNTlNVWdydTJYTGVXbHZ2czhNalJwdU5NV19rMU9KN0g5d0l1V3NEeVZWYk5iYVBvVTBCSUdlRlpFRzdaX1pnNmYyQVpMTVFNY3o1SjhxaENOZVBtMTZ0QQ?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:46:16 GMT",
-     "bron": "deaandeelhouder.be",
-     "gewicht": 5
-    }
-   ]
-  },
-  "OCI.AS": {
-   "naam": "OCI N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Dell verhoogt outlook - deaandeelhouder.nl",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9FRFdoQjd5SEV3UWF4Y1pXdVp6T3NVcG5FeXoyLUxPdVBJQ3ZGSkJkTGZrNlJzeXhTdS16TmVJUGpVQlA3d29NREI2ZDhldXZlSktHZmR6UkJKRFlQeHFKXzFLVThQOEdYeW1JbmRDdGhCWFJ2V3dlMmp2VFNWdw?oc=5",
-     "datum": "Tue, 01 Sep 2026 20:45:25 GMT",
-     "bron": "deaandeelhouder.nl",
-     "gewicht": 5
+     "titel": "Deze aandelen trakteren op nieuw dividend en flinke verhogingen - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQOW54c3dlSTVOSGIxU0RhT1liWVJwUFdGUEw4VUw5NTlpVlFRUkIwMEVjUnJZdzVPM1ZscTNmckJBWFR0RU9FZEkzMkFYaWJaSnEwV3JuZnh2bHdtLTVYZ05BV0ZDRGJzUlN2MlJVZkVjREJKdE1nS1lsUlU4RW9walVnbXEtNTY0OU9VR3ZXOHVqMllwT2t4NHl6Rm1wTG93WjJCdG9LRWVKQQ?oc=5",
+     "datum": "Wed, 09 Sep 2026 12:26:56 GMT",
+     "bron": "Beleggers Belangen",
+     "gewicht": 3
     }
    ]
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - Traders Union",
+     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - tradersunion.com",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYnZWMVlJVUxvajJHdGlMSS1WejF4a096eW51T2RjQzdfbktIa2xMZTNRYkdGR2JIZkYwcDhvV0luT05VTlB1eFZHT3B0cVAwUHpWWHEzUEkybXlQVFR6NkhFSGVPVWpOanR2YloxNjh2d1A5emNrQkpSYmN1WkpEeVF0WG93WUNwM2s0S2lfNHU0clk1Z1kxaXIyZw?oc=5",
      "datum": "Mon, 07 Sep 2026 14:24:20 GMT",
-     "bron": "Traders Union",
+     "bron": "tradersunion.com",
+     "gewicht": 3
+    },
+    {
+     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - tradersunion.com",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjNpTHZPZUdjUUFna1F5ay1zQVFOdUh1eUtrOC11aE5oRGVhZ2YxYUg2MldDX0ZqTzNJajdZWVlHdFhMT0xjS29WaDFMOW9SSUFERnNITk5IZkxkTE9Bak5keEhRY0NBaC15MmJSSTRGWllVQ2UzNzRROEpJRGZ4ZXZRT24xazRRQ0ZHWHNoVGtqNlk0MGlKSE0wTHQ?oc=5",
+     "datum": "Wed, 09 Sep 2026 11:51:24 GMT",
+     "bron": "tradersunion.com",
      "gewicht": 3
     }
    ]
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 16,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
-    {
-     "titel": "CMB.TECH verhoogt kwartaaldividend en komt opnieuw met extra uitkering - dividendnieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE40MXJJSW9mOWoyZlhYRGtoZmN2ampmckdfR29tUzFfbUFNa1JyWUJ6RlBQdEh0ajNpa2RManY4N1NYazVmU1JVbUNLVXBiLUpNa0YxM2dKbEtfY2pXRkZsR0t6czdpc3YyOEhCVndjcjY3V2VhVURHR2xHU1dGUQ?oc=5",
-     "datum": "Wed, 02 Sep 2026 09:28:00 GMT",
-     "bron": "dividendnieuws.be",
-     "gewicht": 7
-    },
     {
      "titel": "Zwaargewichten drukken resultaat Dividendportefeuille omlaag - Beleggers Belangen",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdEF1blVzVzJDOHZoSVlFOUxOV2J3ZVEwTjNyQjZPVWc5Nk85TVo4cDl1VFQ3RURmRHR4c3d5YlJrLWo0MzZZa2t4Tm5BLXhuN2lhcW9kY01fa2x4VlBsakhicjdEWVBqRjY1aDNtR0R4QjNYSXR4VURneURUUnRyeEFMSWNQeGFoNzJ3cTh2em5mSVR6ZUJpajV3OGZVRDNCWUZLakpURDA5Qldw?oc=5",
@@ -182,17 +154,10 @@
      "gewicht": 3
     },
     {
-     "titel": "Aedifica mikt op 5% hoger dividend na fusie met Cofinimmo - dividendnieuws.be",
+     "titel": "Aedifica mikt op 5% hoger dividend na fusie met Cofinimmo - DividendNieuws.be",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBZT0xrbzNYOXpkR2dmcG0zd1g5aS1OVDktYWVlSmd0eDlaQWlSNTg0cThGVndSOG1CMWp0bEZQNHVVMTUwZ3FCbVFvZEtjOGRsZXd4RUl6eFgweFhmM3V2SWhGUmtkU3R6UHdEMjI4Qk9lcjlWZ0M0U1BmSFk5N0xfOTJSa3czTUJYdnBiWU01MGE3SHc?oc=5",
      "datum": "Thu, 03 Sep 2026 07:30:00 GMT",
-     "bron": "dividendnieuws.be",
-     "gewicht": 3
-    },
-    {
-     "titel": "Lotus Bakeries krijgt downgrade na koerswinst van 60% in 2026 - dividendnieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOT01MeGJMTnh2eEV2dlpPWGNCMnJ1cUo3VS1ZN2dUUWc2Z3pTeF9fLXhHemNsUjZRUVUzZXBTc0dhSlRjcmhSdFpUR0RIRFYwTWQxM2tBSVBqYnFOUVRQMWRRbzRDWURzdTRrR3pmV183MV8xSEFhNVJENmhPY3BVc3laaw?oc=5",
-     "datum": "Wed, 02 Sep 2026 20:01:00 GMT",
-     "bron": "dividendnieuws.be",
+     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
