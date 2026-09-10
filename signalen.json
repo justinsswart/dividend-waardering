@@ -1,86 +1,37 @@
 {
- "gescand": "2026-09-09T20:01:50+00:00",
+ "gescand": "2026-09-10T20:02:01+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
      "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
      "bron": "IEX.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "IEX Beleggers Podcast: Kansen In September: Adyen, ASML En Een Bijzondere Dividend-ETF Epl Table (UCnXcCBNuL) - Mshale",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE15Q0tBOWt2U2V2ZE5SUjItSHIyeTVtSW1ZTk5SMUFnTFlBYXo0WDFlcDZiMjNCSGxJYlBNTUJZMkZkcVgwVlhROWxjZGFRQ2hjOWItZTRwemxlQXJweTNTYg?oc=5",
-     "datum": "Sat, 05 Sep 2026 04:59:55 GMT",
-     "bron": "Mshale",
-     "gewicht": 3
-    }
-   ]
-  },
-  "AMG.AS": {
-   "naam": "AMG Critical Materials N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Campbell’s snijdt stevig in het dividend - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPY3NRMDZaYkJvWUt4RnpMVi0taERvTzBpQm1LVFV0T0Y0emtnVmdqcFd0ZmE1NEtIb2F5ZkFHMUJjLS16bENZbEpkcGdYUVMzX3NhbXY3ODc3WkV0cmVkTmpwbUU5dXE5Q3RPSWxvbnNrbXU4bUZsdnlOVVVVR2duazhZM2NBd3NQbmxXMWNvYTFOdms?oc=5",
-     "datum": "Thu, 03 Sep 2026 12:25:32 GMT",
-     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 14,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Grand Industrial Holding Co.,Ltd keurt interim-dividend in contanten goed voor 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxQNlBEZFFhMm9tYnJmaWZEd19kYkQ3N1VwdXlId3pMMEs2U0VxaHcwZmlCa0VBVDZiZmFyc1AyYjNJMzMxMl8wSldUaE5rSU1jcGNOc3c1RldlZFJ3VzdhOUtHalpjV25vZ3l2WTlOMkpnQkNpMHBHUS1hOW9sZkkxdWNwQnhOREFIcUdPakNHX216U0RaRzZJdWkyQmVGYzZocnMxQ3ZuUmJxOGY5VmtfVFQ1SGJnSUthR01BTEg3Tngwek1BVDRBREtNOFB0Z3N5NktjcnZ2TUY?oc=5",
-     "datum": "Thu, 03 Sep 2026 19:31:00 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
-    },
-    {
-     "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
-     "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - tradersunion.com",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYnZWMVlJVUxvajJHdGlMSS1WejF4a096eW51T2RjQzdfbktIa2xMZTNRYkdGR2JIZkYwcDhvV0luT05VTlB1eFZHT3B0cVAwUHpWWHEzUEkybXlQVFR6NkhFSGVPVWpOanR2YloxNjh2d1A5emNrQkpSYmN1WkpEeVF0WG93WUNwM2s0S2lfNHU0clk1Z1kxaXIyZw?oc=5",
-     "datum": "Mon, 07 Sep 2026 14:24:20 GMT",
-     "bron": "tradersunion.com",
-     "gewicht": 3
-    },
-    {
-     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - tradersunion.com",
+     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjNpTHZPZUdjUUFna1F5ay1zQVFOdUh1eUtrOC11aE5oRGVhZ2YxYUg2MldDX0ZqTzNJajdZWVlHdFhMT0xjS29WaDFMOW9SSUFERnNITk5IZkxkTE9Bak5keEhRY0NBaC15MmJSSTRGWllVQ2UzNzRROEpJRGZ4ZXZRT24xazRRQ0ZHWHNoVGtqNlk0MGlKSE0wTHQ?oc=5",
      "datum": "Wed, 09 Sep 2026 11:51:24 GMT",
-     "bron": "tradersunion.com",
+     "bron": "Traders Union",
      "gewicht": 3
-    }
-   ]
-  },
-  "BAMNB.AS": {
-   "naam": "Koninklijke BAM Groep nv",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
+    },
     {
-     "titel": "BAM-aandeel test steun op €11,24: Technische vooruitzichten - tradersunion.com",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlVNcXhQTGhSTFRPQmVmWDRfR0hJeGJUejN3UEZ4cWZaeW1aSFFxVjEyM3pCV0RDWk5CaVg3czBPempRSmtIdVFmT1FkeFpHR3hGS2xWd0ctZDNWcklkZllYRW5oTVA4SVJFMTlYZXY1Q3Z0WTZGU0ZnNVhSYXphY2cyQkEyS3dIcFB6MHJscjM?oc=5",
-     "datum": "Thu, 03 Sep 2026 09:10:36 GMT",
-     "bron": "tradersunion.com",
+     "titel": "EUR/USD daalt na renteverhoging van de ECB terwijl de beleidsvooruitzichten onzeker blijven - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTVJmYi1ZbHptdnB6RGkwanVmbzliRjFRUURmYmRhT0ctTXduVFhDRHNudTdQSWltdERyY0k2cGdXZllCcmFIUWxkZWxXaFdOQ2h1bkpKMkdid1hHdi0zVEdpaWd3MnRKQkZMSk5oVVJodHNyQ2lOYktsdzhuaXJKc2NBbG1DLURKYWJmaE5KNDlOQTl6RmJpNTJtNkdhQ1NpRmpYWllFQQ?oc=5",
+     "datum": "Thu, 10 Sep 2026 13:20:07 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
@@ -91,17 +42,17 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - tradersunion.com",
+     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYnZWMVlJVUxvajJHdGlMSS1WejF4a096eW51T2RjQzdfbktIa2xMZTNRYkdGR2JIZkYwcDhvV0luT05VTlB1eFZHT3B0cVAwUHpWWHEzUEkybXlQVFR6NkhFSGVPVWpOanR2YloxNjh2d1A5emNrQkpSYmN1WkpEeVF0WG93WUNwM2s0S2lfNHU0clk1Z1kxaXIyZw?oc=5",
      "datum": "Mon, 07 Sep 2026 14:24:20 GMT",
-     "bron": "tradersunion.com",
+     "bron": "Traders Union",
      "gewicht": 3
     },
     {
-     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - tradersunion.com",
+     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjNpTHZPZUdjUUFna1F5ay1zQVFOdUh1eUtrOC11aE5oRGVhZ2YxYUg2MldDX0ZqTzNJajdZWVlHdFhMT0xjS29WaDFMOW9SSUFERnNITk5IZkxkTE9Bak5keEhRY0NBaC15MmJSSTRGWllVQ2UzNzRROEpJRGZ4ZXZRT24xazRRQ0ZHWHNoVGtqNlk0MGlKSE0wTHQ?oc=5",
      "datum": "Wed, 09 Sep 2026 11:51:24 GMT",
-     "bron": "tradersunion.com",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
@@ -126,38 +77,31 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - tradersunion.com",
+     "titel": "Microsoft-aandeel test steun op $489,87 na storingen bij Outlook en 365 die een terugval veroorzaken - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNYnZWMVlJVUxvajJHdGlMSS1WejF4a096eW51T2RjQzdfbktIa2xMZTNRYkdGR2JIZkYwcDhvV0luT05VTlB1eFZHT3B0cVAwUHpWWHEzUEkybXlQVFR6NkhFSGVPVWpOanR2YloxNjh2d1A5emNrQkpSYmN1WkpEeVF0WG93WUNwM2s0S2lfNHU0clk1Z1kxaXIyZw?oc=5",
      "datum": "Mon, 07 Sep 2026 14:24:20 GMT",
-     "bron": "tradersunion.com",
+     "bron": "Traders Union",
      "gewicht": 3
     },
     {
-     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - tradersunion.com",
+     "titel": "EUR/USD krijgt momentum nu de ECB-guidance centraal staat - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPcjNpTHZPZUdjUUFna1F5ay1zQVFOdUh1eUtrOC11aE5oRGVhZ2YxYUg2MldDX0ZqTzNJajdZWVlHdFhMT0xjS29WaDFMOW9SSUFERnNITk5IZkxkTE9Bak5keEhRY0NBaC15MmJSSTRGWllVQ2UzNzRROEpJRGZ4ZXZRT24xazRRQ0ZHWHNoVGtqNlk0MGlKSE0wTHQ?oc=5",
      "datum": "Wed, 09 Sep 2026 11:51:24 GMT",
-     "bron": "tradersunion.com",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Zwaargewichten drukken resultaat Dividendportefeuille omlaag - Beleggers Belangen",
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPdEF1blVzVzJDOHZoSVlFOUxOV2J3ZVEwTjNyQjZPVWc5Nk85TVo4cDl1VFQ3RURmRHR4c3d5YlJrLWo0MzZZa2t4Tm5BLXhuN2lhcW9kY01fa2x4VlBsakhicjdEWVBqRjY1aDNtR0R4QjNYSXR4VURneURUUnRyeEFMSWNQeGFoNzJ3cTh2em5mSVR6ZUJpajV3OGZVRDNCWUZLakpURDA5Qldw?oc=5",
      "datum": "Mon, 07 Sep 2026 12:33:00 GMT",
      "bron": "Beleggers Belangen",
-     "gewicht": 3
-    },
-    {
-     "titel": "Aedifica mikt op 5% hoger dividend na fusie met Cofinimmo - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNdzBZT0xrbzNYOXpkR2dmcG0zd1g5aS1OVDktYWVlSmd0eDlaQWlSNTg0cThGVndSOG1CMWp0bEZQNHVVMTUwZ3FCbVFvZEtjOGRsZXd4RUl6eFgweFhmM3V2SWhGUmtkU3R6UHdEMjI4Qk9lcjlWZ0M0U1BmSFk5N0xfOTJSa3czTUJYdnBiWU01MGE3SHc?oc=5",
-     "datum": "Thu, 03 Sep 2026 07:30:00 GMT",
-     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
