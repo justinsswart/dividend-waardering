@@ -1,17 +1,17 @@
 {
- "gescand": "2026-09-10T20:02:01+00:00",
+ "gescand": "2026-09-11T20:01:05+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Kansen in september: Adyen, ASML en een bijzondere dividend-ETF - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQUNTQm9hV0hXY2pFMU51Um5Zb2MwTks5Sjk1TnkyTHBSb3ZlMEJmSlhXMEhCY3FzZWwxRGc2V1lNaVVFc29UT3MyQ2ZWa3NEMnRLUUpMUjNkYmloYTBIOUlha2ptaVR5bklqTjNLMU1zWWdyQ09DNEJmVllMaG5sYThCQjRyR21ZOU04VUk5TF9ySlJBLUpNY1dyVmFmXzg?oc=5",
-     "datum": "Fri, 04 Sep 2026 11:59:36 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
+     "titel": "Immobel verlaagt outlook - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZ3NuUnJzeUd4eHg5QnFvVlE2Tzg2ajhINHJFcGlpS0NDbGxVSEdFZk5ieHVEU3pQU3pKWGs2dkYtX1VEYXJ4Mm4weXJMX1dXanJYZUFlSEMyOEsxbm5tLS03bTZXNm96MHdjMDgta1Z2S2cyTF9BRExMQ25nalk?oc=5",
+     "datum": "Fri, 11 Sep 2026 06:07:57 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 6
     }
    ]
   },
