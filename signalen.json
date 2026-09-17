@@ -1,5 +1,5 @@
 {
- "gescand": "2026-09-16T20:25:29+00:00",
+ "gescand": "2026-09-17T20:33:13+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
@@ -7,9 +7,9 @@
    "niveau": "hoog",
    "items": [
     {
-     "titel": "Immobel verlaagt outlook - deaandeelhouder.be",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBBZ3NuUnJzeUd4eHg5QnFvVlE2Tzg2ajhINHJFcGlpS0NDbGxVSEdFZk5ieHVEU3pQU3pKWGs2dkYtX1VEYXJ4Mm4weXJMX1dXanJYZUFlSEMyOEsxbm5tLS03bTZXNm96MHdjMDgta1Z2S2cyTF9BRExMQ25nalk?oc=5",
-     "datum": "Fri, 11 Sep 2026 06:07:57 GMT",
+     "titel": "Bilfinger verlaagt outlook vanwege geopolitieke onrust - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFg0NEZpWTdHRGpyZ011V285azNZNkdfUUpzX2M1QjNOblp3VmlHeHEwNXpjVjVSQVpoMWxReURtaWRsWDVxX0JBeEVTZ0FfWHpQNG1RR3AtR05aQ00tNkdxaUlqTDZRZ05Sbi03NTd2TXhvSXg0R2RJWnBpd1A4X3NYamxvRElhMGJ0QnZjM0hWRUIzanYwLUIyclBpTFNtZE12MF8zcw?oc=5",
+     "datum": "Thu, 17 Sep 2026 08:47:21 GMT",
      "bron": "deaandeelhouder.be",
      "gewicht": 6
     },
@@ -18,27 +18,6 @@
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPV2JyQzlWcDBvS0xfRFRlQTlBelcwQmZSZjREX2RibDhYNDFkbVl5TG0tQUN4R1JETnFVakRic2szYkpFTnNFWFM2V1JZa3hVRU5ZVTZyVjJ0bElCTUNOT0JTaFIxMFlLTEJRazZCdjJnNzV5dGVPaVJSc1BMck4yU283MUxrVDRBT2p6ckREVlJocEFXWUlmQ3JmaGpvbng0clJrTHBUc0N6bkZyYW5FV2NCSzdzM1NiRm9xd01VRkk4UUljaW9lQQ?oc=5",
      "datum": "Mon, 14 Sep 2026 15:48:00 GMT",
      "bron": "Investing.com",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ARCAD.AS": {
-   "naam": "Arcadis NV",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Deze vijf Nederlandse dividendaandelen presteerden het best in augustus - Morningstar",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1dsaEVPamNpUjZ6YmlOekZGZTRhRFV5WG82SlNRUE0xdTl5T3E2RXZZeWQwdGlDWHp3aHdIVU1tU3NOMV9Sc2U0WXh2dHdueVFVUk11ZV9qYTZJdVk4R1M4cEpRS0ZXZTNOVllDZ2lfMms2dkZzTHdHYnZjT2pLMGJtSWNMNHIweDBWTkZDVlRDeGZEMVBzXzVMcDZnSGV4bEtoUG9BTjhSbi1QLTBZbk1PbWdqbHoxTU5v?oc=5",
-     "datum": "Thu, 10 Sep 2026 07:00:00 GMT",
-     "bron": "Morningstar",
-     "gewicht": 3
-    },
-    {
-     "titel": "Deze 5 Nederlandse dividendaandelen stegen in augustus - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdU1wWFVmbUNNbHJGSWp0YU5NOEJaVWRxRnNrZUtwQkwyeWVUMjdoNHFFQVlpWjlhekotSHV5eENpZFJ0NVphLVJXN0ZBN1pDRW5GU2xnNVN3ekRfb0x2R2RvWXU2ZlBkWlEyRkFzeWE5dUk3cFBUY1RhUHpWcWROcg?oc=5",
-     "datum": "Sun, 13 Sep 2026 05:32:44 GMT",
-     "bron": "debelegger.nl",
      "gewicht": 3
     }
    ]
@@ -59,21 +38,14 @@
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
      "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
      "bron": "DividendNieuws.be",
-     "gewicht": 3
-    },
-    {
-     "titel": "EUR/USD daalt na renteverhoging van de ECB terwijl de beleidsvooruitzichten onzeker blijven - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNTVJmYi1ZbHptdnB6RGkwanVmbzliRjFRUURmYmRhT0ctTXduVFhDRHNudTdQSWltdERyY0k2cGdXZllCcmFIUWxkZWxXaFdOQ2h1bkpKMkdid1hHdi0zVEdpaWd3MnRKQkZMSk5oVVJodHNyQ2lOYktsdzhuaXJKc2NBbG1DLURKYWJmaE5KNDlOQTl6RmJpNTJtNkdhQ1NpRmpYWllFQQ?oc=5",
-     "datum": "Thu, 10 Sep 2026 13:20:07 GMT",
-     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
@@ -92,20 +64,6 @@
     }
    ]
   },
-  "BFIT.AS": {
-   "naam": "Basic-Fit N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "AXA verhoogt zijn groeidoelstellingen: blijft het aandeel aantrekkelijk voor het dividend? - Testaankoop",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNX2JNWGx5QXg4OU5yOE1iS2dWa0JrLWNITWlibHp3dFczNk8wNVZHQ1lHUHlGMW45cnNnRHVIQVpnT3hfUFRiUWxOTWxuYUM5UVdnTHU5eWdKOVlUNnJZcjhDWUdQcnY2SnM2aG5JOGVkT1cyRVRfTi1nR2FjQUViUFVWN05VblJNMUNOTTdSRmxSVUk?oc=5",
-     "datum": "Tue, 15 Sep 2026 11:28:25 GMT",
-     "bron": "Testaankoop",
-     "gewicht": 5
-    }
-   ]
-  },
   "NN.AS": {
    "naam": "NN Group N.V.",
    "score": 3,
@@ -120,72 +78,44 @@
     }
    ]
   },
-  "RAND.AS": {
-   "naam": "Randstad N.V.",
+  "OCI.AS": {
+   "naam": "OCI N.V.",
    "score": 6,
    "niveau": "midden",
    "items": [
     {
-     "titel": "Deze vijf Nederlandse dividendaandelen presteerden het best in augustus - Morningstar",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1dsaEVPamNpUjZ6YmlOekZGZTRhRFV5WG82SlNRUE0xdTl5T3E2RXZZeWQwdGlDWHp3aHdIVU1tU3NOMV9Sc2U0WXh2dHdueVFVUk11ZV9qYTZJdVk4R1M4cEpRS0ZXZTNOVllDZ2lfMms2dkZzTHdHYnZjT2pLMGJtSWNMNHIweDBWTkZDVlRDeGZEMVBzXzVMcDZnSGV4bEtoUG9BTjhSbi1QLTBZbk1PbWdqbHoxTU5v?oc=5",
-     "datum": "Thu, 10 Sep 2026 07:00:00 GMT",
-     "bron": "Morningstar",
-     "gewicht": 3
-    },
-    {
-     "titel": "Deze 5 Nederlandse dividendaandelen stegen in augustus - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdU1wWFVmbUNNbHJGSWp0YU5NOEJaVWRxRnNrZUtwQkwyeWVUMjdoNHFFQVlpWjlhekotSHV5eENpZFJ0NVphLVJXN0ZBN1pDRW5GU2xnNVN3ekRfb0x2R2RvWXU2ZlBkWlEyRkFzeWE5dUk3cFBUY1RhUHpWcWROcg?oc=5",
-     "datum": "Sun, 13 Sep 2026 05:32:44 GMT",
-     "bron": "debelegger.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "SBMO.AS": {
-   "naam": "SBM Offshore N.V.",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Deze vijf Nederlandse dividendaandelen presteerden het best in augustus - Morningstar",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1dsaEVPamNpUjZ6YmlOekZGZTRhRFV5WG82SlNRUE0xdTl5T3E2RXZZeWQwdGlDWHp3aHdIVU1tU3NOMV9Sc2U0WXh2dHdueVFVUk11ZV9qYTZJdVk4R1M4cEpRS0ZXZTNOVllDZ2lfMms2dkZzTHdHYnZjT2pLMGJtSWNMNHIweDBWTkZDVlRDeGZEMVBzXzVMcDZnSGV4bEtoUG9BTjhSbi1QLTBZbk1PbWdqbHoxTU5v?oc=5",
-     "datum": "Thu, 10 Sep 2026 07:00:00 GMT",
-     "bron": "Morningstar",
-     "gewicht": 3
-    },
-    {
-     "titel": "Deze 5 Nederlandse dividendaandelen stegen in augustus - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdU1wWFVmbUNNbHJGSWp0YU5NOEJaVWRxRnNrZUtwQkwyeWVUMjdoNHFFQVlpWjlhekotSHV5eENpZFJ0NVphLVJXN0ZBN1pDRW5GU2xnNVN3ekRfb0x2R2RvWXU2ZlBkWlEyRkFzeWE5dUk3cFBUY1RhUHpWcWROcg?oc=5",
-     "datum": "Sun, 13 Sep 2026 05:32:44 GMT",
-     "bron": "debelegger.nl",
-     "gewicht": 3
+     "titel": "Bilfinger verlaagt outlook vanwege geopolitieke onrust - deaandeelhouder.be",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOVFg0NEZpWTdHRGpyZ011V285azNZNkdfUUpzX2M1QjNOblp3VmlHeHEwNXpjVjVSQVpoMWxReURtaWRsWDVxX0JBeEVTZ0FfWHpQNG1RR3AtR05aQ00tNkdxaUlqTDZRZ05Sbi03NTd2TXhvSXg0R2RJWnBpd1A4X3NYamxvRElhMGJ0QnZjM0hWRUIzanYwLUIyclBpTFNtZE12MF8zcw?oc=5",
+     "datum": "Thu, 17 Sep 2026 08:47:21 GMT",
+     "bron": "deaandeelhouder.be",
+     "gewicht": 6
     }
    ]
   },
   "TWEKA.AS": {
    "naam": "TKH Group N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Deze vijf Nederlandse dividendaandelen presteerden het best in augustus - Morningstar",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPb1dsaEVPamNpUjZ6YmlOekZGZTRhRFV5WG82SlNRUE0xdTl5T3E2RXZZeWQwdGlDWHp3aHdIVU1tU3NOMV9Sc2U0WXh2dHdueVFVUk11ZV9qYTZJdVk4R1M4cEpRS0ZXZTNOVllDZ2lfMms2dkZzTHdHYnZjT2pLMGJtSWNMNHIweDBWTkZDVlRDeGZEMVBzXzVMcDZnSGV4bEtoUG9BTjhSbi1QLTBZbk1PbWdqbHoxTU5v?oc=5",
-     "datum": "Thu, 10 Sep 2026 07:00:00 GMT",
-     "bron": "Morningstar",
-     "gewicht": 3
-    },
     {
      "titel": "Deze tien dividendaandelen uit de eurozone presteren het best - Morningstar",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNHozTzhJU3N2RFFEb0ZYX2JwYVVNMUtwTkVWTzR2X2RFUnkyb3VTaFd3WFpMa21TTEdyOVR3OWtoeGlGQzNhdVE4S2xvQ1FpQlZwalNPOGNpZzJWajBfbnlzUXZES3NndzEteVlrNnpOcDY3bjVRSVhfQWYxWmRFTFNMWThaMnZKNU1BaHdRdWkzWktsMzdrbm5GU2ZqQzVkc2p6NVZR?oc=5",
      "datum": "Fri, 11 Sep 2026 07:00:00 GMT",
      "bron": "Morningstar",
      "gewicht": 3
-    },
+    }
+   ]
+  },
+  "VLK.AS": {
+   "naam": "Van Lanschot Kempen NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
-     "titel": "Deze 5 Nederlandse dividendaandelen stegen in augustus - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNdU1wWFVmbUNNbHJGSWp0YU5NOEJaVWRxRnNrZUtwQkwyeWVUMjdoNHFFQVlpWjlhekotSHV5eENpZFJ0NVphLVJXN0ZBN1pDRW5GU2xnNVN3ekRfb0x2R2RvWXU2ZlBkWlEyRkFzeWE5dUk3cFBUY1RhUHpWcWROcg?oc=5",
-     "datum": "Sun, 13 Sep 2026 05:32:44 GMT",
-     "bron": "debelegger.nl",
+     "titel": "Transfers: Van Lanschot Kempen, Double Dividend, Atomic, Kifid, ASN, Bouwinvest, Waystone - Investment Officer",
+     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ3VqbWJES0ViMVI0dTk4S0o4ZjBtdmtYenZVZ3ZHV0lMbmZUc2Zxd04xSG1KREdXaktUSG84aEx2aUlCUnRWeXhhenBQc1ZVdVVGb0FHVmoxT2F4eVNBOWt1Z0NzSWdySTdDaXBFMm5qNFkzQUV5ZGU3ektyRTV5a3RCSGJuT3AxVFlCYlMxZndDX3VkcGRZc29aVXB5cnlSM0YwMllGTG1IRXFXdXM5eS12ZVVpdTdrc2dwYmtmcHF2SDg?oc=5",
+     "datum": "Thu, 17 Sep 2026 04:17:15 GMT",
+     "bron": "Investment Officer",
      "gewicht": 3
     }
    ]
