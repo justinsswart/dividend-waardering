@@ -1,5 +1,5 @@
 {
- "gescand": "2026-09-17T20:33:13+00:00",
+ "gescand": "2026-09-18T19:56:13+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
@@ -52,15 +52,36 @@
   },
   "ASRNL.AS": {
    "naam": "ASR Nederland N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "Dit Nederlandse aandeel groeit hard en keert 5% dividend uit - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNYzZmS0QzcXl0M1ViN01hWnUzNkpWdU9xT2xtMFc0dUl0Zm5DX3Y1YzRab0NkdUZNWWM5WnlOQm9UZEVHc0pyLVlVWXZCMVZWa0g0MHRTbU1nZHFKTGZOYkZjY3M0YmNqYXRWN1RFVU9ZS0tQcUhxSGJDQzVWVG55MXNwcEFBMklZYy01NHhvXzczSDk2?oc=5",
+     "datum": "Thu, 17 Sep 2026 17:06:53 GMT",
+     "bron": "debelegger.nl",
+     "gewicht": 3
+    },
     {
      "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
      "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
      "bron": "DividendNieuws.be",
      "gewicht": 3
+    }
+   ]
+  },
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Colt CZ boekt goede vooruitgang in eerste halfjaar en verhoogt outlook - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNWWRWUnhGX2tJMER1MHJnWWpwdFRNclZTQzRKd2doOExHUWs0Q2xyRGswbHFGYlJ2QjJKazVRNjNFLWM1VnZxY0FiWnZ4cmdzWnc5S0JNRHZ1RVdhZ2tFcHlQbG1LRFpJWFRpaXoweWJXRG5TSWptaE8ya0RRcnRfNkRYLWtwSUZYelpyMGxOQldNcFl5SDV0MGk1bWRPWGNUd3FQX2p0QlBJWFJHaG1mREJlZlZMMm55NU12Zw?oc=5",
+     "datum": "Thu, 17 Sep 2026 07:11:38 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 5
     }
    ]
   },
@@ -89,20 +110,6 @@
      "datum": "Thu, 17 Sep 2026 08:47:21 GMT",
      "bron": "deaandeelhouder.be",
      "gewicht": 6
-    }
-   ]
-  },
-  "TWEKA.AS": {
-   "naam": "TKH Group N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Deze tien dividendaandelen uit de eurozone presteren het best - Morningstar",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQNHozTzhJU3N2RFFEb0ZYX2JwYVVNMUtwTkVWTzR2X2RFUnkyb3VTaFd3WFpMa21TTEdyOVR3OWtoeGlGQzNhdVE4S2xvQ1FpQlZwalNPOGNpZzJWajBfbnlzUXZES3NndzEteVlrNnpOcDY3bjVRSVhfQWYxWmRFTFNMWThaMnZKNU1BaHdRdWkzWktsMzdrbm5GU2ZqQzVkc2p6NVZR?oc=5",
-     "datum": "Fri, 11 Sep 2026 07:00:00 GMT",
-     "bron": "Morningstar",
-     "gewicht": 3
     }
    ]
   },
