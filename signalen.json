@@ -1,5 +1,5 @@
 {
- "gescand": "2026-09-21T21:15:00+00:00",
+ "gescand": "2026-09-22T20:28:53+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
@@ -15,48 +15,6 @@
     }
    ]
   },
-  "ASM.AS": {
-   "naam": "ASM International NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
-     "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASML.AS": {
-   "naam": "ASML Holding N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
-     "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASRNL.AS": {
-   "naam": "ASR Nederland N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
-     "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
   "AXS.AS": {
    "naam": "Accsys Technologies PLC",
    "score": 4,
@@ -68,6 +26,20 @@
      "datum": "Mon, 21 Sep 2026 12:32:25 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 4
+    }
+   ]
+  },
+  "BFIT.AS": {
+   "naam": "Basic-Fit N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "WEB weerstaat faillissement Leen Bakker en belooft stabiel dividend - De Tijd",
+     "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUnlqMUZJWTd4bG9nNnE4NHJlZUk4My00SnhzdWxaaFdxZW1uZk5fQW1rYWdJTzhWRm9ublZyY2g4c25DaUdLUTV5YVk3UVEtRDhaWDYwUGhkT3Y5b1lxTHQ3ejlBS0VnbmFNT1RLY0d1VGJDN0YyZFhTTWsxWFVvTi12YnlXSzNBZDdkZEdDazBteERBOFRYOHBWSi1IRVo5eUdQNGFkZGpoRFJlSHJzQVc4U19Xb1JaUGFWNWY1bzNWa1dMMkdpM3RFZzBhT2pkdGt2Yg?oc=5",
+     "datum": "Tue, 22 Sep 2026 15:35:16 GMT",
+     "bron": "De Tijd",
+     "gewicht": 3
     }
    ]
   },
@@ -99,44 +71,16 @@
     }
    ]
   },
-  "NN.AS": {
-   "naam": "NN Group N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
-     "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
   "VLK.AS": {
    "naam": "Van Lanschot Kempen NV",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Transfers: Van Lanschot Kempen, Double Dividend, Atomic, Kifid, ASN, Bouwinvest, Waystone - investmentofficer.nl",
+     "titel": "Transfers: Van Lanschot Kempen, Double Dividend, Atomic, Kifid, ASN, Bouwinvest, Waystone - Investment Officer",
      "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ3VqbWJES0ViMVI0dTk4S0o4ZjBtdmtYenZVZ3ZHV0lMbmZUc2Zxd04xSG1KREdXaktUSG84aEx2aUlCUnRWeXhhenBQc1ZVdVVGb0FHVmoxT2F4eVNBOWt1Z0NzSWdySTdDaXBFMm5qNFkzQUV5ZGU3ektyRTV5a3RCSGJuT3AxVFlCYlMxZndDX3VkcGRZc29aVXB5cnlSM0YwMllGTG1IRXFXdXM5eS12ZVVpdTdrc2dwYmtmcHF2SDg?oc=5",
      "datum": "Thu, 17 Sep 2026 04:17:15 GMT",
-     "bron": "investmentofficer.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "WKL.AS": {
-   "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Dividendportefeuille BE/NL loopt verder uit: halfgeleiders en Lotus stuwen rendement - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMEF6MlR0QXlGRWtSWE12dmxablUxZFFoMkw3ZUJzbkQxLWt2VEZ0aE5xWTJkZ1ZLVXpvdVE2YjJpdjBwUkhYb3E1WVZCZXRBX0dieWxnQkpwNUdsdGdIc0QwTVZrN2NJcU52ZXdKVnRUdW9ta0Z1VjVDNHd6TWktRG5FWUJIVGw5cVRLVm9BR0RGY0xsbUc2dw?oc=5",
-     "datum": "Tue, 15 Sep 2026 07:55:00 GMT",
-     "bron": "DividendNieuws.be",
+     "bron": "Investment Officer",
      "gewicht": 3
     }
    ]
