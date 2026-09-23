@@ -1,5 +1,5 @@
 {
- "gescand": "2026-09-22T20:28:53+00:00",
+ "gescand": "2026-09-23T20:40:52+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
@@ -15,20 +15,6 @@
     }
    ]
   },
-  "AXS.AS": {
-   "naam": "Accsys Technologies PLC",
-   "score": 4,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Aandelen Accsys Technologies onderuit na winstwaarschuwing door zwakte in VS - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPRlhUQkU3TkRxaWc4RnNaTFotN0JfYjg3VUJpWF9LTmQ3c3RkeFU4WW5mb0loWXpsTzhTVlBqa0J2X3oxcjZJbWR6cnc0UEtxZWxxX3ZJakZ4Z2s1dFRWWVVjVmEwV2dldU85X1M1RnR3UWptU19tTHY2NFVSRHd4RUxsZTZhUV95QXVQNkFTZXZSV0JHMjdNN1FaT1dsYzI2WEJfU1V4VF80bkRXTzZHUTVrc1JPbG1EUjlpalRkWHFJZ1NaZ05ha3pjZmlWeE5W?oc=5",
-     "datum": "Mon, 21 Sep 2026 12:32:25 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 4
-    }
-   ]
-  },
   "BFIT.AS": {
    "naam": "Basic-Fit N.V.",
    "score": 3,
@@ -37,7 +23,7 @@
     {
      "titel": "WEB weerstaat faillissement Leen Bakker en belooft stabiel dividend - De Tijd",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUnlqMUZJWTd4bG9nNnE4NHJlZUk4My00SnhzdWxaaFdxZW1uZk5fQW1rYWdJTzhWRm9ublZyY2g4c25DaUdLUTV5YVk3UVEtRDhaWDYwUGhkT3Y5b1lxTHQ3ejlBS0VnbmFNT1RLY0d1VGJDN0YyZFhTTWsxWFVvTi12YnlXSzNBZDdkZEdDazBteERBOFRYOHBWSi1IRVo5eUdQNGFkZGpoRFJlSHJzQVc4U19Xb1JaUGFWNWY1bzNWa1dMMkdpM3RFZzBhT2pkdGt2Yg?oc=5",
-     "datum": "Tue, 22 Sep 2026 15:35:16 GMT",
+     "datum": "Wed, 23 Sep 2026 15:17:08 GMT",
      "bron": "De Tijd",
      "gewicht": 3
     }
@@ -54,20 +40,6 @@
      "datum": "Thu, 17 Sep 2026 08:46:38 GMT",
      "bron": "De AandeelHouder",
      "gewicht": 6
-    }
-   ]
-  },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Fitch handhaaft rating en vooruitzichten ING Groep dankzij sterke marktpositie - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxOX0dpMVVFTXY1NmtTMDMyem83Uk1RV283OVNYTnN4OFV0c2RHblh4bjhIaGVNMC1RN2pacjVZbEt2bUJBdWR2c0hRazZqazlDb0M3VVdLSVZGUlBza2M2NlZmSmVKMDhfM2VWRVh4TkFuREhXM2g5akpuYkg5SWVBZ2Flb3hpOUpaRXhFeEw1cFFPUkU0cXhCNjU1cm5hc0xOUnZ5SHdBN285bktzVEloTC1RcTVwMDM0VmV4a0pub2ZyaWxLWlJheWdtaDhMYmRabWln?oc=5",
-     "datum": "Wed, 16 Sep 2026 16:02:36 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 3
     }
    ]
   },
