@@ -1,17 +1,31 @@
 {
- "gescand": "2026-09-23T20:40:52+00:00",
+ "gescand": "2026-09-24T20:44:28+00:00",
  "signalen": {
-  "ADYEN.AS": {
-   "naam": "Adyen N.V.",
-   "score": 6,
-   "niveau": "midden",
+  "AD.AS": {
+   "naam": "Koninklijke Ahold Delhaize N.V.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Bilfinger verlaagt outlook vanwege geopolitieke onrust - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOE8yWDdENTg5TEJNUjNsMmdKUkJJRmpHclNiN1l6R0VLVmN5el83Y2g4eUViaFVvVDE3aUd4bVIybUFERXNzMG5EcjhOTmZwZnlkckRxRTVEdzJnaWdkXzYtU2NERl96cmtJZXREajhtaW45QVhQOGFtV2NuUThQUGY2N1hnTmFfb1U2UEMzNlFXMjExYzR5bGpIN3dEdXlFLVhwTm84NA?oc=5",
-     "datum": "Thu, 17 Sep 2026 08:46:38 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 6
+     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
+     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
+     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
     }
    ]
   },
@@ -23,36 +37,36 @@
     {
      "titel": "WEB weerstaat faillissement Leen Bakker en belooft stabiel dividend - De Tijd",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUnlqMUZJWTd4bG9nNnE4NHJlZUk4My00SnhzdWxaaFdxZW1uZk5fQW1rYWdJTzhWRm9ublZyY2g4c25DaUdLUTV5YVk3UVEtRDhaWDYwUGhkT3Y5b1lxTHQ3ejlBS0VnbmFNT1RLY0d1VGJDN0YyZFhTTWsxWFVvTi12YnlXSzNBZDdkZEdDazBteERBOFRYOHBWSi1IRVo5eUdQNGFkZGpoRFJlSHJzQVc4U19Xb1JaUGFWNWY1bzNWa1dMMkdpM3RFZzBhT2pkdGt2Yg?oc=5",
-     "datum": "Wed, 23 Sep 2026 15:17:08 GMT",
+     "datum": "Tue, 22 Sep 2026 09:57:00 GMT",
      "bron": "De Tijd",
      "gewicht": 3
     }
    ]
   },
-  "CRBN.AS": {
-   "naam": "Corbion N.V.",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Bilfinger verlaagt outlook vanwege geopolitieke onrust - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPOE8yWDdENTg5TEJNUjNsMmdKUkJJRmpHclNiN1l6R0VLVmN5el83Y2g4eUViaFVvVDE3aUd4bVIybUFERXNzMG5EcjhOTmZwZnlkckRxRTVEdzJnaWdkXzYtU2NERl96cmtJZXREajhtaW45QVhQOGFtV2NuUThQUGY2N1hnTmFfb1U2UEMzNlFXMjExYzR5bGpIN3dEdXlFLVhwTm84NA?oc=5",
-     "datum": "Thu, 17 Sep 2026 08:46:38 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 6
-    }
-   ]
-  },
-  "VLK.AS": {
-   "naam": "Van Lanschot Kempen NV",
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Transfers: Van Lanschot Kempen, Double Dividend, Atomic, Kifid, ASN, Bouwinvest, Waystone - Investment Officer",
-     "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxPZ3VqbWJES0ViMVI0dTk4S0o4ZjBtdmtYenZVZ3ZHV0lMbmZUc2Zxd04xSG1KREdXaktUSG84aEx2aUlCUnRWeXhhenBQc1ZVdVVGb0FHVmoxT2F4eVNBOWt1Z0NzSWdySTdDaXBFMm5qNFkzQUV5ZGU3ektyRTV5a3RCSGJuT3AxVFlCYlMxZndDX3VkcGRZc29aVXB5cnlSM0YwMllGTG1IRXFXdXM5eS12ZVVpdTdrc2dwYmtmcHF2SDg?oc=5",
-     "datum": "Thu, 17 Sep 2026 04:17:15 GMT",
-     "bron": "Investment Officer",
+     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
+     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PHIA.AS": {
+   "naam": "Koninklijke Philips N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
+     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
