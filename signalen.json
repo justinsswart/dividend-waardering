@@ -1,20 +1,6 @@
 {
- "gescand": "2026-09-24T20:44:28+00:00",
+ "gescand": "2026-09-25T20:44:12+00:00",
  "signalen": {
-  "AD.AS": {
-   "naam": "Koninklijke Ahold Delhaize N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
-     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
    "score": 3,
@@ -39,6 +25,20 @@
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUnlqMUZJWTd4bG9nNnE4NHJlZUk4My00SnhzdWxaaFdxZW1uZk5fQW1rYWdJTzhWRm9ublZyY2g4c25DaUdLUTV5YVk3UVEtRDhaWDYwUGhkT3Y5b1lxTHQ3ejlBS0VnbmFNT1RLY0d1VGJDN0YyZFhTTWsxWFVvTi12YnlXSzNBZDdkZEdDazBteERBOFRYOHBWSi1IRVo5eUdQNGFkZGpoRFJlSHJzQVc4U19Xb1JaUGFWNWY1bzNWa1dMMkdpM3RFZzBhT2pkdGt2Yg?oc=5",
      "datum": "Tue, 22 Sep 2026 09:57:00 GMT",
      "bron": "De Tijd",
+     "gewicht": 3
+    }
+   ]
+  },
+  "CTPNV.AS": {
+   "naam": "CTP N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: Deutsche Bank verlaagt koersdoel CTP - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVY0YUhNMUJMTVZsRmlIb3RxeXRudElxdFVxd1hiQzlSLUdSVEs3cWMwM0dXZWtDbEtiUl91dDdiMXRUMTlFX202YXVoeExGQ2tYekhFZXNVRTNKUHhIdzJDMTI1bTZFNGRDRktCNzV6M0hqeThrYUh6eFJmMXk4Tm5mWlhTbjR5Y0FmT25CM3RHSE95RXRVaTNoQ2Q?oc=5",
+     "datum": "Fri, 25 Sep 2026 07:03:45 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
