@@ -1,15 +1,43 @@
 {
- "gescand": "2026-09-25T20:44:12+00:00",
+ "gescand": "2026-09-28T22:40:01+00:00",
  "signalen": {
+  "AGN.AS": {
+   "naam": "Aegon Ltd.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Achter de nieuwe naam Transamerica schuilt dezelfde holdingkas waaruit Aegon dividend én inkoop moet betalen - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLWVSeGNkdEExc3hmNTVhT1lfVVJnNV84d2JhT0d4aVRVM2diS3k5ak5IR1MxQUVSU0xwRS1mZ055Q0tmYklzOHhMZEVQYjNwVEZHRTFnVXRWZ2xNNEVnM1ZlZnRkWFFUYjZTQjM2Tmk1UGszYjBBZVd6d2xnZjlKcXBNTm9HLW1VU013MEJYUk9ydk0ySTVLTmlWYVFCaVUwd045UTJaY2RrLUlLckVKLThkOWRjcnkzOWF1bU05MlNkcy1EWGs1SHJsNmVCSE85X1E?oc=5",
+     "datum": "Thu, 24 Sep 2026 09:15:48 GMT",
+     "bron": "debelegger.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ARCAD.AS": {
+   "naam": "Arcadis NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Totalenergies gaat jaarlijks dividend verhogen - deaandeelhouder.nl",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTHl6NkhWb3dVa0RLaUNYSWttbVVfNkhMcjBNVUowMXlhLUFRc2x1RkVWbXY1ODZVWDVYcFVsMk9UMllEWkZHZUxuYlczRk4zQjBUdHBWcE1UdEkzdVFGVnhtbFU4ZHg4TXl0a29TcFpZbXR6UjdWem9QSjFFRXUyX1RUcGhLbVR4SFNINUhkOXM3UUhKRzYwV2tZdno?oc=5",
+     "datum": "Mon, 28 Sep 2026 09:41:03 GMT",
+     "bron": "deaandeelhouder.nl",
+     "gewicht": 3
+    }
+   ]
+  },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
-     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
+     "titel": "TotalEnergies zet zich in voor 5 procent jaarlijkse dividendgroei en grotere terugkopen, merkt Javier Blas op - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOMVlZRzlRSndob3d4aUUxcXd5UUVmZnN1bEt3bHpzQTdJS2lhSFBjSmdMc2YzVGJzcXF3Vmx5Nk9RSEtzNjVJb3VHMXFfT19FdWEyMHBFelFTYVJzNlBOaGdVN29FWV9DcHBuTmkxbG5DMlVyTnRYdVptSlF4R3BsYThnVGp2TkhPNnFsdWtSSUZENVNidHVPTzA0b0JZbEJo?oc=5",
+     "datum": "Mon, 28 Sep 2026 07:05:06 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     }
@@ -17,9 +45,16 @@
   },
   "BFIT.AS": {
    "naam": "Basic-Fit N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "Koers Nike Inc | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE82a2E4bGplYVEyLWtjNWJHRGl2Njlqc0trM3V6UUF3U2M2V0F1TDhrTFNucnh6aFBod0t3enp4RWNIWTljdndESlRfeUdlZ2h1eWJWaUVwb3B3MzdleTdpaHJqSXFxMm8?oc=5",
+     "datum": "Fri, 25 Sep 2026 18:23:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
     {
      "titel": "WEB weerstaat faillissement Leen Bakker en belooft stabiel dividend - De Tijd",
      "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOUnlqMUZJWTd4bG9nNnE4NHJlZUk4My00SnhzdWxaaFdxZW1uZk5fQW1rYWdJTzhWRm9ublZyY2g4c25DaUdLUTV5YVk3UVEtRDhaWDYwUGhkT3Y5b1lxTHQ3ejlBS0VnbmFNT1RLY0d1VGJDN0YyZFhTTWsxWFVvTi12YnlXSzNBZDdkZEdDazBteERBOFRYOHBWSi1IRVo5eUdQNGFkZGpoRFJlSHJzQVc4U19Xb1JaUGFWNWY1bzNWa1dMMkdpM3RFZzBhT2pkdGt2Yg?oc=5",
@@ -35,38 +70,45 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Beursblik: Deutsche Bank verlaagt koersdoel CTP - De AandeelHouder",
+     "titel": "Beursblik: Deutsche Bank verlaagt koersdoel CTP - deaandeelhouder.nl",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQLVY0YUhNMUJMTVZsRmlIb3RxeXRudElxdFVxd1hiQzlSLUdSVEs3cWMwM0dXZWtDbEtiUl91dDdiMXRUMTlFX202YXVoeExGQ2tYekhFZXNVRTNKUHhIdzJDMTI1bTZFNGRDRktCNzV6M0hqeThrYUh6eFJmMXk4Tm5mWlhTbjR5Y0FmT25CM3RHSE95RXRVaTNoQ2Q?oc=5",
      "datum": "Fri, 25 Sep 2026 07:03:45 GMT",
-     "bron": "De AandeelHouder",
+     "bron": "deaandeelhouder.nl",
      "gewicht": 3
     }
    ]
   },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
+  "KPN.AS": {
+   "naam": "Koninklijke KPN N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
-     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
-     "bron": "Traders Union",
+     "titel": "Koers KPN Koninklijke | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxQ0l4S21jYkQzTXhzOTk5Ylh2Rl84a2NqbDRjQnVZMDd3OVR5ckdLMFYybVlxUGtDU2JvbEVkUTNZRE5VSlgzYUhQdzRrOU43ZTNrUkNDRGVkbDFCQnQxbkNmTTl4bWZ5VXY4?oc=5",
+     "datum": "Fri, 25 Sep 2026 05:43:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
-  "PHIA.AS": {
-   "naam": "Koninklijke Philips N.V.",
-   "score": 3,
-   "niveau": "laag",
+  "NN.AS": {
+   "naam": "NN Group N.V.",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
     {
-     "titel": "Outlook ondersteunt groeiversnelling niet: kan het aandeel Paychex grotere verliezen voorkomen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQajNpS0pJc1B3djVsQktjOW5tV0t4aHpkaXYtSU5obmpQZFNMZG05RFdBNkNaWE45V2ZuMWpBTVJjSWtTdFBwSmMzdjBWeUJmSWEwZzBvMzNWZFBISm1qYXBYV2lJVzBrd1U0cFpKY0tJRmJNelVrVUtEdFBMQ09aQ2tSdFN0aW5kZVVWSkViNzBGNmM3Q0Y0?oc=5",
-     "datum": "Wed, 23 Sep 2026 16:27:07 GMT",
-     "bron": "Traders Union",
+     "titel": "Dividend of inkoop, bij NN telt de uitkering pas als het aantal aandelen echt krimpt - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbDhUUmxfeVBqZnh5VWtyZjladmhsVDZOOGlBSlhCOU9sVXd1YkowSmZZWXpGV2EtRjQ4TTlBVGdyRG94T3ZEOERlVUFDY0FnSWlGRWpiT0lxQjlqemRWSFppY0g5dWtZLWJMME5vN2UtNW1hXzI1elRWTWR0QTZBWTdEX1pQTDNteXpwX0ZLbjJTcDR5Y3VqNUZhSlpNdFpOUDEzMkpFZG5oam9SM1BQMlRZQ3A?oc=5",
+     "datum": "Sat, 26 Sep 2026 01:55:31 GMT",
+     "bron": "debelegger.nl",
+     "gewicht": 5
+    },
+    {
+     "titel": "Wat als het dividend niet de beste bestemming is voor de 922 miljoen euro vrije kas van NN? - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQZ0x3dFhKRnMzRnJWMFBCMWhfRzJGQU1tNGd4SkZSc2YyZk5JZk5SVmdJeVduOURwOVd4YlI2bi1TVVlNOTNJS0g4enpra3lGSWhmVXpPSFF5Z2E2WDVVM3BQU2o1d2VZN2RkRFVVS1JVakp6aEtXZlZHc1FqdlhlSTdCeVpMSV95ZGxjVGRqZTh3eDhFdC1NMEl2MVNHOXIxTzVnR1JpUXBnSEVncTl0NkJVWFo2eWdvZ0p3Z19R?oc=5",
+     "datum": "Fri, 25 Sep 2026 07:00:00 GMT",
+     "bron": "debelegger.nl",
      "gewicht": 3
     }
    ]
