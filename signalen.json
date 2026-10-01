@@ -1,20 +1,6 @@
 {
- "gescand": "2026-09-30T21:33:58+00:00",
+ "gescand": "2026-10-01T22:00:13+00:00",
  "signalen": {
-  "AGN.AS": {
-   "naam": "Aegon Ltd.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Achter de nieuwe naam Transamerica schuilt dezelfde holdingkas waaruit Aegon dividend én inkoop moet betalen - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOLWVSeGNkdEExc3hmNTVhT1lfVVJnNV84d2JhT0d4aVRVM2diS3k5ak5IR1MxQUVSU0xwRS1mZ055Q0tmYklzOHhMZEVQYjNwVEZHRTFnVXRWZ2xNNEVnM1ZlZnRkWFFUYjZTQjM2Tmk1UGszYjBBZVd6d2xnZjlKcXBNTm9HLW1VU013MEJYUk9ydk0ySTVLTmlWYVFCaVUwd045UTJaY2RrLUlLckVKLThkOWRjcnkzOWF1bU05MlNkcy1EWGs1SHJsNmVCSE85X1E?oc=5",
-     "datum": "Thu, 24 Sep 2026 09:15:48 GMT",
-     "bron": "debelegger.nl",
-     "gewicht": 3
-    }
-   ]
-  },
   "ARCAD.AS": {
    "naam": "Arcadis NV",
    "score": 22,
@@ -35,10 +21,10 @@
      "gewicht": 4
     },
     {
-     "titel": "Arcadis schrapt 1000 banen en wil onderdelen afstoten - financieel.headliner.nl",
+     "titel": "Arcadis schrapt 1000 banen en wil onderdelen afstoten - Headliner.nl",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLW1PTHZVbWgxX1hadjFINHFQbU5jMlozdVJTdDZpNTF0eVBWRXdqLUJaUUJ0YVBnWnhPWGtOWDBYSGN3aHFueVBqVUVJV2pCc3U3TlJBNXdGMnZrSlI4a0tBamFqNHoyWWxjTmJlV1NlN0lVbGJEUW5uVm82dENvNmNQQlN5ZWhG?oc=5",
      "datum": "Tue, 29 Sep 2026 05:46:00 GMT",
-     "bron": "financieel.headliner.nl",
+     "bron": "Headliner.nl",
      "gewicht": 4
     },
     {
@@ -53,6 +39,20 @@
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTHl6NkhWb3dVa0RLaUNYSWttbVVfNkhMcjBNVUowMXlhLUFRc2x1RkVWbXY1ODZVWDVYcFVsMk9UMllEWkZHZUxuYlczRk4zQjBUdHBWcE1UdEkzdVFGVnhtbFU4ZHg4TXl0a29TcFpZbXR6UjdWem9QSjFFRXUyX1RUcGhLbVR4SFNINUhkOXM3UUhKRzYwV2tZdno?oc=5",
      "datum": "Mon, 28 Sep 2026 09:41:03 GMT",
      "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "BTC/USD houdt de bandbreedte vast terwijl rentevooruitzichten en ETF-stromen tegengestelde krachten vormen - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQMWpBSWd3REN1YlFtS3gtZTZxWDVCZndFY0JFa1lra015ZHU3SVcwcFZGUjN1ZTIxN3l4VFU0QjNsQThuTXB6ZDFCNjl3LWNoY3JQV09RM2U5UUJtdUhQZVktekdMSzB3U0Q2bWd6TzVWa0tUZWRFT2ZibVBZMndrd3c5UlZCa3Vuem40NEZ2dklLdUpNM2dHR3F2SUhibEd0TTJEYUcydUlSUnA3Y1FkQ0RPdDJaWnM?oc=5",
+     "datum": "Thu, 01 Oct 2026 11:24:09 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
@@ -87,7 +87,7 @@
   },
   "NN.AS": {
    "naam": "NN Group N.V.",
-   "score": 14,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
@@ -98,15 +98,8 @@
      "gewicht": 5
     },
     {
-     "titel": "Het dividend van NN Group hangt af van kas die de holding op tijd bereikt - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQOVdwYkQwWmlTVGdrZExEM2VSUEhKY05pdHlXQzlzNWNKZ1lBaXZoQ2dfelNFSTI2blprTFIwOVVwX2NySlhIcnFsaEJtQ1EzRmgwMEZvTm5ueURDZ3FNZVJoSkJ3aWU2dWZQanBuUE9Id2VjUl9CX0RpVG0xbkhMSElFMy1ZTVFCVVFCRTZDaEhlQ2xtdmZ5a2VmWXcwUmZXVzMta2VWcw?oc=5",
-     "datum": "Tue, 29 Sep 2026 14:03:00 GMT",
-     "bron": "debelegger.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "De buffer van NN is pas dividend boven de stressdrempel - debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPWnkxU29kaDJ1a3RBTE9OMXRjTmFYX2FPaUhvSnhXZl91V0tjUlhXbTFmck0xeUpxTTVZX1VTTU1ReWhFTkMyN3JWRjl5cmIxWUV0TDY4OEpLQ0NZckZpQnpya3JGQXFTVHFPblprdkJvNlJTbnFzQUN4MTFmbXE1SWV4eTMza2I1dk1kZkJxNA?oc=5",
+     "titel": "Komt het dividend van NN Group wel veilig bij de holding aan? - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMEVLWWcxcGFYdHhFUHZzYjNHYlZKTXNpb0pmTkV6cmh6QTBZeE90dEhGZkEzWTFQZXJ1NzVtSzhTbjduMjNYZXpzWXB5Ni1PU3g4cnpyR29JS3B3OVF6elo5SGd2OFA2TW93TXZCNUVDZ3d5V0VVWnRUMkk3aHdPVDNaU2dYUnZRT3NhYnVjU2hWVGd5bEE?oc=5",
      "datum": "Tue, 29 Sep 2026 14:03:00 GMT",
      "bron": "debelegger.nl",
      "gewicht": 3
