@@ -1,4 +1,96 @@
 {
- "gescand": "2026-10-02T21:28:38+00:00",
- "signalen": {}
+ "gescand": "2026-10-05T23:21:08+00:00",
+ "signalen": {
+  "ARCAD.AS": {
+   "naam": "Arcadis NV",
+   "score": 19,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Arcadis schrapt 1000 banen en wil onderdelen afstoten - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQX09tdnM4UDN4RzFua1kwUE1aX2JIaVNHS2lKQXBPOTFTc1JLZGh6a24zLU04WG9oV3NKcUhwY05Za1NyaUluaDRxdVJQWWZ6cUc1Q29WLUYtZmJpbndhNzc3OFViWExwMUJFY1c2UE1taU9tQ2h0QkkxeF9JS2oxMGtHcWtac1RmQzgyb1VabVIxSHdJQWc?oc=5",
+     "datum": "Tue, 29 Sep 2026 05:32:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 4
+    },
+    {
+     "titel": "Arcadis schrapt 1000 banen en wil onderdelen afstoten - financieel.headliner.nl",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOLW1PTHZVbWgxX1hadjFINHFQbU5jMlozdVJTdDZpNTF0eVBWRXdqLUJaUUJ0YVBnWnhPWGtOWDBYSGN3aHFueVBqVUVJV2pCc3U3TlJBNXdGMnZrSlI4a0tBamFqNHoyWWxjTmJlV1NlN0lVbGJEUW5uVm82dENvNmNQQlN5ZWhG?oc=5",
+     "datum": "Tue, 29 Sep 2026 05:46:00 GMT",
+     "bron": "financieel.headliner.nl",
+     "gewicht": 4
+    },
+    {
+     "titel": "Arcadis schrapt 1000 banen en stoot activiteiten China af - TPO.NL",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5JeGtFNXd1anhURFppb2l6Z3FuWnBvSFBLNUhYZEFzOFdvUTFlVzJCQ1FTN0c5ckFsQ0I0eWw4VzZwRm9sVmF2ZHJ3VnRIQjlVcnVid05ZWkhNckZWUmxCaDBtb2FqMWJ2allZS1MwSWJlbU0?oc=5",
+     "datum": "Tue, 29 Sep 2026 07:23:55 GMT",
+     "bron": "TPO.NL",
+     "gewicht": 4
+    },
+    {
+     "titel": "Arcadis schrapt zo’n duizend banen, stoot activiteiten in China af - bnr.nl",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOTnBwdDZkSF85WTMzdjdxOVp6ZzhvTTlDWTRzSG1IQVB0ZG1IV0pQZEJwb0h2VFZ5RUpHTzdZYzZKUjlERDdhVElTQ09uV2Y4N2pvUjdqMFVrSkx2anZwcmhlaHo5VEJUeXp2cnlHUk5SU1c4bzNkQldzM3Y3MTFaa0RYM08xUWR1aUJ6MUZOa2Utc0JCaGhuWE53QXUyeXF2bFRfNjNoTWc3eUVK?oc=5",
+     "datum": "Tue, 29 Sep 2026 05:23:00 GMT",
+     "bron": "bnr.nl",
+     "gewicht": 4
+    },
+    {
+     "titel": "Beleggers verwachten ‘knetterende’ beleggersdag na reorganisatie Arcadis en overnameperikelen - bnr.nl",
+     "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOQ0E0dmczRWpadHhrUnhTc2x5cUNoRmVETDFieTVNZHNhWmJUWXJwVzJhTlF0Z3h2ZDJ4ZFlMZGNhQzU0ZDZTQ3BVZUoxLTZ6SENzV3pOcVFCdDFQWnhvX19Fa3pYNENVMHVhV1M2Z2lpWnlhMS1MSXFabm5KakowRGc2c21QQ0s3RlNFNFRrUWJUM3BlMFlsdUd5aGlMRTd3OGQtQ3B2amlabU5nYmFPZUlDQ1JxZFk5djdSN21nczMxTFdTa2VOaGxfWENLLXhvVVE?oc=5",
+     "datum": "Tue, 29 Sep 2026 09:02:00 GMT",
+     "bron": "bnr.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Park Hotels & Resorts Inc. (PK) – Dividendgeschiedenis, dividendrendement en ex-dividenddatum - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5sX1YycTVFdk5rQi1kakxxY1hRQnpvQTQ0TGt4SDA5Zmo3YURZcmhZSjNtaFJzVms2ckpELUFCQlp3QnUtYkZETjRodkxvTnItbkoyazdBWGlaX2tSYlYtX0R3?oc=5",
+     "datum": "Tue, 29 Sep 2026 07:00:00 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "KPN.AS": {
+   "naam": "Koninklijke KPN N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Koers KPN Koninklijke | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTFAxQ0l4S21jYkQzTXhzOTk5Ylh2Rl84a2NqbDRjQnVZMDd3OVR5ckdLMFYybVlxUGtDU2JvbEVkUTNZRE5VSlgzYUhQdzRrOU43ZTNrUkNDRGVkbDFCQnQxbkNmTTl4bWZ5VXY4?oc=5",
+     "datum": "Thu, 01 Oct 2026 06:34:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "NN.AS": {
+   "naam": "NN Group N.V.",
+   "score": 6,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Kan NN Group zijn dividend en inkoop blijven betalen? - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOT01UNl93enFQVzIzVjlUZUNMeU9qZ1BwalA1UmNhSGg3MzlUSWpjcy0zYnBENDY3OGFNazJRT0FQN0ZrN2NnWUpMYTh5ZGpzOFZqUVlxaGo2Z0wyaTFtMlphVVc2a1VpOWxWNzhOTDR6WGhpUjNuX1pFbDRfSkx2NTB6Vl9Pb0xtTVVF?oc=5",
+     "datum": "Fri, 02 Oct 2026 20:21:00 GMT",
+     "bron": "debelegger.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Komt het dividend van NN Group wel veilig bij de holding aan? - debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPMEVLWWcxcGFYdHhFUHZzYjNHYlZKTXNpb0pmTkV6cmh6QTBZeE90dEhGZkEzWTFQZXJ1NzVtSzhTbjduMjNYZXpzWXB5Ni1PU3g4cnpyR29JS3B3OVF6elo5SGd2OFA2TW93TXZCNUVDZ3d5V0VVWnRUMkk3aHdPVDNaU2dYUnZRT3NhYnVjU2hWVGd5bEE?oc=5",
+     "datum": "Tue, 29 Sep 2026 14:03:00 GMT",
+     "bron": "debelegger.nl",
+     "gewicht": 3
+    }
+   ]
+  }
+ }
 }

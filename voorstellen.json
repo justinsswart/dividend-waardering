@@ -1,1 +1,9 @@
-{}
+{
+ "ASML.AS": {
+  "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
+  "fout": "HTTP Error 403: Forbidden",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-05"
+ }
+}
