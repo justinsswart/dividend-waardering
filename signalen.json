@@ -1,4 +1,131 @@
 {
- "gescand": "2026-10-08T22:32:07+00:00",
- "signalen": {}
+ "gescand": "2026-10-09T21:53:34+00:00",
+ "signalen": {
+  "AKZA.AS": {
+   "naam": "Akzo Nobel N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Degroof: \"Riant dividend AkzoNobel in aantocht\" - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONjBZV1dqOFlDSFJTakx2YVNjN0JQdGR3OW5KeUVQQ1BkamNHWUpTY2U1clRSTTQwMXR4UXNZc19rTWlHdURjOEV1ZGdId1FEZ25MQmpTal81UzdxU19CVnFEZTlqS2EzTFVqbzYtYm1rZ2w5aThiTnVkaEc1c19vVlAwMW9mNDllQlE?oc=5",
+     "datum": "Wed, 07 Oct 2026 06:56:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "APAM.AS": {
+   "naam": "Aperam S.A.",
+   "score": 9,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Koers Aperam | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OWXR3QXdiaUtSMjV5ZS1jMHI4QUIzOUU4aVdtWTg4VUZzRXRPQVluMHVhbVhzMXVUOVd1V2VNOXFtb2tNVVVGY1RncWhqQi0zNE5tMFB5NXQybW5DQ01Wcw?oc=5",
+     "datum": "Tue, 06 Oct 2026 13:15:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Aperam herhaalt outlook voor derde kwartaal - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQTdVVkZCeWl4VzFRTDBtZzRfUlByZFQ2MXVOdzhtNk5uNmUwbmFnQW1jZDhmUG5vR0c0YjNiZTh3Y2Z1VEM0czBvZnh1M0g5RHFIRy1udVlhcVlSa0pycldxaEJRYk5pWE9HYXB3YVBpSGNXUXJiZmsyRXhtWWpfM0tlaW5nREsyZTh2a2xvelhxSkxRS3hISzJLcURiQlpvNkhydg?oc=5",
+     "datum": "Tue, 06 Oct 2026 05:53:30 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    },
+    {
+     "titel": "Aperam bevestigt kwartaalvooruitzichten in aanloop naar de cijfers van 6 november - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbWMtM1hRa0NLQWVmd3RlRlZtbVVaaVJVU3lvU2FiNVNVRUxEWHV2em1iR1dhcjB6eDY0SWRIX2l5Ul9SVC1fYW5ueGEteFJmVlo3bThaQWx0ODZfVHFJSmN0cThKam93MjczdDRJRG5GUXBSZmI2dFNHcFhvZkx3dGY3RGlINzdJWFpvc3l3MEUwQWZxMS0telJ3bHQ2a0txOFB5UVd2aXNrX1hTeEdLN1F2ZWJDTEZpcWszcGhYdnlxT1VWcUt4SVRuMXQySjNVNjh4ejk4UQ?oc=5",
+     "datum": "Tue, 06 Oct 2026 06:41:23 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    }
+   ]
+  },
+  "BESI.AS": {
+   "naam": "BE Semiconductor Industries N.V.",
+   "score": 6,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "BofA verlaagt BE Semiconductor wegens HBM-vertragingen en ASML-dreiging - Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNm5DYTFvU051QmZ3bE00Y0c5bDV3ZDBLRkRtTDY3eFQ0M1g4RVByd0tQTDVRRzdqaGVRZ1hWdzZ2cmtZNFFPNGZ4djdnQXIxclF5Um1RTHZ5ZzdwV0taV2J0bUxUU0xYME9ob2Q5LUs0YjVrSXFFUUs0VTRSY24xb0FGRnc1elY2cC1jaG5ZaUtnMkNzb0lhZUk3ckExcTVpWG5neTRUVjNreV93UnNYVnJtcVFDN1ppOXQwZE9PNTI2eDF4bUxPTw?oc=5",
+     "datum": "Tue, 06 Oct 2026 18:10:48 GMT",
+     "bron": "Investing.com",
+     "gewicht": 3
+    },
+    {
+     "titel": "Barclays verlaagt koersdoel Besi - Beursduivel.be",
+     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnF2XzV3aVV2SnVvc1BYN2ZhVlllbWVGRHBldkVfd01acmtfOEJuNm1MbWpLLWJTUVFuUnhpT2tDaHpDczNXZXZqeW5MeVhmZ2JOSTVDRmRabGJ2alFpYUxMU1ItQTgtZGQtVkw3RkNjajJOQm4wTEExSGE2WDlHQWsxQjk?oc=5",
+     "datum": "Tue, 06 Oct 2026 10:14:00 GMT",
+     "bron": "Beursduivel.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "FAGR.BR": {
+   "naam": "Fagron NV",
+   "score": 9,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Fagron bevestigt outlook na omzetgroei - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeE45bjM3RW5YOFBhemsyRVN4MTV4ZXBUUVYxU1AzNUJYc1htMWwzM3FvNDdJWGtBRjYtX0NYWGV4YnFvZFJWVVd1SER1QXZqa2V0N2RrWjVTMkpJdEhNM1ZSRTVoTDFBZXRCVjhpdnFJVVNDRjFCbjRBTXJENVVBeFRQMGlYUkNjbzNJcUt3?oc=5",
+     "datum": "Thu, 08 Oct 2026 05:41:26 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Fagron bevestigt outlook na omzetgroei - Headliner.nl",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXNFZWNrODZERFpFYzJSNWs1cWdlNGlOam9HSlFhQ185VVl4OTFZOEwtbldPejBfaUxqUk83WmQ3bmYwc1FwYmlsYnRLMEttTlZXTWRSX05HTnNSNF9xY1N1QXBHdzZmNTVFU2FWN1N2eFUzVWYtMVNkazFMUVhjZ0hIaWo0TDJJTVZTSGdVQQ?oc=5",
+     "datum": "Thu, 08 Oct 2026 05:46:00 GMT",
+     "bron": "Headliner.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Fagron Q3-omzet in lijn ondanks terugroepactie IV-zakken in Noord-Amerika; outlook 2026 gehandhaafd - Investing.com",
+     "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQbTZnYXZhXzJsX3JhSXQxSWk4ZzJjaUlBWDI1UENEVXptdHlqUlRTZU1ENFY4RS1oODBLYWh5a2praHp1OWVVazk5TF96T1V6TGNtMHZDUGVIT0hrUTZtdm1ralBFWFZxTWJBdUhvRFNvUGNRY2JCQ3Qwc0VRamJWMzB3YzlIamZmcVNpNHhITjdnYWdLVVg2QXVybnhoQ3hUcC1sMVFxRzc5b0hNSjlTOGFjOUM5a3dTcklJY29vV1lWRVpVc1ozcGg1VXg4b3kyR0oyalNfdy16QUR6bjhoRkFLd2E?oc=5",
+     "datum": "Thu, 08 Oct 2026 06:08:32 GMT",
+     "bron": "Investing.com",
+     "gewicht": 3
+    }
+   ]
+  },
+  "FUR.AS": {
+   "naam": "Fugro N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: riant dividend AkzoNobel in aantocht - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdzduUUxxYjluM0RFUDFHRXRZREdIdGxtMHFMektUWUdkZFBtQjd5MmlUc1d5Y1ZweWdTYmV0NlgxNGdwOE1sTllBLUkyRi1ES2tsUElqMWlmTm1Ddi12ZmtDUXFzRUZVSFNRczAzeVhyQlZsZmxWQnVwakNLNDNITXNlN2UySnNYb2VpRlZlMm1JUVlJUFBiVjlUVUs?oc=5",
+     "datum": "Wed, 07 Oct 2026 06:57:35 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 8,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Shell verhoogt prognose voor geïntegreerde gasproductie in derde kwartaal en verkleint upstream-outlook - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNY3AwN19UZ1gxUmpMaUY4ckdwU19Sd2NqS3pISjJXXzQyaUxkNTJ2VWhPaWFBTmIyQk9HVnU5Nm5DSXNyOWNPSWdkaF96b0dvYW9Wb1M2RXYxVzhJSTE2MzRwOEZzaDNYWDdJX2ctQllWOVZrQ1lLaXFYNzBMSmF0YlNEVDlRQ1c1QThrdncyTy1saXhHcENiUDF3SjJUejRBZ2ZIcXFrM0FSMC1FazVQdGVlaE1YVTJ3SzcwdFBlYkg2cWFDQV9YYnBUcU85N194OVZ3TlV0TW9fb090Qk11NTU2dThlalJ3eWVZeWVMUGs?oc=5",
+     "datum": "Wed, 07 Oct 2026 06:56:15 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
+    },
+    {
+     "titel": "Degroof: \"Riant dividend AkzoNobel in aantocht\" - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMjVVSFktOGU4NkNDNFBqd1d3VWhLaTRRalFSeGowMlg5SUFxODVLRmg2VHRqSldUQmhxaG85akh0S2xWbDRJUHQyZUlBM3hsUjlJYW1ZaFhmSTJkX2hSUFBaeDhRWVFtc3pXYzBwa1RHZENvblVaWGdFVGpWQlFmaWJmamlfRFhDZGRWd3RYOW0?oc=5",
+     "datum": "Wed, 07 Oct 2026 06:56:00 GMT",
+     "bron": "Belegger.nl",
+     "gewicht": 3
+    }
+   ]
+  }
+ }
 }
