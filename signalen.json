@@ -1,6 +1,20 @@
 {
- "gescand": "2026-10-09T21:53:34+00:00",
+ "gescand": "2026-10-12T23:47:57+00:00",
  "signalen": {
+  "AD.AS": {
+   "naam": "Koninklijke Ahold Delhaize N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "KERRY GROUP PLC (KRZ) – Dividendgeschiedenis, dividendrendement en ex-dividenddatum - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfa01jdkVkUVJrT1BUeHdFRFJlUVI5MGRuTGFxQjVWbkRsWWNDQUo4SUFPNy1ZUGF6MkQwN1lQaWp5WXRlSU9DRlJEb2NxMTN6R0tNVVhJQkh1Z1lhM081Wjl1dw?oc=5",
+     "datum": "Wed, 07 Oct 2026 07:00:00 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
   "AKZA.AS": {
    "naam": "Akzo Nobel N.V.",
    "score": 3,
@@ -17,28 +31,49 @@
   },
   "APAM.AS": {
    "naam": "Aperam S.A.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Koers Aperam | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9OWXR3QXdiaUtSMjV5ZS1jMHI4QUIzOUU4aVdtWTg4VUZzRXRPQVluMHVhbVhzMXVUOVd1V2VNOXFtb2tNVVVGY1RncWhqQi0zNE5tMFB5NXQybW5DQ01Wcw?oc=5",
-     "datum": "Tue, 06 Oct 2026 13:15:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    },
     {
      "titel": "Aperam herhaalt outlook voor derde kwartaal - MarketScreener Nederland",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPQTdVVkZCeWl4VzFRTDBtZzRfUlByZFQ2MXVOdzhtNk5uNmUwbmFnQW1jZDhmUG5vR0c0YjNiZTh3Y2Z1VEM0czBvZnh1M0g5RHFIRy1udVlhcVlSa0pycldxaEJRYk5pWE9HYXB3YVBpSGNXUXJiZmsyRXhtWWpfM0tlaW5nREsyZTh2a2xvelhxSkxRS3hISzJLcURiQlpvNkhydg?oc=5",
      "datum": "Tue, 06 Oct 2026 05:53:30 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 3
+    }
+   ]
+  },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 12,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Koers ASML Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUaDdmdFN1NkVnTHZKSW5SMm1URVdIUld6ckhEalFfT1plT2lmNjBnSmJzWGJpaWxDMERXeXBIOE8yREVZUjB3cnJMSURnWnEtWHNyVzhGazB1d1ZOdlhiTWdfWW5fdGs?oc=5",
+     "datum": "Fri, 09 Oct 2026 11:35:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
     },
     {
-     "titel": "Aperam bevestigt kwartaalvooruitzichten in aanloop naar de cijfers van 6 november - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxQbWMtM1hRa0NLQWVmd3RlRlZtbVVaaVJVU3lvU2FiNVNVRUxEWHV2em1iR1dhcjB6eDY0SWRIX2l5Ul9SVC1fYW5ueGEteFJmVlo3bThaQWx0ODZfVHFJSmN0cThKam93MjczdDRJRG5GUXBSZmI2dFNHcFhvZkx3dGY3RGlINzdJWFpvc3l3MEUwQWZxMS0telJ3bHQ2a0txOFB5UVd2aXNrX1hTeEdLN1F2ZWJDTEZpcWszcGhYdnlxT1VWcUt4SVRuMXQySjNVNjh4ejk4UQ?oc=5",
-     "datum": "Tue, 06 Oct 2026 06:41:23 GMT",
+     "titel": "Geen twijfels over outlook ASML - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQX2NnUFVlYUM5ME9ETm04dTFVZ0FRTVpDQWw3QzlyWTlxZUtjaHIzVmpyWEFqUzhJZkpsVTVBZ3FZeHZSOVN1QnU4OEd3MFlhTDU2MnRIN1NHbmg4QnVqY0lfRVRJU2YtMEdhT3VJLXo2OTdjTlBPVjV1Sk85VEhtblJjTTc0QlJnSzJCaEJ6VUZjeDhI?oc=5",
+     "datum": "Mon, 12 Oct 2026 13:42:28 GMT",
      "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    },
+    {
+     "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
+     "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "MSFT stijgt ongeveer 2,5% na sterke Azure-prestaties en verhoogd dividend - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDRqSi1KdjNJRVZRUHJfdUlCcW5oSlQ1ajRDX1MtWHR3eTBLcDQ5NTQ3U0tycGxzNGh1eFZ5MzR3LWl5ZnNvdzZjcHdicGI1RG43V0gzcGRGdUZ4WEdnc0tlR0FCYnpjVkYyQy1mcWVxUXBDR2MteWRXSXFYX1hPd3RFYWJaRG5BTXRzTjVNc2ZoaElL?oc=5",
+     "datum": "Fri, 09 Oct 2026 19:16:46 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
@@ -49,17 +84,17 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "BofA verlaagt BE Semiconductor wegens HBM-vertragingen en ASML-dreiging - Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQNm5DYTFvU051QmZ3bE00Y0c5bDV3ZDBLRkRtTDY3eFQ0M1g4RVByd0tQTDVRRzdqaGVRZ1hWdzZ2cmtZNFFPNGZ4djdnQXIxclF5Um1RTHZ5ZzdwV0taV2J0bUxUU0xYME9ob2Q5LUs0YjVrSXFFUUs0VTRSY24xb0FGRnc1elY2cC1jaG5ZaUtnMkNzb0lhZUk3ckExcTVpWG5neTRUVjNreV93UnNYVnJtcVFDN1ppOXQwZE9PNTI2eDF4bUxPTw?oc=5",
-     "datum": "Tue, 06 Oct 2026 18:10:48 GMT",
-     "bron": "Investing.com",
+     "titel": "Beursblik: geen twijfels over outlook ASML - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSzZySE5makVkVGY3RTA5RjZCME1VbDN5RGFPdVlRYjBpa3R1NFBSVXZSS1p4dFhzMm1KbkdoNHdjWGV4eXAyVlRyUVFoLVdENXVzVHhUeVZIb2ZBUmpMamhTb1dsN09xWmt4cC1Ha2RpR1dvYi05TEZzS1dvRGRLNHN2LV9JUmxSY1N2SQ?oc=5",
+     "datum": "Mon, 12 Oct 2026 14:18:53 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     },
     {
-     "titel": "Barclays verlaagt koersdoel Besi - Beursduivel.be",
-     "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSnF2XzV3aVV2SnVvc1BYN2ZhVlllbWVGRHBldkVfd01acmtfOEJuNm1MbWpLLWJTUVFuUnhpT2tDaHpDczNXZXZqeW5MeVhmZ2JOSTVDRmRabGJ2alFpYUxMU1ItQTgtZGQtVkw3RkNjajJOQm4wTEExSGE2WDlHQWsxQjk?oc=5",
-     "datum": "Tue, 06 Oct 2026 10:14:00 GMT",
-     "bron": "Beursduivel.be",
+     "titel": "Deutsche Bank verlaagt koersdoel Besi - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUXdoeGhfNkhGemtSZ3JBczBQTm5rc080WUhEWHAxd0RORHBmTXJSRjA1RU84SnA2UlJ1SWxwSDh5RC1Sa09xNzc0YjNiYUpzeWJpbnVMUGZLUmR0YVc4cXc3ZWh5SDhXbWNhbkYtUXJVanl4aHFmRkNSemFSZVNUTHVBajZiUzQ?oc=5",
+     "datum": "Thu, 08 Oct 2026 07:58:24 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     }
    ]
@@ -92,16 +127,79 @@
     }
    ]
   },
-  "FUR.AS": {
-   "naam": "Fugro N.V.",
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 9,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Koers ING Groep | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jNnN1SVZZSnVhakJkWmJWbXowNGlfQUx1QUFIM25BLUF4WmsyQnFNZnlHd3B2cERkdE5aeUxpRF8taF9sZzg4eUI1dDFfNHllUHJyUFhTcnpMcTlwdkxsalJfYw?oc=5",
+     "datum": "Thu, 08 Oct 2026 08:45:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
+     "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "MSFT stijgt ongeveer 2,5% na sterke Azure-prestaties en verhoogd dividend - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDRqSi1KdjNJRVZRUHJfdUlCcW5oSlQ1ajRDX1MtWHR3eTBLcDQ5NTQ3U0tycGxzNGh1eFZ5MzR3LWl5ZnNvdzZjcHdicGI1RG43V0gzcGRGdUZ4WEdnc0tlR0FCYnpjVkYyQy1mcWVxUXBDR2MteWRXSXFYX1hPd3RFYWJaRG5BTXRzTjVNc2ZoaElL?oc=5",
+     "datum": "Fri, 09 Oct 2026 19:16:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "NN.AS": {
+   "naam": "NN Group N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Beursblik: riant dividend AkzoNobel in aantocht - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPdzduUUxxYjluM0RFUDFHRXRZREdIdGxtMHFMektUWUdkZFBtQjd5MmlUc1d5Y1ZweWdTYmV0NlgxNGdwOE1sTllBLUkyRi1ES2tsUElqMWlmTm1Ddi12ZmtDUXFzRUZVSFNRczAzeVhyQlZsZmxWQnVwakNLNDNITXNlN2UySnNYb2VpRlZlMm1JUVlJUFBiVjlUVUs?oc=5",
-     "datum": "Wed, 07 Oct 2026 06:57:35 GMT",
+     "titel": "Waar komt het dividend van NN Group eigenlijk vandaan? - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNnVBdFg0ajhVdFQxVGF0YjFROUdXaU85bGRsNFRzcE96UGZHS1I5bWVVNUI4N19zZ21yWWhlNl9NV19OT3pKVHVnWWZpMDh0ZXVyRldkV0JvRFd0WjE0MEl3cm84MkxjU1NEUDZJbElfcWR2RzFkZ3RLcTgxS3JHN21aT1owbmtDUlpfZg?oc=5",
+     "datum": "Sun, 11 Oct 2026 02:52:36 GMT",
+     "bron": "De Belegger",
+     "gewicht": 3
+    }
+   ]
+  },
+  "OCI.AS": {
+   "naam": "OCI N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Fagron bevestigt outlook na omzetgroei - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQQS1DQTJUQ2g1ZkxRMEdwaFJGWFVBQm9GRFJNUHl0TDlrVk5RaHl1aTNDTDJJNzNGcEd2Nnh1X0lJdVpUWFEwdFVXV2YxUm5Oak5PVTlPaXlhLU95emRDMjAtRndRRmtaQlphbmxQUkx4N0JSdklYTHN0bGdHQmlvMXY2R0RlVWFTWTlXS3dfMS04Zw?oc=5",
+     "datum": "Thu, 08 Oct 2026 05:37:52 GMT",
      "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PHIA.AS": {
+   "naam": "Koninklijke Philips N.V.",
+   "score": 6,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
+     "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "MSFT stijgt ongeveer 2,5% na sterke Azure-prestaties en verhoogd dividend - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWDRqSi1KdjNJRVZRUHJfdUlCcW5oSlQ1ajRDX1MtWHR3eTBLcDQ5NTQ3U0tycGxzNGh1eFZ5MzR3LWl5ZnNvdzZjcHdicGI1RG43V0gzcGRGdUZ4WEdnc0tlR0FCYnpjVkYyQy1mcWVxUXBDR2MteWRXSXFYX1hPd3RFYWJaRG5BTXRzTjVNc2ZoaElL?oc=5",
+     "datum": "Fri, 09 Oct 2026 19:16:46 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]

@@ -1,9 +1,23 @@
 {
+ "AKZA.AS": {
+  "url": "https://www.akzonobel.com/en/investors/dividend",
+  "fout": null,
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-12"
+ },
  "ASML.AS": {
   "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-09"
+  "gecheckt": "2026-10-12"
+ },
+ "RAND.AS": {
+  "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-12"
  }
 }
