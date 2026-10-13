@@ -4,20 +4,39 @@
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-12"
+  "gecheckt": "2026-10-13"
  },
  "ASML.AS": {
   "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-12"
+  "gecheckt": "2026-10-13"
+ },
+ "LIGHT.AS": {
+  "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
+  "fout": null,
+  "voorstel": null,
+  "bewijs": [
+   {
+    "zin": "Applications Applications Resources Resources Sustainability Sustainability Our company Our company --> Dividend info Dividend info Overview Financial reports Quarterly results Webcast Annual report IPO Share & debt Shareholder info Shareholder engagement Shareholder meetings Dividend info Share rep",
+    "jaren": [
+     2025
+    ],
+    "bedragen": [
+     1.56
+    ],
+    "groei_pct": [],
+    "payout": null
+   }
+  ],
+  "gecheckt": "2026-10-13"
  },
  "RAND.AS": {
   "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-12"
+  "gecheckt": "2026-10-13"
  }
 }
