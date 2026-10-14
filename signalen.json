@@ -1,30 +1,16 @@
 {
- "gescand": "2026-10-13T21:59:27+00:00",
+ "gescand": "2026-10-14T20:56:29+00:00",
  "signalen": {
-  "AD.AS": {
-   "naam": "Koninklijke Ahold Delhaize N.V.",
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "KERRY GROUP PLC (KRZ) – Dividendgeschiedenis, dividendrendement en ex-dividenddatum - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBfa01jdkVkUVJrT1BUeHdFRFJlUVI5MGRuTGFxQjVWbkRsWWNDQUo4SUFPNy1ZUGF6MkQwN1lQaWp5WXRlSU9DRlJEb2NxMTN6R0tNVVhJQkh1Z1lhM081Wjl1dw?oc=5",
-     "datum": "Wed, 07 Oct 2026 07:00:00 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "AKZA.AS": {
-   "naam": "Akzo Nobel N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Degroof: \"Riant dividend AkzoNobel in aantocht\" - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxONjBZV1dqOFlDSFJTakx2YVNjN0JQdGR3OW5KeUVQQ1BkamNHWUpTY2U1clRSTTQwMXR4UXNZc19rTWlHdURjOEV1ZGdId1FEZ25MQmpTal81UzdxU19CVnFEZTlqS2EzTFVqbzYtYm1rZ2w5aThiTnVkaEc1c19vVlAwMW9mNDllQlE?oc=5",
-     "datum": "Wed, 07 Oct 2026 06:56:00 GMT",
-     "bron": "IEX.nl",
+     "titel": "ASML haalt outlook en scherpt jaardoel aan - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbjYxekJPTktCeTFzT2laUlpBclpQWVpxYlVOWlN1bW5CbVpKTlBBTHhIbjM1cDRqMWxYaTl1cUV6VS04TW1MWktLTFBXcFFzY2l5SmZfN1E1QndwUzV3aHRZWnc4NzB1UnpjMFY4QllaZVpPV1VZZ2l2Qm1nSXBib0xPNDZkLTJ0cGRyQm5B?oc=5",
+     "datum": "Wed, 14 Oct 2026 06:04:28 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     }
    ]
@@ -43,17 +29,31 @@
     }
    ]
   },
+  "ASM.AS": {
+   "naam": "ASM International NV",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Johnson & Johnson verhoogt outlook opnieuw - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWmZZOGpVSFg0ckJtclNWQnBfLWJsdzNzN1duR3hMWnFldEpFQ3ZNZHJMWWxYeGVTQjlxTjdHVTRoOFBlbG9jaFZQRER1ajd3MkU2bGRwUVZKV2lOTTJEbzlFRWl5cDY5eWs4T1gzOFgwLTRqQVBrZFBWRXpNQnFudDFYNUZXQVFKaWVwWUFfTEJoNEtDaHBr?oc=5",
+     "datum": "Tue, 13 Oct 2026 11:09:20 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 5
+    }
+   ]
+  },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 15,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
-     "titel": "Koers ASML Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUaDdmdFN1NkVnTHZKSW5SMm1URVdIUld6ckhEalFfT1plT2lmNjBnSmJzWGJpaWxDMERXeXBIOE8yREVZUjB3cnJMSURnWnEtWHNyVzhGazB1d1ZOdlhiTWdfWW5fdGs?oc=5",
-     "datum": "Fri, 09 Oct 2026 11:35:00 GMT",
+     "titel": "ASML verhoogt outlook door AI-vraag die aanbod overstijgt - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYlVQb0J5LWE1c1RVVUktcnNJRDRfRmJuZ2NlTkU2UTRjYlpsYTJJTXVaaHh4LXVvVW9LbFoxVWNyWDFOanlqSGxxTmtHdHM1N2hZM0NHbWEwdFZUdkdiRGVjTEp3WEd5M3VDazVacE1fY1ZUa09ndnBPX2pWRDJDaUNJODNSckpaZEt4M1l5ZUpLNGR0RWdjeTgtYw?oc=5",
+     "datum": "Wed, 14 Oct 2026 05:07:00 GMT",
      "bron": "IEX.nl",
-     "gewicht": 3
+     "gewicht": 5
     },
     {
      "titel": "Beursblik: geen twijfels over outlook ASML - Beurs.nl",
@@ -63,24 +63,10 @@
      "gewicht": 3
     },
     {
-     "titel": "Beursblik: Berenberg verlaagt koersdoel Magnum Ice licht - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTTFHcTVzVFFmcHVYN3NRa1R6Z1N4ajJlaDF0MFJMMXNIbmNjbEQ1NnFoZFUweTY5TDRJSFRrcENPUzNwMlUzejktN3Z0YWswMjR6azhoUHJFRUNqOTNPeDl6V2FuVTRVYlZLWngtUVV2RVFZWF8xMXh2UWQwWnBYc0Z4cnRUUF9iMDZPS1lIUmVRR2trVzR6QTF1VFAwQVpCY0lnUFEzRGw?oc=5",
-     "datum": "Tue, 13 Oct 2026 06:05:17 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    },
-    {
-     "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
-     "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Aandelenprognose Home Depot: herstelpoging zet door na bijgewerkte outlook - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV1R0SHg2UVVySVNMS2NIcjFGNDB0bTRoc3h4YTN1WG1GR29tTEpGTTh6cFJQYmNMdmRSRjRIMVpnU1RZVktWRVBmcWxFR0NLaU9BRkZsRkVTT0lwNi1CSmRDUy1YNkFXOGlTSjZkNEpRcmJ5cTcyUHl6SU1IcVlhOENHZGk2VmV1RjFmak80NWlHUQ?oc=5",
-     "datum": "Thu, 08 Oct 2026 18:04:15 GMT",
-     "bron": "Traders Union",
+     "titel": "Beursblik: Bank of America verlaagt koersdoel ASML - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOXE4a0NIeTY2Zjl1SHVQbWROV05Sei16d0R2UzJXeDR5WGtKcVRnYzNONUltTEc1c2xaWFV3MkloOW11dG1TSVRxck1iMk1rblNxT19nOEgwTUFLU0xzWW9fb2RWRWpaazBiZWQ0Z1dFbzZzSlRHSGRDNTRzWi1qelhkdDE4aG5VSFp1MHNrYzhjZ1ZVZ2Uw?oc=5",
+     "datum": "Wed, 14 Oct 2026 15:13:00 GMT",
+     "bron": "Belegger.nl",
      "gewicht": 3
     }
    ]
@@ -133,10 +119,10 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "KBC Securities verlaagt koersdoel Fugro - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdklvdVRzM3FLUWlMRkxMVWlLM3lnSkY4ZVAzRGE4ZTFwdmhDX0pwZUJyNmhsVXp1cndpRGNMSWhSb1d2MEg0ZG9wUFBGY2FCZkxuY0tQMUZEZTd1SW9ydFVQNXFFamVhRHJFQUYxY19mZTF5VHhSVXVfMU9LRzR5Z0FDSQ?oc=5",
-     "datum": "Tue, 13 Oct 2026 07:19:00 GMT",
-     "bron": "IEX.nl",
+     "titel": "KBC Securities verlaagt koersdoel Fugro - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2FHczdKOXBFcEFvVHdRSlE4VUM3M1VxQ3BqWHI1NlJsVGxCeTBBdnotRWJUTTVGVGp3djlmUGh6MjFhQ2RUbV80bnlFa29kN3o5a1FLTXFhMHFUZ3NtZkc0eTFhaTFaWG5WbHQzeDVrYjczSm5ubm9ITUVrcUlYMG1ORlMwY2FMVUE?oc=5",
+     "datum": "Tue, 13 Oct 2026 07:33:57 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     }
    ]
@@ -157,7 +143,7 @@
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 12,
+   "score": 18,
    "niveau": "hoog",
    "items": [
     {
@@ -182,9 +168,16 @@
      "gewicht": 3
     },
     {
-     "titel": "Mohamed A. El-Erian: IMF publiceert nieuwe overzichtstabel van de World Economic Outlook - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEY3WlBKU3pFQW85cmpvZkFtOFdyNktsajlEOXh4SGlLVkhNYVQ4c3hsbUlyYUhhLTFybll0M2w4ZkNUWkFpeXczR2ozZ09KQlhUZTk1TVVGS2NETmpuWDJvX3ljZFpOVWNJUm54aGlZTW9iaXI2Z3ZDeTF6bjZMVUhfOVhaVGNPd1BSZDBEYXBvZUhxVzhKOQ?oc=5",
-     "datum": "Tue, 13 Oct 2026 06:05:08 GMT",
+     "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
+     "datum": "Tue, 13 Oct 2026 17:24:45 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Intel-aandeel daalt door aanhoudende verkoopdruk en opgeschort dividend - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaWs1c0FVaWVZbDNWWU51ZVBIUHJjNVEtOHRzRy1SQ0lVMnJKWHlMcF9OeE9ac21lR2xzR1Z6MVBlQTJUa1FlZUlGN1NkcWEteENYNnhVUVVHSDNFMW1PZ0pUYkRvT1pGZURJejc5Q3d5REpkM0VuMnBKWmZYMkszdTM5M05sSi0tUUVGdTVkSQ?oc=5",
+     "datum": "Wed, 14 Oct 2026 15:43:43 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     }
@@ -192,21 +185,35 @@
   },
   "NN.AS": {
    "naam": "NN Group N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 9,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Waar komt het dividend van NN Group eigenlijk vandaan? - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNnVBdFg0ajhVdFQxVGF0YjFROUdXaU85bGRsNFRzcE96UGZHS1I5bWVVNUI4N19zZ21yWWhlNl9NV19OT3pKVHVnWWZpMDh0ZXVyRldkV0JvRFd0WjE0MEl3cm84MkxjU1NEUDZJbElfcWR2RzFkZ3RLcTgxS3JHN21aT1owbmtDUlpfZg?oc=5",
+     "datum": "Sun, 11 Oct 2026 02:52:36 GMT",
+     "bron": "De Belegger",
+     "gewicht": 3
+    },
     {
      "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
      "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
      "datum": "Thu, 08 Oct 2026 07:00:00 GMT",
      "bron": "Beleggers Belangen",
      "gewicht": 3
+    },
+    {
+     "titel": "Hoe lang houdt NN Group dit dividendtempo nog vol? - De Belegger",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbW5DcHlpSU9kdm5LZFNHVTBmT19jZGkyVG9YYXJCLVA1bGRKb25qdDJ3ZS1xNG50dHVhU0FpRWk2QzdPWDhHWVB5dU9SeVEzV1pmVHhCTExkLVRPbzdKWUQyQVk5aEMwQnp2cjV6emV3dEdaRUFIV1Ytb0l2UjI3dl9hMUcwYVU?oc=5",
+     "datum": "Wed, 14 Oct 2026 17:03:45 GMT",
+     "bron": "De Belegger",
+     "gewicht": 3
     }
    ]
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 9,
+   "score": 15,
    "niveau": "hoog",
    "items": [
     {
@@ -224,38 +231,24 @@
      "gewicht": 3
     },
     {
+     "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
+     "datum": "Tue, 13 Oct 2026 17:24:45 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Intel-aandeel daalt door aanhoudende verkoopdruk en opgeschort dividend - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaWs1c0FVaWVZbDNWWU51ZVBIUHJjNVEtOHRzRy1SQ0lVMnJKWHlMcF9OeE9ac21lR2xzR1Z6MVBlQTJUa1FlZUlGN1NkcWEteENYNnhVUVVHSDNFMW1PZ0pUYkRvT1pGZURJejc5Q3d5REpkM0VuMnBKWmZYMkszdTM5M05sSi0tUUVGdTVkSQ?oc=5",
+     "datum": "Wed, 14 Oct 2026 15:43:43 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
      "titel": "Mohamed A. El-Erian: IMF publiceert nieuwe overzichtstabel van de World Economic Outlook - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEY3WlBKU3pFQW85cmpvZkFtOFdyNktsajlEOXh4SGlLVkhNYVQ4c3hsbUlyYUhhLTFybll0M2w4ZkNUWkFpeXczR2ozZ09KQlhUZTk1TVVGS2NETmpuWDJvX3ljZFpOVWNJUm54aGlZTW9iaXI2Z3ZDeTF6bjZMVUhfOVhaVGNPd1BSZDBEYXBvZUhxVzhKOQ?oc=5",
      "datum": "Tue, 13 Oct 2026 06:05:08 GMT",
      "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "SHELL.AS": {
-   "naam": "Shell plc",
-   "score": 13,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Shell verhoogt prognose voor geïntegreerde gasproductie in derde kwartaal en verkleint upstream-outlook - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNY3AwN19UZ1gxUmpMaUY4ckdwU19Sd2NqS3pISjJXXzQyaUxkNTJ2VWhPaWFBTmIyQk9HVnU5Nm5DSXNyOWNPSWdkaF96b0dvYW9Wb1M2RXYxVzhJSTE2MzRwOEZzaDNYWDdJX2ctQllWOVZrQ1lLaXFYNzBMSmF0YlNEVDlRQ1c1QThrdncyTy1saXhHcENiUDF3SjJUejRBZ2ZIcXFrM0FSMC1FazVQdGVlaE1YVTJ3SzcwdFBlYkg2cWFDQV9YYnBUcU85N194OVZ3TlV0TW9fb090Qk11NTU2dThlalJ3eWVZeWVMUGs?oc=5",
-     "datum": "Wed, 07 Oct 2026 06:56:15 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 5
-    },
-    {
-     "titel": "Johnson & Johnson verhoogt outlook opnieuw - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPRFVkUzFVN0xxUUs1N1Q4TTNKZ05iYUtkeWIxenhaNnNDTWlwQldxVkV4UVZVclZFaUl3NmdlY2c0UjNseU0ycm5ENFBLdVJDNWxtRk9oZ1pCc3pRTjJwSG1jbUFtRExURWY0N2pCd0Y3OTVJa3hsbGFXcmt3c2psVVdJc2Q0S1FjZVJF?oc=5",
-     "datum": "Tue, 13 Oct 2026 11:13:57 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "Degroof: \"Riant dividend AkzoNobel in aantocht\" - Belegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMjVVSFktOGU4NkNDNFBqd1d3VWhLaTRRalFSeGowMlg5SUFxODVLRmg2VHRqSldUQmhxaG85akh0S2xWbDRJUHQyZUlBM3hsUjlJYW1ZaFhmSTJkX2hSUFBaeDhRWVFtc3pXYzBwa1RHZENvblVaWGdFVGpWQlFmaWJmamlfRFhDZGRWd3RYOW0?oc=5",
-     "datum": "Wed, 07 Oct 2026 06:56:00 GMT",
-     "bron": "Belegger.nl",
      "gewicht": 3
     }
    ]
