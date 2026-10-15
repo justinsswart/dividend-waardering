@@ -1,5 +1,5 @@
 {
- "gescand": "2026-10-14T20:56:29+00:00",
+ "gescand": "2026-10-15T20:32:10+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
@@ -73,42 +73,14 @@
   },
   "BESI.AS": {
    "naam": "BE Semiconductor Industries N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Beursblik: geen twijfels over outlook ASML - Beurs.nl",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdmh6eVlzWEd5MG9VY3E0RnZIUnpXZ1FmeGdjLV94Q00wbnN6b0lNWmVieTlQbi1RRkFfS2VJaGwyYm1LQkR3V3FUUGhzaFNDdDIzZWdRei1SUmsxRkpiWFpXbnJNZndQT29wMGtuTGNEaElpRWxTS2dQb2tJdGtlLWxFOUNNbDNk?oc=5",
      "datum": "Mon, 12 Oct 2026 13:42:00 GMT",
      "bron": "Beurs.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Deutsche Bank verlaagt koersdoel Besi - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNUXdoeGhfNkhGemtSZ3JBczBQTm5rc080WUhEWHAxd0RORHBmTXJSRjA1RU84SnA2UlJ1SWxwSDh5RC1Sa09xNzc0YjNiYUpzeWJpbnVMUGZLUmR0YVc4cXc3ZWh5SDhXbWNhbkYtUXJVanl4aHFmRkNSemFSZVNUTHVBajZiUzQ?oc=5",
-     "datum": "Thu, 08 Oct 2026 07:58:24 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "FAGR.BR": {
-   "naam": "Fagron NV",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Fagron bevestigt outlook na omzetgroei - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPeE45bjM3RW5YOFBhemsyRVN4MTV4ZXBUUVYxU1AzNUJYc1htMWwzM3FvNDdJWGtBRjYtX0NYWGV4YnFvZFJWVVd1SER1QXZqa2V0N2RrWjVTMkpJdEhNM1ZSRTVoTDFBZXRCVjhpdnFJVVNDRjFCbjRBTXJENVVBeFRQMGlYUkNjbzNJcUt3?oc=5",
-     "datum": "Thu, 08 Oct 2026 05:41:26 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Fagron bevestigt outlook na omzetgroei - Headliner.nl",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQcXNFZWNrODZERFpFYzJSNWs1cWdlNGlOam9HSlFhQ185VVl4OTFZOEwtbldPejBfaUxqUk83WmQ3bmYwc1FwYmlsYnRLMEttTlZXTWRSX05HTnNSNF9xY1N1QXBHdzZmNTVFU2FWN1N2eFUzVWYtMVNkazFMUVhjZ0hIaWo0TDJJTVZTSGdVQQ?oc=5",
-     "datum": "Thu, 08 Oct 2026 05:46:00 GMT",
-     "bron": "Headliner.nl",
      "gewicht": 3
     }
    ]
@@ -119,10 +91,10 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "KBC Securities verlaagt koersdoel Fugro - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQ2FHczdKOXBFcEFvVHdRSlE4VUM3M1VxQ3BqWHI1NlJsVGxCeTBBdnotRWJUTTVGVGp3djlmUGh6MjFhQ2RUbV80bnlFa29kN3o5a1FLTXFhMHFUZ3NtZkc0eTFhaTFaWG5WbHQzeDVrYjczSm5ubm9ITUVrcUlYMG1ORlMwY2FMVUE?oc=5",
-     "datum": "Tue, 13 Oct 2026 07:33:57 GMT",
-     "bron": "Beleggen.nl",
+     "titel": "KBC Securities verlaagt koersdoel Fugro - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQzk1YlF5OUZqaDNsbzMwMjRxWGZNTVo0ZWtqWmM1VzU2eDVFMlFWSGdyN3RfYjd0anRDOF80bTJtUkFnYXhrWlowMmtQZVNBeGsyRHYxZ0ZpVXZSSVNtcjVaQ3RQS2lYRmp0TGJpdW9UQjVBTnphRy1vbmhVZHJScm4zYkotOWktQkNnTkxucEU3QXJwQms4TlQ5RDd5Zlk?oc=5",
+     "datum": "Tue, 13 Oct 2026 07:19:29 GMT",
+     "bron": "MarketScreener Nederland",
      "gewicht": 3
     }
    ]
@@ -143,27 +115,13 @@
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 18,
+   "score": 9,
    "niveau": "hoog",
    "items": [
-    {
-     "titel": "Koers ING Groep | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jNnN1SVZZSnVhakJkWmJWbXowNGlfQUx1QUFIM25BLUF4WmsyQnFNZnlHd3B2cERkdE5aeUxpRF8taF9sZzg4eUI1dDFfNHllUHJyUFhTcnpMcTlwdkxsalJfYw?oc=5",
-     "datum": "Thu, 08 Oct 2026 08:45:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    },
     {
      "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
      "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Aandelenprognose Home Depot: herstelpoging zet door na bijgewerkte outlook - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV1R0SHg2UVVySVNMS2NIcjFGNDB0bTRoc3h4YTN1WG1GR29tTEpGTTh6cFJQYmNMdmRSRjRIMVpnU1RZVktWRVBmcWxFR0NLaU9BRkZsRkVTT0lwNi1CSmRDUy1YNkFXOGlTSjZkNEpRcmJ5cTcyUHl6SU1IcVlhOENHZGk2VmV1RjFmak80NWlHUQ?oc=5",
-     "datum": "Thu, 08 Oct 2026 18:04:15 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     },
@@ -185,8 +143,8 @@
   },
   "NN.AS": {
    "naam": "NN Group N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Waar komt het dividend van NN Group eigenlijk vandaan? - De Belegger",
@@ -194,39 +152,18 @@
      "datum": "Sun, 11 Oct 2026 02:52:36 GMT",
      "bron": "De Belegger",
      "gewicht": 3
-    },
-    {
-     "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
-     "datum": "Thu, 08 Oct 2026 07:00:00 GMT",
-     "bron": "Beleggers Belangen",
-     "gewicht": 3
-    },
-    {
-     "titel": "Hoe lang houdt NN Group dit dividendtempo nog vol? - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQbW5DcHlpSU9kdm5LZFNHVTBmT19jZGkyVG9YYXJCLVA1bGRKb25qdDJ3ZS1xNG50dHVhU0FpRWk2QzdPWDhHWVB5dU9SeVEzV1pmVHhCTExkLVRPbzdKWUQyQVk5aEMwQnp2cjV6emV3dEdaRUFIV1Ytb0l2UjI3dl9hMUcwYVU?oc=5",
-     "datum": "Wed, 14 Oct 2026 17:03:45 GMT",
-     "bron": "De Belegger",
-     "gewicht": 3
     }
    ]
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 15,
+   "score": 9,
    "niveau": "hoog",
    "items": [
     {
      "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
      "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Aandelenprognose Home Depot: herstelpoging zet door na bijgewerkte outlook - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPV1R0SHg2UVVySVNMS2NIcjFGNDB0bTRoc3h4YTN1WG1GR29tTEpGTTh6cFJQYmNMdmRSRjRIMVpnU1RZVktWRVBmcWxFR0NLaU9BRkZsRkVTT0lwNi1CSmRDUy1YNkFXOGlTSjZkNEpRcmJ5cTcyUHl6SU1IcVlhOENHZGk2VmV1RjFmak80NWlHUQ?oc=5",
-     "datum": "Thu, 08 Oct 2026 18:04:15 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     },
@@ -243,27 +180,20 @@
      "datum": "Wed, 14 Oct 2026 15:43:43 GMT",
      "bron": "Traders Union",
      "gewicht": 3
-    },
-    {
-     "titel": "Mohamed A. El-Erian: IMF publiceert nieuwe overzichtstabel van de World Economic Outlook - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPaEY3WlBKU3pFQW85cmpvZkFtOFdyNktsajlEOXh4SGlLVkhNYVQ4c3hsbUlyYUhhLTFybll0M2w4ZkNUWkFpeXczR2ozZ09KQlhUZTk1TVVGS2NETmpuWDJvX3ljZFpOVWNJUm54aGlZTW9iaXI2Z3ZDeTF6bjZMVUhfOVhaVGNPd1BSZDBEYXBvZUhxVzhKOQ?oc=5",
-     "datum": "Tue, 13 Oct 2026 06:05:08 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
     }
    ]
   },
-  "WKL.AS": {
-   "naam": "Wolters Kluwer N.V.",
-   "score": 3,
+  "TOM2.AS": {
+   "naam": "TomTom N.V.",
+   "score": 4,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Cijferseizoen geeft Hoogdividendportefeuille vertrouwen - Beleggers Belangen",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOSExfS2YzNTl1aEZOU2haMHRmYklieVVIZmNQTTVCVDJkRnJ1NlM4YWdBUDlxeWtwUHlaYnk5YXRYMm1MVDBPTUdlcEU5UWtLYU54RkRJSlg5MzQ3MEh3NTM3M09SZURtUlNCTDNtbmw0RDZrZjV1Z1RKU1ZlWmNyYjdQSFlacVdrZHptY3pBT0p4R0FycjY1Z21FMHd0MldqWU9jTTRn?oc=5",
-     "datum": "Thu, 08 Oct 2026 07:00:00 GMT",
-     "bron": "Beleggers Belangen",
-     "gewicht": 3
+     "titel": "TomTom schrapt 200 banen bij omslag naar AI en zelfrijden - TPO.NL",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwUXNNY2o3Nk00MXFwUkZSZksydXFDVlVWcjVoc1pLeE1RVFNZWTVYc082Rll3LTVTV0Ntb21FdmdmYUkxdmIwcHU5ZW5jYzVFWjE5S1ZTSjJucFJFZ0ZTeUdLRVpTN180dzgwYg?oc=5",
+     "datum": "Thu, 15 Oct 2026 08:48:18 GMT",
+     "bron": "TPO.NL",
+     "gewicht": 4
     }
    ]
   }
