@@ -1,5 +1,5 @@
 {
- "gescand": "2026-10-15T20:32:10+00:00",
+ "gescand": "2026-10-16T20:04:13+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
@@ -21,10 +21,10 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Citi verlaagt koersdoel AMG - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yUEFsNHlFSGkyLWs2RldtcklfOUEzakRJdllHMkhZUk9UTDRwdmgzb3gyOFIyRVNvN1lhcGIycUlxQlB2d3BhQndLTFdhZm5BTDhySWNrajNWbWxrd29hNmwwS0R4TXpYTzlsRl9jc3VXWEFqZ0hOTG1OVHZ2MHc?oc=5",
-     "datum": "Tue, 13 Oct 2026 08:09:53 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Citi verlaagt koersdoel AMG - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3AyZ2RIUUV1SFh6V0N1ZlNyM3JDbmNQUkxGbXo2bldwaGs0S2JYVW02ZldQazA0NHIzOXlPRmdCcXdsSmtremVjTzFDSy1DRkxpUFVuOGN3Snp0end6SGJHSjZ2eDV4bEtzdGNlY1gtMXVMUTBjLUNSUjNjWkhHM0RUSmtEbEZ5bFdXVjRfVQ?oc=5",
+     "datum": "Tue, 13 Oct 2026 06:27:35 GMT",
+     "bron": "MarketScreener Nederland",
      "gewicht": 3
     }
    ]
@@ -73,8 +73,8 @@
   },
   "BESI.AS": {
    "naam": "BE Semiconductor Industries N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Beursblik: geen twijfels over outlook ASML - Beurs.nl",
@@ -82,6 +82,41 @@
      "datum": "Mon, 12 Oct 2026 13:42:00 GMT",
      "bron": "Beurs.nl",
      "gewicht": 3
+    },
+    {
+     "titel": "Nettowinst voor CM.com en verhoging outlook - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUNWdVA5MGo3RHJ0Vjk3NE11NExGUC1fTTViVVZqUHBNWFNjSmY1Wnk2bWVUVWU0NXUxZkJuU2xYOVRqb25LZ1J2bW9NWWFoUWw3cmxMRWVhTm1PUFBISm9aUlFvY29iei1VanE0LXF3V0FWdHhLU0FWVnhtNFJRLVVya1VrM0E?oc=5",
+     "datum": "Fri, 16 Oct 2026 05:33:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "CMCOM.AS": {
+   "naam": "CM.com N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Nettowinst voor CM.com en verhoging outlook - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjZnR1RKNHNuZW9zOE54LXRXS2k1ZlZwQWtaN2ZkNnIwV1dUdGpNUVdkOG12akpnSjlUdW0wdmJKZWhHNVk5X1E4TjZqWE5pUzVueld2Zkw4ckxyNHB4R1ExMkVvM25wRWNPU0JEM2hEY21waXNNUXdKSEZFQldWNG9mQlRUQTFnRW9PTS1xcE14T1U?oc=5",
+     "datum": "Fri, 16 Oct 2026 05:41:59 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "FAGR.BR": {
+   "naam": "Fagron NV",
+   "score": 4,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursbedrijven openen de boeken met kwartaal- en halfjaarcijfers - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNURPaTVnVngyYXMyNVdVdFpXd1BVbWsyQ0c4U0hiTTV6dWRxbkJvaWFOTE9kaTA5aGV1RGZ2X3h4RjZkVm5raXlLN2Y1Skt2TEk0SVBLbllTd1A2ek5GN3BhMHJRUDBKVzhpRzdjX01vT3BhTFRWNFBwSGtqWTZpTERZb2RaaHY1WnhhU055MUx0cmFtcFZyT09LM3gyYWVtRGZBTlhqWQ?oc=5",
+     "datum": "Fri, 16 Oct 2026 15:00:00 GMT",
+     "bron": "Beleggers Belangen",
+     "gewicht": 4
     }
    ]
   },
@@ -119,10 +154,10 @@
    "niveau": "hoog",
    "items": [
     {
-     "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
-     "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
-     "bron": "Traders Union",
+     "titel": "ASML haalt outlook en scherpt jaardoel aan - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWxWbXhtYmpkV1I1OTQzR29kNmg1VkJZcjItWWdfWFBMRmJhX3M5Nm44VjBmTlp0dWlGWk15UWlRVTZhNmY2M21MU3l0U0k0MFBRQmxER21UTkFpRlNKcU1ubEJWLU1fbVRFeTdEUGhlclE4RmlOVWZIajE1TVhsdWw2OG9KSU83UFFuMWc5WG80YUwzcFFv?oc=5",
+     "datum": "Wed, 14 Oct 2026 05:12:46 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     },
     {
@@ -143,8 +178,8 @@
   },
   "NN.AS": {
    "naam": "NN Group N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Waar komt het dividend van NN Group eigenlijk vandaan? - De Belegger",
@@ -152,21 +187,21 @@
      "datum": "Sun, 11 Oct 2026 02:52:36 GMT",
      "bron": "De Belegger",
      "gewicht": 3
+    },
+    {
+     "titel": "ASML haalt outlook en scherpt jaardoel aan - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWxWbXhtYmpkV1I1OTQzR29kNmg1VkJZcjItWWdfWFBMRmJhX3M5Nm44VjBmTlp0dWlGWk15UWlRVTZhNmY2M21MU3l0U0k0MFBRQmxER21UTkFpRlNKcU1ubEJWLU1fbVRFeTdEUGhlclE4RmlOVWZIajE1TVhsdWw2OG9KSU83UFFuMWc5WG80YUwzcFFv?oc=5",
+     "datum": "Wed, 14 Oct 2026 05:12:46 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
     }
    ]
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
-    {
-     "titel": "Kan een dividend van $0,50 per aandeel de koersrally van Oracle ondersteunen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNeVVyUTQ1T19adUNaa2QxdjJDM3MwV3FSY1E0MTZ1LUc0T2pqbHprdkpIMVlEN0l5ck9SQU9jbGUzTzJ6NjVVWjVqN3QzRmJYUGtlSzh6OG8ydC12bHRDakw1ZE9xYnhQQXlyRUVYMkZvT2tKYUpRVGx5RUtES2YzTVVscHBLVVB4SjhMa1hPMUdxYm1GVnc?oc=5",
-     "datum": "Fri, 09 Oct 2026 14:55:46 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
     {
      "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
@@ -183,6 +218,34 @@
     }
    ]
   },
+  "SBMO.AS": {
+   "naam": "SBM Offshore N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: geen twijfels over outlook ASML - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPakVkNGNiczFEeEpBY2sxOVNBVDM4UTJ0Zk5BWjdhZUs1eFpXMlo3SW85Sy0tWHVZSXlzd0xGS1RYSVI4N2luc05DSmx5ZHh3MVdtbUVtV3V0Z280Yk5nWUpVWFV4dGx4SHRUX1NRVF9SZXdFR1NlYUV1U0llZS1hU0JYNjcwUWliRS0wSk9FbUN2TThfUVE?oc=5",
+     "datum": "Mon, 12 Oct 2026 13:49:57 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Nettowinst voor CM.com en verhoging outlook - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWm9MQ2FuWDBEQ3dxX0FEU2tYT296cU45LXJHeHVOYmtPS3V0dzlfdGhldzZwbzhsbHpXaEVQeUZCcXItcmV6Zk9DZ0VuQVlyUF9WekpiOHBrN1NFMWpOTjlRZm85UHI0bk8yck93VnNjSDZwYjZSbGF4b2stRmFPVWxOZTdFSlBIU0lPOUln?oc=5",
+     "datum": "Fri, 16 Oct 2026 06:40:58 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
+    }
+   ]
+  },
   "TOM2.AS": {
    "naam": "TomTom N.V.",
    "score": 4,
@@ -193,6 +256,20 @@
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwUXNNY2o3Nk00MXFwUkZSZksydXFDVlVWcjVoc1pLeE1RVFNZWTVYc082Rll3LTVTV0Ntb21FdmdmYUkxdmIwcHU5ZW5jYzVFWjE5S1ZTSjJucFJFZ0ZTeUdLRVpTN180dzgwYg?oc=5",
      "datum": "Thu, 15 Oct 2026 08:48:18 GMT",
      "bron": "TPO.NL",
+     "gewicht": 4
+    }
+   ]
+  },
+  "UMG.AS": {
+   "naam": "Universal Music Group N.V.",
+   "score": 4,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Netflix schrapt zowat 1.000 banen: 6 procent van het personeel moet vertrekken - HLN",
+     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWjM3V2trOHpXWW1OeTZpeFROVFc2c0pwY1VHMlJlQmRRNlprTHdqVk0yaF9FcU04TEZHT19PekQzUzdrckFmMjZlQkkyWHNIaml0ellkbGkxcHhKQTB2a3Z6OEtlUUx5TnRRanAtME00dk5oZ2owVVV3VVBSZG4zcHo2U012V3lIWFVCU1Q1cWU1NzBaVWlZU3pFcTdUWHdoZl9pNlFXVktrVFkyRU5lazR0d3hUUmVC?oc=5",
+     "datum": "Wed, 14 Oct 2026 15:30:00 GMT",
+     "bron": "HLN",
      "gewicht": 4
     }
    ]
