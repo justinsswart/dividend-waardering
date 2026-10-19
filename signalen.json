@@ -1,38 +1,24 @@
 {
- "gescand": "2026-10-16T20:04:13+00:00",
+ "gescand": "2026-10-19T21:44:55+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "ASML haalt outlook en scherpt jaardoel aan - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbjYxekJPTktCeTFzT2laUlpBclpQWVpxYlVOWlN1bW5CbVpKTlBBTHhIbjM1cDRqMWxYaTl1cUV6VS04TW1MWktLTFBXcFFzY2l5SmZfN1E1QndwUzV3aHRZWnc4NzB1UnpjMFY4QllaZVpPV1VZZ2l2Qm1nSXBib0xPNDZkLTJ0cGRyQm5B?oc=5",
-     "datum": "Wed, 14 Oct 2026 06:04:28 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    }
-   ]
-  },
   "AMG.AS": {
    "naam": "AMG Critical Materials N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Citi verlaagt koersdoel AMG - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOQ3AyZ2RIUUV1SFh6V0N1ZlNyM3JDbmNQUkxGbXo2bldwaGs0S2JYVW02ZldQazA0NHIzOXlPRmdCcXdsSmtremVjTzFDSy1DRkxpUFVuOGN3Snp0end6SGJHSjZ2eDV4bEtzdGNlY1gtMXVMUTBjLUNSUjNjWkhHM0RUSmtEbEZ5bFdXVjRfVQ?oc=5",
-     "datum": "Tue, 13 Oct 2026 06:27:35 GMT",
-     "bron": "MarketScreener Nederland",
+     "titel": "Citi verlaagt koersdoel AMG - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yUEFsNHlFSGkyLWs2RldtcklfOUEzakRJdllHMkhZUk9UTDRwdmgzb3gyOFIyRVNvN1lhcGIycUlxQlB2d3BhQndLTFdhZm5BTDhySWNrajNWbWxrd29hNmwwS0R4TXpYTzlsRl9jc3VXWEFqZ0hOTG1OVHZ2MHc?oc=5",
+     "datum": "Tue, 13 Oct 2026 08:09:53 GMT",
+     "bron": "Beursgorilla.nl",
      "gewicht": 3
     }
    ]
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 5,
-   "niveau": "midden",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
     {
      "titel": "Johnson & Johnson verhoogt outlook opnieuw - De AandeelHouder",
@@ -40,53 +26,60 @@
      "datum": "Tue, 13 Oct 2026 11:09:20 GMT",
      "bron": "De AandeelHouder",
      "gewicht": 5
+    },
+    {
+     "titel": "Aandelen van ASM International dalen bijna 9% nadat sectorleider ASML sterke vooruitzichten afgeeft, maar geen herstel weet te ontketenen - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHR0ZTE2VTZwMEtxR3Y4NXBXUmMzY2UwQk14bnhmQjFVSzktWWdiQTI4RXlHMGM5c0tuak5jV3lRZWNIMUVMd0MyLUhGUlduVlRJS0dHNVo3WGxpcl9kYTJ1RDNYRGItNVZDd0xnaU5ZdnI2WUpNWWgtbU9Xa1h6TFI0TXp5Tk1NN0xCRWJxM3JENHRNaWJwMFBGYUU?oc=5",
+     "datum": "Thu, 15 Oct 2026 08:13:59 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
     }
    ]
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 11,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "ASML verhoogt outlook door AI-vraag die aanbod overstijgt - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPYlVQb0J5LWE1c1RVVUktcnNJRDRfRmJuZ2NlTkU2UTRjYlpsYTJJTXVaaHh4LXVvVW9LbFoxVWNyWDFOanlqSGxxTmtHdHM1N2hZM0NHbWEwdFZUdkdiRGVjTEp3WEd5M3VDazVacE1fY1ZUa09ndnBPX2pWRDJDaUNJODNSckpaZEt4M1l5ZUpLNGR0RWdjeTgtYw?oc=5",
-     "datum": "Wed, 14 Oct 2026 05:07:00 GMT",
+     "titel": "Koers ASML Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUaDdmdFN1NkVnTHZKSW5SMm1URVdIUld6ckhEalFfT1plT2lmNjBnSmJzWGJpaWxDMERXeXBIOE8yREVZUjB3cnJMSURnWnEtWHNyVzhGazB1d1ZOdlhiTWdfWW5fdGs?oc=5",
+     "datum": "Fri, 16 Oct 2026 10:55:00 GMT",
      "bron": "IEX.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "Beursblik: geen twijfels over outlook ASML - Beurs.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdmh6eVlzWEd5MG9VY3E0RnZIUnpXZ1FmeGdjLV94Q00wbnN6b0lNWmVieTlQbi1RRkFfS2VJaGwyYm1LQkR3V3FUUGhzaFNDdDIzZWdRei1SUmsxRkpiWFpXbnJNZndQT29wMGtuTGNEaElpRWxTS2dQb2tJdGtlLWxFOUNNbDNk?oc=5",
-     "datum": "Mon, 12 Oct 2026 13:42:00 GMT",
-     "bron": "Beurs.nl",
      "gewicht": 3
     },
     {
-     "titel": "Beursblik: Bank of America verlaagt koersdoel ASML - Belegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPOXE4a0NIeTY2Zjl1SHVQbWROV05Sei16d0R2UzJXeDR5WGtKcVRnYzNONUltTEc1c2xaWFV3MkloOW11dG1TSVRxck1iMk1rblNxT19nOEgwTUFLU0xzWW9fb2RWRWpaazBiZWQ0Z1dFbzZzSlRHSGRDNTRzWi1qelhkdDE4aG5VSFp1MHNrYzhjZ1ZVZ2Uw?oc=5",
-     "datum": "Wed, 14 Oct 2026 15:13:00 GMT",
-     "bron": "Belegger.nl",
+     "titel": "ASML haalt outlook en scherpt jaardoel aan - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWxWbXhtYmpkV1I1OTQzR29kNmg1VkJZcjItWWdfWFBMRmJhX3M5Nm44VjBmTlp0dWlGWk15UWlRVTZhNmY2M21MU3l0U0k0MFBRQmxER21UTkFpRlNKcU1ubEJWLU1fbVRFeTdEUGhlclE4RmlOVWZIajE1TVhsdWw2OG9KSU83UFFuMWc5WG80YUwzcFFv?oc=5",
+     "datum": "Wed, 14 Oct 2026 05:12:46 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
   },
   "BESI.AS": {
    "naam": "BE Semiconductor Industries N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 9,
+   "niveau": "hoog",
    "items": [
-    {
-     "titel": "Beursblik: geen twijfels over outlook ASML - Beurs.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNdmh6eVlzWEd5MG9VY3E0RnZIUnpXZ1FmeGdjLV94Q00wbnN6b0lNWmVieTlQbi1RRkFfS2VJaGwyYm1LQkR3V3FUUGhzaFNDdDIzZWdRei1SUmsxRkpiWFpXbnJNZndQT29wMGtuTGNEaElpRWxTS2dQb2tJdGtlLWxFOUNNbDNk?oc=5",
-     "datum": "Mon, 12 Oct 2026 13:42:00 GMT",
-     "bron": "Beurs.nl",
-     "gewicht": 3
-    },
     {
      "titel": "Nettowinst voor CM.com en verhoging outlook - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUNWdVA5MGo3RHJ0Vjk3NE11NExGUC1fTTViVVZqUHBNWFNjSmY1Wnk2bWVUVWU0NXUxZkJuU2xYOVRqb25LZ1J2bW9NWWFoUWw3cmxMRWVhTm1PUFBISm9aUlFvY29iei1VanE0LXF3V0FWdHhLU0FWVnhtNFJRLVVya1VrM0E?oc=5",
      "datum": "Fri, 16 Oct 2026 05:33:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "JPMorgan verlaagt koersdoel Besi - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaWxlTzBaNUU2ZUpNNGZJWXh4em5MaHF4Sm9GMmtzWlBfNzlpN0RyemJCOTNJMHJ3eVZTT0MyMk9laS12aXdoU3IzWWRxcmlubm1UakJQOWo0VGhjWnN5TzJRTEx6S21TeVp1ZW11VnZ6MWxXMWdPU2FSOWlrRVBzZFpsX0tpUQ?oc=5",
+     "datum": "Mon, 19 Oct 2026 06:51:48 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Media: Dubai Investments lokt beleggers met fors dividend - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMnUtOGQ5THVqQnhadzAwQVRZMm5DS3JhVW9OWjRVcU1FektOTXRHeFhFRWMyNC1lbTV2Nng4eWJTTlF4WkxJVWdIS1l4S2o0X19DWTQtQk5tREd3WTVSWjJlenluZUc4TmpOazdjLWtwaVV6Z0ZhQTVwVHJEWldsTDIta0U2dXhGYTloQWo4MmgtRF83YTkwbkdn?oc=5",
+     "datum": "Mon, 19 Oct 2026 08:04:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
     }
@@ -98,11 +91,25 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Nettowinst voor CM.com en verhoging outlook - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjZnR1RKNHNuZW9zOE54LXRXS2k1ZlZwQWtaN2ZkNnIwV1dUdGpNUVdkOG12akpnSjlUdW0wdmJKZWhHNVk5X1E4TjZqWE5pUzVueld2Zkw4ckxyNHB4R1ExMkVvM25wRWNPU0JEM2hEY21waXNNUXdKSEZFQldWNG9mQlRUQTFnRW9PTS1xcE14T1U?oc=5",
-     "datum": "Fri, 16 Oct 2026 05:41:59 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Nettowinst voor CM.com en verhoging outlook - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUNWdVA5MGo3RHJ0Vjk3NE11NExGUC1fTTViVVZqUHBNWFNjSmY1Wnk2bWVUVWU0NXUxZkJuU2xYOVRqb25LZ1J2bW9NWWFoUWw3cmxMRWVhTm1PUFBISm9aUlFvY29iei1VanE0LXF3V0FWdHhLU0FWVnhtNFJRLVVya1VrM0E?oc=5",
+     "datum": "Fri, 16 Oct 2026 05:33:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
+    }
+   ]
+  },
+  "DSFIR.AS": {
+   "naam": "DSM-Firmenich AG",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "DHL verhoogt outlook - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oU2t2dnVMSXhZLXdTREthZXg0NWJWYjhTTkt5c09xVGFKcVJybmxWaDNpUV9JQks0M0ZQaGYtNWkzRldDY0NpcWc4M2Eyb0dmY1o3dERwUnJtYW5WZFQ4M0hlNnBIajZmdUE?oc=5",
+     "datum": "Fri, 16 Oct 2026 20:36:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 5
     }
    ]
   },
@@ -126,108 +133,38 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "KBC Securities verlaagt koersdoel Fugro - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOQzk1YlF5OUZqaDNsbzMwMjRxWGZNTVo0ZWtqWmM1VzU2eDVFMlFWSGdyN3RfYjd0anRDOF80bTJtUkFnYXhrWlowMmtQZVNBeGsyRHYxZ0ZpVXZSSVNtcjVaQ3RQS2lYRmp0TGJpdW9UQjVBTnphRy1vbmhVZHJScm4zYkotOWktQkNnTkxucEU3QXJwQms4TlQ5RDd5Zlk?oc=5",
-     "datum": "Tue, 13 Oct 2026 07:19:29 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HEIA.AS": {
-   "naam": "Heineken N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Het IMF publiceert de wereldwijde economische vooruitzichten. - Vietnam.vn",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5IT1l3cG5oTUczaDh0U1otVG9GNzJWRkN2Sm9ibFVIVVNQNU1pVnBlNFNWVTl0MW1tSkhRUTYwWm1zZ2N1bXBZOWg4WDZfdHF2MkZUS0tsUE45a0xMNkFCZ0RKZU1HSTdBb2ROTktyWUZIRWc?oc=5",
-     "datum": "Tue, 13 Oct 2026 14:27:28 GMT",
-     "bron": "Vietnam.vn",
+     "titel": "KBC Securities verlaagt koersdoel Fugro - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdklvdVRzM3FLUWlMRkxMVWlLM3lnSkY4ZVAzRGE4ZTFwdmhDX0pwZUJyNmhsVXp1cndpRGNMSWhSb1d2MEg0ZG9wUFBGY2FCZkxuY0tQMUZEZTd1SW9ydFVQNXFFamVhRHJFQUYxY19mZTF5VHhSVXVfMU9LRzR5Z0FDSQ?oc=5",
+     "datum": "Tue, 13 Oct 2026 07:19:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "ASML haalt outlook en scherpt jaardoel aan - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWxWbXhtYmpkV1I1OTQzR29kNmg1VkJZcjItWWdfWFBMRmJhX3M5Nm44VjBmTlp0dWlGWk15UWlRVTZhNmY2M21MU3l0U0k0MFBRQmxER21UTkFpRlNKcU1ubEJWLU1fbVRFeTdEUGhlclE4RmlOVWZIajE1TVhsdWw2OG9KSU83UFFuMWc5WG80YUwzcFFv?oc=5",
-     "datum": "Wed, 14 Oct 2026 05:12:46 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    },
     {
      "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
      "datum": "Tue, 13 Oct 2026 17:24:45 GMT",
      "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Intel-aandeel daalt door aanhoudende verkoopdruk en opgeschort dividend - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaWs1c0FVaWVZbDNWWU51ZVBIUHJjNVEtOHRzRy1SQ0lVMnJKWHlMcF9OeE9ac21lR2xzR1Z6MVBlQTJUa1FlZUlGN1NkcWEteENYNnhVUVVHSDNFMW1PZ0pUYkRvT1pGZURJejc5Q3d5REpkM0VuMnBKWmZYMkszdTM5M05sSi0tUUVGdTVkSQ?oc=5",
-     "datum": "Wed, 14 Oct 2026 15:43:43 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "NN.AS": {
-   "naam": "NN Group N.V.",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Waar komt het dividend van NN Group eigenlijk vandaan? - De Belegger",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNNnVBdFg0ajhVdFQxVGF0YjFROUdXaU85bGRsNFRzcE96UGZHS1I5bWVVNUI4N19zZ21yWWhlNl9NV19OT3pKVHVnWWZpMDh0ZXVyRldkV0JvRFd0WjE0MEl3cm84MkxjU1NEUDZJbElfcWR2RzFkZ3RLcTgxS3JHN21aT1owbmtDUlpfZg?oc=5",
-     "datum": "Sun, 11 Oct 2026 02:52:36 GMT",
-     "bron": "De Belegger",
-     "gewicht": 3
-    },
-    {
-     "titel": "ASML haalt outlook en scherpt jaardoel aan - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWxWbXhtYmpkV1I1OTQzR29kNmg1VkJZcjItWWdfWFBMRmJhX3M5Nm44VjBmTlp0dWlGWk15UWlRVTZhNmY2M21MU3l0U0k0MFBRQmxER21UTkFpRlNKcU1ubEJWLU1fbVRFeTdEUGhlclE4RmlOVWZIajE1TVhsdWw2OG9KSU83UFFuMWc5WG80YUwzcFFv?oc=5",
-     "datum": "Wed, 14 Oct 2026 05:12:46 GMT",
-     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
      "datum": "Tue, 13 Oct 2026 17:24:45 GMT",
      "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Intel-aandeel daalt door aanhoudende verkoopdruk en opgeschort dividend - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPaWs1c0FVaWVZbDNWWU51ZVBIUHJjNVEtOHRzRy1SQ0lVMnJKWHlMcF9OeE9ac21lR2xzR1Z6MVBlQTJUa1FlZUlGN1NkcWEteENYNnhVUVVHSDNFMW1PZ0pUYkRvT1pGZURJejc5Q3d5REpkM0VuMnBKWmZYMkszdTM5M05sSi0tUUVGdTVkSQ?oc=5",
-     "datum": "Wed, 14 Oct 2026 15:43:43 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "SBMO.AS": {
-   "naam": "SBM Offshore N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Beursblik: geen twijfels over outlook ASML - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPakVkNGNiczFEeEpBY2sxOVNBVDM4UTJ0Zk5BWjdhZUs1eFpXMlo3SW85Sy0tWHVZSXlzd0xGS1RYSVI4N2luc05DSmx5ZHh3MVdtbUVtV3V0Z280Yk5nWUpVWFV4dGx4SHRUX1NRVF9SZXdFR1NlYUV1U0llZS1hU0JYNjcwUWliRS0wSk9FbUN2TThfUVE?oc=5",
-     "datum": "Mon, 12 Oct 2026 13:49:57 GMT",
-     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
@@ -248,9 +185,16 @@
   },
   "TOM2.AS": {
    "naam": "TomTom N.V.",
-   "score": 4,
-   "niveau": "laag",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "TomTom schrapt 200 banen bij dalende omzet en krimpende winst - De Telegraaf",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclFuS29UbF9Bd0VlOVpCcG5Kc3JZYlJ1VmZqa0JwWkZYQXZtb1pVazJLUjlrOWdYR0EzZklsbXVEd3ZaLUZfX0w1RDNTemgtMm40b2R5R3JPZHY1bzBkcElISjRDZkFvV1FVajJnMUV1VVYxc2JCYXM0YkJEU2V5VUI1NHRIendscHIzUExmT2VKaGQ1WnM4Qkl5RktHSmJrLUxRQ01TVEVFXzg5UWF4RTRfU1MxbWRGeFh3?oc=5",
+     "datum": "Thu, 15 Oct 2026 14:30:00 GMT",
+     "bron": "De Telegraaf",
+     "gewicht": 4
+    },
     {
      "titel": "TomTom schrapt 200 banen bij omslag naar AI en zelfrijden - TPO.NL",
      "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwUXNNY2o3Nk00MXFwUkZSZksydXFDVlVWcjVoc1pLeE1RVFNZWTVYc082Rll3LTVTV0Ntb21FdmdmYUkxdmIwcHU5ZW5jYzVFWjE5S1ZTSjJucFJFZ0ZTeUdLRVpTN180dzgwYg?oc=5",
@@ -271,6 +215,34 @@
      "datum": "Wed, 14 Oct 2026 15:30:00 GMT",
      "bron": "HLN",
      "gewicht": 4
+    }
+   ]
+  },
+  "VLK.AS": {
+   "naam": "Van Lanschot Kempen NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "ASML haalt outlook en scherpt jaardoel aan - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbjYxekJPTktCeTFzT2laUlpBclpQWVpxYlVOWlN1bW5CbVpKTlBBTHhIbjM1cDRqMWxYaTl1cUV6VS04TW1MWktLTFBXcFFzY2l5SmZfN1E1QndwUzV3aHRZWnc4NzB1UnpjMFY4QllaZVpPV1VZZ2l2Qm1nSXBib0xPNDZkLTJ0cGRyQm5B?oc=5",
+     "datum": "Wed, 14 Oct 2026 06:04:28 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "WKL.AS": {
+   "naam": "Wolters Kluwer N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Brede spreiding Dividendportefeuille werpt vruchten af - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWXVBMkdpS2FmdHpIWnpKNEdrNS1JN2ZMTERJcnIyS1ltMGM5YnVkY3J3clFiZVFVU1NZNFcwMDdNUkRCdXJfemFLNDhqRkdDa1dXM2NFcmNMRFJ0WWJzRjJSVzVmZ0FOaW5OOGtNNXhkQWxUNkdBb01RdU1RU2t3TWc5U05vbnUx?oc=5",
+     "datum": "Mon, 19 Oct 2026 12:33:00 GMT",
+     "bron": "Beleggers Belangen",
+     "gewicht": 3
     }
    ]
   }

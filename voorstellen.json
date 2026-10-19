@@ -4,14 +4,111 @@
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-16"
+  "gecheckt": "2026-10-19"
+ },
+ "ASM.AS": {
+  "url": "https://www.asm.com/investors/dividends-share-buybacks",
+  "fout": null,
+  "voorstel": {
+   "divs": {
+    "2026": 3.25
+   },
+   "g_na": null
+  },
+  "bewijs": [
+   {
+    "zin": "On March 3, 2026, ASM announced that it will propose a dividend of €3.25 per share to the AGM on May 11, 2026.",
+    "jaren": [
+     2026
+    ],
+    "bedragen": [
+     3.25
+    ],
+    "groei_pct": [],
+    "payout": null
+   }
+  ],
+  "gecheckt": "2026-10-19"
  },
  "ASML.AS": {
   "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-16"
+  "gecheckt": "2026-10-19"
+ },
+ "CTPNV.AS": {
+  "url": "https://www.ctp.eu/investors/shareholder-information/dividend/",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-19"
+ },
+ "ECMPA.AS": {
+  "url": "https://www.eurocommercialproperties.com/investors/dividend",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-19"
+ },
+ "INGA.AS": {
+  "url": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
+  "fout": null,
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-19"
+ },
+ "KPN.AS": {
+  "url": "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
+  "fout": null,
+  "voorstel": {
+   "divs": {
+    "2026": 0.2,
+    "2027": 0.25
+   },
+   "g_na": null
+  },
+  "bewijs": [
+   {
+    "zin": "For 2026, KPN intends to pay a regular dividend of € 0.20 per share (+10% y-on-y) and execute a € 250m share buyback.",
+    "jaren": [
+     2026
+    ],
+    "bedragen": [
+     0.2
+    ],
+    "groei_pct": [
+     0.1
+    ],
+    "payout": null
+   },
+   {
+    "zin": "For 2027, dividend per share is expected to further grow by approximately 25% y-on-y to € 0.25.",
+    "jaren": [
+     2027
+    ],
+    "bedragen": [
+     0.25
+    ],
+    "groei_pct": [
+     0.25
+    ],
+    "payout": null
+   },
+   {
+    "zin": "This implies that for the years 2025-2027, Dividend Per Share is now expected to grow at a CAGR of ~14% vs.",
+    "jaren": [
+     2025,
+     2027
+    ],
+    "bedragen": [],
+    "groei_pct": [
+     0.14
+    ],
+    "payout": null
+   }
+  ],
+  "gecheckt": "2026-10-19"
  },
  "LIGHT.AS": {
   "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
@@ -30,20 +127,34 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-10-16"
+  "gecheckt": "2026-10-19"
  },
  "PNL.AS": {
   "url": "https://newsroom.postnl.nl/nl-NL/pages/dividend-aandelen/",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-16"
+  "gecheckt": "2026-10-19"
  },
  "RAND.AS": {
   "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-16"
+  "gecheckt": "2026-10-19"
+ },
+ "SHELL.AS": {
+  "url": "https://www.shell.com/investors/dividends.html",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-19"
+ },
+ "UMG.AS": {
+  "url": "https://investors.universalmusic.com/shareholder-information/dividend",
+  "fout": "HTTP Error 404: Not Found",
+  "voorstel": null,
+  "bewijs": [],
+  "gecheckt": "2026-10-19"
  }
 }
