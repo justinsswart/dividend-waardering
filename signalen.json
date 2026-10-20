@@ -1,32 +1,11 @@
 {
- "gescand": "2026-10-19T21:44:55+00:00",
+ "gescand": "2026-10-20T20:51:05+00:00",
  "signalen": {
-  "AMG.AS": {
-   "naam": "AMG Critical Materials N.V.",
+  "ASM.AS": {
+   "naam": "ASM International NV",
    "score": 3,
    "niveau": "laag",
    "items": [
-    {
-     "titel": "Citi verlaagt koersdoel AMG - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8yUEFsNHlFSGkyLWs2RldtcklfOUEzakRJdllHMkhZUk9UTDRwdmgzb3gyOFIyRVNvN1lhcGIycUlxQlB2d3BhQndLTFdhZm5BTDhySWNrajNWbWxrd29hNmwwS0R4TXpYTzlsRl9jc3VXWEFqZ0hOTG1OVHZ2MHc?oc=5",
-     "datum": "Tue, 13 Oct 2026 08:09:53 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASM.AS": {
-   "naam": "ASM International NV",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Johnson & Johnson verhoogt outlook opnieuw - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWmZZOGpVSFg0ckJtclNWQnBfLWJsdzNzN1duR3hMWnFldEpFQ3ZNZHJMWWxYeGVTQjlxTjdHVTRoOFBlbG9jaFZQRER1ajd3MkU2bGRwUVZKV2lOTTJEbzlFRWl5cDY5eWs4T1gzOFgwLTRqQVBrZFBWRXpNQnFudDFYNUZXQVFKaWVwWUFfTEJoNEtDaHBr?oc=5",
-     "datum": "Tue, 13 Oct 2026 11:09:20 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 5
-    },
     {
      "titel": "Aandelen van ASM International dalen bijna 9% nadat sectorleider ASML sterke vooruitzichten afgeeft, maar geen herstel weet te ontketenen - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHR0ZTE2VTZwMEtxR3Y4NXBXUmMzY2UwQk14bnhmQjFVSzktWWdiQTI4RXlHMGM5c0tuak5jV3lRZWNIMUVMd0MyLUhGUlduVlRJS0dHNVo3WGxpcl9kYTJ1RDNYRGItNVZDd0xnaU5ZdnI2WUpNWWgtbU9Xa1h6TFI0TXp5Tk1NN0xCRWJxM3JENHRNaWJwMFBGYUU?oc=5",
@@ -49,19 +28,26 @@
      "gewicht": 3
     },
     {
-     "titel": "ASML haalt outlook en scherpt jaardoel aan - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQWxWbXhtYmpkV1I1OTQzR29kNmg1VkJZcjItWWdfWFBMRmJhX3M5Nm44VjBmTlp0dWlGWk15UWlRVTZhNmY2M21MU3l0U0k0MFBRQmxER21UTkFpRlNKcU1ubEJWLU1fbVRFeTdEUGhlclE4RmlOVWZIajE1TVhsdWw2OG9KSU83UFFuMWc5WG80YUwzcFFv?oc=5",
-     "datum": "Wed, 14 Oct 2026 05:12:46 GMT",
-     "bron": "De AandeelHouder",
+     "titel": "ASML haalt outlook en scherpt jaardoel aan - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPSzZITFdiS0tJY3B6V3RjVmt4VnlsR2lKU2VzZzhlZTRWaXRDQmgwVVRfbWlOczZtMjdFSzlqMEw1enN4WkdSd3R3bHBXYnNFX3NLMHUzRVJQdlRNRGxhSlM1VThmeEpJQUE5RFhCbVJ4QmoxSEt6QnZQX0ZUc29WRjEzOTFPWGM?oc=5",
+     "datum": "Wed, 14 Oct 2026 05:10:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
   "BESI.AS": {
    "naam": "BE Semiconductor Industries N.V.",
-   "score": 9,
+   "score": 11,
    "niveau": "hoog",
    "items": [
+    {
+     "titel": "DHL verhoogt outlook - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5oU2t2dnVMSXhZLXdTREthZXg0NWJWYjhTTkt5c09xVGFKcVJybmxWaDNpUV9JQks0M0ZQaGYtNWkzRldDY0NpcWc4M2Eyb0dmY1o3dERwUnJtYW5WZFQ4M0hlNnBIajZmdUE?oc=5",
+     "datum": "Fri, 16 Oct 2026 20:36:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 5
+    },
     {
      "titel": "Nettowinst voor CM.com en verhoging outlook - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUNWdVA5MGo3RHJ0Vjk3NE11NExGUC1fTTViVVZqUHBNWFNjSmY1Wnk2bWVUVWU0NXUxZkJuU2xYOVRqb25LZ1J2bW9NWWFoUWw3cmxMRWVhTm1PUFBISm9aUlFvY29iei1VanE0LXF3V0FWdHhLU0FWVnhtNFJRLVVya1VrM0E?oc=5",
@@ -74,13 +60,6 @@
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOaWxlTzBaNUU2ZUpNNGZJWXh4em5MaHF4Sm9GMmtzWlBfNzlpN0RyemJCOTNJMHJ3eVZTT0MyMk9laS12aXdoU3IzWWRxcmlubm1UakJQOWo0VGhjWnN5TzJRTEx6S21TeVp1ZW11VnZ6MWxXMWdPU2FSOWlrRVBzZFpsX0tpUQ?oc=5",
      "datum": "Mon, 19 Oct 2026 06:51:48 GMT",
      "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Media: Dubai Investments lokt beleggers met fors dividend - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMnUtOGQ5THVqQnhadzAwQVRZMm5DS3JhVW9OWjRVcU1FektOTXRHeFhFRWMyNC1lbTV2Nng4eWJTTlF4WkxJVWdIS1l4S2o0X19DWTQtQk5tREd3WTVSWjJlenluZUc4TmpOazdjLWtwaVV6Z0ZhQTVwVHJEWldsTDIta0U2dXhGYTloQWo4MmgtRF83YTkwbkdn?oc=5",
-     "datum": "Mon, 19 Oct 2026 08:04:00 GMT",
-     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -127,48 +106,6 @@
     }
    ]
   },
-  "FUR.AS": {
-   "naam": "Fugro N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "KBC Securities verlaagt koersdoel Fugro - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOdklvdVRzM3FLUWlMRkxMVWlLM3lnSkY4ZVAzRGE4ZTFwdmhDX0pwZUJyNmhsVXp1cndpRGNMSWhSb1d2MEg0ZG9wUFBGY2FCZkxuY0tQMUZEZTd1SW9ydFVQNXFFamVhRHJFQUYxY19mZTF5VHhSVXVfMU9LRzR5Z0FDSQ?oc=5",
-     "datum": "Tue, 13 Oct 2026 07:19:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
-     "datum": "Tue, 13 Oct 2026 17:24:45 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "PHIA.AS": {
-   "naam": "Koninklijke Philips N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Aandelen Verizon stijgen ruim 1% doordat bevestiging van regulier dividend koopinteresse aanwakkert - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNUHQydXp4Yi1FSUJJVnluV3FxQlFMTEk0T0NyQjBjWThvS2V1Ykt1Wmlqekc1dWtlY1RKaEZTQXVjeFZvbVdFajBvdDk0QTZrbGFBSXBsNEtCakxPTEVGVGZtM0dOU0RRcXlkamdUdEMtYXhZNW5MOHFjcVkzVWRzbEtvVHZ3MnFlQjJvbk5JM2JhZw?oc=5",
-     "datum": "Tue, 13 Oct 2026 17:24:45 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
   "SHELL.AS": {
    "naam": "Shell plc",
    "score": 3,
@@ -204,39 +141,25 @@
     }
    ]
   },
-  "UMG.AS": {
-   "naam": "Universal Music Group N.V.",
-   "score": 4,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Netflix schrapt zowat 1.000 banen: 6 procent van het personeel moet vertrekken - HLN",
-     "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWjM3V2trOHpXWW1OeTZpeFROVFc2c0pwY1VHMlJlQmRRNlprTHdqVk0yaF9FcU04TEZHT19PekQzUzdrckFmMjZlQkkyWHNIaml0ellkbGkxcHhKQTB2a3Z6OEtlUUx5TnRRanAtME00dk5oZ2owVVV3VVBSZG4zcHo2U012V3lIWFVCU1Q1cWU1NzBaVWlZU3pFcTdUWHdoZl9pNlFXVktrVFkyRU5lazR0d3hUUmVC?oc=5",
-     "datum": "Wed, 14 Oct 2026 15:30:00 GMT",
-     "bron": "HLN",
-     "gewicht": 4
-    }
-   ]
-  },
-  "VLK.AS": {
-   "naam": "Van Lanschot Kempen NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "ASML haalt outlook en scherpt jaardoel aan - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPbjYxekJPTktCeTFzT2laUlpBclpQWVpxYlVOWlN1bW5CbVpKTlBBTHhIbjM1cDRqMWxYaTl1cUV6VS04TW1MWktLTFBXcFFzY2l5SmZfN1E1QndwUzV3aHRZWnc4NzB1UnpjMFY4QllaZVpPV1VZZ2l2Qm1nSXBib0xPNDZkLTJ0cGRyQm5B?oc=5",
-     "datum": "Wed, 14 Oct 2026 06:04:28 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    }
-   ]
-  },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 13,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Adidas verhoogt outlook - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE4zWmFKVE5pSDFzTUgzbm1rSGRZOFJXOWhMV2p0MlRpT0dXLTVvU2p6N3lmcjBjRzN3MUVsTjVobGVIWmlfY1FqNllaZHZNLWZvbUJVMUpUVzB3Z01SZDFySWZkQmNDcW1sU2UtaFFmdG5SMU9v?oc=5",
+     "datum": "Tue, 20 Oct 2026 17:05:14 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 5
+    },
+    {
+     "titel": "3M verhoogt outlook voor 2026 opnieuw - Beursonline.nl",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTHFURThmclRuUFJOS2U5TklfYW9Yb2I5MUY3ek9qZVVpUVRIeVNHdkJqbVFPeHhhTzhGbWVYWEJ1MzRXTG1WM0hBZi1TLUZ6bjFSX2tWcG9nVU40RUo1TWJwRXNhRzBwdkt6TVExY2x5VU9jZ3NhQW1wTXhweHVGNGJwcjIyUEIyenVj?oc=5",
+     "datum": "Tue, 20 Oct 2026 11:24:49 GMT",
+     "bron": "Beursonline.nl",
+     "gewicht": 5
+    },
     {
      "titel": "Brede spreiding Dividendportefeuille werpt vruchten af - Beleggers Belangen",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPWXVBMkdpS2FmdHpIWnpKNEdrNS1JN2ZMTERJcnIyS1ltMGM5YnVkY3J3clFiZVFVU1NZNFcwMDdNUkRCdXJfemFLNDhqRkdDa1dXM2NFcmNMRFJ0WWJzRjJSVzVmZ0FOaW5OOGtNNXhkQWxUNkdBb01RdU1RU2t3TWc5U05vbnUx?oc=5",
