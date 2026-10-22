@@ -1,46 +1,46 @@
 {
- "gescand": "2026-10-21T20:53:09+00:00",
+ "gescand": "2026-10-22T20:46:42+00:00",
  "signalen": {
   "AKZA.AS": {
    "naam": "Akzo Nobel N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Koers BE Semiconductor Industries | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jN0llVlFNT09EaDhnakFEWW5YdjY5QXRRcllFRmpZYlloTFZrcmhfQ2lMUDF3REZVd2lxVFJ3Ym53bUpIZmJ5VUNCSWRKTzZUQ1JYYkU2dEYwUDZmeGRRdjM0cGJYQmZMMl9Nb2l4eWV6TUg2dk5lTDJEWQ?oc=5",
-     "datum": "Mon, 19 Oct 2026 05:54:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
+     "titel": "Akzo Nobel N.V. kondigt interim-dividend aan - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQak5maTNhZ2dKZDdVQVNPSm9Hc1FxMXB6RFd1TnR6N2FoVGk0bjVhWnpuSjVuUmhEbVBWVTFyM2Y4QkVjeXlQaXdJV3hMazh1X0V2LWlCT0lhbzNqcTd6WDk5S3hrWFZBZTBiQ0t4ZFF1MXh0X3p0RXp2cVNwMW5OVjd1dmhVZjFNQzRtYmt4enhmTkd1VFRidUNQMkRNYThiXzVSVQ?oc=5",
+     "datum": "Wed, 21 Oct 2026 12:47:00 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 5
     }
    ]
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 8,
-   "niveau": "hoog",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "GE Aerospace verhoogt outlook na sterke orderinstroom - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNZWZuVXZLT1p0bnUtZWVRendYVUJacjQyXzlSNFN5Zk9Xdnk2MndadGlMWE1fb0k4eWU0ejhoamlkXzRoUzFzM1pKZEFlS3VNVEdWa2VWS3JWdGFXcXhBd1ZCVVJoMVZ6R2ctSEx6YlhWaUNGMGs3MXNMLW9IekhqX08xdEVYSDhEcjFaMS1WVU5zWWw0U3RRdy1FRkJWaEFmMnJZRFR3?oc=5",
-     "datum": "Tue, 20 Oct 2026 11:50:37 GMT",
+     "titel": "RELX handhaaft outlook na sterke groei - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGxRbU1FVmdYUjIwYkVQM3U4NTJjRi1ZQUZGeW04aUI1aVNOQ3cwQkhpQXpROG4xdk9WU0VmTHVNUVRUUGNqaXdUU0hLemc3WTlCaGFoeFgxX2RfWl9vQVVBNlVCSF81bU1aTVRKck5OMTdyT0xGTEtGUE53NGVxemU5TFRnWmk4VXJDQkNMU0lrdw?oc=5",
+     "datum": "Thu, 22 Oct 2026 06:17:35 GMT",
      "bron": "De AandeelHouder",
-     "gewicht": 5
-    },
-    {
-     "titel": "Aandelen van ASM International dalen bijna 9% nadat sectorleider ASML sterke vooruitzichten afgeeft, maar geen herstel weet te ontketenen - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNRHR0ZTE2VTZwMEtxR3Y4NXBXUmMzY2UwQk14bnhmQjFVSzktWWdiQTI4RXlHMGM5c0tuak5jV3lRZWNIMUVMd0MyLUhGUlduVlRJS0dHNVo3WGxpcl9kYTJ1RDNYRGItNVZDd0xnaU5ZdnI2WUpNWWgtbU9Xa1h6TFI0TXp5Tk1NN0xCRWJxM3JENHRNaWJwMFBGYUU?oc=5",
-     "datum": "Thu, 15 Oct 2026 08:13:59 GMT",
-     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "ASML start een inkoopprogramma van €12 miljard en verhoogt het dividend: oversold RSI van ASML gaat gepaard met opwaartse koersbeweging - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGpvcTRkSmtUSGFVN2J2NVFqWWJ2cWN0SDBhR21YSENVZDlOaG82XzROYkVOYU9LZTJtdE5pbFNFUkhzeUd4ZVNzbTd0bzZlMkx5S3YzSktfWkJuQThvdE9XY2xabV9fdU1LR2dNWlZZbFduWkFqR21ydGFNVVFYeHExLTRPNmgyUTE4cmF3UTU?oc=5",
+     "datum": "Wed, 21 Oct 2026 08:02:33 GMT",
+     "bron": "Traders Union",
+     "gewicht": 5
+    },
     {
      "titel": "Koers ASML Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUaDdmdFN1NkVnTHZKSW5SMm1URVdIUld6ckhEalFfT1plT2lmNjBnSmJzWGJpaWxDMERXeXBIOE8yREVZUjB3cnJMSURnWnEtWHNyVzhGazB1d1ZOdlhiTWdfWW5fdGs?oc=5",
@@ -50,30 +50,37 @@
     }
    ]
   },
-  "BESI.AS": {
-   "naam": "BE Semiconductor Industries N.V.",
-   "score": 9,
-   "niveau": "hoog",
+  "ASRNL.AS": {
+   "naam": "ASR Nederland N.V.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Koers BE Semiconductor Industries | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1jN0llVlFNT09EaDhnakFEWW5YdjY5QXRRcllFRmpZYlloTFZrcmhfQ2lMUDF3REZVd2lxVFJ3Ym53bUpIZmJ5VUNCSWRKTzZUQ1JYYkU2dEYwUDZmeGRRdjM0cGJYQmZMMl9Nb2l4eWV6TUg2dk5lTDJEWQ?oc=5",
-     "datum": "Mon, 19 Oct 2026 05:54:00 GMT",
-     "bron": "IEX.nl",
+     "titel": "RELX handhaaft outlook na sterke groei - Beursonline.nl",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMjNDZU5kZk5OUnJfTW05TlM3UWZOSlZ5UkQ4dlNoMUllYUJwMEpxS1g4SWtBWmZqblBZYlltMUYzWkZVbFJfUHBCS194OEM5VnpiSWM4aUFaUlgwN0NlWE16c1dscXBvOWpYdk9JalJPSktLb3VndHBzUGxnV3A1SVFJcFZVaVJ6bjZPMA?oc=5",
+     "datum": "Thu, 22 Oct 2026 07:01:50 GMT",
+     "bron": "Beursonline.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "BESI.AS": {
+   "naam": "BE Semiconductor Industries N.V.",
+   "score": 6,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Besi: Sterke orders, maar outlook valt tegen en vertraging is reëel - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOdkRBMWdBZEp5a3lyOVp3R2x0NWdMTUFicFl2bmxkVHZQT2pnWHNldEFrcGlrUVpvS3RIYm5iN2hOcXRSb0J3eVV3Rm9oVGtzOEF0NFlDUTQyZDkxekk0dmE4ZDBCUUJWTWdjVXdzdEExWjljRXF2UHBQQlNROUJsZTBUVFJHd1p1c041b1R5OG8tOVE1cW5qaUhiMUY5UEljM2xYbmNUTVY?oc=5",
+     "datum": "Thu, 22 Oct 2026 07:35:46 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     },
     {
-     "titel": "Beursblik: JPMorgan verlaagt koersdoel Besi - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQUU16SzNWRTMzQ1pmN1E0alpaQzJMcm4tQjlxNnhnLTdNYzNWV0RLV3FxczEyTmt5Z1pyOTRDblJvanY1d1NZV1NrVFRxdHJmMWtwNXdqR29JZm1mSUMyQm1CbUNGSzBhUll3NTFiQTROSm5UTXJFTlpiNkZBRDVmT1RUZm9aS3NsSFdXY3d3UWJCQmc?oc=5",
-     "datum": "Mon, 19 Oct 2026 06:00:32 GMT",
+     "titel": "Citi: sterk kwartaal Besi maar twijfels rond outlook - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVGVqU3VWNmFHWTJvM2NUY3dFZl96ZjhYSElFWUZTZ1luYzduaWZoY3h1SThiQUppM3hwSUtiRGFmMjl1MXlfX0E0czNSamw4bDVWV3dxLVFqbEt5R3pReG5hUWRsbGE5and5RklaLUI1WU1zNnJiYnlYb3hEZ0VNSGF5cUMzeHNDYXA0MXZjOEdXM19lMDl0VGVWSGtLTTA?oc=5",
+     "datum": "Thu, 22 Oct 2026 13:02:28 GMT",
      "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Media: Dubai Investments lokt beleggers met fors dividend - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNMnUtOGQ5THVqQnhadzAwQVRZMm5DS3JhVW9OWjRVcU1FektOTXRHeFhFRWMyNC1lbTV2Nng4eWJTTlF4WkxJVWdIS1l4S2o0X19DWTQtQk5tREd3WTVSWjJlenluZUc4TmpOazdjLWtwaVV6Z0ZhQTVwVHJEWldsTDIta0U2dXhGYTloQWo4MmgtRF83YTkwbkdn?oc=5",
-     "datum": "Mon, 19 Oct 2026 08:04:00 GMT",
-     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -84,25 +91,39 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Nettowinst voor CM.com en verhoging outlook - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRUNWdVA5MGo3RHJ0Vjk3NE11NExGUC1fTTViVVZqUHBNWFNjSmY1Wnk2bWVUVWU0NXUxZkJuU2xYOVRqb25LZ1J2bW9NWWFoUWw3cmxMRWVhTm1PUFBISm9aUlFvY29iei1VanE0LXF3V0FWdHhLU0FWVnhtNFJRLVVya1VrM0E?oc=5",
-     "datum": "Fri, 16 Oct 2026 05:33:00 GMT",
-     "bron": "IEX.nl",
+     "titel": "Nettowinst voor CM.com en verhoging outlook - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjZnR1RKNHNuZW9zOE54LXRXS2k1ZlZwQWtaN2ZkNnIwV1dUdGpNUVdkOG12akpnSjlUdW0wdmJKZWhHNVk5X1E4TjZqWE5pUzVueld2Zkw4ckxyNHB4R1ExMkVvM25wRWNPU0JEM2hEY21waXNNUXdKSEZFQldWNG9mQlRUQTFnRW9PTS1xcE14T1U?oc=5",
+     "datum": "Fri, 16 Oct 2026 05:41:59 GMT",
+     "bron": "Beursgorilla.nl",
      "gewicht": 3
     }
    ]
   },
   "CRBN.AS": {
    "naam": "Corbion N.V.",
-   "score": 7,
-   "niveau": "midden",
+   "score": 14,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Media: Franse Lesaffre overweegt bod op Corbion - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPejAtUHFNb25CcDlXbFpxWWVSZWZQb2JScTNZSzJ3eHc1VEhHX1RyV1VpYzFNUlpjMmNQal83UXVYY0xSZkYzLXotdHdvd3VMOHhLWmtMTWNHSDZydHhyNjMxUkJHd3plSTNsVGFLUWgzQlJxRUE1YmR6VHhTb1FWWUtPVXEtdHo2SGlVcEl6NjhMaUZNWmNHU3FBc24?oc=5",
+     "datum": "Wed, 21 Oct 2026 04:46:50 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 4
+    },
     {
      "titel": "Super Micro verhoogt omzetverwachting fors - De AandeelHouder",
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXRGZm9sY0IzcjU5Q3d1cWl2dWQxekF6YlBwU2ExVFlVdTV4cjNRZVRYaFFNc3VYV3Y4aVNJM2YzVl9oSllJNmhjcXBlaHZIbjQzSm9Sd25sZ3YxRmlDLWJZekdYRUVnaUxhemVTRjRvWktMeWNJdWhna1VZNzlSWWFsUmltZWhzNTNuUzBZODVRSjZtM1Yw?oc=5",
      "datum": "Wed, 21 Oct 2026 06:43:12 GMT",
      "bron": "De AandeelHouder",
      "gewicht": 4
+    },
+    {
+     "titel": "Besi: Sterke orders, maar outlook valt tegen en vertraging is reëel - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObnIzUUcxRWpyZzdESU1MVkh0bHJHQjdsRVhJY1VNOHM5TUg3cGM3SjhTZ05FcXNkTTVsU2JPQkYyR2pKbG1OYUJ2TDFoa2o5WkpIclhpWFpNVTRZWkZYczlkUjN4QUhoRHdybndTWHdlSHpzYnlxazZkRGpzR0NYVTNQaUVmbGdkTFNvRDZ4UzJIb0xaUlh1dWJzSXdjUDFDVFNpSWE4QkI?oc=5",
+     "datum": "Thu, 22 Oct 2026 07:35:02 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
     },
     {
      "titel": "Overnamefantasie Corbion: Hoe kansrijk is een bod? - De AandeelHouder",
@@ -127,10 +148,94 @@
     }
    ]
   },
-  "SHELL.AS": {
-   "naam": "Shell plc",
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 8,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "ASML start een inkoopprogramma van €12 miljard en verhoogt het dividend: oversold RSI van ASML gaat gepaard met opwaartse koersbeweging - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGpvcTRkSmtUSGFVN2J2NVFqWWJ2cWN0SDBhR21YSENVZDlOaG82XzROYkVOYU9LZTJtdE5pbFNFUkhzeUd4ZVNzbTd0bzZlMkx5S3YzSktfWkJuQThvdE9XY2xabV9fdU1LR2dNWlZZbFduWkFqR21ydGFNVVFYeHExLTRPNmgyUTE4cmF3UTU?oc=5",
+     "datum": "Wed, 21 Oct 2026 08:02:33 GMT",
+     "bron": "Traders Union",
+     "gewicht": 5
+    },
+    {
+     "titel": "EUR/USD onder druk door uiteenlopende macro-economische cijfers en vooruitzichten van centrale banken - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN19XR2d0cFNEVUNFNzYyRXdVcnQxUjJNSjRmNkI5UDRqN0V6cXUtbFRlUmlHaUpqRzlqcVlianctenROckpUUWtFbXNnY3BIU2ZUWW5fTGhYc0Rsck1JU2NsNHEyZWpMLU9SM05mTnpDMWhZdW81SHkyZ0RLMVZWR2Nxckk1N3haQk90dFNSRkRfZWNITWQ3dzViWjVHQWViRWFkT1ZwZlducXRWZHpRU1kyVEozNmRjRnZfMl83WmNyX0IxQXVF?oc=5",
+     "datum": "Thu, 22 Oct 2026 10:54:07 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "NSI.AS": {
+   "naam": "NSI N.V.",
    "score": 3,
    "niveau": "laag",
+   "items": [
+    {
+     "titel": "Overname NSI lijkt weer verder weg - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRkFjV1UzR2Z4VVMxSnRmLWJ6ZEVRUklOZFRGZmo0SHJEZ1dZVTZuUUVYbDRobHM2c0lOZnNFUmg0dGN5YlBqakJTenl4TU9keklLZHR2all3eUdPNVpjY0hhQkcyN2twZkFHTUIzVEUtaHJsUFFRd01pWDZTLXdiMlA2YWFiaVFEbWc?oc=5",
+     "datum": "Fri, 16 Oct 2026 12:05:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PHARM.AS": {
+   "naam": "Pharming Group N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Pharming scherpt outlook aan - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOODRfYXEwZGhyS2FtSGFMa1Q5a2h1QzRuUE80cldGZkVIQ2R2WGktUktVNk4xMUdQdTJ0WDhQQ0lyRElHVEYxVUpBX0dyOEVzeFNBQlVTM1JFeGFsY2FJT2tWa2QxdllJazBYb0o2cG5SRElaTUJRS1FyUnlOaVAxMA?oc=5",
+     "datum": "Thu, 22 Oct 2026 05:26:55 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PHIA.AS": {
+   "naam": "Koninklijke Philips N.V.",
+   "score": 8,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "ASML start een inkoopprogramma van €12 miljard en verhoogt het dividend: oversold RSI van ASML gaat gepaard met opwaartse koersbeweging - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxONGpvcTRkSmtUSGFVN2J2NVFqWWJ2cWN0SDBhR21YSENVZDlOaG82XzROYkVOYU9LZTJtdE5pbFNFUkhzeUd4ZVNzbTd0bzZlMkx5S3YzSktfWkJuQThvdE9XY2xabV9fdU1LR2dNWlZZbFduWkFqR21ydGFNVVFYeHExLTRPNmgyUTE4cmF3UTU?oc=5",
+     "datum": "Wed, 21 Oct 2026 08:02:33 GMT",
+     "bron": "Traders Union",
+     "gewicht": 5
+    },
+    {
+     "titel": "EUR/USD onder druk door uiteenlopende macro-economische cijfers en vooruitzichten van centrale banken - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN19XR2d0cFNEVUNFNzYyRXdVcnQxUjJNSjRmNkI5UDRqN0V6cXUtbFRlUmlHaUpqRzlqcVlianctenROckpUUWtFbXNnY3BIU2ZUWW5fTGhYc0Rsck1JU2NsNHEyZWpMLU9SM05mTnpDMWhZdW81SHkyZ0RLMVZWR2Nxckk1N3haQk90dFNSRkRfZWNITWQ3dzViWjVHQWViRWFkT1ZwZlducXRWZHpRU1kyVEozNmRjRnZfMl83WmNyX0IxQXVF?oc=5",
+     "datum": "Thu, 22 Oct 2026 10:54:07 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "REN.AS": {
+   "naam": "RELX PLC",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "RELX handhaaft outlook na sterke groei - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQTDRqdDRWWGxzcXExUzdTZ3JPVFpyaXVEeDBNYkhxQ3lTcDVaUl9FYWVuLU5BeXhhYXhZMi1uZDRBUzdoM0piZjgyZDlUSmplbUprOTNwRHlGSVo1azl2Q254U1JNbVJZbjlUSFhRMzliSGFMa3FvbUdCRmU5V1MzV0hyRnd6S29VR0FYTFFn?oc=5",
+     "datum": "Thu, 22 Oct 2026 06:16:56 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Nettowinst voor CM.com en verhoging outlook - Beleggen.nl",
@@ -138,27 +243,27 @@
      "datum": "Fri, 16 Oct 2026 06:40:58 GMT",
      "bron": "Beleggen.nl",
      "gewicht": 3
+    },
+    {
+     "titel": "RELX handhaaft outlook na sterke groei - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeHFDeVlMem9rQlZrRnc0QjRHbG9RLWd5cTVKYkJzbENIQnprQTZRRkhFcEw3aGE0R09HaG83TnpfMnM1RUVubDZ2eURReEMxWkdHOTllZHJCSTFiRmJZOXJrNWhENXdvZjFwSzZoeWlVMTRfbFUxcDcyMlgwNnhOaGZTQ0xYM0JF?oc=5",
+     "datum": "Thu, 22 Oct 2026 08:36:19 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
     }
    ]
   },
-  "TOM2.AS": {
-   "naam": "TomTom N.V.",
-   "score": 8,
-   "niveau": "hoog",
+  "TWEKA.AS": {
+   "naam": "TKH Group N.V.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "TomTom schrapt 200 banen bij dalende omzet en krimpende winst - De Telegraaf",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOclFuS29UbF9Bd0VlOVpCcG5Kc3JZYlJ1VmZqa0JwWkZYQXZtb1pVazJLUjlrOWdYR0EzZklsbXVEd3ZaLUZfX0w1RDNTemgtMm40b2R5R3JPZHY1bzBkcElISjRDZkFvV1FVajJnMUV1VVYxc2JCYXM0YkJEU2V5VUI1NHRIendscHIzUExmT2VKaGQ1WnM4Qkl5RktHSmJrLUxRQ01TVEVFXzg5UWF4RTRfU1MxbWRGeFh3?oc=5",
-     "datum": "Thu, 15 Oct 2026 14:30:00 GMT",
-     "bron": "De Telegraaf",
-     "gewicht": 4
-    },
-    {
-     "titel": "TomTom schrapt 200 banen bij omslag naar AI en zelfrijden - TPO.NL",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBwUXNNY2o3Nk00MXFwUkZSZksydXFDVlVWcjVoc1pLeE1RVFNZWTVYc082Rll3LTVTV0Ntb21FdmdmYUkxdmIwcHU5ZW5jYzVFWjE5S1ZTSjJucFJFZ0ZTeUdLRVpTN180dzgwYg?oc=5",
-     "datum": "Thu, 15 Oct 2026 08:48:18 GMT",
-     "bron": "TPO.NL",
-     "gewicht": 4
+     "titel": "RELX handhaaft outlook na sterke groei - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGxRbU1FVmdYUjIwYkVQM3U4NTJjRi1ZQUZGeW04aUI1aVNOQ3cwQkhpQXpROG4xdk9WU0VmTHVNUVRUUGNqaXdUU0hLemc3WTlCaGFoeFgxX2RfWl9vQVVBNlVCSF81bU1aTVRKck5OMTdyT0xGTEtGUE53NGVxemU5TFRnWmk4VXJDQkNMU0lrdw?oc=5",
+     "datum": "Thu, 22 Oct 2026 06:17:35 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
     }
    ]
   },
