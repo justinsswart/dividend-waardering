@@ -4,7 +4,7 @@
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "ASM.AS": {
   "url": "https://www.asm.com/investors/dividends-share-buybacks",
@@ -28,35 +28,35 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "ASML.AS": {
   "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "CTPNV.AS": {
   "url": "https://www.ctp.eu/investors/shareholder-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "ECMPA.AS": {
   "url": "https://www.eurocommercialproperties.com/investors/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "INGA.AS": {
   "url": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "KPN.AS": {
   "url": "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
@@ -108,7 +108,7 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "LIGHT.AS": {
   "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
@@ -127,34 +127,34 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "PNL.AS": {
   "url": "https://newsroom.postnl.nl/nl-NL/pages/dividend-aandelen/",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "RAND.AS": {
   "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "SHELL.AS": {
   "url": "https://www.shell.com/investors/dividends.html",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  },
  "UMG.AS": {
   "url": "https://investors.universalmusic.com/shareholder-information/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-22"
+  "gecheckt": "2026-10-23"
  }
 }

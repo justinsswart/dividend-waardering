@@ -1,5 +1,5 @@
 {
- "gescand": "2026-10-22T20:46:42+00:00",
+ "gescand": "2026-10-23T20:38:51+00:00",
  "signalen": {
   "AKZA.AS": {
    "naam": "Akzo Nobel N.V.",
@@ -15,23 +15,9 @@
     }
    ]
   },
-  "ASM.AS": {
-   "naam": "ASM International NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "RELX handhaaft outlook na sterke groei - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGxRbU1FVmdYUjIwYkVQM3U4NTJjRi1ZQUZGeW04aUI1aVNOQ3cwQkhpQXpROG4xdk9WU0VmTHVNUVRUUGNqaXdUU0hLemc3WTlCaGFoeFgxX2RfWl9vQVVBNlVCSF81bU1aTVRKck5OMTdyT0xGTEtGUE53NGVxemU5TFRnWmk4VXJDQkNMU0lrdw?oc=5",
-     "datum": "Thu, 22 Oct 2026 06:17:35 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 8,
+   "score": 14,
    "niveau": "hoog",
    "items": [
     {
@@ -42,32 +28,32 @@
      "gewicht": 5
     },
     {
-     "titel": "Koers ASML Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUaDdmdFN1NkVnTHZKSW5SMm1URVdIUld6ckhEalFfT1plT2lmNjBnSmJzWGJpaWxDMERXeXBIOE8yREVZUjB3cnJMSURnWnEtWHNyVzhGazB1d1ZOdlhiTWdfWW5fdGs?oc=5",
-     "datum": "Fri, 16 Oct 2026 10:55:00 GMT",
-     "bron": "IEX.nl",
+     "titel": "Beursblik: Degroof Petercam verlaagt koersdoel Signify - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNXzZMV2tnemhQbHFfYVJsN25HS1ZSajdMOVRpbVlrQk52SndOZXpqZEdBcng0RFQ2bC1KRlZKQ1RnblNaQWVmTVF2dHlCRDJfTWcta3VCQWFPQW9jTFd0cjBEYmVIYlZ2OHNVTzE3TnB0S1JzT2RvYVFjNHlyWEt6UDNmTmJNdU9fMVpuNm0xY2tuN3pvb2Y4dkFsZWs0TzM3ZV9Eekd2WUY?oc=5",
+     "datum": "Fri, 23 Oct 2026 09:47:14 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
-    }
-   ]
-  },
-  "ASRNL.AS": {
-   "naam": "ASR Nederland N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
+    },
     {
-     "titel": "RELX handhaaft outlook na sterke groei - Beursonline.nl",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOMjNDZU5kZk5OUnJfTW05TlM3UWZOSlZ5UkQ4dlNoMUllYUJwMEpxS1g4SWtBWmZqblBZYlltMUYzWkZVbFJfUHBCS194OEM5VnpiSWM4aUFaUlgwN0NlWE16c1dscXBvOWpYdk9JalJPSktLb3VndHBzUGxnV3A1SVFJcFZVaVJ6bjZPMA?oc=5",
-     "datum": "Thu, 22 Oct 2026 07:01:50 GMT",
-     "bron": "Beursonline.nl",
+     "titel": "ACN stijgt bijna 5% na aankondiging van dividend van $1,71 en sterke omzetgroei - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaEJNWGZ2WFRqdGlORGxEeThTS0lxT05GaVVPdnhYek5UMTMwSm51dExlWUdRSlhwTUNhSHNqSDNGeW9KZFhBejQtcjlCS2taLUQ0OE13YjAtOUFZQ2VzZGRuM1k2NmEtSzJHcGg5NHBvalFSdGQyanZCVEIwZWNCUUJ5dDVPdW9VeklxM0tBa2JGMkdyMEE?oc=5",
+     "datum": "Thu, 22 Oct 2026 18:59:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "EUR/USD onder druk door uiteenlopende macro-economische cijfers en vooruitzichten van centrale banken - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN19XR2d0cFNEVUNFNzYyRXdVcnQxUjJNSjRmNkI5UDRqN0V6cXUtbFRlUmlHaUpqRzlqcVlianctenROckpUUWtFbXNnY3BIU2ZUWW5fTGhYc0Rsck1JU2NsNHEyZWpMLU9SM05mTnpDMWhZdW81SHkyZ0RLMVZWR2Nxckk1N3haQk90dFNSRkRfZWNITWQ3dzViWjVHQWViRWFkT1ZwZlducXRWZHpRU1kyVEozNmRjRnZfMl83WmNyX0IxQXVF?oc=5",
+     "datum": "Thu, 22 Oct 2026 10:54:07 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
   },
   "BESI.AS": {
    "naam": "BE Semiconductor Industries N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 12,
+   "niveau": "hoog",
    "items": [
     {
      "titel": "Besi: Sterke orders, maar outlook valt tegen en vertraging is reëel - De AandeelHouder",
@@ -82,18 +68,18 @@
      "datum": "Thu, 22 Oct 2026 13:02:28 GMT",
      "bron": "Beursgorilla.nl",
      "gewicht": 3
-    }
-   ]
-  },
-  "CMCOM.AS": {
-   "naam": "CM.com N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
+    },
     {
-     "titel": "Nettowinst voor CM.com en verhoging outlook - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNWjZnR1RKNHNuZW9zOE54LXRXS2k1ZlZwQWtaN2ZkNnIwV1dUdGpNUVdkOG12akpnSjlUdW0wdmJKZWhHNVk5X1E4TjZqWE5pUzVueld2Zkw4ckxyNHB4R1ExMkVvM25wRWNPU0JEM2hEY21waXNNUXdKSEZFQldWNG9mQlRUQTFnRW9PTS1xcE14T1U?oc=5",
-     "datum": "Fri, 16 Oct 2026 05:41:59 GMT",
+     "titel": "Beursblik: Goldman Sachs verlaagt koersdoel Besi - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPaGxmMVFTeGFBanA0X0ZKUWhTYlI1Q3YzVjN2dkZ0ZmpocmZ0eGhNX2VuSFVZOGg1NjI1V1VTWGpBNjBEamg1ZWk3WkhlTGZUeDItaE5HeDdsZ2lsSUlXSWN1b3o4SnBhQ1BXbnFFcUJ5ajA0bXFZMDdDRmM4Z0lMU3JGblF0UWlhS1l0REkzOXE4a3FH?oc=5",
+     "datum": "Fri, 23 Oct 2026 07:37:27 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "UBS verlaagt koersdoel Besi - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IcHc2NngxbXpkenltX2hnTDNLc3dpN2MxNi1tanFYVXdaX1hiTVJRUnlRZGdjcjc2bHpIWWxqc1lDWm5ZOHAyRllyd3lmVTc1RVM4TDNCR3UxMF9BX19TZFpIbXRkamMzVzNxUDUtLV9FUktVOEw3dTdzM2Zpa2s?oc=5",
+     "datum": "Fri, 23 Oct 2026 08:58:34 GMT",
      "bron": "Beursgorilla.nl",
      "gewicht": 3
     }
@@ -101,8 +87,8 @@
   },
   "CRBN.AS": {
    "naam": "Corbion N.V.",
-   "score": 14,
-   "niveau": "hoog",
+   "score": 7,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Media: Franse Lesaffre overweegt bod op Corbion - De AandeelHouder",
@@ -112,45 +98,17 @@
      "gewicht": 4
     },
     {
-     "titel": "Super Micro verhoogt omzetverwachting fors - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQTXRGZm9sY0IzcjU5Q3d1cWl2dWQxekF6YlBwU2ExVFlVdTV4cjNRZVRYaFFNc3VYV3Y4aVNJM2YzVl9oSllJNmhjcXBlaHZIbjQzSm9Sd25sZ3YxRmlDLWJZekdYRUVnaUxhemVTRjRvWktMeWNJdWhna1VZNzlSWWFsUmltZWhzNTNuUzBZODVRSjZtM1Yw?oc=5",
-     "datum": "Wed, 21 Oct 2026 06:43:12 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 4
-    },
-    {
      "titel": "Besi: Sterke orders, maar outlook valt tegen en vertraging is reëel - De AandeelHouder",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxObnIzUUcxRWpyZzdESU1MVkh0bHJHQjdsRVhJY1VNOHM5TUg3cGM3SjhTZ05FcXNkTTVsU2JPQkYyR2pKbG1OYUJ2TDFoa2o5WkpIclhpWFpNVTRZWkZYczlkUjN4QUhoRHdybndTWHdlSHpzYnlxazZkRGpzR0NYVTNQaUVmbGdkTFNvRDZ4UzJIb0xaUlh1dWJzSXdjUDFDVFNpSWE4QkI?oc=5",
      "datum": "Thu, 22 Oct 2026 07:35:02 GMT",
      "bron": "De AandeelHouder",
      "gewicht": 3
-    },
-    {
-     "titel": "Overnamefantasie Corbion: Hoe kansrijk is een bod? - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPQm5GTlN1dXltWm40QVB2b21BdXZVLXo3a1p5QUx3UkJpcS1IV0hEMjdXUE1jTVJCUDJLa09PMnl2TXBrQlpaZlI4QTNTUkpJUFJra2VoUTNvUVlrMVU4bWxES19EV3BITjBlTUtiRC1PZGdHb1hkc0o5eEVnWGN4V1hJRi1XYkR6OGFLWVZpNXJPdw?oc=5",
-     "datum": "Wed, 21 Oct 2026 07:59:03 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "FAGR.BR": {
-   "naam": "Fagron NV",
-   "score": 4,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Beursbedrijven openen de boeken met kwartaal- en halfjaarcijfers - Beleggers Belangen",
-     "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNNURPaTVnVngyYXMyNVdVdFpXd1BVbWsyQ0c4U0hiTTV6dWRxbkJvaWFOTE9kaTA5aGV1RGZ2X3h4RjZkVm5raXlLN2Y1Skt2TEk0SVBLbllTd1A2ek5GN3BhMHJRUDBKVzhpRzdjX01vT3BhTFRWNFBwSGtqWTZpTERZb2RaaHY1WnhhU055MUx0cmFtcFZyT09LM3gyYWVtRGZBTlhqWQ?oc=5",
-     "datum": "Fri, 16 Oct 2026 15:00:00 GMT",
-     "bron": "Beleggers Belangen",
-     "gewicht": 4
     }
    ]
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 8,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
@@ -161,24 +119,17 @@
      "gewicht": 5
     },
     {
+     "titel": "ACN stijgt bijna 5% na aankondiging van dividend van $1,71 en sterke omzetgroei - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaEJNWGZ2WFRqdGlORGxEeThTS0lxT05GaVVPdnhYek5UMTMwSm51dExlWUdRSlhwTUNhSHNqSDNGeW9KZFhBejQtcjlCS2taLUQ0OE13YjAtOUFZQ2VzZGRuM1k2NmEtSzJHcGg5NHBvalFSdGQyanZCVEIwZWNCUUJ5dDVPdW9VeklxM0tBa2JGMkdyMEE?oc=5",
+     "datum": "Thu, 22 Oct 2026 18:59:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
      "titel": "EUR/USD onder druk door uiteenlopende macro-economische cijfers en vooruitzichten van centrale banken - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPN19XR2d0cFNEVUNFNzYyRXdVcnQxUjJNSjRmNkI5UDRqN0V6cXUtbFRlUmlHaUpqRzlqcVlianctenROckpUUWtFbXNnY3BIU2ZUWW5fTGhYc0Rsck1JU2NsNHEyZWpMLU9SM05mTnpDMWhZdW81SHkyZ0RLMVZWR2Nxckk1N3haQk90dFNSRkRfZWNITWQ3dzViWjVHQWViRWFkT1ZwZlducXRWZHpRU1kyVEozNmRjRnZfMl83WmNyX0IxQXVF?oc=5",
      "datum": "Thu, 22 Oct 2026 10:54:07 GMT",
      "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "NSI.AS": {
-   "naam": "NSI N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Overname NSI lijkt weer verder weg - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPRkFjV1UzR2Z4VVMxSnRmLWJ6ZEVRUklOZFRGZmo0SHJEZ1dZVTZuUUVYbDRobHM2c0lOZnNFUmg0dGN5YlBqakJTenl4TU9keklLZHR2all3eUdPNVpjY0hhQkcyN2twZkFHTUIzVEUtaHJsUFFRd01pWDZTLXdiMlA2YWFiaVFEbWc?oc=5",
-     "datum": "Fri, 16 Oct 2026 12:05:00 GMT",
-     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -199,7 +150,7 @@
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 8,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
@@ -208,6 +159,13 @@
      "datum": "Wed, 21 Oct 2026 08:02:33 GMT",
      "bron": "Traders Union",
      "gewicht": 5
+    },
+    {
+     "titel": "ACN stijgt bijna 5% na aankondiging van dividend van $1,71 en sterke omzetgroei - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQaEJNWGZ2WFRqdGlORGxEeThTS0lxT05GaVVPdnhYek5UMTMwSm51dExlWUdRSlhwTUNhSHNqSDNGeW9KZFhBejQtcjlCS2taLUQ0OE13YjAtOUFZQ2VzZGRuM1k2NmEtSzJHcGg5NHBvalFSdGQyanZCVEIwZWNCUUJ5dDVPdW9VeklxM0tBa2JGMkdyMEE?oc=5",
+     "datum": "Thu, 22 Oct 2026 18:59:46 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
     },
     {
      "titel": "EUR/USD onder druk door uiteenlopende macro-economische cijfers en vooruitzichten van centrale banken - Traders Union",
@@ -234,35 +192,14 @@
   },
   "SHELL.AS": {
    "naam": "Shell plc",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Nettowinst voor CM.com en verhoging outlook - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNWm9MQ2FuWDBEQ3dxX0FEU2tYT296cU45LXJHeHVOYmtPS3V0dzlfdGhldzZwbzhsbHpXaEVQeUZCcXItcmV6Zk9DZ0VuQVlyUF9WekpiOHBrN1NFMWpOTjlRZm85UHI0bk8yck93VnNjSDZwYjZSbGF4b2stRmFPVWxOZTdFSlBIU0lPOUln?oc=5",
-     "datum": "Fri, 16 Oct 2026 06:40:58 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    },
     {
      "titel": "RELX handhaaft outlook na sterke groei - Beleggen.nl",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOeHFDeVlMem9rQlZrRnc0QjRHbG9RLWd5cTVKYkJzbENIQnprQTZRRkhFcEw3aGE0R09HaG83TnpfMnM1RUVubDZ2eURReEMxWkdHOTllZHJCSTFiRmJZOXJrNWhENXdvZjFwSzZoeWlVMTRfbFUxcDcyMlgwNnhOaGZTQ0xYM0JF?oc=5",
      "datum": "Thu, 22 Oct 2026 08:36:19 GMT",
      "bron": "Beleggen.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "TWEKA.AS": {
-   "naam": "TKH Group N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "RELX handhaaft outlook na sterke groei - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaGxRbU1FVmdYUjIwYkVQM3U4NTJjRi1ZQUZGeW04aUI1aVNOQ3cwQkhpQXpROG4xdk9WU0VmTHVNUVRUUGNqaXdUU0hLemc3WTlCaGFoeFgxX2RfWl9vQVVBNlVCSF81bU1aTVRKck5OMTdyT0xGTEtGUE53NGVxemU5TFRnWmk4VXJDQkNMU0lrdw?oc=5",
-     "datum": "Thu, 22 Oct 2026 06:17:35 GMT",
-     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
