@@ -4,70 +4,73 @@
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "AKZA.AS": {
   "url": "https://www.akzonobel.com/en/investors/dividend",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "AMG.AS": {
   "url": "https://amg-nv.com/investors/",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "APAM.AS": {
   "url": "https://www.aperam.com/investors/equity-investors/dividend/",
-  "fout": "<urlopen error timed out>",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "fout": null,
+  "voorstel": {
+   "divs": {
+    "2026": 2.0
+   },
+   "g_na": null
+  },
+  "bewijs": [
+   {
+    "zin": "The Company proposes to maintain its base dividend at EUR 2.00/share, subject to shareholders approval at the next Annual General Meeting to be held on 05 May 2026.",
+    "jaren": [
+     2026
+    ],
+    "bedragen": [
+     2.0
+    ],
+    "groei_pct": [],
+    "payout": null
+   }
+  ],
+  "gecheckt": "2026-10-29"
  },
  "ASML.AS": {
   "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "BRNL.AS": {
   "url": "https://www.brunelinternational.net/investors",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
- },
- "CTPNV.AS": {
-  "url": "https://www.ctp.eu/investors/shareholder-information/dividend/",
-  "fout": "HTTP Error 404: Not Found",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-10-28"
- },
- "ECMPA.AS": {
-  "url": "https://www.eurocommercialproperties.com/investors/dividend",
-  "fout": "HTTP Error 404: Not Found",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "IMCD.AS": {
   "url": "https://www.imcdgroup.com/en/investors/share-information/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "INGA.AS": {
   "url": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "KPN.AS": {
   "url": "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
@@ -119,7 +122,7 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "LIGHT.AS": {
   "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
@@ -138,41 +141,34 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "MT.AS": {
   "url": "https://corporate.arcelormittal.com/investors/equity-investors/dividends",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "PHIA.AS": {
   "url": "https://www.philips.com/a-w/about/investor/financial-information/dividend.html",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "RAND.AS": {
   "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  },
  "SHELL.AS": {
   "url": "https://www.shell.com/investors/dividends.html",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-10-28"
- },
- "UMG.AS": {
-  "url": "https://investors.universalmusic.com/shareholder-information/dividend",
-  "fout": "HTTP Error 404: Not Found",
-  "voorstel": null,
-  "bewijs": [],
-  "gecheckt": "2026-10-28"
+  "gecheckt": "2026-10-29"
  }
 }
