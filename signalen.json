@@ -1,5 +1,5 @@
 {
- "gescand": "2026-10-29T22:00:11+00:00",
+ "gescand": "2026-10-30T21:43:08+00:00",
  "signalen": {
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
@@ -24,7 +24,7 @@
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 14,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
@@ -40,20 +40,13 @@
      "datum": "Wed, 28 Oct 2026 10:33:04 GMT",
      "bron": "Business AM",
      "gewicht": 4
-    },
-    {
-     "titel": "ASM International: recordresultaten en sterke groeivooruitzichten voor 2027 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc2pVZ29zckJ4Ymw1SHMwQUJhT1hfOExKRmMzSHRTT3RtUDJybWdkOXVFTGpMSEZQeFVlaUJaYUFoT1FNbGl4UVNUMzBBRXpkUFlidXRqLTJEWnluc2V6VWFwbExHSGttdk84RXNrRFg3WERQa0dPUGR6Y3RFQXczblNYTTVfN3dna3lqMUhaVU1wTWx3aUJFemJ3TEZqblBZZFlKOHhhQ0ZiVDFsbHRIT1JrV1dLRGNLcUF1bU5LaUVNNDJ2dUxaZ1RFSGZVQQ?oc=5",
-     "datum": "Wed, 28 Oct 2026 16:57:42 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 3
     }
    ]
   },
   "AVTX.AS": {
    "naam": "Avantium N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 9,
+   "niveau": "hoog",
    "items": [
     {
      "titel": "Avantium start claimemissie van €55 miljoen voor verdere opstart fabriek - www.debelegger.nl",
@@ -68,6 +61,13 @@
      "datum": "Tue, 27 Oct 2026 08:12:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
+    },
+    {
+     "titel": "Emissie Avantium leidt tot extreme verwatering aandeelhouders - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2ozVGsxZ05XOFc3VklVRmgyM2RPR2lGZjJiWVBGeWl2WHc0OFRKRkhUWG9VZWhOMk5vZlFDSTVqczFSZmJYWTM1NVUtSjlYMDA3MmZKSTZPSUEwWjJwbXdnWHhnX21mZTU2SzBrb1ZRMjVlSF91UEl4dTE4TU5HVWNTc1JrWlcwLXVVVm9ReFJabFFqVkhLQVdR?oc=5",
+     "datum": "Thu, 29 Oct 2026 14:35:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
     }
    ]
   },
@@ -77,17 +77,17 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Goldman Sachs verlaagt koersdoel Besi - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNSElQWUVyQ2N6bXN5S25jSk5ENklYZXZjSWc5N1lqZ2tfc1VhMkhZcWdYcERDZlRYLWUySDNJa1d0NWQ1WTRxVEk2TGRkb3puM0dZWGZOVUdXNGwtWVp5c2haQmhoQUlqaENNNnRTdG1xdDl4YXQxN3lBMlZuUnFWb0xBQjN1VG8?oc=5",
-     "datum": "Fri, 23 Oct 2026 10:52:12 GMT",
-     "bron": "Beleggen.nl",
+     "titel": "Besi en Corbion blinken uit op Damrak door overnamefantasie - Headliner.nl",
+     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEtLZDkybnBfRFZmV1k3eUNkcmwxS0ZpZUxNbjgtUm10UjB0TzRFVU84blVzMEF2Y3VCT2V1NmdOeXhFOF9FVnBhLXpxOWhFVzZ1S0o3ZENRSWNOV2Uwc2I0MmlZcV8xZzlyWkZFZTRMcklMUUtXb2pxcjhpbTdpdE1HMUhsc3RoaFpPZlJHZU9iazY0T2laa1lISDh4Mjc0amMtZmh3MUpwZ0FUbkhvVVpnZms0YnEzdXhV?oc=5",
+     "datum": "Tue, 27 Oct 2026 13:03:00 GMT",
+     "bron": "Headliner.nl",
      "gewicht": 3
     },
     {
-     "titel": "UBS verlaagt koersdoel Besi - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE9IcHc2NngxbXpkenltX2hnTDNLc3dpN2MxNi1tanFYVXdaX1hiTVJRUnlRZGdjcjc2bHpIWWxqc1lDWm5ZOHAyRllyd3lmVTc1RVM4TDNCR3UxMF9BX19TZFpIbXRkamMzVzNxUDUtLV9FUktVOEw3dTdzM2Zpa2s?oc=5",
-     "datum": "Fri, 23 Oct 2026 08:58:34 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Deutsche Bank verlaagt koersdoel Besi - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaC1STldwVGg4SWowYnd3WXF1bnoxc1c1dTdBNTRpc1k0YVhSQ09QZnlLeGJLLWZaVi14VkNyekVMZFVqTUFSVVR6MmdTbUhWaVNtOVZTTmxrQmVONnZZeVY5eE5KUVNNSU9iMXRNQzAzcC1vU05wcDdTTkdqV1dRUA?oc=5",
+     "datum": "Tue, 27 Oct 2026 07:28:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -106,22 +106,57 @@
     }
    ]
   },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 12,
-   "niveau": "hoog",
+  "FLOW.AS": {
+   "naam": "Flow Traders Ltd.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Merck verhoogt outlook ondanks winstdaling - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNSkdFZVdiTmV4MTB2NlZhTkxoaVBMZHFkNHdlZ0QwWTl4M1JqX1dUc0R2NHgxMVJOMGxuMnFwYUxuODVfdWx4aExwY2V6bUItZlluazhMSU9vd0ZiTlNhcUJYRWNyWVZ4eFVrUjNxNmtwRkxUWGxnM0JQbTdBQUNKRFo1VjdqMGxyMUZSZjNGMzctNVJBZFM4?oc=5",
-     "datum": "Thu, 29 Oct 2026 10:58:45 GMT",
+     "titel": "UBS verlaagt koersdoel Flow Traders - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX0s0UjRlWjZ1YzgyZlo4b2FNbHl6RE1XclpxZFRYdUlaODMySmQ1d3J6Q3ZKLWtxd1loT0ZGSV9GNWxqNjMzNVA4dnVoY2hBRnpucFc3bTJGOFRHb1lLb3Z0YzNYdERmMkU2X0N5TmE1U2ZacFVuNHF2cGRjTk9hdExENlgtRWY2UjhTbi1vSEhZeWZ1NVo5dXFB?oc=5",
+     "datum": "Fri, 30 Oct 2026 09:20:33 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    }
+   ]
+  },
+  "FUR.AS": {
+   "naam": "Fugro N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: Degroof verlaagt koersdoel Fugro - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUkRQa1A5cDdZRDZEZ01adVRpYjdKQ2VFZXlyd1hTcnY1V1FGVUtnWTZaUnJGbUtFdGU3QnB6aTh5dXo3MlllOUhaZ3RVUWJPanpnZGVtUlNiNWhXX09LbDJsV2FSSEI0eGlncUo4YVNhWUhzLXk5aHF4eGx2QWpyU0hia2t5TkhGdEpmQlQ4bFBFRGxNNzVDY1VR?oc=5",
+     "datum": "Fri, 30 Oct 2026 14:23:40 GMT",
      "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "HEIJM.AS": {
+   "naam": "Koninklijke Heijmans N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Koninklijke Heijmans verhoogt outlook 2026 - Heijmans",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOURSNlF0Z3g4Z3R0eGQyWXBtYzBkQ0JVZEtSNlNPemowRXBTMlVScmRyYUR0SDZkb2h3Y0JZUDFZTHRkbXhyY2xWOHk2T1Qza1hybEZZUFJjQkxrb0E4RXVUWlJfMER1a3lzUW5RVmtNT0hTYVo0WlA0SFBkWXJ6YnV6WQ?oc=5",
+     "datum": "Fri, 30 Oct 2026 06:16:26 GMT",
+     "bron": "Heijmans",
      "gewicht": 5
-    },
+    }
+   ]
+  },
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 7,
+   "niveau": "midden",
+   "items": [
     {
      "titel": "ING schrapt wereldwijd 400 jobs, ook 12 in België - Nieuwsblad",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdTVsV3pFWkE1bng1WmVtTk4zY0NNMkx4UGRoaHMtUnBsZEg2OVgwUl8ybWlVY0c1UEl3YzV5RGRGS1d0Z3J5TXluQ2tIZGpmNUtBTUdwaFFKOGZkN1h3azhSSFY4TmlWX0k1Q05jZWJxaDUyWk5DaXNJMUxoLWxpckxuMWQ0Vkg2OVJ0SU1FSGpuUWhjMTRndVdDVkc?oc=5",
-     "datum": "Thu, 29 Oct 2026 10:04:02 GMT",
+     "datum": "Thu, 29 Oct 2026 10:56:36 GMT",
      "bron": "Nieuwsblad",
      "gewicht": 4
     },
@@ -148,17 +183,24 @@
     }
    ]
   },
-  "UMG.AS": {
-   "naam": "Universal Music Group N.V.",
-   "score": 3,
-   "niveau": "laag",
+  "RAND.AS": {
+   "naam": "Randstad N.V.",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
     {
-     "titel": "Beursupdate: overnamefantasie rond Besi helpt AEX omhoog - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRFU1RVNYNUpub0NkaEQwWEhkMXpId2MxSi04VmF1WFZuQTRhVlFOLS1vQm9DaVQxQ3c0aXFsQldwZUFRUkxSN2tYYjZGcU4zRV9tbUJDQlFIYTFYLXdCVTNFajVsWGdNalRTelcyc3hCemxDdzBRdFd6NFoya2V5M2hfTzdxLTdCS0NNdzlNWWhWYmlXWDdKNmRRSnB4ZWd1b1RCcjJJZG8?oc=5",
-     "datum": "Tue, 27 Oct 2026 10:37:08 GMT",
+     "titel": "Mercedes-Benz komt dag voor cijfers met winstwaarschuwing - bnr.nl",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0ZmYjlyb1lOdE1TbGo5aTJKX29wbGZ5Ujl4clFNc2JfVzFpTl9KbmRnX0M4ajdKSmNfYk1Wc3JFdlRlNVlOcU95RldHUlN1dEh1N1Zmd1pUM0dLS3ZLS2hkb0U0aTEtYWs4WjhMVVlfWWx3QTFqZDhxbUw1VVZ5dEt4OWVwb1NhOVZ5U2FtbDVBUUJmX2RfaVF6YWRrUlhnVXRZ?oc=5",
+     "datum": "Tue, 27 Oct 2026 13:22:00 GMT",
+     "bron": "bnr.nl",
+     "gewicht": 4
+    },
+    {
+     "titel": "Adyen schrapt margedoel voor 2028 - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNk5WUzRnbEMwSV80cTVQdDhwbzdtRVZZZE1wZlN6ZklucnFwNlROOWFaaFgxNU4xclE1U3gyd21ESFZTN1g2ZFBGM0gzTDNXbS12MnotbC1LZExuNGprTEVxakRtMmJiSzA3am5ZYW9uWHBnOXpTYzBXbmVkaHB3aXFYd2lHTkZXdHdV?oc=5",
+     "datum": "Wed, 28 Oct 2026 06:59:15 GMT",
      "bron": "De AandeelHouder",
-     "gewicht": 3
+     "gewicht": 4
     }
    ]
   },
@@ -172,34 +214,6 @@
      "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMmZHOEZCVVhnNjZ5YU8xdEE3ek5TOVF1YUtYSnVSM3k5MFdtVzZaa1lWS0k3anVQSFBDVHFSMGdDWFl5WGZSNUpETlhvODY1YU5XTHhLcjJIdEN0ZFh2Q1VmR2F6RGZqeHhTY0lMdU93OTd5V18zVm1SRkNOZDJtVQ?oc=5",
      "datum": "Wed, 28 Oct 2026 07:29:49 GMT",
      "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "WKL.AS": {
-   "naam": "Wolters Kluwer N.V.",
-   "score": 13,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Merck verhoogt outlook ondanks winstdaling - Belegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNanFwOU9MbjJ5U3dLR3BQZTBDcUZfZDhHemRmdzhzOWlhRi1OekNXM0VtV2tOWFNpSTBxTUQ4Y2lNNzg4MHZhSllVN04wT25KV0paX3lxZHprbzFmQWJnYTRISjFkeG9GSkNjZW5uTS16WnBWS0NoanNNa2w1OFhDSjRmOWxzWDZPcXlCNVRR?oc=5",
-     "datum": "Thu, 29 Oct 2026 10:54:00 GMT",
-     "bron": "Belegger.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "Magnum Ice verhoogt outlook - Belegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE4wZVFsSlVkWUUtenpXWGZWVENNRktBUThwMktOUDl3U013S0swTUEwMVVac1Rua281OUgxODRsN1AxU3hBc3ZZN3Vic0h4eXMwMDA0TWRtVVpNcldONDc0emFMNFJlYk41bjZuczAtcmtkMmZzcEY0WlNB?oc=5",
-     "datum": "Thu, 29 Oct 2026 07:22:00 GMT",
-     "bron": "Belegger.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "UPS trekt outlook op - Belegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5lckk0YmRwYW1BTzZ1S0dmdndwWjhPdUQ2NjdLRWp1eDctQ1FoSC02UkFXdjMtLXF1elRSR1FJaDRyVm5BbEZVeU5jRmtGTmFnR0tEVzV6dHQwYTdBel9SeDQtOHcyaXpFT2V4SGczMDY?oc=5",
-     "datum": "Tue, 27 Oct 2026 10:56:00 GMT",
-     "bron": "Belegger.nl",
      "gewicht": 3
     }
    ]
