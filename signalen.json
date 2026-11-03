@@ -1,16 +1,30 @@
 {
- "gescand": "2026-10-30T21:43:08+00:00",
+ "gescand": "2026-11-03T00:04:02+00:00",
  "signalen": {
+  "AD.AS": {
+   "naam": "Koninklijke Ahold Delhaize N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: Degroof Petercam verlaagt koersdoel Ahold Delhaize - Headliner.nl",
+     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3FoQUFKb2tqNExNcWRiT1JleFdheERISTBJSTBxbjA2NVdXcDlPdEx4Tm5jMDRlVDE2UDkyYUQySDRHdTlyaUdiQUlRN29BcncxYmtEUEV2YkNtUy1tcjJNdmp6bmVLNG1tRG5NaExUbFVMeTM4aUVEMTQ1ZWwtUUl6d1dSdXo4U0k4MHFBM0p0ZU9GUVFOWkRldENOQXgxNlA5bXNWZXVNMFdZ?oc=5",
+     "datum": "Mon, 02 Nov 2026 16:30:00 GMT",
+     "bron": "Headliner.nl",
+     "gewicht": 3
+    }
+   ]
+  },
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
    "score": 7,
    "niveau": "midden",
    "items": [
     {
-     "titel": "Adyen schrapt margedoel voor 2028 - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQUkJ6WEdyRjBVWnV3VjVvTEQ2VnFBRWxIOVBMYjMtcjczRngwNFYtYmdpT2l1eXRLa08zMUlCZndhVTJBek5QRjdfTXJSdGN3YVo0Nmhrdi1YVTg3TXhVeWVza04zUXZqZnQ2ZXdUWEpDbXZ0LWx3T25acjJJdnVxN0J3b09ZdVE?oc=5",
-     "datum": "Wed, 28 Oct 2026 06:59:49 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Adyen schrapt margedoel voor 2028 - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNk5WUzRnbEMwSV80cTVQdDhwbzdtRVZZZE1wZlN6ZklucnFwNlROOWFaaFgxNU4xclE1U3gyd21ESFZTN1g2ZFBGM0gzTDNXbS12MnotbC1LZExuNGprTEVxakRtMmJiSzA3am5ZYW9uWHBnOXpTYzBXbmVkaHB3aXFYd2lHTkZXdHdV?oc=5",
+     "datum": "Wed, 28 Oct 2026 06:59:15 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 4
     },
     {
@@ -24,22 +38,36 @@
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 11,
+   "score": 13,
    "niveau": "hoog",
    "items": [
-    {
-     "titel": "ASM International overtreft omzetverwachting Q3 2026 en verhoogt outlook - Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQall1MExzT085TWg2bGFBcXdURm9rSW5rRVRqZE1PY0FUdDBic3hRT2V0VE8xTjh6cF9LeDZGd3daVmQtSjZTWm1lclBVZDFIZVhMMHFESGVVam1ZelJTTzYzQ3FEN1VoTWJJQXRET1NtX2k3QnRJRkJiVnI4MzFjbEY4TlZDb2FPckNhTzRDWUIwcnVCS3RQM2ZaYzhITUMyVGVSNGw3WlBsTm5YS3llY084anBRS25xQm1GV1FmbUM4aG9K?oc=5",
-     "datum": "Wed, 28 Oct 2026 16:28:53 GMT",
-     "bron": "Investing.com",
-     "gewicht": 7
-    },
     {
      "titel": "ASM International verhoogt omzetverwachting voor 2027 met 24 procent door AI-boom - Business AM",
      "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbWx6YkFxLVViVEg1QkpITVhfdUd3V0tYYU9MTWl3RWY4emNzT2NqYTlqeGFYZmV4SkhRZy1NVzEzcm9UcE1mQkxpam5CLVdOT19NZkxnUk9HcXV5ZjNCV2ttc0RIRXlJZmMtb0NhZE1qNGZBVE5pNXlSRm1zOGtxRnRBWlhSZmxtVVpBN2x2VUR1ejR0YW42ajFtQTh3RnNNYnExT2JnYw?oc=5",
      "datum": "Wed, 28 Oct 2026 10:33:04 GMT",
      "bron": "Business AM",
      "gewicht": 4
+    },
+    {
+     "titel": "Koers ASM International | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16bHFGZEJaV0Z4elg4Q3JXeTdaRkNHMXlKN1loVXBlN0cxYnR1RGc2Z0w5VlZ6bnUwVGgzQjAzRFFMRnBzUHI4eS1QVW5EekxoWTdJOXpON3hBUnVja05mNU9SaVlaWXhhMjNrckxB?oc=5",
+     "datum": "Thu, 29 Oct 2026 09:28:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "ASM International: recordresultaten en sterke groeivooruitzichten voor 2027 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc2pVZ29zckJ4Ymw1SHMwQUJhT1hfOExKRmMzSHRTT3RtUDJybWdkOXVFTGpMSEZQeFVlaUJaYUFoT1FNbGl4UVNUMzBBRXpkUFlidXRqLTJEWnluc2V6VWFwbExHSGttdk84RXNrRFg3WERQa0dPUGR6Y3RFQXczblNYTTVfN3dna3lqMUhaVU1wTWx3aUJFemJ3TEZqblBZZFlKOHhhQ0ZiVDFsbHRIT1JrV1dLRGNLcUF1bU5LaUVNNDJ2dUxaZ1RFSGZVQQ?oc=5",
+     "datum": "Wed, 28 Oct 2026 16:57:42 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    },
+    {
+     "titel": "Aandeel Sanofi profiteert flink van outlookverhoging - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSkNYdWs0eVZFVEVvMlMzX1dVeTA0a040Nkh5ZFRaWE5GY2ppZ2Z5QUw1ZHB3UjVvMVRtMkYtNTNNdDE0eTNxdlVOeFpkUnlac2hnSXdCU2p0TVlNQ1FNWVZZa2dpYmg3UUdtVHcyVWtqaENtS2NibUV5ZXo1blBScFZWRW1qRFBzZ2Mzal9MV2QwUGJjcUFaOXBJSkJ1aGJtX1Q4Tg?oc=5",
+     "datum": "Fri, 30 Oct 2026 10:23:00 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
     }
    ]
   },
@@ -56,37 +84,16 @@
      "gewicht": 3
     },
     {
-     "titel": "Claimemissie Avantium biedt stevige korting - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTZNQXliRXBISFZXXzc3MU9qTEdrMlZVWlF5YnVnWmdFZFZOdEJWdFBheU00aEFrSjFUYmtiTFV6c3hYX19YUWVncldEcDROcng4N2ZUSVh3QlRtS2hTVjdWNWhpcjZ2UXRDQVlRX3lZZE1VNkxPSVgwem5BcmZvRGpuR1NJZnEx?oc=5",
-     "datum": "Tue, 27 Oct 2026 08:12:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    },
-    {
      "titel": "Emissie Avantium leidt tot extreme verwatering aandeelhouders - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2ozVGsxZ05XOFc3VklVRmgyM2RPR2lGZjJiWVBGeWl2WHc0OFRKRkhUWG9VZWhOMk5vZlFDSTVqczFSZmJYWTM1NVUtSjlYMDA3MmZKSTZPSUEwWjJwbXdnWHhnX21mZTU2SzBrb1ZRMjVlSF91UEl4dTE4TU5HVWNTc1JrWlcwLXVVVm9ReFJabFFqVkhLQVdR?oc=5",
      "datum": "Thu, 29 Oct 2026 14:35:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
-    }
-   ]
-  },
-  "BESI.AS": {
-   "naam": "BE Semiconductor Industries N.V.",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Besi en Corbion blinken uit op Damrak door overnamefantasie - Headliner.nl",
-     "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeEtLZDkybnBfRFZmV1k3eUNkcmwxS0ZpZUxNbjgtUm10UjB0TzRFVU84blVzMEF2Y3VCT2V1NmdOeXhFOF9FVnBhLXpxOWhFVzZ1S0o3ZENRSWNOV2Uwc2I0MmlZcV8xZzlyWkZFZTRMcklMUUtXb2pxcjhpbTdpdE1HMUhsc3RoaFpPZlJHZU9iazY0T2laa1lISDh4Mjc0amMtZmh3MUpwZ0FUbkhvVVpnZms0YnEzdXhV?oc=5",
-     "datum": "Tue, 27 Oct 2026 13:03:00 GMT",
-     "bron": "Headliner.nl",
-     "gewicht": 3
     },
     {
-     "titel": "Deutsche Bank verlaagt koersdoel Besi - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaC1STldwVGg4SWowYnd3WXF1bnoxc1c1dTdBNTRpc1k0YVhSQ09QZnlLeGJLLWZaVi14VkNyekVMZFVqTUFSVVR6MmdTbUhWaVNtOVZTTmxrQmVONnZZeVY5eE5KUVNNSU9iMXRNQzAzcC1vU05wcDdTTkdqV1dRUA?oc=5",
-     "datum": "Tue, 27 Oct 2026 07:28:00 GMT",
+     "titel": "Claimemissie Avantium biedt stevige korting - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTZNQXliRXBISFZXXzc3MU9qTEdrMlZVWlF5YnVnWmdFZFZOdEJWdFBheU00aEFrSjFUYmtiTFV6c3hYX19YUWVncldEcDROcng4N2ZUSVh3QlRtS2hTVjdWNWhpcjZ2UXRDQVlRX3lZZE1VNkxPSVgwem5BcmZvRGpuR1NJZnEx?oc=5",
+     "datum": "Tue, 27 Oct 2026 08:12:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
     }
@@ -106,16 +113,16 @@
     }
    ]
   },
-  "FLOW.AS": {
-   "naam": "Flow Traders Ltd.",
+  "ECMPA.AS": {
+   "naam": "Eurocommercial Properties N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "UBS verlaagt koersdoel Flow Traders - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPX0s0UjRlWjZ1YzgyZlo4b2FNbHl6RE1XclpxZFRYdUlaODMySmQ1d3J6Q3ZKLWtxd1loT0ZGSV9GNWxqNjMzNVA4dnVoY2hBRnpucFc3bTJGOFRHb1lLb3Z0YzNYdERmMkU2X0N5TmE1U2ZacFVuNHF2cGRjTk9hdExENlgtRWY2UjhTbi1vSEhZeWZ1NVo5dXFB?oc=5",
-     "datum": "Fri, 30 Oct 2026 09:20:33 GMT",
-     "bron": "MarketScreener Nederland",
+     "titel": "Eurocommercial Properties | Dividendrendement richting de 8% - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZWZEeGtLMEZ4bEV6VnI4VHpGZnBocW95eENZdXNfamRyQndnbWRhdGNrNGstTUxXRnZVY0FxRmVqREpBdllHd3ZpTV94a2ZuVnVNMTQ0c0pkdEJyOExUVUlDTFlDbW0yVlg4czRwUUFZRy1jRGtNQjdWLW53dG5EUjdzM19XUF90bFF4dUxsVk1JT2xjOFk4NklhMA?oc=5",
+     "datum": "Mon, 02 Nov 2026 13:55:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -156,45 +163,38 @@
     {
      "titel": "ING schrapt wereldwijd 400 jobs, ook 12 in België - Nieuwsblad",
      "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOdTVsV3pFWkE1bng1WmVtTk4zY0NNMkx4UGRoaHMtUnBsZEg2OVgwUl8ybWlVY0c1UEl3YzV5RGRGS1d0Z3J5TXluQ2tIZGpmNUtBTUdwaFFKOGZkN1h3azhSSFY4TmlWX0k1Q05jZWJxaDUyWk5DaXNJMUxoLWxpckxuMWQ0Vkg2OVJ0SU1FSGpuUWhjMTRndVdDVkc?oc=5",
-     "datum": "Thu, 29 Oct 2026 10:56:36 GMT",
+     "datum": "Thu, 29 Oct 2026 17:56:36 GMT",
      "bron": "Nieuwsblad",
      "gewicht": 4
     },
     {
-     "titel": "Vastned herhaalt outlook opnieuw - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxQbWF2dGY2enhpY0N4b1pZMEE0TTQ1Y2FtdXI4NXgzTlpxRk56ZzhPd0UtNnVEdy14cWhaeWk5ZGJJazRac0NUWFBkSDlPWEs5WHpxMTJmMGx5UzVFWl9NYXlPOXd6eExMNlh5V0hiaXNCbzdRNThXeDNiVGc2N25PMVptZWpNeVRBLXc?oc=5",
-     "datum": "Mon, 26 Oct 2026 17:38:39 GMT",
-     "bron": "De AandeelHouder",
+     "titel": "Koers ING Groep | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jNnN1SVZZSnVhakJkWmJWbXowNGlfQUx1QUFIM25BLUF4WmsyQnFNZnlHd3B2cERkdE5aeUxpRF8taF9sZzg4eUI1dDFfNHllUHJyUFhTcnpMcTlwdkxsalJfYw?oc=5",
+     "datum": "Fri, 30 Oct 2026 11:44:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
-  "PNL.AS": {
-   "naam": "PostNL N.V.",
+  "PHIA.AS": {
+   "naam": "Koninklijke Philips N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "PostNL vraagt staatscompensatie voor 2027 aan, bevestigt outlook 2026 - Investing.com",
-     "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOUkU4WldpZ0F6clMxbTdtV1VjNjZDblN1WWtEM2lOTS1DZmVFUWRCQU4ydm1Bc0o3MlVudG9adWxZNEFKanE2MkI2M0pIQ0wtUlZXXzVVRWo4OE9MbVl0SjBvcWdtVXdySGlTZHRIWmt6VmhMbzNwMlFoZlV1azRXRndzdk1aYkZRaXd1TGRSUXpUZmM3cUtRYXM0UDAtTmRodGswbjB6OVZ1UUcyUTBVVHRlU2twOTBqbkl0Yjc1UFY?oc=5",
-     "datum": "Mon, 26 Oct 2026 06:28:18 GMT",
-     "bron": "Investing.com",
+     "titel": "Fidelity National Information Services kondigt dividend voor december 2026 aan: kan FIS de winst vasthouden? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3d3YVpLX2d6b3hqU1R2eVVIUjN3cFI2MUk5ODdidjhKbEpTRUd6Rmppd2tOdWMzUV94UFpsbkpGdmRyVHJtWkRNcFpFeUJud1gyRTROLUhRVGVVWkFCbU9GMmdDd1BpazF5b0hBTnVvN0F0NFdIelNxZnhMNTM4Y3lLX2JCdmVyal94d1hsbk9aWk1yWGxzQm5hdw?oc=5",
+     "datum": "Fri, 30 Oct 2026 18:08:52 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
   },
   "RAND.AS": {
    "naam": "Randstad N.V.",
-   "score": 8,
-   "niveau": "hoog",
+   "score": 4,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Mercedes-Benz komt dag voor cijfers met winstwaarschuwing - bnr.nl",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQY0ZmYjlyb1lOdE1TbGo5aTJKX29wbGZ5Ujl4clFNc2JfVzFpTl9KbmRnX0M4ajdKSmNfYk1Wc3JFdlRlNVlOcU95RldHUlN1dEh1N1Zmd1pUM0dLS3ZLS2hkb0U0aTEtYWs4WjhMVVlfWWx3QTFqZDhxbUw1VVZ5dEt4OWVwb1NhOVZ5U2FtbDVBUUJmX2RfaVF6YWRrUlhnVXRZ?oc=5",
-     "datum": "Tue, 27 Oct 2026 13:22:00 GMT",
-     "bron": "bnr.nl",
-     "gewicht": 4
-    },
     {
      "titel": "Adyen schrapt margedoel voor 2028 - De AandeelHouder",
      "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNk5WUzRnbEMwSV80cTVQdDhwbzdtRVZZZE1wZlN6ZklucnFwNlROOWFaaFgxNU4xclE1U3gyd21ESFZTN1g2ZFBGM0gzTDNXbS12MnotbC1LZExuNGprTEVxakRtMmJiSzA3am5ZYW9uWHBnOXpTYzBXbmVkaHB3aXFYd2lHTkZXdHdV?oc=5",
@@ -204,16 +204,51 @@
     }
    ]
   },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Koers SHELL PLC | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94Q01ReWF4MlcxUGt1YnYwcU45NVkxWFllRXpUcDhHVVA3c3BTTXByVThMTmFYLXltMEpDRENwdWRHYmJwUGd5eUlvMFVWV3JUR3JiUVF1dkcyaUJUTkNuTEdvUks?oc=5",
+     "datum": "Fri, 30 Oct 2026 09:17:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
   "UNA.AS": {
    "naam": "Unilever PLC",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Unilever scherpt outlook aan - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQMmZHOEZCVVhnNjZ5YU8xdEE3ek5TOVF1YUtYSnVSM3k5MFdtVzZaa1lWS0k3anVQSFBDVHFSMGdDWFl5WGZSNUpETlhvODY1YU5XTHhLcjJIdEN0ZFh2Q1VmR2F6RGZqeHhTY0lMdU93OTd5V18zVm1SRkNOZDJtVQ?oc=5",
-     "datum": "Wed, 28 Oct 2026 07:29:49 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Unilever scherpt outlook aan - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBnSnJQc0ZHbDUtc3VSUXgwRDlMUW43QzhETDNTVzlMSW1teEdpSHh2YWc3MUtsWFFPclZfMTFhQy1EeW9yX0FCRGtPRi1XWTZoUDNwN0hHcl9zaF9HMkttUTZnUGZ5UGE4R1RQdXhHSEcxUnRW?oc=5",
+     "datum": "Wed, 28 Oct 2026 07:24:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "VLK.AS": {
+   "naam": "Van Lanschot Kempen NV",
+   "score": 7,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Mercedes-Benz komt dag voor cijfers met winstwaarschuwing - bnr.nl",
+     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNN1E5bm42Tzd4RDJsQzI1R0lFdlNkdHdjM2NnblVYdVdKSXZwNkQyTFpNdlJnUUVhUlV3NVBibHp4M2VydjVqWFREU3dsMVo3VUM2VzIwR1RzZ0VKUkFJRjJKRWs5eVJDN1BfLW5QWHpSUlNCSUlaLXVqdzZqVVpDcm1lSjlXNGxfWU9SQnpwU2owa1BGaU9CMVFOQk8zZ012ZnotZ1czUEpzVk9DakNtVmdPQnJBWlcteHhDTmxWRXdoNjFPcFh5c0FHV0czUUVESklYaVJTMEdveU9XdEYtckFsVXQzN1dCUnE3YzFKb3BjQURXci1jQTktNGh4VEI2U296dTVnSC1nTksyNkZxeTgwWXh2enZqNWlCaw?oc=5",
+     "datum": "Tue, 27 Oct 2026 13:22:00 GMT",
+     "bron": "bnr.nl",
+     "gewicht": 4
+    },
+    {
+     "titel": "Van Lanschot Kempen ziet meer overnamekansen in pensioenmarkt - bnr.nl",
+     "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNng0TlZaMXRiaHJRNTRnU3A1NE1xc29tazdueE50TmktX3ZXRlVoMU5rUXliNTNlZTNSSXlUWkpBMGRMd1hYWjQ1Q2FVb0FKQnJXdkUzRTRGandEcy15cFgyYjczZVNaTVhmc19iRHhqLVg0MEpOMUFyMmRzYlVyUGk0VVJrV3daajB3eXNfbzNXZFhockVnZ3RUUWJuYlJLcWdpTmthMzQ?oc=5",
+     "datum": "Sun, 01 Nov 2026 13:31:00 GMT",
+     "bron": "bnr.nl",
      "gewicht": 3
     }
    ]
