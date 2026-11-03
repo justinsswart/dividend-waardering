@@ -1,5 +1,5 @@
 {
- "gescand": "2026-11-03T00:04:02+00:00",
+ "gescand": "2026-11-03T22:31:22+00:00",
  "signalen": {
   "AD.AS": {
    "naam": "Koninklijke Ahold Delhaize N.V.",
@@ -17,29 +17,43 @@
   },
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 7,
-   "niveau": "midden",
+   "score": 8,
+   "niveau": "hoog",
    "items": [
     {
-     "titel": "Adyen schrapt margedoel voor 2028 - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNk5WUzRnbEMwSV80cTVQdDhwbzdtRVZZZE1wZlN6ZklucnFwNlROOWFaaFgxNU4xclE1U3gyd21ESFZTN1g2ZFBGM0gzTDNXbS12MnotbC1LZExuNGprTEVxakRtMmJiSzA3am5ZYW9uWHBnOXpTYzBXbmVkaHB3aXFYd2lHTkZXdHdV?oc=5",
-     "datum": "Wed, 28 Oct 2026 06:59:15 GMT",
-     "bron": "De AandeelHouder",
+     "titel": "Adyen groeit met 23% en schrapt zijn winstdoel voor 2028 - www.debelegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQnhOMk55clNQNGVvVFJnODc5QlY2S1dzbFV0UEF6dWJJSURzczYtWi1UbnZGenQ2UXJTc1I3LXlsVUJtVXdrSHRONExIbnh0V2I0d2NZUFFZVENjNTRqUDFSZF9aOU5PSHppZTdXRU41QnQ5R0tnTHpaVTVVcnl0YWtiOFRGekNSb0E?oc=5",
+     "datum": "Wed, 28 Oct 2026 08:32:33 GMT",
+     "bron": "www.debelegger.nl",
      "gewicht": 4
     },
     {
-     "titel": "Beursblik: haalbaarheid outlook Adyen getest - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPRFEtME1wdm1ZRUdSVkp6Q3NkVkE2eDdGOUtwY09hVTNYN2ZGNGhpRkNxc1MxVDZySmJ2OEdvZmZBb0hSUUZBTmdWclFJQnQzbl85UTBwV2ZiWEFqM2I2bGJoSk9Wb2pLei16VEFnOUZwWUNSS0JWLWt6dUItYTFIZjJjQW5HZG10UzFtcm11LVRUdzQ0?oc=5",
-     "datum": "Tue, 27 Oct 2026 15:58:43 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Adyen schrapt margedoel voor 2028 - Beurs.nl",
+     "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5WOUdVZGxOZkpud1VPcl9kVkIwNnVFc1VWN25zcUgyaHg1Z3hTOU5vaVpYSGZzX3lMNzVXdlpKRXpycWprWmVwS2pJYklKSm5VaEZrRUI0R0U4VUx5MXgzVmU5YThodmEwTEVHUExPczRSeGdCaTM1WnFxOEg0dw?oc=5",
+     "datum": "Wed, 28 Oct 2026 06:54:00 GMT",
+     "bron": "Beurs.nl",
+     "gewicht": 4
+    }
+   ]
+  },
+  "AKZA.AS": {
+   "naam": "Akzo Nobel N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: analisten rekenen op outlookverhoging bij DSM-Firmenich - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPeGhnbDEySGZoZ3I2WEFZdXllQnFWQXdXTjlVOXdyZDJ6YW5aQkZjdGc2QTNyUjJoSVVfTmdqRG1fbGcxMUZZYUxWZ2l2QnJ6RXh0TllMYzlXUzFLeWRMcWpfaVRDMERob0lEaHl2Q3NES185aTNjdDZtdjF4TFFfbDI5a28tSkhrblo3ZVdCZGxJRUY1czQ4QkVTWVNYWEI0RHFXd2N3ZTIzQVByMHUwS0xxMjZYQQ?oc=5",
+     "datum": "Tue, 03 Nov 2026 10:16:36 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 13,
-   "niveau": "hoog",
+   "score": 7,
+   "niveau": "midden",
    "items": [
     {
      "titel": "ASM International verhoogt omzetverwachting voor 2027 met 24 procent door AI-boom - Business AM",
@@ -49,51 +63,37 @@
      "gewicht": 4
     },
     {
-     "titel": "Koers ASM International | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE16bHFGZEJaV0Z4elg4Q3JXeTdaRkNHMXlKN1loVXBlN0cxYnR1RGc2Z0w5VlZ6bnUwVGgzQjAzRFFMRnBzUHI4eS1QVW5EekxoWTdJOXpON3hBUnVja05mNU9SaVlaWXhhMjNrckxB?oc=5",
-     "datum": "Thu, 29 Oct 2026 09:28:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    },
-    {
      "titel": "ASM International: recordresultaten en sterke groeivooruitzichten voor 2027 - MarketScreener Nederland",
      "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOc2pVZ29zckJ4Ymw1SHMwQUJhT1hfOExKRmMzSHRTT3RtUDJybWdkOXVFTGpMSEZQeFVlaUJaYUFoT1FNbGl4UVNUMzBBRXpkUFlidXRqLTJEWnluc2V6VWFwbExHSGttdk84RXNrRFg3WERQa0dPUGR6Y3RFQXczblNYTTVfN3dna3lqMUhaVU1wTWx3aUJFemJ3TEZqblBZZFlKOHhhQ0ZiVDFsbHRIT1JrV1dLRGNLcUF1bU5LaUVNNDJ2dUxaZ1RFSGZVQQ?oc=5",
      "datum": "Wed, 28 Oct 2026 16:57:42 GMT",
      "bron": "MarketScreener Nederland",
      "gewicht": 3
-    },
+    }
+   ]
+  },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
-     "titel": "Aandeel Sanofi profiteert flink van outlookverhoging - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQSkNYdWs0eVZFVEVvMlMzX1dVeTA0a040Nkh5ZFRaWE5GY2ppZ2Z5QUw1ZHB3UjVvMVRtMkYtNTNNdDE0eTNxdlVOeFpkUnlac2hnSXdCU2p0TVlNQ1FNWVZZa2dpYmg3UUdtVHcyVWtqaENtS2NibUV5ZXo1blBScFZWRW1qRFBzZ2Mzal9MV2QwUGJjcUFaOXBJSkJ1aGJtX1Q4Tg?oc=5",
-     "datum": "Fri, 30 Oct 2026 10:23:00 GMT",
-     "bron": "De AandeelHouder",
+     "titel": "Fidelity National Information Services kondigt dividend voor december 2026 aan: kan FIS de winst vasthouden? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3d3YVpLX2d6b3hqU1R2eVVIUjN3cFI2MUk5ODdidjhKbEpTRUd6Rmppd2tOdWMzUV94UFpsbkpGdmRyVHJtWkRNcFpFeUJud1gyRTROLUhRVGVVWkFCbU9GMmdDd1BpazF5b0hBTnVvN0F0NFdIelNxZnhMNTM4Y3lLX2JCdmVyal94d1hsbk9aWk1yWGxzQm5hdw?oc=5",
+     "datum": "Fri, 30 Oct 2026 18:08:52 GMT",
+     "bron": "Traders Union",
      "gewicht": 3
     }
    ]
   },
   "AVTX.AS": {
    "naam": "Avantium N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Avantium start claimemissie van €55 miljoen voor verdere opstart fabriek - www.debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPZVY4a00tOGp2VHlYNE4wakJYU2xOMDFlY1FlVmU1NHZUNm9IRENRVTFqZ0tMenluYnQxNWY5eThiS3lObzZpUGMxRG5TMm9TeDRZRkxXckNCSXVGWHpfVVBnNlNZcU4wZi1fM2RBV2gwVTR2Q21mcF83bFNuQTV3aFJDUVRMQQ?oc=5",
-     "datum": "Tue, 27 Oct 2026 13:10:03 GMT",
-     "bron": "www.debelegger.nl",
-     "gewicht": 3
-    },
     {
      "titel": "Emissie Avantium leidt tot extreme verwatering aandeelhouders - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNY2ozVGsxZ05XOFc3VklVRmgyM2RPR2lGZjJiWVBGeWl2WHc0OFRKRkhUWG9VZWhOMk5vZlFDSTVqczFSZmJYWTM1NVUtSjlYMDA3MmZKSTZPSUEwWjJwbXdnWHhnX21mZTU2SzBrb1ZRMjVlSF91UEl4dTE4TU5HVWNTc1JrWlcwLXVVVm9ReFJabFFqVkhLQVdR?oc=5",
      "datum": "Thu, 29 Oct 2026 14:35:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Claimemissie Avantium biedt stevige korting - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQMTZNQXliRXBISFZXXzc3MU9qTEdrMlZVWlF5YnVnWmdFZFZOdEJWdFBheU00aEFrSjFUYmtiTFV6c3hYX19YUWVncldEcDROcng4N2ZUSVh3QlRtS2hTVjdWNWhpcjZ2UXRDQVlRX3lZZE1VNkxPSVgwem5BcmZvRGpuR1NJZnEx?oc=5",
-     "datum": "Tue, 27 Oct 2026 08:12:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
     }
@@ -101,14 +101,49 @@
   },
   "CTPNV.AS": {
    "naam": "CTP N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "CTP NV bevestigt outlook 2026 ondanks oplevering in tweede helft jaar - Investing.com",
      "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPNlZZeGhZazJFM1FOS2hydTF0VWRPNnphRC1WamJPWmYxYjJyOFhjNkhteG5CV1FBRlRpS2NZQTM1NlJ0clJoV0dJQnNYeW12aHhncUJ0WTRqSk5YWTlCWWwzRkQ5cmxNZGN2R0ZrRld0dHpPLUF2bEltMVRnclRtMk93bnRULTlJbGJsV2Y2MW5BQlQyYWFVQ1BnNUpHZFJyRHNyV1AyLUJyd0QxeVdrVkwyZDJLVkJqQkdyXy1IWEpiY0R3eG55OA?oc=5",
      "datum": "Thu, 29 Oct 2026 07:36:12 GMT",
      "bron": "Investing.com",
+     "gewicht": 3
+    },
+    {
+     "titel": "Deutsche Bank verlaagt koersdoelen WDP en CTP - Beursduivel.be",
+     "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQOVpwckV5dGtvZnZtaExwMXVsdVVNRF9ZQWJqdTVHeU1yd2w5LVpDUk1xNkxwV2t3a1lETkRFTDhscFRmRlBRcEMtSFpyQ2lJb3BYbDhwTzhpTGN3a3VoV3l2c0c2enI5bE40cGlYN085NjVXS2FCaXg2N2pYQ0lRQ1RwRjdKcWs3eU1wN29mN2NGQ0l5cHc?oc=5",
+     "datum": "Tue, 03 Nov 2026 08:14:00 GMT",
+     "bron": "Beursduivel.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "DSFIR.AS": {
+   "naam": "DSM-Firmenich AG",
+   "score": 11,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Pfizer verhoogt outlook - Beursonline.nl",
+     "link": "https://news.google.com/rss/articles/CBMieEFVX3lxTE1Yc21tS2VEbWtLWmFUa1VyQXFOVTI0ems0UVUwdEU4U1A1bGxCbzBUM2hQU2luMUhiVlIxbXlPV2FTaEx6VzlUdUFILVRlTjFfYWZ3ZFR5UXVQLTFtRlRaVkxCZnJ3UTd4elRrSTNHc2FJSk92TjNhVQ?oc=5",
+     "datum": "Tue, 03 Nov 2026 14:41:49 GMT",
+     "bron": "Beursonline.nl",
+     "gewicht": 5
+    },
+    {
+     "titel": "Analisten rekenen op outlookverhoging bij DSM-Firmenich - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWkZJcFpEN2oyNXhTRzdiR1dzT2xEWVIwTkM0UjlUQjlwcEpfMTlhWW9yZnR6RlJBRlUwMHhCRmtUd3ZKRHRER0R4Um4ycHY5elA3WTJBQ1plUFB3Z3lMbmQ3aFJBYXN2d0hKNmhzVEZfZm13bnZMcmVwbUxUZExDdk9DaDZiVmRManJ6ODNWdXo2MlNvUlI5X0QyWXV3eFpneHg3dg?oc=5",
+     "datum": "Tue, 03 Nov 2026 11:48:49 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Omzetgroei Shopify conform outlook - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPM2tMTWJjajRBZDZKY0FlY3UxaGk2aFhTa0lKbGlUMUwwUVdBa3RvM1c3bDc3OEJtNngzZ0dWT0IzeGJxdmpPNzZyT2lSaDNCN3E5Q0cwWGhJcW52cm1uNEszMFpDUmthcGFnUFlzQm8xWDk3UjJlZGQ0elBtX1YwRkd4MA?oc=5",
+     "datum": "Tue, 03 Nov 2026 12:19:00 GMT",
+     "bron": "Belegger.nl",
      "gewicht": 3
     }
    ]
@@ -124,6 +159,20 @@
      "datum": "Mon, 02 Nov 2026 13:55:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
+    }
+   ]
+  },
+  "EXO.AS": {
+   "naam": "Exor N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Ferrari verhoogt outlook - Beursgorilla.nl",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSVTV1ZGhITU51ZjJSNUZPV0UyemNoemFXb3hmaXlNMGJrS25uSkhqLVE5bWd5cGNfb01vbkdacC1Pek9OYkJGU0NPZ0VZQ0xXOHdDTTZpZlZRYmtTRWVaZDdNekM4eG5ycF9PRkZuQ0MzSkUzblZUcjJsaw?oc=5",
+     "datum": "Tue, 03 Nov 2026 12:13:50 GMT",
+     "bron": "Beursgorilla.nl",
+     "gewicht": 5
     }
    ]
   },
@@ -176,34 +225,6 @@
     }
    ]
   },
-  "PHIA.AS": {
-   "naam": "Koninklijke Philips N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Fidelity National Information Services kondigt dividend voor december 2026 aan: kan FIS de winst vasthouden? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOV3d3YVpLX2d6b3hqU1R2eVVIUjN3cFI2MUk5ODdidjhKbEpTRUd6Rmppd2tOdWMzUV94UFpsbkpGdmRyVHJtWkRNcFpFeUJud1gyRTROLUhRVGVVWkFCbU9GMmdDd1BpazF5b0hBTnVvN0F0NFdIelNxZnhMNTM4Y3lLX2JCdmVyal94d1hsbk9aWk1yWGxzQm5hdw?oc=5",
-     "datum": "Fri, 30 Oct 2026 18:08:52 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
-  "RAND.AS": {
-   "naam": "Randstad N.V.",
-   "score": 4,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Adyen schrapt margedoel voor 2028 - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQNk5WUzRnbEMwSV80cTVQdDhwbzdtRVZZZE1wZlN6ZklucnFwNlROOWFaaFgxNU4xclE1U3gyd21ESFZTN1g2ZFBGM0gzTDNXbS12MnotbC1LZExuNGprTEVxakRtMmJiSzA3am5ZYW9uWHBnOXpTYzBXbmVkaHB3aXFYd2lHTkZXdHdV?oc=5",
-     "datum": "Wed, 28 Oct 2026 06:59:15 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 4
-    }
-   ]
-  },
   "SHELL.AS": {
    "naam": "Shell plc",
    "score": 3,
@@ -234,20 +255,13 @@
   },
   "VLK.AS": {
    "naam": "Van Lanschot Kempen NV",
-   "score": 7,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Mercedes-Benz komt dag voor cijfers met winstwaarschuwing - bnr.nl",
-     "link": "https://news.google.com/rss/articles/CBMinAJBVV95cUxNN1E5bm42Tzd4RDJsQzI1R0lFdlNkdHdjM2NnblVYdVdKSXZwNkQyTFpNdlJnUUVhUlV3NVBibHp4M2VydjVqWFREU3dsMVo3VUM2VzIwR1RzZ0VKUkFJRjJKRWs5eVJDN1BfLW5QWHpSUlNCSUlaLXVqdzZqVVpDcm1lSjlXNGxfWU9SQnpwU2owa1BGaU9CMVFOQk8zZ012ZnotZ1czUEpzVk9DakNtVmdPQnJBWlcteHhDTmxWRXdoNjFPcFh5c0FHV0czUUVESklYaVJTMEdveU9XdEYtckFsVXQzN1dCUnE3YzFKb3BjQURXci1jQTktNGh4VEI2U296dTVnSC1nTksyNkZxeTgwWXh2enZqNWlCaw?oc=5",
-     "datum": "Tue, 27 Oct 2026 13:22:00 GMT",
-     "bron": "bnr.nl",
-     "gewicht": 4
-    },
     {
      "titel": "Van Lanschot Kempen ziet meer overnamekansen in pensioenmarkt - bnr.nl",
      "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNNng0TlZaMXRiaHJRNTRnU3A1NE1xc29tazdueE50TmktX3ZXRlVoMU5rUXliNTNlZTNSSXlUWkpBMGRMd1hYWjQ1Q2FVb0FKQnJXdkUzRTRGandEcy15cFgyYjczZVNaTVhmc19iRHhqLVg0MEpOMUFyMmRzYlVyUGk0VVJrV3daajB3eXNfbzNXZFhockVnZ3RUUWJuYlJLcWdpTmthMzQ?oc=5",
-     "datum": "Sun, 01 Nov 2026 13:31:00 GMT",
+     "datum": "Sun, 01 Nov 2026 13:31:24 GMT",
      "bron": "bnr.nl",
      "gewicht": 3
     }

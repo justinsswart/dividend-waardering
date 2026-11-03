@@ -29,26 +29,9 @@
  },
  "APAM.AS": {
   "url": "https://www.aperam.com/investors/equity-investors/dividend/",
-  "fout": null,
-  "voorstel": {
-   "divs": {
-    "2026": 2.0
-   },
-   "g_na": null
-  },
-  "bewijs": [
-   {
-    "zin": "The Company proposes to maintain its base dividend at EUR 2.00/share, subject to shareholders approval at the next Annual General Meeting to be held on 05 May 2026.",
-    "jaren": [
-     2026
-    ],
-    "bedragen": [
-     2.0
-    ],
-    "groei_pct": [],
-    "payout": null
-   }
-  ],
+  "fout": "<urlopen error timed out>",
+  "voorstel": null,
+  "bewijs": [],
   "gecheckt": "2026-11-03"
  },
  "ASML.AS": {
