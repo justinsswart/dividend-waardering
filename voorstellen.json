@@ -4,63 +4,63 @@
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "AD.AS": {
   "url": "https://www.aholddelhaize.com/investors/share-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "AKZA.AS": {
   "url": "https://www.akzonobel.com/en/investors/dividend",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "AMG.AS": {
   "url": "https://amg-nv.com/investors/",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "APAM.AS": {
   "url": "https://www.aperam.com/investors/equity-investors/dividend/",
   "fout": "<urlopen error timed out>",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "ASML.AS": {
   "url": "https://www.asml.com/en/investors/why-invest-in-asml/capital-return-and-financing",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "BRNL.AS": {
   "url": "https://www.brunelinternational.net/investors",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "IMCD.AS": {
   "url": "https://www.imcdgroup.com/en/investors/share-information/dividend",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "INGA.AS": {
   "url": "https://ing.com/investors/share-information/dividend-and-distribution-policy",
   "fout": null,
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "KPN.AS": {
   "url": "https://ir.kpn.com/shareholder-center/dividends/default.aspx",
@@ -112,7 +112,7 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "LIGHT.AS": {
   "url": "https://www.signify.com/global/our-company/investors/shareholder-info/dividend-info",
@@ -120,7 +120,7 @@
   "voorstel": null,
   "bewijs": [
    {
-    "zin": "Applications Applications Resources Resources Sustainability Sustainability Our company Our company --> Dividend info Dividend info Overview Financial reports Quarterly results Webcast Annual report IPO Share & debt Shareholder info Shareholder engagement Shareholder meetings Dividend info Share rep",
+    "zin": "Dividend Info | Signify Company Website --> Global - English Careers Investors Subscribe to newsletter Applications Applications Resources Resources Sustainability Sustainability Our company Our company --> Dividend info Dividend info Overview Financial reports Quarterly results Webcast Annual repor",
     "jaren": [
      2025
     ],
@@ -131,34 +131,34 @@
     "payout": null
    }
   ],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "MT.AS": {
   "url": "https://corporate.arcelormittal.com/investors/equity-investors/dividends",
   "fout": "HTTP Error 403: Forbidden",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "PHIA.AS": {
   "url": "https://www.philips.com/a-w/about/investor/financial-information/dividend.html",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "RAND.AS": {
   "url": "https://www.randstad.com/investor-relations/share-information/dividend/",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  },
  "SHELL.AS": {
   "url": "https://www.shell.com/investors/dividends.html",
   "fout": "HTTP Error 404: Not Found",
   "voorstel": null,
   "bewijs": [],
-  "gecheckt": "2026-11-03"
+  "gecheckt": "2026-11-04"
  }
 }
