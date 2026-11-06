@@ -1,6 +1,34 @@
 {
- "gescand": "2026-11-05T22:50:51+00:00",
+ "gescand": "2026-11-06T22:20:05+00:00",
  "signalen": {
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
+   "score": 11,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Vopak verhoogt outlook - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtU1F0bHFPSUxXTE5ZT3pQNl96SHlOS0VHX1prWUZzRFV3OVhPZlZncVk3MTFsQlRVeURlZGVlc25zUkVQMjNKZm1wVUFNOW4zbnpRWk9pT0FjVXpTWG5Gd1plVHc3MkliRGxTV19Ma3RVWnM?oc=5",
+     "datum": "Wed, 04 Nov 2026 06:45:12 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 5
+    },
+    {
+     "titel": "Wolters Kluwer herhaalt outlook na groeiversnelling - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa2tKRnFzLUxsRDVqRDZkUjhzS2p0Y0FJbDBQVkhFLWFTRDA5ZTNtOFpkeHRqU21ld244MWp2TWN3a25pTk9od2VUWGZTd1ZRakpDcWVwQ1VLS2JSdVJUcVVoeHVBLTh2cU80dDhBRWJfWmpWbmwzY0ZoLTVnaVdMbmsycGU0QjNTdmp2VUMwdzl3QmlCNXJRS3NB?oc=5",
+     "datum": "Wed, 04 Nov 2026 09:25:13 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Degroof Petercam verlaagt koersdoel AMG - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVk1oOUMwdmgzdWo0dVVYNkR2T3VOT1hqYnZHSjdBUlk1b2ZDaUdpbTJCQUs0aVplT1hnbEtfNGRGdUVFTnBVZHdMczJqaGFOVW5uaGdDVUczLWJCUldWZ2tPejNvYkRLTU5mamtSMGpmSEJQUXNrLXl5REVoMTU1Yml1WmFQNlhQNnc?oc=5",
+     "datum": "Fri, 06 Nov 2026 09:48:53 GMT",
+     "bron": "Beleggen.nl",
+     "gewicht": 3
+    }
+   ]
+  },
   "AD.AS": {
    "naam": "Koninklijke Ahold Delhaize N.V.",
    "score": 16,
@@ -14,7 +42,7 @@
      "gewicht": 5
     },
     {
-     "titel": "Ahold Delhaize verlaagt jaarverwachting na cyberaanval Door Investing.com - Investing.com",
+     "titel": "Ahold Delhaize verlaagt jaarverwachting na cyberaanval - Investing.com",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWDNTREE3UUlxNXFZcVRQelg0WGVxS1VGSS1WVWxtXzZneTRqcVYzcW1rSm81aVpqTmgwWm5SeTA5eE52ZExjMUM3djdrM3dyM05TcUZueHZjbHZwakNPRlNrTkZULUc3QnY0MXJCci1ZV0F4czVsdkNNQzltUzBrWlE0ODVBZE9KTmgtZExnSk12SHNlZmxnNzU3NWJYb01Xdnc?oc=5",
      "datum": "Wed, 04 Nov 2026 07:29:24 GMT",
      "bron": "Investing.com",
@@ -36,16 +64,30 @@
     }
    ]
   },
+  "ADYEN.AS": {
+   "naam": "Adyen N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: Citi Research verlaagt koersdoel Adyen - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd25wT1pZZ2QtOTk1bUJQLUUyQU1RbTJGTERnSTJqQV9DR1l0M2pLZ2hoTU1YaUF0NkJIWGVCS1dsNDQzTHpYSUo5NE1WRTFoSHN3NmUwMlJpWnA2UlB5dmpwenRQeXRsMUlDZ3V0ekVERGt5NGJtT1BQaGxfc0I4MHd2dkJ4cG9fNW55dGFtNmZ5X3Z2VXAtYmI2ZkZhYWM?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:05:44 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
   "AMG.AS": {
    "naam": "AMG Critical Materials N.V.",
-   "score": 8,
+   "score": 11,
    "niveau": "hoog",
    "items": [
     {
-     "titel": "AMG verhoogt outlook opnieuw - Beurs.nl",
-     "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5kZW85Ymo0a3lLbDFCbGJPR0ZaTlRaZmdlME9fRXZYR1JJdnZaeWxEU2RxS0xFQjY0M1AtdTAtRXo4bHFubkRnbFBZTjlrZ1drUUZac3cxaVd2RDd2WlpyVVdvRGdwd3Y1VVFjNlBLOGZ0aUNrbzd3?oc=5",
-     "datum": "Thu, 05 Nov 2026 22:09:00 GMT",
-     "bron": "Beurs.nl",
+     "titel": "AMG verhoogt outlook opnieuw - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1vUjV0SHRHY3RadzhtWjFQUVhVVV9lS29iV0k0UDhNNGs3T3Z5alJpUUtZaWEtLTlMT3dZWVM0Q0dFQUFSMzBIOG11c3ZEcFh4N2dnMGlSQ0lBOVNqemdvbzdaNmZBdUZFbGlvMUlBUkpVcDdvbkxaVnlmUQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 05:33:58 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 5
     },
     {
@@ -53,6 +95,13 @@
      "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWENLNjJmRE5NY0JlTTFlRXlRRElrVU92TDJhbEg0OEJQWng0LWZleW03aEY3d29HZ2FNa05rZkpiOEVQUDIySEJ0dXNqQS1hVXVCWW5iRWVxeWVLMU44Szl2S1hWX20tUHpITDhRTTUzdUZ3dlphaUo4Q2pITmlGYjB1RDBTOHpockd3Z2J0VWRVQjNHTHFicEJPOWZMUDVSVm52U0kxTjhtaXh3?oc=5",
      "datum": "Thu, 05 Nov 2026 11:44:42 GMT",
      "bron": "De AandeelHouder",
+     "gewicht": 3
+    },
+    {
+     "titel": "Beursblik: Degroof Petercam verlaagt koersdoel AMG - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEMtb0FoeVZTQ2RDRks0ajFwaGZQZC01SjNVSGtXUEpMay13eHFkMDlkWmFmdlBqWldvZkZlMUFVTzc0cWU3NXM2enJoeEdqNWNzMXYzNkh3blBETWpzb2FuVTZ6VG5kNFVfaG5EbVZsZ3BDR1U2X3lTZ3F6OG9EYW5rTE9pRm9YMjJVVUhzRTV1emRDcTdB?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:50:00 GMT",
+     "bron": "Belegger.nl",
      "gewicht": 3
     }
    ]
@@ -85,23 +134,9 @@
     }
    ]
   },
-  "AVTX.AS": {
-   "naam": "Avantium N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Avantium: Zo werkt de claimemissie - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBXQlhtY1A4X1h5c1VtSTdtNGgtelJjRXRYdGJvUzc5VHJJRUpZSkRoa0JaOVVqa2laT000UEV4dHJ0NW1obzhEX0F0S0RJUS1hY2Ntb1lhMEpjQQ?oc=5",
-     "datum": "Fri, 30 Oct 2026 11:26:32 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
   "BESI.AS": {
    "naam": "BE Semiconductor Industries N.V.",
-   "score": 13,
+   "score": 10,
    "niveau": "hoog",
    "items": [
     {
@@ -117,13 +152,6 @@
      "datum": "Wed, 04 Nov 2026 06:31:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 5
-    },
-    {
-     "titel": "Smith+Nephew verlaagt prognose na mislukte dealgesprekken met J&J - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNWlLVm0wVkRleksydnJaUi1QSnNMV1ZWaDJmTE5KT1R0Ri1INVZIUVNza1B3NzNfYjM0cExocUlDMFpLaUVlTnl1NkZJSXZYSWhpYUNlOHRUX2ZNQ3ZCaXFnYldHWHlOdFk0UHdpSzJKMkJ4ZUxyd2M2THRQSnIxNGZnUUx2Vk04MlJyYnhacjlaM3BPUkVPRlp5M3ZtVldPeXk0?oc=5",
-     "datum": "Wed, 04 Nov 2026 07:35:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
     }
    ]
   },
@@ -150,21 +178,14 @@
   },
   "DSFIR.AS": {
    "naam": "DSM-Firmenich AG",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Analisten rekenen op outlookverhoging bij DSM-Firmenich - Beursgorilla.nl",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWkZJcFpEN2oyNXhTRzdiR1dzT2xEWVIwTkM0UjlUQjlwcEpfMTlhWW9yZnR6RlJBRlUwMHhCRmtUd3ZKRHRER0R4Um4ycHY5elA3WTJBQ1plUFB3Z3lMbmQ3aFJBYXN2d0hKNmhzVEZfZm13bnZMcmVwbUxUZExDdk9DaDZiVmRManJ6ODNWdXo2MlNvUlI5X0QyWXV3eFpneHg3dg?oc=5",
      "datum": "Tue, 03 Nov 2026 11:48:49 GMT",
      "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "DSM-Firmenich | Outlook zoals verwacht verhoogd - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOc3B5WlVlZnBpTkZ4N3RoWFVrV3RkS0V6aG1uY09pT2lJOWE2Sk5Yb2d5NUFtWWlzd2VXbEZpSDRKOWEtRW5KMWN5RjdCS0tLWmVKRmgxNmlvRXhydC1pTU8zWGo4ZlZoV1ZfYXVkYVJWeXNkc2xnSGdtWHFBUVpWdkN2T2x6WFF5a1QxT3R3Q2hseDQ?oc=5",
-     "datum": "Wed, 04 Nov 2026 10:20:00 GMT",
-     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -175,10 +196,10 @@
    "niveau": "laag",
    "items": [
     {
-     "titel": "Emissie Eurocommercial Properties valt verkeerd - Beursduivel.be",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNNTFnbjVVWEcxQWVoVXNkQl9NVVN4TG5fem9IbFA2LTU2WHU4blh2eENjTkJ0VkY2M0xMTVdsYlE0aDg3MjN4N3ZYSFg1eUFFTlo1WlR1Z0lrOUtZOW5WTl83QlZseTc0cVhTSk14OG9TNlRhS3NVeGgteGN5MGxhRnMyLTdwVWdTV2xFVV94Y2hyS3l4RDdleGhaZkNERE9YdzVleg?oc=5",
+     "titel": "Eurocommercial Properties | Dividendrendement richting de 8% - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZWZEeGtLMEZ4bEV6VnI4VHpGZnBocW95eENZdXNfamRyQndnbWRhdGNrNGstTUxXRnZVY0FxRmVqREpBdllHd3ZpTV94a2ZuVnVNMTQ0c0pkdEJyOExUVUlDTFlDbW0yVlg4czRwUUFZRy1jRGtNQjdWLW53dG5EUjdzM19XUF90bFF4dUxsVk1JT2xjOFk4NklhMA?oc=5",
      "datum": "Mon, 02 Nov 2026 13:55:00 GMT",
-     "bron": "Beursduivel.be",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -189,67 +210,11 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Ferrari verhoogt outlook - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBSVTV1ZGhITU51ZjJSNUZPV0UyemNoemFXb3hmaXlNMGJrS25uSkhqLVE5bWd5cGNfb01vbkdacC1Pek9OYkJGU0NPZ0VZQ0xXOHdDTTZpZlZRYmtTRWVaZDdNekM4eG5ycF9PRkZuQ0MzSkUzblZUcjJsaw?oc=5",
-     "datum": "Tue, 03 Nov 2026 12:13:50 GMT",
-     "bron": "Beursgorilla.nl",
+     "titel": "Ferrari verhoogt outlook - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYXRQZHZDVE55N2JjNW5rSVR5bl93RzAxUUtRNDdwRVh2WndJeTJoUGt4WG9yS0V0X090MzliLTVsTkYxdURVU2J2bUlfajQtcjdibnprd2MxejExdDc4dW94Rm9HS1VmaFhMNl9EMklOTEpGeGtjYm1mU1haZ2RxamVJRGJZZkdsWnln?oc=5",
+     "datum": "Tue, 03 Nov 2026 12:04:13 GMT",
+     "bron": "MarketScreener Nederland",
      "gewicht": 5
-    }
-   ]
-  },
-  "FUR.AS": {
-   "naam": "Fugro N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Beursblik: Degroof verlaagt koersdoel Fugro - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOUkRQa1A5cDdZRDZEZ01adVRpYjdKQ2VFZXlyd1hTcnY1V1FGVUtnWTZaUnJGbUtFdGU3QnB6aTh5dXo3MlllOUhaZ3RVUWJPanpnZGVtUlNiNWhXX09LbDJsV2FSSEI0eGlncUo4YVNhWUhzLXk5aHF4eGx2QWpyU0hia2t5TkhGdEpmQlQ4bFBFRGxNNzVDY1VR?oc=5",
-     "datum": "Fri, 30 Oct 2026 14:23:40 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HEIJM.AS": {
-   "naam": "Koninklijke Heijmans N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Koninklijke Heijmans verhoogt outlook 2026 - Heijmans",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOOURSNlF0Z3g4Z3R0eGQyWXBtYzBkQ0JVZEtSNlNPemowRXBTMlVScmRyYUR0SDZkb2h3Y0JZUDFZTHRkbXhyY2xWOHk2T1Qza1hybEZZUFJjQkxrb0E4RXVUWlJfMER1a3lzUW5RVmtNT0hTYVo0WlA0SFBkWXJ6YnV6WQ?oc=5",
-     "datum": "Fri, 30 Oct 2026 06:16:26 GMT",
-     "bron": "Heijmans",
-     "gewicht": 5
-    }
-   ]
-  },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Koers ING Groep | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5jNnN1SVZZSnVhakJkWmJWbXowNGlfQUx1QUFIM25BLUF4WmsyQnFNZnlHd3B2cERkdE5aeUxpRF8taF9sZzg4eUI1dDFfNHllUHJyUFhTcnpMcTlwdkxsalJfYw?oc=5",
-     "datum": "Fri, 30 Oct 2026 11:44:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "SHELL.AS": {
-   "naam": "Shell plc",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Koers SHELL PLC | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94Q01ReWF4MlcxUGt1YnYwcU45NVkxWFllRXpUcDhHVVA3c3BTTXByVThMTmFYLXltMEpDRENwdWRHYmJwUGd5eUlvMFVWV3JUR3JiUVF1dkcyaUJUTkNuTEdvUks?oc=5",
-     "datum": "Fri, 30 Oct 2026 09:17:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
     }
    ]
   },
@@ -267,18 +232,25 @@
     }
    ]
   },
-  "VLK.AS": {
-   "naam": "Van Lanschot Kempen NV",
-   "score": 8,
-   "niveau": "hoog",
+  "UMG.AS": {
+   "naam": "Universal Music Group N.V.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Koninklijke Heijmans verhoogt outlook 2026 - Analist.nl",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQeGwzTm9LNUNBY09sX3g4c3RKYVJfR2dPWXlwSGNVMzhrRkNJYnMwLUhlQk1ZeFRqT3RfOVBFZHJxQ3d4Um5hRWlNVV9rOWRhVVg5ZFVpZlprNE5JenZ2UU9CQzJmcFd4WEtraGhlRGp3YVZHMnIxTWJPbGljZ0JqcVRGbi1TeHROczY4?oc=5",
-     "datum": "Fri, 30 Oct 2026 09:26:28 GMT",
-     "bron": "Analist.nl",
-     "gewicht": 5
-    },
+     "titel": "Beursblik: UBS verlaagt koersdoel Universal Music - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelJVVjRWcXk2dG9hWmhVa21JQlZxdEhySXcxa3hDeE5PZHpBMWFTcFhwaU9NVklsM3U2c3RuMUJ3a21DUXk1TGxVZHczWFdUbDdUS29HTWZhZVViMGszdEVnWERiaU52YmlIYi00M1FTdFRLVzBlVkxjWE5VeEhEZW1FaklnRnA1UUgtYWlTdzk1aDJ2TWJqUWx3MFRzbExrNlE?oc=5",
+     "datum": "Fri, 06 Nov 2026 10:07:37 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "VLK.AS": {
+   "naam": "Van Lanschot Kempen NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
      "titel": "Van Lanschot Kempen ziet meer overnamekansen in pensioenmarkt - bnr.nl",
      "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNlpYUVZoMGlRZHNSWWxZMF9OSDg2SUhJUzB4NlVMSjBoenBhZmZiOXhfN2YtNXFkSVE1cmdlc09meFFzeWk3MkdYTGNFQlJ3a2RXQUtBRFRucGQtMVdBYV8xLTdwODlyZ1hpbkl4dkN6YUxjenhwRlB4SURDbm9JLUdJTHVqRUdwcUxFMVk1QTVCTFNiajU2aWhCempnS2xVcHpTcjZpd0ZPN1ZfMlZIYjJVRjk?oc=5",
@@ -303,7 +275,7 @@
     {
      "titel": "Vopak aandeel stijgt hard: groei, dividend en noordpoolroutes - De Telegraaf",
      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTEJYYk9fRzROeWtHRndGWGNJanU1RVBvdHRxU0hSQW1SNnpCUU1yNDFObElIazFacVdQOC1GSm53cHR3Y3ZJX1hoV3FKWnk2Ym91ZjRxek1zN0lFNnNXWW42WHByQl83VzEtaHN4dkhTeDJ3RG9UVTdvSktzNV94Q053NVlSVHF0VkxQSXlDTVBjdmMzYy1uaFExd0FTYko3VG9vMlo1V1Eya29IendTN09pUEF5NW95ZlB4b1k4NkN3d2VIbkM3bVVrNVIxaWZtZkZ3OWhRTkxua0x4YTExb1hKWXVNdUhsMDIzNGFxZjVLS2FqUXZsamtrbkdOdw?oc=5",
-     "datum": "Wed, 04 Nov 2026 18:03:42 GMT",
+     "datum": "Wed, 04 Nov 2026 22:07:33 GMT",
      "bron": "De Telegraaf",
      "gewicht": 3
     }
