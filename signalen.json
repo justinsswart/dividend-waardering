@@ -1,37 +1,9 @@
 {
- "gescand": "2026-11-06T22:20:05+00:00",
+ "gescand": "2026-11-10T00:52:09+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
-   "score": 11,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Vopak verhoogt outlook - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBtU1F0bHFPSUxXTE5ZT3pQNl96SHlOS0VHX1prWUZzRFV3OVhPZlZncVk3MTFsQlRVeURlZGVlc25zUkVQMjNKZm1wVUFNOW4zbnpRWk9pT0FjVXpTWG5Gd1plVHc3MkliRGxTV19Ma3RVWnM?oc=5",
-     "datum": "Wed, 04 Nov 2026 06:45:12 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "Wolters Kluwer herhaalt outlook na groeiversnelling - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNa2tKRnFzLUxsRDVqRDZkUjhzS2p0Y0FJbDBQVkhFLWFTRDA5ZTNtOFpkeHRqU21ld244MWp2TWN3a25pTk9od2VUWGZTd1ZRakpDcWVwQ1VLS2JSdVJUcVVoeHVBLTh2cU80dDhBRWJfWmpWbmwzY0ZoLTVnaVdMbmsycGU0QjNTdmp2VUMwdzl3QmlCNXJRS3NB?oc=5",
-     "datum": "Wed, 04 Nov 2026 09:25:13 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Degroof Petercam verlaagt koersdoel AMG - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPVk1oOUMwdmgzdWo0dVVYNkR2T3VOT1hqYnZHSjdBUlk1b2ZDaUdpbTJCQUs0aVplT1hnbEtfNGRGdUVFTnBVZHdMczJqaGFOVW5uaGdDVUczLWJCUldWZ2tPejNvYkRLTU5mamtSMGpmSEJQUXNrLXl5REVoMTU1Yml1WmFQNlhQNnc?oc=5",
-     "datum": "Fri, 06 Nov 2026 09:48:53 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    }
-   ]
-  },
   "AD.AS": {
    "naam": "Koninklijke Ahold Delhaize N.V.",
-   "score": 16,
+   "score": 10,
    "niveau": "hoog",
    "items": [
     {
@@ -47,32 +19,53 @@
      "datum": "Wed, 04 Nov 2026 07:29:24 GMT",
      "bron": "Investing.com",
      "gewicht": 5
-    },
-    {
-     "titel": "Ahold Delhaize reports resilient Q3 2026 results and updates 2026 guidance to reflect business disruption caused by recent cybersecurity incident - Ahold Delhaize newsroom",
-     "link": "https://news.google.com/rss/articles/CBMijgJBVV95cUxPSl82TnIzWGZHR3BQTUtKSzNZdmlNOG1EbXhXX0M0cmRRVFNoSl9qLS1RMW9LSTVISHY3eUxmMUVSaXNwUk0xVTBaVTZobDdzMVJMVDI3RHlwVFhxVG9JWHJtSGo3ZXN6UEl1RXphOWNrVTJQdkU3aE5wRk1URnd2SUstNklZZENZT1dhNC02QkRNMTJmNk9tamRSdHU4SzBwMHhUVDkwWUk1OTNYbmpZcWgtcmNweVJsTjRyQ2JNdFVGYjZEQXczbEJKQjNDTUxuVjNHa1MtWEFTU1NsQTJnd0xTNFZlMG9VV3FLbmVsaTVJM0VJdU9pTXhGZ0ZSbGtILXprdURacHVKX08xR0E?oc=5",
-     "datum": "Wed, 04 Nov 2026 06:30:07 GMT",
-     "bron": "Ahold Delhaize newsroom",
-     "gewicht": 3
-    },
-    {
-     "titel": "Beursblik: Degroof Petercam verlaagt koersdoel Ahold Delhaize - Headliner.nl",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNc3FoQUFKb2tqNExNcWRiT1JleFdheERISTBJSTBxbjA2NVdXcDlPdEx4Tm5jMDRlVDE2UDkyYUQySDRHdTlyaUdiQUlRN29BcncxYmtEUEV2YkNtUy1tcjJNdmp6bmVLNG1tRG5NaExUbFVMeTM4aUVEMTQ1ZWwtUUl6d1dSdXo4U0k4MHFBM0p0ZU9GUVFOWkRldENOQXgxNlA5bXNWZXVNMFdZ?oc=5",
-     "datum": "Mon, 02 Nov 2026 16:30:00 GMT",
-     "bron": "Headliner.nl",
-     "gewicht": 3
     }
    ]
   },
   "ADYEN.AS": {
    "naam": "Adyen N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 15,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Novo Nordisk verhoogt outlook na omzetstijging in derde kwartaal - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxORzV6TFRORXlsdnREMnhnN3Bidm9TSld2MXNMMUl2YTJ1cmZuTjhnSXNQbzJjM0xpV1BRM3NuTnJzR1c3WXU3LU1xQUJYbXJxTE1SdGlYT0pGa2RVaURqazFIQUwxeld2OG03NmpQaHhHeEVpc3FvWHR0V0o1b0ZVTE9YUXN4bDZHbHdTVHJIY19qWHJ6RnpOMTRGZ0JSR0Z3VUNHWE5OajRfX0lSb3lKZE82TE4?oc=5",
+     "datum": "Wed, 04 Nov 2026 07:32:47 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 5
+    },
+    {
+     "titel": "Adyen schrapt margedoel 2028 - Trends.be",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTFAwLTRsSkpLUElpV0FhN3ZJZHpxV3dkOHZub25XdExFTmNiQnUtV0NJZFNRSDBUWHk3MDBNalNYT0ZKWmt1Q19qUDhuV05XekU5SThpeF9YenU2M1lhTjJWQ2dndkpkSTk4aXB0QnZxWGpvTTRxWlhRY2dSdU5raXR2VWRyOG9IUjBZZnFlMA?oc=5",
+     "datum": "Mon, 09 Nov 2026 23:00:00 GMT",
+     "bron": "Trends.be",
+     "gewicht": 4
+    },
     {
      "titel": "Beursblik: Citi Research verlaagt koersdoel Adyen - De AandeelHouder",
      "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOd25wT1pZZ2QtOTk1bUJQLUUyQU1RbTJGTERnSTJqQV9DR1l0M2pLZ2hoTU1YaUF0NkJIWGVCS1dsNDQzTHpYSUo5NE1WRTFoSHN3NmUwMlJpWnA2UlB5dmpwenRQeXRsMUlDZ3V0ekVERGt5NGJtT1BQaGxfc0I4MHd2dkJ4cG9fNW55dGFtNmZ5X3Z2VXAtYmI2ZkZhYWM?oc=5",
      "datum": "Fri, 06 Nov 2026 08:05:44 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    },
+    {
+     "titel": "Beursblik: Deutsche Bank verlaagt koersdoel Adyen - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQNzNKUng5el9BR1lsNnUtMGFxY08wRTZaS2RqQ25aRG9VOGRGUlJEdUthMGhjbWdDcHpMZHFiTGlwNnVZbkZzelF3ZjBzN2R3UHFwS1dhdVl1dzROZEFxcjREWjJqcldKcFloX2k1ZkIwSjhUVGt5Y25QdWVWZXV0WWRMSHJtUXpTU1JvNXdLNGRzTXF4ajdhMkhPeXhnMUlNZzVF?oc=5",
+     "datum": "Wed, 04 Nov 2026 07:46:52 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ALFEN.AS": {
+   "naam": "Alfen N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursblik: Jefferies verlaagt koersdoel Alfen - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNYzROcDg2eFRzQWV6b2xVS2VpWG1JSnJ5UUV1TXZZN3QzaHNhR1NhRFlNSHpZa3MwR2pUUTJGNXFJT29ubWZ1aldmQVNQS2tQdWRUXzlpcmlsWVhwVmJHT2hWSnZpUHhQdmJnUmZXRHE3RDZ3MlprVlRELXJBWmF4SG5xLW1MLU5KVUU2R2k4R05hV0Z6S1Z0cnFzNTU?oc=5",
+     "datum": "Wed, 04 Nov 2026 16:23:10 GMT",
      "bron": "De AandeelHouder",
      "gewicht": 3
     }
@@ -98,60 +91,95 @@
      "gewicht": 3
     },
     {
-     "titel": "Beursblik: Degroof Petercam verlaagt koersdoel AMG - Belegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOeEMtb0FoeVZTQ2RDRks0ajFwaGZQZC01SjNVSGtXUEpMay13eHFkMDlkWmFmdlBqWldvZkZlMUFVTzc0cWU3NXM2enJoeEdqNWNzMXYzNkh3blBETWpzb2FuVTZ6VG5kNFVfaG5EbVZsZ3BDR1U2X3lTZ3F6OG9EYW5rTE9pRm9YMjJVVUhzRTV1emRDcTdB?oc=5",
-     "datum": "Fri, 06 Nov 2026 08:50:00 GMT",
+     "titel": "Deutsche Bank verlaagt koersdoel AMG fors - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPc2Y0LU9NU2hmVTRsTmpkeFM4WElfRTJoVVE1bGFDWFZUbjBCVi0tRXV0MWNBZzhKZ1lmdUVObmh5SDBabkYzN0Y5bVpVaFpkY0VYM2l6V2lnVHJILW9xVG1zdTBKRDFIWGJyeThJMnNBYkI0d2I3eUkwa3ZCcHRCMW5kLXk5dl9CQTZJNA?oc=5",
+     "datum": "Mon, 09 Nov 2026 07:38:00 GMT",
      "bron": "Belegger.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ARCAD.AS": {
+   "naam": "Arcadis NV",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "De vijf beste Nederlandse dividendaandelen - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJGY1lVbGNtZkt0ZTNrWll0SVNHZUw2amxaLXB3UDhrMUVodE9zY2tLcTRCUmpaaUdPTzdfUURTazNFZFFKZHRhSlFJcGVWcE1GdVF3RXpiNDc5ZDRNS3EwbEFzbGNWYUl1bU5kQ3U5NU1hSWd2ZUNHRzNwaFdvczUxTnJleVo3Vkg5NkVsNHMtRGN5UUR4SHRaczZJS3RxZzZ2akxJZUJqRmJhbW14bQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:00:00 GMT",
+     "bron": "Morningstar",
      "gewicht": 3
     }
    ]
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Technologie aandelen: kwaliteit, waardering en dividend - www.debelegger.nl",
      "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96RGlrWWdtTUtpRW1IU2lVMnhUbVFMTkRLaGVXWnF3aV8zT0JnZk9FcWZrVHU4Y0RnWnl5Ymxuc29WbjlBbThJNXBYRWV3SGRxaTd6T25aMjlKMlVnaWpiYUpR?oc=5",
      "datum": "Wed, 04 Nov 2026 23:01:41 GMT",
      "bron": "www.debelegger.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
+     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
+     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
   },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
-     "titel": "Technologie aandelen: kwaliteit, waardering en dividend - www.debelegger.nl",
-     "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE96RGlrWWdtTUtpRW1IU2lVMnhUbVFMTkRLaGVXWnF3aV8zT0JnZk9FcWZrVHU4Y0RnWnl5Ymxuc29WbjlBbThJNXBYRWV3SGRxaTd6T25aMjlKMlVnaWpiYUpR?oc=5",
-     "datum": "Wed, 04 Nov 2026 23:01:41 GMT",
-     "bron": "www.debelegger.nl",
+     "titel": "Koers ASML Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBUaDdmdFN1NkVnTHZKSW5SMm1URVdIUld6ckhEalFfT1plT2lmNjBnSmJzWGJpaWxDMERXeXBIOE8yREVZUjB3cnJMSURnWnEtWHNyVzhGazB1d1ZOdlhiTWdfWW5fdGs?oc=5",
+     "datum": "Fri, 06 Nov 2026 16:48:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
+     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
+     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
   },
-  "BESI.AS": {
-   "naam": "BE Semiconductor Industries N.V.",
-   "score": 10,
-   "niveau": "hoog",
+  "ASRNL.AS": {
+   "naam": "ASR Nederland N.V.",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
-     "titel": "Novo Nordisk verhoogt outlook na omzetstijging in derde kwartaal - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPU2JvUGZGY0p6OW1rX2xSWEFhaUNGWm9SSFF5c3hMZ24zMmNnZm1saVIzZ3hia0RWRi12VlVmTnBueG1YQmp4Q1ltakpUQkZidFNDUGZYTDNHbENJaHdJYXl4SThqSGNraEl0bHlDZ21vQnpVRjluWGlFRndXYi1hUmFET2xYSGdGS3l5Q0Rja1UwMlFaMEV5eFdES1JjQXJsYkpmcw?oc=5",
-     "datum": "Wed, 04 Nov 2026 07:30:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 5
-    },
+     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
+     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "CRBN.AS": {
+   "naam": "Corbion N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
-     "titel": "Vopak verhoogt outlook - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE05eWVWT2gzaUZObV9YOE1ycnRYeE5lbmtyZ3QyaENCdk85aUFESnN1QmNzZ2xpOGFEdVR5V254Uk91OFViYWhqQ0l5bFNMUy1lTXZDbFZkaTBKQm01UU5XUTBEaFdTWHM1a1FoTQ?oc=5",
-     "datum": "Wed, 04 Nov 2026 06:31:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 5
+     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
+     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 3
     }
    ]
   },
@@ -178,28 +206,21 @@
   },
   "DSFIR.AS": {
    "naam": "DSM-Firmenich AG",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "Koers DSM FIRMENICH AG | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5PSjFMQ3ppSVBUM1J2dWRnaFNuM2o3RHlYVTBpNTAyNXptN1V2N1RYT19TdFo0cVpseXFjOFRXT2NiZEtxaEpUZXpkc1J3Q0VqR0N2d0JOMHBrdjAxSU1PckI2ZjFnWnlpa1JMRA?oc=5",
+     "datum": "Thu, 05 Nov 2026 10:55:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
     {
      "titel": "Analisten rekenen op outlookverhoging bij DSM-Firmenich - Beursgorilla.nl",
      "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWkZJcFpEN2oyNXhTRzdiR1dzT2xEWVIwTkM0UjlUQjlwcEpfMTlhWW9yZnR6RlJBRlUwMHhCRmtUd3ZKRHRER0R4Um4ycHY5elA3WTJBQ1plUFB3Z3lMbmQ3aFJBYXN2d0hKNmhzVEZfZm13bnZMcmVwbUxUZExDdk9DaDZiVmRManJ6ODNWdXo2MlNvUlI5X0QyWXV3eFpneHg3dg?oc=5",
      "datum": "Tue, 03 Nov 2026 11:48:49 GMT",
      "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ECMPA.AS": {
-   "naam": "Eurocommercial Properties N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Eurocommercial Properties | Dividendrendement richting de 8% - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPZWZEeGtLMEZ4bEV6VnI4VHpGZnBocW95eENZdXNfamRyQndnbWRhdGNrNGstTUxXRnZVY0FxRmVqREpBdllHd3ZpTV94a2ZuVnVNMTQ0c0pkdEJyOExUVUlDTFlDbW0yVlg4czRwUUFZRy1jRGtNQjdWLW53dG5EUjdzM19XUF90bFF4dUxsVk1JT2xjOFk4NklhMA?oc=5",
-     "datum": "Mon, 02 Nov 2026 13:55:00 GMT",
-     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
@@ -210,52 +231,129 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Ferrari verhoogt outlook - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNYXRQZHZDVE55N2JjNW5rSVR5bl93RzAxUUtRNDdwRVh2WndJeTJoUGt4WG9yS0V0X090MzliLTVsTkYxdURVU2J2bUlfajQtcjdibnprd2MxejExdDc4dW94Rm9HS1VmaFhMNl9EMklOTEpGeGtjYm1mU1haZ2RxamVJRGJZZkdsWnln?oc=5",
-     "datum": "Tue, 03 Nov 2026 12:04:13 GMT",
-     "bron": "MarketScreener Nederland",
+     "titel": "Ferrari verhoogt outlook - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNU09TcVZTZmRscks5eHY4Y2YtWWdwaUZPX0szYkxDdzcyQThmc3Z4Z01FLXh2bmdNeHZlTFB5Q3o0czUwSE5Jc0VYdU1fRjlzNVptTnV4Y2hNUHhhVldHZThfN0tET0g3WTc2N3pWNHVabENnQ052TXdjU1NRUXB4QkZR?oc=5",
+     "datum": "Tue, 03 Nov 2026 12:09:56 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 5
     }
    ]
   },
-  "SLIGR.AS": {
-   "naam": "Sligro Food Group N.V.",
+  "HEIA.AS": {
+   "naam": "Heineken N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Overnamegolf in logistiek rolt nog even door - Logistiek",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNU3Q5ZTdFaWxYOWtEbDBvUk1VYnNnU21DblEtaFNGNUlNNzdPemVvUzMzWGhYZm5EbGJ0N0otRy1LbUFfUFhzaXRKQnk3WjdHdW43ZzN6WGk3OE81a2JVQjEwSTRna1RESXB6X0JCZ3R1OHcyZm9CVkIyT0cxOFdPY2VWMA?oc=5",
-     "datum": "Mon, 02 Nov 2026 13:46:36 GMT",
-     "bron": "Logistiek",
+     "titel": "De vijf beste Nederlandse dividendaandelen - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJGY1lVbGNtZkt0ZTNrWll0SVNHZUw2amxaLXB3UDhrMUVodE9zY2tLcTRCUmpaaUdPTzdfUURTazNFZFFKZHRhSlFJcGVWcE1GdVF3RXpiNDc5ZDRNS3EwbEFzbGNWYUl1bU5kQ3U5NU1hSWd2ZUNHRzNwaFdvczUxTnJleVo3Vkg5NkVsNHMtRGN5UUR4SHRaczZJS3RxZzZ2akxJZUJqRmJhbW14bQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:00:00 GMT",
+     "bron": "Morningstar",
+     "gewicht": 3
+    }
+   ]
+  },
+  "HEIO.AS": {
+   "naam": "Heineken Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "De vijf beste Nederlandse dividendaandelen - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJGY1lVbGNtZkt0ZTNrWll0SVNHZUw2amxaLXB3UDhrMUVodE9zY2tLcTRCUmpaaUdPTzdfUURTazNFZFFKZHRhSlFJcGVWcE1GdVF3RXpiNDc5ZDRNS3EwbEFzbGNWYUl1bU5kQ3U5NU1hSWd2ZUNHRzNwaFdvczUxTnJleVo3Vkg5NkVsNHMtRGN5UUR4SHRaczZJS3RxZzZ2akxJZUJqRmJhbW14bQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:00:00 GMT",
+     "bron": "Morningstar",
+     "gewicht": 3
+    }
+   ]
+  },
+  "HOLCO.AS": {
+   "naam": "Holland Colours N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Moderna verhoogt outlook na sterk kwartaal - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmdLeUp3SEVaY1FYVGFpbnBZV0Q4SHFndDY0NXV1aGZ4SjNmSW81cm15NUQ4cXI3cGczSjVpZkpyYlhGMFBPdkg0WWRES3NtNXpjSlBjcF8tU3MwZkVZcjhaeThPcGVWWW9LaUpjc2VNeHBUMjJ0R2wyTnhKSDZhRDFNVVg4dkJBWHFjRkVmOUVfMHlUVUZ3?oc=5",
+     "datum": "Fri, 06 Nov 2026 12:37:50 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 5
+    }
+   ]
+  },
+  "NN.AS": {
+   "naam": "NN Group N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
+     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PHARM.AS": {
+   "naam": "Pharming Group N.V.",
+   "score": 5,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "UniCredit boekt meer winst en verhoogt outlook - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdDNfNFJLWU5fcFNGX1J6eFpCMlJXekRMY1Z2UlBfaWJLVUFUVTVWd1Jpb1Fjb0FScFRxU0JtYWM5UjY4endlelBsR2gxOFlpRjFqU0gySEF0cXVYZDgyeS1DcFdGZjhPcXJ1dWNWZmphNEUwMnRCOVhQNFJfd1Z1X0l1SE5xRjJyQngteg?oc=5",
+     "datum": "Mon, 09 Nov 2026 07:55:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 5
+    }
+   ]
+  },
+  "RAND.AS": {
+   "naam": "Randstad N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "De vijf beste Nederlandse dividendaandelen - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJGY1lVbGNtZkt0ZTNrWll0SVNHZUw2amxaLXB3UDhrMUVodE9zY2tLcTRCUmpaaUdPTzdfUURTazNFZFFKZHRhSlFJcGVWcE1GdVF3RXpiNDc5ZDRNS3EwbEFzbGNWYUl1bU5kQ3U5NU1hSWd2ZUNHRzNwaFdvczUxTnJleVo3Vkg5NkVsNHMtRGN5UUR4SHRaczZJS3RxZzZ2akxJZUJqRmJhbW14bQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:00:00 GMT",
+     "bron": "Morningstar",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SIFG.AS": {
+   "naam": "Sif Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Koers Sif Holding | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1rd2tqWkxfV19YTVdVVVEwUUlRWVB4azFhV1pfRXJvY1FVUTJld21kWU9VQmlOU2VsMFQ1dUMyal9jZVB5ak1fbVdZdnpGZUNyTTNuMF9odzgwZlRNYmhxM0JwaHRoV1RZVVdF?oc=5",
+     "datum": "Fri, 06 Nov 2026 06:30:00 GMT",
+     "bron": "IEX.nl",
      "gewicht": 3
     }
    ]
   },
   "UMG.AS": {
    "naam": "Universal Music Group N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "De vijf beste Nederlandse dividendaandelen - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJGY1lVbGNtZkt0ZTNrWll0SVNHZUw2amxaLXB3UDhrMUVodE9zY2tLcTRCUmpaaUdPTzdfUURTazNFZFFKZHRhSlFJcGVWcE1GdVF3RXpiNDc5ZDRNS3EwbEFzbGNWYUl1bU5kQ3U5NU1hSWd2ZUNHRzNwaFdvczUxTnJleVo3Vkg5NkVsNHMtRGN5UUR4SHRaczZJS3RxZzZ2akxJZUJqRmJhbW14bQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:00:00 GMT",
+     "bron": "Morningstar",
+     "gewicht": 3
+    },
     {
      "titel": "Beursblik: UBS verlaagt koersdoel Universal Music - De AandeelHouder",
      "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNelJVVjRWcXk2dG9hWmhVa21JQlZxdEhySXcxa3hDeE5PZHpBMWFTcFhwaU9NVklsM3U2c3RuMUJ3a21DUXk1TGxVZHczWFdUbDdUS29HTWZhZVViMGszdEVnWERiaU52YmlIYi00M1FTdFRLVzBlVkxjWE5VeEhEZW1FaklnRnA1UUgtYWlTdzk1aDJ2TWJqUWx3MFRzbExrNlE?oc=5",
      "datum": "Fri, 06 Nov 2026 10:07:37 GMT",
      "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "VLK.AS": {
-   "naam": "Van Lanschot Kempen NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Van Lanschot Kempen ziet meer overnamekansen in pensioenmarkt - bnr.nl",
-     "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQNlpYUVZoMGlRZHNSWWxZMF9OSDg2SUhJUzB4NlVMSjBoenBhZmZiOXhfN2YtNXFkSVE1cmdlc09meFFzeWk3MkdYTGNFQlJ3a2RXQUtBRFRucGQtMVdBYV8xLTdwODlyZ1hpbkl4dkN6YUxjenhwRlB4SURDbm9JLUdJTHVqRUdwcUxFMVk1QTVCTFNiajU2aWhCempnS2xVcHpTcjZpd0ZPN1ZfMlZIYjJVRjk?oc=5",
-     "datum": "Sun, 01 Nov 2026 13:31:00 GMT",
-     "bron": "bnr.nl",
      "gewicht": 3
     }
    ]
@@ -275,7 +373,7 @@
     {
      "titel": "Vopak aandeel stijgt hard: groei, dividend en noordpoolroutes - De Telegraaf",
      "link": "https://news.google.com/rss/articles/CBMi_gFBVV95cUxQTEJYYk9fRzROeWtHRndGWGNJanU1RVBvdHRxU0hSQW1SNnpCUU1yNDFObElIazFacVdQOC1GSm53cHR3Y3ZJX1hoV3FKWnk2Ym91ZjRxek1zN0lFNnNXWW42WHByQl83VzEtaHN4dkhTeDJ3RG9UVTdvSktzNV94Q053NVlSVHF0VkxQSXlDTVBjdmMzYy1uaFExd0FTYko3VG9vMlo1V1Eya29IendTN09pUEF5NW95ZlB4b1k4NkN3d2VIbkM3bVVrNVIxaWZtZkZ3OWhRTkxua0x4YTExb1hKWXVNdUhsMDIzNGFxZjVLS2FqUXZsamtrbkdOdw?oc=5",
-     "datum": "Wed, 04 Nov 2026 22:07:33 GMT",
+     "datum": "Wed, 04 Nov 2026 18:03:42 GMT",
      "bron": "De Telegraaf",
      "gewicht": 3
     }
@@ -283,14 +381,28 @@
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 12,
+   "niveau": "hoog",
    "items": [
+    {
+     "titel": "Bnode verlaagt outlook voor 2026 - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYUdIY29fYnpWQ01Sc2x1Z0w5ZGJ4NzdzY2F6R3Z5WVJyLWdjRDJpRmV4MExrUVZPTnp1MnZPRE9hNWJpUUMxQWVxOENDS0I0WlZORlJDWVJnRWxFZllFQ0Z4SW5raVZJZEtNSWxKeFA3U0pBdnYzSms3UHFEVzFhNmN3M3pPYkFCSUE?oc=5",
+     "datum": "Fri, 06 Nov 2026 07:24:32 GMT",
+     "bron": "De AandeelHouder",
+     "gewicht": 6
+    },
     {
      "titel": "Wolters Kluwer herhaalt outlook na groeiversnelling - IEX.nl",
      "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQRzYwaWYwLVpOMTE5eTNXYktLSmM4dC1RQU5kbmQ2b01aZ013OG9rRmFBVjNYczFMRDNVamFQUGNFYkg1WkNmSTlheG40eUNhaHlyU0szdkFWNWVQMkxJQk1pYWRERnN2ajVJeUFlQjNkX05lYXFIbWJCRDVXV051N3pGNk1VaXdIZnRBdGxoVDRLWVU?oc=5",
      "datum": "Wed, 04 Nov 2026 07:36:00 GMT",
      "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "De vijf beste Nederlandse dividendaandelen - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNZEJGY1lVbGNtZkt0ZTNrWll0SVNHZUw2amxaLXB3UDhrMUVodE9zY2tLcTRCUmpaaUdPTzdfUURTazNFZFFKZHRhSlFJcGVWcE1GdVF3RXpiNDc5ZDRNS3EwbEFzbGNWYUl1bU5kQ3U5NU1hSWd2ZUNHRzNwaFdvczUxTnJleVo3Vkg5NkVsNHMtRGN5UUR4SHRaczZJS3RxZzZ2akxJZUJqRmJhbW14bQ?oc=5",
+     "datum": "Fri, 06 Nov 2026 08:00:00 GMT",
+     "bron": "Morningstar",
      "gewicht": 3
     }
    ]
