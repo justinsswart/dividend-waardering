@@ -1,10 +1,10 @@
 {
- "gescand": "2026-11-11T23:41:04+00:00",
+ "gescand": "2026-11-12T22:53:29+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
-   "score": 11,
-   "niveau": "hoog",
+   "score": 5,
+   "niveau": "midden",
    "items": [
     {
      "titel": "ABN Amro verhoogt outlook na meevallend derde kwartaal - IEX.nl",
@@ -12,20 +12,6 @@
      "datum": "Wed, 11 Nov 2026 06:19:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 5
-    },
-    {
-     "titel": "FX Outlook 2027: Een zwakke euro in 2027 - ABN AMRO",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0pILUx2bjV6QWxtcGNjbGJzSWRqTVRkMTVhNU1ENUdYMWJMelJwc1hPYld0LVpIVVEzNG1UVENIOGN0b3lBd1p3SzVTUlhlUnF3QnZ1SWNUU3NfNHgwcVd4SzhGcUYwaXExMjVXN0JhV2wtWmZrRTdxSE5MMmVIZmRiZUw5eHdKbjFPWTM5X21tQm8?oc=5",
-     "datum": "Wed, 11 Nov 2026 06:37:10 GMT",
-     "bron": "ABN AMRO",
-     "gewicht": 3
-    },
-    {
-     "titel": "Global Outlook - Hoe veerkrachtig is de veerkracht? - ABN AMRO",
-     "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOWGlIcURldU9PUmtIbERWaS0yWFFrbUF4UUc2YUhJVkpGQzYyWFc2b3pERGRIeFhVVjA0TXhpOWZCeFg5QTFiT0xkY3RoTGg2Y2pVanpqQnNqZnRrakhnVXE4WUl5dXBkamlyNHpPd0dtdVg4dC1ETWRWRGNsVnlZdC1mSGVINmtfZW4wTzRKd2tPNzZ0dDdadDAzNlFTQTA?oc=5",
-     "datum": "Tue, 10 Nov 2026 20:03:45 GMT",
-     "bron": "ABN AMRO",
-     "gewicht": 3
     }
    ]
   },
@@ -52,28 +38,21 @@
   },
   "AMG.AS": {
    "naam": "AMG Critical Materials N.V.",
-   "score": 14,
+   "score": 9,
    "niveau": "hoog",
    "items": [
-    {
-     "titel": "AMG verhoogt outlook opnieuw - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1TeWtYYkVhTTUwdmxIY3hTT1o0QTJNSENUdXNJejdDRjdOam9KVVlHZW9vRVZjdXpCNnh6SEJtUW5mRkNhTW5pY3EwQVZJZjJGZFBpUWU1Q1M1TkNBZ2NUNTRlVk0yOHJYeE10MXZCWEtHXzFF?oc=5",
-     "datum": "Thu, 05 Nov 2026 22:09:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "Beursblik: mogelijke outlookverhoging voor AMG in verschiet - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQWENLNjJmRE5NY0JlTTFlRXlRRElrVU92TDJhbEg0OEJQWng0LWZleW03aEY3d29HZ2FNa05rZkpiOEVQUDIySEJ0dXNqQS1hVXVCWW5iRWVxeWVLMU44Szl2S1hWX20tUHpITDhRTTUzdUZ3dlphaUo4Q2pITmlGYjB1RDBTOHpockd3Z2J0VWRVQjNHTHFicEJPOWZMUDVSVm52U0kxTjhtaXh3?oc=5",
-     "datum": "Thu, 05 Nov 2026 11:44:42 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    },
     {
      "titel": "Deutsche Bank verlaagt koersdoel AMG fors - Beursgorilla.nl",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb2lPU24tVnpEaFhPY1NTUUY1b0VnUHhFVkQtRmZ5cExIRmJ1N1VpN2tlRHRiXzJlM2pybHlUMldFQno5NTlqdERmVVdtc1J5bEdObVFCTGhFckFSV2ZpRVBPLXRENTZTSUtleFh2ckZBSWlJWUlhaHFQeS1PNUFrODZncUVTY0JCWWhhZ3RHOWhWdw?oc=5",
      "datum": "Mon, 09 Nov 2026 08:29:15 GMT",
      "bron": "Beursgorilla.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "AEX onder druk door chipfondsen en ex-dividendnoteringen - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNTlVKOXJkQzhNc3E3dTNuQ091RGx1Vl9qemNWTlFkNHV0bnVYN3k2bGdqQVkyYjZuZVlvSE1TaHpod1F4ZjNTYkl5c1p0T1Jacy0wRWt0ZVMwU01NelFfTWFkYkdEOXctdV9VRFdHdGZBRXFXa3V6TWRqbU5lbWlQVkkyRXE1Q2hiMi1EdURsTHVReXVyRzFZSDhZWEJkaUdW?oc=5",
+     "datum": "Thu, 12 Nov 2026 08:13:00 GMT",
+     "bron": "Belegger.nl",
      "gewicht": 3
     },
     {
@@ -101,9 +80,16 @@
   },
   "ASM.AS": {
    "naam": "ASM International NV",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "Indexco Limited - IndexCo Satrix Capped All Share ETF kondigt maandelijks dividend aan, betaalbaar op 23 november 2026 - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRVpGYmEzVXc1MWxNZlB3QlExTEdSaVZRbDFrOGpodjNST20wNE9DR1hjajN4WF9BdDltbzNJekNfN0Vubk52STZNaW9jU3BVQjJQOGRSZUM3OVA1eldOZXhncEtyN2NJR19WRTZfNjI1UWdjQm5nVVd1QVlPTjVlTEQwejZuSGNqUDQ4NmhfdGZXQ2I1TDNTZktKVGdDLUsxRmctV3pfeVdUcUt5dlVHRFZfWjdmVmxiM0V4T3g0YWZqSFFaWVp2R0FYc0hIZFNDSXlibVVoVkQtaUV2dXUtZUMybW96U2VYRGZGdQ?oc=5",
+     "datum": "Tue, 10 Nov 2026 23:00:00 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    },
     {
      "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
      "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
@@ -169,17 +155,31 @@
     }
    ]
   },
-  "HOLCO.AS": {
-   "naam": "Holland Colours N.V.",
-   "score": 5,
-   "niveau": "midden",
+  "IMCD.AS": {
+   "naam": "IMCD N.V.",
+   "score": 11,
+   "niveau": "hoog",
    "items": [
     {
-     "titel": "Moderna verhoogt outlook na sterk kwartaal - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmdLeUp3SEVaY1FYVGFpbnBZV0Q4SHFndDY0NXV1aGZ4SjNmSW81cm15NUQ4cXI3cGczSjVpZkpyYlhGMFBPdkg0WWRES3NtNXpjSlBjcF8tU3MwZkVZcjhaeThPcGVWWW9LaUpjc2VNeHBUMjJ0R2wyTnhKSDZhRDFNVVg4dkJBWHFjRkVmOUVfMHlUVUZ3?oc=5",
-     "datum": "Fri, 06 Nov 2026 12:37:50 GMT",
-     "bron": "De AandeelHouder",
+     "titel": "SBM Offshore verhoogt outlook opnieuw - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQZV96NmlFNzU3dHRaZWgwclNNaU1NTXhacjlkRVd1eS1QdzVaRXZyMFFSd21NT042cTJfZXN5NXVaZmYzcF96ckFmaGliYlhsQ1BZQnpRS1JXVkI4UThQaUZWdVlQSWdCaHFIaXBKNEZtbG1SdGM5Nk9tcmp5Q2wtbDRxa29NTkk?oc=5",
+     "datum": "Thu, 12 Nov 2026 06:18:00 GMT",
+     "bron": "Belegger.nl",
      "gewicht": 5
+    },
+    {
+     "titel": "Nebius scherpt outlook aan door uitgestelde omzet - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNNEZzY3VjU1RQUF8zMnk5UjgxNE9Vd3M1OXNtRmVtUm0zbV9tZ2o2UVVnTTg1UkZ4Zk9faUlka0hzVGd1dE5XNkhzX0VJOWY2cmRSNlQzYkV0T28ySEU2VzlfeDkxS0NDbk1qYzdFMnR5aVY5TTg1dm51ZkFOV2pLLWpNN2NpU0hTX05FcG9hdEZjdU1IV3Bj?oc=5",
+     "datum": "Thu, 12 Nov 2026 12:37:00 GMT",
+     "bron": "Belegger.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Tien dividendaandelen waar hedgefondsen massaal op inzetten - Belegger.nl",
+     "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPVGR6R3ktcEUzbW9VRjFmU29LVVRXN05CV0pnRG03WGkyb212d3h1YnVPaHNvd01TTy01RE9oQUJMSENNXzlTUmd6dld1bmwtNkJzX1VUeUh5dFNEY1l2d0tUOWpxYWladXFOTGdPVkczOGotc19zR19ESWoxYVVnSXhEb0c1ZG90cEhvVFBTb2pfRWt4eFVMMm94WXA4MTVYLWJwWjBn?oc=5",
+     "datum": "Thu, 12 Nov 2026 07:30:00 GMT",
+     "bron": "Belegger.nl",
+     "gewicht": 3
     }
    ]
   },
@@ -225,6 +225,27 @@
     }
    ]
   },
+  "SBMO.AS": {
+   "naam": "SBM Offshore N.V.",
+   "score": 10,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "SBM Offshore verhoogt outlook opnieuw - CashCow.nl",
+     "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE1uNnl5bHFOenhNUjM5RWRFbDVsSlUxWGE5c2FzWko0OGE3a0R6cmIyMFBEMHFxQ19zS2tNNnJWSWcyUTlYc2RudzF1d2xtOVRORF9ETDlEbUZNWWo0aFlwQWdaV2l0cTFq?oc=5",
+     "datum": "Thu, 12 Nov 2026 10:35:23 GMT",
+     "bron": "CashCow.nl",
+     "gewicht": 5
+    },
+    {
+     "titel": "SBM Offshore verhoogt outlook opnieuw - Drimble",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNQjdOWUk5LXlCb1FOeDRoYzdGZVcwRVVHb05Ka3hsNzlQbDJUV1p1bm0ydS1fOFp4MGtLRThEU2ZxSEVMYTd6Nks0ZFl0UGFXZUFFQTBSdkxCelg3U0NQMl9XQktfY1A5SE15OGduSGp5V2xIanVSdU52aEtHTWVjMGR1MXROYVBSeFB5dHcyZGVqQQ?oc=5",
+     "datum": "Thu, 12 Nov 2026 07:44:03 GMT",
+     "bron": "Drimble",
+     "gewicht": 5
+    }
+   ]
+  },
   "SIFG.AS": {
    "naam": "Sif Holding N.V.",
    "score": 3,
@@ -241,9 +262,16 @@
   },
   "TWEKA.AS": {
    "naam": "TKH Group N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yZ29iRGRtRFFWa042U2hVZzJ5UW1WeEtqNDdmaGtFZFpKVkFla1ZMSU4wV1cyaHRzQ01VaXBhRmhfSGhKVC1kS0VjaGVRa1pDRVF2eGgzQmtfdjYxYlh6ajA1dw?oc=5",
+     "datum": "Tue, 10 Nov 2026 10:40:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
     {
      "titel": "Jefferies verlaagt koersdoel TKH - Beursgorilla.nl",
      "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZklSV1dhNGxWVWxDYWpJQ2xsRnJwTFBfQlJmdms0NUNnTnVNNEdyWjhFSHV1Ul9zdldTZ0lGcVBteVE2aGlzZlNwRFBnSXJDam1yQnVYS2QzNUR4TlBaWkN3aFZPa2swY185YWt6Y19HRnBrQjBpYjBhUGp2ZmdnSzgzLUhrdw?oc=5",
@@ -283,20 +311,13 @@
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 14,
+   "score": 8,
    "niveau": "hoog",
    "items": [
     {
-     "titel": "Bnode verlaagt outlook voor 2026 - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPYUdIY29fYnpWQ01Sc2x1Z0w5ZGJ4NzdzY2F6R3Z5WVJyLWdjRDJpRmV4MExrUVZPTnp1MnZPRE9hNWJpUUMxQWVxOENDS0I0WlZORlJDWVJnRWxFZllFQ0Z4SW5raVZJZEtNSWxKeFA3U0pBdnYzSms3UHFEVzFhNmN3M3pPYkFCSUE?oc=5",
-     "datum": "Fri, 06 Nov 2026 07:24:32 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 6
-    },
-    {
-     "titel": "ConocoPhillips verhoogt dividend fors - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPMGJaSWpHQkpjdGZjU2JXeGcxdFRlWGxyMGtCQkxrYWJsMUF3YVB6eVBZeWR3TXQ5cElmOWloQzhSRVhNNmJkOEhDTkJCWl9oUTh6bFNDbERDSDlUd01KeGE4Tmg1UjU2dUZucWNveWZlZVJPaVN4WnUwV19hVlFuRlViMy1Ud1dYQV9HWnhZbWY?oc=5",
-     "datum": "Thu, 05 Nov 2026 12:29:10 GMT",
+     "titel": "Moderna verhoogt outlook na sterk kwartaal - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPNmdLeUp3SEVaY1FYVGFpbnBZV0Q4SHFndDY0NXV1aGZ4SjNmSW81cm15NUQ4cXI3cGczSjVpZkpyYlhGMFBPdkg0WWRES3NtNXpjSlBjcF8tU3MwZkVZcjhaeThPcGVWWW9LaUpjc2VNeHBUMjJ0R2wyTnhKSDZhRDFNVVg4dkJBWHFjRkVmOUVfMHlUVUZ3?oc=5",
+     "datum": "Fri, 06 Nov 2026 12:37:50 GMT",
      "bron": "De AandeelHouder",
      "gewicht": 5
     },
