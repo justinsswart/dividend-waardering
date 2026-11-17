@@ -1,214 +1,53 @@
 {
- "gescand": "2026-11-13T22:50:33+00:00",
+ "gescand": "2026-11-17T01:02:40+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "ABN Amro verhoogt outlook na meevallend derde kwartaal - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdS12eHZvTHFhRjQyZmRaald4aDZtY2Q3WnRpWTlvVW5nOFpCREJScy01bXBUMDd0dl9TWnViUTJoY1ZQY09MTzY3VGdzQ0plUUhmQ1VKSXZ1QnVSdnBVX2tQSFVhUWpiRDJjS2RYZGNfbTU5Z1RpSTRIbktDSXBabDJsRUdvSlp5S0RobU1wUF95cXhVdVlv?oc=5",
-     "datum": "Wed, 11 Nov 2026 06:19:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "FX Outlook 2027: Een zwakke euro in 2027 - ABN AMRO",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0pILUx2bjV6QWxtcGNjbGJzSWRqTVRkMTVhNU1ENUdYMWJMelJwc1hPYld0LVpIVVEzNG1UVENIOGN0b3lBd1p3SzVTUlhlUnF3QnZ1SWNUU3NfNHgwcVd4SzhGcUYwaXExMjVXN0JhV2wtWmZrRTdxSE5MMmVIZmRiZUw5eHdKbjFPWTM5X21tQm8?oc=5",
-     "datum": "Wed, 11 Nov 2026 06:37:10 GMT",
-     "bron": "ABN AMRO",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ADYEN.AS": {
-   "naam": "Adyen N.V.",
-   "score": 4,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Adyen schrapt margedoel 2028 - Trends.be",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNTFAwLTRsSkpLUElpV0FhN3ZJZHpxV3dkOHZub25XdExFTmNiQnUtV0NJZFNRSDBUWHk3MDBNalNYT0ZKWmt1Q19qUDhuV05XekU5SThpeF9YenU2M1lhTjJWQ2dndkpkSTk4aXB0QnZxWGpvTTRxWlhRY2dSdU5raXR2VWRyOG9IUjBZZnFlMA?oc=5",
-     "datum": "Mon, 09 Nov 2026 23:00:00 GMT",
-     "bron": "Trends.be",
-     "gewicht": 4
-    }
-   ]
-  },
-  "AMG.AS": {
-   "naam": "AMG Critical Materials N.V.",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Deutsche Bank verlaagt koersdoel AMG fors - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPb2lPU24tVnpEaFhPY1NTUUY1b0VnUHhFVkQtRmZ5cExIRmJ1N1VpN2tlRHRiXzJlM2pybHlUMldFQno5NTlqdERmVVdtc1J5bEdObVFCTGhFckFSV2ZpRVBPLXRENTZTSUtleFh2ckZBSWlJWUlhaHFQeS1PNUFrODZncUVTY0JCWWhhZ3RHOWhWdw?oc=5",
-     "datum": "Mon, 09 Nov 2026 08:29:15 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    },
-    {
-     "titel": "Beursupdate: AEX onder druk door chipfondsen en ex-dividendnoteringen - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNRzVnNHcyQVJGS056b0d4MVdDLTA4R2l3ZTBjc1M3NENyUTR6bFJuVVdYZkttMDhpQmZiYTlYYTJBMnBlQy1GeURQaFZZZDBZTHMyUkJENUZLWlhOZ3BkakM5c1lBeTEwRlJ4eTJWSjdJcHV2VjlQZ1ljeUpCRmE5YjBLc3IyYnlfeTFhN0pMTXpSSHJwbkpXR1U2RG81T0t1STBCdF9qYzhxaEpEZ09aLWlMVnZTeGZJcHc?oc=5",
-     "datum": "Thu, 12 Nov 2026 08:16:20 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASM.AS": {
-   "naam": "ASM International NV",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Indexco Limited - IndexCo Satrix Capped All Share ETF kondigt maandelijks dividend aan, betaalbaar op 23 november 2026 - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPRVpGYmEzVXc1MWxNZlB3QlExTEdSaVZRbDFrOGpodjNST20wNE9DR1hjajN4WF9BdDltbzNJekNfN0Vubk52STZNaW9jU3BVQjJQOGRSZUM3OVA1eldOZXhncEtyN2NJR19WRTZfNjI1UWdjQm5nVVd1QVlPTjVlTEQwejZuSGNqUDQ4NmhfdGZXQ2I1TDNTZktKVGdDLUsxRmctV3pfeVdUcUt5dlVHRFZfWjdmVmxiM0V4T3g0YWZqSFFaWVp2R0FYc0hIZFNDSXlibVVoVkQtaUV2dXUtZUMybW96U2VYRGZGdQ?oc=5",
-     "datum": "Tue, 10 Nov 2026 23:00:00 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 3
-    },
-    {
-     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
-     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "CRBN.AS": {
-   "naam": "Corbion N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Portefeuille BE/NL op +27,5%: 18 van 19 aandelen op winst, grote veranderingen op komst - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQTVNrNE9JM3JUWXdqbGpIejNJUjFiMjhwUWlJOEJsdjNDT1NWc0Z0MXk3cjhUSUo5eHZVRGh1QUNEdHctSzQ3WHZDU0YxVmtNZGEtZUVOcG9JSUJ0eUpsMk1hQ0ZOTXo3eXFXb002X0RXRUl5OF9WUTk4amNqUktIVXZrRFA0S3lselREQQ?oc=5",
-     "datum": "Mon, 09 Nov 2026 08:00:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "HEIA.AS": {
-   "naam": "Heineken N.V.",
-   "score": 9,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Wereldwijde storing treft Microsoft Teams, Outlook en Copilot: wat betekent dit voor jouw werkdag? - BusinessWise",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOQW5yZWRXU2xkdGVEZHFEdGJfT2JrX0xkemtVS1FTWXlGS09lMko0aWtxaVh0MkEyN2hIcDIxOUdnMG9UbkFsVVFmNk9kdE9wcFd0SFlnckQ2YjBMWWV6VHVjaVlodDlMbW14MlhrYnhvRGZidWhjMXpSSjZWaEtEeFZSanp4RWUxNnc?oc=5",
-     "datum": "Fri, 13 Nov 2026 13:16:21 GMT",
-     "bron": "BusinessWise",
-     "gewicht": 3
-    },
-    {
-     "titel": "Microsoft storing: Teams, Outlook en OneDrive liggen plat - De Standaard",
-     "link": "https://news.google.com/rss/articles/CBMingJBVV95cUxNTVZDVVBPU3hoaGVHTDdUZkYzbVJPMVRRcTdhcEJaS0FTLTdGNWRUNnBfdnRrazZycnFGdi11eWxONXRRbGxYNlpmWDhCT1VpZjdrczRZMF9lZ19YNnl4OTc5d0dmV3owb1laTGFXRUl2T1NkVWJkanE3b1FYWDlmM1VzQ09rTklQQWdtUG9SY3Q5aDdSbmRyWGJXSHhQOXY3bXRCRWdiem5Tck1tSjhBc2ZZRXAwd1U5bjFTNWY3ZV80U1JGNjd5MEVrWWJTSndlTmNzYUE3SnJuX3dFbDBTeXpRQUdvdVRUNHZTQXNzcXY4aTB6YkNXR3gxb2RQbjNHOXlGQkVQcDF0NjVFdHdoR2ZBR3ltSTVaLU1FRjdn?oc=5",
-     "datum": "Fri, 13 Nov 2026 16:45:00 GMT",
-     "bron": "De Standaard",
-     "gewicht": 3
-    },
-    {
-     "titel": "Wereldwijde storing bij Microsoft-diensten als Outlook en Teams: “Herstellen gaat niet zoals verwacht” - De Standaard",
-     "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNcGpwRUZaUlhvYW1YbTZRRkJaX2tGX1MwdElXZHN4OXVFQ2J2NldQejUyRWhBbWk5VUpWVHZWZHQwQ2VrZUhnU09lakhlNVh6c1YwQUI1UWQ5NXNZQTYyNmJmNk5vQXhDanZuaW4wWjVTTFRJTHdPcnZWbXRKYjFRSS1uaFBjNTU3RnFuTTdnZlAxai1vTDNCekFZWGFSNXNtcVJUb3NmVlpneGlIQzZGa0FtN256SndhY05MLWxXMkZ4Rm80Zk5MNGJ1aDg0ZkJsdTlRRTZUVVF3M0N5NGFvemgxZGxDNjdERjN0RQ?oc=5",
-     "datum": "Fri, 13 Nov 2026 09:33:34 GMT",
-     "bron": "De Standaard",
-     "gewicht": 3
-    }
-   ]
-  },
-  "IMCD.AS": {
-   "naam": "IMCD N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Retail Estates verhoogt outlook licht - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRkdwM1JJbW9VRURNa3lyS0dLd0RrVkpJaGpJbVRybUhIYmQyZ3pjQ25jMVlNeGQ3MjJVSHd4QWN0MjU5RGZVc21NS2Z3cGRNR05LbklObEotN2RESzdVcGhkSS0yazNmU2xfU2JtOXRURjhGVWV3cHk1Y3lSVWpaQ1J1YVZ2cnM?oc=5",
-     "datum": "Fri, 13 Nov 2026 06:30:46 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 5
-    }
-   ]
-  },
-  "PHARM.AS": {
-   "naam": "Pharming Group N.V.",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "UniCredit boekt meer winst en verhoogt outlook - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPdDNfNFJLWU5fcFNGX1J6eFpCMlJXekRMY1Z2UlBfaWJLVUFUVTVWd1Jpb1Fjb0FScFRxU0JtYWM5UjY4endlelBsR2gxOFlpRjFqU0gySEF0cXVYZDgyeS1DcFdGZjhPcXJ1dWNWZmphNEUwMnRCOVhQNFJfd1Z1X0l1SE5xRjJyQngteg?oc=5",
-     "datum": "Mon, 09 Nov 2026 07:55:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 5
-    }
-   ]
-  },
   "SBMO.AS": {
    "naam": "SBM Offshore N.V.",
    "score": 5,
    "niveau": "midden",
    "items": [
     {
-     "titel": "SBM Offshore verhoogt outlook opnieuw - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxObzQ5bG1zVmZUajJXUEZ5MmpSVzluSTZIUVFLZS16RDVkUzgwVUFfWElZdTk0Mm5KbFZsWm9LVWtGMmExSTVVSVlfWFRKM2YxSzFic1NwVndxYjh2dGJ2WTRyd0Y2dU9PUGVpcXJXUWllTkVYQ1NTXzQ0TjBlNi1yZURSeFhOMmxpUmVWUQ?oc=5",
-     "datum": "Thu, 12 Nov 2026 06:29:37 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 5
-    }
-   ]
-  },
-  "SHELL.AS": {
-   "naam": "Shell plc",
-   "score": 5,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Retail Estates verhoogt outlook licht - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQRkdwM1JJbW9VRURNa3lyS0dLd0RrVkpJaGpJbVRybUhIYmQyZ3pjQ25jMVlNeGQ3MjJVSHd4QWN0MjU5RGZVc21NS2Z3cGRNR05LbklObEotN2RESzdVcGhkSS0yazNmU2xfU2JtOXRURjhGVWV3cHk1Y3lSVWpaQ1J1YVZ2cnM?oc=5",
-     "datum": "Fri, 13 Nov 2026 06:30:46 GMT",
-     "bron": "Beleggen.nl",
+     "titel": "SBM Offshore verhoogt outlook opnieuw - Beurs.nl",
+     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYUJtNVMyUUFnNFZEdTh1QjR1d0V4S01OV0ViNzgzQkl3S2EtRW0xR19DVnZDWTFFM3JDX3pMR1lJNW9kNVdqY19NR3hseW8wSENEcGllN0tjbDU3SEFHeVB2SWhfbHpKMmFTMU9IWWFMVFNQT3JkQkUwRF8wMW5GZW9UTQ?oc=5",
+     "datum": "Thu, 12 Nov 2026 06:18:00 GMT",
+     "bron": "Beurs.nl",
      "gewicht": 5
     }
    ]
   },
   "TWEKA.AS": {
    "naam": "TKH Group N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Jefferies verlaagt koersdoel TKH - Beursgorilla.nl",
-     "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQZklSV1dhNGxWVWxDYWpJQ2xsRnJwTFBfQlJmdms0NUNnTnVNNEdyWjhFSHV1Ul9zdldTZ0lGcVBteVE2aGlzZlNwRFBnSXJDam1yQnVYS2QzNUR4TlBaWkN3aFZPa2swY185YWt6Y19HRnBrQjBpYjBhUGp2ZmdnSzgzLUhrdw?oc=5",
-     "datum": "Wed, 11 Nov 2026 12:01:08 GMT",
-     "bron": "Beursgorilla.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "UNA.AS": {
-   "naam": "Unilever PLC",
-   "score": 5,
+   "score": 6,
    "niveau": "midden",
    "items": [
     {
-     "titel": "ABN Amro verhoogt outlook na meevallend derde kwartaal - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQMm4yaGVTSmZTWXFybkFfY3FfY3NlVnFGMTFrSDNsQ0lMMm5ET2FnZDFLWmkzWjN1YVRKT1F6V19SQ3BTd0VENUgwMVA0M25jcHl3bDNWdm5OUXVWaGR4MHg5WHBLckE1U1FabHdqdzFndm5ORXplbGVNdGI0OWdRNkZWVGpHR2c5SGlha0dQRWFaT1JFcjNUTWFaeFhQQQ?oc=5",
-     "datum": "Wed, 11 Nov 2026 06:38:52 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 5
+     "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5yZ29iRGRtRFFWa042U2hVZzJ5UW1WeEtqNDdmaGtFZFpKVkFla1ZMSU4wV1cyaHRzQ01VaXBhRmhfSGhKVC1kS0VjaGVRa1pDRVF2eGgzQmtfdjYxYlh6ajA1dw?oc=5",
+     "datum": "Fri, 13 Nov 2026 07:15:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
+    },
+    {
+     "titel": "Beursblik: Jefferies verlaagt koersdoel TKH - Beurs.nl",
+     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRVJ6RXNTRlpMVlp6SkVyZ0F0bThvYlBkQ1Bjd250OUNqV3hFWnIxeGt6S1RNZHFOa1JpU2pSSV9KMngyUkUwbGNQdTZVVjY4SWlDbjUzS3IyY2FkWXZnTFY4MGdpUC01a3FfRGdULXhRT3V2aGhrTkJqUGpZTVhrckJqNDNLWHFBWkE?oc=5",
+     "datum": "Wed, 11 Nov 2026 11:17:00 GMT",
+     "bron": "Beurs.nl",
+     "gewicht": 3
     }
    ]
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
+    {
+     "titel": "Wolters Kluwer doet overname in de VS van maximaal 100 miljoen dollar - MenA.nl",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDlCUWdNaU5RYjB5Y0hlVTBUbURsV0F2dk50UEdXZVd5ZzdyRm5fVHFHVW84QWp3VDhkbGhRS1JIVzRGdFRpV19ONE02dVB4N0p4bmVsanhWTGoydGZSRWpOSURnVmJnRk1LWVY0Zmp4QTI1cXNXY2VlMXpCY3d1VmFhSjZpOFM3M250OExUVXNRMWdKdWxFQ0haMTlHQW14MnZZZ3pleW1Hdw?oc=5",
+     "datum": "Mon, 16 Nov 2026 12:46:35 GMT",
+     "bron": "MenA.nl",
+     "gewicht": 3
+    },
     {
      "titel": "Wolters Kluwer stemt in met overname van klinisch AI-bedrijf AgileMD - Unite.AI",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTHF1amMzXzk4dGItOXRxcV81MFh6bjFkVmVZUXByRGFJclQyT09BaVRzOTFNMGNuS1Z3a0t3Wk1Rc00xZFlsQ05NNmdlTTV2N2ZlUW9aVDlLa195YndNb08weE9VcmxsYTRzUVNWR3RGeGVDckxVUmdvckU3bFV4ZHVDcHNSZ2k3?oc=5",

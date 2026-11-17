@@ -1,6 +1,6 @@
 {
  "params": {
-  "rf": 0.03253,
+  "rf": 0.03255,
   "erp": 0.05,
   "r_min": 0.065,
   "r_max": 0.12,
@@ -12,21 +12,21 @@
   "mos_max": 0.4
  },
  "markt": {
-  "rf": 0.03253,
-  "rf_laatst": 0.03367,
+  "rf": 0.03255,
+  "rf_laatst": 0.03412,
   "waarnemingen": 130,
-  "van": "2026-05-15",
-  "tot": "2026-11-12",
+  "van": "2026-05-18",
+  "tot": "2026-11-13",
   "bron": "ECB Data Portal, spotrente AAA-staatsobligaties eurozone, 10 jaar",
-  "opgehaald": "2026-11-13"
+  "opgehaald": "2026-11-17"
  },
- "bijgewerkt": "2026-11-13T22:49:16+00:00",
+ "bijgewerkt": "2026-11-17T01:01:16+00:00",
  "aandelen": [
   {
    "ticker": "NSI.AS",
    "naam": "NSI N.V.",
    "sector": "Real Estate",
-   "koers": 17.42,
+   "koers": 17.4,
    "valuta": "EUR",
    "d0": 1.57,
    "g3": -0.1009,
@@ -63,14 +63,14 @@
     "2025": 1.57,
     "2026": 1.58
    },
-   "mcap": 340054304,
-   "opgehaald": "2026-11-13T22:47:38+00:00",
+   "mcap": 339663872,
+   "opgehaald": "2026-11-17T00:59:56+00:00",
    "r": 0.0696,
-   "g1": 0.0625,
-   "fair": 36.178,
-   "pv_div": 14.83,
-   "pv_terminal": 21.348,
-   "koopprijs": 24.854,
+   "g1": 0.0626,
+   "fair": 36.189,
+   "pv_div": 14.836,
+   "pv_terminal": 21.353,
+   "koopprijs": 24.862,
    "mos": 0.313,
    "kwaliteit": 29,
    "checks": {
@@ -79,9 +79,9 @@
     "verlagingen": 5,
     "diepste_verlaging": -0.788
    },
-   "upside": 1.0768,
-   "korting_tov_koop": 0.4268,
-   "yield_nu": 0.0907,
+   "upside": 1.0798,
+   "korting_tov_koop": 0.4288,
+   "yield_nu": 0.0908,
    "yoc_koop": 0.0636,
    "d0_norm": 1.58,
    "special_div": false,
@@ -90,43 +90,43 @@
    "pad": [
     [
      2026,
-     1.6787
+     1.6789
     ],
     [
      2027,
-     1.7836
+     1.784
     ],
     [
      2028,
-     1.895
+     1.8956
     ],
     [
      2029,
-     2.0134
+     2.0143
     ],
     [
      2030,
-     2.1392
+     2.1403
     ],
     [
      2031,
-     2.2547
+     2.256
     ],
     [
      2032,
-     2.3572
+     2.3588
     ],
     [
      2033,
-     2.4444
+     2.4462
     ],
     [
      2034,
-     2.514
+     2.5159
     ],
     [
      2035,
-     2.5643
+     2.5662
     ]
    ],
    "guidance_type": null,
@@ -137,19 +137,19 @@
     "laatste_soort": "halfjaarcijfers",
     "volgende_cijfers": "2027-01-28",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 76,
+    "dagen_tot": 72,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "nsi.nl/investor-relations - jaarcijfers 28 januari 2026, dividendbesluit 17 april 2026",
     "status": "vers"
    },
    "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0588,
+   "inkoop_rend": 0.0589,
    "netto_inkoop": 20000000,
    "g1_kaal": 0.0,
    "houdbare_groei": null,
    "roe": null,
-   "fair_laag": 28.975,
-   "fair_hoog": 46.428,
+   "fair_laag": 28.985,
+   "fair_hoog": 46.44,
    "payout_stabiel": null,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -158,13 +158,13 @@
    "d0_netto": 1.58,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.741,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 36.178,
+   "fair_ddm": 36.189,
    "waardering_bron": "dividendmodel",
    "bvps": 32.825,
    "ri_afwijking": null,
@@ -182,7 +182,7 @@
    "ticker": "AD.AS",
    "naam": "Koninklijke Ahold Delhaize N.V.",
    "sector": "Consumer Defensive",
-   "koers": 36.05,
+   "koers": 35.74,
    "valuta": "EUR",
    "d0": 1.18,
    "g3": 0.0639,
@@ -210,14 +210,14 @@
     "2025": 1.18,
     "2026": 1.24
    },
-   "mcap": 31472080896,
-   "opgehaald": "2026-11-13T22:47:12+00:00",
+   "mcap": 31201449984,
+   "opgehaald": "2026-11-17T00:59:27+00:00",
    "r": 0.065,
-   "g1": 0.0845,
-   "fair": 46.939,
-   "pv_div": 14.195,
-   "pv_terminal": 32.745,
-   "koopprijs": 37.317,
+   "g1": 0.0848,
+   "fair": 47.007,
+   "pv_div": 14.212,
+   "pv_terminal": 32.796,
+   "koopprijs": 37.371,
    "mos": 0.205,
    "kwaliteit": 65,
    "checks": {
@@ -227,9 +227,9 @@
     "verlagingen": 1,
     "diepste_verlaging": -0.667
    },
-   "upside": 0.3021,
-   "korting_tov_koop": 0.0351,
-   "yield_nu": 0.0327,
+   "upside": 0.3153,
+   "korting_tov_koop": 0.0456,
+   "yield_nu": 0.033,
    "yoc_koop": 0.0316,
    "d0_norm": 1.18,
    "special_div": false,
@@ -242,39 +242,39 @@
     ],
     [
      2027,
-     1.5757
+     1.5761
     ],
     [
      2028,
-     1.7088
+     1.7098
     ],
     [
      2029,
-     1.8531
+     1.8549
     ],
     [
      2030,
-     2.0097
+     2.0122
     ],
     [
      2031,
-     2.1536
+     2.1568
     ],
     [
      2032,
-     2.28
+     2.2838
     ],
     [
      2033,
-     2.3844
+     2.3887
     ],
     [
      2034,
-     2.4628
+     2.4674
     ],
     [
      2035,
-     2.5121
+     2.5168
     ]
    ],
    "guidance_type": "payout",
@@ -285,19 +285,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-17",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 96,
+    "dagen_tot": 92,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "aholddelhaize.com/investors - payout ratio circa 40-50%",
     "status": "verouderd"
    },
    "override_gewijzigd": "2026-08-15T11:50:50+00:00",
-   "inkoop_rend": 0.0318,
+   "inkoop_rend": 0.0321,
    "netto_inkoop": 1002333333,
    "g1_kaal": 0.05,
-   "houdbare_groei": 0.0122,
+   "houdbare_groei": 0.0119,
    "roe": 0.16149001,
-   "fair_laag": 37.406,
-   "fair_hoog": 60.586,
+   "fair_laag": 37.461,
+   "fair_hoog": 60.671,
    "payout_stabiel": 0.8762,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -306,13 +306,13 @@
    "d0_netto": 1.18,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.6,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 46.939,
+   "fair_ddm": 47.007,
    "waardering_bron": "dividendmodel",
    "bvps": 16.615,
    "ri_afwijking": null,
@@ -322,147 +322,9 @@
    "op_rendementsvloer": true,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 2.59,
+   "eps_nu": 2.58,
    "eps_fwd": 2.90578,
    "dekking_wpa": 2.46
-  },
-  {
-   "ticker": "LIGHT.AS",
-   "naam": "Signify N.V.",
-   "sector": "Industrials",
-   "koers": 15.59,
-   "valuta": "EUR",
-   "d0": 1.56,
-   "g3": 0.0247,
-   "g5": null,
-   "payout": 1.1283001,
-   "beta": 0.904,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2017": 1.1,
-    "2018": 1.25,
-    "2019": 1.3,
-    "2021": 2.75,
-    "2022": 1.45,
-    "2023": 1.5,
-    "2024": 1.55,
-    "2025": 1.56,
-    "2026": 1.57
-   },
-   "mcap": 1862141056,
-   "opgehaald": "2026-11-13T22:47:35+00:00",
-   "r": 0.0776,
-   "g1": 0.02,
-   "fair": 20.516,
-   "pv_div": 11.677,
-   "pv_terminal": 8.839,
-   "koopprijs": 15.387,
-   "mos": 0.25,
-   "kwaliteit": 50,
-   "checks": {
-    "payout": 1.128,
-    "fcf_dekking": 2.82,
-    "netdebt_ebitda": 1.96,
-    "verlagingen": 0
-   },
-   "upside": 0.316,
-   "korting_tov_koop": -0.013,
-   "yield_nu": 0.1001,
-   "yoc_koop": 0.1014,
-   "d0_norm": 1.56,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     1.5912
-    ],
-    [
-     2027,
-     1.623
-    ],
-    [
-     2028,
-     1.6555
-    ],
-    [
-     2029,
-     1.6886
-    ],
-    [
-     2030,
-     1.7224
-    ],
-    [
-     2031,
-     1.7568
-    ],
-    [
-     2032,
-     1.7919
-    ],
-    [
-     2033,
-     1.8278
-    ],
-    [
-     2034,
-     1.8643
-    ],
-    [
-     2035,
-     1.9016
-    ]
-   ],
-   "guidance_type": "groei",
-   "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
-   "guidance_notitie": "Beleid: jaarlijks stijgend cashdividend per aandeel, GEEN payout-ratio. Keert nu circa 125% van de winst uit (1,56 op 1,25 wpa), gedekt door kasstroom (2,6x). Groei conservatief op 2% gezet omdat de winst de uitkering niet draagt. Eerdere invoer van 40-50% payout was oud Philips Lighting-beleid en is teruggedraaid.",
-   "agenda": {
-    "laatste_cijfers": "2026-10-23",
-    "laatste_soort": "Q3",
-    "volgende_cijfers": "2027-02-05",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 84,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
-    "status": "verouderd"
-   },
-   "override_gewijzigd": "2026-08-15T11:50:50+00:00",
-   "inkoop_rend": 0.0313,
-   "netto_inkoop": 58333333,
-   "g1_kaal": 0.02,
-   "houdbare_groei": -0.03,
-   "roe": 0.06221,
-   "fair_laag": 17.017,
-   "fair_hoog": 25.357,
-   "payout_stabiel": 0.6785,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 1.56,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.901,
-   "beta_herkomst": "sector",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 20.516,
-   "waardering_bron": "dividendmodel",
-   "bvps": 22.622,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": null,
-   "beta_r2": null,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": true,
-   "eps_nu": 1.38,
-   "eps_fwd": 1.73586,
-   "dekking_wpa": 1.11
   },
   {
    "ticker": "WKL.AS",
@@ -506,13 +368,13 @@
     "2026": 2.6
    },
    "mcap": 20205914112,
-   "opgehaald": "2026-11-13T22:47:50+00:00",
-   "r": 0.0736,
+   "opgehaald": "2026-11-17T01:00:13+00:00",
+   "r": 0.0737,
    "g1": 0.1382,
-   "fair": 98.675,
-   "pv_div": 28.438,
-   "pv_terminal": 70.237,
-   "koopprijs": 88.808,
+   "fair": 98.596,
+   "pv_div": 28.428,
+   "pv_terminal": 70.168,
+   "koopprijs": 88.737,
    "mos": 0.1,
    "kwaliteit": 100,
    "checks": {
@@ -521,8 +383,8 @@
     "netdebt_ebitda": 2.08,
     "verlagingen": 0
    },
-   "upside": 0.0863,
-   "korting_tov_koop": -0.0224,
+   "upside": 0.0854,
+   "korting_tov_koop": -0.0232,
    "yield_nu": 0.0268,
    "yoc_koop": 0.0274,
    "d0_norm": 2.43,
@@ -579,7 +441,7 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-02-24",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 103,
+    "dagen_tot": 99,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "wolterskluwer.com/en/investors/equity-and-debt-information/dividend-policy",
     "status": "vers"
@@ -588,10 +450,10 @@
    "inkoop_rend": 0.0511,
    "netto_inkoop": 1032000000,
    "g1_kaal": 0.08,
-   "houdbare_groei": -0.3138,
+   "houdbare_groei": -0.3275,
    "roe": 1.46141,
-   "fair_laag": 78.635,
-   "fair_hoog": 127.312,
+   "fair_laag": 78.577,
+   "fair_hoog": 127.201,
    "payout_stabiel": 0.9863,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -600,13 +462,13 @@
    "d0_netto": 2.43,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.822,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.823,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 98.675,
+   "fair_ddm": 98.596,
    "waardering_bron": "dividendmodel",
    "bvps": 4.211,
    "ri_afwijking": null,
@@ -616,15 +478,153 @@
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 5.92,
+   "eps_nu": 5.85,
    "eps_fwd": 6.1983,
    "dekking_wpa": 2.55
+  },
+  {
+   "ticker": "LIGHT.AS",
+   "naam": "Signify N.V.",
+   "sector": "Industrials",
+   "koers": 15.44,
+   "valuta": "EUR",
+   "d0": 1.56,
+   "g3": 0.0247,
+   "g5": null,
+   "payout": 1.1283001,
+   "beta": 0.904,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2017": 1.1,
+    "2018": 1.25,
+    "2019": 1.3,
+    "2021": 2.75,
+    "2022": 1.45,
+    "2023": 1.5,
+    "2024": 1.55,
+    "2025": 1.56,
+    "2026": 1.57
+   },
+   "mcap": 1844224384,
+   "opgehaald": "2026-11-17T00:59:53+00:00",
+   "r": 0.0833,
+   "g1": 0.02,
+   "fair": 19.751,
+   "pv_div": 11.371,
+   "pv_terminal": 8.38,
+   "koopprijs": 14.813,
+   "mos": 0.25,
+   "kwaliteit": 50,
+   "checks": {
+    "payout": 1.128,
+    "fcf_dekking": 2.82,
+    "netdebt_ebitda": 1.96,
+    "verlagingen": 0
+   },
+   "upside": 0.2792,
+   "korting_tov_koop": -0.0406,
+   "yield_nu": 0.101,
+   "yoc_koop": 0.1053,
+   "d0_norm": 1.56,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     1.5912
+    ],
+    [
+     2027,
+     1.623
+    ],
+    [
+     2028,
+     1.6555
+    ],
+    [
+     2029,
+     1.6886
+    ],
+    [
+     2030,
+     1.7224
+    ],
+    [
+     2031,
+     1.7568
+    ],
+    [
+     2032,
+     1.7919
+    ],
+    [
+     2033,
+     1.8278
+    ],
+    [
+     2034,
+     1.8643
+    ],
+    [
+     2035,
+     1.9016
+    ]
+   ],
+   "guidance_type": "groei",
+   "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
+   "guidance_notitie": "Beleid: jaarlijks stijgend cashdividend per aandeel, GEEN payout-ratio. Keert nu circa 125% van de winst uit (1,56 op 1,25 wpa), gedekt door kasstroom (2,6x). Groei conservatief op 2% gezet omdat de winst de uitkering niet draagt. Eerdere invoer van 40-50% payout was oud Philips Lighting-beleid en is teruggedraaid.",
+   "agenda": {
+    "laatste_cijfers": "2026-10-23",
+    "laatste_soort": "Q3",
+    "volgende_cijfers": "2027-02-05",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 80,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "signify.com/global/our-company/investors/shareholder-info/dividend-info",
+    "status": "verouderd"
+   },
+   "override_gewijzigd": "2026-08-15T11:50:50+00:00",
+   "inkoop_rend": 0.0316,
+   "netto_inkoop": 58333333,
+   "g1_kaal": 0.02,
+   "houdbare_groei": -0.0298,
+   "roe": 0.06221,
+   "fair_laag": 16.414,
+   "fair_hoog": 24.361,
+   "payout_stabiel": 0.6785,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 1.56,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": true,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 1.015,
+   "beta_herkomst": "eigen",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 19.751,
+   "waardering_bron": "dividendmodel",
+   "bvps": 22.622,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 1.0614,
+   "beta_r2": 0.2036,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": true,
+   "eps_nu": 1.39,
+   "eps_fwd": 1.73586,
+   "dekking_wpa": 1.11
   },
   {
    "ticker": "NN.AS",
    "naam": "NN Group N.V.",
    "sector": "Financial Services",
-   "koers": 81.34,
+   "koers": 81.26,
    "valuta": "EUR",
    "d0": 3.54,
    "g3": 0.1141,
@@ -646,14 +646,14 @@
     "2025": 3.54,
     "2026": 4.05
    },
-   "mcap": 21003827200,
-   "opgehaald": "2026-11-13T22:47:37+00:00",
-   "r": 0.072,
+   "mcap": 20983171072,
+   "opgehaald": "2026-11-17T00:59:55+00:00",
+   "r": 0.0721,
    "g1": 0.0852,
-   "fair": 87.643,
-   "pv_div": 39.777,
-   "pv_terminal": 80.201,
-   "koopprijs": 74.146,
+   "fair": 87.633,
+   "pv_div": 39.773,
+   "pv_terminal": 80.161,
+   "koopprijs": 74.138,
    "mos": 0.154,
    "kwaliteit": 82,
    "checks": {
@@ -662,8 +662,8 @@
     "netdebt_ebitda": -10.7,
     "verlagingen": 0
    },
-   "upside": 0.0775,
-   "korting_tov_koop": -0.0884,
+   "upside": 0.0784,
+   "korting_tov_koop": -0.0877,
    "yield_nu": 0.0477,
    "yoc_koop": 0.0523,
    "d0_norm": 3.88,
@@ -720,19 +720,19 @@
     "laatste_soort": "halfjaarcijfers",
     "volgende_cijfers": "2027-02-11",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 90,
+    "dagen_tot": 86,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "nn-group.com/investors/share-information/dividend-policy-and-dividend-history",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0232,
    "netto_inkoop": 486333333,
    "g1_kaal": 0.06,
-   "houdbare_groei": 0.0132,
+   "houdbare_groei": 0.0131,
    "roe": 0.08754,
-   "fair_laag": 94.517,
-   "fair_hoog": 156.599,
+   "fair_laag": 94.487,
+   "fair_hoog": 156.53,
    "payout_stabiel": 0.7715,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -741,13 +741,13 @@
    "d0_netto": 3.88,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.79,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": true,
-   "fair_ri": 87.643,
-   "ri_overwinst": 7.352,
-   "fair_ddm": 119.978,
+   "fair_ri": 87.633,
+   "ri_overwinst": 7.342,
+   "fair_ddm": 119.933,
    "waardering_bron": "residual income (laagste van twee)",
    "bvps": 80.291,
    "ri_afwijking": 0.0,
@@ -757,7 +757,7 @@
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 6.79,
+   "eps_nu": 6.78,
    "eps_fwd": 8.92845,
    "dekking_wpa": 2.3
   },
@@ -765,7 +765,7 @@
    "ticker": "ACOMO.AS",
    "naam": "Acomo N.V.",
    "sector": "Consumer Defensive",
-   "koers": 23.2,
+   "koers": 23.25,
    "valuta": "EUR",
    "d0": 1.3,
    "g3": 0.0738,
@@ -799,14 +799,14 @@
     "2025": 1.3,
     "2026": 1.4
    },
-   "mcap": 689115328,
-   "opgehaald": "2026-11-13T22:47:11+00:00",
+   "mcap": 690600448,
+   "opgehaald": "2026-11-17T00:59:27+00:00",
    "r": 0.065,
    "g1": 0.02,
-   "fair": 30.876,
+   "fair": 30.87,
    "pv_div": 11.126,
-   "pv_terminal": 19.75,
-   "koopprijs": 20.842,
+   "pv_terminal": 19.744,
+   "koopprijs": 20.837,
    "mos": 0.325,
    "kwaliteit": 25,
    "checks": {
@@ -817,9 +817,9 @@
     "plafond": "negatieve vrije kasstroom",
     "zonder_plafond": 52
    },
-   "upside": 0.3309,
-   "korting_tov_koop": -0.1017,
-   "yield_nu": 0.0603,
+   "upside": 0.3277,
+   "korting_tov_koop": -0.1038,
+   "yield_nu": 0.0602,
    "yoc_koop": 0.0672,
    "d0_norm": 1.4,
    "special_div": false,
@@ -880,14 +880,14 @@
     "guidance_bron": "Acomo jaarcijfers 2025 (05-03-2026) en halfjaarcijfers 2026 (28-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": -0.0001,
    "netto_inkoop": -42000,
    "g1_kaal": 0.02,
    "houdbare_groei": 0.0494,
    "roe": 0.13793999,
-   "fair_laag": 24.372,
-   "fair_hoog": 40.245,
+   "fair_laag": 24.368,
+   "fair_hoog": 40.234,
    "payout_stabiel": 0.855,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -896,13 +896,13 @@
    "d0_netto": 1.4,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.62,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 30.876,
+   "fair_ddm": 30.87,
    "waardering_bron": "dividendmodel",
    "bvps": 14.974,
    "ri_afwijking": null,
@@ -920,105 +920,105 @@
    "ticker": "SHELL.AS",
    "naam": "Shell plc",
    "sector": "Energy",
-   "koers": 44.77,
+   "koers": 44.59,
    "valuta": "EUR",
-   "d0": 1.29854,
+   "d0": 1.30183,
    "g3": 0.1309,
-   "g5": 0.0891,
+   "g5": 0.0895,
    "payout": 0.2624,
    "beta": -0.248,
    "cuts_sinds_2010": 2,
    "div_hist": {
-    "2005": 0.37776,
-    "2006": 0.79817,
-    "2007": 0.83675,
-    "2008": 0.99334,
-    "2009": 1.29227,
-    "2010": 1.27202,
-    "2011": 1.25094,
-    "2012": 1.44198,
+    "2005": 0.37789,
+    "2006": 0.79844,
+    "2007": 0.83703,
+    "2008": 0.99368,
+    "2009": 1.2927,
+    "2010": 1.27235,
+    "2011": 1.25135,
+    "2012": 1.44332,
     "2013": 1.3421,
     "2014": 1.4172,
-    "2015": 1.60167,
+    "2015": 1.60191,
     "2016": 1.7024,
-    "2017": 1.72059,
-    "2018": 1.70478,
-    "2019": 1.70099,
-    "2020": 0.84758,
-    "2021": 0.74358,
-    "2022": 0.89773,
-    "2023": 1.12171,
-    "2024": 1.24776,
-    "2025": 1.29854,
-    "2026": 1.39992
+    "2017": 1.72383,
+    "2018": 1.70911,
+    "2019": 1.70315,
+    "2020": 0.84797,
+    "2021": 0.74546,
+    "2022": 0.90001,
+    "2023": 1.12456,
+    "2024": 1.25092,
+    "2025": 1.30183,
+    "2026": 1.40347
    },
-   "mcap": 253188407296,
-   "opgehaald": "2026-11-13T22:47:44+00:00",
-   "r": 0.0689,
-   "g1": 0.106,
-   "fair": 49.981,
-   "pv_div": 14.835,
-   "pv_terminal": 35.146,
-   "koopprijs": 39.735,
+   "mcap": 252080537600,
+   "opgehaald": "2026-11-17T01:00:06+00:00",
+   "r": 0.069,
+   "g1": 0.1064,
+   "fair": 50.191,
+   "pv_div": 14.895,
+   "pv_terminal": 35.296,
+   "koopprijs": 39.902,
    "mos": 0.205,
    "kwaliteit": 65,
    "checks": {
     "payout": 0.262,
-    "fcf_dekking": 3.96,
+    "fcf_dekking": 3.95,
     "netdebt_ebitda": 0.59,
     "verlagingen": 2,
-    "diepste_verlaging": -0.563,
+    "diepste_verlaging": -0.562,
     "plafond": "dividend ooit gehalveerd",
     "zonder_plafond": 72
    },
-   "upside": 0.1164,
-   "korting_tov_koop": -0.1125,
-   "yield_nu": 0.029,
-   "yoc_koop": 0.0327,
-   "d0_norm": 1.29854,
+   "upside": 0.1256,
+   "korting_tov_koop": -0.1051,
+   "yield_nu": 0.0292,
+   "yoc_koop": 0.0326,
+   "d0_norm": 1.30183,
    "special_div": false,
    "vlag": null,
    "handmatig": true,
    "pad": [
     [
      2026,
-     1.4362
+     1.4403
     ],
     [
      2027,
-     1.5885
+     1.5935
     ],
     [
      2028,
-     1.7569
+     1.7631
     ],
     [
      2029,
-     1.9432
+     1.9506
     ],
     [
      2030,
-     2.1493
+     2.1582
     ],
     [
      2031,
-     2.3402
+     2.3505
     ],
     [
      2032,
-     2.5078
+     2.5193
     ],
     [
      2033,
-     2.6442
+     2.6567
     ],
     [
      2034,
-     2.7426
+     2.7558
     ],
     [
      2035,
-     2.7975
+     2.8109
     ]
    ],
    "guidance_type": "groei",
@@ -1029,34 +1029,34 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 83,
+    "dagen_tot": 79,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "shell.com/investors/dividends",
     "status": "verouderd"
    },
    "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0597,
+   "inkoop_rend": 0.06,
    "netto_inkoop": 15124000000,
    "g1_kaal": 0.04,
-   "houdbare_groei": 0.0347,
+   "houdbare_groei": 0.0346,
    "roe": 0.17432,
-   "fair_laag": 39.112,
-   "fair_hoog": 65.665,
+   "fair_laag": 39.278,
+   "fair_hoog": 65.937,
    "payout_stabiel": 0.8853,
    "land": "GB",
    "bron_tarief": 0.0,
    "bron_verlies": 0.0,
    "bron_notitie": "Geen bronbelasting op dividend.",
-   "d0_netto": 1.29854,
+   "d0_netto": 1.30183,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.728,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 49.981,
+   "fair_ddm": 50.191,
    "waardering_bron": "dividendmodel",
    "bvps": 30.829075,
    "ri_afwijking": null,
@@ -1068,13 +1068,13 @@
    "gespannen": false,
    "eps_nu": 4.96,
    "eps_fwd": 5.100853,
-   "dekking_wpa": 3.93
+   "dekking_wpa": 3.92
   },
   {
    "ticker": "ECMPA.AS",
    "naam": "Eurocommercial Properties N.V.",
    "sector": "Real Estate",
-   "koers": 25.65,
+   "koers": 25.6,
    "valuta": "EUR",
    "d0": 1.8,
    "g3": 0.0627,
@@ -1089,14 +1089,14 @@
     "2025": 1.8,
     "2026": 1.83
    },
-   "mcap": 1545172992,
-   "opgehaald": "2026-11-13T22:47:26+00:00",
+   "mcap": 1542161024,
+   "opgehaald": "2026-11-17T00:59:43+00:00",
    "r": 0.0728,
    "g1": 0.0237,
-   "fair": 32.164,
-   "pv_div": 14.316,
-   "pv_terminal": 17.848,
-   "koopprijs": 22.579,
+   "fair": 32.154,
+   "pv_div": 14.315,
+   "pv_terminal": 17.839,
+   "koopprijs": 22.572,
    "mos": 0.298,
    "kwaliteit": 34,
    "checks": {
@@ -1105,9 +1105,9 @@
     "netdebt_ebitda": 8.21,
     "verlagingen": 0
    },
-   "upside": 0.254,
-   "korting_tov_koop": -0.1197,
-   "yield_nu": 0.0717,
+   "upside": 0.256,
+   "korting_tov_koop": -0.1183,
+   "yield_nu": 0.0719,
    "yoc_koop": 0.0815,
    "d0_norm": 1.84,
    "special_div": false,
@@ -1163,7 +1163,7 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-03-03",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 110,
+    "dagen_tot": 106,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "eurocommercialproperties.com/investors - halfjaarlijkse uitkering juli en januari",
     "status": "vers"
@@ -1174,8 +1174,8 @@
    "g1_kaal": 0.02,
    "houdbare_groei": 0.015,
    "roe": 0.08537,
-   "fair_laag": 25.919,
-   "fair_hoog": 41.029,
+   "fair_laag": 25.912,
+   "fair_hoog": 41.014,
    "payout_stabiel": 0.7657,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -1184,13 +1184,13 @@
    "d0_netto": 1.84,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.806,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 32.164,
+   "fair_ddm": 32.154,
    "waardering_bron": "dividendmodel",
    "bvps": 39.789,
    "ri_afwijking": null,
@@ -1208,7 +1208,7 @@
    "ticker": "KPN.AS",
    "naam": "Koninklijke KPN N.V.",
    "sector": "Communication Services",
-   "koers": 4.447,
+   "koers": 4.515,
    "valuta": "EUR",
    "d0": 0.175,
    "g3": 0.0798,
@@ -1217,11 +1217,11 @@
    "beta": 0.264,
    "cuts_sinds_2010": 2,
    "div_hist": {
-    "2000": 0.06877,
-    "2004": 0.20816,
-    "2005": 0.27002,
+    "2000": 0.06878,
+    "2004": 0.20817,
+    "2005": 0.27003,
     "2006": 0.29102,
-    "2007": 0.33143,
+    "2007": 0.33146,
     "2008": 0.33952,
     "2009": 0.38196,
     "2010": 0.44259,
@@ -1241,14 +1241,14 @@
     "2025": 0.175,
     "2026": 0.189
    },
-   "mcap": 16774625280,
-   "opgehaald": "2026-11-13T22:47:35+00:00",
-   "r": 0.0734,
-   "g1": 0.0659,
-   "fair": 5.314,
-   "pv_div": 2.025,
-   "pv_terminal": 3.288,
-   "koopprijs": 3.714,
+   "mcap": 17031128064,
+   "opgehaald": "2026-11-17T00:59:53+00:00",
+   "r": 0.0737,
+   "g1": 0.0657,
+   "fair": 5.295,
+   "pv_div": 2.021,
+   "pv_terminal": 3.274,
+   "koopprijs": 3.701,
    "mos": 0.301,
    "kwaliteit": 33,
    "checks": {
@@ -1258,10 +1258,10 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.955
    },
-   "upside": 0.1949,
-   "korting_tov_koop": -0.1648,
-   "yield_nu": 0.0394,
-   "yoc_koop": 0.0471,
+   "upside": 0.1728,
+   "korting_tov_koop": -0.1802,
+   "yield_nu": 0.0388,
+   "yoc_koop": 0.0473,
    "d0_norm": 0.175,
    "special_div": false,
    "vlag": null,
@@ -1277,35 +1277,35 @@
     ],
     [
      2028,
-     0.2665
+     0.2664
     ],
     [
      2029,
-     0.284
+     0.2839
     ],
     [
      2030,
-     0.3027
+     0.3026
     ],
     [
      2031,
-     0.3199
+     0.3197
     ],
     [
      2032,
-     0.3351
+     0.3348
     ],
     [
      2033,
-     0.348
+     0.3476
     ],
     [
      2034,
-     0.3581
+     0.3577
     ],
     [
      2035,
-     0.3653
+     0.3649
     ]
    ],
    "guidance_type": "dps",
@@ -1316,19 +1316,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-01-28",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 76,
+    "dagen_tot": 72,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "ir.kpn.com/shareholder-center/dividends",
     "status": "verouderd"
    },
    "override_gewijzigd": "2026-08-15T11:50:50+00:00",
-   "inkoop_rend": 0.0149,
+   "inkoop_rend": 0.0147,
    "netto_inkoop": 250000000,
    "g1_kaal": 0.05,
    "houdbare_groei": -0.035,
    "roe": 0.27262,
-   "fair_laag": 4.387,
-   "fair_hoog": 6.619,
+   "fair_laag": 4.372,
+   "fair_hoog": 6.595,
    "payout_stabiel": 0.9266,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -1337,13 +1337,13 @@
    "d0_netto": 0.175,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.817,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.823,
    "beta_herkomst": "sector",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 5.314,
+   "fair_ddm": 5.295,
    "waardering_bron": "dividendmodel",
    "bvps": 0.857,
    "ri_afwijking": null,
@@ -1361,7 +1361,7 @@
    "ticker": "WHA.AS",
    "naam": "Wereldhave N.V.",
    "sector": "Real Estate",
-   "koers": 18.34,
+   "koers": 18.26,
    "valuta": "EUR",
    "d0": 1.25,
    "g3": 0.0435,
@@ -1391,14 +1391,14 @@
     "2025": 1.25,
     "2026": 1.3
    },
-   "mcap": 855414336,
-   "opgehaald": "2026-11-13T22:47:50+00:00",
+   "mcap": 851683008,
+   "opgehaald": "2026-11-17T01:00:12+00:00",
    "r": 0.0716,
    "g1": 0.02,
-   "fair": 22.688,
-   "pv_div": 10.011,
-   "pv_terminal": 12.678,
-   "koopprijs": 14.702,
+   "fair": 22.681,
+   "pv_div": 10.01,
+   "pv_terminal": 12.671,
+   "koopprijs": 14.697,
    "mos": 0.352,
    "kwaliteit": 16,
    "checks": {
@@ -1408,10 +1408,10 @@
     "verlagingen": 3,
     "diepste_verlaging": -0.802
    },
-   "upside": 0.2371,
-   "korting_tov_koop": -0.1984,
-   "yield_nu": 0.0709,
-   "yoc_koop": 0.0884,
+   "upside": 0.2421,
+   "korting_tov_koop": -0.1951,
+   "yield_nu": 0.0712,
+   "yoc_koop": 0.0885,
    "d0_norm": 1.3,
    "special_div": false,
    "vlag": null,
@@ -1466,7 +1466,7 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-02-12",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 91,
+    "dagen_tot": 87,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "wereldhave.com/investors - jaarcijfers 10 februari 2026",
     "status": "vers"
@@ -1477,8 +1477,8 @@
    "g1_kaal": 0.02,
    "houdbare_groei": 0.0191,
    "roe": 0.06337,
-   "fair_laag": 18.261,
-   "fair_hoog": 28.979,
+   "fair_laag": 18.256,
+   "fair_hoog": 28.968,
    "payout_stabiel": 0.6844,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -1487,13 +1487,13 @@
    "d0_netto": 1.3,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.781,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 22.688,
+   "fair_ddm": 22.681,
    "waardering_bron": "dividendmodel",
    "bvps": 23.0,
    "ri_afwijking": null,
@@ -1511,7 +1511,7 @@
    "ticker": "INGA.AS",
    "naam": "ING Groep N.V.",
    "sector": "Financial Services",
-   "koers": 30.125,
+   "koers": 29.9,
    "valuta": "EUR",
    "d0": 1.221,
    "g3": 0.1457,
@@ -1540,14 +1540,14 @@
     "2025": 1.221,
     "2026": 1.308
    },
-   "mcap": 85440806912,
-   "opgehaald": "2026-11-13T22:47:33+00:00",
+   "mcap": 84802658304,
+   "opgehaald": "2026-11-17T00:59:51+00:00",
    "r": 0.0854,
-   "g1": 0.0868,
-   "fair": 28.193,
-   "pv_div": 13.324,
-   "pv_terminal": 28.325,
-   "koopprijs": 23.682,
+   "g1": 0.0872,
+   "fair": 28.19,
+   "pv_div": 13.303,
+   "pv_terminal": 28.289,
+   "koopprijs": 23.68,
    "mos": 0.16,
    "kwaliteit": 80,
    "checks": {
@@ -1555,9 +1555,9 @@
     "fcf_dekking": "n.v.t. (financiele instelling)",
     "verlagingen": 0
    },
-   "upside": -0.0641,
-   "korting_tov_koop": -0.2139,
-   "yield_nu": 0.0405,
+   "upside": -0.0572,
+   "korting_tov_koop": -0.208,
+   "yield_nu": 0.0408,
    "yoc_koop": 0.0516,
    "d0_norm": 1.221,
    "special_div": false,
@@ -1566,43 +1566,43 @@
    "pad": [
     [
      2026,
-     1.4993
+     1.4953
     ],
     [
      2027,
-     1.6295
+     1.6257
     ],
     [
      2028,
-     1.771
+     1.7674
     ],
     [
      2029,
-     1.9248
+     1.9215
     ],
     [
      2030,
-     2.092
+     2.089
     ],
     [
      2031,
-     2.2457
+     2.2431
     ],
     [
      2032,
-     2.3807
+     2.3783
     ],
     [
      2033,
-     2.4919
+     2.4898
     ],
     [
      2034,
-     2.5751
+     2.5731
     ],
     [
      2035,
-     2.6266
+     2.6245
     ]
    ],
    "guidance_type": "payout",
@@ -1613,19 +1613,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-01-28",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 76,
+    "dagen_tot": 72,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "ing.com/investors/share-information/dividend-and-distribution-policy",
     "status": "verouderd"
    },
    "override_gewijzigd": "2026-08-15T11:50:50+00:00",
-   "inkoop_rend": 0.0431,
+   "inkoop_rend": 0.0434,
    "netto_inkoop": 3684333333,
    "g1_kaal": 0.04,
-   "houdbare_groei": -0.0068,
+   "houdbare_groei": -0.0064,
    "roe": 0.17757,
-   "fair_laag": 33.36,
-   "fair_hoog": 53.496,
+   "fair_laag": 33.314,
+   "fair_hoog": 53.42,
    "payout_stabiel": 0.8874,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -1634,13 +1634,13 @@
    "d0_netto": 1.221,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.057,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": true,
-   "fair_ri": 28.193,
-   "ri_overwinst": 10.617,
-   "fair_ddm": 41.649,
+   "fair_ri": 28.19,
+   "ri_overwinst": 10.614,
+   "fair_ddm": 41.592,
    "waardering_bron": "residual income (laagste van twee)",
    "bvps": 17.576,
    "ri_afwijking": 0.0,
@@ -1650,15 +1650,15 @@
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 2.33,
-   "eps_fwd": 2.99866,
-   "dekking_wpa": 2.46
+   "eps_nu": 2.34,
+   "eps_fwd": 2.99066,
+   "dekking_wpa": 2.45
   },
   {
    "ticker": "ASRNL.AS",
    "naam": "ASR Nederland N.V.",
    "sector": "Financial Services",
-   "koers": 80.14,
+   "koers": 79.72,
    "valuta": "EUR",
    "d0": 3.23,
    "g3": 0.0778,
@@ -1678,14 +1678,14 @@
     "2025": 3.23,
     "2026": 3.53
    },
-   "mcap": 16152181760,
-   "opgehaald": "2026-11-13T22:47:19+00:00",
+   "mcap": 16067531776,
+   "opgehaald": "2026-11-17T00:59:35+00:00",
    "r": 0.0711,
    "g1": 0.07,
-   "fair": 69.248,
-   "pv_div": 32.845,
-   "pv_terminal": 71.618,
-   "koopprijs": 60.246,
+   "fair": 69.24,
+   "pv_div": 32.841,
+   "pv_terminal": 71.582,
+   "koopprijs": 60.239,
    "mos": 0.13,
    "kwaliteit": 90,
    "checks": {
@@ -1694,9 +1694,9 @@
     "netdebt_ebitda": -9.46,
     "verlagingen": 0
    },
-   "upside": -0.1359,
-   "korting_tov_koop": -0.2482,
-   "yield_nu": 0.0426,
+   "upside": -0.1315,
+   "korting_tov_koop": -0.2444,
+   "yield_nu": 0.0428,
    "yoc_koop": 0.0566,
    "d0_norm": 3.41,
    "special_div": false,
@@ -1752,7 +1752,7 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-17",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 96,
+    "dagen_tot": 92,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "asrnederland.nl/investor-relations/aandeelhouders/dividendbeleid + dividendinfo.nl",
     "status": "vers"
@@ -1763,8 +1763,8 @@
    "g1_kaal": 0.07,
    "houdbare_groei": 0.0697,
    "roe": 0.122250006,
-   "fair_laag": 81.877,
-   "fair_hoog": 137.071,
+   "fair_laag": 81.85,
+   "fair_hoog": 137.01,
    "payout_stabiel": 0.8364,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -1773,13 +1773,13 @@
    "d0_netto": 3.41,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.771,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": true,
-   "fair_ri": 69.248,
-   "ri_overwinst": 17.271,
-   "fair_ddm": 104.463,
+   "fair_ri": 69.24,
+   "ri_overwinst": 17.263,
+   "fair_ddm": 104.423,
    "waardering_bron": "residual income (laagste van twee)",
    "bvps": 51.977,
    "ri_afwijking": 0.0,
@@ -1797,7 +1797,7 @@
    "ticker": "HYDRA.AS",
    "naam": "Hydratec Industries NV",
    "sector": "Industrials",
-   "koers": 195.0,
+   "koers": 193.0,
    "valuta": "EUR",
    "d0": 6.0,
    "g3": 0.0887,
@@ -1824,14 +1824,14 @@
     "2025": 6.0,
     "2026": 68.0
    },
-   "mcap": 253470368,
-   "opgehaald": "2026-11-13T22:47:32+00:00",
-   "r": 0.0761,
+   "mcap": 250870656,
+   "opgehaald": "2026-11-17T00:59:50+00:00",
+   "r": 0.0762,
    "g1": 0.0,
-   "fair": 155.029,
-   "pv_div": 55.232,
-   "pv_terminal": 99.797,
-   "koopprijs": 139.526,
+   "fair": 154.855,
+   "pv_div": 55.202,
+   "pv_terminal": 99.654,
+   "koopprijs": 139.37,
    "mos": 0.1,
    "kwaliteit": 100,
    "checks": {
@@ -1840,10 +1840,10 @@
     "netdebt_ebitda": -1.91,
     "verlagingen": 0
    },
-   "upside": -0.205,
-   "korting_tov_koop": -0.2845,
-   "yield_nu": 0.041,
-   "yoc_koop": 0.0573,
+   "upside": -0.1976,
+   "korting_tov_koop": -0.2779,
+   "yield_nu": 0.0415,
+   "yoc_koop": 0.0574,
    "d0_norm": 8.0,
    "special_div": false,
    "vlag": null,
@@ -1903,14 +1903,14 @@
     "guidance_bron": "Hydratec dividendaankondiging (betaald 21-05-2026) en halfjaarbericht 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
    "houdbare_groei": 0.1267,
    "roe": 0.20299,
-   "fair_laag": 122.152,
-   "fair_hoog": 202.52,
+   "fair_laag": 122.025,
+   "fair_hoog": 202.274,
    "payout_stabiel": 0.9015,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -1919,13 +1919,13 @@
    "d0_netto": 8.0,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.871,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.873,
    "beta_herkomst": "sector",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 155.029,
+   "fair_ddm": 154.855,
    "waardering_bron": "dividendmodel",
    "bvps": 128.174,
    "ri_afwijking": null,
@@ -1943,7 +1943,7 @@
    "ticker": "ABN.AS",
    "naam": "ABN AMRO Bank N.V.",
    "sector": "Financial Services",
-   "koers": 42.12,
+   "koers": 42.09,
    "valuta": "EUR",
    "d0": 1.29,
    "g3": 0.1152,
@@ -1963,14 +1963,14 @@
     "2025": 1.29,
     "2026": 1.6848
    },
-   "mcap": 34325092352,
-   "opgehaald": "2026-11-13T22:47:11+00:00",
-   "r": 0.0807,
+   "mcap": 34300645376,
+   "opgehaald": "2026-11-17T00:59:26+00:00",
+   "r": 0.0808,
    "g1": 0.0527,
-   "fair": 38.778,
-   "pv_div": 15.55,
-   "pv_terminal": 31.283,
-   "koopprijs": 29.084,
+   "fair": 38.773,
+   "pv_div": 15.564,
+   "pv_terminal": 31.3,
+   "koopprijs": 29.08,
    "mos": 0.25,
    "kwaliteit": 50,
    "checks": {
@@ -1979,8 +1979,8 @@
     "verlagingen": 1,
     "diepste_verlaging": -0.514
    },
-   "upside": -0.0793,
-   "korting_tov_koop": -0.3095,
+   "upside": -0.0788,
+   "korting_tov_koop": -0.3091,
    "yield_nu": 0.0306,
    "yoc_koop": 0.0444,
    "d0_norm": 1.29,
@@ -1990,43 +1990,43 @@
    "pad": [
     [
      2026,
-     1.923
+     1.925
     ],
     [
      2027,
-     2.0244
+     2.0265
     ],
     [
      2028,
-     2.1312
+     2.1334
     ],
     [
      2029,
-     2.2436
+     2.2459
     ],
     [
      2030,
-     2.3619
+     2.3644
     ],
     [
      2031,
-     2.471
+     2.4736
     ],
     [
      2032,
-     2.569
+     2.5716
     ],
     [
      2033,
-     2.654
+     2.6567
     ],
     [
      2034,
-     2.7244
+     2.7273
     ],
     [
      2035,
-     2.7789
+     2.7818
     ]
    ],
    "guidance_type": "payout",
@@ -2037,7 +2037,7 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-10",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 89,
+    "dagen_tot": 85,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "abnamro.com/en/investor-relations/information/dividend-policy-and-payments",
     "status": "verouderd"
@@ -2046,10 +2046,10 @@
    "inkoop_rend": 0.0121,
    "netto_inkoop": 416666667,
    "g1_kaal": 0.04,
-   "houdbare_groei": 0.0421,
+   "houdbare_groei": 0.0424,
    "roe": 0.104090005,
-   "fair_laag": 37.544,
-   "fair_hoog": 60.119,
+   "fair_laag": 37.571,
+   "fair_hoog": 60.156,
    "payout_stabiel": 0.8079,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -2058,13 +2058,13 @@
    "d0_netto": 1.29,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.964,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": true,
-   "fair_ri": 38.778,
-   "ri_overwinst": 4.821,
-   "fair_ddm": 46.833,
+   "fair_ri": 38.773,
+   "ri_overwinst": 4.816,
+   "fair_ddm": 46.864,
    "waardering_bron": "residual income (laagste van twee)",
    "bvps": 33.957,
    "ri_afwijking": 0.0,
@@ -2074,15 +2074,285 @@
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 3.15,
-   "eps_fwd": 3.84599,
+   "eps_nu": 3.2,
+   "eps_fwd": 3.85002,
    "dekking_wpa": 2.98
+  },
+  {
+   "ticker": "CTPNV.AS",
+   "naam": "CTP N.V.",
+   "sector": "Real Estate",
+   "koers": 12.96,
+   "valuta": "EUR",
+   "d0": 0.61,
+   "g3": 0.151,
+   "g5": null,
+   "payout": 0.5991,
+   "beta": 1.029,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2021": 0.17,
+    "2022": 0.4,
+    "2023": 0.48,
+    "2024": 0.565,
+    "2025": 0.61,
+    "2026": 0.665
+   },
+   "mcap": 6348676608,
+   "opgehaald": "2026-11-17T00:59:42+00:00",
+   "r": 0.075,
+   "g1": 0.05,
+   "fair": 12.327,
+   "pv_div": 5.449,
+   "pv_terminal": 6.878,
+   "koopprijs": 8.654,
+   "mos": 0.298,
+   "kwaliteit": 34,
+   "checks": {
+    "payout": 0.741,
+    "fcf_dekking": 0.74,
+    "netdebt_ebitda": 12.58,
+    "verlagingen": 0
+   },
+   "upside": -0.0488,
+   "korting_tov_koop": -0.3323,
+   "yield_nu": 0.0486,
+   "yoc_koop": 0.0728,
+   "d0_norm": 0.63,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     0.6615
+    ],
+    [
+     2027,
+     0.6946
+    ],
+    [
+     2028,
+     0.7293
+    ],
+    [
+     2029,
+     0.7658
+    ],
+    [
+     2030,
+     0.8041
+    ],
+    [
+     2031,
+     0.8394
+    ],
+    [
+     2032,
+     0.8713
+    ],
+    [
+     2033,
+     0.8992
+    ],
+    [
+     2034,
+     0.9226
+    ],
+    [
+     2035,
+     0.941
+    ]
+   ],
+   "guidance_type": "groei",
+   "guidance_bron": "ctp.eu/investors - AVA 20 mei 2026, slotdividend 0,32 per aandeel",
+   "guidance_notitie": "Boekjaar 2025: interim 0,31 + slot 0,32 = 0,63 per aandeel, goedgekeurd op de AVA van 20 mei 2026. Dat is een payout van 74% van de bedrijfsspecifiek aangepaste EPRA-winst per aandeel. Europa's grootste beursgenoteerde eigenaar en ontwikkelaar van logistiek en industrieel vastgoed. Het dividend groeide de afgelopen vier jaar met gemiddeld 16% per jaar; analisten verwachten circa 10% winstgroei over de komende drie jaar. Groei 5% als eigen aanname, ruim onder dat tempo. LET OP: keuzedividend, contant of in nieuwe aandelen (scrip). De uitkering wordt niet volledig gedekt door de kasstroom - de cash payout ratio lag rond 95%.",
+   "agenda": {
+    "laatste_cijfers": "2024-11-06",
+    "laatste_soort": "Q3",
+    "volgende_cijfers": "2027-02-25",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 100,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "ctp.eu/investors - AVA 20 mei 2026, slotdividend 0,32 per aandeel",
+    "status": "vers"
+   },
+   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "inkoop_rend": -0.0155,
+   "netto_inkoop": -98200000,
+   "g1_kaal": 0.05,
+   "houdbare_groei": 0.0164,
+   "roe": 0.06333,
+   "fair_laag": 9.943,
+   "fair_hoog": 15.706,
+   "payout_stabiel": 0.6842,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 0.63,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": true,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.848,
+   "beta_herkomst": "eigen",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 12.327,
+   "waardering_bron": "dividendmodel",
+   "bvps": 18.149,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 0.7926,
+   "beta_r2": 0.2086,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 0.85,
+   "eps_fwd": 0.85,
+   "dekking_wpa": 1.35
+  },
+  {
+   "ticker": "UNA.AS",
+   "naam": "Unilever PLC",
+   "sector": "Consumer Defensive",
+   "koers": 60.65,
+   "valuta": "EUR",
+   "d0": 2.0376,
+   "g3": 0.0199,
+   "g5": null,
+   "payout": 0.4603,
+   "beta": 0.463,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2021": 1.9206,
+    "2022": 1.9206,
+    "2023": 1.9206,
+    "2024": 1.9494,
+    "2025": 2.0376,
+    "2026": 1.8656
+   },
+   "mcap": 130601713664,
+   "opgehaald": "2026-11-17T01:00:10+00:00",
+   "r": 0.065,
+   "g1": 0.042,
+   "fair": 45.967,
+   "pv_div": 16.353,
+   "pv_terminal": 29.614,
+   "koopprijs": 38.75,
+   "mos": 0.157,
+   "kwaliteit": 81,
+   "checks": {
+    "payout": 0.726,
+    "fcf_dekking": 1.68,
+    "netdebt_ebitda": 2.41,
+    "verlagingen": 0
+   },
+   "upside": -0.2421,
+   "korting_tov_koop": -0.3611,
+   "yield_nu": 0.0308,
+   "yoc_koop": 0.0481,
+   "d0_norm": 1.8656,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     1.9439
+    ],
+    [
+     2027,
+     2.0255
+    ],
+    [
+     2028,
+     2.1106
+    ],
+    [
+     2029,
+     2.1992
+    ],
+    [
+     2030,
+     2.2915
+    ],
+    [
+     2031,
+     2.3776
+    ],
+    [
+     2032,
+     2.4565
+    ],
+    [
+     2033,
+     2.5273
+    ],
+    [
+     2034,
+     2.5889
+    ],
+    [
+     2035,
+     2.6407
+    ]
+   ],
+   "guidance_type": "groei",
+   "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
+   "guidance_notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde. Winst per aandeel 18-08-2026 vastgezet op de toenmalige databronwaarde, zodat de kwaliteitsscore niet stil verschuift bij een volgende fetch zonder nieuwe controle.",
+   "agenda": {
+    "laatste_cijfers": "2021-07-22",
+    "laatste_soort": "halfjaarcijfers",
+    "volgende_cijfers": "2027-02-11",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 86,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
+    "status": "vers"
+   },
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0115,
+   "netto_inkoop": 1508333333,
+   "g1_kaal": 0.03,
+   "houdbare_groei": 0.0347,
+   "roe": 0.31869,
+   "fair_laag": 36.299,
+   "fair_hoog": 59.87,
+   "payout_stabiel": 0.9372,
+   "land": "GB",
+   "bron_tarief": 0.0,
+   "bron_verlies": 0.0,
+   "bron_notitie": "Geen bronbelasting op dividend.",
+   "d0_netto": 1.8656,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": false,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.601,
+   "beta_herkomst": "gemengd",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 45.967,
+   "waardering_bron": "dividendmodel",
+   "bvps": 7.521,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 0.3518,
+   "beta_r2": 0.0887,
+   "op_rendementsvloer": true,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 2.57,
+   "eps_fwd": 2.57,
+   "dekking_wpa": 1.38
   },
   {
    "ticker": "KENDR.AS",
    "naam": "Kendrion N.V.",
    "sector": "Industrials",
-   "koers": 17.94,
+   "koers": 17.82,
    "valuta": "EUR",
    "d0": 1.45,
    "g3": 0.2809,
@@ -2110,27 +2380,26 @@
     "2025": 1.45,
     "2026": 0.7
    },
-   "mcap": 271912064,
-   "opgehaald": "2026-11-13T22:47:34+00:00",
-   "r": 0.0755,
+   "mcap": 270093248,
+   "opgehaald": "2026-11-17T00:59:52+00:00",
+   "r": 0.0756,
    "g1": 0.0348,
-   "fair": 15.657,
-   "pv_div": 5.646,
-   "pv_terminal": 10.012,
-   "koopprijs": 12.166,
-   "mos": 0.223,
-   "kwaliteit": 59,
+   "fair": 15.659,
+   "pv_div": 5.644,
+   "pv_terminal": 10.015,
+   "koopprijs": 11.228,
+   "mos": 0.283,
+   "kwaliteit": 39,
    "checks": {
     "payout": 0.609,
-    "fcf_dekking": 2.67,
-    "netdebt_ebitda": 1.27,
+    "netdebt_ebitda": 1.14,
     "verlagingen": 2,
     "diepste_verlaging": -0.54
    },
-   "upside": -0.1272,
-   "korting_tov_koop": -0.3219,
-   "yield_nu": 0.039,
-   "yoc_koop": 0.0575,
+   "upside": -0.1213,
+   "korting_tov_koop": -0.3699,
+   "yield_nu": 0.0393,
+   "yoc_koop": 0.0623,
    "d0_norm": 0.7,
    "special_div": false,
    "vlag": null,
@@ -2190,15 +2459,15 @@
     "guidance_bron": "Kendrion persbericht jaarcijfers 2025 (27-02-2026), dividend betaald 22-04-2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0046,
    "netto_inkoop": 1250000,
    "g1_kaal": 0.03,
-   "houdbare_groei": 0.0354,
-   "roe": 0.11133,
-   "fair_laag": 12.379,
-   "fair_hoog": 20.374,
-   "payout_stabiel": 0.8204,
+   "houdbare_groei": 0.0356,
+   "roe": 0.112040006,
+   "fair_laag": 12.38,
+   "fair_hoog": 20.376,
+   "payout_stabiel": 0.8215,
    "land": "NL",
    "bron_tarief": 0.15,
    "bron_verlies": 0.0,
@@ -2206,15 +2475,15 @@
    "d0_netto": 0.7,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.86,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.861,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 15.657,
+   "fair_ddm": 15.659,
    "waardering_bron": "dividendmodel",
-   "bvps": 9.567,
+   "bvps": 9.98,
    "ri_afwijking": null,
    "ri_conflict": false,
    "beta_regressie": 0.7714,
@@ -2227,431 +2496,10 @@
    "dekking_wpa": 1.64
   },
   {
-   "ticker": "CTPNV.AS",
-   "naam": "CTP N.V.",
-   "sector": "Real Estate",
-   "koers": 12.86,
-   "valuta": "EUR",
-   "d0": 0.61,
-   "g3": 0.151,
-   "g5": null,
-   "payout": 0.5991,
-   "beta": 1.029,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2021": 0.17,
-    "2022": 0.4,
-    "2023": 0.48,
-    "2024": 0.565,
-    "2025": 0.61,
-    "2026": 0.665
-   },
-   "mcap": 6299689472,
-   "opgehaald": "2026-11-13T22:47:24+00:00",
-   "r": 0.0749,
-   "g1": 0.05,
-   "fair": 12.331,
-   "pv_div": 5.45,
-   "pv_terminal": 6.882,
-   "koopprijs": 8.657,
-   "mos": 0.298,
-   "kwaliteit": 34,
-   "checks": {
-    "payout": 0.741,
-    "fcf_dekking": 0.74,
-    "netdebt_ebitda": 12.58,
-    "verlagingen": 0
-   },
-   "upside": -0.0411,
-   "korting_tov_koop": -0.3269,
-   "yield_nu": 0.049,
-   "yoc_koop": 0.0728,
-   "d0_norm": 0.63,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     0.6615
-    ],
-    [
-     2027,
-     0.6946
-    ],
-    [
-     2028,
-     0.7293
-    ],
-    [
-     2029,
-     0.7658
-    ],
-    [
-     2030,
-     0.8041
-    ],
-    [
-     2031,
-     0.8394
-    ],
-    [
-     2032,
-     0.8713
-    ],
-    [
-     2033,
-     0.8992
-    ],
-    [
-     2034,
-     0.9226
-    ],
-    [
-     2035,
-     0.941
-    ]
-   ],
-   "guidance_type": "groei",
-   "guidance_bron": "ctp.eu/investors - AVA 20 mei 2026, slotdividend 0,32 per aandeel",
-   "guidance_notitie": "Boekjaar 2025: interim 0,31 + slot 0,32 = 0,63 per aandeel, goedgekeurd op de AVA van 20 mei 2026. Dat is een payout van 74% van de bedrijfsspecifiek aangepaste EPRA-winst per aandeel. Europa's grootste beursgenoteerde eigenaar en ontwikkelaar van logistiek en industrieel vastgoed. Het dividend groeide de afgelopen vier jaar met gemiddeld 16% per jaar; analisten verwachten circa 10% winstgroei over de komende drie jaar. Groei 5% als eigen aanname, ruim onder dat tempo. LET OP: keuzedividend, contant of in nieuwe aandelen (scrip). De uitkering wordt niet volledig gedekt door de kasstroom - de cash payout ratio lag rond 95%.",
-   "agenda": {
-    "laatste_cijfers": "2024-11-06",
-    "laatste_soort": "Q3",
-    "volgende_cijfers": "2027-02-25",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 104,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "ctp.eu/investors - AVA 20 mei 2026, slotdividend 0,32 per aandeel",
-    "status": "vers"
-   },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": -0.0156,
-   "netto_inkoop": -98200000,
-   "g1_kaal": 0.05,
-   "houdbare_groei": 0.0164,
-   "roe": 0.06333,
-   "fair_laag": 9.946,
-   "fair_hoog": 15.712,
-   "payout_stabiel": 0.6842,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 0.63,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.848,
-   "beta_herkomst": "eigen",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 12.331,
-   "waardering_bron": "dividendmodel",
-   "bvps": 18.149,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 0.7926,
-   "beta_r2": 0.2086,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 0.85,
-   "eps_fwd": 0.85,
-   "dekking_wpa": 1.35
-  },
-  {
-   "ticker": "UNA.AS",
-   "naam": "Unilever PLC",
-   "sector": "Consumer Defensive",
-   "koers": 59.91,
-   "valuta": "EUR",
-   "d0": 2.0376,
-   "g3": 0.0199,
-   "g5": null,
-   "payout": 0.4603,
-   "beta": 0.463,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2021": 1.9206,
-    "2022": 1.9206,
-    "2023": 1.9206,
-    "2024": 1.9494,
-    "2025": 2.0376,
-    "2026": 1.8656
-   },
-   "mcap": 129008222208,
-   "opgehaald": "2026-11-13T22:47:47+00:00",
-   "r": 0.065,
-   "g1": 0.0422,
-   "fair": 46.034,
-   "pv_div": 16.369,
-   "pv_terminal": 29.665,
-   "koopprijs": 38.807,
-   "mos": 0.157,
-   "kwaliteit": 81,
-   "checks": {
-    "payout": 0.726,
-    "fcf_dekking": 1.68,
-    "netdebt_ebitda": 2.41,
-    "verlagingen": 0
-   },
-   "upside": -0.2316,
-   "korting_tov_koop": -0.3522,
-   "yield_nu": 0.0311,
-   "yoc_koop": 0.0481,
-   "d0_norm": 1.8656,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     1.9443
-    ],
-    [
-     2027,
-     2.0264
-    ],
-    [
-     2028,
-     2.1119
-    ],
-    [
-     2029,
-     2.201
-    ],
-    [
-     2030,
-     2.2938
-    ],
-    [
-     2031,
-     2.3804
-    ],
-    [
-     2032,
-     2.4597
-    ],
-    [
-     2033,
-     2.5308
-    ],
-    [
-     2034,
-     2.5926
-    ],
-    [
-     2035,
-     2.6445
-    ]
-   ],
-   "guidance_type": "groei",
-   "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
-   "guidance_notitie": "Progressief beleid, kwartaaluitkering sinds eind 2009 zonder verlaging. Q1 2026: 0,4664 per aandeel (+3% jaar-op-jaar), geannualiseerd 1,87. Dat lijkt een daling ten opzichte van 2,04 in 2025, maar is een herbasering na de afsplitsing van de ijsdivisie in 2025 - een deel van de winst is meeverhuisd. Unilever verhoogt doorgaans in Q1 en houdt de overige kwartalen gelijk; 1,87 gaat daarvan uit. Payout circa 76% van de winst, 64% van de kasstroom. Groei 3% als eigen aanname, in lijn met het laatste jaar en boven het tienjaarsgemiddelde van 2,5%. Loopt een inkoopprogramma van 1,5 mld, circa 1,3% van de beurswaarde. Winst per aandeel 18-08-2026 vastgezet op de toenmalige databronwaarde, zodat de kwaliteitsscore niet stil verschuift bij een volgende fetch zonder nieuwe controle.",
-   "agenda": {
-    "laatste_cijfers": "2021-07-22",
-    "laatste_soort": "halfjaarcijfers",
-    "volgende_cijfers": "2027-02-11",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 90,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "unilever.com/investors/investor-centre/dividends - kwartaaldividend Q1 2026 vastgesteld op 0,4664 per aandeel Euronext Amsterdam",
-    "status": "vers"
-   },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0117,
-   "netto_inkoop": 1508333333,
-   "g1_kaal": 0.03,
-   "houdbare_groei": 0.0348,
-   "roe": 0.31869,
-   "fair_laag": 36.35,
-   "fair_hoog": 59.962,
-   "payout_stabiel": 0.9372,
-   "land": "GB",
-   "bron_tarief": 0.0,
-   "bron_verlies": 0.0,
-   "bron_notitie": "Geen bronbelasting op dividend.",
-   "d0_netto": 1.8656,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.601,
-   "beta_herkomst": "gemengd",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 46.034,
-   "waardering_bron": "dividendmodel",
-   "bvps": 7.521,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 0.3518,
-   "beta_r2": 0.0887,
-   "op_rendementsvloer": true,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 2.57,
-   "eps_fwd": 2.57,
-   "dekking_wpa": 1.38
-  },
-  {
-   "ticker": "HEIO.AS",
-   "naam": "Heineken Holding N.V.",
-   "sector": "Consumer Defensive",
-   "koers": 80.85,
-   "valuta": "EUR",
-   "d0": 1.91,
-   "g3": 0.0937,
-   "g5": 0.1293,
-   "payout": 0.4634,
-   "beta": 0.575,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2005": 0.16,
-    "2006": 0.4,
-    "2007": 0.68,
-    "2008": 0.74,
-    "2009": 0.59,
-    "2010": 0.66,
-    "2011": 0.8,
-    "2012": 0.86,
-    "2013": 0.92,
-    "2014": 0.89,
-    "2015": 1.18,
-    "2016": 1.38,
-    "2017": 1.36,
-    "2018": 1.52,
-    "2019": 1.65,
-    "2020": 1.04,
-    "2021": 0.98,
-    "2022": 1.46,
-    "2023": 1.92,
-    "2024": 1.73,
-    "2025": 1.91,
-    "2026": 2.0867
-   },
-   "mcap": 22060470272,
-   "opgehaald": "2026-11-13T22:47:31+00:00",
-   "r": 0.0701,
-   "g1": 0.0659,
-   "fair": 57.244,
-   "pv_div": 18.057,
-   "pv_terminal": 39.187,
-   "koopprijs": 50.661,
-   "mos": 0.115,
-   "kwaliteit": 95,
-   "checks": {
-    "payout": 0.415,
-    "fcf_dekking": 5.67,
-    "netdebt_ebitda": 3.13,
-    "verlagingen": 0
-   },
-   "upside": -0.292,
-   "korting_tov_koop": -0.3734,
-   "yield_nu": 0.0235,
-   "yoc_koop": 0.0375,
-   "d0_norm": 1.9,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     2.0252
-    ],
-    [
-     2027,
-     2.1587
-    ],
-    [
-     2028,
-     2.3009
-    ],
-    [
-     2029,
-     2.4526
-    ],
-    [
-     2030,
-     2.6142
-    ],
-    [
-     2031,
-     2.7625
-    ],
-    [
-     2032,
-     2.8938
-    ],
-    [
-     2033,
-     3.0048
-    ],
-    [
-     2034,
-     3.0925
-    ],
-    [
-     2035,
-     3.1544
-    ]
-   ],
-   "guidance_type": "groei",
-   "guidance_bron": "heinekenholding.com/investors/share-information/dividend + AVA 23 april 2026",
-   "guidance_notitie": "Boekjaar 2025: interim 0,74 + slot 1,16 = 1,90 per aandeel (2024: 1,86), goedgekeurd op de AVA van 23 april 2026. Beleid: payout 30-40% van de nettowinst beia - voor uitzonderlijke posten en merkamortisatie - vanaf 2026 verruimd naar 30-50%. Interim vastgesteld op 40% van het vorige jaartotaal. Guidance 2026: organische groei operationele winst 2-6%; middellange termijn omzetgroei circa 5%. Groei op 4% gezet, het midden van de winstguidance; dat is een eigen aanname want er is geen bedrag toegezegd. Holding bezit 50,005% van Heineken N.V. en keert exact hetzelfde bedrag per aandeel uit. De koers ligt structureel lager, dus het aanvangsrendement is hoger bij hetzelfde dividend.",
-   "agenda": {
-    "laatste_cijfers": null,
-    "laatste_soort": null,
-    "volgende_cijfers": "2027-02-10",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 89,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "heinekenholding.com/investors/share-information/dividend + AVA 23 april 2026",
-    "status": "vers"
-   },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0243,
-   "netto_inkoop": 535000000,
-   "g1_kaal": 0.04,
-   "houdbare_groei": 0.0136,
-   "roe": 0.12321,
-   "fair_laag": 44.863,
-   "fair_hoog": 75.123,
-   "payout_stabiel": 0.8377,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 1.9,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.752,
-   "beta_herkomst": "eigen",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 57.244,
-   "waardering_bron": "dividendmodel",
-   "bvps": 33.346,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 0.663,
-   "beta_r2": 0.2133,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 4.58,
-   "eps_fwd": 4.58,
-   "dekking_wpa": 2.41
-  },
-  {
    "ticker": "AGN.AS",
    "naam": "Aegon Ltd.",
    "sector": "Financial Services",
-   "koers": 7.856,
+   "koers": 7.828,
    "valuta": "EUR",
    "d0": 0.38,
    "g3": 0.2386,
@@ -2686,13 +2534,13 @@
     "2025": 0.38,
     "2026": 0.42
    },
-   "mcap": 11443095552,
-   "opgehaald": "2026-11-13T22:47:14+00:00",
+   "mcap": 11402310656,
+   "opgehaald": "2026-11-17T00:59:29+00:00",
    "r": 0.0821,
-   "g1": 0.145,
+   "g1": 0.1452,
    "fair": 6.995,
-   "pv_div": 5.062,
-   "pv_terminal": 10.869,
+   "pv_div": 5.067,
+   "pv_terminal": 10.88,
    "koopprijs": 4.91,
    "mos": 0.298,
    "kwaliteit": 34,
@@ -2702,9 +2550,9 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.786
    },
-   "upside": -0.1096,
-   "korting_tov_koop": -0.3749,
-   "yield_nu": 0.0509,
+   "upside": -0.1064,
+   "korting_tov_koop": -0.3727,
+   "yield_nu": 0.0511,
    "yoc_koop": 0.0815,
    "d0_norm": 0.4,
    "special_div": false,
@@ -2713,43 +2561,43 @@
    "pad": [
     [
      2026,
-     0.458
+     0.4581
     ],
     [
      2027,
-     0.5244
+     0.5246
     ],
     [
      2028,
-     0.6004
+     0.6008
     ],
     [
      2029,
-     0.6874
+     0.688
     ],
     [
      2030,
-     0.7871
+     0.7879
     ],
     [
      2031,
-     0.8815
+     0.8826
     ],
     [
      2032,
-     0.9652
+     0.9665
     ],
     [
      2033,
-     1.0327
+     1.0343
     ],
     [
      2034,
-     1.0792
+     1.0809
     ],
     [
      2035,
-     1.1008
+     1.1025
     ]
    ],
    "guidance_type": "groei",
@@ -2760,19 +2608,19 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-02-18",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 97,
+    "dagen_tot": 93,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "aegon.com Group Dividend Policy (pdf, januari 2024) + dividendhistorie",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0742,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0744,
    "netto_inkoop": 848666667,
    "g1_kaal": 0.06,
    "houdbare_groei": -0.0667,
    "roe": 0.110690005,
-   "fair_laag": 12.566,
-   "fair_hoog": 20.759,
+   "fair_laag": 12.579,
+   "fair_hoog": 20.778,
    "payout_stabiel": 0.8193,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -2781,13 +2629,13 @@
    "d0_netto": 0.4,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.991,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": true,
    "fair_ri": 6.995,
    "ri_overwinst": 0.991,
-   "fair_ddm": 15.931,
+   "fair_ddm": 15.947,
    "waardering_bron": "residual income (laagste van twee)",
    "bvps": 6.004,
    "ri_afwijking": 0.0,
@@ -2802,10 +2650,161 @@
    "dekking_wpa": 2.45
   },
   {
+   "ticker": "HEIO.AS",
+   "naam": "Heineken Holding N.V.",
+   "sector": "Consumer Defensive",
+   "koers": 81.5,
+   "valuta": "EUR",
+   "d0": 1.91,
+   "g3": 0.0937,
+   "g5": 0.1293,
+   "payout": 0.4634,
+   "beta": 0.575,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2005": 0.16,
+    "2006": 0.4,
+    "2007": 0.68,
+    "2008": 0.74,
+    "2009": 0.59,
+    "2010": 0.66,
+    "2011": 0.8,
+    "2012": 0.86,
+    "2013": 0.92,
+    "2014": 0.89,
+    "2015": 1.18,
+    "2016": 1.38,
+    "2017": 1.36,
+    "2018": 1.52,
+    "2019": 1.65,
+    "2020": 1.04,
+    "2021": 0.98,
+    "2022": 1.46,
+    "2023": 1.92,
+    "2024": 1.73,
+    "2025": 1.91,
+    "2026": 2.0867
+   },
+   "mcap": 22237827072,
+   "opgehaald": "2026-11-17T00:59:48+00:00",
+   "r": 0.0702,
+   "g1": 0.0657,
+   "fair": 57.149,
+   "pv_div": 18.038,
+   "pv_terminal": 39.111,
+   "koopprijs": 50.577,
+   "mos": 0.115,
+   "kwaliteit": 95,
+   "checks": {
+    "payout": 0.415,
+    "fcf_dekking": 5.67,
+    "netdebt_ebitda": 3.13,
+    "verlagingen": 0
+   },
+   "upside": -0.2988,
+   "korting_tov_koop": -0.3794,
+   "yield_nu": 0.0233,
+   "yoc_koop": 0.0376,
+   "d0_norm": 1.9,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     2.0248
+    ],
+    [
+     2027,
+     2.1578
+    ],
+    [
+     2028,
+     2.2995
+    ],
+    [
+     2029,
+     2.4506
+    ],
+    [
+     2030,
+     2.6115
+    ],
+    [
+     2031,
+     2.7592
+    ],
+    [
+     2032,
+     2.89
+    ],
+    [
+     2033,
+     3.0006
+    ],
+    [
+     2034,
+     3.088
+    ],
+    [
+     2035,
+     3.1498
+    ]
+   ],
+   "guidance_type": "groei",
+   "guidance_bron": "heinekenholding.com/investors/share-information/dividend + AVA 23 april 2026",
+   "guidance_notitie": "Boekjaar 2025: interim 0,74 + slot 1,16 = 1,90 per aandeel (2024: 1,86), goedgekeurd op de AVA van 23 april 2026. Beleid: payout 30-40% van de nettowinst beia - voor uitzonderlijke posten en merkamortisatie - vanaf 2026 verruimd naar 30-50%. Interim vastgesteld op 40% van het vorige jaartotaal. Guidance 2026: organische groei operationele winst 2-6%; middellange termijn omzetgroei circa 5%. Groei op 4% gezet, het midden van de winstguidance; dat is een eigen aanname want er is geen bedrag toegezegd. Holding bezit 50,005% van Heineken N.V. en keert exact hetzelfde bedrag per aandeel uit. De koers ligt structureel lager, dus het aanvangsrendement is hoger bij hetzelfde dividend.",
+   "agenda": {
+    "laatste_cijfers": null,
+    "laatste_soort": null,
+    "volgende_cijfers": "2027-02-10",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 85,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "heinekenholding.com/investors/share-information/dividend + AVA 23 april 2026",
+    "status": "vers"
+   },
+   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "inkoop_rend": 0.0241,
+   "netto_inkoop": 535000000,
+   "g1_kaal": 0.04,
+   "houdbare_groei": 0.0132,
+   "roe": 0.12321,
+   "fair_laag": 44.791,
+   "fair_hoog": 74.992,
+   "payout_stabiel": 0.8377,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 1.9,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": true,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.752,
+   "beta_herkomst": "eigen",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 57.149,
+   "waardering_bron": "dividendmodel",
+   "bvps": 33.346,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 0.663,
+   "beta_r2": 0.2133,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 4.58,
+   "eps_fwd": 4.58,
+   "dekking_wpa": 2.41
+  },
+  {
    "ticker": "SBMO.AS",
    "naam": "SBM Offshore N.V.",
    "sector": "Energy",
-   "koers": 34.46,
+   "koers": 34.28,
    "valuta": "EUR",
    "d0": 0.8606,
    "g3": -0.0198,
@@ -2819,11 +2818,11 @@
     "2006": 0.63286,
     "2007": 0.55927,
     "2008": 0.58969,
-    "2009": 0.41372,
+    "2009": 0.41477,
     "2010": 0.48077,
     "2011": 0.47096,
-    "2016": 0.19043,
-    "2017": 0.20856,
+    "2016": 0.19091,
+    "2017": 0.20909,
     "2018": 0.2019,
     "2019": 0.3302,
     "2020": 0.745,
@@ -2834,27 +2833,27 @@
     "2025": 0.8606,
     "2026": 1.0084
    },
-   "mcap": 5665338880,
-   "opgehaald": "2026-11-13T22:47:44+00:00",
+   "mcap": 5430066688,
+   "opgehaald": "2026-11-17T01:00:05+00:00",
    "r": 0.0708,
-   "g1": 0.0473,
-   "fair": 26.824,
-   "pv_div": 8.72,
-   "pv_terminal": 18.103,
-   "koopprijs": 20.681,
+   "g1": 0.048,
+   "fair": 26.933,
+   "pv_div": 8.748,
+   "pv_terminal": 18.185,
+   "koopprijs": 20.766,
    "mos": 0.229,
    "kwaliteit": 57,
    "checks": {
     "payout": 0.109,
-    "fcf_dekking": 12.53,
+    "fcf_dekking": 13.01,
     "netdebt_ebitda": 3.26,
     "verlagingen": 2,
-    "diepste_verlaging": -0.557
+    "diepste_verlaging": -0.556
    },
-   "upside": -0.2216,
-   "korting_tov_koop": -0.3999,
-   "yield_nu": 0.029,
-   "yoc_koop": 0.0484,
+   "upside": -0.2143,
+   "korting_tov_koop": -0.3942,
+   "yield_nu": 0.0292,
+   "yoc_koop": 0.0482,
    "d0_norm": 1.0,
    "special_div": false,
    "vlag": null,
@@ -2862,43 +2861,43 @@
    "pad": [
     [
      2026,
-     1.0473
+     1.048
     ],
     [
      2027,
-     1.0968
+     1.0984
     ],
     [
      2028,
-     1.1487
+     1.1511
     ],
     [
      2029,
-     1.203
+     1.2064
     ],
     [
      2030,
-     1.2598
+     1.2643
     ],
     [
      2031,
-     1.3125
+     1.318
     ],
     [
      2032,
-     1.3603
+     1.3665
     ],
     [
      2033,
-     1.4023
+     1.4091
     ],
     [
      2034,
-     1.438
+     1.4452
     ],
     [
      2035,
-     1.4668
+     1.4741
     ]
    ],
    "guidance_type": "groei",
@@ -2909,19 +2908,19 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-02-18",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 97,
+    "dagen_tot": 93,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "SBM Offshore jaarcijfers 2025 (26-02-2026), Q1-update (07-05-2026) en halfjaarcijfers 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0165,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0172,
    "netto_inkoop": 93666667,
    "g1_kaal": 0.03,
-   "houdbare_groei": 0.1381,
+   "houdbare_groei": 0.1373,
    "roe": 0.18027,
-   "fair_laag": 21.043,
-   "fair_hoog": 35.174,
+   "fair_laag": 21.129,
+   "fair_hoog": 35.316,
    "payout_stabiel": 0.8891,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -2930,13 +2929,13 @@
    "d0_netto": 1.0,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.766,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 26.824,
+   "fair_ddm": 26.933,
    "waardering_bron": "dividendmodel",
    "bvps": 23.980347,
    "ri_afwijking": null,
@@ -2954,7 +2953,7 @@
    "ticker": "VPK.AS",
    "naam": "Koninklijke Vopak N.V.",
    "sector": "Energy",
-   "koers": 54.85,
+   "koers": 55.05,
    "valuta": "EUR",
    "d0": 1.6,
    "g3": 0.0858,
@@ -2990,14 +2989,14 @@
     "2025": 1.6,
     "2026": 2.52
    },
-   "mcap": 6250771968,
-   "opgehaald": "2026-11-13T22:47:49+00:00",
-   "r": 0.0681,
+   "mcap": 6273564160,
+   "opgehaald": "2026-11-17T01:00:11+00:00",
+   "r": 0.0682,
    "g1": 0.0638,
-   "fair": 41.996,
-   "pv_div": 17.121,
-   "pv_terminal": 24.875,
-   "koopprijs": 31.497,
+   "fair": 41.981,
+   "pv_div": 17.119,
+   "pv_terminal": 24.862,
+   "koopprijs": 31.486,
    "mos": 0.25,
    "kwaliteit": 50,
    "checks": {
@@ -3007,10 +3006,10 @@
     "plafond": "schuld boven 4x ebitda",
     "zonder_plafond": 57
    },
-   "upside": -0.2344,
-   "korting_tov_koop": -0.4258,
-   "yield_nu": 0.0328,
-   "yoc_koop": 0.0571,
+   "upside": -0.2374,
+   "korting_tov_koop": -0.428,
+   "yield_nu": 0.0327,
+   "yoc_koop": 0.0572,
    "d0_norm": 1.8,
    "special_div": false,
    "vlag": null,
@@ -3065,7 +3064,7 @@
     "laatste_soort": "halfjaarcijfers",
     "volgende_cijfers": "2027-02-17",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 96,
+    "dagen_tot": 92,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "vopak.com/investors - jaarcijfers 2025, nieuw kapitaalbeleid april 2026",
     "status": "vers"
@@ -3076,8 +3075,8 @@
    "g1_kaal": 0.04,
    "houdbare_groei": null,
    "roe": null,
-   "fair_laag": 33.617,
-   "fair_hoog": 53.922,
+   "fair_laag": 33.607,
+   "fair_hoog": 53.9,
    "payout_stabiel": null,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -3086,13 +3085,13 @@
    "d0_netto": 1.8,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.712,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 41.996,
+   "fair_ddm": 41.981,
    "waardering_bron": "dividendmodel",
    "bvps": 28.791,
    "ri_afwijking": null,
@@ -3107,12 +3106,165 @@
    "dekking_wpa": 1.89
   },
   {
+   "ticker": "RAND.AS",
+   "naam": "Randstad N.V.",
+   "sector": "Industrials",
+   "koers": 42.0,
+   "valuta": "EUR",
+   "d0": 1.62,
+   "g3": -0.3132,
+   "g5": null,
+   "payout": 0.8351,
+   "beta": 0.949,
+   "cuts_sinds_2010": 1,
+   "div_hist": {
+    "2001": 0.5,
+    "2002": 0.32182,
+    "2003": 0.36091,
+    "2004": 0.25,
+    "2005": 0.66,
+    "2006": 0.84,
+    "2007": 1.25,
+    "2008": 1.25,
+    "2011": 1.18,
+    "2012": 1.25,
+    "2013": 1.25,
+    "2014": 0.95,
+    "2015": 1.29,
+    "2016": 1.68,
+    "2017": 1.89,
+    "2018": 2.76,
+    "2019": 3.38,
+    "2021": 3.24,
+    "2022": 5.0,
+    "2023": 2.85,
+    "2024": 3.55,
+    "2025": 1.62,
+    "2026": 1.62
+   },
+   "mcap": 7368927744,
+   "opgehaald": "2026-11-17T01:00:03+00:00",
+   "r": 0.0783,
+   "g1": 0.0222,
+   "fair": 30.683,
+   "pv_div": 12.205,
+   "pv_terminal": 18.478,
+   "koopprijs": 23.84,
+   "mos": 0.223,
+   "kwaliteit": 59,
+   "checks": {
+    "payout": 0.643,
+    "fcf_dekking": 1.34,
+    "netdebt_ebitda": 2.36,
+    "verlagingen": 1,
+    "diepste_verlaging": -0.544
+   },
+   "upside": -0.2695,
+   "korting_tov_koop": -0.4324,
+   "yield_nu": 0.0386,
+   "yoc_koop": 0.068,
+   "d0_norm": 1.62,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     1.6559
+    ],
+    [
+     2027,
+     1.6927
+    ],
+    [
+     2028,
+     1.7302
+    ],
+    [
+     2029,
+     1.7686
+    ],
+    [
+     2030,
+     1.8078
+    ],
+    [
+     2031,
+     1.8471
+    ],
+    [
+     2032,
+     1.8865
+    ],
+    [
+     2033,
+     1.9259
+    ],
+    [
+     2034,
+     1.9652
+    ],
+    [
+     2035,
+     2.0045
+    ]
+   ],
+   "guidance_type": null,
+   "guidance_bron": "randstad.com/investor-relations - dividendvoorstel februari 2026, jaarcijfers 2025",
+   "guidance_notitie": "Bodemdividend van 1,62 per aandeel sinds 2018, payout-beleid 40-55% van de aangepaste nettowinst. Over boekjaar 2025 exact het minimum: 1,62 (geen speciaal dividend). Winst per aandeel 2025: 2,52 (2024: 2,30), payout 64%. Extra uitkeringen - speciaal dividend of inkoop - alleen als de nettoschuld/ebitda onder 1,0 blijft; over 2024 was dat 1,27 extra. Groei op nul gezet: het reguliere dividend staat al acht jaar stil en de extra's zijn per definitie incidenteel, dus horen niet als structurele groei in dit model. Het model leidde eerder -31% groei af doordat het weggevallen speciale dividenden als een daling las.",
+   "agenda": {
+    "laatste_cijfers": "2026-10-20",
+    "laatste_soort": "Q3",
+    "volgende_cijfers": "2027-02-17",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 92,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "randstad.com/investor-relations - dividendvoorstel februari 2026, jaarcijfers 2025",
+    "status": "verouderd"
+   },
+   "override_gewijzigd": "2026-08-15T12:12:09+00:00",
+   "inkoop_rend": 0.0217,
+   "netto_inkoop": 159666667,
+   "g1_kaal": 0.0,
+   "houdbare_groei": -0.0101,
+   "roe": 0.08777001,
+   "fair_laag": 24.458,
+   "fair_hoog": 39.596,
+   "payout_stabiel": 0.7721,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 1.62,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": true,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.914,
+   "beta_herkomst": "gemengd",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 30.683,
+   "waardering_bron": "dividendmodel",
+   "bvps": 22.938,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 0.8755,
+   "beta_r2": 0.1998,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 2.52,
+   "eps_fwd": 2.52,
+   "dekking_wpa": 1.56
+  },
+  {
    "ticker": "REN.AS",
    "naam": "RELX PLC",
    "sector": "Industrials",
-   "koers": 36.8,
+   "koers": 36.74,
    "valuta": "EUR",
-   "d0": 0.77038,
+   "d0": 0.77064,
    "g3": 0.0789,
    "g5": 0.0707,
    "payout": 0.5409,
@@ -3124,7 +3276,7 @@
     "2002": 0.22533,
     "2003": 0.21782,
     "2004": 0.23284,
-    "2005": 0.36174,
+    "2005": 0.36202,
     "2006": 0.27715,
     "2007": 0.31395,
     "2008": 1.42523,
@@ -3138,23 +3290,23 @@
     "2016": 0.41,
     "2017": 0.433,
     "2018": 0.456,
-    "2019": 0.51878,
-    "2020": 0.54753,
-    "2021": 0.57149,
-    "2022": 0.61343,
-    "2023": 0.66974,
-    "2024": 0.71886,
-    "2025": 0.77038,
-    "2026": 0.82549
+    "2019": 0.51895,
+    "2020": 0.54771,
+    "2021": 0.57168,
+    "2022": 0.61363,
+    "2023": 0.66996,
+    "2024": 0.7191,
+    "2025": 0.77064,
+    "2026": 0.82577
    },
-   "mcap": 63836643328,
-   "opgehaald": "2026-11-13T22:47:43+00:00",
-   "r": 0.0728,
+   "mcap": 63732568064,
+   "opgehaald": "2026-11-17T01:00:04+00:00",
+   "r": 0.0729,
    "g1": 0.079,
-   "fair": 24.812,
-   "pv_div": 7.739,
-   "pv_terminal": 17.073,
-   "koopprijs": 20.768,
+   "fair": 24.793,
+   "pv_div": 7.736,
+   "pv_terminal": 17.056,
+   "koopprijs": 20.751,
    "mos": 0.163,
    "kwaliteit": 79,
    "checks": {
@@ -3163,8 +3315,8 @@
     "netdebt_ebitda": 2.64,
     "verlagingen": 0
    },
-   "upside": -0.3258,
-   "korting_tov_koop": -0.4357,
+   "upside": -0.3252,
+   "korting_tov_koop": -0.4352,
    "yield_nu": 0.0212,
    "yoc_koop": 0.0375,
    "d0_norm": 0.779,
@@ -3221,19 +3373,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-11",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 90,
+    "dagen_tot": 86,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "relx.com/investors/shareholder-information/dividend-information + jaarcijfers 12 februari 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0176,
    "netto_inkoop": 1123666667,
    "g1_kaal": 0.06,
    "houdbare_groei": 0.0213,
    "roe": 1.31864,
-   "fair_laag": 19.45,
-   "fair_hoog": 32.55,
+   "fair_laag": 19.436,
+   "fair_hoog": 32.523,
    "payout_stabiel": 0.9848,
    "land": "GB",
    "bron_tarief": 0.0,
@@ -3242,13 +3394,13 @@
    "d0_netto": 0.779,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.806,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.807,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 24.812,
+   "fair_ddm": 24.793,
    "waardering_bron": "dividendmodel",
    "bvps": 0.8441272,
    "ri_afwijking": null,
@@ -3266,7 +3418,7 @@
    "ticker": "HEIA.AS",
    "naam": "Heineken N.V.",
    "sector": "Consumer Defensive",
-   "koers": 84.72,
+   "koers": 85.08,
    "valuta": "EUR",
    "d0": 1.91,
    "g3": 0.0937,
@@ -3302,14 +3454,14 @@
     "2025": 1.91,
     "2026": 0.76
    },
-   "mcap": 47290548224,
-   "opgehaald": "2026-11-13T22:47:29+00:00",
+   "mcap": 47491497984,
+   "opgehaald": "2026-11-17T00:59:47+00:00",
    "r": 0.0681,
    "g1": 0.0522,
-   "fair": 53.641,
-   "pv_div": 17.166,
-   "pv_terminal": 36.475,
-   "koopprijs": 47.472,
+   "fair": 53.621,
+   "pv_div": 17.165,
+   "pv_terminal": 36.456,
+   "koopprijs": 47.454,
    "mos": 0.115,
    "kwaliteit": 95,
    "checks": {
@@ -3318,9 +3470,9 @@
     "netdebt_ebitda": 3.22,
     "verlagingen": 0
    },
-   "upside": -0.3668,
-   "korting_tov_koop": -0.4397,
-   "yield_nu": 0.0224,
+   "upside": -0.3698,
+   "korting_tov_koop": -0.4422,
+   "yield_nu": 0.0223,
    "yoc_koop": 0.04,
    "d0_norm": 1.9,
    "special_div": false,
@@ -3376,7 +3528,7 @@
     "laatste_soort": "halfjaarcijfers",
     "volgende_cijfers": "2027-02-10",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 89,
+    "dagen_tot": 85,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "theheinekencompany.com/investors + persbericht jaarcijfers 11 februari 2026",
     "status": "vers"
@@ -3385,10 +3537,10 @@
    "inkoop_rend": 0.0116,
    "netto_inkoop": 549333333,
    "g1_kaal": 0.04,
-   "houdbare_groei": 0.0421,
+   "houdbare_groei": 0.0418,
    "roe": 0.121309996,
-   "fair_laag": 42.039,
-   "fair_hoog": 70.402,
+   "fair_laag": 42.025,
+   "fair_hoog": 70.371,
    "payout_stabiel": 0.8351,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -3397,13 +3549,13 @@
    "d0_netto": 1.9,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.711,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 53.641,
+   "fair_ddm": 53.621,
    "waardering_bron": "dividendmodel",
    "bvps": 34.867,
    "ri_afwijking": null,
@@ -3418,163 +3570,10 @@
    "dekking_wpa": 2.41
   },
   {
-   "ticker": "RAND.AS",
-   "naam": "Randstad N.V.",
-   "sector": "Industrials",
-   "koers": 42.74,
-   "valuta": "EUR",
-   "d0": 1.62,
-   "g3": -0.3132,
-   "g5": null,
-   "payout": 0.8351,
-   "beta": 0.949,
-   "cuts_sinds_2010": 1,
-   "div_hist": {
-    "2001": 0.5,
-    "2002": 0.32136,
-    "2003": 0.36043,
-    "2004": 0.25,
-    "2005": 0.66,
-    "2006": 0.84,
-    "2007": 1.25,
-    "2008": 1.25,
-    "2011": 1.18,
-    "2012": 1.25,
-    "2013": 1.25,
-    "2014": 0.95,
-    "2015": 1.29,
-    "2016": 1.68,
-    "2017": 1.89,
-    "2018": 2.76,
-    "2019": 3.38,
-    "2021": 3.24,
-    "2022": 5.0,
-    "2023": 2.85,
-    "2024": 3.55,
-    "2025": 1.62,
-    "2026": 1.62
-   },
-   "mcap": 7498761216,
-   "opgehaald": "2026-11-13T22:47:42+00:00",
-   "r": 0.0782,
-   "g1": 0.0218,
-   "fair": 30.629,
-   "pv_div": 12.186,
-   "pv_terminal": 18.443,
-   "koopprijs": 23.799,
-   "mos": 0.223,
-   "kwaliteit": 59,
-   "checks": {
-    "payout": 0.643,
-    "fcf_dekking": 1.34,
-    "netdebt_ebitda": 2.36,
-    "verlagingen": 1,
-    "diepste_verlaging": -0.544
-   },
-   "upside": -0.2834,
-   "korting_tov_koop": -0.4432,
-   "yield_nu": 0.0379,
-   "yoc_koop": 0.0681,
-   "d0_norm": 1.62,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     1.6553
-    ],
-    [
-     2027,
-     1.6913
-    ],
-    [
-     2028,
-     1.7281
-    ],
-    [
-     2029,
-     1.7657
-    ],
-    [
-     2030,
-     1.8041
-    ],
-    [
-     2031,
-     1.8428
-    ],
-    [
-     2032,
-     1.8816
-    ],
-    [
-     2033,
-     1.9205
-    ],
-    [
-     2034,
-     1.9596
-    ],
-    [
-     2035,
-     1.9988
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": "randstad.com/investor-relations - dividendvoorstel februari 2026, jaarcijfers 2025",
-   "guidance_notitie": "Bodemdividend van 1,62 per aandeel sinds 2018, payout-beleid 40-55% van de aangepaste nettowinst. Over boekjaar 2025 exact het minimum: 1,62 (geen speciaal dividend). Winst per aandeel 2025: 2,52 (2024: 2,30), payout 64%. Extra uitkeringen - speciaal dividend of inkoop - alleen als de nettoschuld/ebitda onder 1,0 blijft; over 2024 was dat 1,27 extra. Groei op nul gezet: het reguliere dividend staat al acht jaar stil en de extra's zijn per definitie incidenteel, dus horen niet als structurele groei in dit model. Het model leidde eerder -31% groei af doordat het weggevallen speciale dividenden als een daling las.",
-   "agenda": {
-    "laatste_cijfers": "2026-10-20",
-    "laatste_soort": "Q3",
-    "volgende_cijfers": "2027-02-17",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 96,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "randstad.com/investor-relations - dividendvoorstel februari 2026, jaarcijfers 2025",
-    "status": "verouderd"
-   },
-   "override_gewijzigd": "2026-08-15T12:12:09+00:00",
-   "inkoop_rend": 0.0213,
-   "netto_inkoop": 159666667,
-   "g1_kaal": 0.0,
-   "houdbare_groei": -0.0086,
-   "roe": 0.08777001,
-   "fair_laag": 24.414,
-   "fair_hoog": 39.529,
-   "payout_stabiel": 0.7721,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 1.62,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.913,
-   "beta_herkomst": "gemengd",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 30.629,
-   "waardering_bron": "dividendmodel",
-   "bvps": 22.938,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 0.8755,
-   "beta_r2": 0.1998,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 2.52,
-   "eps_fwd": 2.52,
-   "dekking_wpa": 1.56
-  },
-  {
    "ticker": "NEDAP.AS",
    "naam": "Nedap N.V.",
    "sector": "Technology",
-   "koers": 95.4,
+   "koers": 94.3,
    "valuta": "EUR",
    "d0": 3.2,
    "g3": 0.0217,
@@ -3611,14 +3610,14 @@
     "2025": 3.2,
     "2026": 3.7
    },
-   "mcap": 630655616,
-   "opgehaald": "2026-11-13T22:47:37+00:00",
+   "mcap": 623383936,
+   "opgehaald": "2026-11-17T00:59:54+00:00",
    "r": 0.0719,
    "g1": 0.03,
-   "fair": 67.144,
-   "pv_div": 29.737,
-   "pv_terminal": 37.407,
-   "koopprijs": 52.171,
+   "fair": 67.122,
+   "pv_div": 29.735,
+   "pv_terminal": 37.388,
+   "koopprijs": 52.154,
    "mos": 0.223,
    "kwaliteit": 59,
    "checks": {
@@ -3627,9 +3626,9 @@
     "netdebt_ebitda": 0.02,
     "verlagingen": 0
    },
-   "upside": -0.2962,
-   "korting_tov_koop": -0.4531,
-   "yield_nu": 0.0388,
+   "upside": -0.2882,
+   "korting_tov_koop": -0.4469,
+   "yield_nu": 0.0392,
    "yoc_koop": 0.0709,
    "d0_norm": 3.7,
    "special_div": false,
@@ -3690,14 +3689,14 @@
     "guidance_bron": "Nedap jaarcijfers 2025 (24-02-2026) en halfjaarcijfers 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": -0.0027,
    "netto_inkoop": -1678000,
    "g1_kaal": 0.03,
    "houdbare_groei": 0.0018,
    "roe": 0.36967,
-   "fair_laag": 54.095,
-   "fair_hoog": 85.664,
+   "fair_laag": 54.08,
+   "fair_hoog": 85.631,
    "payout_stabiel": 0.9459,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -3706,13 +3705,13 @@
    "d0_netto": 3.7,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.787,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 67.144,
+   "fair_ddm": 67.122,
    "waardering_bron": "dividendmodel",
    "bvps": 12.113,
    "ri_afwijking": null,
@@ -3727,162 +3726,10 @@
    "dekking_wpa": 1.01
   },
   {
-   "ticker": "PHIA.AS",
-   "naam": "Koninklijke Philips N.V.",
-   "sector": "Healthcare",
-   "koers": 27.43,
-   "valuta": "EUR",
-   "d0": 0.85,
-   "g3": 0.0261,
-   "g5": null,
-   "payout": 2.0732,
-   "beta": 0.813,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2001": 0.3266,
-    "2002": 0.45,
-    "2003": 0.3266,
-    "2004": 0.3266,
-    "2005": 0.36289,
-    "2006": 0.39918,
-    "2007": 0.54433,
-    "2008": 0.63505,
-    "2009": 0.63505,
-    "2010": 0.63505,
-    "2011": 0.68041,
-    "2012": 0.68041,
-    "2013": 0.68041,
-    "2014": 0.72578,
-    "2015": 0.72578,
-    "2016": 0.72578,
-    "2017": 0.72578,
-    "2018": 0.72578,
-    "2019": 0.77114,
-    "2021": 0.78678,
-    "2022": 0.78678,
-    "2025": 0.85,
-    "2026": 0.85
-   },
-   "mcap": 26815952896,
-   "opgehaald": "2026-11-13T22:47:40+00:00",
-   "r": 0.0797,
-   "g1": 0.0134,
-   "fair": 16.68,
-   "pv_div": 6.119,
-   "pv_terminal": 10.561,
-   "koopprijs": 14.862,
-   "mos": 0.109,
-   "kwaliteit": 97,
-   "checks": {
-    "payout": 0.545,
-    "fcf_dekking": 2.22,
-    "netdebt_ebitda": 2.45,
-    "verlagingen": 0
-   },
-   "upside": -0.3919,
-   "korting_tov_koop": -0.4582,
-   "yield_nu": 0.031,
-   "yoc_koop": 0.0572,
-   "d0_norm": 0.85,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     0.8614
-    ],
-    [
-     2027,
-     0.8729
-    ],
-    [
-     2028,
-     0.8846
-    ],
-    [
-     2029,
-     0.8964
-    ],
-    [
-     2030,
-     0.9084
-    ],
-    [
-     2031,
-     0.9217
-    ],
-    [
-     2032,
-     0.9365
-    ],
-    [
-     2033,
-     0.9528
-    ],
-    [
-     2034,
-     0.9706
-    ],
-    [
-     2035,
-     0.99
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": "philips.com/investor-relations - dividendvoorstel bij de jaarcijfers, AVA mei 2026",
-   "guidance_notitie": "Jaardividend 2025 onveranderd op 0,85 per aandeel, net als in 2024. Beleid: stabiel dividend met payout 40-50% van de aangepaste nettowinst; over 2025 uitgekomen op 54% (aangepaste winst 1,56 tegen 1,36 in 2024). LET OP: keuzedividend - contant of in aandelen, en de STANDAARDOPTIE is aandelen als de aandeelhouder niets kiest. In 2019, 2022 en 2023 keerde Philips volledig in aandelen uit omdat de kaspositie dat vereiste; dan is het werkelijke cashrendement nul. Groei op nul gezet: het bedrag staat al jaren stil ondanks stijgende winst.",
-   "agenda": {
-    "laatste_cijfers": "2026-11-02",
-    "laatste_soort": "Q3",
-    "volgende_cijfers": "2027-02-09",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 88,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "philips.com/investor-relations - dividendvoorstel bij de jaarcijfers, AVA mei 2026",
-    "status": "verouderd"
-   },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0132,
-   "netto_inkoop": 353333333,
-   "g1_kaal": 0.0,
-   "houdbare_groei": -0.0367,
-   "roe": 0.08607,
-   "fair_laag": 13.191,
-   "fair_hoog": 21.706,
-   "payout_stabiel": 0.7676,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 0.85,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.944,
-   "beta_herkomst": "gemengd",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 16.68,
-   "waardering_bron": "dividendmodel",
-   "bvps": 11.845,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 0.9421,
-   "beta_r2": 0.1682,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 1.56,
-   "eps_fwd": 1.56,
-   "dekking_wpa": 1.84
-  },
-  {
    "ticker": "TWEKA.AS",
    "naam": "TKH Group N.V.",
    "sector": "Technology",
-   "koers": 48.08,
+   "koers": 47.12,
    "valuta": "EUR",
    "d0": 1.5,
    "g3": 0.0,
@@ -3919,14 +3766,14 @@
     "2025": 1.5,
     "2026": 1.35
    },
-   "mcap": 1919121792,
-   "opgehaald": "2026-11-13T22:47:46+00:00",
+   "mcap": 1880803072,
+   "opgehaald": "2026-11-17T01:00:09+00:00",
    "r": 0.0865,
-   "g1": 0.0392,
-   "fair": 30.57,
-   "pv_div": 10.543,
-   "pv_terminal": 20.027,
-   "koopprijs": 25.587,
+   "g1": 0.0395,
+   "fair": 30.597,
+   "pv_div": 10.551,
+   "pv_terminal": 20.045,
+   "koopprijs": 25.61,
    "mos": 0.163,
    "kwaliteit": 79,
    "checks": {
@@ -3935,10 +3782,10 @@
     "netdebt_ebitda": 2.75,
     "verlagingen": 0
    },
-   "upside": -0.3642,
-   "korting_tov_koop": -0.4678,
-   "yield_nu": 0.0281,
-   "yoc_koop": 0.0528,
+   "upside": -0.3507,
+   "korting_tov_koop": -0.4565,
+   "yield_nu": 0.0287,
+   "yoc_koop": 0.0527,
    "d0_norm": 1.35,
    "special_div": false,
    "vlag": null,
@@ -3946,43 +3793,43 @@
    "pad": [
     [
      2026,
-     1.403
+     1.4033
     ],
     [
      2027,
-     1.4581
+     1.4586
     ],
     [
      2028,
-     1.5153
+     1.5162
     ],
     [
      2029,
-     1.5748
+     1.576
     ],
     [
      2030,
-     1.6366
+     1.6382
     ],
     [
      2031,
-     1.6945
+     1.6965
     ],
     [
      2032,
-     1.748
+     1.7502
     ],
     [
      2033,
-     1.7964
+     1.7988
     ],
     [
      2034,
-     1.8392
+     1.8418
     ],
     [
      2035,
-     1.876
+     1.8787
     ]
    ],
    "guidance_type": "groei",
@@ -3993,19 +3840,19 @@
     "laatste_soort": "halfjaarcijfers",
     "volgende_cijfers": "2027-03-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 111,
+    "dagen_tot": 107,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "tkhgroup.com/investors - jaarcijfers 4 maart 2026, AVA 13 mei 2026",
     "status": "vers"
    },
    "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0089,
+   "inkoop_rend": 0.0091,
    "netto_inkoop": 17095000,
    "g1_kaal": 0.03,
-   "houdbare_groei": 0.0443,
+   "houdbare_groei": 0.0444,
    "roe": 0.1496,
-   "fair_laag": 24.1,
-   "fair_hoog": 39.9,
+   "fair_laag": 24.122,
+   "fair_hoog": 39.933,
    "payout_stabiel": 0.8663,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -4014,13 +3861,13 @@
    "d0_netto": 1.35,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.079,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 30.57,
+   "fair_ddm": 30.597,
    "waardering_bron": "dividendmodel",
    "bvps": 22.57,
    "ri_afwijking": null,
@@ -4035,10 +3882,162 @@
    "dekking_wpa": 1.76
   },
   {
+   "ticker": "PHIA.AS",
+   "naam": "Koninklijke Philips N.V.",
+   "sector": "Healthcare",
+   "koers": 27.54,
+   "valuta": "EUR",
+   "d0": 0.85,
+   "g3": 0.0261,
+   "g5": null,
+   "payout": 0.8586,
+   "beta": 0.813,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2001": 0.3266,
+    "2002": 0.45031,
+    "2003": 0.3266,
+    "2004": 0.3266,
+    "2005": 0.36289,
+    "2006": 0.39918,
+    "2007": 0.54433,
+    "2008": 0.63505,
+    "2009": 0.63505,
+    "2010": 0.63505,
+    "2011": 0.68041,
+    "2012": 0.68041,
+    "2013": 0.68041,
+    "2014": 0.72578,
+    "2015": 0.72578,
+    "2016": 0.72578,
+    "2017": 0.72578,
+    "2018": 0.72578,
+    "2019": 0.77114,
+    "2021": 0.78678,
+    "2022": 0.78678,
+    "2025": 0.85,
+    "2026": 0.85
+   },
+   "mcap": 26923491328,
+   "opgehaald": "2026-11-17T00:59:58+00:00",
+   "r": 0.0798,
+   "g1": 0.0133,
+   "fair": 16.664,
+   "pv_div": 6.116,
+   "pv_terminal": 10.549,
+   "koopprijs": 14.848,
+   "mos": 0.109,
+   "kwaliteit": 97,
+   "checks": {
+    "payout": 0.545,
+    "fcf_dekking": 2.22,
+    "netdebt_ebitda": 2.45,
+    "verlagingen": 0
+   },
+   "upside": -0.3949,
+   "korting_tov_koop": -0.4609,
+   "yield_nu": 0.0309,
+   "yoc_koop": 0.0572,
+   "d0_norm": 0.85,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     0.8613
+    ],
+    [
+     2027,
+     0.8727
+    ],
+    [
+     2028,
+     0.8843
+    ],
+    [
+     2029,
+     0.896
+    ],
+    [
+     2030,
+     0.9079
+    ],
+    [
+     2031,
+     0.9212
+    ],
+    [
+     2032,
+     0.9359
+    ],
+    [
+     2033,
+     0.9521
+    ],
+    [
+     2034,
+     0.9699
+    ],
+    [
+     2035,
+     0.9893
+    ]
+   ],
+   "guidance_type": null,
+   "guidance_bron": "philips.com/investor-relations - dividendvoorstel bij de jaarcijfers, AVA mei 2026",
+   "guidance_notitie": "Jaardividend 2025 onveranderd op 0,85 per aandeel, net als in 2024. Beleid: stabiel dividend met payout 40-50% van de aangepaste nettowinst; over 2025 uitgekomen op 54% (aangepaste winst 1,56 tegen 1,36 in 2024). LET OP: keuzedividend - contant of in aandelen, en de STANDAARDOPTIE is aandelen als de aandeelhouder niets kiest. In 2019, 2022 en 2023 keerde Philips volledig in aandelen uit omdat de kaspositie dat vereiste; dan is het werkelijke cashrendement nul. Groei op nul gezet: het bedrag staat al jaren stil ondanks stijgende winst.",
+   "agenda": {
+    "laatste_cijfers": "2026-11-02",
+    "laatste_soort": "Q3",
+    "volgende_cijfers": "2027-02-09",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 84,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "philips.com/investor-relations - dividendvoorstel bij de jaarcijfers, AVA mei 2026",
+    "status": "verouderd"
+   },
+   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "inkoop_rend": 0.0131,
+   "netto_inkoop": 353333333,
+   "g1_kaal": 0.0,
+   "houdbare_groei": -0.0367,
+   "roe": 0.08607,
+   "fair_laag": 13.179,
+   "fair_hoog": 21.683,
+   "payout_stabiel": 0.7676,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 0.85,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": true,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.944,
+   "beta_herkomst": "gemengd",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 16.664,
+   "waardering_bron": "dividendmodel",
+   "bvps": 11.845,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 0.9421,
+   "beta_r2": 0.1682,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 1.56,
+   "eps_fwd": 1.56,
+   "dekking_wpa": 1.84
+  },
+  {
    "ticker": "SLIGR.AS",
    "naam": "Sligro Food Group N.V.",
    "sector": "Consumer Defensive",
-   "koers": 9.34,
+   "koers": 9.23,
    "valuta": "EUR",
    "d0": 0.5,
    "g3": 0.1856,
@@ -4075,14 +4074,14 @@
     "2025": 0.5,
     "2026": 0.4
    },
-   "mcap": 411999712,
-   "opgehaald": "2026-11-13T22:47:45+00:00",
+   "mcap": 407147424,
+   "opgehaald": "2026-11-17T01:00:07+00:00",
    "r": 0.0667,
    "g1": 0.0008,
-   "fair": 7.651,
+   "fair": 7.649,
    "pv_div": 3.619,
-   "pv_terminal": 4.032,
-   "koopprijs": 4.958,
+   "pv_terminal": 4.03,
+   "koopprijs": 4.956,
    "mos": 0.352,
    "kwaliteit": 16,
    "checks": {
@@ -4092,10 +4091,10 @@
     "verlagingen": 4,
     "diepste_verlaging": -0.786
    },
-   "upside": -0.1808,
-   "korting_tov_koop": -0.4692,
-   "yield_nu": 0.0535,
-   "yoc_koop": 0.1008,
+   "upside": -0.1713,
+   "korting_tov_koop": -0.463,
+   "yield_nu": 0.0542,
+   "yoc_koop": 0.1009,
    "d0_norm": 0.5,
    "special_div": false,
    "vlag": null,
@@ -4150,19 +4149,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 83,
+    "dagen_tot": 79,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Sligro persbericht jaarcijfers 2025 (05-02-2026), dividendpagina en halfjaarcijfers 2026 (23-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0008,
    "netto_inkoop": 333333,
    "g1_kaal": 0.0,
    "houdbare_groei": 0.0144,
    "roe": 0.05702,
-   "fair_laag": 6.196,
-   "fair_hoog": 9.71,
+   "fair_laag": 6.194,
+   "fair_hoog": 9.707,
    "payout_stabiel": 0.6492,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -4171,13 +4170,13 @@
    "d0_netto": 0.5,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.683,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 7.651,
+   "fair_ddm": 7.649,
    "waardering_bron": "dividendmodel",
    "bvps": 11.125,
    "ri_afwijking": null,
@@ -4195,7 +4194,7 @@
    "ticker": "UMG.AS",
    "naam": "Universal Music Group N.V.",
    "sector": "Communication Services",
-   "koers": 17.63,
+   "koers": 17.485,
    "valuta": "EUR",
    "d0": 0.52,
    "g3": 0.0573,
@@ -4211,14 +4210,14 @@
     "2025": 0.52,
     "2026": 0.52
    },
-   "mcap": 31702450176,
-   "opgehaald": "2026-11-13T22:47:47+00:00",
-   "r": 0.0788,
+   "mcap": 31441713152,
+   "opgehaald": "2026-11-17T01:00:09+00:00",
+   "r": 0.079,
    "g1": 0.02,
-   "fair": 10.547,
-   "pv_div": 3.87,
-   "pv_terminal": 6.677,
-   "koopprijs": 9.144,
+   "fair": 10.535,
+   "pv_div": 3.868,
+   "pv_terminal": 6.667,
+   "koopprijs": 9.134,
    "mos": 0.133,
    "kwaliteit": 89,
    "checks": {
@@ -4227,9 +4226,9 @@
     "netdebt_ebitda": 2.27,
     "verlagingen": 0
    },
-   "upside": -0.4018,
-   "korting_tov_koop": -0.4813,
-   "yield_nu": 0.0295,
+   "upside": -0.3975,
+   "korting_tov_koop": -0.4776,
+   "yield_nu": 0.0297,
    "yoc_koop": 0.0569,
    "d0_norm": 0.52,
    "special_div": false,
@@ -4285,7 +4284,7 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-03-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 111,
+    "dagen_tot": 107,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "investors.universalmusic.com - jaarcijfers 5 maart 2026, halfjaarcijfers 30 juli 2026",
     "status": "vers"
@@ -4296,8 +4295,8 @@
    "g1_kaal": 0.02,
    "houdbare_groei": 0.0356,
    "roe": 0.076680005,
-   "fair_laag": 8.344,
-   "fair_hoog": 13.717,
+   "fair_laag": 8.336,
+   "fair_hoog": 13.701,
    "payout_stabiel": 0.7392,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -4306,13 +4305,13 @@
    "d0_netto": 0.52,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.926,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.928,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 10.547,
+   "fair_ddm": 10.535,
    "waardering_bron": "dividendmodel",
    "bvps": 2.0,
    "ri_afwijking": null,
@@ -4330,7 +4329,7 @@
    "ticker": "PNL.AS",
    "naam": "PostNL N.V.",
    "sector": "Industrials",
-   "koers": 0.821,
+   "koers": 0.811,
    "valuta": "EUR",
    "d0": 0.04,
    "g3": -0.557,
@@ -4361,14 +4360,14 @@
     "2025": 0.04,
     "2026": 0.04
    },
-   "mcap": 424128576,
-   "opgehaald": "2026-11-13T22:47:41+00:00",
-   "r": 0.0752,
+   "mcap": 418962592,
+   "opgehaald": "2026-11-17T01:00:00+00:00",
+   "r": 0.0753,
    "g1": 0.0,
    "fair": 0.627,
    "pv_div": 0.277,
    "pv_terminal": 0.35,
-   "koopprijs": 0.422,
+   "koopprijs": 0.421,
    "mos": 0.328,
    "kwaliteit": 24,
    "checks": {
@@ -4378,9 +4377,9 @@
     "verlagingen": 4,
     "diepste_verlaging": -0.842
    },
-   "upside": -0.2359,
-   "korting_tov_koop": -0.4865,
-   "yield_nu": 0.0487,
+   "upside": -0.227,
+   "korting_tov_koop": -0.4805,
+   "yield_nu": 0.0493,
    "yoc_koop": 0.0949,
    "d0_norm": 0.04,
    "special_div": false,
@@ -4436,18 +4435,18 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-02-22",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 101,
+    "dagen_tot": 97,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "PostNL jaarcijfers 2025 (23-02-2026), dividendaankondiging (14-04-2026) en halfjaarcijfers 2026 (03-08-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
    "houdbare_groei": 0.0243,
    "roe": 0.12141,
-   "fair_laag": 0.505,
+   "fair_laag": 0.504,
    "fair_hoog": 0.802,
    "payout_stabiel": 0.8353,
    "land": "NL",
@@ -4457,8 +4456,8 @@
    "d0_netto": 0.04,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.854,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.855,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
@@ -4481,7 +4480,7 @@
    "ticker": "HEIJM.AS",
    "naam": "Koninklijke Heijmans N.V.",
    "sector": "Industrials",
-   "koers": 85.55,
+   "koers": 84.55,
    "valuta": "EUR",
    "d0": 1.64,
    "g3": 0.2306,
@@ -4512,14 +4511,14 @@
     "2025": 1.64,
     "2026": 2.37
    },
-   "mcap": 2350743552,
-   "opgehaald": "2026-11-13T22:47:30+00:00",
-   "r": 0.0871,
+   "mcap": 2323265536,
+   "opgehaald": "2026-11-17T00:59:48+00:00",
+   "r": 0.0872,
    "g1": 0.02,
-   "fair": 47.63,
-   "pv_div": 16.973,
-   "pv_terminal": 30.658,
-   "koopprijs": 42.867,
+   "fair": 47.595,
+   "pv_div": 16.967,
+   "pv_terminal": 30.628,
+   "koopprijs": 42.836,
    "mos": 0.1,
    "kwaliteit": 100,
    "checks": {
@@ -4528,9 +4527,9 @@
     "netdebt_ebitda": -0.25,
     "verlagingen": 0
    },
-   "upside": -0.4432,
-   "korting_tov_koop": -0.4989,
-   "yield_nu": 0.0277,
+   "upside": -0.4371,
+   "korting_tov_koop": -0.4934,
+   "yield_nu": 0.028,
    "yoc_koop": 0.0553,
    "d0_norm": 2.37,
    "special_div": false,
@@ -4586,19 +4585,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-19",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 98,
+    "dagen_tot": 94,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Heijmans jaarcijfers 2025 (13-02-2026) en AVA-besluit dividend (29-04-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.02,
    "houdbare_groei": 0.1399,
    "roe": 0.28027,
-   "fair_laag": 37.604,
-   "fair_hoog": 62.09,
+   "fair_laag": 37.579,
+   "fair_hoog": 62.039,
    "payout_stabiel": 0.9286,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -4607,13 +4606,13 @@
    "d0_netto": 2.37,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 1.092,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 1.093,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 47.63,
+   "fair_ddm": 47.595,
    "waardering_bron": "dividendmodel",
    "bvps": 20.223,
    "ri_afwijking": null,
@@ -4631,7 +4630,7 @@
    "ticker": "AALB.AS",
    "naam": "Aalberts N.V.",
    "sector": "Industrials",
-   "koers": 41.18,
+   "koers": 40.34,
    "valuta": "EUR",
    "d0": 1.13,
    "g3": -0.1185,
@@ -4667,14 +4666,14 @@
     "2025": 1.13,
     "2026": 1.15
    },
-   "mcap": 4363748864,
-   "opgehaald": "2026-11-13T22:47:10+00:00",
+   "mcap": 4274736128,
+   "opgehaald": "2026-11-17T00:59:25+00:00",
    "r": 0.0971,
-   "g1": 0.0267,
-   "fair": 22.317,
-   "pv_div": 8.102,
-   "pv_terminal": 14.215,
-   "koopprijs": 19.884,
+   "g1": 0.0268,
+   "fair": 22.323,
+   "pv_div": 8.105,
+   "pv_terminal": 14.218,
+   "koopprijs": 19.889,
    "mos": 0.109,
    "kwaliteit": 97,
    "checks": {
@@ -4683,9 +4682,9 @@
     "netdebt_ebitda": 2.08,
     "verlagingen": 0
    },
-   "upside": -0.4581,
-   "korting_tov_koop": -0.5171,
-   "yield_nu": 0.0279,
+   "upside": -0.4466,
+   "korting_tov_koop": -0.507,
+   "yield_nu": 0.0285,
    "yoc_koop": 0.0578,
    "d0_norm": 1.15,
    "special_div": false,
@@ -4694,43 +4693,43 @@
    "pad": [
     [
      2026,
-     1.1807
+     1.1808
     ],
     [
      2027,
-     1.2122
+     1.2124
     ],
     [
      2028,
-     1.2445
+     1.2449
     ],
     [
      2029,
-     1.2777
+     1.2782
     ],
     [
      2030,
-     1.3118
+     1.3124
     ],
     [
      2031,
-     1.345
+     1.3458
     ],
     [
      2032,
-     1.3773
+     1.3782
     ],
     [
      2033,
-     1.4085
+     1.4095
     ],
     [
      2034,
-     1.4386
+     1.4396
     ],
     [
      2035,
-     1.4673
+     1.4684
     ]
    ],
    "guidance_type": "groei",
@@ -4741,19 +4740,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-23",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 102,
+    "dagen_tot": 98,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Aalberts persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (23-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0065,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0066,
    "netto_inkoop": 28233333,
    "g1_kaal": 0.02,
-   "houdbare_groei": 0.0227,
+   "houdbare_groei": 0.0228,
    "roe": 0.06217,
-   "fair_laag": 17.665,
-   "fair_hoog": 29.017,
+   "fair_laag": 17.67,
+   "fair_hoog": 29.023,
    "payout_stabiel": 0.6783,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -4762,13 +4761,13 @@
    "d0_netto": 1.15,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.291,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 22.317,
+   "fair_ddm": 22.323,
    "waardering_bron": "dividendmodel",
    "bvps": 22.505,
    "ri_afwijking": null,
@@ -4786,7 +4785,7 @@
    "ticker": "ARCAD.AS",
    "naam": "Arcadis NV",
    "sector": "Industrials",
-   "koers": 47.68,
+   "koers": 47.02,
    "valuta": "EUR",
    "d0": 1.0,
    "g3": -0.0837,
@@ -4823,14 +4822,14 @@
     "2025": 1.0,
     "2026": 1.05
    },
-   "mcap": 4094133504,
-   "opgehaald": "2026-11-13T22:47:17+00:00",
+   "mcap": 4037461504,
+   "opgehaald": "2026-11-17T00:59:33+00:00",
    "r": 0.0777,
-   "g1": 0.0458,
-   "fair": 26.455,
-   "pv_div": 8.798,
-   "pv_terminal": 17.657,
-   "koopprijs": 22.223,
+   "g1": 0.0461,
+   "fair": 26.496,
+   "pv_div": 8.81,
+   "pv_terminal": 17.686,
+   "koopprijs": 22.256,
    "mos": 0.16,
    "kwaliteit": 80,
    "checks": {
@@ -4840,9 +4839,9 @@
     "verlagingen": 1,
     "diepste_verlaging": -0.283
    },
-   "upside": -0.4451,
-   "korting_tov_koop": -0.5339,
-   "yield_nu": 0.022,
+   "upside": -0.4365,
+   "korting_tov_koop": -0.5267,
+   "yield_nu": 0.0223,
    "yoc_koop": 0.0472,
    "d0_norm": 1.05,
    "special_div": false,
@@ -4851,43 +4850,43 @@
    "pad": [
     [
      2026,
-     1.0981
+     1.0984
     ],
     [
      2027,
-     1.1484
+     1.1491
     ],
     [
      2028,
-     1.2009
+     1.202
     ],
     [
      2029,
-     1.2559
+     1.2575
     ],
     [
      2030,
-     1.3135
+     1.3155
     ],
     [
      2031,
-     1.3668
+     1.3692
     ],
     [
      2032,
-     1.4153
+     1.4181
     ],
     [
      2033,
-     1.4582
+     1.4612
     ],
     [
      2034,
-     1.4949
+     1.4981
     ],
     [
      2035,
-     1.5248
+     1.5281
     ]
    ],
    "guidance_type": "groei",
@@ -4898,19 +4897,19 @@
     "laatste_soort": "jaarcijfers",
     "volgende_cijfers": "2027-02-18",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 97,
+    "dagen_tot": 93,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Arcadis persbericht Q4/jaarcijfers 2025 (19-02-2026) en Q2/halfjaarcijfers 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0151,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0154,
    "netto_inkoop": 62000000,
    "g1_kaal": 0.03,
-   "houdbare_groei": 0.0573,
+   "houdbare_groei": 0.0571,
    "roe": 0.19146,
-   "fair_laag": 20.795,
-   "fair_hoog": 34.625,
+   "fair_laag": 20.828,
+   "fair_hoog": 34.676,
    "payout_stabiel": 0.8955,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -4919,13 +4918,13 @@
    "d0_netto": 1.05,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.903,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 26.455,
+   "fair_ddm": 26.496,
    "waardering_bron": "dividendmodel",
    "bvps": 12.382,
    "ri_afwijking": null,
@@ -4943,7 +4942,7 @@
    "ticker": "BAMNB.AS",
    "naam": "Koninklijke BAM Groep nv",
    "sector": "Industrials",
-   "koers": 13.38,
+   "koers": 13.32,
    "valuta": "EUR",
    "d0": 0.25,
    "g3": null,
@@ -4975,14 +4974,14 @@
     "2025": 0.25,
     "2026": 0.3
    },
-   "mcap": 3475104768,
-   "opgehaald": "2026-11-13T22:47:20+00:00",
+   "mcap": 3459521280,
+   "opgehaald": "2026-11-17T00:59:37+00:00",
    "r": 0.0826,
    "g1": 0.0537,
-   "fair": 7.625,
+   "fair": 7.622,
    "pv_div": 2.542,
-   "pv_terminal": 5.083,
-   "koopprijs": 6.062,
+   "pv_terminal": 5.08,
+   "koopprijs": 6.059,
    "mos": 0.205,
    "kwaliteit": 65,
    "checks": {
@@ -4994,9 +4993,9 @@
     "plafond": "dividend ooit gehalveerd",
     "zonder_plafond": 80
    },
-   "upside": -0.4301,
-   "korting_tov_koop": -0.547,
-   "yield_nu": 0.0224,
+   "upside": -0.4278,
+   "korting_tov_koop": -0.5451,
+   "yield_nu": 0.0225,
    "yoc_koop": 0.0495,
    "d0_norm": 0.3,
    "special_div": false,
@@ -5052,19 +5051,19 @@
     "laatste_soort": "halfjaarcijfers",
     "volgende_cijfers": "2027-02-18",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 97,
+    "dagen_tot": 93,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "BAM persbericht jaarcijfers 2025 (19-02-2026) en halfjaarcijfers 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.013,
    "netto_inkoop": 45132000,
    "g1_kaal": 0.04,
    "houdbare_groei": 0.1106,
    "roe": 0.25308,
-   "fair_laag": 5.999,
-   "fair_hoog": 9.969,
+   "fair_laag": 5.997,
+   "fair_hoog": 9.965,
    "payout_stabiel": 0.921,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -5073,13 +5072,13 @@
    "d0_netto": 0.3,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.001,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 7.625,
+   "fair_ddm": 7.622,
    "waardering_bron": "dividendmodel",
    "bvps": 3.777,
    "ri_afwijking": null,
@@ -5097,7 +5096,7 @@
    "ticker": "VLK.AS",
    "naam": "Van Lanschot Kempen NV",
    "sector": "Financial Services",
-   "koers": 65.05,
+   "koers": 64.5,
    "valuta": "EUR",
    "d0": 2.75,
    "g3": -0.0772,
@@ -5131,14 +5130,14 @@
     "2025": 2.75,
     "2026": 3.8
    },
-   "mcap": 2746611200,
-   "opgehaald": "2026-11-13T22:47:48+00:00",
+   "mcap": 2723388416,
+   "opgehaald": "2026-11-17T01:00:10+00:00",
    "r": 0.0778,
    "g1": 0.03,
-   "fair": 40.606,
-   "pv_div": 23.442,
-   "pv_terminal": 30.025,
-   "koopprijs": 28.505,
+   "fair": 40.602,
+   "pv_div": 23.44,
+   "pv_terminal": 30.009,
+   "koopprijs": 28.503,
    "mos": 0.298,
    "kwaliteit": 34,
    "checks": {
@@ -5147,10 +5146,10 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.429
    },
-   "upside": -0.3758,
-   "korting_tov_koop": -0.5618,
-   "yield_nu": 0.0461,
-   "yoc_koop": 0.1052,
+   "upside": -0.3705,
+   "korting_tov_koop": -0.5581,
+   "yield_nu": 0.0465,
+   "yoc_koop": 0.1053,
    "d0_norm": 3.0,
    "special_div": false,
    "vlag": null,
@@ -5205,19 +5204,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-24",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 103,
+    "dagen_tot": 99,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Van Lanschot Kempen jaarcijfers 2025 (26-02-2026) en de eigen pagina 'Het aandeel'",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0019,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.002,
    "netto_inkoop": 5351667,
    "g1_kaal": 0.03,
-   "houdbare_groei": 0.0148,
+   "houdbare_groei": 0.0149,
    "roe": 0.13789,
-   "fair_laag": 43.048,
-   "fair_hoog": 68.27,
+   "fair_laag": 43.036,
+   "fair_hoog": 68.244,
    "payout_stabiel": 0.855,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -5226,13 +5225,13 @@
    "d0_netto": 3.0,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.905,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": true,
-   "fair_ri": 40.606,
-   "ri_overwinst": 10.074,
-   "fair_ddm": 53.467,
+   "fair_ri": 40.602,
+   "ri_overwinst": 10.07,
+   "fair_ddm": 53.449,
    "waardering_bron": "residual income (laagste van twee)",
    "bvps": 30.532,
    "ri_afwijking": 0.0,
@@ -5268,13 +5267,13 @@
     "2026": 0.6
    },
    "mcap": 14933707,
-   "opgehaald": "2026-11-13T22:47:41+00:00",
+   "opgehaald": "2026-11-17T01:00:01+00:00",
    "r": 0.065,
    "g1": 0.0,
-   "fair": 9.896,
+   "fair": 9.894,
    "pv_div": 4.362,
-   "pv_terminal": 5.534,
-   "koopprijs": 5.937,
+   "pv_terminal": 5.532,
+   "koopprijs": 5.936,
    "mos": 0.4,
    "kwaliteit": 0,
    "checks": {
@@ -5284,8 +5283,8 @@
     "netdebt_ebitda": 7.86,
     "verlagingen": 0
    },
-   "upside": -0.3128,
-   "korting_tov_koop": -0.5877,
+   "upside": -0.3129,
+   "korting_tov_koop": -0.5878,
    "yield_nu": 0.0417,
    "yoc_koop": 0.1011,
    "d0_norm": 0.6,
@@ -5347,14 +5346,14 @@
     "guidance_bron": "Royal Delft Group jaarverslag 2025 (23-03-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
    "houdbare_groei": 0.4414,
    "roe": 0.04013,
-   "fair_laag": 7.952,
-   "fair_hoog": 12.664,
+   "fair_laag": 7.95,
+   "fair_hoog": 12.661,
    "payout_stabiel": 0.5016,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -5363,13 +5362,13 @@
    "d0_netto": 0.6,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.606,
    "beta_herkomst": "sector",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 9.896,
+   "fair_ddm": 9.894,
    "waardering_bron": "dividendmodel",
    "bvps": 16.54,
    "ri_afwijking": null,
@@ -5384,10 +5383,168 @@
    "dekking_wpa": -0.1
   },
   {
+   "ticker": "AKZA.AS",
+   "naam": "Akzo Nobel N.V.",
+   "sector": "Basic Materials",
+   "koers": 62.76,
+   "valuta": "EUR",
+   "d0": 1.98,
+   "g3": 0.0,
+   "g5": 0.0062,
+   "payout": 0.5224,
+   "beta": 1.161,
+   "cuts_sinds_2010": 2,
+   "div_hist": {
+    "1999": 0.3375,
+    "2000": 1.40344,
+    "2001": 1.46812,
+    "2002": 1.485,
+    "2003": 1.49175,
+    "2004": 1.51875,
+    "2005": 1.53563,
+    "2006": 1.5525,
+    "2007": 1.68188,
+    "2008": 2.40469,
+    "2009": 1.9125,
+    "2010": 1.54125,
+    "2011": 1.58625,
+    "2012": 1.63125,
+    "2013": 1.63125,
+    "2014": 1.44225,
+    "2015": 1.65375,
+    "2016": 1.76625,
+    "2017": 6.57,
+    "2018": 2.59875,
+    "2019": 16.2176,
+    "2020": 1.92,
+    "2021": 1.96,
+    "2022": 1.98,
+    "2023": 1.98,
+    "2024": 1.98,
+    "2025": 1.98,
+    "2026": 1.98
+   },
+   "mcap": 10757063680,
+   "opgehaald": "2026-11-17T00:59:30+00:00",
+   "r": 0.0814,
+   "g1": 0.0,
+   "fair": 36.86,
+   "pv_div": 13.345,
+   "pv_terminal": 23.514,
+   "koopprijs": 25.765,
+   "mos": 0.301,
+   "kwaliteit": 33,
+   "checks": {
+    "payout": 0.545,
+    "fcf_dekking": 1.19,
+    "netdebt_ebitda": 2.99,
+    "verlagingen": 2,
+    "diepste_verlaging": -0.708
+   },
+   "upside": -0.4127,
+   "korting_tov_koop": -0.5895,
+   "yield_nu": 0.0315,
+   "yoc_koop": 0.0768,
+   "d0_norm": 1.98,
+   "special_div": false,
+   "vlag": null,
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     1.98
+    ],
+    [
+     2027,
+     1.98
+    ],
+    [
+     2028,
+     1.98
+    ],
+    [
+     2029,
+     1.98
+    ],
+    [
+     2030,
+     1.98
+    ],
+    [
+     2031,
+     1.9879
+    ],
+    [
+     2032,
+     2.0038
+    ],
+    [
+     2033,
+     2.0279
+    ],
+    [
+     2034,
+     2.0603
+    ],
+    [
+     2035,
+     2.1015
+    ]
+   ],
+   "guidance_type": null,
+   "guidance_bron": "akzonobel.com/en/investors/dividend - slotdividend 1,54 betaalbaar 6 mei 2026",
+   "guidance_notitie": "Boekjaar 2025: interim 0,44 + slot 1,54 = 1,98 per aandeel, exact gelijk aan 2022, 2023 en 2024. Aangepaste winst per aandeel uit voortgezette activiteiten 3,63 (2024: 3,88), payout 55%. Groei op nul: het dividend staat al vier jaar stil terwijl de winst daalde. Aandachtspunt: er wordt in de markt gespeculeerd op een speciaal dividend van circa 12,50 per aandeel. Dat is een verwachting van derden, geen bedrijfsguidance, en zit dus NIET in deze waardering.",
+   "agenda": {
+    "laatste_cijfers": "2026-10-20",
+    "laatste_soort": "Q3",
+    "volgende_cijfers": "2027-02-03",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 78,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "akzonobel.com/en/investors/dividend - slotdividend 1,54 betaalbaar 6 mei 2026",
+    "status": "verouderd"
+   },
+   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "inkoop_rend": 0.0,
+   "netto_inkoop": 0,
+   "g1_kaal": 0.0,
+   "houdbare_groei": 0.0676,
+   "roe": 0.14863,
+   "fair_laag": 29.093,
+   "fair_hoog": 48.07,
+   "payout_stabiel": 0.8654,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 1.98,
+   "model_ongeschikt": false,
+   "groei_boven_houdbaar": false,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 0.976,
+   "beta_herkomst": "eigen",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 36.86,
+   "waardering_bron": "dividendmodel",
+   "bvps": 28.314,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 0.9639,
+   "beta_r2": 0.2556,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 3.63,
+   "eps_fwd": 3.63,
+   "dekking_wpa": 1.83
+  },
+  {
    "ticker": "HOLCO.AS",
    "naam": "Holland Colours N.V.",
    "sector": "Basic Materials",
-   "koers": 63.5,
+   "koers": 64.0,
    "valuta": "EUR",
    "d0": 6.85,
    "g3": 0.0504,
@@ -5417,14 +5574,14 @@
     "2025": 6.85,
     "2026": 2.02
    },
-   "mcap": 54632288,
-   "opgehaald": "2026-11-13T22:47:31+00:00",
-   "r": 0.0789,
+   "mcap": 55062464,
+   "opgehaald": "2026-11-17T00:59:49+00:00",
+   "r": 0.079,
    "g1": 0.0,
-   "fair": 34.873,
-   "pv_div": 13.765,
-   "pv_terminal": 21.108,
-   "koopprijs": 26.155,
+   "fair": 34.862,
+   "pv_div": 13.764,
+   "pv_terminal": 21.097,
+   "koopprijs": 26.146,
    "mos": 0.25,
    "kwaliteit": 50,
    "checks": {
@@ -5435,10 +5592,10 @@
     "plafond": "kasstroom dekt dividend niet",
     "zonder_plafond": 75
    },
-   "upside": -0.4508,
-   "korting_tov_koop": -0.5881,
-   "yield_nu": 0.0318,
-   "yoc_koop": 0.0772,
+   "upside": -0.4553,
+   "korting_tov_koop": -0.5915,
+   "yield_nu": 0.0316,
+   "yoc_koop": 0.0773,
    "d0_norm": 2.02,
    "special_div": false,
    "vlag": null,
@@ -5498,14 +5655,14 @@
     "guidance_bron": "Holland Colours persbericht jaarcijfers boekjaar 2025/2026 (28-05-2026), dividend vastgesteld op de AVA van juli 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.0,
    "houdbare_groei": 0.0281,
    "roe": 0.056149997,
-   "fair_laag": 27.74,
-   "fair_hoog": 45.117,
+   "fair_laag": 27.731,
+   "fair_hoog": 45.099,
    "payout_stabiel": 0.6438,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -5514,13 +5671,13 @@
    "d0_netto": 2.02,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.928,
    "beta_herkomst": "sector",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 34.873,
+   "fair_ddm": 34.862,
    "waardering_bron": "dividendmodel",
    "bvps": 70.933,
    "ri_afwijking": null,
@@ -5535,168 +5692,10 @@
    "dekking_wpa": 2.0
   },
   {
-   "ticker": "AKZA.AS",
-   "naam": "Akzo Nobel N.V.",
-   "sector": "Basic Materials",
-   "koers": 62.9,
-   "valuta": "EUR",
-   "d0": 1.98,
-   "g3": 0.0,
-   "g5": 0.0062,
-   "payout": 0.5224,
-   "beta": 1.161,
-   "cuts_sinds_2010": 2,
-   "div_hist": {
-    "1999": 0.3375,
-    "2000": 1.40344,
-    "2001": 1.46812,
-    "2002": 1.485,
-    "2003": 1.49175,
-    "2004": 1.51875,
-    "2005": 1.53563,
-    "2006": 1.5525,
-    "2007": 1.68188,
-    "2008": 2.40469,
-    "2009": 1.9125,
-    "2010": 1.54125,
-    "2011": 1.58625,
-    "2012": 1.63125,
-    "2013": 1.63125,
-    "2014": 1.44225,
-    "2015": 1.65375,
-    "2016": 1.76625,
-    "2017": 6.57,
-    "2018": 2.59875,
-    "2019": 16.2176,
-    "2020": 1.92,
-    "2021": 1.96,
-    "2022": 1.98,
-    "2023": 1.98,
-    "2024": 1.98,
-    "2025": 1.98,
-    "2026": 1.98
-   },
-   "mcap": 10781060096,
-   "opgehaald": "2026-11-13T22:47:15+00:00",
-   "r": 0.0813,
-   "g1": 0.0,
-   "fair": 36.873,
-   "pv_div": 13.346,
-   "pv_terminal": 23.526,
-   "koopprijs": 25.774,
-   "mos": 0.301,
-   "kwaliteit": 33,
-   "checks": {
-    "payout": 0.545,
-    "fcf_dekking": 1.19,
-    "netdebt_ebitda": 2.99,
-    "verlagingen": 2,
-    "diepste_verlaging": -0.708
-   },
-   "upside": -0.4138,
-   "korting_tov_koop": -0.5902,
-   "yield_nu": 0.0315,
-   "yoc_koop": 0.0768,
-   "d0_norm": 1.98,
-   "special_div": false,
-   "vlag": null,
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     1.98
-    ],
-    [
-     2027,
-     1.98
-    ],
-    [
-     2028,
-     1.98
-    ],
-    [
-     2029,
-     1.98
-    ],
-    [
-     2030,
-     1.98
-    ],
-    [
-     2031,
-     1.9879
-    ],
-    [
-     2032,
-     2.0038
-    ],
-    [
-     2033,
-     2.0279
-    ],
-    [
-     2034,
-     2.0603
-    ],
-    [
-     2035,
-     2.1015
-    ]
-   ],
-   "guidance_type": null,
-   "guidance_bron": "akzonobel.com/en/investors/dividend - slotdividend 1,54 betaalbaar 6 mei 2026",
-   "guidance_notitie": "Boekjaar 2025: interim 0,44 + slot 1,54 = 1,98 per aandeel, exact gelijk aan 2022, 2023 en 2024. Aangepaste winst per aandeel uit voortgezette activiteiten 3,63 (2024: 3,88), payout 55%. Groei op nul: het dividend staat al vier jaar stil terwijl de winst daalde. Aandachtspunt: er wordt in de markt gespeculeerd op een speciaal dividend van circa 12,50 per aandeel. Dat is een verwachting van derden, geen bedrijfsguidance, en zit dus NIET in deze waardering.",
-   "agenda": {
-    "laatste_cijfers": "2026-10-20",
-    "laatste_soort": "Q3",
-    "volgende_cijfers": "2027-02-03",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 82,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "akzonobel.com/en/investors/dividend - slotdividend 1,54 betaalbaar 6 mei 2026",
-    "status": "verouderd"
-   },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.0,
-   "netto_inkoop": 0,
-   "g1_kaal": 0.0,
-   "houdbare_groei": 0.0676,
-   "roe": 0.14863,
-   "fair_laag": 29.102,
-   "fair_hoog": 48.09,
-   "payout_stabiel": 0.8654,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 1.98,
-   "model_ongeschikt": false,
-   "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 0.976,
-   "beta_herkomst": "eigen",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 36.873,
-   "waardering_bron": "dividendmodel",
-   "bvps": 28.314,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 0.9639,
-   "beta_r2": 0.2556,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 3.63,
-   "eps_fwd": 3.63,
-   "dekking_wpa": 1.83
-  },
-  {
    "ticker": "APAM.AS",
    "naam": "Aperam S.A.",
    "sector": "Basic Materials",
-   "koers": 34.56,
+   "koers": 33.82,
    "valuta": "EUR",
    "d0": 2.0,
    "g3": 0.0,
@@ -5705,10 +5704,10 @@
    "beta": 1.796,
    "cuts_sinds_2010": 0,
    "div_hist": {
-    "2011": 0.6801,
-    "2012": 0.6801,
-    "2016": 1.1335,
-    "2017": 1.3163,
+    "2011": 0.68183,
+    "2012": 0.68183,
+    "2016": 1.13637,
+    "2017": 1.31716,
     "2018": 1.53541,
     "2019": 1.75,
     "2020": 1.75,
@@ -5719,14 +5718,14 @@
     "2025": 2.0,
     "2026": 2.0
    },
-   "mcap": 2504348416,
-   "opgehaald": "2026-11-13T22:47:17+00:00",
+   "mcap": 2450725120,
+   "opgehaald": "2026-11-17T00:59:33+00:00",
    "r": 0.093,
    "g1": 0.0,
-   "fair": 19.907,
-   "pv_div": 12.794,
-   "pv_terminal": 7.113,
-   "koopprijs": 13.258,
+   "fair": 19.902,
+   "pv_div": 12.793,
+   "pv_terminal": 7.11,
+   "koopprijs": 13.255,
    "mos": 0.334,
    "kwaliteit": 22,
    "checks": {
@@ -5735,9 +5734,9 @@
     "netdebt_ebitda": 4.41,
     "verlagingen": 0
    },
-   "upside": -0.424,
-   "korting_tov_koop": -0.6164,
-   "yield_nu": 0.0579,
+   "upside": -0.4115,
+   "korting_tov_koop": -0.6081,
+   "yield_nu": 0.0591,
    "yoc_koop": 0.1509,
    "d0_norm": 2.0,
    "special_div": false,
@@ -5793,19 +5792,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-05",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 84,
+    "dagen_tot": 80,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "aperam.com/investors/equity-investors/dividend - dividendschema 6 februari 2026",
     "status": "verouderd"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": 0,
    "g1_kaal": 0.0,
    "houdbare_groei": -0.6896,
    "roe": 0.04794,
-   "fair_laag": 16.804,
-   "fair_hoog": 24.13,
+   "fair_laag": 16.8,
+   "fair_hoog": 24.123,
    "payout_stabiel": 0.5828,
    "land": "LU",
    "bron_tarief": 0.15,
@@ -5814,13 +5813,13 @@
    "d0_netto": 2.0,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.21,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 19.907,
+   "fair_ddm": 19.902,
    "waardering_bron": "dividendmodel",
    "bvps": 45.305,
    "ri_afwijking": null,
@@ -5838,7 +5837,7 @@
    "ticker": "CRBN.AS",
    "naam": "Corbion N.V.",
    "sector": "Basic Materials",
-   "koers": 26.56,
+   "koers": 26.38,
    "valuta": "EUR",
    "d0": 0.64,
    "g3": 0.0455,
@@ -5875,14 +5874,14 @@
     "2025": 0.64,
     "2026": 1.0
    },
-   "mcap": 1531233280,
-   "opgehaald": "2026-11-13T22:47:24+00:00",
+   "mcap": 1520855936,
+   "opgehaald": "2026-11-17T00:59:41+00:00",
    "r": 0.0835,
-   "g1": 0.0301,
-   "fair": 14.044,
-   "pv_div": 4.871,
-   "pv_terminal": 9.173,
-   "koopprijs": 9.48,
+   "g1": 0.0302,
+   "fair": 14.048,
+   "pv_div": 4.872,
+   "pv_terminal": 9.175,
+   "koopprijs": 9.482,
    "mos": 0.325,
    "kwaliteit": 25,
    "checks": {
@@ -5894,9 +5893,9 @@
     "plafond": "negatieve vrije kasstroom",
     "zonder_plafond": 30
    },
-   "upside": -0.4712,
-   "korting_tov_koop": -0.6431,
-   "yield_nu": 0.0241,
+   "upside": -0.4675,
+   "korting_tov_koop": -0.6406,
+   "yield_nu": 0.0243,
    "yoc_koop": 0.0675,
    "d0_norm": 0.64,
    "special_div": false,
@@ -5909,39 +5908,39 @@
     ],
     [
      2027,
-     0.6791
+     0.6792
     ],
     [
      2028,
-     0.6995
+     0.6998
     ],
     [
      2029,
-     0.7206
+     0.7209
     ],
     [
      2030,
-     0.7423
+     0.7427
     ],
     [
      2031,
-     0.7631
+     0.7636
     ],
     [
      2032,
-     0.783
+     0.7835
     ],
     [
      2033,
-     0.8018
+     0.8024
     ],
     [
      2034,
-     0.8195
+     0.8201
     ],
     [
      2035,
-     0.8359
+     0.8365
     ]
    ],
    "guidance_type": "groei",
@@ -5952,19 +5951,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-03-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 111,
+    "dagen_tot": 107,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Corbion persbericht jaarcijfers 2025 (26-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0098,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0099,
    "netto_inkoop": 15000000,
    "g1_kaal": 0.02,
    "houdbare_groei": 0.0217,
    "roe": 0.083950005,
-   "fair_laag": 11.068,
-   "fair_hoog": 18.338,
+   "fair_laag": 11.071,
+   "fair_hoog": 18.341,
    "payout_stabiel": 0.7618,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -5973,13 +5972,13 @@
    "d0_netto": 0.64,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.019,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 14.044,
+   "fair_ddm": 14.048,
    "waardering_bron": "dividendmodel",
    "bvps": 13.108,
    "ri_afwijking": null,
@@ -5997,7 +5996,7 @@
    "ticker": "FAGR.BR",
    "naam": "Fagron NV",
    "sector": "Healthcare",
-   "koers": 24.2,
+   "koers": 24.3,
    "valuta": "EUR",
    "d0": 0.35,
    "g3": 0.2051,
@@ -6024,14 +6023,14 @@
     "2025": 0.35,
     "2026": 0.4
    },
-   "mcap": 1776053760,
-   "opgehaald": "2026-11-13T22:47:27+00:00",
+   "mcap": 1783392640,
+   "opgehaald": "2026-11-17T00:59:45+00:00",
    "r": 0.0731,
    "g1": 0.05,
-   "fair": 10.713,
-   "pv_div": 3.492,
-   "pv_terminal": 7.221,
-   "koopprijs": 8.26,
+   "fair": 10.709,
+   "pv_div": 3.491,
+   "pv_terminal": 7.218,
+   "koopprijs": 8.257,
    "mos": 0.229,
    "kwaliteit": 57,
    "checks": {
@@ -6041,8 +6040,8 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.85
    },
-   "upside": -0.5573,
-   "korting_tov_koop": -0.6587,
+   "upside": -0.5593,
+   "korting_tov_koop": -0.6602,
    "yield_nu": 0.0165,
    "yoc_koop": 0.0484,
    "d0_norm": 0.4,
@@ -6099,19 +6098,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-11",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 90,
+    "dagen_tot": 86,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Fagron persbericht jaarresultaten 2025 (12-02-2026) en halfjaarresultaten 2026 (30-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": -0.0004,
    "netto_inkoop": -794333,
    "g1_kaal": 0.05,
    "houdbare_groei": 0.1136,
    "roe": 0.16701001,
-   "fair_laag": 8.408,
-   "fair_hoog": 14.041,
+   "fair_laag": 8.406,
+   "fair_hoog": 14.035,
    "payout_stabiel": 0.8802,
    "land": "BE",
    "bron_tarief": 0.3,
@@ -6120,13 +6119,13 @@
    "d0_netto": 0.34,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.811,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 10.713,
+   "fair_ddm": 10.709,
    "waardering_bron": "dividendmodel",
    "bvps": 8.107,
    "ri_afwijking": null,
@@ -6144,7 +6143,7 @@
    "ticker": "HAL.AS",
    "naam": "HAL Trust",
    "sector": "Financial Services",
-   "koers": 175.6,
+   "koers": 172.8,
    "valuta": "EUR",
    "d0": 2.9,
    "g3": 0.0197,
@@ -6153,8 +6152,8 @@
    "beta": 0.627,
    "cuts_sinds_2010": 3,
    "div_hist": {
-    "1999": 1.02516,
-    "2000": 1.02516,
+    "1999": 1.02776,
+    "2000": 1.02776,
     "2001": 1.21749,
     "2002": 1.21749,
     "2003": 1.55664,
@@ -6182,14 +6181,14 @@
     "2025": 2.9,
     "2026": 3.5
    },
-   "mcap": 15859159040,
-   "opgehaald": "2026-11-13T22:47:29+00:00",
-   "r": 0.0667,
+   "mcap": 15606279168,
+   "opgehaald": "2026-11-17T00:59:46+00:00",
+   "r": 0.0668,
    "g1": 0.0179,
-   "fair": 67.331,
-   "pv_div": 22.643,
-   "pv_terminal": 44.688,
-   "koopprijs": 51.104,
+   "fair": 67.306,
+   "pv_div": 22.641,
+   "pv_terminal": 44.666,
+   "koopprijs": 51.085,
    "mos": 0.241,
    "kwaliteit": 53,
    "checks": {
@@ -6199,10 +6198,10 @@
     "verlagingen": 3,
     "diepste_verlaging": -0.374
    },
-   "upside": -0.6166,
-   "korting_tov_koop": -0.709,
-   "yield_nu": 0.0165,
-   "yoc_koop": 0.0567,
+   "upside": -0.6105,
+   "korting_tov_koop": -0.7044,
+   "yield_nu": 0.0168,
+   "yoc_koop": 0.0568,
    "d0_norm": 2.9,
    "special_div": false,
    "vlag": null,
@@ -6257,7 +6256,7 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-03-25",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 132,
+    "dagen_tot": 128,
     "guidance_gecheckt": null,
     "guidance_bron": null,
     "status": "nooit"
@@ -6268,8 +6267,8 @@
    "g1_kaal": 0.0179,
    "houdbare_groei": 0.0751,
    "roe": 0.09681,
-   "fair_laag": 52.838,
-   "fair_hoog": 88.285,
+   "fair_laag": 52.821,
+   "fair_hoog": 88.247,
    "payout_stabiel": 0.7934,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -6278,31 +6277,31 @@
    "d0_netto": 2.9,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.684,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": true,
-   "fair_ri": 216.657,
-   "ri_overwinst": 36.429,
-   "fair_ddm": 67.331,
+   "fair_ri": 216.63,
+   "ri_overwinst": 36.402,
+   "fair_ddm": 67.306,
    "waardering_bron": "dividendmodel (laagste van twee)",
    "bvps": 180.228,
-   "ri_afwijking": 2.218,
+   "ri_afwijking": 2.219,
    "ri_conflict": true,
    "beta_regressie": 0.5277,
    "beta_r2": 0.249,
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 16.07,
+   "eps_nu": 15.83,
    "eps_fwd": 11.71,
-   "dekking_wpa": 5.54
+   "dekking_wpa": 5.46
   },
   {
    "ticker": "IMCD.AS",
    "naam": "IMCD N.V.",
    "sector": "Basic Materials",
-   "koers": 106.05,
+   "koers": 106.45,
    "valuta": "EUR",
    "d0": 2.15,
    "g3": 0.0989,
@@ -6324,14 +6323,14 @@
     "2025": 2.15,
     "2026": 1.81
    },
-   "mcap": 6261718016,
-   "opgehaald": "2026-11-13T22:47:32+00:00",
-   "r": 0.0891,
+   "mcap": 6285336064,
+   "opgehaald": "2026-11-17T00:59:50+00:00",
+   "r": 0.0892,
    "g1": 0.0,
-   "fair": 31.795,
-   "pv_div": 11.78,
-   "pv_terminal": 20.015,
-   "koopprijs": 28.139,
+   "fair": 31.784,
+   "pv_div": 11.779,
+   "pv_terminal": 20.005,
+   "koopprijs": 28.129,
    "mos": 0.115,
    "kwaliteit": 95,
    "checks": {
@@ -6340,9 +6339,9 @@
     "netdebt_ebitda": 3.02,
     "verlagingen": 0
    },
-   "upside": -0.7002,
-   "korting_tov_koop": -0.7347,
-   "yield_nu": 0.0171,
+   "upside": -0.7014,
+   "korting_tov_koop": -0.7358,
+   "yield_nu": 0.017,
    "yoc_koop": 0.0643,
    "d0_norm": 1.81,
    "special_div": false,
@@ -6398,7 +6397,7 @@
     "laatste_soort": "Q1",
     "volgende_cijfers": "2027-02-19",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 98,
+    "dagen_tot": 94,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "imcdgroup.com/investors - jaarcijfers 2025, dividendvoorstel AVA 30 april 2026",
     "status": "vers"
@@ -6409,8 +6408,8 @@
    "g1_kaal": 0.0,
    "houdbare_groei": 0.0731,
    "roe": 0.11225,
-   "fair_laag": 25.157,
-   "fair_hoog": 41.367,
+   "fair_laag": 25.15,
+   "fair_hoog": 41.35,
    "payout_stabiel": 0.8218,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -6419,13 +6418,13 @@
    "d0_netto": 1.81,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.132,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 31.795,
+   "fair_ddm": 31.784,
    "waardering_bron": "dividendmodel",
    "bvps": 35.955,
    "ri_afwijking": null,
@@ -6443,7 +6442,7 @@
    "ticker": "FUR.AS",
    "naam": "Fugro N.V.",
    "sector": "Energy",
-   "koers": 8.54,
+   "koers": 8.42,
    "valuta": "EUR",
    "d0": 0.75,
    "g3": null,
@@ -6468,13 +6467,13 @@
     "2025": 0.75,
     "2026": 0.15
    },
-   "mcap": 950795456,
-   "opgehaald": "2026-11-13T22:47:28+00:00",
+   "mcap": 937435328,
+   "opgehaald": "2026-11-17T00:59:46+00:00",
    "r": 0.0703,
    "g1": 0.0,
-   "fair": 2.38,
-   "pv_div": 1.064,
-   "pv_terminal": 1.316,
+   "fair": 2.379,
+   "pv_div": 1.063,
+   "pv_terminal": 1.315,
    "koopprijs": 1.656,
    "mos": 0.304,
    "kwaliteit": 32,
@@ -6485,9 +6484,9 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.821
    },
-   "upside": -0.7214,
-   "korting_tov_koop": -0.8061,
-   "yield_nu": 0.0176,
+   "upside": -0.7175,
+   "korting_tov_koop": -0.8034,
+   "yield_nu": 0.0178,
    "yoc_koop": 0.0906,
    "d0_norm": 0.15,
    "special_div": false,
@@ -6543,19 +6542,19 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-03-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 111,
+    "dagen_tot": 107,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Fugro dividendbeleidspagina, jaarcijfers 2025 (27-02-2026) en halfjaarcijfers 2026 (31-07-2026)",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0336,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.034,
    "netto_inkoop": 31900000,
    "g1_kaal": 0.0,
    "houdbare_groei": -0.0359,
    "roe": -0.04972,
-   "fair_laag": 1.916,
-   "fair_hoog": 3.04,
+   "fair_laag": 1.915,
+   "fair_hoog": 3.039,
    "payout_stabiel": null,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -6564,13 +6563,13 @@
    "d0_netto": 0.15,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.756,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 2.38,
+   "fair_ddm": 2.379,
    "waardering_bron": "dividendmodel",
    "bvps": 11.432,
    "ri_afwijking": null,
@@ -6588,7 +6587,7 @@
    "ticker": "BESI.AS",
    "naam": "BE Semiconductor Industries N.V.",
    "sector": "Technology",
-   "koers": 154.1,
+   "koers": 150.8,
    "valuta": "EUR",
    "d0": 2.18,
    "g3": -0.1317,
@@ -6614,14 +6613,14 @@
     "2025": 2.18,
     "2026": 1.58
    },
-   "mcap": 12184093696,
-   "opgehaald": "2026-11-13T22:47:21+00:00",
+   "mcap": 11923174400,
+   "opgehaald": "2026-11-17T00:59:38+00:00",
    "r": 0.1123,
    "g1": 0.0173,
-   "fair": 35.826,
-   "pv_div": 13.804,
-   "pv_terminal": 22.022,
-   "koopprijs": 29.127,
+   "fair": 35.814,
+   "pv_div": 13.803,
+   "pv_terminal": 22.011,
+   "koopprijs": 29.117,
    "mos": 0.187,
    "kwaliteit": 71,
    "checks": {
@@ -6631,10 +6630,10 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.246
    },
-   "upside": -0.7675,
-   "korting_tov_koop": -0.811,
-   "yield_nu": 0.0141,
-   "yoc_koop": 0.0748,
+   "upside": -0.7625,
+   "korting_tov_koop": -0.8069,
+   "yield_nu": 0.0145,
+   "yoc_koop": 0.0749,
    "d0_norm": 2.18,
    "special_div": false,
    "vlag": null,
@@ -6689,19 +6688,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-25",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 104,
+    "dagen_tot": 100,
     "guidance_gecheckt": null,
     "guidance_bron": null,
     "status": "nooit"
    },
    "override_gewijzigd": null,
-   "inkoop_rend": 0.0103,
+   "inkoop_rend": 0.0105,
    "netto_inkoop": 125062333,
    "g1_kaal": 0.0173,
-   "houdbare_groei": 0.0707,
+   "houdbare_groei": 0.0734,
    "roe": 0.56796,
-   "fair_laag": 28.517,
-   "fair_hoog": 46.332,
+   "fair_laag": 28.509,
+   "fair_hoog": 46.313,
    "payout_stabiel": 0.9648,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -6710,13 +6709,13 @@
    "d0_netto": 2.18,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.595,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 35.826,
+   "fair_ddm": 35.814,
    "waardering_bron": "dividendmodel",
    "bvps": 8.195,
    "ri_afwijking": null,
@@ -6726,7 +6725,7 @@
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 3.59,
+   "eps_nu": 3.63,
    "eps_fwd": 6.52426,
    "dekking_wpa": 2.99
   },
@@ -6734,7 +6733,7 @@
    "ticker": "AMG.AS",
    "naam": "AMG Critical Materials N.V.",
    "sector": "Basic Materials",
-   "koers": 23.28,
+   "koers": 22.32,
    "valuta": "EUR",
    "d0": 0.4,
    "g3": -0.1264,
@@ -6756,14 +6755,14 @@
     "2025": 0.4,
     "2026": 0.4
    },
-   "mcap": 828444416,
-   "opgehaald": "2026-11-13T22:47:16+00:00",
-   "r": 0.0944,
-   "g1": 0.0031,
-   "fair": 4.931,
-   "pv_div": 2.577,
-   "pv_terminal": 2.354,
-   "koopprijs": 4.068,
+   "mcap": 794281728,
+   "opgehaald": "2026-11-17T00:59:32+00:00",
+   "r": 0.0945,
+   "g1": 0.0033,
+   "fair": 4.935,
+   "pv_div": 2.579,
+   "pv_terminal": 2.356,
+   "koopprijs": 4.072,
    "mos": 0.175,
    "kwaliteit": 75,
    "checks": {
@@ -6773,10 +6772,10 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.333
    },
-   "upside": -0.7882,
-   "korting_tov_koop": -0.8252,
-   "yield_nu": 0.0172,
-   "yoc_koop": 0.0983,
+   "upside": -0.7789,
+   "korting_tov_koop": -0.8176,
+   "yield_nu": 0.0179,
+   "yoc_koop": 0.0982,
    "d0_norm": 0.4,
    "special_div": false,
    "vlag": null,
@@ -6784,43 +6783,43 @@
    "pad": [
     [
      2026,
-     0.4012
+     0.4013
     ],
     [
      2027,
-     0.4025
+     0.4027
     ],
     [
      2028,
-     0.4037
+     0.404
     ],
     [
      2029,
-     0.405
+     0.4053
     ],
     [
      2030,
-     0.4063
+     0.4067
     ],
     [
      2031,
-     0.4089
+     0.4094
     ],
     [
      2032,
-     0.4129
+     0.4135
     ],
     [
      2033,
-     0.4184
+     0.419
     ],
     [
      2034,
-     0.4254
+     0.4259
     ],
     [
      2035,
-     0.4339
+     0.4345
     ]
    ],
    "guidance_type": null,
@@ -6831,19 +6830,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-24",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 103,
+    "dagen_tot": 99,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "AMG persbericht jaarcijfers 2025 (25-02-2026) en Q2 2026 (29-07-2026)",
     "status": "verouderd"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0031,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0033,
    "netto_inkoop": 2589333,
    "g1_kaal": 0.0,
-   "houdbare_groei": 0.0085,
+   "houdbare_groei": 0.0089,
    "roe": 0.031089999,
-   "fair_laag": 4.049,
-   "fair_hoog": 6.169,
+   "fair_laag": 4.052,
+   "fair_hoog": 6.174,
    "payout_stabiel": 0.3567,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -6852,13 +6851,13 @@
    "d0_netto": 0.4,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.238,
    "beta_herkomst": "gemengd",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 4.931,
+   "fair_ddm": 4.935,
    "waardering_bron": "dividendmodel",
    "bvps": 18.600346,
    "ri_afwijking": null,
@@ -6876,7 +6875,7 @@
    "ticker": "ASML.AS",
    "naam": "ASML Holding N.V.",
    "sector": "Technology",
-   "koers": 1338.8,
+   "koers": 1306.6,
    "valuta": "EUR",
    "d0": 6.56,
    "g3": 0.0062,
@@ -6906,14 +6905,14 @@
     "2025": 6.56,
     "2026": 8.06
    },
-   "mcap": 515997270016,
-   "opgehaald": "2026-11-13T22:47:19+00:00",
-   "r": 0.1145,
-   "g1": 0.085,
-   "fair": 179.262,
-   "pv_div": 62.53,
-   "pv_terminal": 116.733,
-   "koopprijs": 161.336,
+   "mcap": 503586783232,
+   "opgehaald": "2026-11-17T00:59:35+00:00",
+   "r": 0.1146,
+   "g1": 0.0851,
+   "fair": 179.31,
+   "pv_div": 62.553,
+   "pv_terminal": 116.757,
+   "koopprijs": 161.379,
    "mos": 0.1,
    "kwaliteit": 100,
    "checks": {
@@ -6922,9 +6921,9 @@
     "netdebt_ebitda": -0.67,
     "verlagingen": 0
    },
-   "upside": -0.8661,
-   "korting_tov_koop": -0.8795,
-   "yield_nu": 0.0056,
+   "upside": -0.8628,
+   "korting_tov_koop": -0.8765,
+   "yield_nu": 0.0057,
    "yoc_koop": 0.0465,
    "d0_norm": 7.5,
    "special_div": false,
@@ -6933,43 +6932,43 @@
    "pad": [
     [
      2026,
-     8.1374
+     8.1382
     ],
     [
      2027,
-     8.829
+     8.8308
     ],
     [
      2028,
-     9.5794
+     9.5823
     ],
     [
      2029,
-     10.3936
+     10.3978
     ],
     [
      2030,
-     11.277
+     11.2826
     ],
     [
      2031,
-     12.0888
+     12.0959
     ],
     [
      2032,
-     12.802
+     12.8103
     ],
     [
      2033,
-     13.3908
+     13.4
     ],
     [
      2034,
-     13.8327
+     13.8425
     ],
     [
      2035,
-     14.1094
+     14.1194
     ]
    ],
    "guidance_type": "groei",
@@ -6980,19 +6979,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-01-27",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 75,
+    "dagen_tot": 71,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "asml.com/en/investors/why-invest-in-asml/capital-return-and-financing + jaarverslag 2025 (Form 20-F)",
     "status": "verouderd"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0046,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0047,
    "netto_inkoop": 2361433333,
    "g1_kaal": 0.08,
-   "houdbare_groei": 0.3455,
+   "houdbare_groei": 0.3478,
    "roe": 0.65636003,
-   "fair_laag": 142.071,
-   "fair_hoog": 232.69,
+   "fair_laag": 142.115,
+   "fair_hoog": 232.738,
    "payout_stabiel": 0.9695,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -7001,13 +7000,13 @@
    "d0_netto": 7.5,
    "model_ongeschikt": true,
    "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.64,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 179.262,
+   "fair_ddm": 179.31,
    "waardering_bron": "dividendmodel",
    "bvps": 57.593,
    "ri_afwijking": null,
@@ -7025,9 +7024,9 @@
    "ticker": "MT.AS",
    "naam": "ArcelorMittal S.A.",
    "sector": "Basic Materials",
-   "koers": 57.02,
+   "koers": 56.04,
    "valuta": "EUR",
-   "d0": 0.49874,
+   "d0": 0.50001,
    "g3": 0.1312,
    "g5": null,
    "payout": 0.52889997,
@@ -7035,32 +7034,32 @@
    "cuts_sinds_2010": 4,
    "div_hist": {
     "2006": 3.76956,
-    "2007": 5.62097,
-    "2008": 2.77154,
-    "2009": 1.38577,
-    "2010": 1.38577,
-    "2011": 1.13716,
-    "2012": 1.23109,
-    "2013": 0.36954,
-    "2014": 0.36954,
-    "2015": 0.36954,
+    "2007": 5.63522,
+    "2008": 2.77857,
+    "2009": 1.38929,
+    "2010": 1.38929,
+    "2011": 1.13869,
+    "2012": 1.23421,
+    "2013": 0.37048,
+    "2014": 0.37048,
+    "2015": 0.37048,
     "2018": 0.08415,
-    "2019": 0.18136,
+    "2019": 0.18182,
     "2021": 0.24588,
-    "2022": 0.34458,
-    "2023": 0.39899,
-    "2024": 0.4534,
-    "2025": 0.49874,
-    "2026": 0.5381
+    "2022": 0.34546,
+    "2023": 0.4,
+    "2024": 0.45455,
+    "2025": 0.50001,
+    "2026": 0.53913
    },
-   "mcap": 42875334656,
-   "opgehaald": "2026-11-13T22:47:36+00:00",
+   "mcap": 42138435584,
+   "opgehaald": "2026-11-17T00:59:54+00:00",
    "r": 0.091,
-   "g1": 0.0629,
-   "fair": 10.182,
-   "pv_div": 4.405,
-   "pv_terminal": 5.777,
-   "koopprijs": 6.873,
+   "g1": 0.0633,
+   "fair": 10.204,
+   "pv_div": 4.413,
+   "pv_terminal": 5.791,
+   "koopprijs": 6.887,
    "mos": 0.325,
    "kwaliteit": 25,
    "checks": {
@@ -7068,12 +7067,12 @@
     "fcf_dekking": -2.05,
     "netdebt_ebitda": 2.08,
     "verlagingen": 4,
-    "diepste_verlaging": -0.772
+    "diepste_verlaging": -0.773
    },
-   "upside": -0.8214,
-   "korting_tov_koop": -0.8795,
-   "yield_nu": 0.0091,
-   "yoc_koop": 0.0757,
+   "upside": -0.8179,
+   "korting_tov_koop": -0.8771,
+   "yield_nu": 0.0093,
+   "yoc_koop": 0.0755,
    "d0_norm": 0.5202,
    "special_div": false,
    "vlag": null,
@@ -7081,43 +7080,43 @@
    "pad": [
     [
      2026,
-     0.5529
+     0.5531
     ],
     [
      2027,
-     0.5876
+     0.5881
     ],
     [
      2028,
-     0.6246
+     0.6253
     ],
     [
      2029,
-     0.6638
+     0.6649
     ],
     [
      2030,
-     0.7056
+     0.707
     ],
     [
      2031,
-     0.7439
+     0.7456
     ],
     [
      2032,
-     0.7779
+     0.7799
     ],
     [
      2033,
-     0.8067
+     0.809
     ],
     [
      2034,
-     0.8298
+     0.8322
     ],
     [
      2035,
-     0.8464
+     0.8488
     ]
    ],
    "guidance_type": "groei",
@@ -7128,19 +7127,19 @@
     "laatste_soort": "Q3",
     "volgende_cijfers": "2027-02-04",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 83,
+    "dagen_tot": 79,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "corporate.arcelormittal.com/investors/equity-investors/dividends + jaarverslag 2025 (Form 20-F)",
     "status": "verouderd"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
-   "inkoop_rend": 0.0215,
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
+   "inkoop_rend": 0.0219,
    "netto_inkoop": 923333333,
    "g1_kaal": 0.04,
-   "houdbare_groei": -0.0057,
+   "houdbare_groei": -0.0053,
    "roe": 0.018339999,
-   "fair_laag": 8.208,
-   "fair_hoog": 12.982,
+   "fair_laag": 8.226,
+   "fair_hoog": 13.009,
    "payout_stabiel": null,
    "land": "LU",
    "bron_tarief": 0.15,
@@ -7149,13 +7148,13 @@
    "d0_netto": 0.5202,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.17,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 10.182,
+   "fair_ddm": 10.204,
    "waardering_bron": "dividendmodel",
    "bvps": 63.979633,
    "ri_afwijking": null,
@@ -7170,10 +7169,156 @@
    "dekking_wpa": 3.98
   },
   {
+   "ticker": "ASM.AS",
+   "naam": "ASM International NV",
+   "sector": "Technology",
+   "koers": 669.8,
+   "valuta": "EUR",
+   "d0": 3.0,
+   "g3": 0.0627,
+   "g5": 0.0845,
+   "payout": 0.16,
+   "beta": 1.534,
+   "cuts_sinds_2010": 0,
+   "div_hist": {
+    "2007": 0.1,
+    "2011": 0.4,
+    "2012": 0.5,
+    "2013": 4.75,
+    "2014": 0.5,
+    "2015": 0.6,
+    "2016": 0.7,
+    "2017": 0.7,
+    "2018": 4.8,
+    "2019": 2.0,
+    "2020": 2.0,
+    "2021": 2.0,
+    "2022": 2.5,
+    "2023": 2.5,
+    "2024": 2.75,
+    "2025": 3.0,
+    "2026": 3.25
+   },
+   "mcap": 32687276032,
+   "opgehaald": "2026-11-17T00:59:34+00:00",
+   "r": 0.1162,
+   "g1": 0.0744,
+   "fair": 72.236,
+   "pv_div": 25.723,
+   "pv_terminal": 46.512,
+   "koopprijs": 65.012,
+   "mos": 0.1,
+   "kwaliteit": 100,
+   "checks": {
+    "payout": 0.22,
+    "fcf_dekking": 2.28,
+    "netdebt_ebitda": -0.96,
+    "verlagingen": 0
+   },
+   "upside": -0.8922,
+   "korting_tov_koop": -0.9029,
+   "yield_nu": 0.0049,
+   "yoc_koop": 0.05,
+   "d0_norm": 3.25,
+   "special_div": false,
+   "vlag": "controleer",
+   "handmatig": true,
+   "pad": [
+    [
+     2026,
+     3.4918
+    ],
+    [
+     2027,
+     3.7516
+    ],
+    [
+     2028,
+     4.0308
+    ],
+    [
+     2029,
+     4.3307
+    ],
+    [
+     2030,
+     4.6529
+    ],
+    [
+     2031,
+     4.9485
+    ],
+    [
+     2032,
+     5.209
+    ],
+    [
+     2033,
+     5.4265
+    ],
+    [
+     2034,
+     5.5941
+    ],
+    [
+     2035,
+     5.706
+    ]
+   ],
+   "guidance_type": "groei",
+   "guidance_bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
+   "guidance_notitie": "Boekjaar 2025: 3,25 per aandeel (2024: 3,00), goedgekeurd op de AVA van 11 mei 2026. Beleid: verantwoord en houdbaar jaardividend met een streefpayout van circa 30%; feitelijk 22% bij een winst per aandeel van 14,77 (2024: 13,95). Nieuw inkoopprogramma van 150 mln voor 2026/2027. H1 2026 was sterk: winst per aandeel 10,71 tegen 3,53 in H1 2025, gedreven door versnellende AI-vraag; de tweede jaarhelft wordt volgens ASM sterker met circa 20% omzetgroei. Groei 7% als eigen aanname, onder het vijfjaarstempo van 10,2%. Bij een rendement van 0,4% is dit geen inkomensaandeel; het model zegt hier weinig zinnigs over.",
+   "agenda": {
+    "laatste_cijfers": "2026-07-28",
+    "laatste_soort": "halfjaarcijfers",
+    "volgende_cijfers": "2027-02-23",
+    "volgende_soort": "jaarcijfers",
+    "dagen_tot": 98,
+    "guidance_gecheckt": "2026-08-15",
+    "guidance_bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
+    "status": "vers"
+   },
+   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
+   "inkoop_rend": 0.0041,
+   "netto_inkoop": 134521667,
+   "g1_kaal": 0.07,
+   "houdbare_groei": 0.1511,
+   "roe": 0.23452999,
+   "fair_laag": 57.315,
+   "fair_hoog": 93.666,
+   "payout_stabiel": 0.9147,
+   "land": "NL",
+   "bron_tarief": 0.15,
+   "bron_verlies": 0.0,
+   "bron_notitie": null,
+   "d0_netto": 3.25,
+   "model_ongeschikt": true,
+   "groei_boven_houdbaar": false,
+   "r_stabiel": 0.0826,
+   "beta_gebruikt": 1.672,
+   "beta_herkomst": "eigen",
+   "ri_van_toepassing": false,
+   "fair_ri": null,
+   "ri_overwinst": null,
+   "fair_ddm": 72.236,
+   "waardering_bron": "dividendmodel",
+   "bvps": 95.76,
+   "ri_afwijking": null,
+   "ri_conflict": false,
+   "beta_regressie": 2.0033,
+   "beta_r2": 0.4304,
+   "op_rendementsvloer": false,
+   "onhoudbaar": false,
+   "gespannen": false,
+   "eps_nu": 14.77,
+   "eps_fwd": 14.77,
+   "dekking_wpa": 4.54
+  },
+  {
    "ticker": "PRX.AS",
    "naam": "Prosus N.V.",
    "sector": "Consumer Cyclical",
-   "koers": 35.69,
+   "koers": 35.38,
    "valuta": "EUR",
    "d0": 0.2,
    "g3": 0.4603,
@@ -7190,14 +7335,14 @@
     "2025": 0.2,
     "2026": 0.28
    },
-   "mcap": 74590527488,
-   "opgehaald": "2026-11-13T22:47:42+00:00",
+   "mcap": 73942646784,
+   "opgehaald": "2026-11-17T01:00:03+00:00",
    "r": 0.0945,
    "g1": 0.12,
-   "fair": 3.809,
+   "fair": 3.808,
    "pv_div": 1.194,
-   "pv_terminal": 2.616,
-   "koopprijs": 3.371,
+   "pv_terminal": 2.614,
+   "koopprijs": 3.37,
    "mos": 0.115,
    "kwaliteit": 95,
    "checks": {
@@ -7206,9 +7351,9 @@
     "netdebt_ebitda": 3.15,
     "verlagingen": 0
    },
-   "upside": -0.8933,
-   "korting_tov_koop": -0.9055,
-   "yield_nu": 0.0031,
+   "upside": -0.8924,
+   "korting_tov_koop": -0.9047,
+   "yield_nu": 0.0032,
    "yoc_koop": 0.0332,
    "d0_norm": 0.112,
    "special_div": true,
@@ -7264,7 +7409,7 @@
     "laatste_soort": null,
     "volgende_cijfers": "2026-11-25",
     "volgende_soort": "Q3",
-    "dagen_tot": 12,
+    "dagen_tot": 8,
     "guidance_gecheckt": null,
     "guidance_bron": null,
     "status": "nooit"
@@ -7273,10 +7418,10 @@
    "inkoop_rend": 0.1,
    "netto_inkoop": 7702333333,
    "g1_kaal": 0.12,
-   "houdbare_groei": 0.0266,
+   "houdbare_groei": 0.0307,
    "roe": 0.22213,
-   "fair_laag": 2.998,
-   "fair_hoog": 4.976,
+   "fair_laag": 2.997,
+   "fair_hoog": 4.974,
    "payout_stabiel": 0.91,
    "land": "NL",
    "bron_tarief": 0.15,
@@ -7285,13 +7430,13 @@
    "d0_netto": 0.112,
    "model_ongeschikt": true,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 1.239,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
    "fair_ri": null,
    "ri_overwinst": null,
-   "fair_ddm": 3.809,
+   "fair_ddm": 3.808,
    "waardering_bron": "dividendmodel",
    "bvps": 22.300653,
    "ri_afwijking": null,
@@ -7301,161 +7446,15 @@
    "op_rendementsvloer": false,
    "onhoudbaar": false,
    "gespannen": false,
-   "eps_nu": 4.41,
-   "eps_fwd": 4.2672,
-   "dekking_wpa": 39.38
-  },
-  {
-   "ticker": "ASM.AS",
-   "naam": "ASM International NV",
-   "sector": "Technology",
-   "koers": 694.6,
-   "valuta": "EUR",
-   "d0": 3.0,
-   "g3": 0.0627,
-   "g5": 0.0845,
-   "payout": 0.16,
-   "beta": 1.534,
-   "cuts_sinds_2010": 0,
-   "div_hist": {
-    "2007": 0.1,
-    "2011": 0.4,
-    "2012": 0.5,
-    "2013": 4.75,
-    "2014": 0.5,
-    "2015": 0.6,
-    "2016": 0.7,
-    "2017": 0.7,
-    "2018": 4.8,
-    "2019": 2.0,
-    "2020": 2.0,
-    "2021": 2.0,
-    "2022": 2.5,
-    "2023": 2.5,
-    "2024": 2.75,
-    "2025": 3.0,
-    "2026": 3.25
-   },
-   "mcap": 33897553920,
-   "opgehaald": "2026-11-13T22:47:18+00:00",
-   "r": 0.1161,
-   "g1": 0.0743,
-   "fair": 72.217,
-   "pv_div": 25.714,
-   "pv_terminal": 46.503,
-   "koopprijs": 64.995,
-   "mos": 0.1,
-   "kwaliteit": 100,
-   "checks": {
-    "payout": 0.22,
-    "fcf_dekking": 2.28,
-    "netdebt_ebitda": -0.96,
-    "verlagingen": 0
-   },
-   "upside": -0.896,
-   "korting_tov_koop": -0.9064,
-   "yield_nu": 0.0047,
-   "yoc_koop": 0.05,
-   "d0_norm": 3.25,
-   "special_div": false,
-   "vlag": "controleer",
-   "handmatig": true,
-   "pad": [
-    [
-     2026,
-     3.4915
-    ],
-    [
-     2027,
-     3.7509
-    ],
-    [
-     2028,
-     4.0296
-    ],
-    [
-     2029,
-     4.3289
-    ],
-    [
-     2030,
-     4.6506
-    ],
-    [
-     2031,
-     4.9456
-    ],
-    [
-     2032,
-     5.2056
-    ],
-    [
-     2033,
-     5.4228
-    ],
-    [
-     2034,
-     5.5901
-    ],
-    [
-     2035,
-     5.7019
-    ]
-   ],
-   "guidance_type": "groei",
-   "guidance_bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
-   "guidance_notitie": "Boekjaar 2025: 3,25 per aandeel (2024: 3,00), goedgekeurd op de AVA van 11 mei 2026. Beleid: verantwoord en houdbaar jaardividend met een streefpayout van circa 30%; feitelijk 22% bij een winst per aandeel van 14,77 (2024: 13,95). Nieuw inkoopprogramma van 150 mln voor 2026/2027. H1 2026 was sterk: winst per aandeel 10,71 tegen 3,53 in H1 2025, gedreven door versnellende AI-vraag; de tweede jaarhelft wordt volgens ASM sterker met circa 20% omzetgroei. Groei 7% als eigen aanname, onder het vijfjaarstempo van 10,2%. Bij een rendement van 0,4% is dit geen inkomensaandeel; het model zegt hier weinig zinnigs over.",
-   "agenda": {
-    "laatste_cijfers": "2026-07-28",
-    "laatste_soort": "halfjaarcijfers",
-    "volgende_cijfers": "2027-02-23",
-    "volgende_soort": "jaarcijfers",
-    "dagen_tot": 102,
-    "guidance_gecheckt": "2026-08-15",
-    "guidance_bron": "asm.com/investors/dividends-share-buybacks - AVA 11 mei 2026",
-    "status": "vers"
-   },
-   "override_gewijzigd": "2026-08-15T19:33:40+00:00",
-   "inkoop_rend": 0.004,
-   "netto_inkoop": 134521667,
-   "g1_kaal": 0.07,
-   "houdbare_groei": 0.151,
-   "roe": 0.23452999,
-   "fair_laag": 57.298,
-   "fair_hoog": 93.647,
-   "payout_stabiel": 0.9147,
-   "land": "NL",
-   "bron_tarief": 0.15,
-   "bron_verlies": 0.0,
-   "bron_notitie": null,
-   "d0_netto": 3.25,
-   "model_ongeschikt": true,
-   "groei_boven_houdbaar": false,
-   "r_stabiel": 0.0825,
-   "beta_gebruikt": 1.672,
-   "beta_herkomst": "eigen",
-   "ri_van_toepassing": false,
-   "fair_ri": null,
-   "ri_overwinst": null,
-   "fair_ddm": 72.217,
-   "waardering_bron": "dividendmodel",
-   "bvps": 95.76,
-   "ri_afwijking": null,
-   "ri_conflict": false,
-   "beta_regressie": 2.0033,
-   "beta_r2": 0.4304,
-   "op_rendementsvloer": false,
-   "onhoudbaar": false,
-   "gespannen": false,
-   "eps_nu": 14.77,
-   "eps_fwd": 14.77,
-   "dekking_wpa": 4.54
+   "eps_nu": 4.51,
+   "eps_fwd": 4.16506,
+   "dekking_wpa": 40.27
   },
   {
    "ticker": "BRNL.AS",
    "naam": "Brunel International N.V.",
    "sector": "Industrials",
-   "koers": 6.96,
+   "koers": 6.81,
    "valuta": "EUR",
    "d0": 0.55,
    "g3": 0.0692,
@@ -7492,13 +7491,13 @@
     "2025": 0.55,
     "2026": 0.35
    },
-   "mcap": 350316832,
-   "opgehaald": "2026-11-13T22:47:22+00:00",
+   "mcap": 342766912,
+   "opgehaald": "2026-11-17T00:59:39+00:00",
    "r": 0.0776,
    "g1": 0.03,
    "fair": 0.772,
    "pv_div": 0.469,
-   "pv_terminal": 0.303,
+   "pv_terminal": 0.302,
    "koopprijs": 0.491,
    "mos": 0.364,
    "kwaliteit": 12,
@@ -7509,10 +7508,10 @@
     "verlagingen": 2,
     "diepste_verlaging": -0.786
    },
-   "upside": -0.8891,
-   "korting_tov_koop": -0.9295,
-   "yield_nu": 0.0086,
-   "yoc_koop": 0.1222,
+   "upside": -0.8867,
+   "korting_tov_koop": -0.9279,
+   "yield_nu": 0.0088,
+   "yoc_koop": 0.1223,
    "d0_norm": 0.06,
    "special_div": false,
    "vlag": "controleer",
@@ -7567,12 +7566,12 @@
     "laatste_soort": null,
     "volgende_cijfers": "2027-02-19",
     "volgende_soort": "jaarcijfers",
-    "dagen_tot": 98,
+    "dagen_tot": 94,
     "guidance_gecheckt": "2026-08-15",
     "guidance_bron": "Brunel jaarresultaten 2025 (20-02-2026) en Q1-update 2026",
     "status": "vers"
    },
-   "override_gewijzigd": "2026-11-13T22:49:16+00:00",
+   "override_gewijzigd": "2026-11-17T01:01:16+00:00",
    "inkoop_rend": 0.0,
    "netto_inkoop": null,
    "g1_kaal": 0.03,
@@ -7588,7 +7587,7 @@
    "d0_netto": 0.06,
    "model_ongeschikt": false,
    "groei_boven_houdbaar": true,
-   "r_stabiel": 0.0825,
+   "r_stabiel": 0.0826,
    "beta_gebruikt": 0.901,
    "beta_herkomst": "eigen",
    "ri_van_toepassing": false,
