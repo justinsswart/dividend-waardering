@@ -1,17 +1,94 @@
 {
- "gescand": "2026-11-17T01:02:40+00:00",
+ "gescand": "2026-11-17T23:58:29+00:00",
  "signalen": {
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
+   "score": 8,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "ABN Amro verhoogt outlook na meevallend derde kwartaal - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdS12eHZvTHFhRjQyZmRaald4aDZtY2Q3WnRpWTlvVW5nOFpCREJScy01bXBUMDd0dl9TWnViUTJoY1ZQY09MTzY3VGdzQ0plUUhmQ1VKSXZ1QnVSdnBVX2tQSFVhUWpiRDJjS2RYZGNfbTU5Z1RpSTRIbktDSXBabDJsRUdvSlp5S0RobU1wUF95cXhVdVlv?oc=5",
+     "datum": "Wed, 11 Nov 2026 06:19:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 5
+    },
+    {
+     "titel": "FX Outlook 2027: Een zwakke euro in 2027 - ABN AMRO",
+     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0pILUx2bjV6QWxtcGNjbGJzSWRqTVRkMTVhNU1ENUdYMWJMelJwc1hPYld0LVpIVVEzNG1UVENIOGN0b3lBd1p3SzVTUlhlUnF3QnZ1SWNUU3NfNHgwcVd4SzhGcUYwaXExMjVXN0JhV2wtWmZrRTdxSE5MMmVIZmRiZUw5eHdKbjFPWTM5X21tQm8?oc=5",
+     "datum": "Wed, 11 Nov 2026 06:37:10 GMT",
+     "bron": "ABN AMRO",
+     "gewicht": 3
+    }
+   ]
+  },
+  "AMG.AS": {
+   "naam": "AMG Critical Materials N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Beursupdate: AEX onder druk door chipfondsen en ex-dividendnoteringen - CashCow.nl",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVENiUk1aT1hsMVdvZV94RWhtS1dmRTZnNi1MTkg3Um9TaTEwQS14Y004b3NFTE1pVDJZSEF1WmxCTy13UFpiczVVTnZwT01nTUNNVTdpRHlnUm10TmpTSjFYVnFJR2tNX3piYWM5QzRRMWxVcjFDODF2cmNkLWZFM2xKV2lSRm1hZHI0TS1uWHRYUQ?oc=5",
+     "datum": "Thu, 12 Nov 2026 10:35:21 GMT",
+     "bron": "CashCow.nl",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Aandelen Stellantis dalen meer dan 2% na opschorting van het dividend over 2026 en negatieve kasstroom - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQczR4UG8zNjIxY3NRRkdQendoNmxLUTV4T3JaOTQtU2Z3bTA3N0R2MlZvRlA0TFJoa19ZdWJwOF9ST1QxNjVMUjZYY2t4X0hQb2RSZHBIbVF5WENPZVhIdGlBX0QxUGZWUjhuamlvWXpCNTAyR01wejMxdmxWampsRWlQZ1FyZjEzV3JUZ2d1aFh6cUN0Zk5v?oc=5",
+     "datum": "Tue, 17 Nov 2026 08:27:27 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "PHIA.AS": {
+   "naam": "Koninklijke Philips N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Aandelen Stellantis dalen meer dan 2% na opschorting van het dividend over 2026 en negatieve kasstroom - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQczR4UG8zNjIxY3NRRkdQendoNmxLUTV4T3JaOTQtU2Z3bTA3N0R2MlZvRlA0TFJoa19ZdWJwOF9ST1QxNjVMUjZYY2t4X0hQb2RSZHBIbVF5WENPZVhIdGlBX0QxUGZWUjhuamlvWXpCNTAyR01wejMxdmxWampsRWlQZ1FyZjEzV3JUZ2d1aFh6cUN0Zk5v?oc=5",
+     "datum": "Tue, 17 Nov 2026 08:27:27 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
   "SBMO.AS": {
    "naam": "SBM Offshore N.V.",
    "score": 5,
    "niveau": "midden",
    "items": [
     {
-     "titel": "SBM Offshore verhoogt outlook opnieuw - Beurs.nl",
-     "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOYUJtNVMyUUFnNFZEdTh1QjR1d0V4S01OV0ViNzgzQkl3S2EtRW0xR19DVnZDWTFFM3JDX3pMR1lJNW9kNVdqY19NR3hseW8wSENEcGllN0tjbDU3SEFHeVB2SWhfbHpKMmFTMU9IWWFMVFNQT3JkQkUwRF8wMW5GZW9UTQ?oc=5",
+     "titel": "SBM Offshore verhoogt outlook opnieuw - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQVnRyREgtdGQ3OVA5NXV4OHN3dUk1REhZaVowUkJWUnBycW5JZVF6TUJrZnFienVrNzV2eXN5NjNaUUR6amxYREpTdi1vT2F4T3hsbnRlRWI4WnlpT01uLWZqM2syV0FuMktkMDBlQ3BaOFJydTZvYktOTVAxTnA3SA?oc=5",
      "datum": "Thu, 12 Nov 2026 06:18:00 GMT",
-     "bron": "Beurs.nl",
+     "bron": "IEX.nl",
      "gewicht": 5
+    }
+   ]
+  },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Koers SHELL PLC | Advies, nieuws, dividend en koersdoelen - IEX.nl",
+     "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE94Q01ReWF4MlcxUGt1YnYwcU45NVkxWFllRXpUcDhHVVA3c3BTTXByVThMTmFYLXltMEpDRENwdWRHYmJwUGd5eUlvMFVWV3JUR3JiUVF1dkcyaUJUTkNuTEdvUks?oc=5",
+     "datum": "Thu, 12 Nov 2026 13:25:00 GMT",
+     "bron": "IEX.nl",
+     "gewicht": 3
     }
    ]
   },
@@ -28,10 +105,10 @@
      "gewicht": 3
     },
     {
-     "titel": "Beursblik: Jefferies verlaagt koersdoel TKH - Beurs.nl",
-     "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNRVJ6RXNTRlpMVlp6SkVyZ0F0bThvYlBkQ1Bjd250OUNqV3hFWnIxeGt6S1RNZHFOa1JpU2pSSV9KMngyUkUwbGNQdTZVVjY4SWlDbjUzS3IyY2FkWXZnTFY4MGdpUC01a3FfRGdULXhRT3V2aGhrTkJqUGpZTVhrckJqNDNLWHFBWkE?oc=5",
-     "datum": "Wed, 11 Nov 2026 11:17:00 GMT",
-     "bron": "Beurs.nl",
+     "titel": "Beursblik: Jefferies verlaagt koersdoel TKH - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGVzOFNvcmJxRThoWjBrd2pFd2VBVWN4WUNXb0xFbFBCaVZSZVpGbnpDNVRXLUtmRDZxeEI3MlpKTTNYS000T2RaOEtYMlU0NllaSXpld3MwdFVXQ2pWQ09XMjZFa2lPOXNVbUg3bVE1WE9KSzlILXZZa1RKM2lMQkdaeDh5R1ZndWl5X2VRMzEwQ0tMYW5JTjRR?oc=5",
+     "datum": "Wed, 11 Nov 2026 11:23:11 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
@@ -42,17 +119,17 @@
    "niveau": "midden",
    "items": [
     {
-     "titel": "Wolters Kluwer doet overname in de VS van maximaal 100 miljoen dollar - MenA.nl",
-     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDlCUWdNaU5RYjB5Y0hlVTBUbURsV0F2dk50UEdXZVd5ZzdyRm5fVHFHVW84QWp3VDhkbGhRS1JIVzRGdFRpV19ONE02dVB4N0p4bmVsanhWTGoydGZSRWpOSURnVmJnRk1LWVY0Zmp4QTI1cXNXY2VlMXpCY3d1VmFhSjZpOFM3M250OExUVXNRMWdKdWxFQ0haMTlHQW14MnZZZ3pleW1Hdw?oc=5",
-     "datum": "Mon, 16 Nov 2026 12:46:35 GMT",
-     "bron": "MenA.nl",
-     "gewicht": 3
-    },
-    {
      "titel": "Wolters Kluwer stemt in met overname van klinisch AI-bedrijf AgileMD - Unite.AI",
      "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTHF1amMzXzk4dGItOXRxcV81MFh6bjFkVmVZUXByRGFJclQyT09BaVRzOTFNMGNuS1Z3a0t3Wk1Rc00xZFlsQ05NNmdlTTV2N2ZlUW9aVDlLa195YndNb08weE9VcmxsYTRzUVNWR3RGeGVDckxVUmdvckU3bFV4ZHVDcHNSZ2k3?oc=5",
      "datum": "Fri, 13 Nov 2026 17:34:01 GMT",
      "bron": "Unite.AI",
+     "gewicht": 3
+    },
+    {
+     "titel": "Wolters Kluwer doet overname in de VS van maximaal 100 miljoen dollar - MenA.nl",
+     "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDlCUWdNaU5RYjB5Y0hlVTBUbURsV0F2dk50UEdXZVd5ZzdyRm5fVHFHVW84QWp3VDhkbGhRS1JIVzRGdFRpV19ONE02dVB4N0p4bmVsanhWTGoydGZSRWpOSURnVmJnRk1LWVY0Zmp4QTI1cXNXY2VlMXpCY3d1VmFhSjZpOFM3M250OExUVXNRMWdKdWxFQ0haMTlHQW14MnZZZ3pleW1Hdw?oc=5",
+     "datum": "Mon, 16 Nov 2026 12:46:35 GMT",
+     "bron": "MenA.nl",
      "gewicht": 3
     }
    ]
