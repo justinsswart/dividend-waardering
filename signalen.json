@@ -1,27 +1,6 @@
 {
- "gescand": "2026-11-17T23:58:29+00:00",
+ "gescand": "2026-11-18T23:32:55+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
-   "score": 8,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "ABN Amro verhoogt outlook na meevallend derde kwartaal - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPdS12eHZvTHFhRjQyZmRaald4aDZtY2Q3WnRpWTlvVW5nOFpCREJScy01bXBUMDd0dl9TWnViUTJoY1ZQY09MTzY3VGdzQ0plUUhmQ1VKSXZ1QnVSdnBVX2tQSFVhUWpiRDJjS2RYZGNfbTU5Z1RpSTRIbktDSXBabDJsRUdvSlp5S0RobU1wUF95cXhVdVlv?oc=5",
-     "datum": "Wed, 11 Nov 2026 06:19:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 5
-    },
-    {
-     "titel": "FX Outlook 2027: Een zwakke euro in 2027 - ABN AMRO",
-     "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOR0pILUx2bjV6QWxtcGNjbGJzSWRqTVRkMTVhNU1ENUdYMWJMelJwc1hPYld0LVpIVVEzNG1UVENIOGN0b3lBd1p3SzVTUlhlUnF3QnZ1SWNUU3NfNHgwcVd4SzhGcUYwaXExMjVXN0JhV2wtWmZrRTdxSE5MMmVIZmRiZUw5eHdKbjFPWTM5X21tQm8?oc=5",
-     "datum": "Wed, 11 Nov 2026 06:37:10 GMT",
-     "bron": "ABN AMRO",
-     "gewicht": 3
-    }
-   ]
-  },
   "AMG.AS": {
    "naam": "AMG Critical Materials N.V.",
    "score": 3,
@@ -46,6 +25,20 @@
      "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQczR4UG8zNjIxY3NRRkdQendoNmxLUTV4T3JaOTQtU2Z3bTA3N0R2MlZvRlA0TFJoa19ZdWJwOF9ST1QxNjVMUjZYY2t4X0hQb2RSZHBIbVF5WENPZVhIdGlBX0QxUGZWUjhuamlvWXpCNTAyR01wejMxdmxWampsRWlQZ1FyZjEzV3JUZ2d1aFh6cUN0Zk5v?oc=5",
      "datum": "Tue, 17 Nov 2026 08:27:27 GMT",
      "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "IMCD.AS": {
+   "naam": "IMCD N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Nebius scherpt outlook aan door uitgestelde omzet - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPQVBYdHBGY2FZd3NKRHpCbTdJNVVwUlRITGE5SkpzMGZwRVB0STNBemEwNXFCNGI0enE1NzNDUi0zb1dmU25QM1dQdmQyb2VUOFU5LUFPZHNZdlpFa1NGZWdBdGFLMXhaS2JzVHJWbl9aN3RKTF9BNzN2OERxNmJ4OXNWVFFYMmNuUlVaYzJtRHJYRGpxMnFJ?oc=5",
+     "datum": "Thu, 12 Nov 2026 13:04:28 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     }
    ]
@@ -94,8 +87,8 @@
   },
   "TWEKA.AS": {
    "naam": "TKH Group N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Koers TKH Group | Advies, nieuws, dividend en koersdoelen - IEX.nl",
@@ -103,28 +96,14 @@
      "datum": "Fri, 13 Nov 2026 07:15:00 GMT",
      "bron": "IEX.nl",
      "gewicht": 3
-    },
-    {
-     "titel": "Beursblik: Jefferies verlaagt koersdoel TKH - De AandeelHouder",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNGVzOFNvcmJxRThoWjBrd2pFd2VBVWN4WUNXb0xFbFBCaVZSZVpGbnpDNVRXLUtmRDZxeEI3MlpKTTNYS000T2RaOEtYMlU0NllaSXpld3MwdFVXQ2pWQ09XMjZFa2lPOXNVbUg3bVE1WE9KSzlILXZZa1RKM2lMQkdaeDh5R1ZndWl5X2VRMzEwQ0tMYW5JTjRR?oc=5",
-     "datum": "Wed, 11 Nov 2026 11:23:11 GMT",
-     "bron": "De AandeelHouder",
-     "gewicht": 3
     }
    ]
   },
   "WKL.AS": {
    "naam": "Wolters Kluwer N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
-    {
-     "titel": "Wolters Kluwer stemt in met overname van klinisch AI-bedrijf AgileMD - Unite.AI",
-     "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQTHF1amMzXzk4dGItOXRxcV81MFh6bjFkVmVZUXByRGFJclQyT09BaVRzOTFNMGNuS1Z3a0t3Wk1Rc00xZFlsQ05NNmdlTTV2N2ZlUW9aVDlLa195YndNb08weE9VcmxsYTRzUVNWR3RGeGVDckxVUmdvckU3bFV4ZHVDcHNSZ2k3?oc=5",
-     "datum": "Fri, 13 Nov 2026 17:34:01 GMT",
-     "bron": "Unite.AI",
-     "gewicht": 3
-    },
     {
      "titel": "Wolters Kluwer doet overname in de VS van maximaal 100 miljoen dollar - MenA.nl",
      "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQVDlCUWdNaU5RYjB5Y0hlVTBUbURsV0F2dk50UEdXZVd5ZzdyRm5fVHFHVW84QWp3VDhkbGhRS1JIVzRGdFRpV19ONE02dVB4N0p4bmVsanhWTGoydGZSRWpOSURnVmJnRk1LWVY0Zmp4QTI1cXNXY2VlMXpCY3d1VmFhSjZpOFM3M250OExUVXNRMWdKdWxFQ0haMTlHQW14MnZZZ3pleW1Hdw?oc=5",
