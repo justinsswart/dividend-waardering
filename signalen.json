@@ -1,27 +1,13 @@
 {
- "gescand": "2026-11-20T23:20:38+00:00",
+ "gescand": "2026-11-24T03:29:19+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
+  "ADYEN.AS": {
+   "naam": "Adyen N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Koers ABN AMRO BANK N.V. | Advies, nieuws, dividend en koersdoelen - IEX.nl",
-     "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UckNXQURDOGMyMUw3dkJvZU00Wm8tM0RXemZiT2owcGxpbWt4VEkwUHNJNmVmNG51cTVKQWJCWk5obFgweHFZNXJzVF9scXNKeHFPeWdWRGN5bFlGOTBBNDRvZ2JWVHB3LUlKcFpB?oc=5",
-     "datum": "Tue, 17 Nov 2026 14:30:00 GMT",
-     "bron": "IEX.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASM.AS": {
-   "naam": "ASM International NV",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI en halfgeleiders onder druk - DividendNieuws.be",
+     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
      "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
      "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
      "bron": "DividendNieuws.be",
@@ -29,10 +15,59 @@
     }
    ]
   },
-  "ASML.AS": {
-   "naam": "ASML Holding N.V.",
+  "AMG.AS": {
+   "naam": "AMG Critical Materials N.V.",
    "score": 3,
    "niveau": "laag",
+   "items": [
+    {
+     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
+     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "ASM.AS": {
+   "naam": "ASM International NV",
+   "score": 6,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Vooruitzichten voor het aandeel ASM International: herstelpoging stuit op weerstand van dominante verkopers op korte termijn - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNDRmNVotOEdsX2lKcU9sdnFUMVRPcS16TEstNVJhaTlFdDBUUEhOdUNhakp4M3VtdElna2QzM29HNS0yWWFjWVRURUNwdFYyREVqakd6Q2psTk5kTTFnejdXZmtSeUg1czNrbmFtNjlHSnNzSFpaWFg5LVB0UVk0M2RzVzhMeW1pS3hmdUE4ZWROMS1XdzZv?oc=5",
+     "datum": "Mon, 23 Nov 2026 08:52:27 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
+     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "HEIA.AS": {
+   "naam": "Heineken N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Fabrikanten kort: Heineken doet overname in Verenigd Koninkrijk - Distrifood",
+     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02MkNhMGZLWGMyUG9XakdvUHFoVFpIYnd0eHlsUGhWd1lMUW1GdXN4WlIzR0hDbC16bVVVbFV0ZklWTUJTUTFObWZJLU1ENmtKODFWcy1LbS15NlowR0g5cUlkeUVWZ013aE1fTm95Y1A?oc=5",
+     "datum": "Fri, 20 Nov 2026 10:14:00 GMT",
+     "bron": "Distrifood",
+     "gewicht": 3
+    }
+   ]
+  },
+  "INGA.AS": {
+   "naam": "ING Groep N.V.",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Meta-aandelen dalen ongeveer 2,5% nadat dividend in aandelen van stemrechtloze Class C-aandelen is opgeschort vanwege een rechtszaak in Delaware - Traders Union",
@@ -40,19 +75,26 @@
      "datum": "Thu, 19 Nov 2026 19:02:42 GMT",
      "bron": "Traders Union",
      "gewicht": 3
-    }
-   ]
-  },
-  "INGA.AS": {
-   "naam": "ING Groep N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
+    },
     {
      "titel": "Sterke Nvidia-cijfers en positieve vooruitzichten voor de AI-sector stuwen Nasdaq 100 bijna 2% hoger - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGF3MVgyRllHYmR6VkE2bHE5WTlPYTFta1VfRzZjWHZEU3FBbER0Q21sc2xZNDVieEpYdkdVVEhrSG5tZDRodEM1cTNqM0NzYnNjRlJyTDBaZWZuckRDdXN1SVowcVpqU2c0MWRuZi1RUEprT0lvZ3hYSEphaGlqUV9qX3hxa1Axbk1hZXFxMlhHdw?oc=5",
      "datum": "Thu, 19 Nov 2026 14:42:34 GMT",
      "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "LIGHT.AS": {
+   "naam": "Signify N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
+     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
+     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
