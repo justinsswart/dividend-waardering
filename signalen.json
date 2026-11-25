@@ -1,16 +1,16 @@
 {
- "gescand": "2026-11-24T03:29:19+00:00",
+ "gescand": "2026-11-25T01:34:00+00:00",
  "signalen": {
-  "ADYEN.AS": {
-   "naam": "Adyen N.V.",
+  "ABN.AS": {
+   "naam": "ABN AMRO Bank N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
-     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
-     "bron": "DividendNieuws.be",
+     "titel": "Accsys handhaaft outlook ondanks omzetdruk - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUW5Ia2RmalFTWHUyR0VYWkJPODl0ZUZfRzVzd2xHUGFRZFdhbFdjVlh2Y3ctUkFSWm1EcWdhcmYwdkRwZ2Q3T2tRc19IMUtoYkotdWpkajA0cjlwNEMyRzZzUkk0b2VWXzI0U3QzcHZGRHhlN01VSXpvNWhTVnA5V1BBZDVTYjZEZ29VejRR?oc=5",
+     "datum": "Tue, 24 Nov 2026 07:50:24 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     }
    ]
@@ -50,6 +50,48 @@
     }
    ]
   },
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 9,
+   "niveau": "hoog",
+   "items": [
+    {
+     "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmRrcEZUdXplNUE3U1BrTkhTeHcwRnRBbXBSOXdsVzFodl96Y05wNzhzZFVKeVVQM2tRNjIwN0pMbTZYUHlDT2RqbVdUbmRDbkhUZFRoTjJxeWlmMV9jeWQwQnBQY25JamZzOVdLRlJWZExTMU13RGFMdnJSYkJtNjl6cHdveWQtYTBOWC1HMFhFY2dhWWd0bmlOYXc?oc=5",
+     "datum": "Mon, 23 Nov 2026 19:55:44 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
+     "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Sterke Nvidia-cijfers en positieve vooruitzichten voor de AI-sector stuwen Nasdaq 100 bijna 2% hoger - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGF3MVgyRllHYmR6VkE2bHE5WTlPYTFta1VfRzZjWHZEU3FBbER0Q21sc2xZNDVieEpYdkdVVEhrSG5tZDRodEM1cTNqM0NzYnNjRlJyTDBaZWZuckRDdXN1SVowcVpqU2c0MWRuZi1RUEprT0lvZ3hYSEphaGlqUV9qX3hxa1Axbk1hZXFxMlhHdw?oc=5",
+     "datum": "Thu, 19 Nov 2026 14:42:34 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "AXS.AS": {
+   "naam": "Accsys Technologies PLC",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Accsys handhaaft outlook ondanks omzetdruk - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSTd3NXZZR08xOTNvV2psRVdocC1rbkRxcnhnR1l0M1JNUDkxZmRKa0RSb09TbTMwQk9pc0dRT2VxVUhiVmU0RDNDTE5aUVA3bHJ5Ym9MemJHNUdVNFhzZ1JFZmRLVjRZWTN4a0JpemlCYU5qNkNfYnRBRHNJbnU5ZlFMOTdtZy1sQTNDdEtnTU9yYjdnZ1hyY3dORElHVkR4Q0dv?oc=5",
+     "datum": "Tue, 24 Nov 2026 07:42:16 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    }
+   ]
+  },
   "HEIA.AS": {
    "naam": "Heineken N.V.",
    "score": 3,
@@ -66,13 +108,20 @@
   },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 9,
+   "niveau": "hoog",
    "items": [
     {
-     "titel": "Meta-aandelen dalen ongeveer 2,5% nadat dividend in aandelen van stemrechtloze Class C-aandelen is opgeschort vanwege een rechtszaak in Delaware - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmFiQUdtazdUZkJILTFFNXpiOUw4UkNydUV0VThZQ01GdnhkRk00S21MT1g4RkExQ0VvQWlIVzg3MHVoakozQkJHQlpacjdfSW5vODJheFJUZ2ZRUlRncGFDNXM4VklqUkpnRnlMUnZIVkVrc01CanFUanZoV19NMDJYNGVyWmhvTkJiLUg4MA?oc=5",
-     "datum": "Thu, 19 Nov 2026 19:02:42 GMT",
+     "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmRrcEZUdXplNUE3U1BrTkhTeHcwRnRBbXBSOXdsVzFodl96Y05wNzhzZFVKeVVQM2tRNjIwN0pMbTZYUHlDT2RqbVdUbmRDbkhUZFRoTjJxeWlmMV9jeWQwQnBQY25JamZzOVdLRlJWZExTMU13RGFMdnJSYkJtNjl6cHdveWQtYTBOWC1HMFhFY2dhWWd0bmlOYXc?oc=5",
+     "datum": "Mon, 23 Nov 2026 19:55:44 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
+     "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     },
@@ -101,13 +150,20 @@
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 9,
+   "niveau": "hoog",
    "items": [
     {
-     "titel": "Meta-aandelen dalen ongeveer 2,5% nadat dividend in aandelen van stemrechtloze Class C-aandelen is opgeschort vanwege een rechtszaak in Delaware - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNZmFiQUdtazdUZkJILTFFNXpiOUw4UkNydUV0VThZQ01GdnhkRk00S21MT1g4RkExQ0VvQWlIVzg3MHVoakozQkJHQlpacjdfSW5vODJheFJUZ2ZRUlRncGFDNXM4VklqUkpnRnlMUnZIVkVrc01CanFUanZoV19NMDJYNGVyWmhvTkJiLUg4MA?oc=5",
-     "datum": "Thu, 19 Nov 2026 19:02:42 GMT",
+     "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmRrcEZUdXplNUE3U1BrTkhTeHcwRnRBbXBSOXdsVzFodl96Y05wNzhzZFVKeVVQM2tRNjIwN0pMbTZYUHlDT2RqbVdUbmRDbkhUZFRoTjJxeWlmMV9jeWQwQnBQY25JamZzOVdLRlJWZExTMU13RGFMdnJSYkJtNjl6cHdveWQtYTBOWC1HMFhFY2dhWWd0bmlOYXc?oc=5",
+     "datum": "Mon, 23 Nov 2026 19:55:44 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
+     "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     },
@@ -116,6 +172,20 @@
      "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGF3MVgyRllHYmR6VkE2bHE5WTlPYTFta1VfRzZjWHZEU3FBbER0Q21sc2xZNDVieEpYdkdVVEhrSG5tZDRodEM1cTNqM0NzYnNjRlJyTDBaZWZuckRDdXN1SVowcVpqU2c0MWRuZi1RUEprT0lvZ3hYSEphaGlqUV9qX3hxa1Axbk1hZXFxMlhHdw?oc=5",
      "datum": "Thu, 19 Nov 2026 14:42:34 GMT",
      "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SBMO.AS": {
+   "naam": "SBM Offshore N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "SBM Offshore vol vertrouwen over groeivooruitzichten - Beleggers Belangen",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2d0OHp0T2U1Vmo0QVlfNWZWZVNBSjdXUnF5aVB3RG1uVHVKYjlyczhaMHVHSThqMi1lSWZybGJCenVjNGpzTWVVODhNX3hYWTZiX1lWYWFuT085UmFlMGZDbHdfRnlOOFpYVDM5QTQ3V0pQUlMta09QTy1ERUwyclJBbG9tWGNYQzNxT2JTTHAwOEptUklUeA?oc=5",
+     "datum": "Tue, 24 Nov 2026 13:27:00 GMT",
+     "bron": "Beleggers Belangen",
      "gewicht": 3
     }
    ]
