@@ -1,5 +1,5 @@
 {
- "gescand": "2026-11-25T01:34:00+00:00",
+ "gescand": "2026-11-26T01:08:57+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
@@ -50,34 +50,6 @@
     }
    ]
   },
-  "ASML.AS": {
-   "naam": "ASML Holding N.V.",
-   "score": 9,
-   "niveau": "hoog",
-   "items": [
-    {
-     "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmRrcEZUdXplNUE3U1BrTkhTeHcwRnRBbXBSOXdsVzFodl96Y05wNzhzZFVKeVVQM2tRNjIwN0pMbTZYUHlDT2RqbVdUbmRDbkhUZFRoTjJxeWlmMV9jeWQwQnBQY25JamZzOVdLRlJWZExTMU13RGFMdnJSYkJtNjl6cHdveWQtYTBOWC1HMFhFY2dhWWd0bmlOYXc?oc=5",
-     "datum": "Mon, 23 Nov 2026 19:55:44 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
-     "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Sterke Nvidia-cijfers en positieve vooruitzichten voor de AI-sector stuwen Nasdaq 100 bijna 2% hoger - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGF3MVgyRllHYmR6VkE2bHE5WTlPYTFta1VfRzZjWHZEU3FBbER0Q21sc2xZNDVieEpYdkdVVEhrSG5tZDRodEM1cTNqM0NzYnNjRlJyTDBaZWZuckRDdXN1SVowcVpqU2c0MWRuZi1RUEprT0lvZ3hYSEphaGlqUV9qX3hxa1Axbk1hZXFxMlhHdw?oc=5",
-     "datum": "Thu, 19 Nov 2026 14:42:34 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    }
-   ]
-  },
   "AXS.AS": {
    "naam": "Accsys Technologies PLC",
    "score": 3,
@@ -92,24 +64,10 @@
     }
    ]
   },
-  "HEIA.AS": {
-   "naam": "Heineken N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Fabrikanten kort: Heineken doet overname in Verenigd Koninkrijk - Distrifood",
-     "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE02MkNhMGZLWGMyUG9XakdvUHFoVFpIYnd0eHlsUGhWd1lMUW1GdXN4WlIzR0hDbC16bVVVbFV0ZklWTUJTUTFObWZJLU1ENmtKODFWcy1LbS15NlowR0g5cUlkeUVWZ013aE1fTm95Y1A?oc=5",
-     "datum": "Fri, 20 Nov 2026 10:14:00 GMT",
-     "bron": "Distrifood",
-     "gewicht": 3
-    }
-   ]
-  },
   "INGA.AS": {
    "naam": "ING Groep N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
@@ -122,13 +80,6 @@
      "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
      "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
      "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Sterke Nvidia-cijfers en positieve vooruitzichten voor de AI-sector stuwen Nasdaq 100 bijna 2% hoger - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGF3MVgyRllHYmR6VkE2bHE5WTlPYTFta1VfRzZjWHZEU3FBbER0Q21sc2xZNDVieEpYdkdVVEhrSG5tZDRodEM1cTNqM0NzYnNjRlJyTDBaZWZuckRDdXN1SVowcVpqU2c0MWRuZi1RUEprT0lvZ3hYSEphaGlqUV9qX3hxa1Axbk1hZXFxMlhHdw?oc=5",
-     "datum": "Thu, 19 Nov 2026 14:42:34 GMT",
      "bron": "Traders Union",
      "gewicht": 3
     }
