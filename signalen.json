@@ -1,5 +1,5 @@
 {
- "gescand": "2026-11-26T01:08:57+00:00",
+ "gescand": "2026-11-27T01:10:24+00:00",
  "signalen": {
   "ABN.AS": {
    "naam": "ABN AMRO Bank N.V.",
@@ -29,6 +29,20 @@
     }
    ]
   },
+  "APAM.AS": {
+   "naam": "Aperam S.A.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Citi verlaagt koersdoel voor Aperam - MarketScreener Nederland",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeWJkZ1RrN0ZxWEcyMXQxVVRDM3RnTk1tcFFMV1JhQzc3OHdZM1luZmxYN2RyMWZsRWdnNGJidHhPY3ZuV3BwODhjMzEteTBtamN4ZzJoWFZMWjRoNTlSNnFXUUwzcEdJbHBXTkRTdjU1b0dBa2Q3enpUMjFWYjFLRkhoSnNIdVlMUmVrcW14TkVVVVZQc2ZHa2ZR?oc=5",
+     "datum": "Fri, 20 Nov 2026 06:55:46 GMT",
+     "bron": "MarketScreener Nederland",
+     "gewicht": 3
+    }
+   ]
+  },
   "ASM.AS": {
    "naam": "ASM International NV",
    "score": 6,
@@ -50,16 +64,51 @@
     }
    ]
   },
-  "AXS.AS": {
-   "naam": "Accsys Technologies PLC",
+  "ASML.AS": {
+   "naam": "ASML Holding N.V.",
+   "score": 6,
+   "niveau": "midden",
+   "items": [
+    {
+     "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPTmRrcEZUdXplNUE3U1BrTkhTeHcwRnRBbXBSOXdsVzFodl96Y05wNzhzZFVKeVVQM2tRNjIwN0pMbTZYUHlDT2RqbVdUbmRDbkhUZFRoTjJxeWlmMV9jeWQwQnBQY25JamZzOVdLRlJWZExTMU13RGFMdnJSYkJtNjl6cHdveWQtYTBOWC1HMFhFY2dhWWd0bmlOYXc?oc=5",
+     "datum": "Mon, 23 Nov 2026 19:55:44 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    },
+    {
+     "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
+     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
+     "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
+     "bron": "Traders Union",
+     "gewicht": 3
+    }
+   ]
+  },
+  "BESI.AS": {
+   "naam": "BE Semiconductor Industries N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Accsys handhaaft outlook ondanks omzetdruk - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOSTd3NXZZR08xOTNvV2psRVdocC1rbkRxcnhnR1l0M1JNUDkxZmRKa0RSb09TbTMwQk9pc0dRT2VxVUhiVmU0RDNDTE5aUVA3bHJ5Ym9MemJHNUdVNFhzZ1JFZmRLVjRZWTN4a0JpemlCYU5qNkNfYnRBRHNJbnU5ZlFMOTdtZy1sQTNDdEtnTU9yYjdnZ1hyY3dORElHVkR4Q0dv?oc=5",
-     "datum": "Tue, 24 Nov 2026 07:42:16 GMT",
-     "bron": "MarketScreener Nederland",
+     "titel": "Melexis: hoog dividend, maar hoe houdbaar is het na de koersval? - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPZTJvU1Z5cTFVaUl1RFBaT0ptWS1kVGI4R0UzTjJHUEsxZ1M2MTVxSVVlOUtER215Y1ZXTlpVZmdRUndTWFdOX1lCTDJxQ0lJN2lvcHdmYWc4bmlzYUxQaDJnTy13SXBtVEZsVlk0MUxFZWJ5MFdSSVZna0UxSlU1STlJWUlOM0czOE0waFo4SEJVQQ?oc=5",
+     "datum": "Thu, 26 Nov 2026 10:00:00 GMT",
+     "bron": "DividendNieuws.be",
+     "gewicht": 3
+    }
+   ]
+  },
+  "CMCOM.AS": {
+   "naam": "CM.com N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "ForFarmers ziet ruimte voor €200 miljoen aan overnames | CEO Talk - De AandeelHouder",
+     "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPRWxnSjVMdl9HUV91Z1h0ZlV2dXZZRi1ua1RUSGZjdjI3LXZnN201c1pNcFNQZ2ZZSjhFdGpNeWZXNVFNVzd0bEZnQmRWZWtaTHh6QlNSSHE2VE1YY0t0V2xvWjBMdTIxLWZHUGN0ei1SWlczcld2UnBaRlROTWlyZDg3UXlqODRBT1NFUGZ6X2hTWGdoclA5TWJfbzNNR19JYXVnTA?oc=5",
+     "datum": "Thu, 26 Nov 2026 09:04:26 GMT",
+     "bron": "De AandeelHouder",
      "gewicht": 3
     }
    ]
@@ -101,8 +150,8 @@
   },
   "PHIA.AS": {
    "naam": "Koninklijke Philips N.V.",
-   "score": 9,
-   "niveau": "hoog",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
@@ -117,12 +166,19 @@
      "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
      "bron": "Traders Union",
      "gewicht": 3
-    },
+    }
+   ]
+  },
+  "PRX.AS": {
+   "naam": "Prosus N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
-     "titel": "Sterke Nvidia-cijfers en positieve vooruitzichten voor de AI-sector stuwen Nasdaq 100 bijna 2% hoger - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZGF3MVgyRllHYmR6VkE2bHE5WTlPYTFta1VfRzZjWHZEU3FBbER0Q21sc2xZNDVieEpYdkdVVEhrSG5tZDRodEM1cTNqM0NzYnNjRlJyTDBaZWZuckRDdXN1SVowcVpqU2c0MWRuZi1RUEprT0lvZ3hYSEphaGlqUV9qX3hxa1Axbk1hZXFxMlhHdw?oc=5",
-     "datum": "Thu, 19 Nov 2026 14:42:34 GMT",
-     "bron": "Traders Union",
+     "titel": "Welke Europese aandelen keren in december dividend uit? - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMF9NRXlXcFBEd0dJTENnVGdrM2tQWFhVZmR2aWlBMXFmSkJhSmFhSmY5SmZHUllsZFhsRlZGdDgxSVNHckplZG95S3dpbzg1T081Yk94WENENjI2OE9RdkIzT2U1Sk9zekRZWXVlQUZSclBIUUNsQm9jajRka284d3ExQjVRcUFyUEwxSENzb2NGd1U3dXVndmh3?oc=5",
+     "datum": "Thu, 26 Nov 2026 14:45:34 GMT",
+     "bron": "Morningstar",
      "gewicht": 3
     }
    ]
@@ -137,6 +193,34 @@
      "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2d0OHp0T2U1Vmo0QVlfNWZWZVNBSjdXUnF5aVB3RG1uVHVKYjlyczhaMHVHSThqMi1lSWZybGJCenVjNGpzTWVVODhNX3hYWTZiX1lWYWFuT085UmFlMGZDbHdfRnlOOFpYVDM5QTQ3V0pQUlMta09QTy1ERUwyclJBbG9tWGNYQzNxT2JTTHAwOEptUklUeA?oc=5",
      "datum": "Tue, 24 Nov 2026 13:27:00 GMT",
      "bron": "Beleggers Belangen",
+     "gewicht": 3
+    }
+   ]
+  },
+  "SHELL.AS": {
+   "naam": "Shell plc",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Welke Europese aandelen keren in december dividend uit? - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMF9NRXlXcFBEd0dJTENnVGdrM2tQWFhVZmR2aWlBMXFmSkJhSmFhSmY5SmZHUllsZFhsRlZGdDgxSVNHckplZG95S3dpbzg1T081Yk94WENENjI2OE9RdkIzT2U1Sk9zekRZWXVlQUZSclBIUUNsQm9jajRka284d3ExQjVRcUFyUEwxSENzb2NGd1U3dXVndmh3?oc=5",
+     "datum": "Thu, 26 Nov 2026 14:45:34 GMT",
+     "bron": "Morningstar",
+     "gewicht": 3
+    }
+   ]
+  },
+  "UNA.AS": {
+   "naam": "Unilever PLC",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Welke Europese aandelen keren in december dividend uit? - Morningstar",
+     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMF9NRXlXcFBEd0dJTENnVGdrM2tQWFhVZmR2aWlBMXFmSkJhSmFhSmY5SmZHUllsZFhsRlZGdDgxSVNHckplZG95S3dpbzg1T081Yk94WENENjI2OE9RdkIzT2U1Sk9zekRZWXVlQUZSclBIUUNsQm9jajRka284d3ExQjVRcUFyUEwxSENzb2NGd1U3dXVndmh3?oc=5",
+     "datum": "Thu, 26 Nov 2026 14:45:34 GMT",
+     "bron": "Morningstar",
      "gewicht": 3
     }
    ]
