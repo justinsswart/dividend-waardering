@@ -1,73 +1,10 @@
 {
- "gescand": "2026-11-27T01:10:24+00:00",
+ "gescand": "2026-11-28T00:42:04+00:00",
  "signalen": {
-  "ABN.AS": {
-   "naam": "ABN AMRO Bank N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Accsys handhaaft outlook ondanks omzetdruk - Beleggen.nl",
-     "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNUW5Ia2RmalFTWHUyR0VYWkJPODl0ZUZfRzVzd2xHUGFRZFdhbFdjVlh2Y3ctUkFSWm1EcWdhcmYwdkRwZ2Q3T2tRc19IMUtoYkotdWpkajA0cjlwNEMyRzZzUkk0b2VWXzI0U3QzcHZGRHhlN01VSXpvNWhTVnA5V1BBZDVTYjZEZ29VejRR?oc=5",
-     "datum": "Tue, 24 Nov 2026 07:50:24 GMT",
-     "bron": "Beleggen.nl",
-     "gewicht": 3
-    }
-   ]
-  },
-  "AMG.AS": {
-   "naam": "AMG Critical Materials N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
-     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
-  "APAM.AS": {
-   "naam": "Aperam S.A.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
-    {
-     "titel": "Citi verlaagt koersdoel voor Aperam - MarketScreener Nederland",
-     "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOeWJkZ1RrN0ZxWEcyMXQxVVRDM3RnTk1tcFFMV1JhQzc3OHdZM1luZmxYN2RyMWZsRWdnNGJidHhPY3ZuV3BwODhjMzEteTBtamN4ZzJoWFZMWjRoNTlSNnFXUUwzcEdJbHBXTkRTdjU1b0dBa2Q3enpUMjFWYjFLRkhoSnNIdVlMUmVrcW14TkVVVVZQc2ZHa2ZR?oc=5",
-     "datum": "Fri, 20 Nov 2026 06:55:46 GMT",
-     "bron": "MarketScreener Nederland",
-     "gewicht": 3
-    }
-   ]
-  },
-  "ASM.AS": {
-   "naam": "ASM International NV",
-   "score": 6,
-   "niveau": "midden",
-   "items": [
-    {
-     "titel": "Vooruitzichten voor het aandeel ASM International: herstelpoging stuit op weerstand van dominante verkopers op korte termijn - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQNDRmNVotOEdsX2lKcU9sdnFUMVRPcS16TEstNVJhaTlFdDBUUEhOdUNhakp4M3VtdElna2QzM29HNS0yWWFjWVRURUNwdFYyREVqakd6Q2psTk5kTTFnejdXZmtSeUg1czNrbmFtNjlHSnNzSFpaWFg5LVB0UVk0M2RzVzhMeW1pS3hmdUE4ZWROMS1XdzZv?oc=5",
-     "datum": "Mon, 23 Nov 2026 08:52:27 GMT",
-     "bron": "Traders Union",
-     "gewicht": 3
-    },
-    {
-     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
-     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
-     "bron": "DividendNieuws.be",
-     "gewicht": 3
-    }
-   ]
-  },
   "ASML.AS": {
    "naam": "ASML Holding N.V.",
-   "score": 6,
-   "niveau": "midden",
+   "score": 3,
+   "niveau": "laag",
    "items": [
     {
      "titel": "Kunnen een hoger dividend en institutionele herschikkingen het aandeel BlackRock ondersteunen? - Traders Union",
@@ -75,12 +12,19 @@
      "datum": "Mon, 23 Nov 2026 19:55:44 GMT",
      "bron": "Traders Union",
      "gewicht": 3
-    },
+    }
+   ]
+  },
+  "ASRNL.AS": {
+   "naam": "ASR Nederland N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
     {
-     "titel": "Costco-aandeelkoers daalt licht terwijl beleggers de gevolgen van het speciale dividend voor het sentiment rond kapitaalteruggave afwegen - Traders Union",
-     "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOS3pzNWZKTk1ibUlxTTd3dTdDZWlWTjlBWUExWks4M09kV19ZVkJxRWRNVGhOOHZsRnA1cHp2RUUwZFM5XzFMdzZ4V1hOdDRkMk1BeTVaU2RMLS02VS1EeDBDa1M3N3EzdTd6NnBhRHc1NUU0UHhrbmFZRmphTXBKWDlfdkZUbm1rbUFGb19Lbw?oc=5",
-     "datum": "Tue, 24 Nov 2026 21:27:42 GMT",
-     "bron": "Traders Union",
+     "titel": "Waarom Ageas wél favoriet is en Munich Re niet voor 2027 - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVExIcHB6OGRrUnBubWN1Y2tqMkRTVHBmZHpwaU9oR1RqdUZ4dHpyV2lKaFF0Zmw2WEJGSGxsR1N0UFRjajJ5eEF6d3FqYjdaMkczaVJ3TEdVM0swX0syZ3hnRDVDb3lOb3RSRGxPQlVrdnBTYlFqNFktMVVpVDJyS3REVlZOSENSTm5oYlpzVjg0c2FhZWxhYg?oc=5",
+     "datum": "Fri, 27 Nov 2026 15:19:00 GMT",
+     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
@@ -134,15 +78,15 @@
     }
    ]
   },
-  "LIGHT.AS": {
-   "naam": "Signify N.V.",
+  "NN.AS": {
+   "naam": "NN Group N.V.",
    "score": 3,
    "niveau": "laag",
    "items": [
     {
-     "titel": "Grootste beursdalers in België, Nederland en Frankrijk: AI onder druk - DividendNieuws.be",
-     "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQaS0zOTFIRHhRRGEyMFVhUG5keDg5YXNUbHJkb2VkaDZYZkVJUHZwa1NCOW9SRHY5MWhncU9SRGlmNzhJUGZ6TkJXNHZfZGxHdGN4dWlmcy13SWphdFRvQTNHNXJEOVJXejItOTNZQ28yVHd3MmUwT29zZGtqUFBvZmxpdEw0Slg1MHhocUdGeDYxRmFhZnRwSnV3OA?oc=5",
-     "datum": "Fri, 20 Nov 2026 18:30:00 GMT",
+     "titel": "Waarom Ageas wél favoriet is en Munich Re niet voor 2027 - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNVExIcHB6OGRrUnBubWN1Y2tqMkRTVHBmZHpwaU9oR1RqdUZ4dHpyV2lKaFF0Zmw2WEJGSGxsR1N0UFRjajJ5eEF6d3FqYjdaMkczaVJ3TEdVM0swX0syZ3hnRDVDb3lOb3RSRGxPQlVrdnBTYlFqNFktMVVpVDJyS3REVlZOSENSTm5oYlpzVjg0c2FhZWxhYg?oc=5",
+     "datum": "Fri, 27 Nov 2026 15:19:00 GMT",
      "bron": "DividendNieuws.be",
      "gewicht": 3
     }
@@ -171,8 +115,8 @@
   },
   "PRX.AS": {
    "naam": "Prosus N.V.",
-   "score": 3,
-   "niveau": "laag",
+   "score": 6,
+   "niveau": "midden",
    "items": [
     {
      "titel": "Welke Europese aandelen keren in december dividend uit? - Morningstar",
@@ -180,19 +124,12 @@
      "datum": "Thu, 26 Nov 2026 14:45:34 GMT",
      "bron": "Morningstar",
      "gewicht": 3
-    }
-   ]
-  },
-  "SBMO.AS": {
-   "naam": "SBM Offshore N.V.",
-   "score": 3,
-   "niveau": "laag",
-   "items": [
+    },
     {
-     "titel": "SBM Offshore vol vertrouwen over groeivooruitzichten - Beleggers Belangen",
-     "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQU2d0OHp0T2U1Vmo0QVlfNWZWZVNBSjdXUnF5aVB3RG1uVHVKYjlyczhaMHVHSThqMi1lSWZybGJCenVjNGpzTWVVODhNX3hYWTZiX1lWYWFuT085UmFlMGZDbHdfRnlOOFpYVDM5QTQ3V0pQUlMta09QTy1ERUwyclJBbG9tWGNYQzNxT2JTTHAwOEptUklUeA?oc=5",
-     "datum": "Tue, 24 Nov 2026 13:27:00 GMT",
-     "bron": "Beleggers Belangen",
+     "titel": "Degroof Petercam verlaagt koersdoel Prosus stevig - Beleggen.nl",
+     "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQenM3WXFjTGNHcDBIcFV5R1EzOVNVUDlMa25mSk5CUHdDOUUxNDFrZmIwQmpLSDNTMmI0Q2J4RW81bi1fdjRiZnhreUJ6N1BpSVFnMGhNXzdTenZFLWlNZXVrYUtuRTd4aS1weEQ2ZHhna1RqUTBLa2JRTUFVS0tPZ1UyVTVkUWNvUFhodlVBeEd4RnlkdkI4?oc=5",
+     "datum": "Wed, 25 Nov 2026 09:20:47 GMT",
+     "bron": "Beleggen.nl",
      "gewicht": 3
     }
    ]
@@ -221,6 +158,20 @@
      "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOMF9NRXlXcFBEd0dJTENnVGdrM2tQWFhVZmR2aWlBMXFmSkJhSmFhSmY5SmZHUllsZFhsRlZGdDgxSVNHckplZG95S3dpbzg1T081Yk94WENENjI2OE9RdkIzT2U1Sk9zekRZWXVlQUZSclBIUUNsQm9jajRka284d3ExQjVRcUFyUEwxSENzb2NGd1U3dXVndmh3?oc=5",
      "datum": "Thu, 26 Nov 2026 14:45:34 GMT",
      "bron": "Morningstar",
+     "gewicht": 3
+    }
+   ]
+  },
+  "WHA.AS": {
+   "naam": "Wereldhave N.V.",
+   "score": 3,
+   "niveau": "laag",
+   "items": [
+    {
+     "titel": "Hoogste dividenden België (5% of meer) - DividendNieuws.be",
+     "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9CMFdBSlJ3V0RjREQ5bVZ0V19aTEtZdEFKMVYweFg5VzF0RGZJbFVkWERBYnJINzdjRk1kYTJfZGdvcWptMEtuT252emNnMFR1VFU2YWZJY1RSVWh2RWFJ?oc=5",
+     "datum": "Wed, 25 Nov 2026 08:00:00 GMT",
+     "bron": "DividendNieuws.be",
      "gewicht": 3
     }
    ]
